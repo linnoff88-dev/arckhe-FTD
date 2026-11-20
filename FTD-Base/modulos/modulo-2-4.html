@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2.4: Fine-tuning e Customização | FTD - Formação Transformação Digital</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            iniciante: '#10B981',
+            tecnico: '#3B82F6',
+            masterclass: '#8B5CF6',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <style>
+    body.preload * {
+      transition: none !important;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 transition-colors duration-300">
+
+  <!-- Navigation -->
+  <nav class="bg-white/80 dark:bg-neutral-800/80 backdrop-blur-lg sticky top-0 z-50 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+
+        <!-- Back Button + Logo -->
+        <div class="flex items-center space-x-4">
+          <a href="../niveis/nivel-tecnico.html" class="text-tecnico hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-semibold flex items-center space-x-2">
+            <span>←</span>
+            <span>Voltar</span>
+          </a>
+          <div class="h-6 w-px bg-neutral-300 dark:bg-neutral-600"></div>
+          <a href="../index.html" class="text-xl font-bold text-tecnico">FTD</a>
+        </div>
+
+        <!-- Desktop Theme Toggle -->
+        <button id="theme-toggle" class="p-2 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors hidden md:block">
+          <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+          </svg>
+          <svg id="theme-toggle-light-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- Module Header -->
+    <div class="mb-12">
+      <a href="../niveis/nivel-tecnico.html" class="inline-flex items-center text-tecnico hover:text-blue-600 dark:hover:text-blue-400 mb-6 transition-colors">
+        <span class="mr-2">←</span>
+        <span>Nível Técnico</span>
+      </a>
+
+      <div class="flex items-center space-x-3 mb-4">
+        <span class="inline-block px-4 py-1.5 bg-tecnico/10 text-tecnico rounded-full text-sm font-semibold">
+          5 horas
+        </span>
+        <span class="inline-block px-4 py-1.5 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-semibold">
+          3 tópicos
+        </span>
+      </div>
+
+      <h1 class="text-5xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">
+        🎓 Módulo 2.4: Fine-tuning e Customização
+      </h1>
+      <p class="text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed">
+        Aprenda a adaptar modelos de linguagem para tarefas específicas através de fine-tuning, preparação de datasets e avaliação rigorosa.
+      </p>
+    </div>
+
+    <!-- Topics Content -->
+    <div class="space-y-8">
+
+      <!-- Tópico 1 -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-tecnico mr-3">🎓</span>
+          Fine-tuning de LLMs
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">O que é</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Fine-tuning é o processo de treinar um modelo pré-treinado em dados específicos de um domínio ou tarefa para melhorar sua performance. Técnicas incluem full fine-tuning (ajuste de todos os parâmetros), LoRA/QLoRA (Low-Rank Adaptation para eficiência), e instruction tuning. Plataformas como OpenAI Fine-tuning API, HuggingFace PEFT, e Axolotl facilitam o processo.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">Por que aprender</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Modelos genéricos frequentemente falham em domínios especializados (médico, jurídico, técnico) ou em seguir formatos específicos de output. Fine-tuning pode melhorar performance em 30-80% para tarefas específicas, reduzir custos de inference (modelos menores fine-tuned > modelos grandes genéricos), e possibilitar controle total sobre o comportamento do modelo.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">Conceitos chave</h3>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6">
+              <ul class="space-y-3 text-neutral-700 dark:text-neutral-300">
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Transfer Learning:</strong> Aproveitamento de conhecimento de modelos pré-treinados</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>LoRA (Low-Rank Adaptation):</strong> Fine-tuning eficiente ajustando apenas matrizes de baixa rank</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>QLoRA:</strong> Quantização + LoRA para fine-tuning em GPUs consumer</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Instruction Tuning:</strong> Treinamento em pares (instruction, output) para seguir comandos</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>RLHF (Reinforcement Learning from Human Feedback):</strong> Alinhamento via preferências humanas</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Hyperparameter Tuning:</strong> Learning rate, batch size, epochs, warmup steps</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tópico 2 -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-tecnico mr-3">📊</span>
+          Datasets e Data Preparation
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">O que é</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Preparação de dados para fine-tuning envolve coleta, limpeza, formatação e validação de exemplos de treinamento. Datasets devem ser representativos, balanceados e de alta qualidade. Formatos comuns incluem JSONL com campos system/user/assistant para chat, ou input/output para completion. Data augmentation, synthetic data generation e active learning ajudam a aumentar quantidade com qualidade.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">Por que aprender</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              "Garbage in, garbage out" - qualidade do dataset é o fator mais importante no sucesso de fine-tuning. Mesmo com algoritmos perfeitos, dados ruins levam a modelos ruins. 100 exemplos de alta qualidade superam 10.000 de baixa qualidade. Profissionais que entendem data preparation economizam semanas de trabalho e milhares em compute.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">Conceitos chave</h3>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6">
+              <ul class="space-y-3 text-neutral-700 dark:text-neutral-300">
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Data Collection:</strong> Web scraping, APIs, human annotation, synthetic generation</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Data Cleaning:</strong> Deduplication, PII removal, format standardization</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Train/Val/Test Split:</strong> 80/10/10 ou stratified sampling para datasets pequenos</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Data Augmentation:</strong> Paraphrasing, back-translation para aumentar diversidade</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Synthetic Data:</strong> Uso de LLMs para gerar exemplos de treinamento</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Quality Metrics:</strong> Inter-annotator agreement, data diversity scores</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tópico 3 -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-tecnico mr-3">🔬</span>
+          Evaluation e A/B Testing
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">O que é</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Avaliação de modelos fine-tuned combina métricas automáticas (perplexity, BLEU, ROUGE, accuracy) e avaliação humana. A/B testing compara modelos em produção com usuários reais, medindo métricas de negócio (engagement, task completion, satisfaction). Frameworks como Weights & Biases, MLflow, e LangSmith facilitam tracking de experimentos e comparação de modelos.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">Por que aprender</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Sem avaliação rigorosa, é impossível saber se fine-tuning valeu o investimento ou se degradou o modelo. Métricas automáticas nem sempre correlacionam com qualidade percebida - A/B testing com usuários reais é o gold standard. Empresas sérias exigem evidências estatisticamente significativas antes de deploy de novos modelos.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-tecnico mb-3">Conceitos chave</h3>
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6">
+              <ul class="space-y-3 text-neutral-700 dark:text-neutral-300">
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Perplexity:</strong> Métrica de quão "surpreso" o modelo fica com novos dados</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Task-Specific Metrics:</strong> F1 para classification, BLEU/ROUGE para generation</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Human Evaluation:</strong> Expert review, crowdsourcing para quality assessment</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>A/B Testing Framework:</strong> Randomização, sample size calculation, statistical significance</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Business Metrics:</strong> Conversion rate, retention, revenue per user</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-tecnico mr-2 mt-1">•</span>
+                  <span><strong>Overfitting Detection:</strong> Train vs validation loss monitoring, early stopping</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO PRÁTICA: Fine-tuning Workflow Completo -->
+      <section class="bg-gradient-to-br from-tecnico/5 to-blue-50/50 dark:from-tecnico/10 dark:to-blue-900/20 rounded-2xl shadow-lg p-8 border-2 border-tecnico/20">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-tecnico mr-3">🚀</span>
+          Workflow Completo: Fine-tuning do Zero à Produção
+        </h2>
+
+        <div class="space-y-6">
+          <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 border-l-4 border-tecnico">
+            <h3 class="text-xl font-bold text-tecnico mb-3">Fase 1: Preparação de Dataset (1-2 dias)</h3>
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+              <div class="bg-blue-50 dark:bg-blue-900/20 rounded p-4">
+                <p class="font-semibold text-sm mb-2">Coleta e Limpeza</p>
+                <ul class="text-xs space-y-1 text-neutral-700 dark:text-neutral-300">
+                  <li>• Mínimo 100 exemplos, ideal 500-1000+</li>
+                  <li>• Formato JSONL: {{"prompt": "...", "completion": "..."}}</li>
+                  <li>• Remoção de PII e dados sensíveis</li>
+                  <li>• Deduplicação com embeddings</li>
+                  <li>• Balanceamento de classes/categorias</li>
+                </ul>
+              </div>
+              <div class="bg-green-50 dark:bg-green-900/20 rounded p-4">
+                <p class="font-semibold text-sm mb-2">Validação de Qualidade</p>
+                <ul class="text-xs space-y-1 text-neutral-700 dark:text-neutral-300">
+                  <li>✓ Revisão manual de amostra (50+ exemplos)</li>
+                  <li>✓ Consistência de formatação</li>
+                  <li>✓ Diversity score > 0.7</li>
+                  <li>✓ Token count médio 100-500</li>
+                  <li>✓ Split: 80% train / 10% val / 10% test</li>
+                </ul>
+              </div>
+            </div>
+            <div class="bg-neutral-900 text-neutral-100 p-4 rounded text-xs font-mono overflow-x-auto">
+# Preparação de dataset com OpenAI format
+import json
+
+def prepare_dataset(raw_data):
+    formatted = []
+    for item in raw_data:
+        formatted.append({{
+            "messages": [
+                {{"role": "system", "content": "You are a helpful assistant."}},
+                {{"role": "user", "content": item["input"]}},
+                {{"role": "assistant", "content": item["output"]}}
+            ]
+        }})
+
+    with open("train.jsonl", "w") as f:
+        for item in formatted:
+            f.write(json.dumps(item) + "\\n")
+            </div>
+          </div>
+
+          <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 border-l-4 border-purple-500">
+            <h3 class="text-xl font-bold text-purple-600 dark:text-purple-400 mb-3">Fase 2: Training (2-8 horas)</h3>
+            <div class="grid md:grid-cols-3 gap-3 mb-4">
+              <div class="bg-purple-50 dark:bg-purple-900/20 rounded p-3">
+                <p class="font-semibold text-sm mb-2">OpenAI Fine-tuning</p>
+                <ul class="text-xs space-y-1 text-neutral-700 dark:text-neutral-300">
+                  <li>• GPT-4o-mini: $3/1M tokens</li>
+                  <li>• GPT-3.5-turbo: $8/1M tokens</li>
+                  <li>• Training time: 10-60 min</li>
+                  <li>• Automatic hyperparameters</li>
+                </ul>
+              </div>
+              <div class="bg-orange-50 dark:bg-orange-900/20 rounded p-3">
+                <p class="font-semibold text-sm mb-2">LoRA Fine-tuning</p>
+                <ul class="text-xs space-y-1 text-neutral-700 dark:text-neutral-300">
+                  <li>• Llama 2 7B: 1-4 horas</li>
+                  <li>• GPU: A100 40GB ou 4x RTX 4090</li>
+                  <li>• QLoRA: Treina em 24GB VRAM</li>
+                  <li>• HuggingFace PEFT library</li>
+                </ul>
+              </div>
+              <div class="bg-blue-50 dark:bg-blue-900/20 rounded p-3">
+                <p class="font-semibold text-sm mb-2">Hyperparameters</p>
+                <ul class="text-xs space-y-1 text-neutral-700 dark:text-neutral-300">
+                  <li>• Learning rate: 1e-5 to 5e-5</li>
+                  <li>• Batch size: 4-32</li>
+                  <li>• Epochs: 3-10</li>
+                  <li>• LoRA rank: 8-64</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid grid-cols-3 gap-2 text-center text-xs">
+              <div class="bg-white dark:bg-neutral-700 p-2 rounded">
+                <p class="font-bold text-purple-600">$20-200</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Custo típico training</p>
+              </div>
+              <div class="bg-white dark:bg-neutral-700 p-2 rounded">
+                <p class="font-bold text-green-600">30-80%</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Melhoria vs base model</p>
+              </div>
+              <div class="bg-white dark:bg-neutral-700 p-2 rounded">
+                <p class="font-bold text-blue-600">3-5 dias</p>
+                <p class="text-neutral-600 dark:text-neutral-400">End-to-end timeline</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 border-l-4 border-green-500">
+            <h3 class="text-xl font-bold text-green-600 dark:text-green-400 mb-3">Fase 3: Evaluation & Deploy (1-2 dias)</h3>
+            <div class="bg-green-50 dark:bg-green-900/20 rounded p-4 mb-3">
+              <p class="font-semibold text-sm mb-2">Checklist de Avaliação:</p>
+              <ul class="text-sm space-y-2 text-neutral-700 dark:text-neutral-300">
+                <li>• <strong>Quantitative:</strong> Perplexity, F1, BLEU scores no test set</li>
+                <li>• <strong>Qualitative:</strong> Human eval de 50+ outputs aleatórios</li>
+                <li>• <strong>A/B Testing:</strong> 10% tráfego em modelo fine-tuned vs base</li>
+                <li>• <strong>Safety:</strong> Red teaming, prompt injection testing</li>
+                <li>• <strong>Cost Analysis:</strong> Comparar custo inference fine-tuned vs prompting</li>
+              </ul>
+            </div>
+            <div class="text-xs bg-blue-50 dark:bg-blue-900/20 p-3 rounded">
+              <strong>ROI Típico:</strong> Fine-tuning GPT-3.5 ($100 setup) pode substituir GPT-4 ($300/mês inference) com performance similar em tarefas específicas
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPARATIVO: Fine-tuning Methods -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-tecnico mr-3">⚖️</span>
+          Comparativo: Métodos de Fine-tuning
+        </h2>
+
+        <div class="overflow-x-auto mb-6">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="bg-tecnico/10 dark:bg-tecnico/20">
+                <th class="p-3 text-left font-bold border border-neutral-300 dark:border-neutral-600">Método</th>
+                <th class="p-3 text-left font-bold border border-neutral-300 dark:border-neutral-600">Complexidade</th>
+                <th class="p-3 text-left font-bold border border-neutral-300 dark:border-neutral-600">Custo</th>
+                <th class="p-3 text-left font-bold border border-neutral-300 dark:border-neutral-600">Performance</th>
+                <th class="p-3 text-left font-bold border border-neutral-300 dark:border-neutral-600">Melhor Para</th>
+              </tr>
+            </thead>
+            <tbody class="text-neutral-700 dark:text-neutral-300">
+              <tr>
+                <td class="p-3 font-semibold border border-neutral-300 dark:border-neutral-600">OpenAI Fine-tuning</td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-green-600">Muito Baixa</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600">$3-8/1M tokens</td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-blue-600">Alta</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600">Começar rápido, production-ready</td>
+              </tr>
+              <tr class="bg-neutral-50 dark:bg-neutral-700/30">
+                <td class="p-3 font-semibold border border-neutral-300 dark:border-neutral-600">LoRA (Low-Rank Adaptation)</td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-yellow-600">Média</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-green-600">$10-100</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-green-600">Muito Alta</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600">Balance custo/performance, controle</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold border border-neutral-300 dark:border-neutral-600">QLoRA (Quantized LoRA)</td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-yellow-600">Média</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-green-600">$5-50</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-blue-600">Alta</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600">GPU consumer (RTX 4090, 24GB)</td>
+              </tr>
+              <tr class="bg-neutral-50 dark:bg-neutral-700/30">
+                <td class="p-3 font-semibold border border-neutral-300 dark:border-neutral-600">Full Fine-tuning</td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-red-600">Alta</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-red-600">$500-5000+</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-green-600">Máxima</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600">Research, customização extrema</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold border border-neutral-300 dark:border-neutral-600">Prompt Engineering</td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-green-600">Muito Baixa</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-yellow-600">$0 setup</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600"><span class="text-yellow-600">Média</span></td>
+                <td class="p-3 border border-neutral-300 dark:border-neutral-600">Começar, validar necessidade</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="border-2 border-blue-500 rounded-lg p-6 bg-blue-50 dark:bg-blue-900/20">
+            <h4 class="font-bold text-blue-700 dark:text-blue-400 mb-3">✅ Quando Fine-tunar?</h4>
+            <ul class="text-sm space-y-2 text-neutral-700 dark:text-neutral-300">
+              <li>✓ Formato de output muito específico (JSON, XML estruturado)</li>
+              <li>✓ Domínio técnico especializado (médico, jurídico)</li>
+              <li>✓ Performance inadequada com prompting</li>
+              <li>✓ Custo de inference muito alto (GPT-4 → GPT-3.5 fine-tuned)</li>
+              <li>✓ Latência é crítica (modelo menor fine-tuned > modelo grande)</li>
+            </ul>
+          </div>
+
+          <div class="border-2 border-orange-500 rounded-lg p-6 bg-orange-50 dark:bg-orange-900/20">
+            <h4 class="font-bold text-orange-700 dark:text-orange-400 mb-3">⚠️ Quando NÃO Fine-tunar?</h4>
+            <ul class="text-sm space-y-2 text-neutral-700 dark:text-neutral-300">
+              <li>❌ Dataset < 50 exemplos de qualidade</li>
+              <li>❌ Tarefa resolve bem com prompting + RAG</li>
+              <li>❌ Conhecimento precisa ser atualizado frequentemente</li>
+              <li>❌ Não tem forma de avaliar objetivamente</li>
+              <li>❌ Ainda testando product-market fit</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUIA: Dataset Preparation Best Practices -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-tecnico mr-3">📊</span>
+          Guia de Preparação de Dataset: Quality > Quantity
+        </h2>
+
+        <div class="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-4 mb-6">
+          <p class="text-sm text-neutral-700 dark:text-neutral-300">
+            <strong>Regra de Ouro:</strong> 100 exemplos excepcionais > 10.000 exemplos mediocres. Qualidade do dataset é o fator #1 de sucesso.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 mb-6">
+          <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-6">
+            <h3 class="text-lg font-bold text-green-700 dark:text-green-400 mb-4">✅ Best Practices</h3>
+            <div class="space-y-3 text-sm">
+              <div class="border-l-4 border-green-500 pl-3">
+                <p class="font-semibold">Diversidade Balanceada</p>
+                <p class="text-xs text-neutral-600 dark:text-neutral-400">Cubra todos os casos de uso. Se classifying, cada classe com 50+ exemplos.</p>
+              </div>
+              <div class="border-l-4 border-green-500 pl-3">
+                <p class="font-semibold">Formato Consistente</p>
+                <p class="text-xs text-neutral-600 dark:text-neutral-400">Mesmo estilo, tom, estrutura. Inconsistências confundem o modelo.</p>
+              </div>
+              <div class="border-l-4 border-green-500 pl-3">
+                <p class="font-semibold">Outputs Concisos</p>
+                <p class="text-xs text-neutral-600 dark:text-neutral-400">Evite verbosidade. Modelos aprendem a imitar comprimento dos exemplos.</p>
+              </div>
+              <div class="border-l-4 border-green-500 pl-3">
+                <p class="font-semibold">Human Review</p>
+                <p class="text-xs text-neutral-600 dark:text-neutral-400">Revisão manual de 100% dos dados. Automatizar coleta, humanizar quality control.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-red-50 dark:bg-red-900/20 rounded-lg p-6">
+            <h3 class="text-lg font-bold text-red-700 dark:text-red-400 mb-4">❌ Erros Comuns</h3>
+            <div class="space-y-3 text-sm text-neutral-700 dark:text-neutral-300">
+              <div class="border-l-4 border-red-500 pl-3">
+                <p class="font-semibold">Data Contamination</p>
+                <p class="text-xs">Test set com overlap de train. Métricas infladas, modelo ruim.</p>
+              </div>
+              <div class="border-l-4 border-red-500 pl-3">
+                <p class="font-semibold">Synthetic Data Overload</p>
+                <p class="text-xs">Gerar tudo com LLM cria viés. Mix: 70% real + 30% synthetic.</p>
+              </div>
+              <div class="border-l-4 border-red-500 pl-3">
+                <p class="font-semibold">Ignorar Edge Cases</p>
+                <p class="text-xs">Dataset só com casos comuns. Modelo quebra em inputs inesperados.</p>
+              </div>
+              <div class="border-l-4 border-red-500 pl-3">
+                <p class="font-semibold">PII não Removida</p>
+                <p class="text-xs">Dados sensíveis no dataset. Violação LGPD/GDPR = multas milionárias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-r from-tecnico/10 to-blue-100/50 dark:from-tecnico/20 dark:to-blue-900/30 rounded-lg p-6">
+          <h4 class="font-bold text-tecnico mb-3">📈 Sizing Guidelines por Task</h4>
+          <div class="grid md:grid-cols-4 gap-3 text-xs">
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+              <p class="font-bold mb-1">Classification</p>
+              <p class="text-neutral-600 dark:text-neutral-400">50-100 exemplos por classe. Min 3 classes, max ~50.</p>
+            </div>
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+              <p class="font-bold mb-1">Generation</p>
+              <p class="text-neutral-600 dark:text-neutral-400">200-500 exemplos. Priorize diversidade de inputs.</p>
+            </div>
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+              <p class="font-bold mb-1">Extraction</p>
+              <p class="text-neutral-600 dark:text-neutral-400">100-300 exemplos. Cubra todas as entidades alvo.</p>
+            </div>
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+              <p class="font-bold mb-1">Format Adherence</p>
+              <p class="text-neutral-600 dark:text-neutral-400">50-150 exemplos. Consistência é mais importante que volume.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Navigation Footer -->
+    <div class="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-700 flex justify-between items-center">
+      <a href="modulo-2-3.html" class="inline-flex items-center px-6 py-3 bg-neutral-200 dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-lg hover:bg-neutral-300 dark:hover:bg-neutral-600 transition-colors font-semibold">
+        <span class="mr-2">←</span>
+        <span>Módulo Anterior</span>
+      </a>
+
+      <a href="modulo-2-5.html" class="inline-flex items-center px-6 py-3 bg-tecnico text-white rounded-lg hover:bg-blue-600 transition-colors font-semibold">
+        <span>Próximo Módulo</span>
+        <span class="ml-2">→</span>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-neutral-800 border-t border-neutral-200 dark:border-neutral-700 mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="text-center">
+        <p class="text-neutral-600 dark:text-neutral-400">
+          © 2024 FTD - Formação Transformação Digital. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/app.js"></script>
+
+</body>
+</html>

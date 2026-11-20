@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 1.2: Navegando no Mundo Digital | FTD - Formação Transformação Digital</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            iniciante: '#10B981',
+            tecnico: '#3B82F6',
+            masterclass: '#8B5CF6',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <style>
+    body.preload * {
+      transition: none !important;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 transition-colors duration-300">
+
+  <!-- Navigation -->
+  <nav class="bg-white/80 dark:bg-neutral-800/80 backdrop-blur-lg sticky top-0 z-50 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+
+        <!-- Back Button + Logo -->
+        <div class="flex items-center space-x-4">
+          <a href="../niveis/nivel-iniciante.html" class="text-iniciante hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors font-semibold flex items-center space-x-2">
+            <span>←</span>
+            <span>Voltar</span>
+          </a>
+          <div class="h-6 w-px bg-neutral-300 dark:bg-neutral-600"></div>
+          <a href="../index.html" class="text-xl font-bold text-iniciante">FTD</a>
+        </div>
+
+        <!-- Desktop Theme Toggle -->
+        <button id="theme-toggle" class="p-2 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors hidden md:block">
+          <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+          </svg>
+          <svg id="theme-toggle-light-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- Module Header -->
+    <div class="mb-12">
+      <a href="../niveis/nivel-iniciante.html" class="inline-flex items-center text-iniciante hover:text-emerald-600 dark:hover:text-emerald-400 mb-6 transition-colors">
+        <span class="mr-2">←</span>
+        <span>Nível Iniciante</span>
+      </a>
+
+      <div class="flex items-center space-x-3 mb-4">
+        <span class="inline-block px-4 py-1.5 bg-iniciante/10 text-iniciante rounded-full text-sm font-semibold">
+          2 horas
+        </span>
+        <span class="inline-block px-4 py-1.5 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-200 rounded-full text-sm font-semibold">
+          3 tópicos
+        </span>
+      </div>
+
+      <h1 class="text-5xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">
+        🌐 Módulo 1.2: Navegando no Mundo Digital
+      </h1>
+      <p class="text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed">
+        Explore as principais ferramentas de IA disponíveis, aprenda a escolher a ferramenta certa para cada necessidade e desenvolva fluência digital com assistentes de IA.
+      </p>
+    </div>
+
+    <!-- Topics Content -->
+    <div class="space-y-8">
+
+      <!-- Tópico 1 -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-iniciante mr-3">🤖</span>
+          Principais Ferramentas de IA
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">O Ecossistema de IA em 2025</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
+              O mercado de IA explodiu! Existem centenas de ferramentas, mas você só precisa conhecer as essenciais para começar. Aqui está seu guia definitivo:
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">🎯 Matriz Completa de Ferramentas (2025)</h3>
+
+            <!-- Categoria 1: Texto e Conversação -->
+            <div class="mb-6">
+              <h4 class="font-bold text-lg text-neutral-900 dark:text-neutral-100 mb-3 flex items-center">
+                <span class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">1</span>
+                TEXTO & CONVERSAÇÃO
+              </h4>
+              <div class="grid md:grid-cols-3 gap-3">
+                <div class="border-2 border-blue-300 dark:border-blue-700 rounded-lg p-4 bg-blue-50 dark:bg-blue-900/10">
+                  <h5 class="font-bold text-blue-700 dark:text-blue-400 mb-2">ChatGPT (OpenAI)</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400 mb-2">Melhor para: Uso geral, conversação, ideias</p>
+                  <p class="text-xs font-semibold text-neutral-700 dark:text-neutral-300">Preço: Grátis + $20/mês (Plus)</p>
+                  <p class="text-xs text-green-600 mt-1">⭐ Mais popular do mundo</p>
+                </div>
+
+                <div class="border-2 border-purple-300 dark:border-purple-700 rounded-lg p-4 bg-purple-50 dark:bg-purple-900/10">
+                  <h5 class="font-bold text-purple-700 dark:text-purple-400 mb-2">Claude (Anthropic)</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400 mb-2">Melhor para: Análise profunda, código, documentos longos</p>
+                  <p class="text-xs font-semibold text-neutral-700 dark:text-neutral-300">Preço: Grátis + $20/mês (Pro)</p>
+                  <p class="text-xs text-green-600 mt-1">⭐ Melhor raciocínio</p>
+                </div>
+
+                <div class="border-2 border-red-300 dark:border-red-700 rounded-lg p-4 bg-red-50 dark:bg-red-900/10">
+                  <h5 class="font-bold text-red-700 dark:text-red-400 mb-2">Gemini (Google)</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400 mb-2">Melhor para: Pesquisa, dados em tempo real, integração Google</p>
+                  <p class="text-xs font-semibold text-neutral-700 dark:text-neutral-300">Preço: Grátis + $20/mês (Advanced)</p>
+                  <p class="text-xs text-green-600 mt-1">⭐ Acesso web direto</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categoria 2: Imagens -->
+            <div class="mb-6">
+              <h4 class="font-bold text-lg text-neutral-900 dark:text-neutral-100 mb-3 flex items-center">
+                <span class="bg-pink-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">2</span>
+                GERAÇÃO DE IMAGENS
+              </h4>
+              <div class="grid md:grid-cols-4 gap-3">
+                <div class="border-2 border-pink-300 dark:border-pink-700 rounded-lg p-3 bg-pink-50 dark:bg-pink-900/10">
+                  <h5 class="font-bold text-pink-700 dark:text-pink-400 text-sm mb-1">Midjourney</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Arte conceitual de altíssima qualidade</p>
+                  <p class="text-xs font-semibold mt-1">$10-60/mês</p>
+                </div>
+                <div class="border-2 border-pink-300 dark:border-pink-700 rounded-lg p-3 bg-pink-50 dark:bg-pink-900/10">
+                  <h5 class="font-bold text-pink-700 dark:text-pink-400 text-sm mb-1">Leonardo.AI</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Controle fino, modelos variados</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + Planos</p>
+                </div>
+                <div class="border-2 border-pink-300 dark:border-pink-700 rounded-lg p-3 bg-pink-50 dark:bg-pink-900/10">
+                  <h5 class="font-bold text-pink-700 dark:text-pink-400 text-sm mb-1">Ideogram</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Textos perfeitos em imagens</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + $8/mês</p>
+                </div>
+                <div class="border-2 border-pink-300 dark:border-pink-700 rounded-lg p-3 bg-pink-50 dark:bg-pink-900/10">
+                  <h5 class="font-bold text-pink-700 dark:text-pink-400 text-sm mb-1">DALL-E 3</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Integrado ao ChatGPT</p>
+                  <p class="text-xs font-semibold mt-1">ChatGPT Plus</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categoria 3: Vídeo -->
+            <div class="mb-6">
+              <h4 class="font-bold text-lg text-neutral-900 dark:text-neutral-100 mb-3 flex items-center">
+                <span class="bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">3</span>
+                VÍDEO & ANIMAÇÃO
+              </h4>
+              <div class="grid md:grid-cols-3 gap-3">
+                <div class="border-2 border-red-300 dark:border-red-700 rounded-lg p-3 bg-red-50 dark:bg-red-900/10">
+                  <h5 class="font-bold text-red-700 dark:text-red-400 mb-1">Runway Gen-3</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Vídeos realistas de alta qualidade</p>
+                  <p class="text-xs font-semibold mt-1">$12-76/mês</p>
+                </div>
+                <div class="border-2 border-red-300 dark:border-red-700 rounded-lg p-3 bg-red-50 dark:bg-red-900/10">
+                  <h5 class="font-bold text-red-700 dark:text-red-400 mb-1">Pika Labs</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Edição de vídeo com IA</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + $10/mês</p>
+                </div>
+                <div class="border-2 border-red-300 dark:border-red-700 rounded-lg p-3 bg-red-50 dark:bg-red-900/10">
+                  <h5 class="font-bold text-red-700 dark:text-red-400 mb-1">HeyGen</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Avatares falantes realistas</p>
+                  <p class="text-xs font-semibold mt-1">$24-120/mês</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categoria 4: Áudio -->
+            <div class="mb-6">
+              <h4 class="font-bold text-lg text-neutral-900 dark:text-neutral-100 mb-3 flex items-center">
+                <span class="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">4</span>
+                ÁUDIO & VOZ
+              </h4>
+              <div class="grid md:grid-cols-3 gap-3">
+                <div class="border-2 border-green-300 dark:border-green-700 rounded-lg p-3 bg-green-50 dark:bg-green-900/10">
+                  <h5 class="font-bold text-green-700 dark:text-green-400 mb-1">ElevenLabs</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Vozes ultra-realistas</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + $5/mês</p>
+                </div>
+                <div class="border-2 border-green-300 dark:border-green-700 rounded-lg p-3 bg-green-50 dark:bg-green-900/10">
+                  <h5 class="font-bold text-green-700 dark:text-green-400 mb-1">Whisper (OpenAI)</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Transcrição de áudio</p>
+                  <p class="text-xs font-semibold mt-1">Grátis</p>
+                </div>
+                <div class="border-2 border-green-300 dark:border-green-700 rounded-lg p-3 bg-green-50 dark:bg-green-900/10">
+                  <h5 class="font-bold text-green-700 dark:text-green-400 mb-1">Suno AI</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Criação de músicas</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + $10/mês</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categoria 5: Código -->
+            <div class="mb-6">
+              <h4 class="font-bold text-lg text-neutral-900 dark:text-neutral-100 mb-3 flex items-center">
+                <span class="bg-yellow-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">5</span>
+                CÓDIGO & DESENVOLVIMENTO
+              </h4>
+              <div class="grid md:grid-cols-3 gap-3">
+                <div class="border-2 border-yellow-300 dark:border-yellow-700 rounded-lg p-3 bg-yellow-50 dark:bg-yellow-900/10">
+                  <h5 class="font-bold text-yellow-700 dark:text-yellow-400 mb-1">Cursor</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Editor de código com IA</p>
+                  <p class="text-xs font-semibold mt-1">$20/mês</p>
+                </div>
+                <div class="border-2 border-yellow-300 dark:border-yellow-700 rounded-lg p-3 bg-yellow-50 dark:bg-yellow-900/10">
+                  <h5 class="font-bold text-yellow-700 dark:text-yellow-400 mb-1">GitHub Copilot</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Assistente de código</p>
+                  <p class="text-xs font-semibold mt-1">$10/mês</p>
+                </div>
+                <div class="border-2 border-yellow-300 dark:border-yellow-700 rounded-lg p-3 bg-yellow-50 dark:bg-yellow-900/10">
+                  <h5 class="font-bold text-yellow-700 dark:text-yellow-400 mb-1">v0.dev (Vercel)</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Gera interfaces web</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + Planos</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categoria 6: Produtividade -->
+            <div>
+              <h4 class="font-bold text-lg text-neutral-900 dark:text-neutral-100 mb-3 flex items-center">
+                <span class="bg-indigo-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2 text-sm">6</span>
+                PRODUTIVIDADE & AUTOMAÇÃO
+              </h4>
+              <div class="grid md:grid-cols-4 gap-3">
+                <div class="border-2 border-indigo-300 dark:border-indigo-700 rounded-lg p-3 bg-indigo-50 dark:bg-indigo-900/10">
+                  <h5 class="font-bold text-indigo-700 dark:text-indigo-400 text-sm mb-1">Notion AI</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">IA no Notion</p>
+                  <p class="text-xs font-semibold mt-1">$10/mês</p>
+                </div>
+                <div class="border-2 border-indigo-300 dark:border-indigo-700 rounded-lg p-3 bg-indigo-50 dark:bg-indigo-900/10">
+                  <h5 class="font-bold text-indigo-700 dark:text-indigo-400 text-sm mb-1">Make.com</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Automação visual</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + Planos</p>
+                </div>
+                <div class="border-2 border-indigo-300 dark:border-indigo-700 rounded-lg p-3 bg-indigo-50 dark:bg-indigo-900/10">
+                  <h5 class="font-bold text-indigo-700 dark:text-indigo-400 text-sm mb-1">Zapier AI</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Automação com IA</p>
+                  <p class="text-xs font-semibold mt-1">$20+ /mês</p>
+                </div>
+                <div class="border-2 border-indigo-300 dark:border-indigo-700 rounded-lg p-3 bg-indigo-50 dark:bg-indigo-900/10">
+                  <h5 class="font-bold text-indigo-700 dark:text-indigo-400 text-sm mb-1">Perplexity AI</h5>
+                  <p class="text-xs text-neutral-600 dark:text-neutral-400">Pesquisa com IA</p>
+                  <p class="text-xs font-semibold mt-1">Grátis + $20/mês</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">🎯 Guia de Início Rápido: Seu Stack Essencial</h3>
+            <div class="bg-gradient-to-r from-iniciante/10 to-emerald-100/50 dark:from-iniciante/20 dark:to-emerald-900/30 rounded-lg p-6">
+              <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+                <strong>Você NÃO precisa de todas as ferramentas!</strong> Comece com este stack mínimo:
+              </p>
+              <div class="space-y-3">
+                <div class="flex items-start space-x-3">
+                  <div class="bg-iniciante text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 text-sm font-bold">1</div>
+                  <div>
+                    <p class="font-semibold text-neutral-900 dark:text-neutral-100">ChatGPT ou Claude (escolha 1)</p>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400">Para texto, ideias, análise, código básico</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="bg-iniciante text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 text-sm font-bold">2</div>
+                  <div>
+                    <p class="font-semibold text-neutral-900 dark:text-neutral-100">Leonardo.AI ou Ideogram (escolha 1)</p>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400">Para criar imagens - ambos têm plano grátis</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="bg-iniciante text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 text-sm font-bold">3</div>
+                  <div>
+                    <p class="font-semibold text-neutral-900 dark:text-neutral-100">Make.com ou n8n (opcional)</p>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400">Para automação quando você escalar</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4 pt-4 border-t border-emerald-300 dark:border-emerald-700">
+                <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                  💰 <strong>Custo total para começar: R$ 0-100/mês</strong><br>
+                  ⏱️ <strong>ROI:</strong> Você economiza 10-20h/semana = R$ 2.000-5.000/mês em produtividade
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Tópico 2 -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-iniciante mr-3">🎯</span>
+          Como Escolher a Ferramenta Certa
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">O que é</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Escolher a ferramenta de IA adequada envolve avaliar diversos fatores: tipo de tarefa, qualidade necessária, custo, facilidade de uso, velocidade, privacidade dos dados e integrações disponíveis. Não existe uma ferramenta "melhor" em absoluto - cada uma se destaca em contextos específicos. A escolha deve ser baseada nas necessidades do projeto e restrições do contexto.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">Por que aprender</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Usar a ferramenta errada pode resultar em resultados subótimos, custos desnecessários ou problemas de privacidade. Saber avaliar e comparar ferramentas permite otimizar investimentos, maximizar produtividade e evitar armadilhas comuns. Essa habilidade também facilita a adaptação quando novas ferramentas surgem ou as existentes evoluem.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">Conceitos chave</h3>
+            <div class="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-6">
+              <ul class="space-y-3 text-neutral-700 dark:text-neutral-300">
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Critério de qualidade:</strong> Avaliar outputs em tarefas representativas</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Modelo de preços:</strong> Gratuito, assinatura, pay-per-use, créditos</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Privacidade:</strong> Como a ferramenta usa seus dados e prompts</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Velocidade e latência:</strong> Tempo de resposta para gerações</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Integrações:</strong> APIs, plugins, conectores disponíveis</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Curva de aprendizado:</strong> Facilidade de uso e documentação</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tópico 3 -->
+      <section class="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
+          <span class="text-iniciante mr-3">💬</span>
+          Fluência com Assistentes de IA
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">O que é</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Fluência com assistentes de IA significa desenvolver a capacidade de se comunicar efetivamente com modelos de linguagem, entender suas capacidades e limitações, e integrá-los naturalmente no fluxo de trabalho diário. Vai além de fazer perguntas simples - envolve criar conversas estruturadas, iterar sobre respostas, e usar a IA como parceira de pensamento e execução.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">Por que aprender</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+              Profissionais fluentes em IA conseguem extrair 10x mais valor das ferramentas do que usuários iniciantes. A fluência acelera drasticamente tarefas como pesquisa, escrita, análise, planejamento e solução de problemas. Também reduz frustração ao criar expectativas realistas sobre o que a IA pode fazer. É uma habilidade multiplicadora que beneficia praticamente qualquer função profissional.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-iniciante mb-3">Conceitos chave</h3>
+            <div class="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-6">
+              <ul class="space-y-3 text-neutral-700 dark:text-neutral-300">
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Conversas iterativas:</strong> Refinar respostas através de feedback</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Context building:</strong> Fornecer informações relevantes progressivamente</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Task decomposition:</strong> Quebrar problemas complexos em partes</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Expectativas realistas:</strong> Entender limitações e vieses</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Verificação de outputs:</strong> Sempre validar informações críticas</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-iniciante mr-2 mt-1">•</span>
+                  <span><strong>Workflow integration:</strong> Incorporar IA em processos existentes</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Navigation Footer -->
+    <div class="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-700 flex justify-between items-center">
+      <a href="modulo-1-1.html" class="inline-flex items-center px-6 py-3 bg-neutral-200 dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-lg hover:bg-neutral-300 dark:hover:bg-neutral-600 transition-colors font-semibold">
+        <span class="mr-2">←</span>
+        <span>Módulo Anterior</span>
+      </a>
+
+      <a href="modulo-1-3.html" class="inline-flex items-center px-6 py-3 bg-iniciante text-white rounded-lg hover:bg-emerald-600 transition-colors font-semibold">
+        <span>Próximo Módulo</span>
+        <span class="ml-2">→</span>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-neutral-800 border-t border-neutral-200 dark:border-neutral-700 mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="text-center">
+        <p class="text-neutral-600 dark:text-neutral-400">
+          © 2024 FTD - Formação Transformação Digital. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/app.js"></script>
+
+</body>
+</html>
