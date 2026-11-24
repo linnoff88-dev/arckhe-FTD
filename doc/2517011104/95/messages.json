@@ -1,7 +1,7 @@
 [
   {
     "id": 1045,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-05-28T11:28:14+00:00",
     "text": "https://gamma.app/docs/y43gvg63f7q24mq",
     "has_media": true,
@@ -9,7 +9,7 @@
   },
   {
     "id": 1017,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-05-27T05:31:52+00:00",
     "text": "sim, mas $$$",
     "has_media": false,
@@ -25,7 +25,7 @@
   },
   {
     "id": 191,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T06:58:13+00:00",
     "text": "https://gamma.app/docs/ptwemdjdsix0psc",
     "has_media": true,
@@ -33,7 +33,7 @@
   },
   {
     "id": 190,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T06:57:45+00:00",
     "text": "https://gamma.app/docs/n59ps60jcp6fj2a",
     "has_media": true,
@@ -41,7 +41,7 @@
   },
   {
     "id": 162,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T06:45:02+00:00",
     "text": "===",
     "has_media": false,
@@ -49,7 +49,7 @@
   },
   {
     "id": 119,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T05:14:03+00:00",
     "text": "",
     "has_media": true,
@@ -58,15 +58,15 @@
   },
   {
     "id": 118,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T05:01:34+00:00",
-    "text": "Prompt, Assistentes, Agentes\n[https://t.me/c/2463916523/34](https://t.me/c/2463916523/34)\nINEMA.LLMs\n\nSystem x User x Assistente\n[https://t.me/c/2494987106/2646](https://t.me/c/2494987106/2646)\nINEMA.Prompts",
+    "text": "Prompt, Assistentes, Agentes\n[https://t.me/c/2463916523/34](https://t.me/c/2463916523/34)\nARCKHÉ.LLMs\n\nSystem x User x Assistente\n[https://t.me/c/2494987106/2646](https://t.me/c/2494987106/2646)\nARCKHÉ.Prompts",
     "has_media": false,
     "media_type": null
   },
   {
     "id": 117,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T05:01:23+00:00",
     "text": "Demonstração de uso dos Assistentes e Agentes\nComo usar Prompts simulando assistentes (arquivos)\nUso da API no Console da OpenAI",
     "has_media": false,
@@ -74,7 +74,7 @@
   },
   {
     "id": 116,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T05:00:40+00:00",
     "text": "**\"1-4. Muito Além do Chat: Assistentes e Agentes\"**:\n\nEste tópico trata da evolução das interações com a inteligência artificial, que vai muito além do simples uso de **prompts**. Ele explora as diferenças fundamentais entre comandos pontuais, **assistentes personalizados** e **agentes autônomos** que operam com maior independência e complexidade.\n\n### Tópicos abordados:\n\n1. **Diferença entre Prompt, Assistente e Agente\n**\n   - **Prompt**: É um comando ou instrução direta dada ao modelo de IA. Ex: *\"Me dê uma lista de filmes de ação.\"*\n\n   - **Assistente**: É uma IA personalizada para cumprir papéis específicos. Ex: um assistente de vendas que responde dúvidas de clientes com base em dados fornecidos.\n\n   - **Agente**: Atua de forma **autônoma**, com capacidade de **tomar decisões, executar tarefas sequenciais**, buscar dados, adaptar-se ao contexto e operar com mínima intervenção humana.\n\n\n   - **Exemplo prático**:\n     - Prompt: \"Crie um post para Instagram.\"\n     - Assistente: \"Crio posts diariamente com base no seu calendário editorial.\"\n     - Agente: \"Monitora as tendências, cria posts, analisa o engajamento e ajusta a estratégia.\"\n\n2. **Criando Assistentes no ChatGPT\n**\n  2.1 - ChatGPT permite **criar assistentes personalizados**, com instruções específicas sobre como devem agir.\n   - **Campos personalizados**: tom de voz, objetivos, linguagem, informações de referência, etc.\n   \n- Aplicações práticas:\n     - Atendimento ao cliente 24/7\n     - Suporte técnico guiado por base de conhecimento\n     - Treinamentos personalizados\n\n   - Exemplo: \"Crie um assistente chamado Suporte-Tec que responde perguntas técnicas sobre um sistema específico.\"\n\nRecursos:\nVantagem não paga Tokens, pode compartilhar com todo mundo.\n- quem cria é o Plus, mas todos podem acessar.\n- Recurso de compartilhar (todos, só com o link e só para si mesmo.)\n- Recurso de Arquivos (rag) \n- Recurso de chamadas A Ação\n- Webhooks e Mailhooks\n\n2.2 - Criando Assistntes via API\n- Nas Automações Chama direto nas plataformas\n- Nem Todas LLMs tem este Recurso.\n- Openai tem e tem Threads (permite acumular informação)\n- Platform.openai.com\n- Chaves de API\n\n\n3. **Visão Geral dos Agentes Autônomos**\n\n   - São IAs que **executam tarefas por conta própria**, utilizando ferramentas como **n8n, Make, LangChain** e **RAG (Retrieval-Augmented Generation)**.\n\n   - Têm capacidade de:\n     - Acessar APIs externas\n     - Ler arquivos e buscar informações\n     - Interagir com múltiplos sistemas\n     - Adaptar-se a novos contextos\n\n   - Exemplo: Um agente que recebe e-mails com dúvidas, busca respostas em uma base de dados vetorial (Pinecone), elabora uma resposta com ChatGPT e envia automaticamente.\n\n---\n\n### Perguntas com exemplos e respostas:\n\n1. **Qual a principal diferença entre um prompt e um agente?**\n   - *Prompt*: comando único e direto.\n   - *Agente*: executa tarefas de forma contínua, autônoma e adaptável.\n   - **Exemplo**: Um prompt diz \"resuma este texto\", o agente diz \"todo novo texto que chegar, resuma e envie para o grupo no Telegram.\"\n\n2. **Como posso criar um assistente no ChatGPT?**\n   - Acesse o menu \"Explorar GPTs\"\n   - Clique em “Criar”\n   - Defina nome, função, estilo de resposta e instruções do sistema\n   - **Exemplo**: Um assistente para responder dúvidas sobre cursos da sua empresa, com acesso ao FAQ interno.\n\n3. **O que um agente autônomo pode fazer que um assistente não faz?**\n   - Um agente pode:\n     - Tomar decisões com base em resultados\n     - Integrar dados de múltiplas fontes\n     - Agir sem intervenção humana direta\n   - **Exemplo**: Se um cliente enviar uma mensagem com a palavra \"urgente\", o agente pode notificar o suporte no WhatsApp e responder com prioridade no e-mail.\n\n4. **Quais ferramentas posso usar para criar agentes autônomos?**\n   - [**Make.com**](https://make.com/), **n8n**, **LangChain**, **AutoGPT**, **CrewAI**, **Flowise**\n   - **Exemplo prático**: Com [Make.com](https://make.com/), você pode automatizar o processo de receber uma mensagem no Telegram, analisar com ChatGPT e responder com base em uma base de dados atualizada.",
     "has_media": true,
@@ -82,7 +82,7 @@
   },
   {
     "id": 115,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T05:00:31+00:00",
     "text": "**1-4. Muito Além do Chat: Assistentes e Agentes**\n\n- **Diferença entre Prompt, Assistente e Agente**: Enquanto prompts são comandos individuais, assistentes e agentes de IA possuem capacidades autônomas para executar tarefas complexas e interagir de forma mais sofisticada. \n\n- **Criando Assistentes no ChatGPT**: Usuários podem personalizar o ChatGPT para atuar como assistentes virtuais em diversas aplicações, desde atendimento ao cliente até suporte técnico.\n\n- **Visão Geral dos Agentes Autônomos**: Agentes de IA estão sendo desenvolvidos para realizar tarefas de forma independente, adaptando-se a novas informações e contextos em tempo real.",
     "has_media": false,
@@ -90,7 +90,7 @@
   },
   {
     "id": 113,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:59:35+00:00",
     "text": "",
     "has_media": true,
@@ -99,7 +99,7 @@
   },
   {
     "id": 105,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:26+00:00",
     "text": ".",
     "has_media": false,
@@ -107,7 +107,7 @@
   },
   {
     "id": 104,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:25+00:00",
     "text": ".",
     "has_media": false,
@@ -115,7 +115,7 @@
   },
   {
     "id": 103,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:17+00:00",
     "text": "**1-4.  Assistentes e Agentes**",
     "has_media": false,
@@ -123,7 +123,7 @@
   },
   {
     "id": 102,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:17+00:00",
     "text": ".",
     "has_media": false,
@@ -131,7 +131,7 @@
   },
   {
     "id": 101,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:17+00:00",
     "text": ".",
     "has_media": false,
@@ -139,7 +139,7 @@
   },
   {
     "id": 100,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:16+00:00",
     "text": ".",
     "has_media": false,
@@ -147,7 +147,7 @@
   },
   {
     "id": 99,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:16+00:00",
     "text": ".",
     "has_media": false,
@@ -155,7 +155,7 @@
   },
   {
     "id": 98,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:16+00:00",
     "text": ".",
     "has_media": false,
@@ -163,7 +163,7 @@
   },
   {
     "id": 97,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:16+00:00",
     "text": ".",
     "has_media": false,
@@ -171,7 +171,7 @@
   },
   {
     "id": 96,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:15+00:00",
     "text": "1",
     "has_media": false,
@@ -179,7 +179,7 @@
   },
   {
     "id": 95,
-    "author": "INEMA",
+    "author": "ARCKHÉ",
     "date": "2025-04-07T04:05:07+00:00",
     "text": "",
     "has_media": false,

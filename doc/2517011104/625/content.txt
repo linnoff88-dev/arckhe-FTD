@@ -10,7 +10,7 @@ Midias baixadas: 3
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-14T09:59:39+00:00
 Texto:
 https://t.me/+b4QW6SriDF81Njgx
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-14T09:59:39+00:00
 Texto:
 https://t.me/+vK2H3dOldhxkYTgx
@@ -28,7 +28,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:22:53+00:00
 Texto:
 8. Explorando Inteligência Avançada
@@ -36,14 +36,14 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:22:46+00:00
 Texto: [Sem texto]
 
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:05+00:00
 Texto:
 .....
@@ -51,7 +51,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:05+00:00
 Texto:
 ....
@@ -59,7 +59,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:05+00:00
 Texto:
 ...
@@ -67,7 +67,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:05+00:00
 Texto:
 ..
@@ -75,7 +75,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:04+00:00
 Texto:
 .
@@ -83,7 +83,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:04+00:00
 Texto:
 ..
@@ -91,7 +91,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:04+00:00
 Texto:
 .
@@ -99,7 +99,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:04+00:00
 Texto:
 https://chatgpt.com/c/67f7c562-30bc-8009-9b93-f3e27e39a916
@@ -108,7 +108,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:20:03+00:00
 Texto:
 1
@@ -116,7 +116,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-10T13:19:59+00:00
 Texto: [Sem texto]
 

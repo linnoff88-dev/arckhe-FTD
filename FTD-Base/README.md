@@ -348,7 +348,7 @@ refactor: Melhora código do progress tracker
 
 ## 📝 Licença
 
-© 2025 INEMA TDS - Todos os direitos reservados.
+© 2025 ARCKHÉ TDS - Todos os direitos reservados.
 
 Conteúdo proprietário para uso no curso FTD.
 
@@ -393,5 +393,5 @@ Conteúdo proprietário para uso no curso FTD.
 </p>
 
 <p align="center">
-  Criado com 💙 por <strong>INEMA TDS</strong>
+  Criado com 💙 por <strong>ARCKHÉ TDS</strong>
 </p>

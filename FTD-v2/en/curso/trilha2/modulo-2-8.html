@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 2.8 · MLOps and Production | FTD v2</title>
 <meta content="Versioning, continuous evaluation, deployment, monitoring, cost, and incidents in AI systems." name="description"/>
 <meta content="Module 2.8 · MLOps and Production | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-8.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-8.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-8.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-8.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-8.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-8.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-8.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-8.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-8.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-8.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-8.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="2-8" data-inema-track="2" id="conteudo">
+<main data-ARCKHÉ-module="2-8" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 2.8 progress" class="inema-ring" data-inema-meter="modulo:2-8"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:2-8"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 2.8 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-8"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-8"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,37 +506,37 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. From notebook to service</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Version everything</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Continuous evaluation</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Deployment and serving</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Monitoring</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Cost and performance</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Incidents and rollback</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. From notebook to service</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Version everything</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Continuous evaluation</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Deployment and serving</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Monitoring</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Cost and performance</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Incidents and rollback</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o ciclo de vida que nunca fecha">🧭 From notebook to service</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t1-p1"><strong class="text-blue-400">MLOps</strong> is the practice of putting machine learning systems into production and keeping them running. It combines what software development already knows (version control, testing, automated deployment, monitoring) with challenges specific to AI: behavior depends on data and models that change, and the output is nondeterministic.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t1-p2">With LLMs, many people talk about <strong class="text-neutral-100">LLMOps</strong>. The center of gravity shifts: instead of training models, you usually choose a ready-made model, write prompts, and set up document retrieval and tools. But the discipline is the same—and so is the most common mistake: treating a prototype that “worked on my machine” as if it were a product.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t1-p1"><strong class="text-blue-400">MLOps</strong> is the practice of putting machine learning systems into production and keeping them running. It combines what software development already knows (version control, testing, automated deployment, monitoring) with challenges specific to AI: behavior depends on data and models that change, and the output is nondeterministic.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t1-p2">With LLMs, many people talk about <strong class="text-neutral-100">LLMOps</strong>. The center of gravity shifts: instead of training models, you usually choose a ready-made model, write prompts, and set up document retrieval and tools. But the discipline is the same—and so is the most common mistake: treating a prototype that “worked on my machine” as if it were a product.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t1-p3"><strong>Production</strong> is the environment where real users depend on the system. <strong>Inference</strong> is using the model to generate a response (the opposite of training). <strong>Nondeterministic</strong> means the same input can produce different outputs—which is why AI tests measure success rates instead of comparing a single result.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t1-p3"><strong>Production</strong> is the environment where real users depend on the system. <strong>Inference</strong> is using the model to generate a response (the opposite of training). <strong>Nondeterministic</strong> means the same input can produce different outputs—which is why AI tests measure success rates instead of comparing a single result.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -607,7 +607,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t1-p4" data-sum="porque">Building a prototype with an LLM is easy; keeping a reliable service running is still hard. If you master the full cycle, you can put AI to real use, defend the project with numbers, and sleep soundly after deployment.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t1-p4" data-sum="porque">Building a prototype with an LLM is easy; keeping a reliable service running is still hard. If you master the full cycle, you can put AI to real use, defend the project with numbers, and sleep soundly after deployment.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">MLOps / LLMOps</div><div class="text-xs text-neutral-400">AI treated as software</div></div>
@@ -616,30 +616,30 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Continuous cycle</div><div class="text-xs text-neutral-400">errors become tests</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="código, prompt, modelo, dados e configuração">🗂️ Version everything</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t2-p1">In ordinary software, the code defines behavior. In an AI system, behavior depends on <strong class="text-neutral-100">five things at the same time</strong>: the code, the prompt, the model, the data (for training, evaluation, and the knowledge base being queried), and the configuration (temperature, token limits, enabled tools). If any of these change without being recorded, you can’t explain why today’s response differs from yesterday’s.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t2-p2">The rule of thumb: <strong class="text-blue-400">a prompt is code</strong>. Keep it in a file in the repository, review it, and give it a version. Pin the model by its exact name and version, never by a nickname like “latest” or “the newest”—providers and Ollama itself update nicknames, and behavior changes without you touching anything.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t2-p1">In ordinary software, the code defines behavior. In an AI system, behavior depends on <strong class="text-neutral-100">five things at the same time</strong>: the code, the prompt, the model, the data (for training, evaluation, and the knowledge base being queried), and the configuration (temperature, token limits, enabled tools). If any of these change without being recorded, you can’t explain why today’s response differs from yesterday’s.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t2-p2">The rule of thumb: <strong class="text-blue-400">a prompt is code</strong>. Keep it in a file in the repository, review it, and give it a version. Pin the model by its exact name and version, never by a nickname like “latest” or “the newest”—providers and Ollama itself update nicknames, and behavior changes without you touching anything.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t2-p3"><strong>Model registry</strong> (<em>model registry</em>) is a catalog of model versions with metrics and status (testing, production, retired)—MLflow has one. <strong>DVC</strong> is a tool that versions large data files alongside git. <strong>Release</strong> is the uniquely named package that brings together the versions of everything going into production.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t2-p3"><strong>Model registry</strong> (<em>model registry</em>) is a catalog of model versions with metrics and status (testing, production, retired)—MLflow has one. <strong>DVC</strong> is a tool that versions large data files alongside git. <strong>Release</strong> is the uniquely named package that brings together the versions of everything going into production.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -694,10 +694,10 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t2-p4">In Ollama, <code>ollama show &lt;model&gt;</code> shows the details of the installed model and <code>ollama list</code> shows each model’s identifier. Record that identifier with the release: if someone runs it <code>ollama pull</code> again and the model changes, you’ll notice.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t2-p4">In Ollama, <code>ollama show &lt;model&gt;</code> shows the details of the installed model and <code>ollama list</code> shows each model’s identifier. Record that identifier with the release: if someone runs it <code>ollama pull</code> again and the model changes, you’ll notice.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t2-p5" data-sum="porque">Without complete versioning, you can't investigate an incident, compare two versions, or fulfill an audit request (“Which system made this decision in March?”). It's cheap to do at the start and very expensive to reconstruct later.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t2-p5" data-sum="porque">Without complete versioning, you can't investigate an incident, compare two versions, or fulfill an audit request (“Which system made this decision in March?”). It's cheap to do at the start and very expensive to reconstruct later.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">A prompt is code</div><div class="text-xs text-neutral-400">file, revision, version</div></div>
@@ -706,30 +706,30 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Reproducible</div><div class="text-xs text-neutral-400">recreate the same response</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o conjunto de testes vira portão automático">🧪 Continuous evaluation</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t3-p1">In module 2.7, you built a test set and measured a classifier by hand. Here, it becomes a <strong class="text-blue-400">quality gate</strong>: an automated test that runs whenever the prompt, model, or code changes and blocks publication if the result falls below the baseline. It’s the same principle as software tests, adapted to outputs that vary.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t3-p2">There are three layers of evaluation. <strong class="text-neutral-100">Deterministic checks</strong>: the JSON is valid, the label is on the list, and the response isn’t too long. <strong class="text-neutral-100">Metrics against correct answers</strong>: accuracy, precision, recall. And, for open-ended text, <strong class="text-neutral-100">LLM as a judge</strong> with a written rubric—useful, but it needs to be checked against human scores on a sample.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t3-p1">In module 2.7, you built a test set and measured a classifier by hand. Here, it becomes a <strong class="text-blue-400">quality gate</strong>: an automated test that runs whenever the prompt, model, or code changes and blocks publication if the result falls below the baseline. It’s the same principle as software tests, adapted to outputs that vary.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t3-p2">There are three layers of evaluation. <strong class="text-neutral-100">Deterministic checks</strong>: the JSON is valid, the label is on the list, and the response isn’t too long. <strong class="text-neutral-100">Metrics against correct answers</strong>: accuracy, precision, recall. And, for open-ended text, <strong class="text-neutral-100">LLM as a judge</strong> with a written rubric—useful, but it needs to be checked against human scores on a sample.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t3-p3"><strong>CI</strong> (continuous integration) means running tests automatically with every commit, using services such as GitHub Actions or GitLab CI. <strong>Regression</strong> is when something that worked stops working after a change. <strong>LLM as a judge</strong> means using one model to score another model’s responses according to explicit criteria.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t3-p3"><strong>CI</strong> (continuous integration) means running tests automatically with every commit, using services such as GitHub Actions or GitLab CI. <strong>Regression</strong> is when something that worked stops working after a change. <strong>LLM as a judge</strong> means using one model to score another model’s responses according to explicit criteria.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -776,12 +776,12 @@ def test_acuracia_nao_cai():
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> run <code>pytest -q -s test_qualidade.py</code>. With the current prompt, both tests should pass and show the accuracy. Now deliberately break the prompt (change the list of labels in the instruction) and run it again: <code>test_acuracia_nao_cai</code> should fail with the message “regression.” That’s the gate working.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Deterministic</p><p class="text-xs text-neutral-300" data-inema-block="m2-8-t3-p4">Format, required fields, length, prohibited words. Cheap and fast: run it every time.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">With an answer key</p><p class="text-xs text-neutral-300" data-inema-block="m2-8-t3-p5">Accuracy and per-label metrics against answers annotated by people. This is the main gate.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">LLM as a judge</p><p class="text-xs text-neutral-300" data-inema-block="m2-8-t3-p6">For open-ended responses. Written rubric and periodic checks against human scores.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Deterministic</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-8-t3-p4">Format, required fields, length, prohibited words. Cheap and fast: run it every time.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">With an answer key</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-8-t3-p5">Accuracy and per-label metrics against answers annotated by people. This is the main gate.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">LLM as a judge</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-8-t3-p6">For open-ended responses. Written rubric and periodic checks against human scores.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t3-p7" data-sum="porque">Prompts and models change all the time, and an improvement in one case often makes another worse. The automated gate turns “I think it's better” into a comparable number and keeps silent regressions from reaching users.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t3-p7" data-sum="porque">Prompts and models change all the time, and an improvement in one case often makes another worse. The automated gate turns “I think it's better” into a comparable number and keeps silent regressions from reaching users.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Quality gate</div><div class="text-xs text-neutral-400">blocks regression</div></div>
@@ -790,30 +790,30 @@ def test_acuracia_nao_cai():
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">LLM as a judge</div><div class="text-xs text-neutral-400">score with a rubric</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="uma API com limites, fallback e deploy gradual">🚀 Deploy and serving</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t4-p1"><strong class="text-blue-400">Serving</strong> means putting the model behind a stable interface—almost always an HTTP API—that other systems call. The service needs things the notebook didn’t: input validation, a time limit for each call, a fallback response when the model fails, a health endpoint, and a log for each request.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t4-p2">As for how it runs: <strong class="text-neutral-100">real time</strong> (the response comes back right away, as in a chat) or <strong class="text-neutral-100">batch</strong> (processes thousands of items overnight, at lower cost and with tolerance for delays). The model can be an external API or your own server—Ollama to get started, servers like vLLM as volume grows—packaged in a Docker container so it runs the same way on any machine.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t4-p1"><strong class="text-blue-400">Serving</strong> means putting the model behind a stable interface—almost always an HTTP API—that other systems call. The service needs things the notebook didn’t: input validation, a time limit for each call, a fallback response when the model fails, a health endpoint, and a log for each request.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t4-p2">As for how it runs: <strong class="text-neutral-100">real time</strong> (the response comes back right away, as in a chat) or <strong class="text-neutral-100">batch</strong> (processes thousands of items overnight, at lower cost and with tolerance for delays). The model can be an external API or your own server—Ollama to get started, servers like vLLM as volume grows—packaged in a Docker container so it runs the same way on any machine.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t4-p3"><strong>Fallback</strong> is the fallback response when the main one fails (an “other” label, a standard message, an alternate model). <strong>Canary deployment</strong> means sending a small fraction of traffic to the new version and gradually increasing it if the metrics look good. <strong>Rollback</strong> means going back to the previous version.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t4-p3"><strong>Fallback</strong> is the fallback response when the main one fails (an “other” label, a standard message, an alternate model). <strong>Canary deployment</strong> means sending a small fraction of traffic to the new version and gradually increasing it if the metrics look good. <strong>Rollback</strong> means going back to the previous version.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -909,10 +909,10 @@ def classificar(p: Pedido):
 </figure>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t4-p4">Before the canary, there’s an even safer step: <strong>shadow mode</strong>. The new version receives a copy of real requests, but its response isn’t sent to the user — it goes only to the log, where you compare it with the stable version.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t4-p4">Before the canary, there’s an even safer step: <strong>shadow mode</strong>. The new version receives a copy of real requests, but its response isn’t sent to the user — it goes only to the log, where you compare it with the stable version.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t4-p5" data-sum="porque">Models slow down, go offline, and return unexpected formats. A service with a timeout, fallback, and gradual rollout turns these failures into controlled degradation instead of an error screen for the customer.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t4-p5" data-sum="porque">Models slow down, go offline, and return unexpected formats. A service with a timeout, fallback, and gradual rollout turns these failures into controlled degradation instead of an error screen for the customer.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Timeout</div><div class="text-xs text-neutral-400">per-call limit</div></div>
@@ -921,30 +921,30 @@ def classificar(p: Pedido):
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Real time × batch</div><div class="text-xs text-neutral-400">urgency determines the cost</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="latência, erros, qualidade, custo e drift">📈 Monitoring</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t5-p1">An AI system can be “online” and still be wrong. The server responds on time, with no HTTP error, but quality has dropped because customers started writing about a new topic or because the provider changed the model. That’s why monitoring looks at <strong class="text-neutral-100">four groups of signals</strong>: technical, quality, cost, and data.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t5-p2">The foundation is the structured log that the service in Topic 4 already records: one JSON line per request, with version, status, latency, and tokens. From there, you can build dashboards (Grafana), alerts, and tracing across services (OpenTelemetry). For LLMs, there are purpose-built observability tools, such as the open-source Langfuse, which stores the prompt, response, and evaluation for each call.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t5-p1">An AI system can be “online” and still be wrong. The server responds on time, with no HTTP error, but quality has dropped because customers started writing about a new topic or because the provider changed the model. That’s why monitoring looks at <strong class="text-neutral-100">four groups of signals</strong>: technical, quality, cost, and data.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t5-p2">The foundation is the structured log that the service in Topic 4 already records: one JSON line per request, with version, status, latency, and tokens. From there, you can build dashboards (Grafana), alerts, and tracing across services (OpenTelemetry). For LLMs, there are purpose-built observability tools, such as the open-source Langfuse, which stores the prompt, response, and evaluation for each call.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t5-p3"><strong>Percentile</strong>: p95 latency is the time below which 95% of requests fall — it shows the experience of the unluckiest users, which the average hides. <strong>Drift</strong> (drift) is a change over time in the kind of data that arrives or in the relationship between data and the correct response. <strong>Observability</strong> means being able to answer “why did this happen?” using the records.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t5-p3"><strong>Percentile</strong>: p95 latency is the time below which 95% of requests fall — it shows the experience of the unluckiest users, which the average hides. <strong>Drift</strong> (drift) is a change over time in the kind of data that arrives or in the relationship between data and the correct response. <strong>Observability</strong> means being able to answer “why did this happen?” using the records.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -1039,7 +1039,7 @@ print("labels:", {k: f"{v / len(linhas):.0%}" for k, v in rotulos.most_common()}
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> with the service from topic 4 running, make about 20 calls with varied text and run <code>python3 metricas.py servico.log</code>. You should see p50 lower than p95, the fraction of non-ok responses, and the label distribution. Stop Ollama, make more calls, and run it again: the fraction of non-ok responses should rise. That’s the number an alert monitors.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t5-p4" data-sum="porque">AI systems degrade silently. If you measure latency, quality, cost, and drift, you can spot the problem on Monday morning by checking a dashboard—instead of hearing about it from an important customer on Friday night.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t5-p4" data-sum="porque">AI systems degrade silently. If you measure latency, quality, cost, and drift, you can spot the problem on Monday morning by checking a dashboard—instead of hearing about it from an important customer on Friday night.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">95th percentile</div><div class="text-xs text-neutral-400">the typical worst case</div></div>
@@ -1048,30 +1048,30 @@ print("labels:", {k: f"{v / len(linhas):.0%}" for k, v in rotulos.most_common()}
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Alert</div><div class="text-xs text-neutral-400">warns you before the customer does</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="tokens, cache, modelo certo para cada tarefa">💰 Cost and performance</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t6-p1">With paid APIs, costs are proportional to tokens: input tokens (prompts, documents, history) and output tokens (the response), usually at different rates. With local models, the costs are hardware, energy, and maintenance. In both cases, the same levers work: <strong class="text-neutral-100">send less text, generate less text, use the smallest model that gets the job done, and don’t repeat work</strong>.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t6-p2">Performance and cost go hand in hand: fewer tokens also mean faster responses. The order that usually gets the best results is to measure first (how much each type of request costs), cut obvious waste (resending the entire history, including documents that weren’t needed), and only then consider switching models.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t6-p1">With paid APIs, costs are proportional to tokens: input tokens (prompts, documents, history) and output tokens (the response), usually at different rates. With local models, the costs are hardware, energy, and maintenance. In both cases, the same levers work: <strong class="text-neutral-100">send less text, generate less text, use the smallest model that gets the job done, and don’t repeat work</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t6-p2">Performance and cost go hand in hand: fewer tokens also mean faster responses. The order that usually gets the best results is to measure first (how much each type of request costs), cut obvious waste (resending the entire history, including documents that weren’t needed), and only then consider switching models.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t6-p3"><strong>Prompt caching</strong>: several providers charge less when the beginning of the prompt repeats across calls—so put fixed instructions at the beginning and variable content at the end. <strong>Model routing</strong>: a small model handles simple cases, and only the difficult ones go to the large model. <strong>Quantization</strong>: store the model weights using fewer bits so they take up less memory, with some loss in quality.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t6-p3"><strong>Prompt caching</strong>: several providers charge less when the beginning of the prompt repeats across calls—so put fixed instructions at the beginning and variable content at the end. <strong>Model routing</strong>: a small model handles simple cases, and only the difficult ones go to the large model. <strong>Quantization</strong>: store the model weights using fewer bits so they take up less memory, with some loss in quality.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -1125,7 +1125,7 @@ print(f"{'TOTAL':10s} R$ {total:10.2f}/month")
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> use the average token counts from <code>metricas.py</code> (Topic 5) and the provider’s current prices. Run <code>python3 custo.py</code> and check one workflow by hand with the calculator. Start optimizing the workflow with the highest monthly cost—often it isn’t the one with the most requests.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t6-p4" data-sum="porque">AI projects are canceled because of unpredictable costs more often than because of poor quality. Knowing how to estimate, measure, and reduce spending without losing accuracy is what lets you take a pilot to the whole company.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t6-p4" data-sum="porque">AI projects are canceled because of unpredictable costs more often than because of poor quality. Knowing how to estimate, measure, and reduce spending without losing accuracy is what lets you take a pilot to the whole company.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Input × output</div><div class="text-xs text-neutral-400">different prices</div></div>
@@ -1134,30 +1134,30 @@ print(f"{'TOTAL':10s} R$ {total:10.2f}/month")
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Quantization</div><div class="text-xs text-neutral-400">less memory, some loss</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-2-8#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="detectar, conter, corrigir e aprender">🚨 Incidents and rollback</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t7-p1">An incident in an AI system doesn’t always mean “it’s down.” The assistant might respond in an inappropriate tone, a classifier might send everything to “other,” an agent might take an action it shouldn’t, or costs might triple overnight. The response follows the same order: <strong class="text-blue-400">contain the damage first, then understand the cause</strong>.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t7-p2">Containment usually means one of three actions: return to the previous release (rollback), turn off the feature with a configuration flag, or activate degraded mode (fallback to a simple rule or human support). All of this needs to be ready and tested before an incident—in a <strong class="text-neutral-100">runbook</strong>, not in someone’s head.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t7-p1">An incident in an AI system doesn’t always mean “it’s down.” The assistant might respond in an inappropriate tone, a classifier might send everything to “other,” an agent might take an action it shouldn’t, or costs might triple overnight. The response follows the same order: <strong class="text-blue-400">contain the damage first, then understand the cause</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t7-p2">Containment usually means one of three actions: return to the previous release (rollback), turn off the feature with a configuration flag, or activate degraded mode (fallback to a simple rule or human support). All of this needs to be ready and tested before an incident—in a <strong class="text-neutral-100">runbook</strong>, not in someone’s head.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t7-p3"><strong>Runbook</strong> is the written set of steps for handling each type of problem, with commands ready to run. <strong>Feature flag</strong> is a configuration switch that turns a feature on or off without a new deploy. <strong>Blameless postmortem</strong> is an incident review focused on causes and safeguards, not blame—so people can share what really happened.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t7-p3"><strong>Runbook</strong> is the written set of steps for handling each type of problem, with commands ready to run. <strong>Feature flag</strong> is a configuration switch that turns a feature on or off without a new deploy. <strong>Blameless postmortem</strong> is an incident review focused on causes and safeguards, not blame—so people can share what really happened.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
@@ -1203,10 +1203,10 @@ Current release: &lt;e.g., classifier-1.4.2&gt;  Previous stable release: &lt;1.
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-8-t7-p4">Keep a one-line record for each failure: date, what broke, the smallest possible fix, and whether the cause was a prompt or infrastructure issue. After a few entries, the pattern emerges, and you stop rebuilding what only needed a safeguard.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-8-t7-p4">Keep a one-line record for each failure: date, what broke, the smallest possible fix, and whether the cause was a prompt or infrastructure issue. After a few entries, the pattern emerges, and you stop rebuilding what only needed a safeguard.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-8-t7-p5" data-sum="porque">Every system in production will fail at some point. The difference between a five-minute incident and a five-hour one is having the recovery path ready and rehearsed—and the difference between a team that repeats mistakes and one that improves is a postmortem that leads to a safeguard.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-8-t7-p5" data-sum="porque">Every system in production will fail at some point. The difference between a five-minute incident and a five-hour one is having the recovery path ready and rehearsed—and the difference between a team that repeats mistakes and one that improves is a postmortem that leads to a safeguard.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Contain first</div><div class="text-xs text-neutral-400">investigate afterward</div></div>
@@ -1215,11 +1215,11 @@ Current release: &lt;e.g., classifier-1.4.2&gt;  Previous stable release: &lt;1.
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Postmortem</div><div class="text-xs text-neutral-400">blameless, with safeguards</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1250,7 +1250,7 @@ Current release: &lt;e.g., classifier-1.4.2&gt;  Previous stable release: &lt;1.
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1282,15 +1282,15 @@ Current release: &lt;e.g., classifier-1.4.2&gt;  Previous stable release: &lt;1.
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

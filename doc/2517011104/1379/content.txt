@@ -10,7 +10,7 @@ Midias baixadas: 22
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T09:45:03+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1402_001.jpg
@@ -18,7 +18,7 @@ Midia: MessageMediaPhoto -> photo_1402_001.jpg
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T09:26:20+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1401_002.jpg
@@ -26,7 +26,7 @@ Midia: MessageMediaPhoto -> photo_1401_002.jpg
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T09:26:20+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1400_003.jpg
@@ -34,7 +34,7 @@ Midia: MessageMediaPhoto -> photo_1400_003.jpg
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1399_004.jpg
@@ -42,7 +42,7 @@ Midia: MessageMediaPhoto -> photo_1399_004.jpg
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1398_005.jpg
@@ -50,7 +50,7 @@ Midia: MessageMediaPhoto -> photo_1398_005.jpg
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1397_006.jpg
@@ -58,7 +58,7 @@ Midia: MessageMediaPhoto -> photo_1397_006.jpg
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1396_007.jpg
@@ -66,7 +66,7 @@ Midia: MessageMediaPhoto -> photo_1396_007.jpg
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1395_008.jpg
@@ -74,7 +74,7 @@ Midia: MessageMediaPhoto -> photo_1395_008.jpg
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1394_009.jpg
@@ -82,7 +82,7 @@ Midia: MessageMediaPhoto -> photo_1394_009.jpg
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1393_010.jpg
@@ -90,7 +90,7 @@ Midia: MessageMediaPhoto -> photo_1393_010.jpg
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1392_011.jpg
@@ -98,7 +98,7 @@ Midia: MessageMediaPhoto -> photo_1392_011.jpg
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1391_012.jpg
@@ -106,7 +106,7 @@ Midia: MessageMediaPhoto -> photo_1391_012.jpg
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T08:10:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1390_013.jpg
@@ -114,7 +114,7 @@ Midia: MessageMediaPhoto -> photo_1390_013.jpg
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1388_014.jpg
@@ -122,7 +122,7 @@ Midia: MessageMediaPhoto -> photo_1388_014.jpg
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1387_015.jpg
@@ -130,7 +130,7 @@ Midia: MessageMediaPhoto -> photo_1387_015.jpg
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1386_016.jpg
@@ -138,7 +138,7 @@ Midia: MessageMediaPhoto -> photo_1386_016.jpg
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1385_017.jpg
@@ -146,7 +146,7 @@ Midia: MessageMediaPhoto -> photo_1385_017.jpg
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1384_018.jpg
@@ -154,7 +154,7 @@ Midia: MessageMediaPhoto -> photo_1384_018.jpg
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1383_019.jpg
@@ -162,7 +162,7 @@ Midia: MessageMediaPhoto -> photo_1383_019.jpg
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:05+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1382_020.jpg
@@ -170,7 +170,7 @@ Midia: MessageMediaPhoto -> photo_1382_020.jpg
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:04+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1381_021.jpg
@@ -178,7 +178,7 @@ Midia: MessageMediaPhoto -> photo_1381_021.jpg
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:31:04+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1380_022.jpg
@@ -186,7 +186,7 @@ Midia: MessageMediaPhoto -> photo_1380_022.jpg
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-25T05:29:21+00:00
 Texto: [Sem texto]
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Traduz i18n/source.json (gerado por localization.py) para EN/ES e guarda em i18n/<lang>.json.
-Motor ÚNICO: tradutor central do INEMA (`inema-traduz`, INEMA_TRADUCAO_* em ~/.config/inema/modelos.env, hoje Sonnet 5.5)
+Motor ÚNICO: tradutor central do ARCKHÉ (`ARCKHÉ-traduz`, ARCKHÉ_TRADUCAO_* em ~/.config/ARCKHÉ/modelos.env, hoje Sonnet 5.5)
 pela assinatura. Nenhuma API, nenhuma reserva.
 Só envia o que ainda não está no cache; lotes em paralelo; resposta validada (ids, tipo, tamanho) antes de gravar.
 Uso: python3 scripts/translate.py [en] [es]      (PARALELO=4 LOTE=5000 por variável de ambiente)"""
@@ -14,7 +14,7 @@ LOTE = int(os.environ.get('LOTE', '5000'))
 NOME = {'en': 'clear, natural US English', 'es': 'neutral Latin American Spanish'}
 LOCK = threading.Lock()
 
-SYS = """You are a careful professional translator of an open, free AI course (INEMA.CLUB, course "FTD").
+SYS = """You are a careful professional translator of an open, free AI course (ARCKHÉ AI, course "FTD").
 Translate EVERY value from Brazilian Portuguese into {nome}.
 INPUT: a JSON object id -> {{"kind": "text"|"pre", "source": string}}. Fragments of web pages, in reading order.
 OUTPUT: ONLY a JSON object with EXACTLY the same ids, each mapped to the translated STRING. No other keys, no commentary, no code fences.
@@ -22,19 +22,19 @@ RULES
 - Never summarize, omit or add content. Keep every sentence, example, number and date unchanged in meaning.
 - A fragment may start or end mid-sentence (it sits between HTML tags): translate just that fragment and keep its leading/trailing punctuation and spacing.
 - kind "pre" is a copy-paste block (prompt, command or code). Prompts written for an AI assistant: translate them fully, keeping line breaks and placeholders like <...> (translate the words inside the placeholder). Code: keep code, identifiers, function names, keys, URLs, model names, file names and commands EXACTLY; translate only comments and human-facing strings. Shell commands stay exactly as they are.
-- Keep exactly: product and model names (ChatGPT, Claude, Claude Code, Codex, Gemini, Ollama, n8n, Make, Zapier, Hugging Face, PyTorch, LangGraph, MCP, FLUX, Whisper, llama3.2, qwen2.5, nomic-embed-text, claude-sonnet-5-5), INEMA, INEMA.CLUB, PRO, FTD, URLs, e-mails, file paths, environment variables, emoji.
+- Keep exactly: product and model names (ChatGPT, Claude, Claude Code, Codex, Gemini, Ollama, n8n, Make, Zapier, Hugging Face, PyTorch, LangGraph, MCP, FLUX, Whisper, llama3.2, qwen2.5, nomic-embed-text, claude-sonnet-5-5), ARCKHÉ, ARCKHÉ AI, PRO, FTD, URLs, e-mails, file paths, environment variables, emoji.
 - Brazilian law LGPD: keep "LGPD" and, the first time it appears in a sentence, you may add the local equivalent in parentheses only if natural (e.g. "LGPD (Brazil's data protection law)"). Do not invent other laws.
 - Course UI words: "Trilha" = "Track"/"Ruta", "Módulo" = "Module"/"Módulo", "Tópico" = "Topic"/"Tema", "Marcar como lido" = "Mark as read"/"Marcar como leído", "Tenho dúvida" = "I have a question"/"Tengo una duda", "Novo aqui?" = "New here?"/"¿Nuevo aquí?", "Como ler:" = "How to read:"/"Cómo leer:", "Como verificar:" = "How to check:"/"Cómo verificar:", "Copiar" = "Copy"/"Copiar".
 - Tone: direct, second person ("you"/"tú"), active voice, no hype."""
 
 
-_TRADUTOR = os.path.expanduser("~/projetos/wifi/scripts/inema-traduz")
+_TRADUTOR = os.path.expanduser("~/projetos/wifi/scripts/ARCKHÉ-traduz")
 def chamar_tradutor(pedido: str, timeout: int = 900) -> str:
-    """Tradução pelo tradutor central do INEMA (INEMA_TRADUCAO_* em ~/.config/inema/modelos.env). Assinatura, nunca API."""
+    """Tradução pelo tradutor central do ARCKHÉ (ARCKHÉ_TRADUCAO_* em ~/.config/ARCKHÉ/modelos.env). Assinatura, nunca API."""
     if os.path.exists(_TRADUTOR):
         cmd = [_TRADUTOR]
     else:  # fora da máquina do Nei: Claude Code da assinatura com o modelo da variável (padrão Sonnet 5.5)
-        cmd = ["claude", "-p", "--model", os.environ.get("INEMA_TRADUCAO_MODELO", "claude-sonnet-5-5"),
+        cmd = ["claude", "-p", "--model", os.environ.get("ARCKHÉ_TRADUCAO_MODELO", "claude-sonnet-5-5"),
                "--output-format", "text", "--tools", ""]
     env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY", "CLAUDECODE")}
     with tempfile.TemporaryDirectory() as d:

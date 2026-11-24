@@ -1,86 +1,86 @@
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="{{LOGO}}">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
 {{TRILHAS}}
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Minha jornada</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Aparência</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Escuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sépia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Escuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sépia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Foco</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fonte</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Leitura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Foco</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamanho</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fonte</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Leitura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Largura</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estreito</button>
-<button data-inema-set-linewidth="68" type="button">Médio</button>
-<button data-inema-set-linewidth="75" type="button">Largo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamanho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Entrelinha</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Confortável</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Largura</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estreito</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Médio</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Largo</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento roxo" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento âmbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento teal" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Entrelinha</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Confortável</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento roxo" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento âmbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento teal" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>

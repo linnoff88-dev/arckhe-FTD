@@ -10,7 +10,7 @@ Midias baixadas: 6
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-28T11:28:14+00:00
 Texto:
 https://gamma.app/docs/y43gvg63f7q24mq
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-27T05:31:52+00:00
 Texto:
 sim, mas $$$
@@ -35,7 +35,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:58:13+00:00
 Texto:
 https://gamma.app/docs/ptwemdjdsix0psc
@@ -44,7 +44,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:57:45+00:00
 Texto:
 https://gamma.app/docs/n59ps60jcp6fj2a
@@ -53,7 +53,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:45:02+00:00
 Texto:
 ===
@@ -61,7 +61,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T05:14:03+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_119_007.jpg
@@ -69,21 +69,21 @@ Midia: MessageMediaPhoto -> photo_119_007.jpg
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T05:01:34+00:00
 Texto:
 Prompt, Assistentes, Agentes
 [https://t.me/c/2463916523/34](https://t.me/c/2463916523/34)
-INEMA.LLMs
+ARCKHÉ.LLMs
 
 System x User x Assistente
 [https://t.me/c/2494987106/2646](https://t.me/c/2494987106/2646)
-INEMA.Prompts
+ARCKHÉ.Prompts
 
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T05:01:23+00:00
 Texto:
 Demonstração de uso dos Assistentes e Agentes
@@ -93,7 +93,7 @@ Uso da API no Console da OpenAI
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T05:00:40+00:00
 Texto:
 **"1-4. Muito Além do Chat: Assistentes e Agentes"**:
@@ -186,7 +186,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T05:00:31+00:00
 Texto:
 **1-4. Muito Além do Chat: Assistentes e Agentes**
@@ -200,7 +200,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:59:35+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_113_012.jpg
@@ -208,7 +208,7 @@ Midia: MessageMediaPhoto -> photo_113_012.jpg
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:26+00:00
 Texto:
 .
@@ -216,7 +216,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:25+00:00
 Texto:
 .
@@ -224,7 +224,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:17+00:00
 Texto:
 **1-4.  Assistentes e Agentes**
@@ -232,7 +232,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:17+00:00
 Texto:
 .
@@ -240,7 +240,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:17+00:00
 Texto:
 .
@@ -248,7 +248,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:16+00:00
 Texto:
 .
@@ -256,7 +256,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:16+00:00
 Texto:
 .
@@ -264,7 +264,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:16+00:00
 Texto:
 .
@@ -272,7 +272,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:16+00:00
 Texto:
 .
@@ -280,7 +280,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:15+00:00
 Texto:
 1
@@ -288,7 +288,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T04:05:07+00:00
 Texto: [Sem texto]
 

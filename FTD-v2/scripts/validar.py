@@ -25,21 +25,21 @@ def check_module(mid):
         e.append(f'só {lines} linhas no corpo (mínimo 450)')
     s = BeautifulSoup(raw, 'html.parser')
     main = s.find('main')
-    if not main or main.get('data-inema-module') != mid or main.get('data-inema-track') != n or main.get('id') != 'conteudo':
-        e.append('<main> sem id="conteudo" / data-inema-module / data-inema-track corretos')
+    if not main or main.get('data-ARCKHÉ-module') != mid or main.get('data-ARCKHÉ-track') != n or main.get('id') != 'conteudo':
+        e.append('<main> sem id="conteudo" / data-ARCKHÉ-module / data-ARCKHÉ-track corretos')
     if s.find('script'):
         e.append('<script> dentro do módulo (o build injeta os scripts)')
     if not s.find('h1') or m['title'] not in s.find('h1').get_text():
         e.append(f'h1 não contém o título do manifesto: {m["title"]!r}')
     if not any(h.get_text(strip=True) == 'Conteúdo detalhado' for h in s.find_all('h2')):
         e.append('falta h2 "Conteúdo detalhado"')
-    secs = s.select('section[data-inema-topic]')
+    secs = s.select('section[data-ARCKHÉ-topic]')
     if len(secs) != 7:
         e.append(f'{len(secs)} tópicos (precisa 7)')
     for i, sec in enumerate(secs, 1):
         tag = f'tópico {i}'
-        if sec.get('id') != f'topico-{i}' or sec.get('data-inema-topic') != f'modulo-{mid}#topico-{i}':
-            e.append(f'{tag}: id/data-inema-topic errado')
+        if sec.get('id') != f'topico-{i}' or sec.get('data-ARCKHÉ-topic') != f'modulo-{mid}#topico-{i}':
+            e.append(f'{tag}: id/data-ARCKHÉ-topic errado')
         if 'scroll-margin-top' not in (sec.get('style') or ''):
             e.append(f'{tag}: sem scroll-margin-top')
         h2 = sec.find('h2')
@@ -49,22 +49,22 @@ def check_module(mid):
             el = sec.select_one(f'[data-sum="{k}"]')
             if not el or len(el.get_text(strip=True)) < 25:
                 e.append(f'{tag}: falta data-sum="{k}" com texto')
-        if not sec.select_one('button[data-inema-read-toggle][aria-pressed]'):
+        if not sec.select_one('button[data-ARCKHÉ-read-toggle][aria-pressed]'):
             e.append(f'{tag}: falta botão marcar-lido')
-        if not sec.select_one('button[data-inema-doubt-toggle][aria-pressed]'):
+        if not sec.select_one('button[data-ARCKHÉ-doubt-toggle][aria-pressed]'):
             e.append(f'{tag}: falta botão de dúvida')
-        if len(sec.select('[data-inema-block]')) < 2:
-            e.append(f'{tag}: menos de 2 blocos anotáveis (data-inema-block)')
+        if len(sec.select('[data-ARCKHÉ-block]')) < 2:
+            e.append(f'{tag}: menos de 2 blocos anotáveis (data-ARCKHÉ-block)')
         hs = [x.get_text(strip=True) for x in sec.find_all('h3')]
         if 'Por que aprender' not in hs or 'Conceitos-chave' not in hs:
             e.append(f'{tag}: faltam h3 "Por que aprender" / "Conceitos-chave"')
-    blocks = [b['data-inema-block'] for b in s.select('[data-inema-block]')]
+    blocks = [b['data-ARCKHÉ-block'] for b in s.select('[data-ARCKHÉ-block]')]
     if len(blocks) != len(set(blocks)):
-        e.append('data-inema-block repetido')
+        e.append('data-ARCKHÉ-block repetido')
     bad = [b for b in blocks if not b.startswith(f'm{mid}-t')]
     if bad:
-        e.append(f'data-inema-block fora do padrão m{mid}-tT-pP: {bad[:3]}')
-    toc = s.select('[data-inema-toc] a')
+        e.append(f'data-ARCKHÉ-block fora do padrão m{mid}-tT-pP: {bad[:3]}')
+    toc = s.select('[data-ARCKHÉ-toc] a')
     if [a.get('href') for a in toc] != [f'#topico-{i}' for i in range(1, 8)]:
         e.append('TOC não tem os 7 links #topico-1..7')
     svgs = [x for x in s.find_all('svg') if x.get('role') == 'img']

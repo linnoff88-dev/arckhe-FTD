@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 2.3 · RAG and Knowledge Bases | FTD v2</title>
 <meta content="Embeddings, chunking, vector and hybrid search, reranking, source citations, and RAG evaluation." name="description"/>
 <meta content="Module 2.3 · RAG and Knowledge Bases | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-3.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-3.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-3.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-3.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-3.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-3.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-3.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-3.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-3.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-3.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-3.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="2-3" data-inema-track="2" id="conteudo">
+<main data-ARCKHÉ-module="2-3" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 2.3 progress" class="inema-ring" data-inema-meter="modulo:2-3"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:2-3"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 2.3 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-3"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-3"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. What is RAG</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Embeddings</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Chunking</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Vector search</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Hybrid search and reranking</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. RAG with citations</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Evaluation</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. What is RAG</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Embeddings</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Chunking</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Vector search</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Hybrid search and reranking</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. RAG with citations</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Evaluation</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="buscar primeiro, responder depois">📚 What is RAG</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t1-p1">A language model only knows what it saw during training. It doesn’t know your product manual, your store’s exchange policy, or the contract signed yesterday. <strong class="text-blue-400">RAG</strong> (<em>Retrieval-Augmented Generation</em>, retrieval-augmented generation) solves this in two steps: first, a search system finds the passages in your documents that relate to the question; then the model receives those passages along with the question and answers <strong class="text-neutral-100">based on them</strong>, citing the source.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t1-p2">The idea was formalized in a 2020 research paper and became the standard for “chatting with documents.” A <strong class="text-neutral-100">knowledge base</strong> (knowledge base) is the set of documents prepared for this search. Even with models that accept huge context windows, RAG is still useful: it’s cheaper to send four passages than a thousand pages, updates are immediate (just reindex a file), and citations let you verify the answer.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t1-p1">A language model only knows what it saw during training. It doesn’t know your product manual, your store’s exchange policy, or the contract signed yesterday. <strong class="text-blue-400">RAG</strong> (<em>Retrieval-Augmented Generation</em>, retrieval-augmented generation) solves this in two steps: first, a search system finds the passages in your documents that relate to the question; then the model receives those passages along with the question and answers <strong class="text-neutral-100">based on them</strong>, citing the source.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t1-p2">The idea was formalized in a 2020 research paper and became the standard for “chatting with documents.” A <strong class="text-neutral-100">knowledge base</strong> (knowledge base) is the set of documents prepared for this search. Even with models that accept huge context windows, RAG is still useful: it’s cheaper to send four passages than a thousand pages, updates are immediate (just reindex a file), and citations let you verify the answer.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">RAG is an architectural pattern with two phases: <strong>indexing</strong> (breaking documents into passages, calculating embeddings, and storing them in an index) and <strong>querying</strong> (finding the most relevant passages for the question and asking the model to answer based only on them, with citations).</p>
@@ -591,7 +591,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t1-p3" data-sum="porque">This is the most requested AI use case in companies: a support assistant that reads the knowledge base, searches internal policies, or answers questions about contracts. Understanding the two phases helps you diagnose the right problem when an answer fails — and most failures happen in search, not in the model.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t1-p3" data-sum="porque">This is the most requested AI use case in companies: a support assistant that reads the knowledge base, searches internal policies, or answers questions about contracts. Understanding the two phases helps you diagnose the right problem when an answer fails — and most failures happen in search, not in the model.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Retrieval</div><div class="text-xs text-neutral-400">find the right chunks</div></div>
@@ -600,27 +600,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Knowledge base</div><div class="text-xs text-neutral-400">documents ready for search</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o sentido do texto virado em números">🧬 Embeddings</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t2-p1">A <strong class="text-blue-400">embedding</strong> is a list of numbers (a <strong>vector</strong>) that represents the meaning of a text. An embedding model, such as <code>nomic-embed-text</code> in Ollama, reads "how do I return a product?" and returns hundreds of numbers. The key is that texts with similar meanings get similar vectors — even without any words in common. "Return" and "exchange policy" end up close together; "Saturday hours" ends up far away.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t2-p2">To measure how "close" two vectors are, use <strong class="text-neutral-100">cosine similarity</strong>: the angle between two vectors. It ranges from −1 to 1; the closer it is to 1, the more similar the meanings are. If you <strong class="text-neutral-100">normalize</strong> the vectors (make them all length 1), the cosine becomes a simple dot product — a very fast calculation. Two things to keep in mind: use the same embedding model for documents and questions, and know that switching models requires recalculating the entire index.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t2-p1">A <strong class="text-blue-400">embedding</strong> is a list of numbers (a <strong>vector</strong>) that represents the meaning of a text. An embedding model, such as <code>nomic-embed-text</code> in Ollama, reads "how do I return a product?" and returns hundreds of numbers. The key is that texts with similar meanings get similar vectors — even without any words in common. "Return" and "exchange policy" end up close together; "Saturday hours" ends up far away.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t2-p2">To measure how "close" two vectors are, use <strong class="text-neutral-100">cosine similarity</strong>: the angle between two vectors. It ranges from −1 to 1; the closer it is to 1, the more similar the meanings are. If you <strong class="text-neutral-100">normalize</strong> the vectors (make them all length 1), the cosine becomes a simple dot product — a very fast calculation. Two things to keep in mind: use the same embedding model for documents and questions, and know that switching models requires recalculating the entire index.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">An embedding represents text as a vector in a space where distance means difference in meaning. This lets you search "by meaning" instead of "by the exact word."</p>
@@ -684,7 +684,7 @@ for i in range(len(sentences)):
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> the first line shows 768 dimensions (the size of the <code>nomic-embed-text</code>). Of the three comparisons, "return" and "exchange policy" should get the highest score; comparisons involving "hours" will be lower. Exact values vary from model to model — the order is what matters. A paid embeddings API works the same way if you replace <code>base_url</code>, <code>api_key</code> e <code>model</code>.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t2-p3" data-sum="porque">Users never phrase a question with the same words used in the document. Embeddings connect “I was charged twice” to a paragraph about “duplicate billing.” Without understanding this link, it’s impossible to adjust the search when it gets things wrong.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t2-p3" data-sum="porque">Users never phrase a question with the same words used in the document. Embeddings connect “I was charged twice” to a paragraph about “duplicate billing.” Without understanding this link, it’s impossible to adjust the search when it gets things wrong.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Vector</div><div class="text-xs text-neutral-400">list of numbers</div></div>
@@ -693,27 +693,27 @@ for i in range(len(sentences)):
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Same model</div><div class="text-xs text-neutral-400">for documents and questions</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="cortar o documento no tamanho certo">✂️ Chunking</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t3-p1"><strong class="text-blue-400">Chunking</strong> means splitting each document into chunks (<em>chunks</em>) before calculating the embeddings. Choosing the size is a balancing act: a chunk that’s too large mixes several topics, so the vector becomes an unfocused average; a chunk that’s too small loses context ("the period is 30 days" — the period for what?). There is no universal size: test with your real questions and measure the results (topic 7).</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t3-p2">Three practices improve almost any chunking approach. <strong class="text-neutral-100">Respect the structure</strong>: split at headings and paragraphs, not in the middle of a sentence. <strong class="text-neutral-100">Overlap</strong> (<em>overlap</em>): repeat part of the previous chunk’s ending at the start of the next one, so you don’t split an idea in half. <strong class="text-neutral-100">Metadata</strong>save the file, section, date, and who can see each chunk—that’s what becomes the citation and access filter.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t3-p1"><strong class="text-blue-400">Chunking</strong> means splitting each document into chunks (<em>chunks</em>) before calculating the embeddings. Choosing the size is a balancing act: a chunk that’s too large mixes several topics, so the vector becomes an unfocused average; a chunk that’s too small loses context ("the period is 30 days" — the period for what?). There is no universal size: test with your real questions and measure the results (topic 7).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t3-p2">Three practices improve almost any chunking approach. <strong class="text-neutral-100">Respect the structure</strong>: split at headings and paragraphs, not in the middle of a sentence. <strong class="text-neutral-100">Overlap</strong> (<em>overlap</em>): repeat part of the previous chunk’s ending at the start of the next one, so you don’t split an idea in half. <strong class="text-neutral-100">Metadata</strong>save the file, section, date, and who can see each chunk—that’s what becomes the citation and access filter.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Chunking is the strategy for splitting documents into indexable chunks: the size, split point, overlap, and metadata for each chunk.</p>
@@ -758,10 +758,10 @@ for i in range(len(sentences)):
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-3-t3-p3">Before changing the size, look at the chunks. Print ten of them and read them as if you were searching: does each one make sense on its own? A poorly converted PDF—repeated headers on every page, a table turned into number soup—hurts RAG more than any choice of chunk size.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-3-t3-p3">Before changing the size, look at the chunks. Print ten of them and read them as if you were searching: does each one make sense on its own? A poorly converted PDF—repeated headers on every page, a table turned into number soup—hurts RAG more than any choice of chunk size.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t3-p4" data-sum="porque">Search only finds what was split well. A chunk that mixes shipping and warranty won’t show up for either question; a rule split in half reaches the model only partially. Chunking is the cheapest step to adjust and the one that changes the result the most.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t3-p4" data-sum="porque">Search only finds what was split well. A chunk that mixes shipping and warranty won’t show up for either question; a rule split in half reaches the model only partially. Chunking is the cheapest step to adjust and the one that changes the result the most.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Chunk</div><div class="text-xs text-neutral-400">indexable chunk</div></div>
@@ -770,27 +770,27 @@ for i in range(len(sentences)):
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Parent and child</div><div class="text-xs text-neutral-400">precise search, broad context</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="achar os vizinhos mais próximos, rápido">🔎 Vector search and vector databases</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t4-p1"><strong class="text-blue-400">Vector search</strong> means calculating the question’s embedding and returning the <strong class="text-neutral-100">top-k</strong> most similar chunks—the k nearest neighbors. With a few thousand chunks, comparing the question with all of them (exact search, or “brute force”) takes milliseconds in a NumPy array, which is what the RAG in Topic 6 does. With millions, you use <strong class="text-neutral-100">approximate</strong> (ANN, <em>approximate nearest neighbor</em>), with indexes such as HNSW, which trade a little precision for much greater speed.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t4-p2">A <strong class="text-blue-400">vector database</strong> stores vectors, text, and metadata, creates these indexes, and lets you <strong class="text-neutral-100">filter</strong> before searching (“only documents from the legal department,” “only current versions,” “only what this user can see”). Established options include Chroma (embedded, great for getting started), Qdrant (a dedicated, open server), pgvector (a Postgres extension—useful when you already use Postgres), and managed cloud services.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t4-p1"><strong class="text-blue-400">Vector search</strong> means calculating the question’s embedding and returning the <strong class="text-neutral-100">top-k</strong> most similar chunks—the k nearest neighbors. With a few thousand chunks, comparing the question with all of them (exact search, or “brute force”) takes milliseconds in a NumPy array, which is what the RAG in Topic 6 does. With millions, you use <strong class="text-neutral-100">approximate</strong> (ANN, <em>approximate nearest neighbor</em>), with indexes such as HNSW, which trade a little precision for much greater speed.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t4-p2">A <strong class="text-blue-400">vector database</strong> stores vectors, text, and metadata, creates these indexes, and lets you <strong class="text-neutral-100">filter</strong> before searching (“only documents from the legal department,” “only current versions,” “only what this user can see”). Established options include Chroma (embedded, great for getting started), Qdrant (a dedicated, open server), pgvector (a Postgres extension—useful when you already use Postgres), and managed cloud services.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Vector search finds the k vectors closest to the question vector. A vector database is the system that stores vectors with metadata, indexes them for fast search, and applies filters.</p>
@@ -808,7 +808,7 @@ for i in range(len(sentences)):
 </div>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">🧩 New terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-3-t4-p3"><strong>top-k</strong>: how many chunks the search returns; too few may leave out the answer, while too many fill the prompt with noise. <strong>HNSW</strong>: a graph-shaped index of “shortcuts” between neighboring vectors, used by several databases to search large collections quickly. <strong>Metadata filter</strong>: a condition applied along with the search, essential for access control.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-3-t4-p3"><strong>top-k</strong>: how many chunks the search returns; too few may leave out the answer, while too many fill the prompt with noise. <strong>HNSW</strong>: a graph-shaped index of “shortcuts” between neighboring vectors, used by several databases to search large collections quickly. <strong>Metadata filter</strong>: a condition applied along with the search, essential for access control.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
@@ -829,7 +829,7 @@ for i in range(len(sentences)):
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t4-p4" data-sum="porque">Choosing a search tool based on the actual size of the problem can save weeks of infrastructure work. And metadata filtering is what prevents an internal assistant from showing an executive team’s contract to someone who shouldn’t see it—a real risk in any corporate RAG system.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t4-p4" data-sum="porque">Choosing a search tool based on the actual size of the problem can save weeks of infrastructure work. And metadata filtering is what prevents an internal assistant from showing an executive team’s contract to someone who shouldn’t see it—a real risk in any corporate RAG system.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">top-k</div><div class="text-xs text-neutral-400">how many chunks come back</div></div>
@@ -838,27 +838,27 @@ for i in range(len(sentences)):
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Filter</div><div class="text-xs text-neutral-400">who can see what</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="palavra exata + sentido, depois uma segunda leitura">🎯 Hybrid search and reranking</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t5-p1">Vector search understands meaning, but can stumble over exact terms: a product code (“XR-2049”), a clause number, or a rare proper name. Classic keyword search—the <strong class="text-blue-400">BM25</strong>algorithm used by search engines for decades—does the opposite: it finds the exact word and ignores synonyms. <strong class="text-neutral-100">Hybrid search</strong> runs both and combines the lists.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t5-p2">The most common method for combining them is <strong class="text-neutral-100">RRF</strong> (<em>Reciprocal Rank Fusion</em>): each chunk gets a score of 1/(60 + position) in each list, and the scores are added. Chunks that rank well in both lists move up. Next comes <strong class="text-blue-400">reranking</strong>: a specialized model (a  <em>cross-encoder</em>, such as those in the bge-reranker family) reads the question and each candidate together, then reorders them more accurately. It’s slower, so it runs only on the top 20 or 30 from the fusion.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t5-p1">Vector search understands meaning, but can stumble over exact terms: a product code (“XR-2049”), a clause number, or a rare proper name. Classic keyword search—the <strong class="text-blue-400">BM25</strong>algorithm used by search engines for decades—does the opposite: it finds the exact word and ignores synonyms. <strong class="text-neutral-100">Hybrid search</strong> runs both and combines the lists.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t5-p2">The most common method for combining them is <strong class="text-neutral-100">RRF</strong> (<em>Reciprocal Rank Fusion</em>): each chunk gets a score of 1/(60 + position) in each list, and the scores are added. Chunks that rank well in both lists move up. Next comes <strong class="text-blue-400">reranking</strong>: a specialized model (a  <em>cross-encoder</em>, such as those in the bge-reranker family) reads the question and each candidate together, then reorders them more accurately. It’s slower, so it runs only on the top 20 or 30 from the fusion.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Hybrid search combines keyword search (BM25) and semantic search (vector search) into a single list, usually with RRF. Reranking is a second step that reorders the best candidates using a model that reads the question and passage together.</p>
@@ -895,7 +895,7 @@ for i in range(len(sentences)):
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Step 4.</strong> Measure again. Keep each step only if it improves the score.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t5-p3" data-sum="porque">Real-world knowledge bases are full of codes, acronyms, and names that semantic search misses. Hybrid search and reranking are the two search improvements with the best effort-to-results ratio after good chunking—and knowing the order to apply them helps you avoid complicating the system without a gain.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t5-p3" data-sum="porque">Real-world knowledge bases are full of codes, acronyms, and names that semantic search misses. Hybrid search and reranking are the two search improvements with the best effort-to-results ratio after good chunking—and knowing the order to apply them helps you avoid complicating the system without a gain.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">BM25</div><div class="text-xs text-neutral-400">exact keyword search</div></div>
@@ -904,27 +904,27 @@ for i in range(len(sentences)):
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Reranker</div><div class="text-xs text-neutral-400">a more precise second pass</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="um RAG completo, local, que cita a fonte">🧾 Minimal RAG with citations</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t6-p1">Time to put everything together in a single script, without a framework: <strong class="text-blue-400">chunking</strong> split by paragraphs with overlap, <strong class="text-blue-400">embeddings</strong> with the <code>nomic-embed-text</code>, index saved in a JSON file, <strong class="text-blue-400">search</strong> exact cosine search with NumPy and <strong class="text-blue-400">answer</strong> from <code>llama3.2</code> with citations in the format <code>[file#passage]</code>. It’s fewer than a hundred lines, and each function corresponds to a box in the diagram from topic 1.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t6-p2">Two details make a difference. The <code>nomic-embed-text</code> was trained with task prefixes— <code>search_document:</code> for passages and <code>search_query:</code> for the question—and works better with them. The answer prompt has three rules: use only the passages, cite the source after every claim, and say “I couldn’t find it” when the answer isn’t there. That last rule does the most to reduce fabrication.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t6-p1">Time to put everything together in a single script, without a framework: <strong class="text-blue-400">chunking</strong> split by paragraphs with overlap, <strong class="text-blue-400">embeddings</strong> with the <code>nomic-embed-text</code>, index saved in a JSON file, <strong class="text-blue-400">search</strong> exact cosine search with NumPy and <strong class="text-blue-400">answer</strong> from <code>llama3.2</code> with citations in the format <code>[file#passage]</code>. It’s fewer than a hundred lines, and each function corresponds to a box in the diagram from topic 1.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t6-p2">Two details make a difference. The <code>nomic-embed-text</code> was trained with task prefixes— <code>search_document:</code> for passages and <code>search_query:</code> for the question—and works better with them. The answer prompt has three rules: use only the passages, cite the source after every claim, and say “I couldn’t find it” when the answer isn’t there. That last rule does the most to reduce fabrication.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">An end-to-end RAG in Python: indexes a folder of files <code>.md</code>/<code>.txt</code>, searches for the four passages closest to the question, and generates an answer that cites each source, all locally and for free with Ollama.</p>
@@ -1042,7 +1042,7 @@ python3 rag.py docs "Qual é o telefone do SAC?"</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> the first question should return <code>trocas.md#…</code> at the top and an answer about the 30 days, citing the source. The second should cite <code>entrega.md</code> (Monday through Saturday). The third isn't in the documents—if the model makes up a phone number, the "not found" rule failed, and that's what Topic 7 teaches you to measure. The values in the documents are fictional, just for testing.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t6-p3" data-sum="porque">Frameworks like LlamaIndex and LangChain do all this in a few lines—and hide where the problem is when the answer comes out wrong. Building it by hand once makes it clear what each piece does; then you can use the framework knowing what to change, or discover that you don't need it.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t6-p3" data-sum="porque">Frameworks like LlamaIndex and LangChain do all this in a few lines—and hide where the problem is when the answer comes out wrong. Building it by hand once makes it clear what each piece does; then you can use the framework knowing what to change, or discover that you don't need it.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Task prefix</div><div class="text-xs text-neutral-400">document × question</div></div>
@@ -1051,27 +1051,27 @@ python3 rag.py docs "Qual é o telefone do SAC?"</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Reindex</div><div class="text-xs text-neutral-400">when the document changes</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-2-3#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-3#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="medir a busca e medir a resposta">🧪 RAG evaluation</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t7-p1">"It seems better" isn't a measurement. Evaluating a RAG starts with a <strong class="text-blue-400">gold set</strong> (<em>golden set</em>): 20 to 50 real questions, each with the source that should be found and, if possible, the expected answer. With this, every change—chunk size, embedding model, hybrid search, reranker—becomes a number you can compare before and after.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t7-p2">Measure the two halves separately. For <strong class="text-neutral-100">search</strong>: o <strong>hit@k</strong> (for how many questions the right source appeared among the k chunks) and <strong>MRR</strong> (the average of 1/the right source’s position: 1 if it came first, 0.5 if it came second…). For <strong class="text-neutral-100">answer</strong>: <strong>faithfulness</strong> (is everything that was said supported by the chunks?) and <strong>relevance</strong> (did it answer the question?). Tools like RAGAS automate response metrics using a model as a judge—useful, as long as you manually check a sample.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t7-p1">"It seems better" isn't a measurement. Evaluating a RAG starts with a <strong class="text-blue-400">gold set</strong> (<em>golden set</em>): 20 to 50 real questions, each with the source that should be found and, if possible, the expected answer. With this, every change—chunk size, embedding model, hybrid search, reranker—becomes a number you can compare before and after.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t7-p2">Measure the two halves separately. For <strong class="text-neutral-100">search</strong>: o <strong>hit@k</strong> (for how many questions the right source appeared among the k chunks) and <strong>MRR</strong> (the average of 1/the right source’s position: 1 if it came first, 0.5 if it came second…). For <strong class="text-neutral-100">answer</strong>: <strong>faithfulness</strong> (is everything that was said supported by the chunks?) and <strong>relevance</strong> (did it answer the question?). Tools like RAGAS automate response metrics using a model as a judge—useful, as long as you manually check a sample.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Evaluating RAG means running a fixed set of questions and measuring separately whether the search found the right source (hit@k, MRR) and whether the answer was faithful to the sources and relevant to the question.</p>
@@ -1131,10 +1131,10 @@ print(f"\nhit@{TOP_K}: {acertos}/{len(CASOS)}   MRR: {soma_rr / len(CASOS):.2f}"
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-3-t7-p3">Read the diagnosis in the right order: if hit@k is low, the problem is search or chunking—changing the response model won’t help. If hit@k is high but the answer is wrong or made up, the problem is in the prompt or generation model.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-3-t7-p3">Read the diagnosis in the right order: if hit@k is low, the problem is search or chunking—changing the response model won’t help. If hit@k is high but the answer is wrong or made up, the problem is in the prompt or generation model.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-3-t7-p4" data-sum="porque">Without evaluation, every RAG adjustment is a guess, and improvements on one question can hide regressions on others. With a gold set and two search metrics, you can use data to decide whether it’s worth changing the model or chunk size, or adding a reranker—and show the results to whoever pays the bill.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-3-t7-p4" data-sum="porque">Without evaluation, every RAG adjustment is a guess, and improvements on one question can hide regressions on others. With a gold set and two search metrics, you can use data to decide whether it’s worth changing the model or chunk size, or adding a reranker—and show the results to whoever pays the bill.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Gold set</div><div class="text-xs text-neutral-400">questions + expected source</div></div>
@@ -1143,11 +1143,11 @@ print(f"\nhit@{TOP_K}: {acertos}/{len(CASOS)}   MRR: {soma_rr / len(CASOS):.2f}"
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Faithfulness</div><div class="text-xs text-neutral-400">the answer is supported by the sources</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1179,7 +1179,7 @@ print(f"\nhit@{TOP_K}: {acertos}/{len(CASOS)}   MRR: {soma_rr / len(CASOS):.2f}"
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1211,15 +1211,15 @@ print(f"\nhit@{TOP_K}: {acertos}/{len(CASOS)}   MRR: {soma_rr / len(CASOS):.2f}"
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

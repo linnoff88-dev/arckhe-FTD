@@ -5,7 +5,7 @@ Uso: python3 scripts/render-locales.py"""
 from localization import *
 from bs4 import NavigableString
 import os,posixpath
-BASE='https://inematds.github.io/FTD/FTD-v2/'
+BASE='https://linnoff88-dev.github.io/
 LANGS={'pt':'pt-BR','en':'en','es':'es'}
 COURSE_PAGES={p.relative_to(ROOT).as_posix() for p in pages()}
 SEL_STYLE_NAV='display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif'
@@ -15,15 +15,15 @@ A_OFF='padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee'
 
 def url_rel(rel):return '' if rel=='index.html' else rel
 def lang_ui(soup,rel,lang):
- for old in soup.select('.inema-lang,link[rel="canonical"],link[rel="alternate"][hreflang]'):old.decompose()
+ for old in soup.select('.ARCKHÉ-lang,link[rel="canonical"],link[rel="alternate"][hreflang]'):old.decompose()
  pre='' if lang=='pt' else lang+'/'
  for code,loc in LANGS.items():
   p='' if code=='pt' else code+'/'
   soup.head.append(soup.new_tag('link',rel='alternate',hreflang=loc,href=BASE+p+url_rel(rel)))
  soup.head.append(soup.new_tag('link',rel='alternate',hreflang='x-default',href=BASE+url_rel(rel)))
  soup.head.append(soup.new_tag('link',rel='canonical',href=BASE+pre+url_rel(rel)))
- jb=soup.select_one('nav [data-inema-journey-open]')
- div=soup.new_tag('div',attrs={'class':'inema-lang','style':SEL_STYLE_NAV if jb else SEL_STYLE,'translate':'no','aria-label':'Idioma'})
+ jb=soup.select_one('nav [data-ARCKHÉ-journey-open]')
+ div=soup.new_tag('div',attrs={'class':'ARCKHÉ-lang','style':SEL_STYLE_NAV if jb else SEL_STYLE,'translate':'no','aria-label':'Idioma'})
  here=posixpath.dirname(pre+rel)
  for code,loc in LANGS.items():
   tgt=('' if code=='pt' else code+'/')+rel
@@ -64,11 +64,11 @@ def render(lang):
     if tag.get(a):tag[a]=tr(tag[a]).strip()
   for t in meta_targets(soup):t['content']=tr(t['content']).strip()
   soup.html['lang']=LANGS[lang]
-  mc=soup.find('meta',attrs={'name':'inema-course'})
+  mc=soup.find('meta',attrs={'name':'ARCKHÉ-course'})
   if mc:mc['content']=f'ftd-v2-{lang}'
   for sc in soup.find_all('script'):
-   if sc.string and "inema.ftd-v2.meta" in sc.string:sc.string=sc.string.replace('inema.ftd-v2.meta',f'inema.ftd-v2-{lang}.meta')
-  m=soup.select_one('[data-inema-manifest]')
+   if sc.string and "ARCKHÉ.ftd-v2.meta" in sc.string:sc.string=sc.string.replace('ARCKHÉ.ftd-v2.meta',f'ARCKHÉ.ftd-v2-{lang}.meta')
+  m=soup.select_one('[data-ARCKHÉ-manifest]')
   if m:
    man=json.loads(m.string)
    for t in man['tracks']:

@@ -1,6 +1,6 @@
 # CONVENTIONS — FTD v2 (leia antes de escrever qualquer módulo)
 
-Curso: **FTD — Formação da Transformação Digital**, refeito no formato-curso-v2 (INEMA.CLUB), outubro de 2026.
+Curso: **FTD — Formação da Transformação Digital**, refeito no formato-curso-v2 (ARCKHÉ AI), outubro de 2026.
 courseId `ftd-v2`. 3 trilhas × 9 módulos. Todo módulo tem **exatamente 7 tópicos**.
 
 ## O que você escreve
@@ -16,16 +16,16 @@ botão "Próximo módulo" `bg-COR-700 hover:bg-COR-600`). Cor secundária permit
 Dica/destaque: `primary` (`bg-primary/10 border-primary/30 text-primary`). **Nunca** use cores de outra trilha.
 
 ## Contrato (o validador `python3 scripts/validar.py X-Y` confere tudo isto)
-1. `<main data-inema-module="X-Y" data-inema-track="X" id="conteudo">`.
+1. `<main data-ARCKHÉ-module="X-Y" data-ARCKHÉ-track="X" id="conteudo">`.
 2. Breadcrumb + header (badge `MÓDULO X.Y`, `h1` = emoji + título EXATO do `src/curso.json`, parágrafo,
-   4 stat cards com `7` Tópicos, minutos do curso.json, Nível, Tipo; anel `data-inema-meter="modulo:X-Y"`).
-3. TOC `<nav data-inema-toc>` com 7 links `#topico-1`…`#topico-7` (texto curto).
-4. `<article class="inema-prose …">` começando com `<h2 …>Conteúdo detalhado</h2>`.
-5. 7 × `<section class="mb-16" data-inema-topic="modulo-X-Y#topico-N" id="topico-N" style="scroll-margin-top:5rem">`, cada uma com:
+   4 stat cards com `7` Tópicos, minutos do curso.json, Nível, Tipo; anel `data-ARCKHÉ-meter="modulo:X-Y"`).
+3. TOC `<nav data-ARCKHÉ-toc>` com 7 links `#topico-1`…`#topico-7` (texto curto).
+4. `<article class="ARCKHÉ-prose …">` começando com `<h2 …>Conteúdo detalhado</h2>`.
+5. 7 × `<section class="mb-16" data-ARCKHÉ-topic="modulo-X-Y#topico-N" id="topico-N" style="scroll-margin-top:5rem">`, cada uma com:
    - círculo numerado + `<h2 class="text-2xl font-bold pt-1" data-sub="subtítulo curto">EMOJI Título</h2>`;
-   - botão de dúvida (`data-inema-doubt-toggle aria-pressed="false"`) no topo, botão marcar-lido
-     (`data-inema-read-toggle`, os 4 spans canônicos) no fim — copie do padrão-ouro;
-   - parágrafos de prosa com `data-inema-block="mX-Y-tN-pP"` (X-Y com hífen, ex. `m2-5-t3-p1`), únicos, ≥2 por tópico;
+   - botão de dúvida (`data-ARCKHÉ-doubt-toggle aria-pressed="false"`) no topo, botão marcar-lido
+     (`data-ARCKHÉ-read-toggle`, os 4 spans canônicos) no fim — copie do padrão-ouro;
+   - parágrafos de prosa com `data-ARCKHÉ-block="mX-Y-tN-pP"` (X-Y com hífen, ex. `m2-5-t3-p1`), únicos, ≥2 por tópico;
    - caixa **O que é** com `data-sum="oque"`; parágrafo **Por que aprender** (h3 exato `Por que aprender`)
      com `data-sum="porque"`; grade **Conceitos-chave** (h3 exato `Conceitos-chave`) com `data-sum="conceitos"`.
 6. Resumo do módulo no fim, com "Próximo módulo" (X.Y+1, ou a próxima trilha `../trilhaN/index.html` no módulo .9;

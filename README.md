@@ -1,4 +1,4 @@
-﻿# ðŸš€ FTD - FORMAÃ‡ÃƒO DA TRANSFORMAÃ‡ÃƒO DIGITAL
+# ðŸš€ FTD - FORMAÃ‡ÃƒO DA TRANSFORMAÃ‡ÃƒO DIGITAL
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -88,7 +88,7 @@ Proporcionar um **caminho rÃ¡pido e profundo** de conhecimento sobre IA, autom
 
 ### Extras:
 - ðŸŽµ Audio, MÃºsica e LipSync
-- ðŸŽ¬ ConsistÃªncia, Cinema, 3D e Games
+- ðŸŽ¬ ConsistÃªncia, CARCKHÉ, 3D e Games
 - ðŸ’» ProgramaÃ§Ã£o com IA
 
 **Total:** 30h (Iniciante) | 40h (TÃ©cnico) | 50h (Masterclass)
@@ -277,7 +277,7 @@ Cloudflare (CDN + Performance)
 ## ðŸ“ž CONTATO E SUPORTE
 
 ### Criador:
-**INEMA TDS**
+**ARCKHÉ TDS**
 - Email: [seu-email]
 - GitHub: [seu-github]
 - Telegram: [seu-telegram]
@@ -289,7 +289,7 @@ Este Ã© um projeto privado. ContribuiÃ§Ãµes apenas mediante convite.
 
 ## ðŸ“ LICENÃ‡A
 
-Todos os direitos reservados Â© 2025 INEMA TDS
+Todos os direitos reservados Â© 2025 ARCKHÉ TDS
 ConteÃºdo proprietÃ¡rio - Uso comercial restrito.
 
 ---
@@ -342,7 +342,7 @@ ConteÃºdo proprietÃ¡rio - Uso comercial restrito.
 </p>
 
 <p align="center">
-  Criado com ðŸ’™ por <strong>INEMA TDS</strong>
+  Criado com ðŸ’™ por <strong>ARCKHÉ TDS</strong>
 </p>
 
 ---

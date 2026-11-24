@@ -10,10 +10,10 @@ Midias baixadas: 11
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-28T02:38:11+00:00
 Texto:
-https://t.me/inemaftdbot
+https://t.me/ARCKHÉftdbot
 
 ------------------------------
 
@@ -26,23 +26,23 @@ boa noite
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-27T05:48:36+00:00
 Texto:
-ou no telegram @inemaftd
+ou no telegram @ARCKHÉftd
 
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-20T08:21:50+00:00
 Texto:
-ou inemaftd@gmail.com
+ou ARCKHÉftd@gmail.com
 
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-20T08:21:50+00:00
 Texto:
 https://huggingface.co/spaces/nmaldaner/als16
@@ -51,7 +51,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:53:45+00:00
 Texto: [Sem texto]
 Midia: MessageMediaDocument -> ebook_ftd.pdf
@@ -59,7 +59,7 @@ Midia: MessageMediaDocument -> ebook_ftd.pdf
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_961_007.jpg
@@ -67,7 +67,7 @@ Midia: MessageMediaPhoto -> photo_961_007.jpg
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_960_008.jpg
@@ -75,7 +75,7 @@ Midia: MessageMediaPhoto -> photo_960_008.jpg
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_959_009.jpg
@@ -83,7 +83,7 @@ Midia: MessageMediaPhoto -> photo_959_009.jpg
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_958_010.jpg
@@ -91,7 +91,7 @@ Midia: MessageMediaPhoto -> photo_958_010.jpg
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_957_011.jpg
@@ -99,7 +99,7 @@ Midia: MessageMediaPhoto -> photo_957_011.jpg
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_956_012.jpg
@@ -107,7 +107,7 @@ Midia: MessageMediaPhoto -> photo_956_012.jpg
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_955_013.jpg
@@ -115,7 +115,7 @@ Midia: MessageMediaPhoto -> photo_955_013.jpg
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_954_014.jpg
@@ -123,7 +123,7 @@ Midia: MessageMediaPhoto -> photo_954_014.jpg
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T20:51:21+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_953_015.jpg
@@ -131,7 +131,7 @@ Midia: MessageMediaPhoto -> photo_953_015.jpg
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:55:47+00:00
 Texto:
 ## 🚀 Comunidade FTD – Formação em Transformação Digital  
@@ -178,7 +178,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:48:25+00:00
 Texto:
 Esse projeto da Comunidade FTD tem tudo para ser um divisor de águas na vida de muita gente.
@@ -204,7 +204,7 @@ De aprendiz a consultor: transforme o que aprendeu em serviço! Crie sua microag
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:33+00:00
 Texto:
 .
@@ -212,7 +212,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:30+00:00
 Texto:
 Programa FTD
@@ -220,7 +220,7 @@ Programa FTD
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:23+00:00
 Texto:
 ..
@@ -228,7 +228,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:22+00:00
 Texto:
 ..
@@ -236,7 +236,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:22+00:00
 Texto:
 .
@@ -244,7 +244,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:22+00:00
 Texto:
 .
@@ -252,7 +252,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:21+00:00
 Texto:
 .
@@ -260,7 +260,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:21+00:00
 Texto:
 .
@@ -268,7 +268,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:20+00:00
 Texto:
 1
@@ -276,7 +276,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:47:16+00:00
 Texto: [Sem texto]
 

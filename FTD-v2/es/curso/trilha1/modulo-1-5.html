@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 1.5 · Creatividad visual con IA | FTD v2</title>
 <meta content="Generar y editar imágenes y videos con intención: composición, estilo, consistencia y derechos de uso." name="description"/>
 <meta content="Módulo 1.5 · Creatividad visual con IA | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-5.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-5.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-5.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-5.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-5.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-5.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-5.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-5.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-5.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-5.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-5.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-5" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-5" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Práctica</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 1.5" class="inema-ring" data-inema-meter="modulo:1-5"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-5"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 1.5" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-5"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-5"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,36 +506,36 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Del ruido a la imagen</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Anatomía de la solicitud</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Herramientas según la tarea</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Consistencia y edición</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Video y sonido</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Derechos y etiquetas</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Del brief a la pieza</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Del ruido a la imagen</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Anatomía de la solicitud</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Herramientas según la tarea</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Consistencia y edición</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Video y sonido</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Derechos y etiquetas</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Del brief a la pieza</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="como uma frase vira imagem">🖼️ Del ruido a la imagen</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t1-p1">Cuando escribes «montañas al atardecer, estilo de póster» y recibes una imagen segundos después, parece que la IA buscó la imagen en algún lugar. No la buscó. La <strong class="text-neutral-100">dibujó desde cero</strong>. La mayoría de los generadores de imágenes actuales empiezan con una pantalla llena de puntos aleatorios —como la estática de un televisor antiguo— y van limpiando ese desorden, paso a paso, en la dirección de lo que describe tu texto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t1-p1">Cuando escribes «montañas al atardecer, estilo de póster» y recibes una imagen segundos después, parece que la IA buscó la imagen en algún lugar. No la buscó. La <strong class="text-neutral-100">dibujó desde cero</strong>. La mayoría de los generadores de imágenes actuales empiezan con una pantalla llena de puntos aleatorios —como la estática de un televisor antiguo— y van limpiando ese desorden, paso a paso, en la dirección de lo que describe tu texto.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-5-t1-p2"><strong>Modelo de difusión</strong> es el tipo de IA que aprendió a quitar el ruido de las imágenes. Durante el entrenamiento, vio millones de fotos y dibujos con descripciones y aprendió el camino de regreso: de la mancha a la imagen nítida. <strong>Ruido</strong> es ese granulado aleatorio del comienzo. <strong>Prompt visual</strong> es la descripción que escribes: guía cada paso de la limpieza.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-5-t1-p2"><strong>Modelo de difusión</strong> es el tipo de IA que aprendió a quitar el ruido de las imágenes. Durante el entrenamiento, vio millones de fotos y dibujos con descripciones y aprendió el camino de regreso: de la mancha a la imagen nítida. <strong>Ruido</strong> es ese granulado aleatorio del comienzo. <strong>Prompt visual</strong> es la descripción que escribes: guía cada paso de la limpieza.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -616,7 +616,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t1-p3" data-sum="porque">Saber que la imagen nace del ruido guiado por el texto explica por qué la misma frase genera resultados diferentes, por qué fallan los detalles finos y por qué una solicitud bien descrita ahorra intentos. Dejas de «jugar a la suerte» y empiezas a dirigir.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t1-p3" data-sum="porque">Saber que la imagen nace del ruido guiado por el texto explica por qué la misma frase genera resultados diferentes, por qué fallan los detalles finos y por qué una solicitud bien descrita ahorra intentos. Dejas de «jugar a la suerte» y empiezas a dirigir.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Difusión</div><div class="text-xs text-neutral-400">limpiar el ruido hasta obtener la imagen</div></div>
@@ -625,26 +625,26 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Vacío</div><div class="text-xs text-neutral-400">lo que no dices, el modelo lo inventa</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="seis camadas de um bom pedido visual">🧱 Anatomía de la solicitud visual</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t2-p1">Hay listas con decenas de «categorías» de prompts visuales. No necesitas memorizar ninguna. En la práctica, una solicitud que funciona responde a <strong class="text-neutral-100">seis preguntas</strong>, en orden de importancia: qué aparece, dónde, con qué estilo, con qué luz, desde qué ángulo y en qué formato. Piensa como un director de fotografía que explica la escena al equipo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t2-p1">Hay listas con decenas de «categorías» de prompts visuales. No necesitas memorizar ninguna. En la práctica, una solicitud que funciona responde a <strong class="text-neutral-100">seis preguntas</strong>, en orden de importancia: qué aparece, dónde, con qué estilo, con qué luz, desde qué ángulo y en qué formato. Piensa como un director de fotografía que explica la escena al equipo.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La anatomía de la solicitud visual sigue un orden fijo de seis capas —tema, escenario, estilo, luz, composición y formato con límites— que cubre lo que el modelo necesita saber para no completar los vacíos por su cuenta.</p>
@@ -699,7 +699,7 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> el prompt final debe tener las seis capas: señálalas con el dedo. Genera la imagen con la versión larga y con la corta; si la corta queda casi igual, las capas adicionales sobraban. Si queda muy diferente, ahí estaba tu intención.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t2-p2" data-sum="porque">Un guion fijo de seis capas sirve para cualquier herramienta, hoy y en la próxima versión. Reduce los intentos, hace que el resultado sea predecible y también sirve para explicarle la idea a un diseñador humano.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t2-p2" data-sum="porque">Un guion fijo de seis capas sirve para cualquier herramienta, hoy y en la próxima versión. Reduce los intentos, hace que el resultado sea predecible y también sirve para explicarle la idea a un diseñador humano.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Tema</div><div class="text-xs text-neutral-400">quién o qué aparece</div></div>
@@ -708,26 +708,26 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Límites</div><div class="text-xs text-neutral-400">lo que no debe aparecer</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="escolha pela tarefa, não pela moda">🧰 Herramientas según la tarea</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t3-p1">La lista de herramientas de imagen cambia todos los meses, y el nombre del «mejor generador» cambia con la misma frecuencia. En vez de perseguir la novedad, empieza por la pregunta correcta: <strong class="text-neutral-100">¿cuál es la tarea?</strong> Crear desde cero, modificar una foto que ya tienes, poner texto legible en la imagen o ejecutar todo en tu propio computador son trabajos diferentes, y hay herramientas que funcionan mejor para cada uno.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t3-p1">La lista de herramientas de imagen cambia todos los meses, y el nombre del «mejor generador» cambia con la misma frecuencia. En vez de perseguir la novedad, empieza por la pregunta correcta: <strong class="text-neutral-100">¿cuál es la tarea?</strong> Crear desde cero, modificar una foto que ya tienes, poner texto legible en la imagen o ejecutar todo en tu propio computador son trabajos diferentes, y hay herramientas que funcionan mejor para cada uno.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es un mapa de cuatro tareas visuales —crear desde cero, editar mediante instrucciones, transformar una imagen en otra y generar localmente— con ejemplos de herramientas conocidas para cada una. Los nombres y los precios cambian; las tareas permanecen.</p>
@@ -745,19 +745,19 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-5-t3-p2"><strong>Modelo abierto</strong> es un modelo cuyo archivo se puede descargar y ejecutar en tu computador, como varias versiones de Stable Diffusion y FLUX. <strong>Tarjeta gráfica</strong> (GPU) es el componente del computador que realiza los cálculos pesados de la generación. <strong>Licencia</strong> es el documento que indica qué puedes hacer con el modelo y con las imágenes: léelo antes de usarlo para trabajar.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-5-t3-p2"><strong>Modelo abierto</strong> es un modelo cuyo archivo se puede descargar y ejecutar en tu computador, como varias versiones de Stable Diffusion y FLUX. <strong>Tarjeta gráfica</strong> (GPU) es el componente del computador que realiza los cálculos pesados de la generación. <strong>Licencia</strong> es el documento que indica qué puedes hacer con el modelo y con las imágenes: léelo antes de usarlo para trabajar.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">💬 Dentro del chat</p><p class="text-xs text-neutral-300" data-inema-block="m1-5-t3-p3">La forma más fácil de empezar: conversas, pides ajustes en español y la imagen cambia. Es una buena opción para quienes ya usan ChatGPT o Gemini en su día a día.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🎛️ Generador especializado</p><p class="text-xs text-neutral-300" data-inema-block="m1-5-t3-p4">Más control sobre el estilo, la proporción y las variaciones. Conviene cuando la imagen es una parte importante de tu trabajo.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🖥️ Local</p><p class="text-xs text-neutral-300" data-inema-block="m1-5-t3-p5">Sin enviar archivos a otros lugares y sin límite por mensaje. Requiere instalación y una máquina potente; es el siguiente paso, no el primero.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">💬 Dentro del chat</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-5-t3-p3">La forma más fácil de empezar: conversas, pides ajustes en español y la imagen cambia. Es una buena opción para quienes ya usan ChatGPT o Gemini en su día a día.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🎛️ Generador especializado</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-5-t3-p4">Más control sobre el estilo, la proporción y las variaciones. Conviene cuando la imagen es una parte importante de tu trabajo.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🖥️ Local</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-5-t3-p5">Sin enviar archivos a otros lugares y sin límite por mensaje. Requiere instalación y una máquina potente; es el siguiente paso, no el primero.</p></div>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-5-t3-p6">Prueba el mismo prompt en dos herramientas antes de elegir una. Guarda las dos imágenes una al lado de la otra con el nombre de la herramienta. En diez minutos descubrirás cuál se adapta a tu tipo de pieza, sin confiar en rankings de terceros.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-5-t3-p6">Prueba el mismo prompt en dos herramientas antes de elegir una. Guarda las dos imágenes una al lado de la otra con el nombre de la herramienta. En diez minutos descubrirás cuál se adapta a tu tipo de pieza, sin confiar en rankings de terceros.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t3-p7" data-sum="porque">Elegir según la tarea evita suscribirte a tres servicios que hacen lo mismo y evita forzar una herramienta a hacer algo que hace mal. Cuando aparezca un generador nuevo, sabrás en qué fila de la tabla encaja.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t3-p7" data-sum="porque">Elegir según la tarea evita suscribirte a tres servicios que hacen lo mismo y evita forzar una herramienta a hacer algo que hace mal. Cuando aparezca un generador nuevo, sabrás en qué fila de la tabla encaja.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Texto → imagen</div><div class="text-xs text-neutral-400">crear desde cero</div></div>
@@ -766,26 +766,26 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Licencia</div><div class="text-xs text-neutral-400">lo que está permitido</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o mesmo personagem em todas as peças">🔁 Consistencia y edición</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t4-p1">Una imagen bonita por sí sola es fácil. Lo difícil es la <strong class="text-neutral-100">segunda</strong>: el mismo personaje en otra pose, la misma paleta en la siguiente publicación, el mismo producto en otro escenario. Como cada generación empieza con un ruido nuevo, sin cuidado cada imagen queda «emparentada» con la anterior, pero no es igual. Para una marca o una serie, eso no sirve.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t4-p1">Una imagen bonita por sí sola es fácil. Lo difícil es la <strong class="text-neutral-100">segunda</strong>: el mismo personaje en otra pose, la misma paleta en la siguiente publicación, el mismo producto en otro escenario. Como cada generación empieza con un ruido nuevo, sin cuidado cada imagen queda «emparentada» con la anterior, pero no es igual. Para una marca o una serie, eso no sirve.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La consistencia consiste en mantener iguales el personaje, el producto, el estilo y la paleta en varias imágenes. Puedes lograrlo con una imagen de referencia fija, un texto base que repitas y ediciones puntuales en vez de volver a generar todo.</p>
@@ -827,7 +827,7 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-5-t4-p2"><strong>Inpainting</strong> es el nombre técnico de la edición de una región: pintas la parte que quieres cambiar y el modelo vuelve a dibujar solo esa zona. <strong>Upscale</strong> es ampliar la imagen agregando detalles, en vez de simplemente estirar los píxeles. <strong>Seed</strong> (semilla) es el número que define el ruido inicial; algunas herramientas te permiten repetir la misma seed para acercarte al mismo resultado.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-5-t4-p2"><strong>Inpainting</strong> es el nombre técnico de la edición de una región: pintas la parte que quieres cambiar y el modelo vuelve a dibujar solo esa zona. <strong>Upscale</strong> es ampliar la imagen agregando detalles, en vez de simplemente estirar los píxeles. <strong>Seed</strong> (semilla) es el número que define el ruido inicial; algunas herramientas te permiten repetir la misma seed para acercarte al mismo resultado.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
@@ -848,7 +848,7 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t4-p3" data-sum="porque">Una marca se reconoce por la repetición: los mismos colores, el mismo trazo, el mismo personaje. Sin consistencia, la IA genera piezas aisladas; con ella, construyes una identidad visual que perdura durante meses y que el público reconoce a la distancia.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t4-p3" data-sum="porque">Una marca se reconoce por la repetición: los mismos colores, el mismo trazo, el mismo personaje. Sin consistencia, la IA genera piezas aisladas; con ella, construyes una identidad visual que perdura durante meses y que el público reconoce a la distancia.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Referencia</div><div class="text-xs text-neutral-400">imagen que fija el aspecto visual</div></div>
@@ -857,26 +857,26 @@ Mi idea, tal como se me ocurrió: &lt;descríbela en una o dos frases&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Upscale</div><div class="text-xs text-neutral-400">ampliar con detalles</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="clipes curtos, narração e trilha">🎬 Video y sonido con IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t5-p1">Los generadores de video usan la misma idea que las imágenes, pero deben mantener la coherencia cuadro a cuadro. Por eso producen <strong class="text-neutral-100">clips cortos</strong>, de pocos segundos, y no una película entera de una sola vez. El video final se arma uniendo varios clips, una narración y una banda sonora, y tú sigues a cargo de la dirección.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t5-p1">Los generadores de video usan la misma idea que las imágenes, pero deben mantener la coherencia cuadro a cuadro. Por eso producen <strong class="text-neutral-100">clips cortos</strong>, de pocos segundos, y no una película entera de una sola vez. El video final se arma uniendo varios clips, una narración y una banda sonora, y tú sigues a cargo de la dirección.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Crear videos con IA consiste en generar clips a partir de texto o de una imagen inicial, crear una narración con voz sintética, una banda sonora y efectos, y montarlo todo en un editor. También incluye avatares parlantes, que leen un guion con una persona virtual.</p>
@@ -944,7 +944,7 @@ Al final, sugiere una banda sonora (estilo y ritmo) que no compita con la voz.</
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> Suma las duraciones: el total debe coincidir con lo que pediste. Lee en voz alta solo la columna de narración: debe tener sentido por sí sola. Comprueba que el texto base del personaje aparezca igual en todas las escenas.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t5-p2" data-sum="porque">El video corto es el formato que más circula en las redes, y producir uno solía requerir cámara, equipo y edición. Con el flujo guion → fotograma clave → clip → montaje, una sola persona puede hacer una pieza decente, siempre que dirija cada etapa.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t5-p2" data-sum="porque">El video corto es el formato que más circula en las redes, y producir uno solía requerir cámara, equipo y edición. Con el flujo guion → fotograma clave → clip → montaje, una sola persona puede hacer una pieza decente, siempre que dirija cada etapa.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Clip</div><div class="text-xs text-neutral-400">escena corta generada</div></div>
@@ -953,26 +953,26 @@ Al final, sugiere una banda sonora (estilo y ritmo) que no compita con la voz.</
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Montaje</div><div class="text-xs text-neutral-400">unir clips, voz y banda sonora</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="direitos, rostos, marcas e transparência">⚖️ Derechos, rostros y etiquetas</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t6-p1">Generar es fácil; publicar exige responsabilidad. Tres preguntas resuelven la mayoría de los problemas antes de que ocurran: <strong class="text-neutral-100">¿los términos de la herramienta permiten este uso?</strong> ¿La imagen usa el rostro, la voz o la marca de alguien? ¿El público podría engañarse y creer que es real? La ley de derechos de autor y las normas sobre IA están en debate en varios países, incluido Brasil; por eso, la prudencia vale más que tomar atajos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t6-p1">Generar es fácil; publicar exige responsabilidad. Tres preguntas resuelven la mayoría de los problemas antes de que ocurran: <strong class="text-neutral-100">¿los términos de la herramienta permiten este uso?</strong> ¿La imagen usa el rostro, la voz o la marca de alguien? ¿El público podría engañarse y creer que es real? La ley de derechos de autor y las normas sobre IA están en debate en varios países, incluido Brasil; por eso, la prudencia vale más que tomar atajos.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es el conjunto de precauciones para usar imágenes y videos generados sin vulnerar los derechos de terceros: respetar los términos de uso y las licencias, no usar el rostro ni la voz de otras personas sin autorización, evitar marcas ajenas e informar cuando el contenido es sintético.</p>
@@ -1009,10 +1009,10 @@ Al final, sugiere una banda sonora (estilo y ritmo) que no compita con la voz.</
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-5-t6-p2">Varias plataformas ya te piden que indiques al publicar si el contenido se hizo con IA, y algunas herramientas graban una etiqueta invisible en el archivo. En vez de verlo como un obstáculo, usa la transparencia a tu favor: «ilustración hecha con IA» no le quita valor a una publicación bien pensada.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-5-t6-p2">Varias plataformas ya te piden que indiques al publicar si el contenido se hizo con IA, y algunas herramientas graban una etiqueta invisible en el archivo. En vez de verlo como un obstáculo, usa la transparencia a tu favor: «ilustración hecha con IA» no le quita valor a una publicación bien pensada.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t6-p3" data-sum="porque">Una pieza que vulnera el derecho a la propia imagen o engaña al público puede costar mucho más de lo que ahorraste: que la retiren, una demanda y la pérdida de confianza. Tomar precauciones lleva minutos y te protege a ti y a tu marca.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t6-p3" data-sum="porque">Una pieza que vulnera el derecho a la propia imagen o engaña al público puede costar mucho más de lo que ahorraste: que la retiren, una demanda y la pérdida de confianza. Tomar precauciones lleva minutos y te protege a ti y a tu marca.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Términos de uso</div><div class="text-xs text-neutral-400">lo que permite la herramienta</div></div>
@@ -1021,26 +1021,26 @@ Al final, sugiere una banda sonora (estilo y ritmo) que no compita con la voz.</
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">LGPD</div><div class="text-xs text-neutral-400">el rostro también es un dato personal</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-5#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-5#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="uma peça real, com revisão">🛠️ Del brief a la pieza final</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t7-p1">Ahora reúne todo en una pieza real. El secreto de quienes trabajan bien con IA visual no es el prompt mágico: es tener un <strong class="text-neutral-100">brief</strong> antes de generar y una <strong class="text-neutral-100">revisión</strong> antes de publicar. La IA interviene en el proceso y acelera los intentos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t7-p1">Ahora reúne todo en una pieza real. El secreto de quienes trabajan bien con IA visual no es el prompt mágico: es tener un <strong class="text-neutral-100">brief</strong> antes de generar y una <strong class="text-neutral-100">revisión</strong> antes de publicar. La IA interviene en el proceso y acelera los intentos.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un ejercicio completo: escribes un brief corto, le pides al asistente tres prompts visuales diferentes, generas las imágenes, eliges una, corriges lo necesario y revisas una lista antes de publicar.</p>
@@ -1088,7 +1088,7 @@ Revísala como un director de arte exigente y responde en una lista:
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> revisa también cada defecto señalado en el punto 1; la IA puede pasar algo por alto o señalar algo que no existe. Si el punto 3 genera alguna duda, vuelve al tema 6 antes de publicar.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-5-t7-p2" data-sum="porque">El briefing y la revisión son lo que distingue una imagen genérica de una pieza que comunica. Hacer el ciclo completo una vez con una pieza tuya fija el método y sirve de modelo para todas las siguientes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-5-t7-p2" data-sum="porque">El briefing y la revisión son lo que distingue una imagen genérica de una pieza que comunica. Hacer el ciclo completo una vez con una pieza tuya fija el método y sirve de modelo para todas las siguientes.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Brief</div><div class="text-xs text-neutral-400">el pedido antes del prompt</div></div>
@@ -1097,11 +1097,11 @@ Revísala como un director de arte exigente y responde en una lista:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Mensaje</div><div class="text-xs text-neutral-400">entendido en 3 segundos</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1132,7 +1132,7 @@ Revísala como un director de arte exigente y responde en una lista:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1164,15 +1164,15 @@ Revísala como un director de arte exigente y responde en una lista:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

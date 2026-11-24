@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 3.4 · AI Research and Papers | FTD v2</title>
 <meta content="How to read a paper, reproduce results, question benchmarks, and turn research into a product." name="description"/>
 <meta content="Module 3.4 · AI Research and Papers | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-4.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-4.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-4.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-4.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-4.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-4.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-3-4.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha3/modulo-3-4.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-4.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-3-4.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha3/modulo-3-4.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="3-4" data-inema-track="3" id="conteudo">
+<main data-ARCKHÉ-module="3-4" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">Method</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 3.4 progress" class="inema-ring" data-inema-meter="modulo:3-4"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:3-4"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 3.4 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-4"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-4"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. The ecosystem</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Three passes</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Anatomy of a paper</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Benchmarks mislead</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Reproducing results</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. From paper to product</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Team radar</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. The ecosystem</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Three passes</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Anatomy of a paper</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Benchmarks mislead</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Reproducing results</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. From paper to product</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Team radar</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="de onde vem a pesquisa e quanto confiar">🗺️ The research ecosystem</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t1-p1">AI research moves faster than the traditional scientific publishing system. Almost every relevant work first appears on <strong class="text-purple-400">arXiv</strong>, an open repository of <em>preprints</em> (versions published before any peer review). Months later, some of these works go through a conference review—NeurIPS, ICML, and ICLR for machine learning in general; ACL and EMNLP for language; CVPR for vision. In parallel, labs publish <strong class="text-neutral-100">technical reports</strong> e <strong class="text-neutral-100">system cards</strong> (documents describing a released model, its evaluations, and its risks) that never undergo external review.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t1-p2">For decision-makers, the takeaway is simple: <strong class="text-neutral-100">the channel tells you how much to trust it, not whether it is true</strong>. A preprint may be excellent; a conference paper may not hold up in your domain; a lab’s technical report contains valuable data, but it is written by the people selling the model. You read them all, with varying degrees of caution.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t1-p1">AI research moves faster than the traditional scientific publishing system. Almost every relevant work first appears on <strong class="text-purple-400">arXiv</strong>, an open repository of <em>preprints</em> (versions published before any peer review). Months later, some of these works go through a conference review—NeurIPS, ICML, and ICLR for machine learning in general; ACL and EMNLP for language; CVPR for vision. In parallel, labs publish <strong class="text-neutral-100">technical reports</strong> e <strong class="text-neutral-100">system cards</strong> (documents describing a released model, its evaluations, and its risks) that never undergo external review.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t1-p2">For decision-makers, the takeaway is simple: <strong class="text-neutral-100">the channel tells you how much to trust it, not whether it is true</strong>. A preprint may be excellent; a conference paper may not hold up in your domain; a lab’s technical report contains valuable data, but it is written by the people selling the model. You read them all, with varying degrees of caution.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">This is the path an idea takes from the lab to your product: preprint, review, open-source code, adoption by libraries, and finally a market feature. Each stage trades speed for trust.</p>
@@ -591,7 +591,7 @@
 </table>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t1-p3" data-sum="porque">Architects and technical leaders make costly decisions—switching models, adopting a retrieval technique, building a fine-tuning team—based on what they read. Knowing which channel the information came from changes the size of the bet: a preprint justifies a one-week test, not a system rewrite.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t1-p3" data-sum="porque">Architects and technical leaders make costly decisions—switching models, adopting a retrieval technique, building a fine-tuning team—based on what they read. Knowing which channel the information came from changes the size of the bet: a preprint justifies a one-week test, not a system rewrite.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Preprint</div><div class="text-xs text-neutral-400">published before peer review</div></div>
@@ -600,27 +600,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Speed × confidence</div><div class="text-xs text-neutral-400">the trade-off of each channel</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="ler o necessário, na profundidade certa">📖 Three-pass reading</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t2-p1">No one reads every cutting-edge paper from beginning to end. The most cited method for not getting lost is the <strong class="text-purple-400">three-pass method</strong>, described by S. Keshav in “How to Read a Paper” (2007). The idea: each pass is a decision. After the first, you decide whether a second is worthwhile; after the second, whether a third is worthwhile. Most papers stop at the first—and that’s success, not laziness.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t2-p2">In the <strong class="text-neutral-100">first pass</strong> you read the title, abstract, introduction, section headings, and conclusions, and look at the figures. In the <strong class="text-neutral-100">second one</strong>, you read the text carefully, understand the figures and tables, and note references you don’t know, without getting caught up in the proofs. In the <strong class="text-neutral-100">third</strong>, you try to reconstruct the work mentally—or in code—and question every assumption. Only papers that could change one of your decisions deserve a third pass.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t2-p1">No one reads every cutting-edge paper from beginning to end. The most cited method for not getting lost is the <strong class="text-purple-400">three-pass method</strong>, described by S. Keshav in “How to Read a Paper” (2007). The idea: each pass is a decision. After the first, you decide whether a second is worthwhile; after the second, whether a third is worthwhile. Most papers stop at the first—and that’s success, not laziness.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t2-p2">In the <strong class="text-neutral-100">first pass</strong> you read the title, abstract, introduction, section headings, and conclusions, and look at the figures. In the <strong class="text-neutral-100">second one</strong>, you read the text carefully, understand the figures and tables, and note references you don’t know, without getting caught up in the proofs. In the <strong class="text-neutral-100">third</strong>, you try to reconstruct the work mentally—or in code—and question every assumption. Only papers that could change one of your decisions deserve a third pass.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A protocol for reading with increasing depth: overview, understanding, and reconstruction. Each level ends with an explicit decision to stop or continue.</p>
@@ -657,7 +657,7 @@
 </figure>
 <div class="bg-dark-800 border border-purple-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-purple-400 font-semibold mb-1">🔎 Terms</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-4-t2-p3"><strong>Contribution</strong> is what the paper claims to add that is new (method, data, result, analysis). <strong>Implicit assumption</strong> is a condition the authors assume without stating—for example, that the test data resemble the production data. <strong>Related work</strong> is the section that positions the paper in relation to others; that’s where you discover the idea’s competitors.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-4-t2-p3"><strong>Contribution</strong> is what the paper claims to add that is new (method, data, result, analysis). <strong>Implicit assumption</strong> is a condition the authors assume without stating—for example, that the test data resemble the production data. <strong>Related work</strong> is the section that positions the paper in relation to others; that’s where you discover the idea’s competitors.</p>
 </div>
 <!-- COPY: ficha de leitura -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -681,7 +681,7 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> Choose two claims from the response and open the cited section or table. If the citation doesn’t check out, the summary isn’t useful—try again, asking for exact excerpts. Compare item 3 with what you know about the state of the art; that’s where the assistant most often makes mistakes by omission.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t2-p4" data-sum="porque">The bottleneck for leaders isn’t access to papers; it’s attention. A protocol with explicit gates turns an infinite stack of reading into a short queue of decisions and lets the rest of the team know how deeply each paper was read.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t2-p4" data-sum="porque">The bottleneck for leaders isn’t access to papers; it’s attention. A protocol with explicit gates turns an infinite stack of reading into a short queue of decisions and lets the rest of the team know how deeply each paper was read.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">First pass</div><div class="text-xs text-neutral-400">relevant or not</div></div>
@@ -690,27 +690,27 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Gate</div><div class="text-xs text-neutral-400">stopping is also a decision</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="onde cada resposta está escondida">🧩 Anatomy of a paper</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t3-p1">AI papers follow an almost fixed structure, and each part answers a different question. The abstract sells; the introduction lists the contributions; the method says what was done; the experiments show numbers; the <strong class="text-purple-400">ablation</strong> (an experiment that removes one component at a time to measure how much each contributes) shows what really matters; and the appendix holds the details that determine whether you can reproduce the work.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t3-p2">A good example of productive reading is “Attention Is All You Need” itself (Vaswani and colleagues, 2017), which introduced the Transformer. The title talks about attention, but readers who went to the table of architecture variations saw which choices mattered most to the result—information that, years later, guided many engineering decisions. The lesson applies to any paper: the argument is in the text, but the evidence is in the tables.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t3-p1">AI papers follow an almost fixed structure, and each part answers a different question. The abstract sells; the introduction lists the contributions; the method says what was done; the experiments show numbers; the <strong class="text-purple-400">ablation</strong> (an experiment that removes one component at a time to measure how much each contributes) shows what really matters; and the appendix holds the details that determine whether you can reproduce the work.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t3-p2">A good example of productive reading is “Attention Is All You Need” itself (Vaswani and colleagues, 2017), which introduced the Transformer. The title talks about attention, but readers who went to the table of architecture variations saw which choices mattered most to the result—information that, years later, guided many engineering decisions. The lesson applies to any paper: the argument is in the text, but the evidence is in the tables.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">This is a map of a paper’s sections and the question each one answers. Knowing the map lets you go straight to the passage that matters for your decision.</p>
@@ -732,7 +732,7 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-4-t3-p3">In language model papers, look in the appendix for the <strong>exact prompts</strong> used in the evaluation. Small changes in prompt format can change results; if the paper doesn’t publish the prompts, treat the numbers as approximate.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-4-t3-p3">In language model papers, look in the appendix for the <strong>exact prompts</strong> used in the evaluation. Small changes in prompt format can change results; if the paper doesn’t publish the prompts, treat the numbers as approximate.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-purple-900/20 rounded-xl border border-purple-500/30 p-6">
@@ -755,7 +755,7 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t3-p4" data-sum="porque">Knowing where each answer is found turns hours of reading into a few focused minutes. For a manager, that means being able to ask the team the right question—“What was the ablation?”—instead of accepting the summary as proof.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t3-p4" data-sum="porque">Knowing where each answer is found turns hours of reading into a few focused minutes. For a manager, that means being able to ask the team the right question—“What was the ablation?”—instead of accepting the summary as proof.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Ablation</div><div class="text-xs text-neutral-400">remove one component, measure the loss</div></div>
@@ -764,27 +764,27 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Appendix</div><div class="text-xs text-neutral-400">where reproduction details live</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="contaminação, saturação e a lei de Goodhart">📊 Why benchmarks can mislead</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t4-p1">A <strong class="text-purple-400">A benchmark</strong> is a fixed set of tasks with known answers, used to compare models — MMLU for general knowledge, HumanEval for code, SWE-bench for fixing real repository issues, GPQA for difficult science questions. They are useful and necessary. The problem is that as soon as a number becomes a public target, it starts losing its ability to measure what it promised. This is <strong class="text-neutral-100">Goodhart’s law</strong>: when a measure becomes a target, it stops being a good measure.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t4-p2">Three mechanisms make this happen. <strong class="text-neutral-100">Contamination</strong>: test questions appear, intentionally or not, in the training data, and the model “remembers” instead of solving them. <strong class="text-neutral-100">Saturation</strong>: the best models approach the ceiling, and the remaining differences become noise or answer key errors. <strong class="text-neutral-100">Test-set tuning</strong>: prompt, sampling, and configuration choices are made by looking at the benchmark itself, inflating the result. Human preference leaderboards, such as LMArena, measure something else — what people prefer in a conversation — and can also be specifically optimized for.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t4-p1">A <strong class="text-purple-400">A benchmark</strong> is a fixed set of tasks with known answers, used to compare models — MMLU for general knowledge, HumanEval for code, SWE-bench for fixing real repository issues, GPQA for difficult science questions. They are useful and necessary. The problem is that as soon as a number becomes a public target, it starts losing its ability to measure what it promised. This is <strong class="text-neutral-100">Goodhart’s law</strong>: when a measure becomes a target, it stops being a good measure.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t4-p2">Three mechanisms make this happen. <strong class="text-neutral-100">Contamination</strong>: test questions appear, intentionally or not, in the training data, and the model “remembers” instead of solving them. <strong class="text-neutral-100">Saturation</strong>: the best models approach the ceiling, and the remaining differences become noise or answer key errors. <strong class="text-neutral-100">Test-set tuning</strong>: prompt, sampling, and configuration choices are made by looking at the benchmark itself, inflating the result. Human preference leaderboards, such as LMArena, measure something else — what people prefer in a conversation — and can also be specifically optimized for.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It means critically reading evaluation numbers: understanding what the benchmark measures, whether it still distinguishes between models, and whether the result holds up on data the model has never seen — especially your own.</p>
@@ -844,10 +844,10 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-4-t4-p3">Build your own <strong>evaluation set</strong> — a few dozen to a few hundred real cases, anonymized in accordance with the LGPD (Brazil’s data protection law), with expected answers. It never goes on the internet, so it doesn’t contaminate training data, and it measures exactly what matters for your product. It’s the most valuable research asset an applied team can have.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-4-t4-p3">Build your own <strong>evaluation set</strong> — a few dozen to a few hundred real cases, anonymized in accordance with the LGPD (Brazil’s data protection law), with expected answers. It never goes on the internet, so it doesn’t contaminate training data, and it measures exactly what matters for your product. It’s the most valuable research asset an applied team can have.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t4-p4" data-sum="porque">Model launches come with benchmark tables selected by the people launching them. Readers who approach these numbers skeptically avoid unnecessary vendor switches and ask the team for the only evidence that settles the question: performance measured on the company’s data.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t4-p4" data-sum="porque">Model launches come with benchmark tables selected by the people launching them. Readers who approach these numbers skeptically avoid unnecessary vendor switches and ask the team for the only evidence that settles the question: performance measured on the company’s data.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Contamination</div><div class="text-xs text-neutral-400">test data leaked into training</div></div>
@@ -856,27 +856,27 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Your own evaluation</div><div class="text-xs text-neutral-400">your cases, kept off the internet</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o resultado se repete no seu ambiente?">🔁 Reproducing results</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t5-p1"><strong class="text-purple-400">Reproducing</strong> means getting the same result with the same method and data; <strong class="text-purple-400">replicating</strong> means getting a compatible result with different data or conditions — in your case, your company’s data. Both fail more often than you might think, almost always for the same reasons: an unpublished hyperparameter, a different prompt, a library version, or a single lucky run.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t5-p2">There’s an added complication with language model systems: the output is <strong class="text-neutral-100">stochastic</strong> (it has randomness controlled by temperature and the seed). A result measured once is a sample, not a fact. Before trusting an improvement, run it several times with different seeds and look at the average and variation. If the improvement is smaller than the variation across runs, you still don’t know whether it exists.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t5-p1"><strong class="text-purple-400">Reproducing</strong> means getting the same result with the same method and data; <strong class="text-purple-400">replicating</strong> means getting a compatible result with different data or conditions — in your case, your company’s data. Both fail more often than you might think, almost always for the same reasons: an unpublished hyperparameter, a different prompt, a library version, or a single lucky run.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t5-p2">There’s an added complication with language model systems: the output is <strong class="text-neutral-100">stochastic</strong> (it has randomness controlled by temperature and the seed). A result measured once is a sample, not a fact. Before trusting an improvement, run it several times with different seeds and look at the average and variation. If the improvement is smaller than the variation across runs, you still don’t know whether it exists.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It means confirming a research claim by tracking versions, seeds, and recorded settings, and running the experiment multiple times — first under the conditions in the paper, then with your own data.</p>
@@ -944,7 +944,7 @@ if __name__ == "__main__":
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> create a <code>cases.jsonl</code> with 20 to 50 short-answer questions (number, yes/no, one word) and run it twice with the same seeds: the numbers should be identical or very close. Then run it with <code>--temperatura 0</code> and compare the deviation. When testing a prompt or model change, accept the improvement only if the difference between the averages is greater than the deviation.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t5-p3" data-sum="porque">Many decisions that “the new model is better” are made after a single run on a handful of examples. Requiring an average and variation is a low-cost rule that prevents expensive migrations based on luck—and gives the team a shared language for discussing results.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t5-p3" data-sum="porque">Many decisions that “the new model is better” are made after a single run on a handful of examples. Requiring an average and variation is a low-cost rule that prevents expensive migrations based on luck—and gives the team a shared language for discussing results.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Reproducing</div><div class="text-xs text-neutral-400">same method, same data</div></div>
@@ -953,27 +953,27 @@ if __name__ == "__main__":
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Standard deviation</div><div class="text-xs text-neutral-400">how much the result varies</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="portões entre a ideia e a produção">🏭 From paper to product</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t6-p1">Some papers became infrastructure for the entire field. “Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” (Lewis et al., 2020) gave RAG its name. “LoRA: Low-Rank Adaptation of Large Language Models” (Hu et al., 2021) made fine-tuning inexpensive. “Chain-of-Thought Prompting Elicits Reasoning in Large Language Models” (Wei et al., 2022) changed how people write prompts, and “ReAct” (Yao et al., 2022) established the pattern of reasoning and acting with tools that underlies agents. In every case, the path to a product involved many teams testing the idea under real-world conditions.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t6-p2">For a company, the question isn’t “Is this paper good?” but “<strong class="text-neutral-100">What’s the smallest piece of evidence that justifies the next investment?</strong>” A ladder with explicit gates prevents two opposite mistakes: ignoring a technique that has already become standard and rewriting the system because of last week’s preprint.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t6-p1">Some papers became infrastructure for the entire field. “Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” (Lewis et al., 2020) gave RAG its name. “LoRA: Low-Rank Adaptation of Large Language Models” (Hu et al., 2021) made fine-tuning inexpensive. “Chain-of-Thought Prompting Elicits Reasoning in Large Language Models” (Wei et al., 2022) changed how people write prompts, and “ReAct” (Yao et al., 2022) established the pattern of reasoning and acting with tools that underlies agents. In every case, the path to a product involved many teams testing the idea under real-world conditions.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t6-p2">For a company, the question isn’t “Is this paper good?” but “<strong class="text-neutral-100">What’s the smallest piece of evidence that justifies the next investment?</strong>” A ladder with explicit gates prevents two opposite mistakes: ignoring a technique that has already become standard and rewriting the system because of last week’s preprint.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It’s a step-by-step adoption process — reading, reproduction, validation on your own data, a pilot, and production — with a pass criterion agreed on in advance for each step.</p>
@@ -1018,10 +1018,10 @@ if __name__ == "__main__":
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-4-t6-p3">Before implementing anything, check whether the technique is already available in a maintained library (Hugging Face Transformers, PEFT, TRL, LangGraph) or as a resource from your provider. Implementing a paper from scratch only makes sense when the advantage justifies maintaining the code indefinitely.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-4-t6-p3">Before implementing anything, check whether the technique is already available in a maintained library (Hugging Face Transformers, PEFT, TRL, LangGraph) or as a resource from your provider. Implementing a paper from scratch only makes sense when the advantage justifies maintaining the code indefinitely.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t6-p4" data-sum="porque">Research without an adoption process becomes one of two things: curiosity that never delivers, or a big bet without evidence. The gated ladder gives leadership a way to say “yes, with limits”—the balance that makes innovation possible without putting the product at risk.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t6-p4" data-sum="porque">Research without an adoption process becomes one of two things: curiosity that never delivers, or a big bet without evidence. The gated ladder gives leadership a way to say “yes, with limits”—the balance that makes innovation possible without putting the product at risk.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Adoption ladder</div><div class="text-xs text-neutral-400">one step at a time</div></div>
@@ -1030,27 +1030,27 @@ if __name__ == "__main__":
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Rollback plan</div><div class="text-xs text-neutral-400">safely reverse course</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-3-4#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="uma rotina semanal que cabe na agenda">📡 The team’s research radar</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t7-p1">Keeping up with research isn’t a heroic individual task; it’s a team routine. A <strong class="text-purple-400">research radar</strong> is a living list of techniques classified by status — watch, test, adopt, discard — kept up to date with short briefs and reviewed at a regular meeting. It works because it divides the reading, records the reasoning, and turns “I saw a cool paper” into a traceable decision.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t7-p2">The simplest format is a <strong class="text-neutral-100">journal club</strong> : each week, one person presents a paper in fifteen minutes using the brief from topic 2, and the group decides which ring of the radar it belongs in. AI assistants speed up triage, but a named person makes the decision and completes the final brief.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t7-p1">Keeping up with research isn’t a heroic individual task; it’s a team routine. A <strong class="text-purple-400">research radar</strong> is a living list of techniques classified by status — watch, test, adopt, discard — kept up to date with short briefs and reviewed at a regular meeting. It works because it divides the reading, records the reasoning, and turns “I saw a cool paper” into a traceable decision.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t7-p2">The simplest format is a <strong class="text-neutral-100">journal club</strong> : each week, one person presents a paper in fifteen minutes using the brief from topic 2, and the group decides which ring of the radar it belongs in. AI assistants speed up triage, but a named person makes the decision and completes the final brief.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A team routine with defined sources, standardized briefs, and a radar of techniques in four statuses, reviewed on a fixed schedule.</p>
@@ -1110,7 +1110,7 @@ Format: one table per item, then 3 suggested decisions for the meeting.</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> Manually check two rows in the table against the original briefs. If a paper or date appears that isn’t in the briefs, discard the response and repeat, reinforcing the last instruction.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-4-t7-p3" data-sum="porque">The value of tracking research shows up months later, when a problem arises and the team already knows which techniques were tested, which failed, and why. Without a record, everyone has to relearn things on their own, and knowledge walks out the door when someone changes jobs.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-4-t7-p3" data-sum="porque">The value of tracking research shows up months later, when a problem arises and the team already knows which techniques were tested, which failed, and why. Without a record, everyone has to relearn things on their own, and knowledge walks out the door when someone changes jobs.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Radar</div><div class="text-xs text-neutral-400">techniques by status</div></div>
@@ -1119,11 +1119,11 @@ Format: one table per item, then 3 suggested decisions for the meeting.</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Owner</div><div class="text-xs text-neutral-400">name and deadline</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1154,7 +1154,7 @@ Format: one table per item, then 3 suggested decisions for the meeting.</pre>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1186,15 +1186,15 @@ Format: one table per item, then 3 suggested decisions for the meeting.</pre>
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

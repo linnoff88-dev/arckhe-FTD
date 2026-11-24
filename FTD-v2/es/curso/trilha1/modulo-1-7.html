@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 1.7 · Automatización de procesos | FTD v2</title>
 <meta content="Mapear un proceso, elegir el disparador, armar el flujo y dejar que la IA se encargue de las etapas adecuadas." name="description"/>
 <meta content="Módulo 1.7 · Automatización de procesos | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-7.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-7.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-7.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-7.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-7.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-7.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-7.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-7.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-7.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-7.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-7.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-7" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-7" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Práctica</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 1.7" class="inema-ring" data-inema-meter="modulo:1-7"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-7"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 1.7" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-7"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-7"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,36 +506,36 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Disparador y acción</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Mapear antes</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. n8n, Make y Zapier</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Un flujo real</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Dónde entra la IA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Probar y proteger</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Tu primera automatización</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Disparador y acción</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Mapear antes</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. n8n, Make y Zapier</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Un flujo real</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Dónde entra la IA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Probar y proteger</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Tu primera automatización</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quando isto acontece, faça aquilo">🔄 Disparador y acción</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t1-p1">Toda automatización, desde la más sencilla hasta la más elaborada, cabe en una frase: <strong class="text-neutral-100">"cuando ocurra esto, haz aquello"</strong>. Cuando llegue un correo electrónico con un archivo adjunto, guarda el archivo en una carpeta. Cuando alguien complete el formulario, regístralo en la hoja de cálculo y avísame. Cuando sea lunes a las 8 h, prepara el informe de la semana. Ya haces estas tareas a mano; automatizar es enseñarle a la computadora a hacerlas por ti.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t1-p1">Toda automatización, desde la más sencilla hasta la más elaborada, cabe en una frase: <strong class="text-neutral-100">"cuando ocurra esto, haz aquello"</strong>. Cuando llegue un correo electrónico con un archivo adjunto, guarda el archivo en una carpeta. Cuando alguien complete el formulario, regístralo en la hoja de cálculo y avísame. Cuando sea lunes a las 8 h, prepara el informe de la semana. Ya haces estas tareas a mano; automatizar es enseñarle a la computadora a hacerlas por ti.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t1-p2"><strong>Disparador</strong> (trigger) es el evento que pone todo en marcha: un correo nuevo, una fila nueva en la hoja de cálculo, una hora determinada. <strong>Acción</strong> es lo que hace la automatización después: crear, enviar, copiar, avisar. <strong>Flujo</strong> (workflow) es la secuencia de un disparador y acciones. <strong>Sin código</strong> (no-code) significa que armas todo arrastrando bloques en una pantalla, sin programar. <strong>Integración</strong> es la conexión entre dos aplicaciones, como Gmail y Google Sheets.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p2"><strong>Disparador</strong> (trigger) es el evento que pone todo en marcha: un correo nuevo, una fila nueva en la hoja de cálculo, una hora determinada. <strong>Acción</strong> es lo que hace la automatización después: crear, enviar, copiar, avisar. <strong>Flujo</strong> (workflow) es la secuencia de un disparador y acciones. <strong>Sin código</strong> (no-code) significa que armas todo arrastrando bloques en una pantalla, sin programar. <strong>Integración</strong> es la conexión entre dos aplicaciones, como Gmail y Google Sheets.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -579,12 +579,12 @@
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">Cómo leer:</strong> El círculo que pulsa muestra que el disparador permanece "de guardia" todo el tiempo. Cuando ocurre el evento, las acciones se ejecutan en orden, de izquierda a derecha, y cada una usa los datos de la anterior (el nombre del archivo adjunto, el remitente, la fecha). No necesitas intervenir en ninguna.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">📨 Por evento</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t1-p3">Ocurrió algo: un mensaje, un formulario, un pago, un archivo nuevo en una carpeta.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⏰ Por horario</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t1-p4">Todos los días a las 7 h, cada lunes, el último día del mes. Ideal para informes y recordatorios.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">👆 Manual</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t1-p5">Presionas un botón y se ejecuta toda la secuencia. Es una buena forma de empezar y probar.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">📨 Por evento</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p3">Ocurrió algo: un mensaje, un formulario, un pago, un archivo nuevo en una carpeta.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⏰ Por horario</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p4">Todos los días a las 7 h, cada lunes, el último día del mes. Ideal para informes y recordatorios.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">👆 Manual</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p5">Presionas un botón y se ejecuta toda la secuencia. Es una buena forma de empezar y probar.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t1-p6" data-sum="porque">Las tareas pequeñas y repetidas suman horas al mes y son donde más se producen olvidos y errores de escritura. Pensar en «disparador y acción» te ayuda a detectar estas tareas en tu rutina, y es el primer paso para quitártelas de encima.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t1-p6" data-sum="porque">Las tareas pequeñas y repetidas suman horas al mes y son donde más se producen olvidos y errores de escritura. Pensar en «disparador y acción» te ayuda a detectar estas tareas en tu rutina, y es el primer paso para quitártelas de encima.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Disparador</div><div class="text-xs text-neutral-400">el evento que pone todo en marcha</div></div>
@@ -593,34 +593,34 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Integración</div><div class="text-xs text-neutral-400">aplicaciones que se comunican</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="priorizar, planejar e pilotar">🗺️ Mapear antes de automatizar</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t2-p1">El error más común es abrir la herramienta antes de entender el proceso. Automatizar un desorden solo produce desorden más rápido. Antes de arrastrar el primer bloque, escribe en papel <strong class="text-neutral-100">cómo se hace hoy la tarea</strong>, paso a paso, quién la hace, dónde está la información y qué ocurre cuando algo sale de lo normal. Un método sencillo de tres etapas ayuda: <strong class="text-emerald-400">priorizar, planificar y pilotear</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t2-p1">El error más común es abrir la herramienta antes de entender el proceso. Automatizar un desorden solo produce desorden más rápido. Antes de arrastrar el primer bloque, escribe en papel <strong class="text-neutral-100">cómo se hace hoy la tarea</strong>, paso a paso, quién la hace, dónde está la información y qué ocurre cuando algo sale de lo normal. Un método sencillo de tres etapas ayuda: <strong class="text-emerald-400">priorizar, planificar y pilotear</strong>.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Mapear un proceso es describir cada paso de una tarea repetida —entrada, decisiones, salida y excepciones— para elegir qué vale la pena automatizar y diseñar el flujo antes de armarlo en la herramienta.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Priorizar</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t2-p2">Enumera las tareas repetidas y elige la que sea frecuente, siga reglas claras y resulte molesta. Deja para después lo que ocurre rara vez o cambia cada vez.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Planificar</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t2-p3">Dibuja el flujo: activador, pasos, decisiones («si es urgente…»), dónde queda cada dato y qué hacer cuando haya un error.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Hacer una prueba piloto</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t2-p4">Ejecútalo con datos de prueba, luego en paralelo al trabajo manual durante una o dos semanas y solo entonces déjalo funcionar por su cuenta.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Priorizar</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t2-p2">Enumera las tareas repetidas y elige la que sea frecuente, siga reglas claras y resulte molesta. Deja para después lo que ocurre rara vez o cambia cada vez.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Planificar</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t2-p3">Dibuja el flujo: activador, pasos, decisiones («si es urgente…»), dónde queda cada dato y qué hacer cuando haya un error.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Hacer una prueba piloto</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t2-p4">Ejecútalo con datos de prueba, luego en paralelo al trabajo manual durante una o dos semanas y solo entonces déjalo funcionar por su cuenta.</p></div>
 </div>
 <div class="overflow-x-auto mb-6">
 <table class="w-full text-sm border border-dark-600 rounded-xl overflow-hidden">
@@ -651,7 +651,7 @@ Aplicaciones involucradas: &lt;Gmail, WhatsApp, Hojas de cálculo de Google, sis
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> Lee los pasos numerados y pregúntate: «¿Así es como lo hago?». Si la IA se saltó un paso o inventó uno, corrígelo antes de continuar. El flujo final debe tener un activador claro y un plan para cuando haya un error.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t2-p5" data-sum="porque">Media hora de mapeo evita días de retrabajo en la herramienta. Además, solo con escribir el proceso, sueles encontrar pasos inútiles que puedes eliminar; a veces, la mejor automatización es simplemente dejar de hacer algo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t2-p5" data-sum="porque">Media hora de mapeo evita días de retrabajo en la herramienta. Además, solo con escribir el proceso, sueles encontrar pasos inútiles que puedes eliminar; a veces, la mejor automatización es simplemente dejar de hacer algo.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Mapeo</div><div class="text-xs text-neutral-400">el proceso en papel</div></div>
@@ -660,26 +660,26 @@ Aplicaciones involucradas: &lt;Gmail, WhatsApp, Hojas de cálculo de Google, sis
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Prueba piloto</div><div class="text-xs text-neutral-400">ejecutar en paralelo primero</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="três ferramentas, o mesmo raciocínio">🧰 n8n, Make y Zapier</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t3-p1">Las tres herramientas sin código más conocidas para automatización son <strong class="text-neutral-100">Zapier</strong>, o <strong class="text-neutral-100">Make</strong> e o <strong class="text-neutral-100">n8n</strong>. Las tres hacen el mismo trabajo de fondo —conectar aplicaciones mediante activadores y acciones— y todas ya tienen bloques listos para usar IA. Cambia la forma de armarlas, dónde se ejecuta el flujo y cómo cobran. Quien aprende a usar una entiende las otras en poco tiempo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t3-p1">Las tres herramientas sin código más conocidas para automatización son <strong class="text-neutral-100">Zapier</strong>, o <strong class="text-neutral-100">Make</strong> e o <strong class="text-neutral-100">n8n</strong>. Las tres hacen el mismo trabajo de fondo —conectar aplicaciones mediante activadores y acciones— y todas ya tienen bloques listos para usar IA. Cambia la forma de armarlas, dónde se ejecuta el flujo y cómo cobran. Quien aprende a usar una entiende las otras en poco tiempo.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Son plataformas visuales donde cada paso del flujo es un bloque (llamado etapa, módulo o nodo) conectado con el siguiente. Eliges la aplicación, conectas tu cuenta e indicas qué dato pasa de un bloque a otro.</p>
@@ -698,14 +698,14 @@ Aplicaciones involucradas: &lt;Gmail, WhatsApp, Hojas de cálculo de Google, sis
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t3-p2"><strong>Código abierto</strong> quiere decir que cualquier persona puede descargar e instalar el programa. <strong>Alojar en un servidor propio</strong> (self-host) es ejecutar el programa en una computadora propia o alquilada, en lugar de usar el servicio de la empresa. <strong>Conector</strong> es el bloque listo para usar que sabe comunicarse con una aplicación. <strong>Credencial</strong> es el permiso que le das a la herramienta para acceder a tu cuenta (por ejemplo, «puedes leer mi Gmail»).</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t3-p2"><strong>Código abierto</strong> quiere decir que cualquier persona puede descargar e instalar el programa. <strong>Alojar en un servidor propio</strong> (self-host) es ejecutar el programa en una computadora propia o alquilada, en lugar de usar el servicio de la empresa. <strong>Conector</strong> es el bloque listo para usar que sabe comunicarse con una aplicación. <strong>Credencial</strong> es el permiso que le das a la herramienta para acceder a tu cuenta (por ejemplo, «puedes leer mi Gmail»).</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t3-p3">Las tres ofrecen alguna forma de empezar sin pagar y cobran a medida que aumenta el uso; cada una lo cuenta de una manera (tareas, operaciones o ejecuciones). Los nombres de los planes y los precios cambian con frecuencia; consulta la página de la herramienta el día que vayas a contratarla. El método que aprendes aquí sirve para cualquiera.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t3-p3">Las tres ofrecen alguna forma de empezar sin pagar y cobran a medida que aumenta el uso; cada una lo cuenta de una manera (tareas, operaciones o ejecuciones). Los nombres de los planes y los precios cambian con frecuencia; consulta la página de la herramienta el día que vayas a contratarla. El método que aprendes aquí sirve para cualquiera.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t3-p4" data-sum="porque">Saber qué diferencia a las herramientas evita que elijas basándote en la publicidad. Para la mayoría de los primeros flujos, cualquiera sirve; la elección cobra importancia cuando entran en juego el volumen, los datos sensibles o las ganas de ejecutar todo en tu propio servidor.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t3-p4" data-sum="porque">Saber qué diferencia a las herramientas evita que elijas basándote en la publicidad. Para la mayoría de los primeros flujos, cualquiera sirve; la elección cobra importancia cuando entran en juego el volumen, los datos sensibles o las ganas de ejecutar todo en tu propio servidor.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Nodo / módulo / etapa</div><div class="text-xs text-neutral-400">un paso del flujo</div></div>
@@ -714,26 +714,26 @@ Aplicaciones involucradas: &lt;Gmail, WhatsApp, Hojas de cálculo de Google, sis
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Self-host</div><div class="text-xs text-neutral-400">ejecutar en tu servidor</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pedidos de orçamento, do formulário ao rascunho">🧪 Un flujo real, paso a paso</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t4-p1">Vamos a armar un flujo concreto. Escenario: una pequeña empresa de remodelaciones recibe <strong class="text-neutral-100">solicitudes de presupuesto</strong> a través de un formulario del sitio web. Hoy alguien copia cada solicitud en una hoja de cálculo, la lee, decide si es urgente y redacta una respuesta. El flujo de abajo hace el trabajo mecánico y deja la decisión final en manos de una persona: la IA resume y clasifica, la hoja de cálculo registra, Telegram avisa qué es urgente y Gmail guarda un <strong class="text-neutral-100">borrador</strong> — que solo se envía después de que alguien lo revise.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t4-p1">Vamos a armar un flujo concreto. Escenario: una pequeña empresa de remodelaciones recibe <strong class="text-neutral-100">solicitudes de presupuesto</strong> a través de un formulario del sitio web. Hoy alguien copia cada solicitud en una hoja de cálculo, la lee, decide si es urgente y redacta una respuesta. El flujo de abajo hace el trabajo mecánico y deja la decisión final en manos de una persona: la IA resume y clasifica, la hoja de cálculo registra, Telegram avisa qué es urgente y Gmail guarda un <strong class="text-neutral-100">borrador</strong> — que solo se envía después de que alguien lo revise.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un flujo de seis pasos —formulario, IA, hoja de cálculo, decisión, aviso y borrador— que convierte cada solicitud de presupuesto en un registro organizado y una respuesta lista para revisión, sin enviar nada por su cuenta.</p>
@@ -784,7 +784,7 @@ Aplicaciones involucradas: &lt;Gmail, WhatsApp, Hojas de cálculo de Google, sis
 </svg>
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">Cómo leer:</strong> sigue las flechas desde el formulario. En el paso 4, el flujo se divide: el aviso en Telegram solo ocurre cuando la solicitud es urgente; el borrador en Gmail se crea siempre. Observa que el último paso lo realiza una persona: la automatización prepara, pero nada se envía al cliente sin revisión.</figcaption>
 </figure>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t4-p2">A continuación, el montaje en <strong class="text-neutral-100">n8n</strong>. En Make y Zapier los nombres de los bloques cambian un poco, pero la secuencia es la misma. Antes de empezar, crea una hoja de cálculo en Google Sheets con las columnas <em>fecha, nombre, contacto, servicio, ciudad, resumen, urgencia, estado</em>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t4-p2">A continuación, el montaje en <strong class="text-neutral-100">n8n</strong>. En Make y Zapier los nombres de los bloques cambian un poco, pero la secuencia es la misma. Antes de empezar, crea una hoja de cálculo en Google Sheets con las columnas <em>fecha, nombre, contacto, servicio, ciudad, resumen, urgencia, estado</em>.</p>
 <div class="relative border-l-2 border-emerald-500/30 ml-3 pl-6 space-y-5 mb-6">
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-emerald-500/20 border-2 border-emerald-400"></span><p class="text-sm text-neutral-300"><strong class="text-emerald-400">Paso 1 · Disparador.</strong> Crea un workflow nuevo y agrega el disparador de formulario (en n8n, el nodo <em>On form submission</em>, que genera un formulario propio; o el disparador de Google Forms en Make y Zapier). Campos: nombre, contacto, servicio, ciudad, plazo deseado, descripción.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-emerald-500/20 border-2 border-emerald-400"></span><p class="text-sm text-neutral-300"><strong class="text-emerald-400">Paso 2 · IA.</strong> Agrega un nodo de modelo de lenguaje (OpenAI, Anthropic, Gemini o un modelo local mediante Ollama). Conecta la credencial y pega el prompt del bloque de abajo, insertando en él los campos del formulario. Pide la respuesta en formato JSON.</p></div>
@@ -820,10 +820,10 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t4-p3">El nodo de IA de un servicio en la nube usa una clave de acceso de la empresa del modelo y cobra por uso. Para aprender sin costo, n8n instalado en tu computadora se conecta con un modelo local mediante Ollama; el resultado es un poco menos refinado, pero el flujo es idéntico.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t4-p3">El nodo de IA de un servicio en la nube usa una clave de acceso de la empresa del modelo y cobra por uso. Para aprender sin costo, n8n instalado en tu computadora se conecta con un modelo local mediante Ollama; el resultado es un poco menos refinado, pero el flujo es idéntico.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t4-p4" data-sum="porque">Ver un flujo completo, con una decisión y revisión humana, muestra el patrón que se repite en casi todas las automatizaciones útiles: entrada, procesamiento con IA, registro, regla y salida supervisada. Cuando armes este, podrás adaptarlo a atención al cliente, finanzas o RR. HH.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t4-p4" data-sum="porque">Ver un flujo completo, con una decisión y revisión humana, muestra el patrón que se repite en casi todas las automatizaciones útiles: entrada, procesamiento con IA, registro, regla y salida supervisada. Cuando armes este, podrás adaptarlo a atención al cliente, finanzas o RR. HH.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Nodo de IA</div><div class="text-xs text-neutral-400">el modelo dentro del flujo</div></div>
@@ -832,26 +832,26 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Borrador</div><div class="text-xs text-neutral-400">prepara, no envía</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="regra fixa onde dá, IA onde precisa">🧠 Dónde entra la IA en el flujo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t5-p1">No todos los pasos necesitan IA. Copiar un campo a la hoja de cálculo, comparar una fecha o enviar un aviso son <strong class="text-neutral-100">reglas fijas</strong>: siempre dan el mismo resultado, no tienen un costo adicional y no fallan por creatividad. La IA vale la pena cuando la entrada es <strong class="text-neutral-100">texto libre y variado</strong> —un correo, una descripción, una queja— y alguien tendría que leerla para entenderla.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t5-p1">No todos los pasos necesitan IA. Copiar un campo a la hoja de cálculo, comparar una fecha o enviar un aviso son <strong class="text-neutral-100">reglas fijas</strong>: siempre dan el mismo resultado, no tienen un costo adicional y no fallan por creatividad. La IA vale la pena cuando la entrada es <strong class="text-neutral-100">texto libre y variado</strong> —un correo, una descripción, una queja— y alguien tendría que leerla para entenderla.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es la elección, paso a paso, entre una regla fija y la IA. La IA sirve para clasificar, extraer datos, resumir y redactar textos; las reglas fijas se encargan de copiar, comparar, calcular y enviar. Cuando un error puede costar caro, una persona lo aprueba.</p>
@@ -908,7 +908,7 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t5-p2" data-sum="porque">Poner IA en cada paso hace que el flujo sea más caro, más lento y menos predecible. Usarla solo donde hace falta —y contar con aprobación humana cuando un error tiene consecuencias— ofrece lo mejor de ambos mundos: la máquina lee, la regla ejecuta y la persona decide.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t5-p2" data-sum="porque">Poner IA en cada paso hace que el flujo sea más caro, más lento y menos predecible. Usarla solo donde hace falta —y contar con aprobación humana cuando un error tiene consecuencias— ofrece lo mejor de ambos mundos: la máquina lee, la regla ejecuta y la persona decide.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Regla fija</div><div class="text-xs text-neutral-400">siempre da el mismo resultado</div></div>
@@ -917,26 +917,26 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Aprobación humana</div><div class="text-xs text-neutral-400">donde un error puede costar caro</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="dados falsos, aviso de erro e LGPD">🛡️ Probar, vigilar y proteger</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t6-p1">Una automatización trabaja cuando nadie está mirando, y precisamente por eso puede fallar en silencio durante semanas. Vence la contraseña de una cuenta, cambia el nombre de un campo del formulario o la IA devuelve un texto con un formato distinto. Un flujo bien hecho <strong class="text-neutral-100">te avisa cuando falla</strong>, guarda un registro de lo que hizo y protege los datos que pasan por él.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t6-p1">Una automatización trabaja cuando nadie está mirando, y precisamente por eso puede fallar en silencio durante semanas. Vence la contraseña de una cuenta, cambia el nombre de un campo del formulario o la IA devuelve un texto con un formato distinto. Un flujo bien hecho <strong class="text-neutral-100">te avisa cuando falla</strong>, guarda un registro de lo que hizo y protege los datos que pasan por él.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Son cuidados que hacen que una automatización sea confiable: probarla con datos falsos, recibir un aviso cuando haya un error, revisar el historial de ejecuciones, limitar los costos de la IA y tratar los datos personales de acuerdo con la LGPD.</p>
@@ -955,7 +955,7 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t6-p2"><strong>Ejecución</strong> es cada vez que el flujo corre de principio a fin; las herramientas guardan un historial con lo que entró y salió en cada paso. <strong>Flujo de error</strong> es un segundo flujo que solo se ejecuta cuando falla el principal, para avisarte. <strong>Dato de prueba</strong> es una información inventada («Cliente de prueba», «prueba@ejemplo.com») que se usa para experimentar sin modificar datos reales.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t6-p2"><strong>Ejecución</strong> es cada vez que el flujo corre de principio a fin; las herramientas guardan un historial con lo que entró y salió en cada paso. <strong>Flujo de error</strong> es un segundo flujo que solo se ejecuta cuando falla el principal, para avisarte. <strong>Dato de prueba</strong> es una información inventada («Cliente de prueba», «prueba@ejemplo.com») que se usa para experimentar sin modificar datos reales.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
@@ -976,7 +976,7 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t6-p3" data-sum="porque">Una automatización sin vigilancia se convierte en un riesgo oculto: puede dejar de funcionar, enviar un mensaje equivocado o exponer datos. Los cuidados de esta lista llevan poco tiempo y permiten confiar en el flujo y dejarlo funcionar de verdad.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t6-p3" data-sum="porque">Una automatización sin vigilancia se convierte en un riesgo oculto: puede dejar de funcionar, enviar un mensaje equivocado o exponer datos. Los cuidados de esta lista llevan poco tiempo y permiten confiar en el flujo y dejarlo funcionar de verdad.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Dato de prueba</div><div class="text-xs text-neutral-400">experimentar sin riesgos</div></div>
@@ -985,26 +985,26 @@ No prometas precios ni fechas. Si falta información, pídela en el borrador.</p
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Datos mínimos</div><div class="text-xs text-neutral-400">solo lo necesario (LGPD)</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="escolha uma e monte esta semana">🛠️ Tu primera automatización</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t7-p1">La mejor primera automatización es <strong class="text-neutral-100">pequeña, frecuente y de bajo riesgo</strong>. No empieces por el proceso más importante de la empresa; empieza por algo que te molesta cada semana y que, si sale mal, puedes corregir en dos minutos. Las cinco ideas de abajo cubren las situaciones más comunes para quienes están empezando.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t7-p1">La mejor primera automatización es <strong class="text-neutral-100">pequeña, frecuente y de bajo riesgo</strong>. No empieces por el proceso más importante de la empresa; empieza por algo que te molesta cada semana y que, si sale mal, puedes corregir en dos minutos. Las cinco ideas de abajo cubren las situaciones más comunes para quienes están empezando.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un ejercicio para elegir una automatización sencilla, pedirle al asistente la especificación completa del flujo y montarla en la herramienta que elegiste, siguiendo el método del módulo.</p>
@@ -1040,10 +1040,10 @@ Entrégame:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t7-p2">Anota en una hoja de cálculo sencilla cada automatización que crees: nombre, qué hace, herramienta, quién es responsable y cómo desactivarla. Cuando tengas cinco o seis flujos, esta lista se convertirá en el mapa que evita sorpresas y muestra cuánto trabajo repetitivo salió de tu rutina.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t7-p2">Anota en una hoja de cálculo sencilla cada automatización que crees: nombre, qué hace, herramienta, quién es responsable y cómo desactivarla. Cuando tengas cinco o seis flujos, esta lista se convertirá en el mapa que evita sorpresas y muestra cuánto trabajo repetitivo salió de tu rutina.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t7-p3" data-sum="porque">La primera automatización en funcionamiento cambia la forma en que ves el trabajo: cada tarea repetitiva se convierte en una candidata. Empezar poco a poco garantiza que esa primera experiencia sea un éxito y no un susto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t7-p3" data-sum="porque">La primera automatización en funcionamiento cambia la forma en que ves el trabajo: cada tarea repetitiva se convierte en una candidata. Empezar poco a poco garantiza que esa primera experiencia sea un éxito y no un susto.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Bajo riesgo</div><div class="text-xs text-neutral-400">error fácil de corregir</div></div>
@@ -1052,11 +1052,11 @@ Entrégame:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Inventario</div><div class="text-xs text-neutral-400">lista de tus flujos</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1087,7 +1087,7 @@ Entrégame:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1119,15 +1119,15 @@ Entrégame:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

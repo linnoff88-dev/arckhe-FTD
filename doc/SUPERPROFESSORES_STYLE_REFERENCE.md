@@ -282,7 +282,7 @@ xl:  1280px  - Large desktop
         <a href="../index.html#trilhas" class="text-neutral-700 dark:text-neutral-300 hover:text-primary">
           Trilhas
         </a>
-        <a href="https://github.com/inematds/SuperProf" class="text-neutral-700 dark:text-neutral-300 hover:text-primary">
+        <a href="https://github.com/linnoff88-dev/SuperProf" class="text-neutral-700 dark:text-neutral-300 hover:text-primary">
           GitHub
         </a>
 
@@ -698,8 +698,8 @@ document.addEventListener('keydown', function(e) {
       <div>
         <h4 class="font-semibold text-white mb-4">Contato</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="mailto:inematds@gmail.com" class="hover:text-white">Email</a></li>
-          <li><a href="https://github.com/inematds" class="hover:text-white">GitHub</a></li>
+          <li><a href="mailto:linnoff88-dev@gmail.com" class="hover:text-white">Email</a></li>
+          <li><a href="https://github.com/linnoff88-dev" class="hover:text-white">GitHub</a></li>
         </ul>
       </div>
 

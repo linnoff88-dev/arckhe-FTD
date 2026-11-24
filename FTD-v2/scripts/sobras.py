@@ -17,7 +17,7 @@ for lang in ('en', 'es'):
         for n in s.find_all(string=True):
             if isinstance(n, Comment) or n.parent.name in ('style',):
                 continue
-            if n.parent.name == 'script' and not n.parent.has_attr('data-inema-manifest'):
+            if n.parent.name == 'script' and not n.parent.has_attr('data-ARCKHÉ-manifest'):
                 continue
             t = str(n)
             if PT.search(t) and not OK.search(t):

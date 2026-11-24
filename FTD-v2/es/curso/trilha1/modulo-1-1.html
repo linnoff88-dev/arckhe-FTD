@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 1.1 · Impacto de la IA | FTD v2</title>
 <meta content="Qué es realmente la inteligencia artificial, de dónde viene, qué cambia en el trabajo y en qué falla." name="description"/>
 <meta content="Módulo 1.1 · Impacto de la IA | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-1.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-1.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-1.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-1.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-1.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-1.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-1.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-1.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-1.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-1.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-1.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-1" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-1" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Fundamento</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 1.1" class="inema-ring" data-inema-meter="modulo:1-1"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-1"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 1.1" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-1"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-1"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,36 +506,36 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. IA sin misterio</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. De 1950 a los agentes</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Cómo funciona un LLM</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Lo que la IA ya crea</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Qué cambia en el trabajo</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Dónde se equivoca la IA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Tu primer uso</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. IA sin misterio</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. De 1950 a los agentes</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Cómo funciona un LLM</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Lo que la IA ya crea</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Qué cambia en el trabajo</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Dónde se equivoca la IA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Tu primer uso</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="padrões aprendidos, não mágica">🎯 IA sin misterio</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t1-p1"><strong class="text-emerald-400">Inteligencia artificial</strong> es el nombre que reciben los programas que realizan tareas que antes requerían que una persona pensara: entender una solicitud escrita, reconocer un rostro en una foto, resumir un contrato, escribir un correo electrónico. La diferencia con un programa común está en de dónde viene la regla. En un programa común, alguien escribe cada regla a mano. En la IA moderna, el programa <strong class="text-neutral-100">aprende las reglas por sí solo</strong>, al observar millones de ejemplos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t1-p1"><strong class="text-emerald-400">Inteligencia artificial</strong> es el nombre que reciben los programas que realizan tareas que antes requerían que una persona pensara: entender una solicitud escrita, reconocer un rostro en una foto, resumir un contrato, escribir un correo electrónico. La diferencia con un programa común está en de dónde viene la regla. En un programa común, alguien escribe cada regla a mano. En la IA moderna, el programa <strong class="text-neutral-100">aprende las reglas por sí solo</strong>, al observar millones de ejemplos.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t1-p2"><strong>Algoritmo</strong> es una receta de pasos que sigue la computadora. <strong>Modelo</strong> es el resultado del entrenamiento: un archivo enorme de números que guarda los patrones aprendidos. <strong>Entrenar</strong> es ajustar esos números hasta que el modelo acierte con los ejemplos. Cuando usas ChatGPT, Claude o Gemini, conversas con un modelo que ya fue entrenado.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t1-p2"><strong>Algoritmo</strong> es una receta de pasos que sigue la computadora. <strong>Modelo</strong> es el resultado del entrenamiento: un archivo enorme de números que guarda los patrones aprendidos. <strong>Entrenar</strong> es ajustar esos números hasta que el modelo acierte con los ejemplos. Cuando usas ChatGPT, Claude o Gemini, conversas con un modelo que ya fue entrenado.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -584,7 +584,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t1-p3" data-sum="porque">Quien entiende que la IA reconoce patrones sabe cuándo confiar y cuándo verificar. Quien cree que es magia oscila entre el miedo y la confianza ciega, y ambas actitudes cuestan caro.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t1-p3" data-sum="porque">Quien entiende que la IA reconoce patrones sabe cuándo confiar y cuándo verificar. Quien cree que es magia oscila entre el miedo y la confianza ciega, y ambas actitudes cuestan caro.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Modelo</div><div class="text-xs text-neutral-400">patrones guardados en números</div></div>
@@ -593,26 +593,26 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Patrón</div><div class="text-xs text-neutral-400">lo que se repite en los datos</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="70 anos de altos e baixos">📜 De 1950 a los agentes</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t2-p1">La IA no nació con ChatGPT. La idea tiene más de setenta años y pasó por <strong class="text-neutral-100">"veranos"</strong> (años de entusiasmo y dinero) y <strong class="text-neutral-100">"inviernos"</strong> (años en los que las promesas no se cumplieron y la inversión desapareció). Conocer este vaivén te protege del entusiasmo exagerado: cada ola llega prometiendo demasiado, y lo que perdura es lo que resuelve un problema real.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t2-p1">La IA no nació con ChatGPT. La idea tiene más de setenta años y pasó por <strong class="text-neutral-100">"veranos"</strong> (años de entusiasmo y dinero) y <strong class="text-neutral-100">"inviernos"</strong> (años en los que las promesas no se cumplieron y la inversión desapareció). Conocer este vaivén te protege del entusiasmo exagerado: cada ola llega prometiendo demasiado, y lo que perdura es lo que resuelve un problema real.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La historia de la IA es una sucesión de saltos: reglas escritas a mano, luego aprendizaje con datos, después redes profundas, luego modelos de lenguaje y, ahora, agentes que ejecutan tareas.</p>
@@ -630,10 +630,10 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t2-p2">Cuando leas un titular que diga que «la IA lo reemplazará todo en seis meses», recuerda los inviernos. Pregunta: ¿qué tarea concreta resuelve hoy y quién ya la usa?</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t2-p2">Cuando leas un titular que diga que «la IA lo reemplazará todo en seis meses», recuerda los inviernos. Pregunta: ¿qué tarea concreta resuelve hoy y quién ya la usa?</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t2-p3" data-sum="porque">La línea de tiempo muestra que el salto actual se debe a tres cosas que se combinaron: muchos datos, mucha capacidad de cómputo y una arquitectura mejor (el Transformer). Saberlo ayuda a prever lo que viene y a distinguir los avances reales de la propaganda.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t2-p3" data-sum="porque">La línea de tiempo muestra que el salto actual se debe a tres cosas que se combinaron: muchos datos, mucha capacidad de cómputo y una arquitectura mejor (el Transformer). Saberlo ayuda a prever lo que viene y a distinguir los avances reales de la propaganda.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Invierno de la IA</div><div class="text-xs text-neutral-400">promesa que no se cumplió</div></div>
@@ -642,29 +642,29 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Agente</div><div class="text-xs text-neutral-400">IA que ejecuta tareas</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="prever o próximo pedaço de texto">🔮 Cómo funciona un LLM</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t3-p1">Un <strong class="text-emerald-400">LLM</strong> (del inglés <em>Large Language Model</em>, modelo de lenguaje grande) hace una sola cosa, repetida muy rápido: <strong class="text-neutral-100">predice cuál es el siguiente fragmento de texto</strong>. Lee lo que escribiste, calcula las continuaciones más probables, elige una, la añade al texto y repite. Una respuesta de tres párrafos es eso repetido cientos de veces.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t3-p1">Un <strong class="text-emerald-400">LLM</strong> (del inglés <em>Large Language Model</em>, modelo de lenguaje grande) hace una sola cosa, repetida muy rápido: <strong class="text-neutral-100">predice cuál es el siguiente fragmento de texto</strong>. Lee lo que escribiste, calcula las continuaciones más probables, elige una, la añade al texto y repite. Una respuesta de tres párrafos es eso repetido cientos de veces.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t3-p2"><strong>Token</strong> es el fragmento de texto que ve el modelo: una palabra corta, parte de una palabra o un signo. «Inteligencia» puede convertirse en dos o tres tokens. <strong>Ventana de contexto</strong> es cuánto texto puede considerar el modelo a la vez: toda la conversación, los archivos que pegaste y la propia respuesta. <strong>Parámetros</strong> son los números ajustados durante el entrenamiento; los modelos grandes tienen miles de millones.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t3-p2"><strong>Token</strong> es el fragmento de texto que ve el modelo: una palabra corta, parte de una palabra o un signo. «Inteligencia» puede convertirse en dos o tres tokens. <strong>Ventana de contexto</strong> es cuánto texto puede considerar el modelo a la vez: toda la conversación, los archivos que pegaste y la propia respuesta. <strong>Parámetros</strong> son los números ajustados durante el entrenamiento; los modelos grandes tienen miles de millones.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -699,12 +699,12 @@
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">Cómo leer:</strong> el modelo no «sabe» una respuesta ya preparada; calcula las probabilidades de cada continuación y elige una. Por eso, la misma pregunta puede generar respuestas diferentes y por eso puede elegir una continuación plausible pero incorrecta. (Los porcentajes son ilustrativos.)</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Preentrenamiento</p><p class="text-xs text-neutral-300" data-inema-block="m1-1-t3-p3">Lee una montaña de texto público y aprende a predecir el siguiente token. El resultado es un modelo que completa texto, pero no conversa.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Ajuste fino</p><p class="text-xs text-neutral-300" data-inema-block="m1-1-t3-p4">Se entrena con ejemplos de preguntas y buenas respuestas. Aprende el formato de asistente.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Preferencias</p><p class="text-xs text-neutral-300" data-inema-block="m1-1-t3-p5">Personas y otros modelos evalúan las respuestas; el modelo se ajusta para preferir las útiles, honestas y seguras.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Preentrenamiento</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-1-t3-p3">Lee una montaña de texto público y aprende a predecir el siguiente token. El resultado es un modelo que completa texto, pero no conversa.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Ajuste fino</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-1-t3-p4">Se entrena con ejemplos de preguntas y buenas respuestas. Aprende el formato de asistente.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Preferencias</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-1-t3-p5">Personas y otros modelos evalúan las respuestas; el modelo se ajusta para preferir las útiles, honestas y seguras.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t3-p6" data-sum="porque">Entender que el modelo predice texto explica casi todo lo que verás: por qué el contexto mejora la respuesta, por qué inventa cosas con seguridad y por qué funciona pedir un formato claro. Es el modelo mental que guía el resto del curso.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t3-p6" data-sum="porque">Entender que el modelo predice texto explica casi todo lo que verás: por qué el contexto mejora la respuesta, por qué inventa cosas con seguridad y por qué funciona pedir un formato claro. Es el modelo mental que guía el resto del curso.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Token</div><div class="text-xs text-neutral-400">fragmento de texto</div></div>
@@ -713,29 +713,29 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Preentrenamiento</div><div class="text-xs text-neutral-400">aprender a completar texto</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="texto, imagem, voz, vídeo e código">🧩 Lo que la IA ya crea</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t4-p1"><strong class="text-emerald-400">IA generativa</strong> es la IA que crea algo nuevo en vez de solo clasificar lo que ya existe. La misma lógica de «predecir el siguiente fragmento» se aplica a los píxeles de una imagen, los fragmentos de audio y los cuadros de video. Y los modelos actuales son cada vez más <strong class="text-neutral-100">multimodales</strong>: entienden y producen varios tipos de contenido en la misma conversación.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t4-p1"><strong class="text-emerald-400">IA generativa</strong> es la IA que crea algo nuevo en vez de solo clasificar lo que ya existe. La misma lógica de «predecir el siguiente fragmento» se aplica a los píxeles de una imagen, los fragmentos de audio y los cuadros de video. Y los modelos actuales son cada vez más <strong class="text-neutral-100">multimodales</strong>: entienden y producen varios tipos de contenido en la misma conversación.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t4-p2"><strong>Multimodal</strong> quiere decir «de varios modos»: el mismo modelo recibe una foto y un texto, o escucha tu voz y responde hablando. <strong>Prompt</strong> es el pedido que escribes para la IA; es el tema completo del módulo 1.3.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t4-p2"><strong>Multimodal</strong> quiere decir «de varios modos»: el mismo modelo recibe una foto y un texto, o escucha tu voz y responde hablando. <strong>Prompt</strong> es el pedido que escribes para la IA; es el tema completo del módulo 1.3.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -751,10 +751,10 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t4-p3">Empieza por el tipo de salida que más produces en el trabajo. Si escribes mucho, empieza por texto; si haces publicaciones, por imágenes. Ganar confianza con un tipo te ayuda a aprender los demás.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t4-p3">Empieza por el tipo de salida que más produces en el trabajo. Si escribes mucho, empieza por texto; si haces publicaciones, por imágenes. Ganar confianza con un tipo te ayuda a aprender los demás.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t4-p4" data-sum="porque">Saber lo que ya es posible evita dos errores: pasar horas haciendo a mano lo que la IA hace en minutos y esperar de ella lo que todavía no hace bien. Es el mapa que explorarás en los módulos 1.3 a 1.7.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t4-p4" data-sum="porque">Saber lo que ya es posible evita dos errores: pasar horas haciendo a mano lo que la IA hace en minutos y esperar de ella lo que todavía no hace bien. Es el mapa que explorarás en los módulos 1.3 a 1.7.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">IA generativa</div><div class="text-xs text-neutral-400">crea contenido nuevo</div></div>
@@ -763,26 +763,26 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Salida</div><div class="text-xs text-neutral-400">lo que entrega el modelo</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="tarefas mudam antes de profissões">💼 Qué cambia en el trabajo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t5-p1">La IA no llega para reemplazar profesiones enteras de una sola vez: entra por las <strong class="text-neutral-100">tareas</strong>Una profesión es un conjunto de tareas: algunas son repetitivas y previsibles; otras requieren criterio, trato con personas y responsabilidad. Las primeras pasan antes a la IA; las segundas siguen a tu cargo y ganan peso.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t5-p1">La IA no llega para reemplazar profesiones enteras de una sola vez: entra por las <strong class="text-neutral-100">tareas</strong>Una profesión es un conjunto de tareas: algunas son repetitivas y previsibles; otras requieren criterio, trato con personas y responsabilidad. Las primeras pasan antes a la IA; las segundas siguen a tu cargo y ganan peso.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es el cambio de quién hace cada tarea: la IA se encarga de los borradores, la búsqueda, el formato y las tareas repetitivas; tú te encargas de orientar, verificar, decidir y relacionarte con las personas.</p>
@@ -827,7 +827,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t5-p2" data-sum="porque">Mirar las tareas reduce el miedo abstracto («¿voy a perder mi empleo?») y plantea una pregunta práctica: ¿qué tareas mías ya hace bien la IA y qué hago con el tiempo que me queda? Quien responda primero lleva ventaja.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t5-p2" data-sum="porque">Mirar las tareas reduce el miedo abstracto («¿voy a perder mi empleo?») y plantea una pregunta práctica: ¿qué tareas mías ya hace bien la IA y qué hago con el tiempo que me queda? Quien responda primero lleva ventaja.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Tarea × profesión</div><div class="text-xs text-neutral-400">la IA empieza por la tarea</div></div>
@@ -836,26 +836,26 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Criterio</div><div class="text-xs text-neutral-400">lo que queda a tu cargo</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="alucinação, data de corte, viés e privacidade">⚠️ Dónde se equivoca la IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t6-p1">Como el modelo elige la continuación más probable, a veces elige una continuación <strong class="text-neutral-100">verosímil pero falsa</strong> — y escribe con la misma seguridad que cuando acierta. Esto se llama: <strong class="text-red-400">alucinación</strong>. Es más común en cifras, fechas, citas, nombres de leyes y referencias bibliográficas.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t6-p1">Como el modelo elige la continuación más probable, a veces elige una continuación <strong class="text-neutral-100">verosímil pero falsa</strong> — y escribe con la misma seguridad que cuando acierta. Esto se llama: <strong class="text-red-400">alucinación</strong>. Es más común en cifras, fechas, citas, nombres de leyes y referencias bibliográficas.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Estos son los límites conocidos de la IA: inventar hechos (alucinación), no saber qué pasó después del entrenamiento (fecha de corte), repetir prejuicios presentes en los datos (sesgo) y exponer lo que pegaste en la conversación (privacidad).</p>
@@ -873,7 +873,7 @@
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t6-p2"><strong>Fecha de corte</strong> es el último día cuyos datos vio el modelo durante el entrenamiento. Todo lo posterior solo lo sabe si la herramienta hace una búsqueda web o si pegas la información. <strong>Anonimizar</strong> es reemplazar nombres, documentos y datos de contacto por marcadores (Cliente A, CPF-X) antes de pegar la información.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t6-p2"><strong>Fecha de corte</strong> es el último día cuyos datos vio el modelo durante el entrenamiento. Todo lo posterior solo lo sabe si la herramienta hace una búsqueda web o si pegas la información. <strong>Anonimizar</strong> es reemplazar nombres, documentos y datos de contacto por marcadores (Cliente A, CPF-X) antes de pegar la información.</p>
 </div>
 <!-- COPY-RUN: teste de alucinação -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -891,7 +891,7 @@ Tema: &lt;el tema que quieres estudiar&gt;
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> toma dos elementos marcados con [VERIFICAR] y búscalos en una fuente oficial. Si alguno no coincide, acabas de ver una alucinación en acción y aprendiste a detectarla.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t6-p3" data-sum="porque">Usar IA sin conocer sus límites es como conducir sin saber dónde está el freno. El hábito de verificar los hechos, anonimizar los datos y desconfiar de las respuestas demasiado seguras es lo que distingue a quien usa IA con seguridad de quien queda en ridículo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t6-p3" data-sum="porque">Usar IA sin conocer sus límites es como conducir sin saber dónde está el freno. El hábito de verificar los hechos, anonimizar los datos y desconfiar de las respuestas demasiado seguras es lo que distingue a quien usa IA con seguridad de quien queda en ridículo.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Alucinación</div><div class="text-xs text-neutral-400">algo falso dicho con seguridad</div></div>
@@ -900,26 +900,26 @@ Tema: &lt;el tema que quieres estudiar&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Anonimizar</div><div class="text-xs text-neutral-400">proteger los datos antes de pegarlos</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-1#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-1#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o mapa de tarefas do seu trabalho">🛠️ Tu primer uso real</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t7-p1">Basta de teoría. El mejor primer uso de la IA no es pedirle un poema: es pedirle ayuda para ver <strong class="text-neutral-100">tu propio trabajo</strong>. En 10 minutos, crearás un mapa de tareas que indica dónde la IA ya puede ayudar, dónde puede ayudar con cuidado y dónde no debe intervenir.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t7-p1">Basta de teoría. El mejor primer uso de la IA no es pedirle un poema: es pedirle ayuda para ver <strong class="text-neutral-100">tu propio trabajo</strong>. En 10 minutos, crearás un mapa de tareas que indica dónde la IA ya puede ayudar, dónde puede ayudar con cuidado y dónde no debe intervenir.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un ejercicio guiado: describes tu rutina, la IA organiza las tareas según su potencial de uso y tú eliges una para probar esta misma semana.</p>
@@ -947,10 +947,10 @@ Termina indicando la ÚNICA tarea con la mejor relación entre esfuerzo y benefi
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-1-t7-p2">Guarda este mapa. Cuando termines la Ruta 1, repite el ejercicio: varias tareas habrán cambiado de columna porque habrás aprendido a pedir mejor (1.3), delegar en agentes (1.4) y automatizar (1.7).</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-1-t7-p2">Guarda este mapa. Cuando termines la Ruta 1, repite el ejercicio: varias tareas habrán cambiado de columna porque habrás aprendido a pedir mejor (1.3), delegar en agentes (1.4) y automatizar (1.7).</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-1-t7-p3" data-sum="porque">Aprender sobre IA solo leyendo no basta para retenerlo. Un uso real, en una tarea tuya, con una prueba breve y una verificación, convierte el concepto en un hábito y muestra en la práctica lo que explicó este módulo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-1-t7-p3" data-sum="porque">Aprender sobre IA solo leyendo no basta para retenerlo. Un uso real, en una tarea tuya, con una prueba breve y una verificación, convierte el concepto en un hábito y muestra en la práctica lo que explicó este módulo.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Mapa de tareas</div><div class="text-xs text-neutral-400">dónde entra la IA</div></div>
@@ -959,11 +959,11 @@ Termina indicando la ÚNICA tarea con la mejor relación entre esfuerzo y benefi
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Esfuerzo × beneficio</div><div class="text-xs text-neutral-400">por dónde empezar</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -994,7 +994,7 @@ Termina indicando la ÚNICA tarea con la mejor relación entre esfuerzo y benefi
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1026,15 +1026,15 @@ Termina indicando la ÚNICA tarea con la mejor relación entre esfuerzo y benefi
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

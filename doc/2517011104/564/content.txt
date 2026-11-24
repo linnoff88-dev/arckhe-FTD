@@ -26,7 +26,7 @@ sim desejo
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:21:29+00:00
 Texto:
 Se você quiser **buscar leads automaticamente com ferramentas como Apify**, o processo fica muito mais ágil — mas é importante manter o controle manual ou validar os dados, como você disse: **melhor fazer manual do que não fazer, mas melhor ainda é automatizar e validar.**
@@ -119,7 +119,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:21:02+00:00
 Texto:
 Ótimo! Se você quiser **buscar leads automaticamente com ferramentas como Apify**, o processo fica muito mais ágil — mas é importante manter o controle manual ou validar os dados, como você disse: **melhor fazer manual do que não fazer, mas melhor ainda é automatizar e validar.**
@@ -212,7 +212,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:20:38+00:00
 Texto:
 .
@@ -220,7 +220,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:20:37+00:00
 Texto:
 .
@@ -228,7 +228,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:20:37+00:00
 Texto:
 .[
@@ -236,7 +236,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:20:02+00:00
 Texto:
 ### COMO FAZER MANUALMENTE – MÓDULO 5: CAÇA A LEADS
@@ -293,7 +293,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:18:57+00:00
 Texto:
 ...
@@ -301,7 +301,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:18:57+00:00
 Texto:
 ..
@@ -309,7 +309,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:18:57+00:00
 Texto:
 .
@@ -317,7 +317,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:18:56+00:00
 Texto:
 .
@@ -325,7 +325,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:18:52+00:00
 Texto:
 ### MÓDULO 5: CAÇA A LEADS E AÇÃO IMEDIATA  
@@ -396,7 +396,7 @@ Durante o módulo, cada participante deverá:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:17:03+00:00
 Texto:
 ..
@@ -404,7 +404,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:17:03+00:00
 Texto:
 .
@@ -412,7 +412,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:17:03+00:00
 Texto:
 .
@@ -420,7 +420,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:59+00:00
 Texto:
 ### MÓDULO 5: CAÇA A LEADS E AÇÃO IMEDIATA (30 minutos)  
@@ -447,7 +447,7 @@ Cada participante deve buscar 5 leads reais durante o exercício e aplicar uma a
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:15+00:00
 Texto:
 ..
@@ -455,7 +455,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:15+00:00
 Texto:
 .
@@ -463,7 +463,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:15+00:00
 Texto:
 .
@@ -471,7 +471,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:14+00:00
 Texto:
 1-6-5- CAÇA A LEADS E AÇÃO IMEDIATA
@@ -479,7 +479,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:11+00:00
 Texto:
 .
@@ -487,7 +487,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:11+00:00
 Texto:
 .
@@ -495,7 +495,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:10+00:00
 Texto:
 ..
@@ -503,7 +503,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:10+00:00
 Texto:
 .
@@ -511,7 +511,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:09+00:00
 Texto:
 ..
@@ -519,7 +519,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:09+00:00
 Texto:
 .
@@ -527,7 +527,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:09+00:00
 Texto:
 https://chatgpt.com/c/67f5f460-e9b8-8009-bd2d-f7257600e08e
@@ -536,7 +536,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 29
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:08+00:00
 Texto:
 1
@@ -544,7 +544,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 30
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:16:01+00:00
 Texto: [Sem texto]
 

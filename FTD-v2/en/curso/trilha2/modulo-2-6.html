@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 2.6 · Advanced Computer Vision | FTD v2</title>
 <meta content="Classification, detection, segmentation, OCR, and vision-language models applied to real problems." name="description"/>
 <meta content="Module 2.6 · Advanced Computer Vision | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-6.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-6.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-6.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-6.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-6.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-6.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-6.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-6.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-6.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-6.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-6.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="2-6" data-inema-track="2" id="conteudo">
+<main data-ARCKHÉ-module="2-6" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 2.6 progress" class="inema-ring" data-inema-meter="modulo:2-6"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:2-6"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 2.6 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-6"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-6"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. Task map</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Detection with YOLO</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Segmentation</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. OCR and documents</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Vision and language</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Training and measurement</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Production and ethics</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. Task map</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Detection with YOLO</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Segmentation</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. OCR and documents</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Vision and language</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Training and measurement</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Production and ethics</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o que, onde, qual pixel, o que diz">🧭 The map of vision tasks</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t1-p1"><strong class="text-blue-400">Computer vision</strong> is the field that enables programs to extract information from images and videos. To a computer, a photo is a grid of <strong class="text-neutral-100">pixels</strong> —each with three color values (red, green, blue). The model’s job is to turn this grid into a useful answer. The type of answer defines the task, and choosing the right task is half the project.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t1-p2">A <strong class="text-neutral-100">classification</strong> answers “what’s in the image?” with a label.  <strong class="text-neutral-100">detection</strong> answers “what and where?” with boxes.  <strong class="text-neutral-100">segmentation</strong> answers “which pixels belong to what?” with masks.  <strong class="text-neutral-100">OCR</strong> reads text. And <strong class="text-neutral-100">VLMs</strong> (<em>vision-language models</em>, vision-language models) answer natural-language questions about the image. The more detailed the output, the more it costs to label the data and run the model.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t1-p1"><strong class="text-blue-400">Computer vision</strong> is the field that enables programs to extract information from images and videos. To a computer, a photo is a grid of <strong class="text-neutral-100">pixels</strong> —each with three color values (red, green, blue). The model’s job is to turn this grid into a useful answer. The type of answer defines the task, and choosing the right task is half the project.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t1-p2">A <strong class="text-neutral-100">classification</strong> answers “what’s in the image?” with a label.  <strong class="text-neutral-100">detection</strong> answers “what and where?” with boxes.  <strong class="text-neutral-100">segmentation</strong> answers “which pixels belong to what?” with masks.  <strong class="text-neutral-100">OCR</strong> reads text. And <strong class="text-neutral-100">VLMs</strong> (<em>vision-language models</em>, vision-language models) answer natural-language questions about the image. The more detailed the output, the more it costs to label the data and run the model.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">This is how vision tasks are classified by output type: label (classification), boxes (detection), masks (segmentation), text (OCR), and free-form answer or JSON (VLM). Each has its own models, annotation formats, and metrics.</p>
@@ -602,7 +602,7 @@
 </table>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t1-p3" data-sum="porque">Vision projects often fail because they choose the wrong task: segmenting when boxes would do, or using a slow VLM when a small detector can run in real time. The map helps you size the data, hardware, and timeline before writing code.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t1-p3" data-sum="porque">Vision projects often fail because they choose the wrong task: segmenting when boxes would do, or using a slow VLM when a small detector can run in real time. The map helps you size the data, hardware, and timeline before writing code.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Pixel</div><div class="text-xs text-neutral-400">three color values</div></div>
@@ -611,27 +611,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">VLM</div><div class="text-xs text-neutral-400">image + language</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="caixas, confiança, IoU e NMS">📦 Detection with YOLO</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t2-p1">O <strong class="text-blue-400">YOLO</strong> (<em>You Only Look Once</em>, first released in 2015) is the most widely used family of detectors in practice: it looks at the image once and returns all the boxes with their class and <strong class="text-neutral-100">confidence</strong> (a number from 0 to 1 that indicates how certain the model is about that detection). The <strong class="text-neutral-100">ultralytics</strong> library packages several generations of YOLO behind the same interface in Python and on the command line; pretrained models recognize the 80 classes in the COCO dataset (person, car, dog, bottle…).</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t2-p2">Two concepts explain almost every detector adjustment.  <strong class="text-neutral-100">IoU</strong> (<em>Intersection over Union</em>) measures how much two boxes overlap: the area of the intersection divided by the area of the union, from 0 to 1.  <strong class="text-neutral-100">NMS</strong> (<em>Non-Maximum Suppression</em>) uses IoU to remove duplicates: when several boxes cover the same object, the one with the highest confidence is kept and boxes with too much overlap are discarded. The two settings you adjust most often are the confidence threshold (<code>conf</code>) and the NMS IoU threshold (<code>iou</code>).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t2-p1">O <strong class="text-blue-400">YOLO</strong> (<em>You Only Look Once</em>, first released in 2015) is the most widely used family of detectors in practice: it looks at the image once and returns all the boxes with their class and <strong class="text-neutral-100">confidence</strong> (a number from 0 to 1 that indicates how certain the model is about that detection). The <strong class="text-neutral-100">ultralytics</strong> library packages several generations of YOLO behind the same interface in Python and on the command line; pretrained models recognize the 80 classes in the COCO dataset (person, car, dog, bottle…).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t2-p2">Two concepts explain almost every detector adjustment.  <strong class="text-neutral-100">IoU</strong> (<em>Intersection over Union</em>) measures how much two boxes overlap: the area of the intersection divided by the area of the union, from 0 to 1.  <strong class="text-neutral-100">NMS</strong> (<em>Non-Maximum Suppression</em>) uses IoU to remove duplicates: when several boxes cover the same object, the one with the highest confidence is kept and boxes with too much overlap are discarded. The two settings you adjust most often are the confidence threshold (<code>conf</code>) and the NMS IoU threshold (<code>iou</code>).</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Object detection means locating each object with a box (coordinates x1, y1, x2, y2), a class, and a confidence score. YOLO does this in real time on a GPU and at acceptable speeds on a CPU with its smaller versions.</p>
@@ -693,10 +693,10 @@ print("imagem salva em detectado.jpg")</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-6-t2-p3">The YOLO family gets new versions frequently, and ultralytics usually keeps the same interface. Replace <code>yolo11n.pt</code> with the name of a newer version from the documentation and compare it in your own test. The suffix indicates the size: <code>n</code> (nano) and <code>s</code> run on a CPU; <code>m</code>, <code>l</code> e <code>x</code> require a GPU. Also check the ultralytics license (AGPL) before embedding it in a closed-source product.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-6-t2-p3">The YOLO family gets new versions frequently, and ultralytics usually keeps the same interface. Replace <code>yolo11n.pt</code> with the name of a newer version from the documentation and compare it in your own test. The suffix indicates the size: <code>n</code> (nano) and <code>s</code> run on a CPU; <code>m</code>, <code>l</code> e <code>x</code> require a GPU. Also check the ultralytics license (AGPL) before embedding it in a closed-source product.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t2-p4" data-sum="porque">Detection is the vision task with the most direct applications: counting, inventory, workplace safety, and quality control. Understanding confidence, IoU, and NMS lets you adapt a ready-made detector to your situation without training anything.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t2-p4" data-sum="porque">Detection is the vision task with the most direct applications: counting, inventory, workplace safety, and quality control. Understanding confidence, IoU, and NMS lets you adapt a ready-made detector to your situation without training anything.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Confidence</div><div class="text-xs text-neutral-400">certainty from 0 to 1</div></div>
@@ -705,35 +705,35 @@ print("imagem salva em detectado.jpg")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">COCO</div><div class="text-xs text-neutral-400">80 reference classes</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="semântica, instância e Segment Anything">🧩 Segmentation</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t3-p1">When a box is too rough, use <strong class="text-blue-400">segmentation</strong>: each pixel gets a label. In <strong class="text-neutral-100">semantic segmentation</strong>, all "person" pixels get the same color, without distinguishing individuals. In <strong class="text-neutral-100">instance segmentation</strong>, each person gets their own mask. The <strong class="text-neutral-100">panoptic segmentation</strong> combines the two: separately identified countable objects and the background (sky, street) labeled by class.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t3-p2">An important shift came with <strong class="text-neutral-100">Segment Anything</strong> (SAM), from Meta, in 2023, and SAM 2 in 2024, which extends the idea to video. These are <strong class="text-neutral-100">promptable</strong>models: you click a point or draw a box, and the model returns a mask for the object, even for classes it has never seen during training. In practice, a common workflow is to detect objects with YOLO and pass the boxes to SAM for precise cutouts—or use an instance segmentation model such as <code>yolo11n-seg.pt</code>, which returns a box and a mask at once.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t3-p1">When a box is too rough, use <strong class="text-blue-400">segmentation</strong>: each pixel gets a label. In <strong class="text-neutral-100">semantic segmentation</strong>, all "person" pixels get the same color, without distinguishing individuals. In <strong class="text-neutral-100">instance segmentation</strong>, each person gets their own mask. The <strong class="text-neutral-100">panoptic segmentation</strong> combines the two: separately identified countable objects and the background (sky, street) labeled by class.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t3-p2">An important shift came with <strong class="text-neutral-100">Segment Anything</strong> (SAM), from Meta, in 2023, and SAM 2 in 2024, which extends the idea to video. These are <strong class="text-neutral-100">promptable</strong>models: you click a point or draw a box, and the model returns a mask for the object, even for classes it has never seen during training. In practice, a common workflow is to detect objects with YOLO and pass the boxes to SAM for precise cutouts—or use an instance segmentation model such as <code>yolo11n-seg.pt</code>, which returns a box and a mask at once.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Segmentation classifies every pixel in an image. The output is a mask (an image of the same size in which each pixel indicates which object or class it belongs to), useful when an object's shape and area matter.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Semantic</p><p class="text-xs text-neutral-300" data-inema-block="m2-6-t3-p3">One color per class. Good for measuring area: how much of a field is dry, or how much of a wall has water damage.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Instance</p><p class="text-xs text-neutral-300" data-inema-block="m2-6-t3-p4">One mask per object. Good for counting and measuring each item: fruit on a conveyor belt, cells on a slide.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Promptable (SAM)</p><p class="text-xs text-neutral-300" data-inema-block="m2-6-t3-p5">A mask from a click or box. Good for annotating data quickly and for on-demand cutouts.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Semantic</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-6-t3-p3">One color per class. Good for measuring area: how much of a field is dry, or how much of a wall has water damage.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Instance</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-6-t3-p4">One mask per object. Good for counting and measuring each item: fruit on a conveyor belt, cells on a slide.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Promptable (SAM)</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-6-t3-p5">A mask from a click or box. Good for annotating data quickly and for on-demand cutouts.</p></div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
@@ -754,7 +754,7 @@ print("imagem salva em detectado.jpg")</pre>
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t3-p6" data-sum="porque">Segmentation enables measurements that detection can’t provide—area, outline, and clean cropping—and promptable models have greatly reduced the work of annotating data. Knowing when to use it helps you avoid paying the cost of a mask when you don’t need one.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t3-p6" data-sum="porque">Segmentation enables measurements that detection can’t provide—area, outline, and clean cropping—and promptable models have greatly reduced the work of annotating data. Knowing when to use it helps you avoid paying the cost of a mask when you don’t need one.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Semantic</div><div class="text-xs text-neutral-400">color per class</div></div>
@@ -763,27 +763,27 @@ print("imagem salva em detectado.jpg")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Panoptic</div><div class="text-xs text-neutral-400">objects + background</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="do OCR clássico à leitura de layout">🔤 OCR and documents</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t4-p1"><strong class="text-blue-400">OCR</strong> (<em>Optical Character Recognition</em>) turns an image of text into actual text that you can copy, search, and process. Classic OCR works in two steps: <strong class="text-neutral-100">detect</strong> where text appears and <strong class="text-neutral-100">recognize</strong> the characters in each segment. Open tools such as Tesseract, PaddleOCR, and docTR do this locally and work well on clean scanned documents.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t4-p2">The real problem is almost never reading the letters; it's understanding the <strong class="text-neutral-100">layout</strong> — what the total number is, which row belongs to which table column, what a header is. That’s why two approaches have grown: models specialized in document layout and VLMs, which receive the image and return the requested fields directly in JSON. VLMs are more flexible; classic OCR is more predictable, faster, and tells you exactly where each word is.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t4-p1"><strong class="text-blue-400">OCR</strong> (<em>Optical Character Recognition</em>) turns an image of text into actual text that you can copy, search, and process. Classic OCR works in two steps: <strong class="text-neutral-100">detect</strong> where text appears and <strong class="text-neutral-100">recognize</strong> the characters in each segment. Open tools such as Tesseract, PaddleOCR, and docTR do this locally and work well on clean scanned documents.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t4-p2">The real problem is almost never reading the letters; it's understanding the <strong class="text-neutral-100">layout</strong> — what the total number is, which row belongs to which table column, what a header is. That’s why two approaches have grown: models specialized in document layout and VLMs, which receive the image and return the requested fields directly in JSON. VLMs are more flexible; classic OCR is more predictable, faster, and tells you exactly where each word is.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">OCR converts an image of text into text. Document extraction goes further: it identifies fields (date, CNPJ, total amount) and structure (tables, sections), combining OCR, layout analysis, and increasingly, VLMs.</p>
@@ -800,10 +800,10 @@ print("imagem salva em detectado.jpg")</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-6-t4-p3">For documents that affect money or decisions (invoices, payment slips, medical reports), validate the extracted data with rules: CNPJ check digit, item sum equal to the total, date within a plausible range. When a rule fails, send it for human review instead of trusting the reading.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-6-t4-p3">For documents that affect money or decisions (invoices, payment slips, medical reports), validate the extracted data with rules: CNPJ check digit, item sum equal to the total, date within a plausible range. When a rule fails, send it for human review instead of trusting the reading.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t4-p4" data-sum="porque">Much of the information companies use still lives in scanned PDFs, photos, and paper documents. Automating reading with validation is one of the vision projects with the quickest payoff—and one that requires the most care to catch silent errors.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t4-p4" data-sum="porque">Much of the information companies use still lives in scanned PDFs, photos, and paper documents. Automating reading with validation is one of the vision projects with the quickest payoff—and one that requires the most care to catch silent errors.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">OCR</div><div class="text-xs text-neutral-400">image becomes text</div></div>
@@ -812,27 +812,27 @@ print("imagem salva em detectado.jpg")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Rule-based validation</div><div class="text-xs text-neutral-400">checks what it read</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="perguntar à imagem e receber JSON">🗣️ Vision-language models</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t5-p1">A <strong class="text-blue-400">VLM</strong> combines an <strong class="text-neutral-100">image encoder</strong> (a model that turns the photo into vectors) with a language model. The image is cut into pieces (<em>patches</em>), each piece becomes a vector, and those vectors enter the LLM as if they were tokens, alongside your text. The LLM then responds about everything together. That’s how ChatGPT, Claude, and Gemini “see” images—and so do open models that run on Ollama, such as <code>llava</code> e <code>qwen2.5vl</code>.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t5-p2">The most useful application in systems isn’t conversation: it’s <strong class="text-neutral-100">structured extraction</strong>. You send the image with a request for JSON output (defined fields, null values when something can’t be seen) and treat the response as data. Through Ollama’s OpenAI-compatible route, the image is sent as <code>image_url</code> with the file encoded in base64—the same format used by paid APIs.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t5-p1">A <strong class="text-blue-400">VLM</strong> combines an <strong class="text-neutral-100">image encoder</strong> (a model that turns the photo into vectors) with a language model. The image is cut into pieces (<em>patches</em>), each piece becomes a vector, and those vectors enter the LLM as if they were tokens, alongside your text. The LLM then responds about everything together. That’s how ChatGPT, Claude, and Gemini “see” images—and so do open models that run on Ollama, such as <code>llava</code> e <code>qwen2.5vl</code>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t5-p2">The most useful application in systems isn’t conversation: it’s <strong class="text-neutral-100">structured extraction</strong>. You send the image with a request for JSON output (defined fields, null values when something can’t be seen) and treat the response as data. Through Ollama’s OpenAI-compatible route, the image is sent as <code>image_url</code> with the file encoded in base64—the same format used by paid APIs.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A vision-language model receives image and text in the same input and generates text. It can describe, answer questions, compare images, and extract information in a structured format, without training a model for each task.</p>
@@ -918,7 +918,7 @@ if data.get("total") is not None and abs(item_sum - data["total"]) &gt; 0.01:
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> photograph a real receipt and run the script. The JSON should parse without errors, and the fields should match the paper. Cover the total with your finger and take another photo: the <code>total</code> must be <code>null</code>. If a number appears, the model made it up—and the sum check at the end exists precisely to catch this kind of error.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t5-p3" data-sum="porque">VLMs have replaced weeks of training with a prompt for many low-volume tasks: classifying inspection photos, reading varied documents, and describing images for accessibility. Knowing how to request JSON and validate the output is what makes this reliable in a system.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t5-p3" data-sum="porque">VLMs have replaced weeks of training with a prompt for many low-volume tasks: classifying inspection photos, reading varied documents, and describing images for accessibility. Knowing how to request JSON and validate the output is what makes this reliable in a system.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Encoder</div><div class="text-xs text-neutral-400">image becomes vectors</div></div>
@@ -927,27 +927,27 @@ if data.get("total") is not None and abs(item_sum - data["total"]) &gt; 0.01:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">JSON output</div><div class="text-xs text-neutral-400">response becomes data</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="anotar, ajustar e ler precisão, recall e mAP">🎯 Train on your data and measure</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t6-p1">When the class you need isn’t in COCO—a specific defect in your part, a pest in your crop—the way forward is <strong class="text-neutral-100">transfer learning</strong>: start with a pretrained model and fine-tune it with a few hundred annotated images. The model already knows how to recognize edges, textures, and shapes; you only teach it your classes. Tools like Label Studio and CVAT help you <strong class="text-neutral-100">annotate</strong> (draw the correct boxes or masks), and the YOLO format stores each box as a line of text: class, center x, center y, width, and height, normalized from 0 to 1.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t6-p2">To measure performance, use three numbers.  <strong class="text-blue-400">Precision</strong> tells you how many of the detections made were correct.  <strong class="text-blue-400">Recall</strong> tells you how many of the objects that existed the model found.  <strong class="text-blue-400">mAP</strong> (<em>mean Average Precision</em>) summarizes the balance between the two across all classes;  <code>mAP50</code> counts a detection as correct if its IoU with the correct box is at least 0.5, and  <code>mAP50-95</code> is more demanding, averaging across several IoU thresholds. Which metric matters more depends on the cost of an error: in safety inspections, missing a defect (low recall) is usually worse than a false alarm.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t6-p1">When the class you need isn’t in COCO—a specific defect in your part, a pest in your crop—the way forward is <strong class="text-neutral-100">transfer learning</strong>: start with a pretrained model and fine-tune it with a few hundred annotated images. The model already knows how to recognize edges, textures, and shapes; you only teach it your classes. Tools like Label Studio and CVAT help you <strong class="text-neutral-100">annotate</strong> (draw the correct boxes or masks), and the YOLO format stores each box as a line of text: class, center x, center y, width, and height, normalized from 0 to 1.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t6-p2">To measure performance, use three numbers.  <strong class="text-blue-400">Precision</strong> tells you how many of the detections made were correct.  <strong class="text-blue-400">Recall</strong> tells you how many of the objects that existed the model found.  <strong class="text-blue-400">mAP</strong> (<em>mean Average Precision</em>) summarizes the balance between the two across all classes;  <code>mAP50</code> counts a detection as correct if its IoU with the correct box is at least 0.5, and  <code>mAP50-95</code> is more demanding, averaging across several IoU thresholds. Which metric matters more depends on the cost of an error: in safety inspections, missing a defect (low recall) is usually worse than a false alarm.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">This is the customization cycle in computer vision: collect and annotate images from your scenario, fine-tune a pretrained model, and measure precision, recall, and mAP on a validation set that represents real-world use.</p>
@@ -999,7 +999,7 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t6-p3" data-sum="porque">A ready-made model handles the general case; the project’s value comes from the classes and conditions in your situation. Knowing how to annotate, fine-tune, and interpret precision and recall lets you promise a result—and know when it still isn’t good enough.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t6-p3" data-sum="porque">A ready-made model handles the general case; the project’s value comes from the classes and conditions in your situation. Knowing how to annotate, fine-tune, and interpret precision and recall lets you promise a result—and know when it still isn’t good enough.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Transfer learning</div><div class="text-xs text-neutral-400">starts from pretrained weights</div></div>
@@ -1008,27 +1008,27 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">mAP</div><div class="text-xs text-neutral-400">summary by class and IoU</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="borda × nuvem, rastreamento, biometria e LGPD">⚖️ Production, ethics, and LGPD</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t7-p1">Putting computer vision into production involves decisions that don't come up in a notebook. Where the model runs: at the <strong class="text-neutral-100">edge</strong> (<em>edge</em> — on the device itself, near the camera, with low latency and without sending images elsewhere) or in the cloud (more computing power, higher network costs). How to handle video: instead of detecting objects in each frame without memory, <strong class="text-neutral-100">tracking</strong> (<em>tracking</em>, using algorithms like ByteTrack, which ultralytics already includes) maintains each object's identity across frames—this lets you count people crossing a line without counting the same person twice.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t7-p2">Then there's <strong class="text-neutral-100">drift</strong> (drift): the world changes, but the model doesn't. A new camera, lighting from another season, redesigned packaging—the model's accuracy quietly drops. Keep a sample of production images, review it periodically, and retrain when the metrics decline. For the human side, the most important rule in Brazil: under LGPD, <strong class="text-red-400">biometric data</strong> —such as a face used to identify someone—counts as <strong class="text-neutral-100">sensitive personal data</strong>, subject to stricter requirements for legal basis, transparency, and security.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t7-p1">Putting computer vision into production involves decisions that don't come up in a notebook. Where the model runs: at the <strong class="text-neutral-100">edge</strong> (<em>edge</em> — on the device itself, near the camera, with low latency and without sending images elsewhere) or in the cloud (more computing power, higher network costs). How to handle video: instead of detecting objects in each frame without memory, <strong class="text-neutral-100">tracking</strong> (<em>tracking</em>, using algorithms like ByteTrack, which ultralytics already includes) maintains each object's identity across frames—this lets you count people crossing a line without counting the same person twice.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t7-p2">Then there's <strong class="text-neutral-100">drift</strong> (drift): the world changes, but the model doesn't. A new camera, lighting from another season, redesigned packaging—the model's accuracy quietly drops. Keep a sample of production images, review it periodically, and retrain when the metrics decline. For the human side, the most important rule in Brazil: under LGPD, <strong class="text-red-400">biometric data</strong> —such as a face used to identify someone—counts as <strong class="text-neutral-100">sensitive personal data</strong>, subject to stricter requirements for legal basis, transparency, and security.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">This is the set of choices for operating computer vision in the real world: where to run it, how to track objects in video, how to detect and correct drift, and how to handle images of people under LGPD and with respect for those being filmed.</p>
@@ -1091,10 +1091,10 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-6-t7-p3">Before proposing any system that identifies people, talk with the company’s data protection officer (DPO) and prepare a data protection impact report. Often, you can meet the business goal—counting foot traffic or measuring a line—without identifying anyone. That’s the cheaper, safer design.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-6-t7-p3">Before proposing any system that identifies people, talk with the company’s data protection officer (DPO) and prepare a data protection impact report. Often, you can meet the business goal—counting foot traffic or measuring a line—without identifying anyone. That’s the cheaper, safer design.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t7-p4" data-sum="porque">Most computer vision systems don’t fail because of the model; they fail because of latency, unmonitored drift, or a legal issue discovered too late. Designing the full cycle and privacy protections from the start is what helps a project survive its first year.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t7-p4" data-sum="porque">Most computer vision systems don’t fail because of the model; they fail because of latency, unmonitored drift, or a legal issue discovered too late. Designing the full cycle and privacy protections from the start is what helps a project survive its first year.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Edge</div><div class="text-xs text-neutral-400">runs near the camera</div></div>
@@ -1103,11 +1103,11 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Sensitive data</div><div class="text-xs text-neutral-400">biometrics under the LGPD</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1138,7 +1138,7 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1170,15 +1170,15 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

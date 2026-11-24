@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 1.2 · Navegando por el mundo digital | FTD v2</title>
 <meta content="Elegir herramientas, organizar cuentas y archivos, proteger datos y evaluar lo que ofrece la IA." name="description"/>
 <meta content="Módulo 1.2 · Navegando por el mundo digital | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-2.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-2.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-2.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-2.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-2.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-2.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-2.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-2.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-2.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-2.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-2.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-2" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-2" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Práctico</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 1.2" class="inema-ring" data-inema-meter="modulo:1-2"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-2"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 1.2" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-2"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-2"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. El mapa de las herramientas</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Elegir con criterio</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Cuentas y acceso seguro</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Archivos y conversaciones</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Qué nunca debes pegar</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Verificar lo que entrega la IA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Tu kit mínimo</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. El mapa de las herramientas</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Elegir con criterio</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Cuentas y acceso seguro</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Archivos y conversaciones</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Qué nunca debes pegar</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Verificar lo que entrega la IA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Tu kit mínimo</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="categorias, não marcas">🗺️ El mapa de las herramientas</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t1-p1">Cada semana aparece una nueva herramienta de IA que promete cambiarte la vida. La mayoría desaparece en pocos meses, cambia de nombre o es absorbida por una más grande. Por eso, la forma correcta de orientarte no es memorizar marcas, sino entender las <strong class="text-neutral-100">categorías</strong>. Cada categoría resuelve un tipo de trabajo y, dentro de ella, las herramientas aparecen y desaparecen.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t1-p2">En el centro del mapa están los <strong class="text-emerald-400">asistentes generales</strong> —ChatGPT, Claude y Gemini. En octubre de 2026, los tres ya conversan por texto y voz, leen archivos e imágenes, buscan en la web y generan imágenes o código. A su alrededor están las herramientas especializadas: imagen, video, voz, código, investigación y automatización. Muchas veces, el asistente general ya resuelve la tarea; la herramienta especializada entra cuando necesitas más calidad o control en un tipo de trabajo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t1-p1">Cada semana aparece una nueva herramienta de IA que promete cambiarte la vida. La mayoría desaparece en pocos meses, cambia de nombre o es absorbida por una más grande. Por eso, la forma correcta de orientarte no es memorizar marcas, sino entender las <strong class="text-neutral-100">categorías</strong>. Cada categoría resuelve un tipo de trabajo y, dentro de ella, las herramientas aparecen y desaparecen.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t1-p2">En el centro del mapa están los <strong class="text-emerald-400">asistentes generales</strong> —ChatGPT, Claude y Gemini. En octubre de 2026, los tres ya conversan por texto y voz, leen archivos e imágenes, buscan en la web y generan imágenes o código. A su alrededor están las herramientas especializadas: imagen, video, voz, código, investigación y automatización. Muchas veces, el asistente general ya resuelve la tarea; la herramienta especializada entra cuando necesitas más calidad o control en un tipo de trabajo.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">El mapa de las herramientas divide el mercado de la IA en categorías de trabajo: un asistente general en el centro y herramientas especializadas alrededor, cada una buena para un tipo de resultado.</p>
@@ -588,10 +588,10 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t1-p3">Los nombres, planes y precios cambian todo el tiempo; por eso este módulo no incluye una tabla de precios. Antes de suscribirte a cualquier servicio, abre la página oficial de la herramienta y verifica el precio vigente. El método de selección que aprenderás seguirá siendo válido aunque cambien las marcas.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t1-p3">Los nombres, planes y precios cambian todo el tiempo; por eso este módulo no incluye una tabla de precios. Antes de suscribirte a cualquier servicio, abre la página oficial de la herramienta y verifica el precio vigente. El método de selección que aprenderás seguirá siendo válido aunque cambien las marcas.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t1-p4" data-sum="porque">Quien piensa por categorías no se pierde con cada lanzamiento. Miras la novedad y preguntas: ¿en qué categoría entra y lo hace mejor que lo que ya uso? Eso ahorra dinero en suscripciones y tiempo aprendiendo a usar una herramienta que va a desaparecer.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t1-p4" data-sum="porque">Quien piensa por categorías no se pierde con cada lanzamiento. Miras la novedad y preguntas: ¿en qué categoría entra y lo hace mejor que lo que ya uso? Eso ahorra dinero en suscripciones y tiempo aprendiendo a usar una herramienta que va a desaparecer.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Asistente general</div><div class="text-xs text-neutral-400">el centro del mapa</div></div>
@@ -600,27 +600,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Página oficial</div><div class="text-xs text-neutral-400">fuente del precio vigente</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="teste com a sua tarefa real">🎯 Elegir con criterio</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t2-p1">No existe «la mejor IA». Existe la mejor para <strong class="text-neutral-100">tu tarea</strong>, con <strong class="text-neutral-100">tu presupuesto</strong> y tus <strong class="text-neutral-100">reglas de privacidad</strong>. Las clasificaciones de internet miden pruebas genéricas; lo que importa es cómo le va a la herramienta con el texto que escribes, la hoja de cálculo que analizas y el cliente al que atiendes.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t2-p2">La forma más confiable es hacer una <strong class="text-emerald-400">prueba en paralelo</strong>: usa la misma solicitud, con el mismo material, en dos o tres herramientas con el plan gratuito. Compara las respuestas según tus propios criterios y decide con evidencia, no con publicidad.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t2-p1">No existe «la mejor IA». Existe la mejor para <strong class="text-neutral-100">tu tarea</strong>, con <strong class="text-neutral-100">tu presupuesto</strong> y tus <strong class="text-neutral-100">reglas de privacidad</strong>. Las clasificaciones de internet miden pruebas genéricas; lo que importa es cómo le va a la herramienta con el texto que escribes, la hoja de cálculo que analizas y el cliente al que atiendes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t2-p2">La forma más confiable es hacer una <strong class="text-emerald-400">prueba en paralelo</strong>: usa la misma solicitud, con el mismo material, en dos o tres herramientas con el plan gratuito. Compara las respuestas según tus propios criterios y decide con evidencia, no con publicidad.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Elegir con criterio consiste en evaluar las herramientas con cinco preguntas —tarea, calidad, costo, privacidad e integración— mediante una prueba con tu propio trabajo.</p>
@@ -672,7 +672,7 @@ Material de ejemplo (sin nombres reales): &lt;pega 2 o 3 mensajes típicos&gt;
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t2-p3" data-sum="porque">Una elección probada en una tarea real te sirve durante meses. Dejas de pagar por promesas, confías en la herramienta que usas y sabes explicar al jefe o al socio por qué la elegiste, con ejemplos, no con opiniones.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t2-p3" data-sum="porque">Una elección probada en una tarea real te sirve durante meses. Dejas de pagar por promesas, confías en la herramienta que usas y sabes explicar al jefe o al socio por qué la elegiste, con ejemplos, no con opiniones.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Prueba lado a lado</div><div class="text-xs text-neutral-400">la misma solicitud, varias IA</div></div>
@@ -681,29 +681,29 @@ Material de ejemplo (sin nombres reales): &lt;pega 2 o 3 mensajes típicos&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Integración</div><div class="text-xs text-neutral-400">se integra con lo que usas</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="planos, senhas e dupla verificação">🔑 Cuentas y acceso seguro</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t3-p1">Tu cuenta de IA guarda mucho más de lo que parece: conversaciones enteras, archivos que enviaste, la memoria de lo que contaste sobre ti y, cada vez más, acceso a tu correo, agenda y Drive. Quien entre en ella verá todo eso. Por eso, la cuenta del asistente merece el mismo cuidado que la cuenta bancaria.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t3-p1">Tu cuenta de IA guarda mucho más de lo que parece: conversaciones enteras, archivos que enviaste, la memoria de lo que contaste sobre ti y, cada vez más, acceso a tu correo, agenda y Drive. Quien entre en ella verá todo eso. Por eso, la cuenta del asistente merece el mismo cuidado que la cuenta bancaria.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t3-p2"><strong>Gestor de contraseñas</strong> es una aplicación que crea y guarda una contraseña distinta y segura para cada sitio; solo tienes que memorizar una. <strong>Verificación en dos pasos</strong> (2FA) solicita, además de la contraseña, un código en el celular; quien robe la contraseña todavía no podrá entrar. <strong>Clave de acceso</strong> (passkey) reemplaza la contraseña por el desbloqueo de tu propio dispositivo, con huella digital o reconocimiento facial. <strong>Plan empresarial</strong> es la versión para empresas, con contrato y reglas más estrictas sobre los datos.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p2"><strong>Gestor de contraseñas</strong> es una aplicación que crea y guarda una contraseña distinta y segura para cada sitio; solo tienes que memorizar una. <strong>Verificación en dos pasos</strong> (2FA) solicita, además de la contraseña, un código en el celular; quien robe la contraseña todavía no podrá entrar. <strong>Clave de acceso</strong> (passkey) reemplaza la contraseña por el desbloqueo de tu propio dispositivo, con huella digital o reconocimiento facial. <strong>Plan empresarial</strong> es la versión para empresas, con contrato y reglas más estrictas sobre los datos.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -749,16 +749,16 @@ Material de ejemplo (sin nombres reales): &lt;pega 2 o 3 mensajes típicos&gt;
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">Cómo leer:</strong> la cuenta está en el centro y cada anillo es una capa que activas una vez. Observa la flecha roja: aunque la contraseña se haya filtrado, el intruso se detiene en el anillo de verificación en dos pasos. Activar cada capa adicional toma unos minutos y evita un gran daño.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🆓 Gratis</p><p class="text-xs text-neutral-300" data-inema-block="m1-2-t3-p3">Bueno para aprender y para tareas personales. Tiene límites de uso más bajos y, en varios servicios, las conversaciones pueden usarse para mejorar el modelo; revisa la opción en la configuración.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⭐ Pago individual</p><p class="text-xs text-neutral-300" data-inema-block="m1-2-t3-p4">Más uso, modelos más potentes y funciones como proyectos y agentes. Sigue siendo una cuenta personal: lee las reglas sobre datos antes de usarla con clientes.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🏢 Equipo o empresa</p><p class="text-xs text-neutral-300" data-inema-block="m1-2-t3-p5">Contrato, administración centralizada y compromiso de no entrenar con tus datos. Es la opción cuando se involucran datos de clientes, pacientes o empleados.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🆓 Gratis</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p3">Bueno para aprender y para tareas personales. Tiene límites de uso más bajos y, en varios servicios, las conversaciones pueden usarse para mejorar el modelo; revisa la opción en la configuración.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⭐ Pago individual</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p4">Más uso, modelos más potentes y funciones como proyectos y agentes. Sigue siendo una cuenta personal: lee las reglas sobre datos antes de usarla con clientes.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🏢 Equipo o empresa</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p5">Contrato, administración centralizada y compromiso de no entrenar con tus datos. Es la opción cuando se involucran datos de clientes, pacientes o empleados.</p></div>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t3-p6">Separa tu cuenta personal de la cuenta del trabajo. Si algún día cambias de empleo o la empresa cambia de herramienta, no se mezclará nada y no llevarás conversaciones de clientes a la cuenta de tu correo personal.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p6">Separa tu cuenta personal de la cuenta del trabajo. Si algún día cambias de empleo o la empresa cambia de herramienta, no se mezclará nada y no llevarás conversaciones de clientes a la cuenta de tu correo personal.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t3-p7" data-sum="porque">Las estafas que empiezan con una contraseña filtrada son comunes, y la cuenta de IA se ha convertido en un objetivo valioso porque concentra información. Activar la verificación en dos pasos y elegir el plan adecuado lleva menos de media hora y cierra la puerta que más usan los intrusos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t3-p7" data-sum="porque">Las estafas que empiezan con una contraseña filtrada son comunes, y la cuenta de IA se ha convertido en un objetivo valioso porque concentra información. Activar la verificación en dos pasos y elegir el plan adecuado lleva menos de media hora y cierra la puerta que más usan los intrusos.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Gestor de contraseñas</div><div class="text-xs text-neutral-400">una contraseña segura por sitio</div></div>
@@ -767,27 +767,27 @@ Material de ejemplo (sin nombres reales): &lt;pega 2 o 3 mensajes típicos&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Plan empresarial</div><div class="text-xs text-neutral-400">contrato para datos de clientes</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="projetos, nomes e histórico">🗂️ Archivos y conversaciones organizados</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t4-p1">Después de unas semanas usando IA, la lista de conversaciones se convierte en un cajón desordenado: «Nueva conversación», «Nueva conversación», «Ayuda con texto». Esa excelente respuesta del martes desaparece entre otras cien. Organizar no es un capricho: es lo que te permite reutilizar lo que ya funcionó.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t4-p2">Los asistentes actuales tienen <strong class="text-emerald-400">proyectos</strong> (o espacios similares): carpetas donde reúnes conversaciones, archivos de referencia e instrucciones fijas sobre un tema. Una conversación que abras dentro del proyecto «Tienda — atención al cliente» ya empieza conociendo el tono de la marca y la política de cambios, porque esos archivos están ahí.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t4-p1">Después de unas semanas usando IA, la lista de conversaciones se convierte en un cajón desordenado: «Nueva conversación», «Nueva conversación», «Ayuda con texto». Esa excelente respuesta del martes desaparece entre otras cien. Organizar no es un capricho: es lo que te permite reutilizar lo que ya funcionó.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t4-p2">Los asistentes actuales tienen <strong class="text-emerald-400">proyectos</strong> (o espacios similares): carpetas donde reúnes conversaciones, archivos de referencia e instrucciones fijas sobre un tema. Una conversación que abras dentro del proyecto «Tienda — atención al cliente» ya empieza conociendo el tono de la marca y la política de cambios, porque esos archivos están ahí.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Organizar consiste en asignar un proyecto a cada tema recurrente, poner a cada conversación un nombre que indique qué resuelve y guardar fuera del chat los resultados finales importantes.</p>
@@ -820,10 +820,10 @@ Material de ejemplo (sin nombres reales): &lt;pega 2 o 3 mensajes típicos&gt;
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t4-p3">Cuando una conversación dé como resultado una solicitud que funcionó muy bien, copia la solicitud en un documento llamado «Mis prompts». En el módulo 1.3, ese documento se convierte en tu biblioteca de prompts.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t4-p3">Cuando una conversación dé como resultado una solicitud que funcionó muy bien, copia la solicitud en un documento llamado «Mis prompts». En el módulo 1.3, ese documento se convierte en tu biblioteca de prompts.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t4-p4" data-sum="porque">La organización convierte un uso disperso en un sistema. Con proyectos y nombres claros, reutilizas lo que ya hiciste, la IA empieza cada conversación con el contexto adecuado y encuentras en segundos lo que antes tardabas media hora en localizar.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t4-p4" data-sum="porque">La organización convierte un uso disperso en un sistema. Con proyectos y nombres claros, reutilizas lo que ya hiciste, la IA empieza cada conversación con el contexto adecuado y encuentras en segundos lo que antes tardabas media hora en localizar.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Proyecto</div><div class="text-xs text-neutral-400">carpeta con archivos e instrucciones</div></div>
@@ -832,29 +832,29 @@ Material de ejemplo (sin nombres reales): &lt;pega 2 o 3 mensajes típicos&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Limpieza mensual</div><div class="text-xs text-neutral-400">borrar lo que sea sensible</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="LGPD e o semáforo dos dados">🛡️ Lo que nunca debes pegar en un chat</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t5-p1">Todo lo que pegas en una herramienta de IA sale de tu computadora y va al servidor de una empresa. La mayoría de las veces esto no es un problema. Pero cuando el texto contiene <strong class="text-neutral-100">datos de otras personas</strong> — clientes, pacientes, alumnos, empleados — pasas a tener responsabilidad legal por lo que hiciste con ellos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t5-p1">Todo lo que pegas en una herramienta de IA sale de tu computadora y va al servidor de una empresa. La mayoría de las veces esto no es un problema. Pero cuando el texto contiene <strong class="text-neutral-100">datos de otras personas</strong> — clientes, pacientes, alumnos, empleados — pasas a tener responsabilidad legal por lo que hiciste con ellos.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t5-p2"><strong>LGPD</strong> es la Ley General de Protección de Datos (Ley 13.709/2018), que regula cómo las empresas y los profesionales de Brasil tratan la información sobre las personas. <strong>Dato personal</strong> es cualquier cosa que identifique a alguien: nombre, CPF, teléfono, correo electrónico, dirección. <strong>Dato sensible</strong> es la categoría más protegida: salud, religión, origen racial, opinión política, orientación sexual, datos biométricos.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t5-p2"><strong>LGPD</strong> es la Ley General de Protección de Datos (Ley 13.709/2018), que regula cómo las empresas y los profesionales de Brasil tratan la información sobre las personas. <strong>Dato personal</strong> es cualquier cosa que identifique a alguien: nombre, CPF, teléfono, correo electrónico, dirección. <strong>Dato sensible</strong> es la categoría más protegida: salud, religión, origen racial, opinión política, orientación sexual, datos biométricos.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -919,7 +919,7 @@ llamó desde el (11) 90000-0000 para quejarse por la demora del pedido 4471».
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t5-p3" data-sum="porque">Una filtración de datos de clientes puede costar una multa, un juicio y, sobre todo, la confianza. El semáforo es un hábito de dos segundos que te protege a ti, a tu empresa y a las personas cuyos datos pasan por tus manos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t5-p3" data-sum="porque">Una filtración de datos de clientes puede costar una multa, un juicio y, sobre todo, la confianza. El semáforo es un hábito de dos segundos que te protege a ti, a tu empresa y a las personas cuyos datos pasan por tus manos.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">LGPD</div><div class="text-xs text-neutral-400">ley de protección de datos personales</div></div>
@@ -928,27 +928,27 @@ llamó desde el (11) 90000-0000 para quejarse por la demora del pedido 4471».
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Semáforo</div><div class="text-xs text-neutral-400">clasificar antes de pegar</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quatro filtros antes de usar">🔍 Verificar lo que entrega la IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t6-p1">En el módulo 1.1 viste que la IA puede inventar cosas con seguridad. Ahora viene la parte práctica: una guía breve para verificar una respuesta antes de enviarla al cliente, publicarla o tomar una decisión. Cuanto más graves sean las consecuencias de un error, más filtros debes aplicar.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t6-p2">El filtro más poderoso se llama: <strong class="text-emerald-400">lectura lateral</strong>. En lugar de volver a leer la respuesta para buscar errores (el texto siempre parece convincente), sales de ella y abres otra fuente — el sitio oficial, la ley publicada, el documento original — para comprobar si coincide.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t6-p1">En el módulo 1.1 viste que la IA puede inventar cosas con seguridad. Ahora viene la parte práctica: una guía breve para verificar una respuesta antes de enviarla al cliente, publicarla o tomar una decisión. Cuanto más graves sean las consecuencias de un error, más filtros debes aplicar.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t6-p2">El filtro más poderoso se llama: <strong class="text-emerald-400">lectura lateral</strong>. En lugar de volver a leer la respuesta para buscar errores (el texto siempre parece convincente), sales de ella y abres otra fuente — el sitio oficial, la ley publicada, el documento original — para comprobar si coincide.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Verificar consiste en pasar la respuesta por cuatro filtros — fuente, números, coherencia y segunda opinión — en proporción al daño que causaría un error.</p>
@@ -997,7 +997,7 @@ llamó desde el (11) 90000-0000 para quejarse por la demora del pedido 4471».
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> la lista sirve como guía, no como prueba. Abre la fuente indicada para al menos los elementos de confianza media o baja. Si la IA se corrige en esta revisión, es señal de que la primera respuesta tenía un error: qué bueno que lo detectaste.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t6-p3" data-sum="porque">Revisar es lo que permite usar la IA en un trabajo serio. Quien revisa entrega más rápido y con la misma confianza de antes; quien no revisa entrega rápido hasta el día del primer error público, y entonces pierde la credibilidad que tardó años en construir.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t6-p3" data-sum="porque">Revisar es lo que permite usar la IA en un trabajo serio. Quien revisa entrega más rápido y con la misma confianza de antes; quien no revisa entrega rápido hasta el día del primer error público, y entonces pierde la credibilidad que tardó años en construir.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Lectura lateral</div><div class="text-xs text-neutral-400">salir del texto y verificar por fuera</div></div>
@@ -1006,35 +1006,35 @@ llamó desde el (11) 90000-0000 para quejarse por la demora del pedido 4471».
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Riesgo del error</div><div class="text-xs text-neutral-400">define cuánto verificar</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pouco, bem configurado e seguro">🧰 Tu kit digital mínimo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t7-p1">En resumen: no necesitas diez suscripciones. Un kit pequeño y bien configurado cubre la mayoría de las tareas de quien está empezando. Lo demás se incorpora cuando una tarea real lo requiera, no cuando aparezca un anuncio.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t7-p1">En resumen: no necesitas diez suscripciones. Un kit pequeño y bien configurado cubre la mayoría de las tareas de quien está empezando. Lo demás se incorpora cuando una tarea real lo requiera, no cuando aparezca un anuncio.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">El kit mínimo consta de un asistente general principal, un lugar para guardar archivos, un administrador de contraseñas y una herramienta especializada solo si hay una tarea que la justifique.</p>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🤖 1 asistente principal</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p2">ChatGPT, Claude o Gemini: el que ganó tu prueba comparativa. Un segundo asistente gratuito para una segunda opinión.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">☁️ 1 lugar para archivos</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p3">Google Drive, OneDrive u otro, con carpetas por tema. Ahí se guarda la versión final.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🔐 1 administrador de contraseñas</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p4">Bitwarden, 1Password o el que viene con el navegador, con verificación en dos pasos en las cuentas principales.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🎯 0 o 1 herramienta especializada</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p5">Solo si una tarea frecuente la requiere: una herramienta de imágenes para quien crea publicaciones, una de transcripción para quien graba reuniones.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🤖 1 asistente principal</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p2">ChatGPT, Claude o Gemini: el que ganó tu prueba comparativa. Un segundo asistente gratuito para una segunda opinión.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">☁️ 1 lugar para archivos</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p3">Google Drive, OneDrive u otro, con carpetas por tema. Ahí se guarda la versión final.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🔐 1 administrador de contraseñas</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p4">Bitwarden, 1Password o el que viene con el navegador, con verificación en dos pasos en las cuentas principales.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🎯 0 o 1 herramienta especializada</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p5">Solo si una tarea frecuente la requiere: una herramienta de imágenes para quien crea publicaciones, una de transcripción para quien graba reuniones.</p></div>
 </div>
 <!-- COPY-RUN: plano do kit -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -1059,10 +1059,10 @@ Arma:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t7-p6">Programa una revisión cada seis meses: qué herramientas usaste de verdad, qué suscripciones cancelar y si tu asistente principal todavía gana la prueba comparativa.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t7-p6">Programa una revisión cada seis meses: qué herramientas usaste de verdad, qué suscripciones cancelar y si tu asistente principal todavía gana la prueba comparativa.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t7-p7" data-sum="porque">Dominar unas pocas herramientas da más resultado que usar muchas a medias. El kit mínimo mantiene bajo control tu dinero, tu atención y tus datos, y es la base sobre la que se construirán los próximos módulos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t7-p7" data-sum="porque">Dominar unas pocas herramientas da más resultado que usar muchas a medias. El kit mínimo mantiene bajo control tu dinero, tu atención y tus datos, y es la base sobre la que se construirán los próximos módulos.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Kit mínimo</div><div class="text-xs text-neutral-400">hasta 4 herramientas</div></div>
@@ -1071,11 +1071,11 @@ Arma:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Revisión semestral</div><div class="text-xs text-neutral-400">eliminar lo que no usas</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1106,7 +1106,7 @@ Arma:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1138,15 +1138,15 @@ Arma:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

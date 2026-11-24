@@ -3,7 +3,7 @@
 
 > **Versão:** 1.0
 > **Data:** 2025-11-12
-> **Arquiteto:** INEMA TDS
+> **Arquiteto:** ARCKHÉ TDS
 > **Stack:** Next.js 14 + Tailwind CSS + Supabase + Stripe
 
 ---
@@ -823,7 +823,7 @@ jobs:
 
 ---
 
-**Arquiteto:** INEMA TDS
+**Arquiteto:** ARCKHÉ TDS
 **Versão:** 1.0
 **Data:** 12/11/2025
 **Status:** Arquitetura Completa - Pronta para Desenvolvimento

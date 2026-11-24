@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 1.7 · Process Automation | FTD v2</title>
 <meta content="Map a process, choose the trigger, build the workflow, and let AI handle the right steps." name="description"/>
 <meta content="Module 1.7 · Process Automation | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-7.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-7.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-7.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-7.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-7.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-7.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-7.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha1/modulo-1-7.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-7.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-7.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha1/modulo-1-7.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-7" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-7" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Practice</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 1.7 progress" class="inema-ring" data-inema-meter="modulo:1-7"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-7"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 1.7 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-7"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-7"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,36 +506,36 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Trigger and action</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Map it first</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. n8n, Make, and Zapier</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. A real workflow</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Where AI fits</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Test and protect</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Your first automation</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Trigger and action</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Map it first</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. n8n, Make, and Zapier</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. A real workflow</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Where AI fits</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Test and protect</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Your first automation</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quando isto acontece, faça aquilo">🔄 Trigger and action</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t1-p1">Every automation, from the simplest to the most elaborate, can be summed up in one sentence: <strong class="text-neutral-100">“when this happens, do that”</strong>. When an email with an attachment arrives, save the attachment to a folder. When someone fills out the form, add it to the spreadsheet and let me know. When it’s Monday at 8 a.m., put together the week’s report. You already do these tasks by hand; automating them means teaching the computer to do them for you.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t1-p1">Every automation, from the simplest to the most elaborate, can be summed up in one sentence: <strong class="text-neutral-100">“when this happens, do that”</strong>. When an email with an attachment arrives, save the attachment to a folder. When someone fills out the form, add it to the spreadsheet and let me know. When it’s Monday at 8 a.m., put together the week’s report. You already do these tasks by hand; automating them means teaching the computer to do them for you.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t1-p2"><strong>Trigger</strong> (trigger) is the event that starts things: a new email, a new spreadsheet row, or a time. <strong>Action</strong> is what the automation does next: create, send, copy, notify. <strong>Flow</strong> (workflow) is the sequence of a trigger and actions. <strong>No-code</strong> (no-code) means you build everything by dragging blocks onto a screen, without programming. <strong>Integration</strong> is the connection between two apps, such as Gmail and Google Sheets.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p2"><strong>Trigger</strong> (trigger) is the event that starts things: a new email, a new spreadsheet row, or a time. <strong>Action</strong> is what the automation does next: create, send, copy, notify. <strong>Flow</strong> (workflow) is the sequence of a trigger and actions. <strong>No-code</strong> (no-code) means you build everything by dragging blocks onto a screen, without programming. <strong>Integration</strong> is the connection between two apps, such as Gmail and Google Sheets.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -579,12 +579,12 @@
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">How to read:</strong> The pulsing circle shows that the trigger stays “on watch” all the time. When the event happens, the actions run in order, from left to right, each using data from the previous one (the attachment name, the sender, the date). None of them requires you.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">📨 Event-based</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t1-p3">Something happened: a message, form, payment, or new file in a folder.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⏰ Scheduled</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t1-p4">Every day at 7 a.m., every Monday, or on the last day of the month. Great for reports and reminders.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">👆 Manual</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t1-p5">You press a button and the whole sequence runs. A good way to get started and test things.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">📨 Event-based</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p3">Something happened: a message, form, payment, or new file in a folder.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⏰ Scheduled</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p4">Every day at 7 a.m., every Monday, or on the last day of the month. Great for reports and reminders.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">👆 Manual</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t1-p5">You press a button and the whole sequence runs. A good way to get started and test things.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t1-p6" data-sum="porque">Small, repeated tasks add up to hours each month, and they’re where you’re most likely to forget things or make typing errors. Thinking in terms of “trigger and action” helps you spot these tasks in your routine—and is the first step toward taking them off your hands.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t1-p6" data-sum="porque">Small, repeated tasks add up to hours each month, and they’re where you’re most likely to forget things or make typing errors. Thinking in terms of “trigger and action” helps you spot these tasks in your routine—and is the first step toward taking them off your hands.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Trigger</div><div class="text-xs text-neutral-400">the event that starts it</div></div>
@@ -593,34 +593,34 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Integration</div><div class="text-xs text-neutral-400">apps that communicate</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="priorizar, planejar e pilotar">🗺️ Map it before automating</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t2-p1">The most common mistake is opening the tool before understanding the process. Automating a mess just makes it happen faster. Before dragging the first block, write down <strong class="text-neutral-100">how the task is done today</strong>, step by step, including who does it, where the information is, and what happens when something goes wrong. A simple three-step method helps: <strong class="text-emerald-400">prioritize, plan, and pilot</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t2-p1">The most common mistake is opening the tool before understanding the process. Automating a mess just makes it happen faster. Before dragging the first block, write down <strong class="text-neutral-100">how the task is done today</strong>, step by step, including who does it, where the information is, and what happens when something goes wrong. A simple three-step method helps: <strong class="text-emerald-400">prioritize, plan, and pilot</strong>.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Mapping a process means describing each step in a recurring task—inputs, decisions, outputs, and exceptions—so you can choose what’s worth automating and design the flow before building it in the tool.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Prioritize</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t2-p2">List recurring tasks and choose one that happens often, follows clear rules, and is a pain. Save tasks that happen rarely or change every time for later.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Plan</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t2-p3">Draw the flow: trigger, steps, decisions (“if it’s urgent…”), where each piece of data lives, and what to do if something goes wrong.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Pilot</p><p class="text-xs text-neutral-300" data-inema-block="m1-7-t2-p4">Run it with test data, then alongside the manual process for a week or two, and only then let it run on its own.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Prioritize</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t2-p2">List recurring tasks and choose one that happens often, follows clear rules, and is a pain. Save tasks that happen rarely or change every time for later.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Plan</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t2-p3">Draw the flow: trigger, steps, decisions (“if it’s urgent…”), where each piece of data lives, and what to do if something goes wrong.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Pilot</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-7-t2-p4">Run it with test data, then alongside the manual process for a week or two, and only then let it run on its own.</p></div>
 </div>
 <div class="overflow-x-auto mb-6">
 <table class="w-full text-sm border border-dark-600 rounded-xl overflow-hidden">
@@ -651,7 +651,7 @@ Apps involved: &lt;Gmail, WhatsApp, Google Sheets, store system...&gt;
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> Read the numbered steps and ask yourself, “Is this really how I do it?” If the AI skipped a step or made one up, correct it before moving on. The final flow needs a clear trigger and a plan for what to do if something goes wrong.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t2-p5" data-sum="porque">Half an hour of mapping can prevent days of rework in the tool. Plus, just writing down the process often helps you find unnecessary steps you can cut—sometimes the best automation is simply to stop doing something.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t2-p5" data-sum="porque">Half an hour of mapping can prevent days of rework in the tool. Plus, just writing down the process often helps you find unnecessary steps you can cut—sometimes the best automation is simply to stop doing something.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Mapping</div><div class="text-xs text-neutral-400">the process on paper</div></div>
@@ -660,26 +660,26 @@ Apps involved: &lt;Gmail, WhatsApp, Google Sheets, store system...&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Pilot</div><div class="text-xs text-neutral-400">run it alongside the current process first</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="três ferramentas, o mesmo raciocínio">🧰 n8n, Make, and Zapier</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t3-p1">The three best-known no-code automation tools are <strong class="text-neutral-100">Zapier</strong>, o <strong class="text-neutral-100">Make</strong> e o <strong class="text-neutral-100">n8n</strong>. They all do the same basic job—connect apps with triggers and actions—and they all have ready-made blocks for using AI. They differ in how you build, where the flow runs, and how they charge. Once you learn one, you can understand the others in no time.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t3-p1">The three best-known no-code automation tools are <strong class="text-neutral-100">Zapier</strong>, o <strong class="text-neutral-100">Make</strong> e o <strong class="text-neutral-100">n8n</strong>. They all do the same basic job—connect apps with triggers and actions—and they all have ready-made blocks for using AI. They differ in how you build, where the flow runs, and how they charge. Once you learn one, you can understand the others in no time.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">They’re visual platforms where each step in the flow is a block (called a step, module, or node) connected to the next one. You choose the app, connect your account, and specify which data goes from one block to another.</p>
@@ -698,14 +698,14 @@ Apps involved: &lt;Gmail, WhatsApp, Google Sheets, store system...&gt;
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t3-p2"><strong>Open source</strong> means anyone can download and install the software. <strong>Hosting on your own server</strong> (self-hosting) means running the software on a computer you own or rent, instead of using the company’s service. <strong>Connector</strong> is the ready-made block that knows how to communicate with an app. <strong>Credential</strong> is the permission you give the tool to access your account (for example, “you can read my Gmail”).</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t3-p2"><strong>Open source</strong> means anyone can download and install the software. <strong>Hosting on your own server</strong> (self-hosting) means running the software on a computer you own or rent, instead of using the company’s service. <strong>Connector</strong> is the ready-made block that knows how to communicate with an app. <strong>Credential</strong> is the permission you give the tool to access your account (for example, “you can read my Gmail”).</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t3-p3">All three offer a way to get started without paying, and charge as usage grows—each counts usage differently (tasks, operations, or runs). Plan names and prices change often; check the tool’s page on the day you sign up. The method you learn here works with any of them.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t3-p3">All three offer a way to get started without paying, and charge as usage grows—each counts usage differently (tasks, operations, or runs). Plan names and prices change often; check the tool’s page on the day you sign up. The method you learn here works with any of them.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t3-p4" data-sum="porque">Knowing how the tools differ helps you avoid choosing based on advertising. For most first workflows, any of them will work; the choice matters when volume, sensitive data, or a desire to run everything on your own server comes into play.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t3-p4" data-sum="porque">Knowing how the tools differ helps you avoid choosing based on advertising. For most first workflows, any of them will work; the choice matters when volume, sensitive data, or a desire to run everything on your own server comes into play.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Node / module / step</div><div class="text-xs text-neutral-400">one step in the workflow</div></div>
@@ -714,26 +714,26 @@ Apps involved: &lt;Gmail, WhatsApp, Google Sheets, store system...&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Self-host</div><div class="text-xs text-neutral-400">run it on your server</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pedidos de orçamento, do formulário ao rascunho">🧪 A real workflow, step by step</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t4-p1">Let’s build a concrete workflow. Scenario: a small home renovation company receives <strong class="text-neutral-100">quote requests</strong> through a form on its website. Today, someone copies each request into a spreadsheet, reads it, decides whether it’s urgent, and writes a response. The workflow below handles the busywork and leaves the final decision to a person: AI summarizes and classifies each request, the spreadsheet records it, Telegram alerts the team about urgent requests, and Gmail saves a <strong class="text-neutral-100">draft</strong> —which is only sent after someone reviews it.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t4-p1">Let’s build a concrete workflow. Scenario: a small home renovation company receives <strong class="text-neutral-100">quote requests</strong> through a form on its website. Today, someone copies each request into a spreadsheet, reads it, decides whether it’s urgent, and writes a response. The workflow below handles the busywork and leaves the final decision to a person: AI summarizes and classifies each request, the spreadsheet records it, Telegram alerts the team about urgent requests, and Gmail saves a <strong class="text-neutral-100">draft</strong> —which is only sent after someone reviews it.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A six-step workflow—form, AI, spreadsheet, decision, alert, and draft—turns each quote request into an organized record and a response ready for review, without sending anything automatically.</p>
@@ -784,7 +784,7 @@ Apps involved: &lt;Gmail, WhatsApp, Google Sheets, store system...&gt;
 </svg>
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">How to read:</strong> Follow the arrows from the form. At step 4, the workflow splits: the Telegram alert only happens when the request is urgent; the Gmail draft is always created. Notice that the last step belongs to a person—the automation prepares everything, but nothing goes to the customer without review.</figcaption>
 </figure>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t4-p2">Below is the setup in <strong class="text-neutral-100">n8n</strong>. In Make and Zapier, the block names are slightly different, but the sequence is the same. Before you start, create a Google Sheets spreadsheet with these columns: <em>date, name, contact info, service, city, summary, urgency, status</em>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t4-p2">Below is the setup in <strong class="text-neutral-100">n8n</strong>. In Make and Zapier, the block names are slightly different, but the sequence is the same. Before you start, create a Google Sheets spreadsheet with these columns: <em>date, name, contact info, service, city, summary, urgency, status</em>.</p>
 <div class="relative border-l-2 border-emerald-500/30 ml-3 pl-6 space-y-5 mb-6">
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-emerald-500/20 border-2 border-emerald-400"></span><p class="text-sm text-neutral-300"><strong class="text-emerald-400">Step 1 · Trigger.</strong> Create a new workflow and add a form trigger (in n8n, the <em>On form submission</em>, which creates its own form; or the Google Forms trigger in Make and Zapier). Fields: name, contact info, service, city, desired timeline, description.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-emerald-500/20 border-2 border-emerald-400"></span><p class="text-sm text-neutral-300"><strong class="text-emerald-400">Step 2 · AI.</strong> Add a language model node (OpenAI, Anthropic, Gemini, or a local model through Ollama). Connect the credential and paste the prompt from the block below, inserting the form fields into it. Ask for the response in JSON format.</p></div>
@@ -820,10 +820,10 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t4-p3">An AI node connected to a cloud service uses an access key from the model provider, which charges based on usage. To learn at no cost, n8n installed on your computer can connect to a local model through Ollama; the result is a little less refined, but the workflow is identical.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t4-p3">An AI node connected to a cloud service uses an access key from the model provider, which charges based on usage. To learn at no cost, n8n installed on your computer can connect to a local model through Ollama; the result is a little less refined, but the workflow is identical.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t4-p4" data-sum="porque">Seeing a complete workflow, with a decision and human review, shows the pattern repeated in almost every useful automation: input, AI processing, record, rule, and supervised output. Once you build this one, you can adapt it for customer service, finance, or HR.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t4-p4" data-sum="porque">Seeing a complete workflow, with a decision and human review, shows the pattern repeated in almost every useful automation: input, AI processing, record, rule, and supervised output. Once you build this one, you can adapt it for customer service, finance, or HR.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">AI node</div><div class="text-xs text-neutral-400">the model inside the workflow</div></div>
@@ -832,26 +832,26 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Draft</div><div class="text-xs text-neutral-400">prepares, doesn’t send</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="regra fixa onde dá, IA onde precisa">🧠 Where AI fits in the workflow</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t5-p1">Not every step needs AI. Copying a field to a spreadsheet, comparing a date, or sending an alert are <strong class="text-neutral-100">fixed rules</strong>They always produce the same result, cost nothing extra, and don’t make mistakes because of creativity. AI is worth it when the input is <strong class="text-neutral-100">free-form, varied text</strong> — an email, a description, a complaint — that someone would need to read to understand.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t5-p1">Not every step needs AI. Copying a field to a spreadsheet, comparing a date, or sending an alert are <strong class="text-neutral-100">fixed rules</strong>They always produce the same result, cost nothing extra, and don’t make mistakes because of creativity. AI is worth it when the input is <strong class="text-neutral-100">free-form, varied text</strong> — an email, a description, a complaint — that someone would need to read to understand.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It’s a step-by-step choice between fixed rules and AI. AI handles classification, data extraction, summarizing, and drafting text; fixed rules handle copying, comparing, calculating, and sending. When a mistake could be costly, a person approves it.</p>
@@ -908,7 +908,7 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t5-p2" data-sum="porque">Putting AI in every step makes the workflow more expensive, slower, and less predictable. Using it only where needed—and requiring human approval where errors matter—gives you the best of both worlds: the machine reads, the rule executes, and the person decides.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t5-p2" data-sum="porque">Putting AI in every step makes the workflow more expensive, slower, and less predictable. Using it only where needed—and requiring human approval where errors matter—gives you the best of both worlds: the machine reads, the rule executes, and the person decides.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Fixed rule</div><div class="text-xs text-neutral-400">same result every time</div></div>
@@ -917,26 +917,26 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Human approval</div><div class="text-xs text-neutral-400">where errors matter most</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="dados falsos, aviso de erro e LGPD">🛡️ Test, monitor, and protect</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t6-p1">An automation runs when no one is watching — and that’s exactly why it can fail silently for weeks. An account password expires, a form field changes its name, or AI returns text in the wrong format. A well-built workflow <strong class="text-neutral-100">alerts you when it breaks</strong>, keeps a record of what it did, and protects the data that passes through it.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t6-p1">An automation runs when no one is watching — and that’s exactly why it can fail silently for weeks. An account password expires, a form field changes its name, or AI returns text in the wrong format. A well-built workflow <strong class="text-neutral-100">alerts you when it breaks</strong>, keeps a record of what it did, and protects the data that passes through it.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">These safeguards make an automation reliable: test with fake data, get an alert when something goes wrong, check the execution history, limit AI costs, and handle personal data in accordance with the LGPD (Brazil’s data protection law).</p>
@@ -955,7 +955,7 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t6-p2"><strong>Execution</strong> is each time the workflow runs from beginning to end; the tools keep a history of these runs, including what went in and out at each step. <strong>Error workflow</strong> is a second workflow that runs only when the main one fails, to alert you. <strong>Test data</strong> is invented information (“Test Customer,” “test@example.com”) used to try things out without touching real data.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t6-p2"><strong>Execution</strong> is each time the workflow runs from beginning to end; the tools keep a history of these runs, including what went in and out at each step. <strong>Error workflow</strong> is a second workflow that runs only when the main one fails, to alert you. <strong>Test data</strong> is invented information (“Test Customer,” “test@example.com”) used to try things out without touching real data.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
@@ -976,7 +976,7 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t6-p3" data-sum="porque">An automation without monitoring becomes a hidden risk: it can stop working, send the wrong message, or expose data. These safeguards take little time and make it possible to trust the workflow and let it run for real.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t6-p3" data-sum="porque">An automation without monitoring becomes a hidden risk: it can stop working, send the wrong message, or expose data. These safeguards take little time and make it possible to trust the workflow and let it run for real.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Test data</div><div class="text-xs text-neutral-400">try it without risk</div></div>
@@ -985,26 +985,26 @@ Don’t promise a price or date. If information is missing, ask for it in the dr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Minimum data</div><div class="text-xs text-neutral-400">only what’s needed (LGPD)</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="escolha uma e monte esta semana">🛠️ Your first automation</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t7-p1">The best first automation is <strong class="text-neutral-100">small, frequent, and low-risk</strong>. Don’t start with the company’s most important process; start with something that’s annoying every week and that you can fix in two minutes if it goes wrong. The five ideas below cover the most common situations for people just getting started.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t7-p1">The best first automation is <strong class="text-neutral-100">small, frequent, and low-risk</strong>. Don’t start with the company’s most important process; start with something that’s annoying every week and that you can fix in two minutes if it goes wrong. The five ideas below cover the most common situations for people just getting started.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">An exercise to choose a simple automation, ask the assistant for the complete workflow specification, and build it in the tool you chose, following the module’s method.</p>
@@ -1040,10 +1040,10 @@ Give me:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-7-t7-p2">Keep a simple spreadsheet of every automation you create: its name, what it does, the tool, who is responsible, and how to turn it off. Once you have five or six flows, this list becomes a map that helps prevent surprises—and shows how much repetitive work you’ve taken out of your routine.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-7-t7-p2">Keep a simple spreadsheet of every automation you create: its name, what it does, the tool, who is responsible, and how to turn it off. Once you have five or six flows, this list becomes a map that helps prevent surprises—and shows how much repetitive work you’ve taken out of your routine.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-7-t7-p3" data-sum="porque">Getting your first automation working changes how you see work: every repeated task becomes a candidate. Starting small helps make that first experience a success instead of a shock.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-7-t7-p3" data-sum="porque">Getting your first automation working changes how you see work: every repeated task becomes a candidate. Starting small helps make that first experience a success instead of a shock.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Low risk</div><div class="text-xs text-neutral-400">easy-to-fix error</div></div>
@@ -1052,11 +1052,11 @@ Give me:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Inventory</div><div class="text-xs text-neutral-400">list of your flows</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1087,7 +1087,7 @@ Give me:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1119,15 +1119,15 @@ Give me:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

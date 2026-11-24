@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:58+00:00
 Texto:
 ### Parte 1 – Prompt Engineering: Conceitos e Prática
@@ -91,7 +91,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:20+00:00
 Texto:
 Prompts um Resumo Rapido
@@ -99,7 +99,7 @@ Prompts um Resumo Rapido
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:19+00:00
 Texto:
 .
@@ -107,7 +107,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:19+00:00
 Texto:
 .
@@ -115,7 +115,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:18+00:00
 Texto:
 .
@@ -123,7 +123,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:18+00:00
 Texto:
 https://chatgpt.com/c/68c3a2ed-6ea0-832f-aeff-1f977ff9dcc9
@@ -132,7 +132,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:17+00:00
 Texto:
 1
@@ -140,7 +140,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:39:13+00:00
 Texto: [Sem texto]
 

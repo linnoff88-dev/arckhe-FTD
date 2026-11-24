@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 3.1 · Large-Scale AI Architecture | FTD v2</title>
 <meta content="Model routing, inference, batching, semantic caching, multi-region architecture, and cost limits at scale." name="description"/>
 <meta content="Module 3.1 · Large-Scale AI Architecture | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-1.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-1.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-1.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-1.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-1.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-1.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-3-1.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha3/modulo-3-1.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-1.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-3-1.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha3/modulo-3-1.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="3-1" data-inema-track="3" id="conteudo">
+<main data-ARCKHÉ-module="3-1" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">Architecture</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 3.1 progress" class="inema-ring" data-inema-meter="modulo:3-1"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:3-1"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 3.1 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-1"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-1"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. The scale map</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Model routing</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Inference and batching</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Semantic cache</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Multi-region setup</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Cost limits</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Architecture review</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. The scale map</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Model routing</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Inference and batching</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Semantic cache</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Multi-region setup</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Cost limits</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Architecture review</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="as camadas entre o usuário e o modelo">🗺️ The scale map</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t1-p1">In a prototype, the app calls the model directly. At scale, that straight line becomes a problem: each team keeps its own API key, no one knows how much each product spends, a provider outage takes everything down, and switching models means changing dozens of services. The architectural answer is the same one engineering has used for databases and payments: <strong class="text-neutral-100">put layers in between</strong>, each with a clear responsibility.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t1-p2">Two terms guide every decision in this module. <strong class="text-purple-400">p95 latency</strong> is the response time under which 95% of calls fall—the average hides the users who waited too long; p95 doesn’t. <strong class="text-purple-400">Throughput</strong> is how much work the system delivers per unit of time (calls or tokens per second). Scaling means increasing throughput without letting p95 or cost per call exceed the agreed limit.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t1-p1">In a prototype, the app calls the model directly. At scale, that straight line becomes a problem: each team keeps its own API key, no one knows how much each product spends, a provider outage takes everything down, and switching models means changing dozens of services. The architectural answer is the same one engineering has used for databases and payments: <strong class="text-neutral-100">put layers in between</strong>, each with a clear responsibility.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t1-p2">Two terms guide every decision in this module. <strong class="text-purple-400">p95 latency</strong> is the response time under which 95% of calls fall—the average hides the users who waited too long; p95 doesn’t. <strong class="text-purple-400">Throughput</strong> is how much work the system delivers per unit of time (calls or tokens per second). Scaling means increasing throughput without letting p95 or cost per call exceed the agreed limit.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Large-scale AI architecture is the set of layers between apps and models: a gateway that identifies, limits, and logs; a router that picks the right model; inference servers or APIs; caches; and observability that measures latency, errors, and cost per customer.</p>
@@ -594,7 +594,7 @@
 </table>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t1-p3" data-sum="porque">Without the map, every scaling problem becomes a separate fire: one team adds a cache, another adds retries, a third switches models. With the map, you decide which layer should solve each problem once for the whole company—and you can switch a model without touching any app.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t1-p3" data-sum="porque">Without the map, every scaling problem becomes a separate fire: one team adds a cache, another adds retries, a third switches models. With the map, you decide which layer should solve each problem once for the whole company—and you can switch a model without touching any app.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Gateway</div><div class="text-xs text-neutral-400">single entry point for models</div></div>
@@ -603,27 +603,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Observability</div><div class="text-xs text-neutral-400">measure before optimizing</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o modelo mais barato que resolve">🔀 Model routing</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t2-p1">Sending every call to the most powerful model is the fastest way to blow your budget. Much of the traffic in a real product is simple: classify a ticket, extract three fields, rewrite a sentence. A small model can do that faster and more cheaply. The <strong class="text-purple-400">model router</strong> decides, call by call, which model handles the request—and what to do if it fails.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t2-p2">There are three strategies, which are often combined. <strong class="text-neutral-100">By rule</strong>: the route type determines the model (summaries go to the small model, legal analysis to the powerful one). <strong class="text-neutral-100">By classifier</strong>: a lightweight model estimates the difficulty first. <strong class="text-neutral-100">Cascade</strong>: the small model tries first; a validator checks the format and confidence; if it doesn’t pass, the call moves up to the powerful model. <strong class="text-purple-400">Fallback</strong> is the alternative route when the chosen model is down, slow, or out of quota.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p1">Sending every call to the most powerful model is the fastest way to blow your budget. Much of the traffic in a real product is simple: classify a ticket, extract three fields, rewrite a sentence. A small model can do that faster and more cheaply. The <strong class="text-purple-400">model router</strong> decides, call by call, which model handles the request—and what to do if it fails.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p2">There are three strategies, which are often combined. <strong class="text-neutral-100">By rule</strong>: the route type determines the model (summaries go to the small model, legal analysis to the powerful one). <strong class="text-neutral-100">By classifier</strong>: a lightweight model estimates the difficulty first. <strong class="text-neutral-100">Cascade</strong>: the small model tries first; a validator checks the format and confidence; if it doesn’t pass, the call moves up to the powerful model. <strong class="text-purple-400">Fallback</strong> is the alternative route when the chosen model is down, slow, or out of quota.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Model routing is the layer that chooses, for each call, the lowest-cost model capable of meeting the required quality, and redirects the call to another model or provider when the first one fails.</p>
@@ -698,10 +698,10 @@ litellm_settings:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-1-t2-p3">Give models functional names ("rapido," "forte," "visao"), not product names. That way, when a new model comes out, you change one line in the gateway and no app notices—and you can run A/B tests by sending some of the traffic from "forte" to the candidate.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-1-t2-p3">Give models functional names ("rapido," "forte," "visao"), not product names. That way, when a new model comes out, you change one line in the gateway and no app notices—and you can run A/B tests by sending some of the traffic from "forte" to the candidate.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t2-p4" data-sum="porque">Routing is the cost lever with the biggest impact and the least risk: you don’t change the product; you just stop paying frontier-model prices for simple tasks. And fallback turns a provider outage—which currently takes your product down—into a temporary cost increase.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p4" data-sum="porque">Routing is the cost lever with the biggest impact and the least risk: you don’t change the product; you just stop paying frontier-model prices for simple tasks. And fallback turns a provider outage—which currently takes your product down—into a temporary cost increase.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Router</div><div class="text-xs text-neutral-400">chooses the model for each call</div></div>
@@ -710,27 +710,27 @@ litellm_settings:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Fallback</div><div class="text-xs text-neutral-400">alternate route if it fails</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="tirar mais de cada GPU">⚡ Inference and batching</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t3-p1"><strong class="text-purple-400">Inference</strong> means running an already-trained model to generate a response. For a language model, it has two phases: <strong class="text-neutral-100">prefill</strong>, which reads the entire prompt at once, and <strong class="text-neutral-100">decode</strong>, which generates one token at a time. Prefill determines <strong class="text-purple-400">TTFT</strong> (<em>time to first token</em>, how long the user waits to see the first word); decode determines the speed in tokens per second after that.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t3-p2">Generating one token at a time leaves the GPU underused when it serves only one user. That’s why servers group requests into <strong class="text-purple-400">batches</strong> (batching). The advance that changed the economics of self-hosting was <strong class="text-neutral-100">continuous batching</strong>: instead of waiting for the entire batch to finish, each freed slot gets a new request in the next step. Along with it comes management of the <strong class="text-purple-400">KV cache</strong> —the memory where the model stores what it has already read from each conversation—which is known as PagedAttention in vLLM.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t3-p1"><strong class="text-purple-400">Inference</strong> means running an already-trained model to generate a response. For a language model, it has two phases: <strong class="text-neutral-100">prefill</strong>, which reads the entire prompt at once, and <strong class="text-neutral-100">decode</strong>, which generates one token at a time. Prefill determines <strong class="text-purple-400">TTFT</strong> (<em>time to first token</em>, how long the user waits to see the first word); decode determines the speed in tokens per second after that.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t3-p2">Generating one token at a time leaves the GPU underused when it serves only one user. That’s why servers group requests into <strong class="text-purple-400">batches</strong> (batching). The advance that changed the economics of self-hosting was <strong class="text-neutral-100">continuous batching</strong>: instead of waiting for the entire batch to finish, each freed slot gets a new request in the next step. Along with it comes management of the <strong class="text-purple-400">KV cache</strong> —the memory where the model stores what it has already read from each conversation—which is known as PagedAttention in vLLM.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It’s the engineering of serving models: grouping requests, managing context memory, choosing quantization and hardware, and deciding between a managed API and your own server, while always measuring TTFT, tokens per second, and cost per million tokens.</p>
@@ -772,10 +772,10 @@ litellm_settings:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-1-t3-p3">Compare options by <strong>cost per million tokens with your real traffic</strong>, not by the GPU’s hourly price. A cheap GPU sitting idle at night may cost more than the API; a GPU running at full capacity all day with continuous batching may cost less. Measure a week of traffic before deciding.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-1-t3-p3">Compare options by <strong>cost per million tokens with your real traffic</strong>, not by the GPU’s hourly price. A cheap GPU sitting idle at night may cost more than the API; a GPU running at full capacity all day with continuous batching may cost less. Measure a week of traffic before deciding.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t3-p4" data-sum="porque">The “API or your own server” decision is one of the most expensive mistakes to make in AI. Understanding prefill, decode, batching, and KV cache helps you critically assess a vendor benchmark and calculate the right costs—and understand why long prompts make everything more expensive and slower.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t3-p4" data-sum="porque">The “API or your own server” decision is one of the most expensive mistakes to make in AI. Understanding prefill, decode, batching, and KV cache helps you critically assess a vendor benchmark and calculate the right costs—and understand why long prompts make everything more expensive and slower.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">TTFT</div><div class="text-xs text-neutral-400">time to first token</div></div>
@@ -784,27 +784,27 @@ litellm_settings:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Quantization</div><div class="text-xs text-neutral-400">smaller weights, less memory</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="não pagar duas vezes pela mesma resposta">🧠 Prompt cache and semantic cache</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t4-p1">There are two different caches, and confusing them leads to the wrong decision. The <strong class="text-purple-400">prompt cache</strong> is provided by inference providers and servers: when the beginning of the prompt repeats (system instructions, a long manual, tool definitions), processing of that prefix is reused and billed at a lower rate. It doesn’t change the answer—it only speeds up prefill and reduces cost. It works when the fixed part comes <strong class="text-neutral-100">before</strong> before the variable part.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t4-p2">O <strong class="text-purple-400">semantic cache</strong> is yours: you turn the question into an <strong class="text-neutral-100">embedding</strong> (a vector of numbers that represents its meaning) and search for earlier questions with similar meanings. If the <strong class="text-neutral-100">cosine similarity</strong> exceeds a threshold, it returns the saved answer without calling the model. It saves the entire call—and that also means it can return the wrong answer if the threshold is too loose or if the answer depends on who’s asking.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t4-p1">There are two different caches, and confusing them leads to the wrong decision. The <strong class="text-purple-400">prompt cache</strong> is provided by inference providers and servers: when the beginning of the prompt repeats (system instructions, a long manual, tool definitions), processing of that prefix is reused and billed at a lower rate. It doesn’t change the answer—it only speeds up prefill and reduces cost. It works when the fixed part comes <strong class="text-neutral-100">before</strong> before the variable part.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t4-p2">O <strong class="text-purple-400">semantic cache</strong> is yours: you turn the question into an <strong class="text-neutral-100">embedding</strong> (a vector of numbers that represents its meaning) and search for earlier questions with similar meanings. If the <strong class="text-neutral-100">cosine similarity</strong> exceeds a threshold, it returns the saved answer without calling the model. It saves the entire call—and that also means it can return the wrong answer if the threshold is too loose or if the answer depends on who’s asking.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Prompt caching reuses the processing of a repeated prefix while keeping the answer new; semantic caching reuses the full answer to a similar question, based on embedding similarity and a calibrated threshold.</p>
@@ -908,7 +908,7 @@ for p in ["What’s the deadline for exchanging a product?",
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t4-p3" data-sum="porque">The two caches reduce cost in different ways: prompt caching lowers the cost of the long context that repeats in every call; semantic caching eliminates entire calls. Knowing which one to use—and how to order the prompt so prompt caching works—often saves money without changing models.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t4-p3" data-sum="porque">The two caches reduce cost in different ways: prompt caching lowers the cost of the long context that repeats in every call; semantic caching eliminates entire calls. Knowing which one to use—and how to order the prompt so prompt caching works—often saves money without changing models.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Prompt caching</div><div class="text-xs text-neutral-400">reused fixed prefix</div></div>
@@ -917,27 +917,27 @@ for p in ["What’s the deadline for exchanging a product?",
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">TTL</div><div class="text-xs text-neutral-400">how long the response remains valid</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quando um provedor ou região cai">🌎 Multi-region and resilience</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t5-p1">Model providers go down, slow down, and enforce rate limits during peak hours—that’s part of operating the system, not an exception. When AI is on the critical path (customer support, checkout, triage), the architecture needs a plan for that. The components are familiar from systems engineering: <strong class="text-purple-400">health check</strong> (a periodic test that a destination responds), <strong class="text-purple-400">circuit breaker</strong> (after consecutive failures, the system stops retrying a destination for a while and uses the alternative) and <strong class="text-purple-400">graceful degradation</strong> (offer a reduced version of the feature instead of an error).</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t5-p2">AI adds a complication: <strong class="text-neutral-100">where data may be processed</strong>. Sending the prompt to a region in another country during failover may count as an international transfer of personal data, which the LGPD regulates. That’s why the alternative route needs prior approval from legal and security teams—not a rushed decision at three in the morning. Two numbers guide the design: <strong class="text-purple-400">RTO</strong>, how long the service can be down, and <strong class="text-purple-400">RPO</strong>, how much data (conversations, memory, indexes) you can afford to lose.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p1">Model providers go down, slow down, and enforce rate limits during peak hours—that’s part of operating the system, not an exception. When AI is on the critical path (customer support, checkout, triage), the architecture needs a plan for that. The components are familiar from systems engineering: <strong class="text-purple-400">health check</strong> (a periodic test that a destination responds), <strong class="text-purple-400">circuit breaker</strong> (after consecutive failures, the system stops retrying a destination for a while and uses the alternative) and <strong class="text-purple-400">graceful degradation</strong> (offer a reduced version of the feature instead of an error).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p2">AI adds a complication: <strong class="text-neutral-100">where data may be processed</strong>. Sending the prompt to a region in another country during failover may count as an international transfer of personal data, which the LGPD regulates. That’s why the alternative route needs prior approval from legal and security teams—not a rushed decision at three in the morning. Two numbers guide the design: <strong class="text-purple-400">RTO</strong>, how long the service can be down, and <strong class="text-purple-400">RPO</strong>, how much data (conversations, memory, indexes) you can afford to lose.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Multi-region resilience means keeping the AI service running when a provider, model, or region fails: approved alternative destinations, health checks, a circuit breaker, replicated context data, and a planned degraded mode.</p>
@@ -976,7 +976,7 @@ for p in ["What’s the deadline for exchanging a product?",
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Level 4 · Degraded mode.</strong> Prewritten responses, a queue for later processing, or routing to human support—with an honest notice to the user.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t5-p3" data-sum="porque">The more AI becomes part of critical processes, the more a provider outage can become a business outage. A resilience plan written before an incident—with approved routes, defined RTO and RPO, and a tested degraded mode—is what separates an hour of slow service from a day of halted operations.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p3" data-sum="porque">The more AI becomes part of critical processes, the more a provider outage can become a business outage. A resilience plan written before an incident—with approved routes, defined RTO and RPO, and a tested degraded mode—is what separates an hour of slow service from a day of halted operations.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Circuit breaker</div><div class="text-xs text-neutral-400">stop retrying what fails</div></div>
@@ -985,27 +985,27 @@ for p in ["What’s the deadline for exchanging a product?",
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Degraded mode</div><div class="text-xs text-neutral-400">fewer features, no outage</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="orçamento por cliente, corte automático">💰 Cost limits at scale</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t6-p1">AI costs vary by call, and users partly control the size of each call: a huge pasted document, a conversation that never ends, or an agent caught in a loop calling tools. Without limits, a single customer or bug can use up the month’s budget over a weekend. <strong class="text-purple-400">AI FinOps</strong> is the practice of measuring, attributing, and controlling this spending with the same discipline applied to the cloud.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t6-p2">Limits work in layers, all at the gateway: <strong class="text-neutral-100">rate limit</strong> (calls or tokens per minute, per key), <strong class="text-neutral-100">per-call cap</strong> (maximum input and output tokens), <strong class="text-neutral-100">per-tenant budget</strong> (monthly amount, with alerts before it runs out), and <strong class="text-neutral-100">step limit</strong> for agents. <strong class="text-purple-400">Tenant</strong> means each customer, department, or product that uses the platform and needs its spending tracked separately. When it reaches the limit, the best response is rarely a blunt error: switch to a cheaper model and notify the user.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t6-p1">AI costs vary by call, and users partly control the size of each call: a huge pasted document, a conversation that never ends, or an agent caught in a loop calling tools. Without limits, a single customer or bug can use up the month’s budget over a weekend. <strong class="text-purple-400">AI FinOps</strong> is the practice of measuring, attributing, and controlling this spending with the same discipline applied to the cloud.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t6-p2">Limits work in layers, all at the gateway: <strong class="text-neutral-100">rate limit</strong> (calls or tokens per minute, per key), <strong class="text-neutral-100">per-call cap</strong> (maximum input and output tokens), <strong class="text-neutral-100">per-tenant budget</strong> (monthly amount, with alerts before it runs out), and <strong class="text-neutral-100">step limit</strong> for agents. <strong class="text-purple-400">Tenant</strong> means each customer, department, or product that uses the platform and needs its spending tracked separately. When it reaches the limit, the best response is rarely a blunt error: switch to a cheaper model and notify the user.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Cost limits are rules applied before each call—rate, size, per-tenant budget, and agent steps—with the actual cost recorded afterward, so spending is predictable, attributable, and automatically cut off when it exceeds the agreed limit.</p>
@@ -1083,7 +1083,7 @@ if __name__ == "__main__":
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t6-p3" data-sum="porque">Managers approve AI at scale when costs are predictable. With a budget per tenant, automatic downgrading, and costs attributed to each product feature, the conversation shifts from "the bill was high" to "this feature costs this much per user, and it's worth it" — the foundation for any investment decision.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t6-p3" data-sum="porque">Managers approve AI at scale when costs are predictable. With a budget per tenant, automatic downgrading, and costs attributed to each product feature, the conversation shifts from "the bill was high" to "this feature costs this much per user, and it's worth it" — the foundation for any investment decision.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Tenant</div><div class="text-xs text-neutral-400">who has separate spending</div></div>
@@ -1092,27 +1092,27 @@ if __name__ == "__main__":
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">AI FinOps</div><div class="text-xs text-neutral-400">measure, attribute, control</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-3-1#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="checklist e prompt para revisar um desenho">🧭 Architecture review in practice</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t7-p1">Everything you've seen comes together in an <strong class="text-purple-400">architecture review</strong>: before an AI system goes into production, or when it starts to grow, someone works through the layers with specific questions. The order matters — measure before optimizing, and set cost limits before opening access to all customers.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t7-p2">An AI assistant can help make the review more thorough, as long as you provide the real context and prohibit invented numbers. It doesn't replace measurement; it helps surface questions the team hasn't asked, organize risks, and propose a work order for you to validate.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p1">Everything you've seen comes together in an <strong class="text-purple-400">architecture review</strong>: before an AI system goes into production, or when it starts to grow, someone works through the layers with specific questions. The order matters — measure before optimizing, and set cost limits before opening access to all customers.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p2">An AI assistant can help make the review more thorough, as long as you provide the real context and prohibit invented numbers. It doesn't replace measurement; it helps surface questions the team hasn't asked, organize risks, and propose a work order for you to validate.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A seven-step review checklist, from metrics to cost limits, plus an analysis prompt that turns a description of your system into a prioritized list of decisions, each with a way to measure it.</p>
@@ -1156,7 +1156,7 @@ TASK
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> The response should start with questions, not recommendations; each decision in the table needs a concrete metric (p95, cost per tenant, cache hit rate). Look for numbers without formulas—if you find any, ask for their source or suggest replacing them with variables. Take the table to the team and validate each row against real data before acting on it.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-1-t7-p3" data-sum="porque">Technical leaders rarely design systems alone; they lead reviews. A fixed guide ensures no layer is overlooked, and the analysis prompt speeds up the first draft without replacing real measurement with the model’s opinion.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p3" data-sum="porque">Technical leaders rarely design systems alone; they lead reviews. A fixed guide ensures no layer is overlooked, and the analysis prompt speeds up the first draft without replacing real measurement with the model’s opinion.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Architecture review</div><div class="text-xs text-neutral-400">questions by layer</div></div>
@@ -1165,11 +1165,11 @@ TASK
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Formula, not guesswork</div><div class="text-xs text-neutral-400">numbers with sources</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1200,7 +1200,7 @@ TASK
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1232,15 +1232,15 @@ TASK
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

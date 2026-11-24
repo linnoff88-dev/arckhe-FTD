@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 1.9 · Negocios y monetización con IA | FTD v2</title>
 <meta content="Dónde genera dinero la IA: servicios, productos, eficiencia interna, precios, validación y plan de 30 días." name="description"/>
 <meta content="Módulo 1.9 · Negocios y monetización con IA | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-9.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-9.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-9.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-9.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-9.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-9.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-9.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-9.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-9.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha1/modulo-1-9.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-1-9.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-9" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-9" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Proyecto</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 1.9" class="inema-ring" data-inema-meter="modulo:1-9"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-9"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 1.9" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-9"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-9"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Dónde está el valor</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Elegir un problema</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Validar antes</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Definir el precio</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Oferta y entrega</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Riesgos y aspectos legales</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Plan de 30 días</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Dónde está el valor</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Elegir un problema</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Validar antes</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Definir el precio</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Oferta y entrega</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Riesgos y aspectos legales</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Plan de 30 días</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quatro caminhos e o que cada um exige">🧭 Dónde genera valor la IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t1-p1">Empieza por una verdad poco anunciada: nadie paga por la «IA». Las personas pagan para tener un <strong class="text-neutral-100">problema resuelto</strong> — menos tiempo invertido, más clientes atendidos, un documento listo, un error evitado. La IA es tu herramienta, como una hoja de cálculo o un automóvil. Lo que se vende es el resultado.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t1-p2">En la práctica, hay cuatro caminos. El primero, que muchas veces se olvida, es usar la IA para <strong class="text-emerald-400">ganar eficiencia en el trabajo que ya tienes</strong> — el dinero ahorrado también cuenta. Los otros tres consisten en vender algo nuevo: un servicio hecho con ayuda de IA, un servicio «empaquetado» con alcance y precio fijos, o un producto que se vende sin depender de tus horas.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t1-p1">Empieza por una verdad poco anunciada: nadie paga por la «IA». Las personas pagan para tener un <strong class="text-neutral-100">problema resuelto</strong> — menos tiempo invertido, más clientes atendidos, un documento listo, un error evitado. La IA es tu herramienta, como una hoja de cálculo o un automóvil. Lo que se vende es el resultado.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t1-p2">En la práctica, hay cuatro caminos. El primero, que muchas veces se olvida, es usar la IA para <strong class="text-emerald-400">ganar eficiencia en el trabajo que ya tienes</strong> — el dinero ahorrado también cuenta. Los otros tres consisten en vender algo nuevo: un servicio hecho con ayuda de IA, un servicio «empaquetado» con alcance y precio fijos, o un producto que se vende sin depender de tus horas.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Monetizar con IA consiste en usar las herramientas de este curso para ofrecer un resultado por el que alguien esté dispuesto a pagar, o para reducir costos en tu propio negocio. Cada camino intercambia rapidez para obtener resultados por capacidad de crecer sin depender de ti.</p>
@@ -581,7 +581,7 @@
 <div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🧩 Producto digital o software</p><p class="text-xs text-neutral-400">Plantillas, cursos, kits de automatización o una aplicación. Se vende sin ti, pero requiere público y más tiempo hasta la primera venta.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t1-p3" data-sum="porque">Conocer los caminos evita el error más común de quienes empiezan: ir directo al producto (una app, un curso) sin haber resuelto nunca el problema de un cliente real. El servicio enseña qué quiere el mercado; el producto viene después, apoyado en ese aprendizaje.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t1-p3" data-sum="porque">Conocer los caminos evita el error más común de quienes empiezan: ir directo al producto (una app, un curso) sin haber resuelto nunca el problema de un cliente real. El servicio enseña qué quiere el mercado; el producto viene después, apoyado en ese aprendizaje.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Resultado</div><div class="text-xs text-neutral-400">lo que compra el cliente</div></div>
@@ -590,29 +590,29 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Escala</div><div class="text-xs text-neutral-400">vender sin tus horas</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="dor concreta, público que você alcança">🎯 Elegir un problema</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t2-p1">«Quiero ganar dinero con IA» no es un plan. «Ayudar a las clínicas de fisioterapia de mi barrio a responder mensajes para agendar citas fuera del horario de atención» sí lo es. La diferencia está en tres cosas: un <strong class="text-neutral-100">público específico</strong>, un <strong class="text-neutral-100">problema concreto</strong> y una forma realista de <strong class="text-neutral-100">llegar a esas personas</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t2-p1">«Quiero ganar dinero con IA» no es un plan. «Ayudar a las clínicas de fisioterapia de mi barrio a responder mensajes para agendar citas fuera del horario de atención» sí lo es. La diferencia está en tres cosas: un <strong class="text-neutral-100">público específico</strong>, un <strong class="text-neutral-100">problema concreto</strong> y una forma realista de <strong class="text-neutral-100">llegar a esas personas</strong>.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-9-t2-p2"><strong>Nicho</strong> es un grupo pequeño y bien definido de clientes con necesidades similares. <strong>Problema</strong> es el problema que esas personas ya sienten, que les cuesta tiempo o dinero y que ya intentan resolver de alguna manera. <strong>Propuesta de valor</strong> es la frase que indica a quién le resuelves qué problema y con qué resultado.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-9-t2-p2"><strong>Nicho</strong> es un grupo pequeño y bien definido de clientes con necesidades similares. <strong>Problema</strong> es el problema que esas personas ya sienten, que les cuesta tiempo o dinero y que ya intentan resolver de alguna manera. <strong>Propuesta de valor</strong> es la frase que indica a quién le resuelves qué problema y con qué resultado.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -658,7 +658,7 @@ No inventes cifras de mercado; cuando no lo sepas, di «hay que verificarlo».</
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> las calificaciones son conjeturas de la IA; la confirmación llega en el tema 3, conversando con personas reales. Comprueba que ningún problema se haya justificado con estadísticas sin fuente. Si la propuesta de valor no menciona un público específico, pide que la rehaga.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t2-p3" data-sum="porque">Elegir bien un problema facilita todo lo que viene después: sabes con quién hablar, qué ofrecer y cuánto cobrar. Un problema impreciso te hace competir con todo el mundo y con las propias herramientas gratuitas. Tu ventaja no es saber usar IA —mucha gente sabe hacerlo—, sino saber usar IA <strong class="text-neutral-100">en un sector que conoces</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t2-p3" data-sum="porque">Elegir bien un problema facilita todo lo que viene después: sabes con quién hablar, qué ofrecer y cuánto cobrar. Un problema impreciso te hace competir con todo el mundo y con las propias herramientas gratuitas. Tu ventaja no es saber usar IA —mucha gente sabe hacerlo—, sino saber usar IA <strong class="text-neutral-100">en un sector que conoces</strong>.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Nicho</div><div class="text-xs text-neutral-400">público pequeño y definido</div></div>
@@ -667,29 +667,29 @@ No inventes cifras de mercado; cuando no lo sepas, di «hay que verificarlo».</
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Ventaja</div><div class="text-xs text-neutral-400">el sector que conoces</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="evidência de compra antes de construir">🧪 Validar antes de construir</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t3-p1">Validar es descubrir, con el menor esfuerzo posible, si alguien <strong class="text-neutral-100">realmente pagaría</strong> por lo que quieres ofrecer. El error clásico es pasar semanas creando un sitio web, un logotipo y automatizaciones para descubrir, al lanzarlo, que nadie lo quería. La validación invierte el orden: primero la evidencia, después la construcción.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t3-p1">Validar es descubrir, con el menor esfuerzo posible, si alguien <strong class="text-neutral-100">realmente pagaría</strong> por lo que quieres ofrecer. El error clásico es pasar semanas creando un sitio web, un logotipo y automatizaciones para descubrir, al lanzarlo, que nadie lo quería. La validación invierte el orden: primero la evidencia, después la construcción.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-9-t3-p2"><strong>MVP</strong> (del inglés <em>Minimum Viable Product</em>, producto mínimo viable) es la versión más sencilla que ya ofrece el resultado; a veces eres tú quien hace manualmente, con IA, lo que algún día estará automatizado. <strong>Preventa</strong> es recibir el pago (o un compromiso firme) antes de que la entrega esté completa. <strong>Prueba piloto</strong> es atender a un primer cliente en condiciones especiales para aprender.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-9-t3-p2"><strong>MVP</strong> (del inglés <em>Minimum Viable Product</em>, producto mínimo viable) es la versión más sencilla que ya ofrece el resultado; a veces eres tú quien hace manualmente, con IA, lo que algún día estará automatizado. <strong>Preventa</strong> es recibir el pago (o un compromiso firme) antes de que la entrega esté completa. <strong>Prueba piloto</strong> es atender a un primer cliente en condiciones especiales para aprender.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -742,7 +742,7 @@ Problema que sospecho: &lt;p. ej., demora para escribir anuncios de propiedades&
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> Vuelve a leer las preguntas y tacha cualquiera que pueda responderse con «sí, qué bien». Después de 5 conversaciones, revisa la columna «¿Ya pagó por una solución?»: si nadie ha dedicado tiempo ni dinero al problema, quizá el problema sea menor de lo que parece.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t3-p3" data-sum="porque">Validar cuesta algunas semanas de conversaciones; no validar puede costar meses de trabajo en un producto sin compradores. La IA hizo más barata la construcción, lo que aumenta aún más la tentación de construir primero y hace que validar sea todavía más importante. Un «no» a tiempo es un ahorro, no un fracaso.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t3-p3" data-sum="porque">Validar cuesta algunas semanas de conversaciones; no validar puede costar meses de trabajo en un producto sin compradores. La IA hizo más barata la construcción, lo que aumenta aún más la tentación de construir primero y hace que validar sea todavía más importante. Un «no» a tiempo es un ahorro, no un fracaso.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Validación</div><div class="text-xs text-neutral-400">evidencia antes del esfuerzo</div></div>
@@ -751,26 +751,26 @@ Problema que sospecho: &lt;p. ej., demora para escribir anuncios de propiedades&
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Piloto pagado</div><div class="text-xs text-neutral-400">la señal más fuerte</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="piso, mercado e valor para o cliente">🏷️ Definir el precio</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t4-p1">Quien empieza suele equivocarse y poner un precio demasiado bajo, por miedo a perder al cliente. Con IA, el riesgo aumenta: como el trabajo toma menos tiempo, parece justo cobrar poco. Pero el cliente no paga por tus horas, sino por el <strong class="text-neutral-100">resultado</strong>. Si el anuncio está listo en 20 minutos en vez de 2 horas, eso es eficiencia tuya, no un descuento obligatorio.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t4-p1">Quien empieza suele equivocarse y poner un precio demasiado bajo, por miedo a perder al cliente. Con IA, el riesgo aumenta: como el trabajo toma menos tiempo, parece justo cobrar poco. Pero el cliente no paga por tus horas, sino por el <strong class="text-neutral-100">resultado</strong>. Si el anuncio está listo en 20 minutos en vez de 2 horas, eso es eficiencia tuya, no un descuento obligatorio.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Fijar el precio es elegir un valor entre tres referencias: el mínimo (tus costos y lo mínimo por tu tiempo), el mercado (lo que cobran alternativas similares) y el máximo (cuánto vale el resultado para el cliente). Un precio saludable queda entre el mercado y el máximo.</p>
@@ -834,10 +834,10 @@ Precios de alternativas que encontré: &lt;valores y dónde los vi&gt;
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-9-t4-p2">Ofrecer tres opciones ayuda al cliente a elegir «cuál» en vez de «si». Deja claro en la propuesta qué resultado recibe, no qué herramienta usas. «Atención respondida en hasta 1 hora» vende más que «chatbot con IA».</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-9-t4-p2">Ofrecer tres opciones ayuda al cliente a elegir «cuál» en vez de «si». Deja claro en la propuesta qué resultado recibe, no qué herramienta usas. «Atención respondida en hasta 1 hora» vende más que «chatbot con IA».</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t4-p3" data-sum="porque">Un precio demasiado bajo atrae clientes que solo buscan precio, te agota y hace que el negocio sea imposible de mantener. Un precio definido con método —mínimo calculado, mercado conocido, valor conversado— te da seguridad para negociar y para decir que no a lo que no conviene.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t4-p3" data-sum="porque">Un precio demasiado bajo atrae clientes que solo buscan precio, te agota y hace que el negocio sea imposible de mantener. Un precio definido con método —mínimo calculado, mercado conocido, valor conversado— te da seguridad para negociar y para decir que no a lo que no conviene.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Mínimo</div><div class="text-xs text-neutral-400">costos + tu tiempo</div></div>
@@ -846,34 +846,34 @@ Precios de alternativas que encontré: &lt;valores y dónde los vi&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Tres opciones</div><div class="text-xs text-neutral-400">básico, estándar, completo</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="escopo claro e qualidade com revisão humana">📦 Oferta y entrega</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t5-p1">Una buena oferta cabe en una pantalla: para quién es, qué resultado ofrece, qué incluye, qué no incluye, en cuánto tiempo y por cuánto. Por dentro, la entrega necesita un <strong class="text-neutral-100">proceso repetible</strong> — los prompts que funcionan guardados, una lista de verificación de revisión y un modelo de informe. Eso es lo que convierte un servicio en un paquete.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t5-p1">Una buena oferta cabe en una pantalla: para quién es, qué resultado ofrece, qué incluye, qué no incluye, en cuánto tiempo y por cuánto. Por dentro, la entrega necesita un <strong class="text-neutral-100">proceso repetible</strong> — los prompts que funcionan guardados, una lista de verificación de revisión y un modelo de informe. Eso es lo que convierte un servicio en un paquete.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La oferta es la promesa escrita que lee el cliente; la entrega es el proceso que cumple esa promesa cada vez, con la misma calidad. Con IA, el proceso siempre incluye una etapa de revisión humana antes de que cualquier cosa llegue al cliente.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Receta</p><p class="text-xs text-neutral-300" data-inema-block="m1-9-t5-p2">Los prompts, modelos y pasos que funcionaron en la prueba piloto, guardados en un documento. Nadie empieza desde cero en la segunda entrega.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Revisión</p><p class="text-xs text-neutral-300" data-inema-block="m1-9-t5-p3">Lista de verificación fija: hechos comprobados, nombres correctos, tono del cliente y ningún dato de terceros. La IA redacta; tú firmas.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Prueba</p><p class="text-xs text-neutral-300" data-inema-block="m1-9-t5-p4">El antes y el después del cliente, con su autorización. Un caso real bien contado vende más que cualquier anuncio.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">1 · Receta</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-9-t5-p2">Los prompts, modelos y pasos que funcionaron en la prueba piloto, guardados en un documento. Nadie empieza desde cero en la segunda entrega.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">2 · Revisión</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-9-t5-p3">Lista de verificación fija: hechos comprobados, nombres correctos, tono del cliente y ningún dato de terceros. La IA redacta; tú firmas.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">3 · Prueba</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-9-t5-p4">El antes y el después del cliente, con su autorización. Un caso real bien contado vende más que cualquier anuncio.</p></div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
@@ -917,7 +917,7 @@ Después, crea una LISTA DE VERIFICACIÓN DE REVISIÓN con 8 elementos que compr
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> Muéstrale la oferta a una persona del público y pídele que explique, con sus propias palabras, qué vendes. Si no sabe decir cuál es el resultado y el precio, la oferta necesita ser más clara. Comprueba que no haya promesas de resultados que dependan del cliente.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t5-p5" data-sum="porque">La IA facilita producir mucho, y también facilita entregar algo incorrecto a gran escala. Un alcance claro te protege de los pedidos interminables; la revisión humana protege tu reputación. Ser transparente sobre el uso de IA evita la peor conversación posible: que el cliente se entere por su cuenta.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t5-p5" data-sum="porque">La IA facilita producir mucho, y también facilita entregar algo incorrecto a gran escala. Un alcance claro te protege de los pedidos interminables; la revisión humana protege tu reputación. Ser transparente sobre el uso de IA evita la peor conversación posible: que el cliente se entere por su cuenta.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Alcance</div><div class="text-xs text-neutral-400">qué incluye y qué no</div></div>
@@ -926,29 +926,29 @@ Después, crea una LISTA DE VERIFICACIÓN DE REVISIÓN con 8 elementos que compr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Prueba</div><div class="text-xs text-neutral-400">caso real autorizado</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="LGPD, direitos, formalização e golpes">⚖️ Riesgos, ética y aspectos legales</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t6-p1">Vender algo hecho con IA conlleva responsabilidades que no existen en el uso personal. Vas a manejar datos de clientes, entregar textos e imágenes que alguien publicará y emitir cobros. Nada de esto es complicado, pero todo debe pensarse <strong class="text-neutral-100">antes</strong> del primer contrato, no después del primer problema.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t6-p1">Vender algo hecho con IA conlleva responsabilidades que no existen en el uso personal. Vas a manejar datos de clientes, entregar textos e imágenes que alguien publicará y emitir cobros. Nada de esto es complicado, pero todo debe pensarse <strong class="text-neutral-100">antes</strong> del primer contrato, no después del primer problema.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 ¿Nuevo aquí?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-9-t6-p2"><strong>LGPD</strong> es la Ley General de Protección de Datos (Ley 13.709/2018): regula cómo se pueden recopilar y usar los datos personales. <strong>MEI</strong> (microempresario individual) es la forma más sencilla de tener un CNPJ y emitir facturas en Brasil, pero tiene un límite de ingresos y una lista de actividades permitidas, que cambian con el tiempo. Confirma tu situación con un contador o en el portal oficial del gobierno.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-9-t6-p2"><strong>LGPD</strong> es la Ley General de Protección de Datos (Ley 13.709/2018): regula cómo se pueden recopilar y usar los datos personales. <strong>MEI</strong> (microempresario individual) es la forma más sencilla de tener un CNPJ y emitir facturas en Brasil, pero tiene un límite de ingresos y una lista de actividades permitidas, que cambian con el tiempo. Confirma tu situación con un contador o en el portal oficial del gobierno.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
@@ -985,7 +985,7 @@ Después, crea una LISTA DE VERIFICACIÓN DE REVISIÓN con 8 elementos que compr
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t6-p3" data-sum="porque">Una filtración de datos o una imagen con una marca de terceros puede costar más que todos los ingresos del año, además de la reputación, que es lo que atrae al próximo cliente. Las precauciones mínimas son económicas y, además de protegerte, se convierten en un argumento de venta: un cliente serio prefiere a quien se toma esto en serio.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t6-p3" data-sum="porque">Una filtración de datos o una imagen con una marca de terceros puede costar más que todos los ingresos del año, además de la reputación, que es lo que atrae al próximo cliente. Las precauciones mínimas son económicas y, además de protegerte, se convierten en un argumento de venta: un cliente serio prefiere a quien se toma esto en serio.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">LGPD</div><div class="text-xs text-neutral-400">datos personales protegidos</div></div>
@@ -994,26 +994,26 @@ Después, crea una LISTA DE VERIFICACIÓN DE REVISIÓN con 8 elementos que compr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Transparencia</div><div class="text-xs text-neutral-400">decir que usas IA</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-9#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-9#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="do problema ao primeiro cliente piloto">🗓️ Tu plan de 30 días</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t7-p1">Treinta días no construyen un negocio, pero bastan para responder la pregunta que importa: <strong class="text-neutral-100">¿alguien paga por esto?</strong> El plan de abajo reúne todo lo que viste en este módulo en cuatro semanas, con una decisión al final. Puedes seguirlo junto con un empleo, dedicándole unas horas por semana.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t7-p1">Treinta días no construyen un negocio, pero bastan para responder la pregunta que importa: <strong class="text-neutral-100">¿alguien paga por esto?</strong> El plan de abajo reúne todo lo que viste en este módulo en cuatro semanas, con una decisión al final. Puedes seguirlo junto con un empleo, dedicándole unas horas por semana.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Una hoja de ruta de cuatro semanas —problema, oferta, piloto y decisión— que termina con evidencia real: atender a un cliente piloto o aprender claramente por qué la idea no funcionó. Ambos resultados valen.</p>
@@ -1078,10 +1078,10 @@ Formato: tabla Día | Tarea | Tiempo | Entrega.</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-9-t7-p2">Este es el final de la Ruta 1. Vuelve al mapa de tareas que hiciste en el módulo 1.1: muchas tareas cambiaron de columna. Si en el camino te dan ganas de crear tu propia herramienta —un asistente con tus documentos, una automatización a medida—, la Ruta 2 es exactamente el siguiente paso.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-9-t7-p2">Este es el final de la Ruta 1. Vuelve al mapa de tareas que hiciste en el módulo 1.1: muchas tareas cambiaron de columna. Si en el camino te dan ganas de crear tu propia herramienta —un asistente con tus documentos, una automatización a medida—, la Ruta 2 es exactamente el siguiente paso.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-9-t7-p3" data-sum="porque">El conocimiento sin plazo se convierte en una intención eterna. Un plan breve, con entregas semanales y una decisión programada, transforma lo que aprendiste en evidencia sobre tu camino: ya sea un primer cliente o la certeza de que vale la pena probar otra idea. Ambas cosas tienen valor y ninguna depende de la suerte.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-9-t7-p3" data-sum="porque">El conocimiento sin plazo se convierte en una intención eterna. Un plan breve, con entregas semanales y una decisión programada, transforma lo que aprendiste en evidencia sobre tu camino: ya sea un primer cliente o la certeza de que vale la pena probar otra idea. Ambas cosas tienen valor y ninguna depende de la suerte.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Entrega semanal</div><div class="text-xs text-neutral-400">algo verificable</div></div>
@@ -1090,11 +1090,11 @@ Formato: tabla Día | Tarea | Tiempo | Entrega.</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Registro</div><div class="text-xs text-neutral-400">horas y monto recibido</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1126,7 +1126,7 @@ Formato: tabla Día | Tarea | Tiempo | Entrega.</pre>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1158,15 +1158,15 @@ Formato: tabla Día | Tarea | Tiempo | Entrega.</pre>
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

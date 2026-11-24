@@ -53,7 +53,7 @@ def head(title, desc, rel):
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="{C['course']}" name="inema-course"/>
+<meta content="{C['course']}" name="ARCKHÉ-course"/>
 <title>{html.escape(title)}</title>
 <meta content="{html.escape(desc)}" name="description"/>
 <meta content="{html.escape(title)}" property="og:title"/>
@@ -61,7 +61,7 @@ def head(title, desc, rel):
 <!-- ANTI-FOUC (Erro #18) — primeiro script do head -->
 {ANTIFOUC}
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {MANIFEST}
 </script>
 <script src="https://cdn.tailwindcss.com"></script>
@@ -157,12 +157,12 @@ def nav(depth, active=None):
 def footer(landing=False):
     extra = ''
     if landing:
-        extra = ('\n<p class="mt-3"><a class="text-sky-400 hover:text-sky-300" href="https://www.inema.club/aprender-inteligencia-artificial/">Guia: como aprender inteligência artificial</a>'
-                 ' · <a class="text-sky-400 hover:text-sky-300" href="https://www.inema.club/cursos/">Todos os cursos</a>'
-                 ' · <a class="text-sky-400 hover:text-sky-300" href="https://www.inema.club/cursos/16-ftd-formacao-transformacao-digital/">Ficha do curso no INEMA.CLUB</a></p>')
+        extra = ('\n<p class="mt-3"><a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/aprender-inteligencia-artificial/">Guia: como aprender inteligência artificial</a>'
+                 ' · <a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/cursos/">Todos os cursos</a>'
+                 ' · <a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/cursos/16-ftd-formacao-transformacao-digital/">Ficha do curso no ARCKHÉ AI</a></p>')
     return f"""<footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formação da Transformação Digital · conteúdo aberto e gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>{extra}
+<p>FTD — Formação da Transformação Digital · conteúdo aberto e gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>{extra}
 </div>
 </footer>
 """
@@ -174,7 +174,7 @@ def scripts(rel, auto_resume=False, accordion_group=False):
       if (moduleCard) moduleCard.querySelectorAll('.topic-explanation.active').forEach(function (exp) {
         if (exp !== explanation) { exp.classList.remove('active'); var b = exp.closest('.topic-item').querySelector('button[aria-controls]'); if (b) b.setAttribute('aria-expanded', 'false'); }
       });""" if accordion_group else ''
-    init = 'window.INEMA.init({ autoResume: true });' if auto_resume else 'window.INEMA.init();'
+    init = 'window.ARCKHÉ.init({ autoResume: true });' if auto_resume else 'window.ARCKHÉ.init();'
     return f"""<!-- SCRIPTS NÚCLEO v1 -->
 <script>
     function toggleTopic(button) {{
@@ -204,15 +204,15 @@ def scripts(rel, auto_resume=False, accordion_group=False):
       if (themeToggle) themeToggle.addEventListener('click', function () {{
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try {{ localStorage.setItem('theme', nowDark ? 'dark' : 'light'); }} catch (e) {{}}
-        try {{ var p = JSON.parse(localStorage.getItem('inema.prefs') || '{{}}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); }} catch (e) {{}}
+        try {{ var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{{}}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); }} catch (e) {{}}
         sync();
       }});
     }})();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="{rel}/assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') {{ {init} }}
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') {{ {init} }}
   </script>
 </body>
 </html>
@@ -240,7 +240,7 @@ EMOJI = re.compile(r'^([^\w\s«“"(]{1,3})\s*')
 def topic_rows(mid):
     soup = BeautifulSoup((SRC / 'modulos' / f'modulo-{mid}.html').read_text(), 'html.parser')
     rows = []
-    for sec in soup.select('section[data-inema-topic]'):
+    for sec in soup.select('section[data-ARCKHÉ-topic]'):
         h2 = sec.find('h2')
         title = txt(h2)
         m = EMOJI.match(title)
@@ -288,7 +288,7 @@ def trilha_index(t):
 <span class="text-{cor}-400 font-bold">{dot}</span>
 <div class="flex items-center gap-3">
 <span class="text-xs text-neutral-500">~{m['min']} min</span>
-<div aria-label="Progresso do módulo {dot}" class="inema-ring" data-inema-meter="modulo:{mid}" style="--ring-size:2.4rem"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
+<div aria-label="Progresso do módulo {dot}" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:{mid}" style="--ring-size:2.4rem"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
 </div>
 </div>
 <h3 class="text-2xl font-bold mb-2">{m['emoji']} {m['title']}</h3>
@@ -316,7 +316,7 @@ def trilha_index(t):
         prev_next.append(f'<a class="px-5 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="../trilha{int(n)-1}/index.html">← Trilha anterior</a>')
     if int(n) < len(C['tracks']):
         prev_next.append(f'<a class="px-5 py-3 {BTN[cor]} text-white rounded-lg font-semibold transition-colors" href="../trilha{int(n)+1}/index.html">Próxima trilha →</a>')
-    main = f"""<main data-inema-track="{n}" id="conteudo">
+    main = f"""<main data-ARCKHÉ-track="{n}" id="conteudo">
 <nav aria-label="Trilha de navegação" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
 <a class="hover:text-{cor}-400" href="../../index.html">Início</a><span>/</span>
@@ -335,8 +335,8 @@ def trilha_index(t):
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-{cor}-400">{t['nivel']}</div><div class="text-xs text-neutral-400">Nível</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progresso da Trilha {n}" class="inema-ring" data-inema-meter="trilha:{n}"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="trilha:{n}"><strong data-inema-meter-frac="">0 de 0</strong> tópicos lidos</div>
+<div aria-label="Progresso da Trilha {n}" class="ARCKHÉ-ring" data-ARCKHÉ-meter="trilha:{n}"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="trilha:{n}"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> tópicos lidos</div>
 </div>
 </div>
 </header>
@@ -381,7 +381,7 @@ def main():
         if ok and (SRC / 'trilhas' / f"trilha{t['n']}-hero.html").exists():
             (d / 'index.html').write_text(trilha_index(t)); built += 1
     if (SRC / 'landing.html').exists():
-        (ROOT / 'index.html').write_text(page(C['nome'] + ' | FTD v2 · INEMA.CLUB',
+        (ROOT / 'index.html').write_text(page(C['nome'] + ' | FTD v2 · ARCKHÉ AI',
             'Curso aberto e gratuito em três níveis — Iniciante, Técnico e Masterclass — para entender, usar e construir com inteligência artificial.',
             '.', 'root', None, (SRC / 'landing.html').read_text(), landing=True)); built += 1
     print(f'{built} páginas montadas; faltando módulos: {missing or "nenhum"}')

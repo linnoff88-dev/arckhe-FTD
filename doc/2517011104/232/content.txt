@@ -10,7 +10,7 @@ Midias baixadas: 22
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-28T11:42:14+00:00
 Texto:
 https://gamma.app/docs/n4fks4m9vk974y2
@@ -131,7 +131,7 @@ Midia: MessageMediaPhoto -> photo_778_015.jpg
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:16:59+00:00
 Texto:
 https://t.me/+5-Ta3ENqYlswOTRh
@@ -143,7 +143,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto:
 o primeiro criado no dalle e o Segundo no stablediffusion do flux
@@ -151,7 +151,7 @@ o primeiro criado no dalle e o Segundo no stablediffusion do flux
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_685_018.jpg
@@ -159,7 +159,7 @@ Midia: MessageMediaPhoto -> photo_685_018.jpg
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_684_019.jpg
@@ -167,7 +167,7 @@ Midia: MessageMediaPhoto -> photo_684_019.jpg
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto:
 ### Novo Prompt Baseado na Imagem Fornecida 
@@ -206,7 +206,7 @@ Aqui está a nova imagem dos dois filhotes de tigre abraçados com aparência se
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto:
 Exemplos de Categorias para um Bom Prompt
@@ -237,7 +237,7 @@ Fonte de Inspiração
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto:
 ### Categorias para um Bom Prompt 
@@ -333,7 +333,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T02:15:16+00:00
 Texto:
 Um bom prompt para gerar imagens é claro, detalhado e estruturado, fornecendo informações suficientes para que a ferramenta de IA compreenda exatamente o que você deseja criar. Ele combina categorias relevantes, como o assunto principal, estilo, cenário, detalhes visuais e emocionais, e, se necessário, inclui um "prompt negativo" para evitar elementos indesejados. 
@@ -374,7 +374,7 @@ Esse exemplo deixa claro o que deve ser criado, garantindo um resultado mais pr�
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:46:06+00:00
 Texto:
 lora
@@ -382,7 +382,7 @@ lora
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:52+00:00
 Texto:
 https://gamma.app/docs/3znkhai8t3yy75n
@@ -391,7 +391,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:50+00:00
 Texto:
 Dicas de usar uma imagem para Descrever detalhes sobre ela, gerar prompts
@@ -401,7 +401,7 @@ Fazer exercicios
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:29+00:00
 Texto:
 .
@@ -409,7 +409,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:28+00:00
 Texto:
 .
@@ -417,7 +417,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 29
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:28+00:00
 Texto:
 .
@@ -425,7 +425,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 30
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:27+00:00
 Texto:
 Veja o Outro Topico de Hacks
@@ -433,7 +433,7 @@ Veja o Outro Topico de Hacks
 ------------------------------
 
 MENSAGEM 31
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:36:10+00:00
 Texto:
 Hacks - Dicas Imagens
@@ -441,7 +441,7 @@ Hacks - Dicas Imagens
 ------------------------------
 
 MENSAGEM 32
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:51+00:00
 Texto:
 **1. Hacks para Ferramentas de Imagem (Leonardo AI, Ideogram)**
@@ -461,7 +461,7 @@ Exportar imagens em alta qualidade e remover fundo automaticamente
 ------------------------------
 
 MENSAGEM 33
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:51+00:00
 Texto:
 2
@@ -469,7 +469,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 34
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:50+00:00
 Texto:
 2
@@ -477,7 +477,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 35
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:48+00:00
 Texto:
 1
@@ -485,7 +485,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 36
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:48+00:00
 Texto:
 1
@@ -493,7 +493,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 37
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:47+00:00
 Texto:
 Chatgpt.com
@@ -505,7 +505,7 @@ klingai.com
 ------------------------------
 
 MENSAGEM 38
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:44+00:00
 Texto:
 1
@@ -513,7 +513,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 39
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:19+00:00
 Texto:
 Agora vamos complementar com **ferramentas open source ou voltadas para desenvolvedores**, atualizadas para abril de 2025, com foco em criação de imagens com IA — e incluindo **Pinokio**, **fal.ai** e **Replicate (Flux)**.
@@ -578,7 +578,7 @@ Agora vamos complementar com **ferramentas open source ou voltadas para desenvol
 ------------------------------
 
 MENSAGEM 40
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:18+00:00
 Texto:
 ...
@@ -586,7 +586,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 41
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:17+00:00
 Texto:
 .
@@ -594,7 +594,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 42
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:17+00:00
 Texto:
 ### **Introdução à Criação de Imagens com IA**  
@@ -634,7 +634,7 @@ A partir daqui, você pode seguir para os tópicos práticos da aula:
 ------------------------------
 
 MENSAGEM 43
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:17+00:00
 Texto:
 https://gamma.app/docs/w4oc3b1k1l6vy88
@@ -643,7 +643,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 44
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:16+00:00
 Texto:
 [https://t.me/+5-Ta3ENqYlswOTRh](https://t.me/+5-Ta3ENqYlswOTRh)
@@ -655,7 +655,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 45
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:16+00:00
 Texto:
 ..
@@ -663,7 +663,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 46
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:16+00:00
 Texto:
 .
@@ -671,7 +671,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 47
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:16+00:00
 Texto:
 https://chatgpt.com/c/67f5cac3-b3fc-8009-b8b0-adfff7682104
@@ -680,7 +680,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 48
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:15+00:00
 Texto:
 1
@@ -688,7 +688,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 49
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T01:35:02+00:00
 Texto: [Sem texto]
 

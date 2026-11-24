@@ -10,7 +10,7 @@ Midias baixadas: 2
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:25+00:00
 Texto:
 Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D, Meshy, Impressão 3D e Desenvolvimento de Games**, mantendo o estilo direto, prático e aplicável em 1 hora.
@@ -76,7 +76,7 @@ Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D,
 
 ---
 
-## **Tópico 7: Criar um mini cinema com IA (15 min)**
+## **Tópico 7: Criar um mini cARCKHÉ com IA (15 min)**
 
 **Objetivo:** Unir consistência + visual + áudio para contar uma micro história.
 
@@ -114,7 +114,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:11+00:00
 Texto:
 ===
@@ -122,7 +122,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:11+00:00
 Texto:
 ==
@@ -130,7 +130,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:11+00:00
 Texto:
 =
@@ -138,7 +138,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:11+00:00
 Texto:
 ==
@@ -146,7 +146,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:11+00:00
 Texto:
 =
@@ -154,7 +154,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:10+00:00
 Texto:
 =
@@ -162,7 +162,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:10+00:00
 Texto:
 =
@@ -170,7 +170,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:07+00:00
 Texto:
 Perfeito, Nei! Aqui está uma sugestão direta, atemporal e prática para essa **Hora 3** com foco em **Consistência Visual e Narrativa com IA**, voltada para quem tem **1 hora disponível**. A ideia é manter fluidez, ser aplicável de forma imediata e incentivar a experimentação com ferramentas modernas (como Meshy, Leonardo, Gen-2, Runway, etc.).
@@ -270,7 +270,7 @@ Se quiser, posso já montar os exemplos de prompts para essa aula ou preparar um
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:03+00:00
 Texto:
 .
@@ -278,7 +278,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:03+00:00
 Texto:
 ...
@@ -286,7 +286,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:03+00:00
 Texto:
 ..
@@ -294,7 +294,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:02+00:00
 Texto:
 .
@@ -302,7 +302,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:02+00:00
 Texto:
 ..
@@ -310,7 +310,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:02+00:00
 Texto:
 .
@@ -318,7 +318,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:02+00:00
 Texto:
 .
@@ -326,7 +326,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:01+00:00
 Texto:
 .
@@ -334,7 +334,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:01+00:00
 Texto:
 https://chatgpt.com/c/67f5e19f-c704-8009-86db-bef95496feaf
@@ -343,7 +343,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:59:00+00:00
 Texto:
 1
@@ -351,7 +351,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T02:58:53+00:00
 Texto: [Sem texto]
 

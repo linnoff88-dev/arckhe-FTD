@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 1.8 · Advanced Artificial Intelligence | FTD v2</title>
 <meta content="Context windows, your own documents, reasoning models, multimodality, and local AI, explained without jargon." name="description"/>
 <meta content="Module 1.8 · Advanced Artificial Intelligence | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-8.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-8.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-8.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-8.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-8.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-8.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-8.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha1/modulo-1-8.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-8.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-8.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha1/modulo-1-8.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-8" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-8" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 1.8 progress" class="inema-ring" data-inema-meter="modulo:1-8"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-8"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 1.8 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-8"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-8"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,36 +506,36 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Context window</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Your documents</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Semantic search</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Reasoning models</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Seeing, hearing, and speaking</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. AI on your computer</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Which capability to use</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. Context window</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Your documents</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Semantic search</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Reasoning models</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. Seeing, hearing, and speaking</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. AI on your computer</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Which capability to use</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="a memória de trabalho da IA">🪟 Context window</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t1-p1">Every time you send a message, the model rereads <strong class="text-neutral-100">everything in the conversation</strong>: the instructions, the files you attached, previous messages, and your new question. All of that has a size limit. It’s the <strong class="text-emerald-400">context window</strong>. What fits in it, the model can see. What falls outside it doesn’t exist to the model.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t1-p1">Every time you send a message, the model rereads <strong class="text-neutral-100">everything in the conversation</strong>: the instructions, the files you attached, previous messages, and your new question. All of that has a size limit. It’s the <strong class="text-emerald-400">context window</strong>. What fits in it, the model can see. What falls outside it doesn’t exist to the model.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t1-p2">Remember Module 1.1: the model reads text in <strong>tokens</strong>, pieces of words. The window is measured in tokens, not pages. In Portuguese, a word usually becomes one or two tokens. In 2026, large models accept hundreds of thousands of tokens, and some exceed a million—enough for several books. The exact number changes with each release; the concept stays the same.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t1-p2">Remember Module 1.1: the model reads text in <strong>tokens</strong>, pieces of words. The window is measured in tokens, not pages. In Portuguese, a word usually becomes one or two tokens. In 2026, large models accept hundreds of thousands of tokens, and some exceed a million—enough for several books. The exact number changes with each release; the concept stays the same.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -598,7 +598,7 @@
 </ul>
 </div>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t1-p3">A large context window doesn’t mean every detail gets equal attention. With very long texts, models tend to give less weight to details buried in the middle. The practical solution is simple: tell the model <strong class="text-neutral-100">where to look</strong> (“in section 4 of the contract”) and ask it to quote the passage it used. When the conversation gets very long, use the prompt below to create a “context packet” and continue in a new conversation.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t1-p3">A large context window doesn’t mean every detail gets equal attention. With very long texts, models tend to give less weight to details buried in the middle. The practical solution is simple: tell the model <strong class="text-neutral-100">where to look</strong> (“in section 4 of the contract”) and ask it to quote the passage it used. When the conversation gets very long, use the prompt below to create a “context packet” and continue in a new conversation.</p>
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-emerald-400">Goal:</strong> <span class="text-neutral-300">carry the essentials of a long conversation into a new conversation without losing decisions.</span></p>
@@ -618,7 +618,7 @@ Conversation topic: &lt;summarize in one line&gt;</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> read the packet and look for a decision you remember making. If it isn’t there, ask for it to be added. Then paste the packet into a new conversation and ask “what’s the next task?” — the answer should match item 5.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t1-p4" data-sum="porque">Many poor answers that people blame on “stupid AI” come from confusing conversations: mixed topics, rules forgotten outside the context window, too many files. Understanding the context window helps you organize your work into clean conversations, improving quality without switching tools.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t1-p4" data-sum="porque">Many poor answers that people blame on “stupid AI” come from confusing conversations: mixed topics, rules forgotten outside the context window, too many files. Understanding the context window helps you organize your work into clean conversations, improving quality without switching tools.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Context window</div><div class="text-xs text-neutral-400">what fits at once</div></div>
@@ -627,29 +627,29 @@ Conversation topic: &lt;summarize in one line&gt;</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Context packet</div><div class="text-xs text-neutral-400">summary to start again</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="a IA respondendo com base no que é seu">📚 Chat with your documents</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t2-p1">The model knows a lot about the world, but it knows nothing about <strong class="text-neutral-100">your company</strong>: your catalog, team handbook, contracts, and the questions customers ask most often. The solution isn’t to train a new model. It’s to give the model the right passages from your documents when you ask a question—and ask it to answer <strong class="text-emerald-400">based only on them</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t2-p1">The model knows a lot about the world, but it knows nothing about <strong class="text-neutral-100">your company</strong>: your catalog, team handbook, contracts, and the questions customers ask most often. The solution isn’t to train a new model. It’s to give the model the right passages from your documents when you ask a question—and ask it to answer <strong class="text-emerald-400">based only on them</strong>.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t2-p2"><strong>RAG</strong> (from <em>Retrieval-Augmented Generation</em>, generation augmented by search) is the technical name for this idea: first <strong>retrieve</strong> the relevant passages, then <strong>generate</strong> the answer from them. You don’t need to build anything to use this: ChatGPT and Claude “projects,” Gemini Gems, and Google’s NotebookLM already do this when you upload files.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t2-p2"><strong>RAG</strong> (from <em>Retrieval-Augmented Generation</em>, generation augmented by search) is the technical name for this idea: first <strong>retrieve</strong> the relevant passages, then <strong>generate</strong> the answer from them. You don’t need to build anything to use this: ChatGPT and Claude “projects,” Gemini Gems, and Google’s NotebookLM already do this when you upload files.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -715,7 +715,7 @@ My questions:
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> the answer to question 1 should match what you already know; use Ctrl+F to find the quoted passage in the file. Question 3 should get the answer “I couldn’t find it.” If the AI makes up an answer to it, don’t trust this workflow without manual review.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t2-p3" data-sum="porque">This is one of the biggest time-savers in everyday work: finding a clause, answering a customer’s question using the right policy, studying a public call for proposals. It also does the most to reduce made-up answers, because the response points to its source. Before pasting customers’ personal data, remember LGPD (Brazil’s data protection law): use accounts with appropriate terms of service, and anonymize the data when you can.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t2-p3" data-sum="porque">This is one of the biggest time-savers in everyday work: finding a clause, answering a customer’s question using the right policy, studying a public call for proposals. It also does the most to reduce made-up answers, because the response points to its source. Before pasting customers’ personal data, remember LGPD (Brazil’s data protection law): use accounts with appropriate terms of service, and anonymize the data when you can.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">RAG</div><div class="text-xs text-neutral-400">retrieve, then generate</div></div>
@@ -724,29 +724,29 @@ My questions:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Project</div><div class="text-xs text-neutral-400">saved files + instructions</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="achar pelo sentido, não pela palavra">🧭 Search by meaning</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t3-p1">How does the search in the previous topic know that the passage “return period” answers the question “can I exchange the item?” when the words are different? It doesn’t compare words; it compares <strong class="text-neutral-100">meanings</strong>. Each passage becomes a list of numbers representing its meaning—and texts with similar meanings get similar numbers.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t3-p1">How does the search in the previous topic know that the passage “return period” answers the question “can I exchange the item?” when the words are different? It doesn’t compare words; it compares <strong class="text-neutral-100">meanings</strong>. Each passage becomes a list of numbers representing its meaning—and texts with similar meanings get similar numbers.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t3-p2"><strong>Embedding</strong> it’s this list of numbers that represents the meaning of a text (or an image). Imagine a map: each text becomes a point, and nearby points describe similar things. <strong>Semantic search</strong> means searching for the neighbors of the point representing your question. <strong>Vector database</strong> is the file that stores these points so searches can be fast.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t3-p2"><strong>Embedding</strong> it’s this list of numbers that represents the meaning of a text (or an image). Imagine a map: each text becomes a point, and nearby points describe similar things. <strong>Semantic search</strong> means searching for the neighbors of the point representing your question. <strong>Vector database</strong> is the file that stores these points so searches can be fast.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -783,16 +783,16 @@ My questions:
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">How to read:</strong> each point is a text. The distance between points measures how different their meanings are. The blue point is your question: it lands next to “pet” and “dog,” so the search returns those texts even though your question doesn’t use either word.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🔤 Keyword search</p><p class="text-xs text-neutral-300" data-inema-block="m1-8-t3-p3">Finds “bill” only when you type “bill.” Great for exact codes, names, and numbers.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🧭 Meaning-based search</p><p class="text-xs text-neutral-300" data-inema-block="m1-8-t3-p4">Finds “overdue invoice” when you ask “past-due bill.” Great for questions in natural language.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🔀 Hybrid search</p><p class="text-xs text-neutral-300" data-inema-block="m1-8-t3-p5">Combines both. Good systems use it so they don’t miss either the meaning or the exact number.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🔤 Keyword search</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-8-t3-p3">Finds “bill” only when you type “bill.” Great for exact codes, names, and numbers.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🧭 Meaning-based search</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-8-t3-p4">Finds “overdue invoice” when you ask “past-due bill.” Great for questions in natural language.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🔀 Hybrid search</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-8-t3-p5">Combines both. Good systems use it so they don’t miss either the meaning or the exact number.</p></div>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t3-p6">When “chat with your documents” gets something wrong, the search is often to blame, not the model. Try rephrasing the question using words from the document itself, or point to the section. If that helps, you’ve found the problem.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t3-p6">When “chat with your documents” gets something wrong, the search is often to blame, not the model. Try rephrasing the question using words from the document itself, or point to the section. If that helps, you’ve found the problem.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t3-p7" data-sum="porque">You won’t program embeddings in Track 1, but knowing they exist explains why AI sometimes finds the right answer using different words—and why it sometimes returns a similar but incorrect passage. With that knowledge, you can ask better questions and know what to expect from a vendor promising “AI trained on your documents.”</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t3-p7" data-sum="porque">You won’t program embeddings in Track 1, but knowing they exist explains why AI sometimes finds the right answer using different words—and why it sometimes returns a similar but incorrect passage. With that knowledge, you can ask better questions and know what to expect from a vendor promising “AI trained on your documents.”</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Embedding</div><div class="text-xs text-neutral-400">meaning in numbers</div></div>
@@ -801,26 +801,26 @@ My questions:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Hybrid search</div><div class="text-xs text-neutral-400">meaning + exact word</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pensar antes de responder">🧠 Reasoning models</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t4-p1">Since 2024, leading assistants have gained a second way to respond. In standard mode, the model writes the answer all at once. In <strong class="text-emerald-400">reasoning</strong>, it first writes an internal draft: breaking the problem into steps, testing approaches, checking calculations, and only then answering. In tools, this may appear as “think,” “extended thinking,” “reasoning,” or an effort selector.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t4-p1">Since 2024, leading assistants have gained a second way to respond. In standard mode, the model writes the answer all at once. In <strong class="text-emerald-400">reasoning</strong>, it first writes an internal draft: breaking the problem into steps, testing approaches, checking calculations, and only then answering. In tools, this may appear as “think,” “extended thinking,” “reasoning,” or an effort selector.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A reasoning model spends more time and tokens planning, trying, and checking before it answers. It performs better on problems with multiple steps—calculations, logic, planning, code—and is slower and more expensive for simple tasks.</p>
@@ -895,7 +895,7 @@ My situation: &lt;budget, urgency, what’s nonnegotiable&gt;
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> redo one of the calculations with a calculator. Compare the two versions: reasoning mode usually shows more steps and catches more details, but what matters is that the math checks out. If the two versions disagree, that disagreement shows exactly what you need to look at.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t4-p2" data-sum="porque">Choosing the right mode saves time and money: using reasoning for everything makes every answer slow; using fast mode for everything means you’ll get wrong calculations on difficult problems. Knowing when to turn on “think” is one of the simplest decisions with the biggest impact on daily use.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t4-p2" data-sum="porque">Choosing the right mode saves time and money: using reasoning for everything makes every answer slow; using fast mode for everything means you’ll get wrong calculations on difficult problems. Knowing when to turn on “think” is one of the simplest decisions with the biggest impact on daily use.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Reasoning</div><div class="text-xs text-neutral-400">thinking in steps</div></div>
@@ -904,26 +904,26 @@ My situation: &lt;budget, urgency, what’s nonnegotiable&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Cost × quality</div><div class="text-xs text-neutral-400">not every task needs it</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="foto, tela, áudio e voz na mesma conversa">👁️ See, hear, and speak</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t5-p1">The assistants of 2026 are <strong class="text-emerald-400">multimodal</strong>: beyond text, they accept photos, screenshots, scanned PDFs, audio, and, in some cases, video—and hold real-time voice conversations. In practice, this replaces a lot of typing with a simple action: take a photo of the receipt, show the error on your screen, or record the meeting.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t5-p1">The assistants of 2026 are <strong class="text-emerald-400">multimodal</strong>: beyond text, they accept photos, screenshots, scanned PDFs, audio, and, in some cases, video—and hold real-time voice conversations. In practice, this replaces a lot of typing with a simple action: take a photo of the receipt, show the error on your screen, or record the meeting.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Multimodal means a model can understand and produce more than one type of content in the same conversation: you show it an image and ask a question by text, or speak and hear the response. The model “reads” the image the same way it reads words, turning it into pieces it can process.</p>
@@ -952,10 +952,10 @@ Expense category I want to use: &lt;e.g., food, office supplies&gt;</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t5-p2">Before sending a screenshot or a photo of a document, check what else appears in it: client names, CPF, bank balance, other people’s conversations. Crop the image to include only what’s needed. LGPD (Brazil’s data protection law) also applies to images.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t5-p2">Before sending a screenshot or a photo of a document, check what else appears in it: client names, CPF, bank balance, other people’s conversations. Crop the image to include only what’s needed. LGPD (Brazil’s data protection law) also applies to images.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t5-p3" data-sum="porque">A lot of office work involves copying information from paper or a screen to somewhere else. Multimodal AI does the first pass of that work in seconds, and voice makes AI available when your hands are busy. You’ll see the benefit in the first week—as long as you check the numbers.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t5-p3" data-sum="porque">A lot of office work involves copying information from paper or a screen to somewhere else. Multimodal AI does the first pass of that work in seconds, and voice makes AI available when your hands are busy. You’ll see the benefit in the first week—as long as you check the numbers.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Multimodal</div><div class="text-xs text-neutral-400">multiple types of input</div></div>
@@ -964,29 +964,29 @@ Expense category I want to use: &lt;e.g., food, office supplies&gt;</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Real-time voice</div><div class="text-xs text-neutral-400">spoken conversation</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="modelos que rodam sem internet">💻 AI on your computer</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t6-p1">ChatGPT, Claude, and Gemini run on company servers: what you type travels over the internet. There’s another option: download an <strong class="text-emerald-400">open model</strong> and run it on your own computer. Free programs like <strong class="text-neutral-100">Ollama</strong> e o <strong class="text-neutral-100">LM Studio</strong> make installation feel like installing any other app.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t6-p1">ChatGPT, Claude, and Gemini run on company servers: what you type travels over the internet. There’s another option: download an <strong class="text-emerald-400">open model</strong> and run it on your own computer. Free programs like <strong class="text-neutral-100">Ollama</strong> e o <strong class="text-neutral-100">LM Studio</strong> make installation feel like installing any other app.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t6-p2"><strong>Open model</strong> is a model whose company has made its file available for download, like the Llama, Qwen, and Gemma families. <strong>Run locally</strong> means using that file on your computer without sending anything outside it. <strong>Memory (RAM or video memory)</strong> is the main limitation: larger models need more memory; smaller ones run on ordinary laptops, more slowly and with lower quality than the large cloud models.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t6-p2"><strong>Open model</strong> is a model whose company has made its file available for download, like the Llama, Qwen, and Gemma families. <strong>Run locally</strong> means using that file on your computer without sending anything outside it. <strong>Memory (RAM or video memory)</strong> is the main limitation: larger models need more memory; smaller ones run on ordinary laptops, more slowly and with lower quality than the large cloud models.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -1037,7 +1037,7 @@ Summarize the following text in 3 bullet points and say what the most urgent act
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> run the command <code>ollama list</code> and check which model is installed. Paste the same text into a cloud assistant and compare the two summaries: the local one tends to be simpler, and you can decide whether it’s enough for this kind of task. If your computer gets very slow, switch to a smaller model.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t6-p3" data-sum="porque">Some tasks involve data that can’t leave your organization: medical records, legal cases, clients’ financial data. For these, local AI is an option that protects privacy while still providing help. Knowing it exists also means you don’t depend on a single company—if a service changes its prices or rules, you have an alternative.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t6-p3" data-sum="porque">Some tasks involve data that can’t leave your organization: medical records, legal cases, clients’ financial data. For these, local AI is an option that protects privacy while still providing help. Knowing it exists also means you don’t depend on a single company—if a service changes its prices or rules, you have an alternative.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Open model</div><div class="text-xs text-neutral-400">file available for download</div></div>
@@ -1046,26 +1046,26 @@ Summarize the following text in 3 bullet points and say what the most urgent act
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Privacy</div><div class="text-xs text-neutral-400">data stays on the computer</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-8#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-8#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="prompt, documentos, raciocínio, local ou ajuste fino">🧰 Which resource to use</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t7-p1">With so many options, it’s tempting to use the most sophisticated one. The approach that works is the opposite: start with the <strong class="text-neutral-100">simplest</strong> and move up only when it fails. A good prompt handles most cases. Documents come in when the answer depends on your own information. Reasoning comes in when there are multiple steps. Local AI comes in when information is confidential.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t7-p1">With so many options, it’s tempting to use the most sophisticated one. The approach that works is the opposite: start with the <strong class="text-neutral-100">simplest</strong> and move up only when it fails. A good prompt handles most cases. Documents come in when the answer depends on your own information. Reasoning comes in when there are multiple steps. Local AI comes in when information is confidential.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A way to decide which resource to use for each task, based on three questions: Does the answer depend on my information? Does the problem have multiple steps? Could the data leave my computer?</p>
@@ -1086,7 +1086,7 @@ Summarize the following text in 3 bullet points and say what the most urgent act
 </div>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t7-p2"><strong>Fine-tuning</strong> (<em>fine-tuning</em>) is training a ready-made model a little further with hundreds or thousands of your examples, so it can learn a format or a style. It’s for teaching <strong>how to do things</strong>, not teaching <strong>facts</strong>: for facts that change, documents (Topic 2) work better and cost less. When in doubt, don’t start here.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t7-p2"><strong>Fine-tuning</strong> (<em>fine-tuning</em>) is training a ready-made model a little further with hundreds or thousands of your examples, so it can learn a format or a style. It’s for teaching <strong>how to do things</strong>, not teaching <strong>facts</strong>: for facts that change, documents (Topic 2) work better and cost less. When in doubt, don’t start here.</p>
 </div>
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
@@ -1114,10 +1114,10 @@ If you need more information about any task, ask before responding.</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-8-t7-p3">Resource names change: today’s “project” may become tomorrow’s “space,” and the reasoning button may become automatic. Remember the three questions — my information, multiple steps, confidentiality — and you’ll recognize the right resource in any tool.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-8-t7-p3">Resource names change: today’s “project” may become tomorrow’s “space,” and the reasoning button may become automatic. Remember the three questions — my information, multiple steps, confidentiality — and you’ll recognize the right resource in any tool.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-8-t7-p4" data-sum="porque">When you know how to choose the right resource, you spend less, make fewer mistakes, and avoid falling for a vendor’s promise to sell you “AI trained just for you” when a project with documents would do the job. It’s also the foundation for the next module, where you turn this knowledge into value for others.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-8-t7-p4" data-sum="porque">When you know how to choose the right resource, you spend less, make fewer mistakes, and avoid falling for a vendor’s promise to sell you “AI trained just for you” when a project with documents would do the job. It’s also the foundation for the next module, where you turn this knowledge into value for others.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Start with the simplest</div><div class="text-xs text-neutral-400">move up only if it fails</div></div>
@@ -1126,11 +1126,11 @@ If you need more information about any task, ask before responding.</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Short test</div><div class="text-xs text-neutral-400">10 minutes, real task</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1162,7 +1162,7 @@ If you need more information about any task, ask before responding.</pre>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1194,15 +1194,15 @@ If you need more information about any task, ask before responding.</pre>
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

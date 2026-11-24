@@ -18,7 +18,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:34:33+00:00
 Texto:
 pessoas q falam por telegfone x q atendem
@@ -26,7 +26,7 @@ pessoas q falam por telegfone x q atendem
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:34:03+00:00
 Texto:
 por isso tem aprender a ou criar assistentes ou estruturar equipes
@@ -34,7 +34,7 @@ por isso tem aprender a ou criar assistentes ou estruturar equipes
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:33:41+00:00
 Texto:
 pq tem gente q precisa falar, e isso te esgota teu tempo.]
@@ -42,7 +42,7 @@ pq tem gente q precisa falar, e isso te esgota teu tempo.]
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:33:26+00:00
 Texto:
 venda de hora x estretegia
@@ -50,7 +50,7 @@ venda de hora x estretegia
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:33:16+00:00
 Texto:
 .Escala
@@ -58,7 +58,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:33:14+00:00
 Texto:
 .
@@ -66,7 +66,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:33:13+00:00
 Texto:
 ..
@@ -74,7 +74,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T22:33:11+00:00
 Texto:
 ==============
@@ -82,7 +82,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:16:16+00:00
 Texto:
 monetizar
@@ -90,7 +90,7 @@ monetizar
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:16:06+00:00
 Texto:
 modenixar
@@ -98,7 +98,7 @@ modenixar
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:16:00+00:00
 Texto:
 creciemtnos da empresa
@@ -106,7 +106,7 @@ creciemtnos da empresa
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:52+00:00
 Texto:
 contratos
@@ -114,7 +114,7 @@ contratos
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:41+00:00
 Texto:
 Sociao parceitro funcionarios
@@ -122,7 +122,7 @@ Sociao parceitro funcionarios
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:24+00:00
 Texto:
 .
@@ -130,7 +130,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:24+00:00
 Texto:
 .
@@ -138,7 +138,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:24+00:00
 Texto:
 .
@@ -146,7 +146,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:23+00:00
 Texto:
 .
@@ -154,7 +154,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:14+00:00
 Texto:
 como lancar produtos
@@ -162,7 +162,7 @@ como lancar produtos
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:15:04+00:00
 Texto:
 como movimentar um canal novo
@@ -170,7 +170,7 @@ como movimentar um canal novo
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:59+00:00
 Texto:
 canais e multicanais
@@ -178,7 +178,7 @@ canais e multicanais
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:50+00:00
 Texto:
 pago
@@ -186,7 +186,7 @@ pago
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:48+00:00
 Texto:
 organizco
@@ -194,7 +194,7 @@ organizco
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:45+00:00
 Texto:
 aquecimento
@@ -202,7 +202,7 @@ aquecimento
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:42+00:00
 Texto:
 Marketing
@@ -210,7 +210,7 @@ Marketing
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:38+00:00
 Texto:
 .
@@ -218,7 +218,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:38+00:00
 Texto:
 .
@@ -226,7 +226,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:38+00:00
 Texto:
 .
@@ -234,7 +234,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 29
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:14:38+00:00
 Texto:
 .
@@ -242,7 +242,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 30
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:13:39+00:00
 Texto:
 competencia x lealdade x dedicacao x perseverança
@@ -250,7 +250,7 @@ competencia x lealdade x dedicacao x perseverança
 ------------------------------
 
 MENSAGEM 31
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:13:06+00:00
 Texto:
 quem repassa, perde o controle
@@ -258,7 +258,7 @@ quem repassa, perde o controle
 ------------------------------
 
 MENSAGEM 32
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:12:47+00:00
 Texto:
 a mula
@@ -266,7 +266,7 @@ a mula
 ------------------------------
 
 MENSAGEM 33
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:12:41+00:00
 Texto:
 salvador da patria
@@ -274,7 +274,7 @@ salvador da patria
 ------------------------------
 
 MENSAGEM 34
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:12:35+00:00
 Texto:
 as dificuldades de quem nao delega
@@ -282,7 +282,7 @@ as dificuldades de quem nao delega
 ------------------------------
 
 MENSAGEM 35
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:12:24+00:00
 Texto:
 delegar, confiar, monitorar, nao repassar,
@@ -290,7 +290,7 @@ delegar, confiar, monitorar, nao repassar,
 ------------------------------
 
 MENSAGEM 36
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:59+00:00
 Texto:
 capitulo negocios
@@ -298,7 +298,7 @@ capitulo negocios
 ------------------------------
 
 MENSAGEM 37
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:56+00:00
 Texto:
 .
@@ -306,7 +306,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 38
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:56+00:00
 Texto:
 ..
@@ -314,7 +314,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 39
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:56+00:00
 Texto:
 .
@@ -322,7 +322,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 40
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:56+00:00
 Texto:
 .
@@ -330,7 +330,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 41
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:55+00:00
 Texto:
 .
@@ -338,7 +338,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 42
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:55+00:00
 Texto:
 1
@@ -346,7 +346,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 43
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-03T21:11:24+00:00
 Texto: [Sem texto]
 

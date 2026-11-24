@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T03:47:59+00:00
 Texto:
 https://gamma.app/docs/u2bzmbxxy0fskze
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:41:03+00:00
 Texto:
 **bloco extra de alto impacto** sobre **criação de canais de audiência, estratégias de conteúdo automatizado e níveis de consciência**, com **divisão por público-alvo**.
@@ -113,7 +113,7 @@ Cada aluno desenha sua audiência em 2 perfis e cria 1 conteúdo adaptado para c
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:58+00:00
 Texto:
 .
@@ -121,7 +121,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:57+00:00
 Texto:
 .
@@ -129,7 +129,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:41+00:00
 Texto:
 1-6-be1 - CONSTRUINDO SUA AUDIÊNCIA E CONTEÚDO QUE VENDE
@@ -137,7 +137,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:38+00:00
 Texto:
 .
@@ -145,7 +145,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:38+00:00
 Texto:
 ..
@@ -153,7 +153,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:37+00:00
 Texto:
 ..
@@ -161,7 +161,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:37+00:00
 Texto:
 ..
@@ -169,7 +169,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:37+00:00
 Texto:
 .
@@ -177,7 +177,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:36+00:00
 Texto:
 ..
@@ -185,7 +185,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:36+00:00
 Texto:
 .
@@ -193,7 +193,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:36+00:00
 Texto:
 .
@@ -201,7 +201,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:35+00:00
 Texto:
 1
@@ -209,7 +209,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:39:30+00:00
 Texto: [Sem texto]
 

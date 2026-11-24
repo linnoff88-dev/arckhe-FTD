@@ -448,7 +448,7 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 
 ---
 
-**Criado por:** INEMA TDS
+**Criado por:** ARCKHÉ TDS
 **Data:** 12/11/2025
 **Próxima Revisão:** Após Fase 1 (Semana 4)
 **Status:** Pronto para Execução 🚀

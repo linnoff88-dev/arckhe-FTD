@@ -10,7 +10,7 @@ Midias baixadas: 2
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T05:27:01+00:00
 Texto:
 https://gamma.app/docs/s29yuf9h6jxj3sz
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:01:31+00:00
 Texto:
 Como vc se venderia ao colega:?
@@ -29,7 +29,7 @@ Faca em uma folha de papel e mostre o q voce é bom?
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:00:54+00:00
 Texto:
 ### MÓDULO 2: ESCOLHA RÁPIDA DE UM NICHO E UM CAMINHO DE VENDA  
@@ -62,7 +62,7 @@ Cada participante escolhe e anota:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:00:34+00:00
 Texto:
 ..
@@ -70,7 +70,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:00:34+00:00
 Texto:
 .
@@ -78,7 +78,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:00:34+00:00
 Texto:
 .
@@ -86,7 +86,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:32+00:00
 Texto:
 ### MÓDULO 2: ESCOLHA RÁPIDA DE UM NICHO E UM CAMINHO DE VENDA (40 minutos)  
@@ -108,7 +108,7 @@ Cada participante define um nicho, um problema, uma solução e um canal de vend
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:30+00:00
 Texto:
 .
@@ -116,7 +116,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:27+00:00
 Texto:
 ...
@@ -124,7 +124,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:27+00:00
 Texto:
 ..
@@ -132,7 +132,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:26+00:00
 Texto:
 .
@@ -140,7 +140,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:26+00:00
 Texto:
 1-6-2 -  ESCOLHA DE UM NICHO E UM CAMINHO DE VENDA
@@ -148,7 +148,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:26+00:00
 Texto:
 ....
@@ -156,7 +156,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:26+00:00
 Texto:
 ...
@@ -164,7 +164,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:26+00:00
 Texto:
 ..
@@ -172,7 +172,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:25+00:00
 Texto:
 .
@@ -180,7 +180,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:25+00:00
 Texto:
 https://chatgpt.com/c/67f5f090-7f70-8009-9285-ffc4af4ada32
@@ -189,7 +189,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:24+00:00
 Texto:
 1
@@ -197,7 +197,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:57:19+00:00
 Texto: [Sem texto]
 

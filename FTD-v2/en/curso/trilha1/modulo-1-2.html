@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 1.2 · Navigating the Digital World | FTD v2</title>
 <meta content="Choose tools, organize accounts and files, protect data, and evaluate what AI produces." name="description"/>
 <meta content="Module 1.2 · Navigating the Digital World | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-2.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-2.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha1/modulo-1-2.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha1/modulo-1-2.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha1/modulo-1-2.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-2.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-2.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha1/modulo-1-2.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha1/modulo-1-2.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-2.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha1/modulo-1-2.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="1-2" data-inema-track="1" id="conteudo">
+<main data-ARCKHÉ-module="1-2" data-ARCKHÉ-track="1" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-emerald-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 1.2 progress" class="inema-ring" data-inema-meter="modulo:1-2"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:1-2"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 1.2 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:1-2"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:1-2"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. The tool map</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Choose with care</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Accounts and secure access</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Files and conversations</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. What never to paste</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Check what AI gives you</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Your minimum toolkit</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-1">1. The tool map</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-2">2. Choose with care</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-3">3. Accounts and secure access</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-4">4. Files and conversations</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-5">5. What never to paste</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-6">6. Check what AI gives you</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-emerald-400" href="#topico-7">7. Your minimum toolkit</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="categorias, não marcas">🗺️ The tool map</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t1-p1">Every week, a new AI tool appears, promising to change your life. Most disappear within a few months, change their name, or get swallowed up by a bigger company. That’s why the right way to find your bearings isn’t to memorize brands; it’s to understand the <strong class="text-neutral-100">categories</strong>. Each category handles a type of work, and the tools within it come and go.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t1-p2">At the center of the map are <strong class="text-emerald-400">general-purpose assistants</strong> — ChatGPT, Claude, and Gemini. As of October 2026, all three can communicate through text and voice, read files and images, search the web, and generate images or code. Around them are specialized tools for images, video, voice, code, research, and automation. Often, a general-purpose assistant is enough; a specialized tool comes in when you need more quality or control for a particular type of work.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t1-p1">Every week, a new AI tool appears, promising to change your life. Most disappear within a few months, change their name, or get swallowed up by a bigger company. That’s why the right way to find your bearings isn’t to memorize brands; it’s to understand the <strong class="text-neutral-100">categories</strong>. Each category handles a type of work, and the tools within it come and go.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t1-p2">At the center of the map are <strong class="text-emerald-400">general-purpose assistants</strong> — ChatGPT, Claude, and Gemini. As of October 2026, all three can communicate through text and voice, read files and images, search the web, and generate images or code. Around them are specialized tools for images, video, voice, code, research, and automation. Often, a general-purpose assistant is enough; a specialized tool comes in when you need more quality or control for a particular type of work.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">The tool map divides the AI market into work categories: a general-purpose assistant at the center, with specialized tools around it, each suited to a particular type of output.</p>
@@ -588,10 +588,10 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t1-p3">Names, plans, and prices change all the time, so this module doesn’t include a price table. Before you subscribe to anything, open the tool’s official page and check its current price. The selection method you’ll learn still works when the brands change.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t1-p3">Names, plans, and prices change all the time, so this module doesn’t include a price table. Before you subscribe to anything, open the tool’s official page and check its current price. The selection method you’ll learn still works when the brands change.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t1-p4" data-sum="porque">When you think in categories, you won’t feel lost with every new release. Look at the new tool and ask: which category does it fit into, and does it do the job better than what I already use? This saves money on subscriptions and time learning a tool that may disappear.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t1-p4" data-sum="porque">When you think in categories, you won’t feel lost with every new release. Look at the new tool and ask: which category does it fit into, and does it do the job better than what I already use? This saves money on subscriptions and time learning a tool that may disappear.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">General-purpose assistant</div><div class="text-xs text-neutral-400">the center of the map</div></div>
@@ -600,27 +600,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Official page</div><div class="text-xs text-neutral-400">source for the current price</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="teste com a sua tarefa real">🎯 Choose with care</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t2-p1">There’s no “best AI.” There’s the best one for <strong class="text-neutral-100">your task</strong>, with <strong class="text-neutral-100">your budget</strong> and <strong class="text-neutral-100">your privacy requirements</strong>. Online rankings measure generic tests; what matters is how the tool performs on the text you write, the spreadsheet you analyze, and the customer you serve.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t2-p2">The most reliable approach is a <strong class="text-emerald-400">side-by-side test</strong>: the same request, with the same material, in two or three tools on their free plans. Compare the answers against your own standards — and decide based on evidence, not advertising.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t2-p1">There’s no “best AI.” There’s the best one for <strong class="text-neutral-100">your task</strong>, with <strong class="text-neutral-100">your budget</strong> and <strong class="text-neutral-100">your privacy requirements</strong>. Online rankings measure generic tests; what matters is how the tool performs on the text you write, the spreadsheet you analyze, and the customer you serve.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t2-p2">The most reliable approach is a <strong class="text-emerald-400">side-by-side test</strong>: the same request, with the same material, in two or three tools on their free plans. Compare the answers against your own standards — and decide based on evidence, not advertising.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Choosing with care means evaluating tools with five questions — task, quality, cost, privacy, and integration — using a test based on your own work.</p>
@@ -672,7 +672,7 @@ Sample material (no real names): &lt;paste 2 or 3 typical messages&gt;
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t2-p3" data-sum="porque">A choice backed by a real test can serve you for months. You stop paying for promises, gain confidence in the tool you use, and can explain to your boss or business partner why you chose it—with examples, not opinions.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t2-p3" data-sum="porque">A choice backed by a real test can serve you for months. You stop paying for promises, gain confidence in the tool you use, and can explain to your boss or business partner why you chose it—with examples, not opinions.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Side-by-side test</div><div class="text-xs text-neutral-400">same request, multiple AIs</div></div>
@@ -681,29 +681,29 @@ Sample material (no real names): &lt;paste 2 or 3 typical messages&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Integration</div><div class="text-xs text-neutral-400">works with what you use</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="planos, senhas e dupla verificação">🔑 Accounts and secure access</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t3-p1">Your AI account holds much more than you might think: entire conversations, files you’ve uploaded, memories of what you’ve told it about yourself, and, increasingly, access to your email, calendar, and Drive. Anyone who gets into your account can see all of that. That’s why your assistant account deserves the same care as your bank account.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t3-p1">Your AI account holds much more than you might think: entire conversations, files you’ve uploaded, memories of what you’ve told it about yourself, and, increasingly, access to your email, calendar, and Drive. Anyone who gets into your account can see all of that. That’s why your assistant account deserves the same care as your bank account.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t3-p2"><strong>Password manager</strong> is an app that creates and stores a different, strong password for each site; you only have to remember one. <strong>Two-step verification</strong> (2FA) asks for a code on your phone in addition to your password—someone who steals your password still can’t get in. <strong>Passkey</strong> replaces your password with unlocking your own device using your fingerprint or face. <strong>Business plan</strong> is the version for businesses, with a contract and stricter data rules.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p2"><strong>Password manager</strong> is an app that creates and stores a different, strong password for each site; you only have to remember one. <strong>Two-step verification</strong> (2FA) asks for a code on your phone in addition to your password—someone who steals your password still can’t get in. <strong>Passkey</strong> replaces your password with unlocking your own device using your fingerprint or face. <strong>Business plan</strong> is the version for businesses, with a contract and stricter data rules.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -749,16 +749,16 @@ Sample material (no real names): &lt;paste 2 or 3 typical messages&gt;
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-emerald-400">How to read:</strong> Your account is at the center, and each ring is a layer you turn on once. Notice the red arrow: even with a leaked password, the intruder is stopped by the two-step verification ring. Each additional layer takes minutes to activate and can prevent major damage.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🆓 Free</p><p class="text-xs text-neutral-300" data-inema-block="m1-2-t3-p3">Good for learning and personal tasks. Usage limits are lower, and with many services, conversations may be used to improve the model—check the setting in your account preferences.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⭐ Individual paid plan</p><p class="text-xs text-neutral-300" data-inema-block="m1-2-t3-p4">More usage, stronger models, and features like projects and agents. It’s still a personal account: read the data rules before using it with customer information.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🏢 Team or business</p><p class="text-xs text-neutral-300" data-inema-block="m1-2-t3-p5">A contract, centralized administration, and a commitment not to train on your data. This is the right choice when customer, patient, or employee data is involved.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🆓 Free</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p3">Good for learning and personal tasks. Usage limits are lower, and with many services, conversations may be used to improve the model—check the setting in your account preferences.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">⭐ Individual paid plan</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p4">More usage, stronger models, and features like projects and agents. It’s still a personal account: read the data rules before using it with customer information.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-emerald-400 font-semibold text-sm mb-1">🏢 Team or business</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p5">A contract, centralized administration, and a commitment not to train on your data. This is the right choice when customer, patient, or employee data is involved.</p></div>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t3-p6">Keep your personal account separate from your work account. If you change jobs or your company switches tools, nothing gets mixed together—and you won’t have customer conversations in the account tied to your personal email.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t3-p6">Keep your personal account separate from your work account. If you change jobs or your company switches tools, nothing gets mixed together—and you won’t have customer conversations in the account tied to your personal email.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t3-p7" data-sum="porque">Scams that start with a leaked password are common, and AI accounts have become valuable targets because they hold so much information. Turning on two-step verification and choosing the right plan takes less than half an hour and closes the door attackers use most often.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t3-p7" data-sum="porque">Scams that start with a leaked password are common, and AI accounts have become valuable targets because they hold so much information. Turning on two-step verification and choosing the right plan takes less than half an hour and closes the door attackers use most often.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Password manager</div><div class="text-xs text-neutral-400">a strong password for every site</div></div>
@@ -767,27 +767,27 @@ Sample material (no real names): &lt;paste 2 or 3 typical messages&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Business plan</div><div class="text-xs text-neutral-400">contract for customer data</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="projetos, nomes e histórico">🗂️ Organized files and conversations</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t4-p1">After a few weeks of using AI, your conversation list turns into a messy drawer: “New conversation,” “New conversation,” “Help with text.” That great reply from Tuesday disappears among a hundred others. Getting organized isn’t busywork: it’s how you reuse what has already worked.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t4-p2">Today’s assistants have <strong class="text-emerald-400">projects</strong> (or similar workspaces): folders where you bring together conversations, reference files, and standing instructions on a topic. A conversation opened inside the “Store — customer service” project already knows the brand’s tone and return policy because those files are there.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t4-p1">After a few weeks of using AI, your conversation list turns into a messy drawer: “New conversation,” “New conversation,” “Help with text.” That great reply from Tuesday disappears among a hundred others. Getting organized isn’t busywork: it’s how you reuse what has already worked.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t4-p2">Today’s assistants have <strong class="text-emerald-400">projects</strong> (or similar workspaces): folders where you bring together conversations, reference files, and standing instructions on a topic. A conversation opened inside the “Store — customer service” project already knows the brand’s tone and return policy because those files are there.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Getting organized means giving each recurring topic its own project, naming each conversation to show what it helps you do, and saving important final results outside the chat.</p>
@@ -820,10 +820,10 @@ Sample material (no real names): &lt;paste 2 or 3 typical messages&gt;
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t4-p3">When a conversation produces a request that worked really well, copy the request into a document called "My prompts." In Module 1.3, this document becomes your prompt library.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t4-p3">When a conversation produces a request that worked really well, copy the request into a document called "My prompts." In Module 1.3, this document becomes your prompt library.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t4-p4" data-sum="porque">Organization turns casual use into a system. With projects and clear names, you can reuse what you’ve already done, the AI starts each conversation with the right context, and you can find in seconds what used to take half an hour to locate.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t4-p4" data-sum="porque">Organization turns casual use into a system. With projects and clear names, you can reuse what you’ve already done, the AI starts each conversation with the right context, and you can find in seconds what used to take half an hour to locate.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Project</div><div class="text-xs text-neutral-400">folder with files and instructions</div></div>
@@ -832,29 +832,29 @@ Sample material (no real names): &lt;paste 2 or 3 typical messages&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Monthly cleanup</div><div class="text-xs text-neutral-400">delete sensitive content</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="LGPD e o semáforo dos dados">🛡️ What never to paste into a chat</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t5-p1">Everything you paste into an AI tool leaves your computer and goes to a company's server. Most of the time, that isn't a problem. But when the text contains <strong class="text-neutral-100">other people's data</strong> — clients, patients, students, employees — you become legally responsible for what you do with it.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t5-p1">Everything you paste into an AI tool leaves your computer and goes to a company's server. Most of the time, that isn't a problem. But when the text contains <strong class="text-neutral-100">other people's data</strong> — clients, patients, students, employees — you become legally responsible for what you do with it.</p>
 <div class="bg-dark-800 border border-emerald-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-emerald-400 font-semibold mb-1">🌱 New here?</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t5-p2"><strong>LGPD</strong> is Brazil's General Data Protection Law (Law 13,709/2018), which regulates how companies and professionals in Brazil handle information about people. <strong>Personal data</strong> is anything that identifies someone: name, CPF, phone number, email, address. <strong>Sensitive data</strong> is the most protected category: health, religion, racial origin, political opinion, sexual orientation, biometrics.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t5-p2"><strong>LGPD</strong> is Brazil's General Data Protection Law (Law 13,709/2018), which regulates how companies and professionals in Brazil handle information about people. <strong>Personal data</strong> is anything that identifies someone: name, CPF, phone number, email, address. <strong>Sensitive data</strong> is the most protected category: health, religion, racial origin, political opinion, sexual orientation, biometrics.</p>
 </div>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
@@ -919,7 +919,7 @@ called from (11) 90000-0000 to complain about the delay on order 4471."
 </div>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t5-p3" data-sum="porque">A customer data leak can lead to fines, lawsuits, and, above all, lost trust. The traffic light is a two-second habit that protects you, your company, and the people whose data passes through your hands.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t5-p3" data-sum="porque">A customer data leak can lead to fines, lawsuits, and, above all, lost trust. The traffic light is a two-second habit that protects you, your company, and the people whose data passes through your hands.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">LGPD</div><div class="text-xs text-neutral-400">personal data law</div></div>
@@ -928,27 +928,27 @@ called from (11) 90000-0000 to complain about the delay on order 4471."
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Traffic light</div><div class="text-xs text-neutral-400">classify before pasting</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quatro filtros antes de usar">🔍 Check what the AI provides</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t6-p1">In Module 1.1, you saw that AI can make things up with confidence. Now comes the practical part: a short checklist for verifying an answer before sending it to a client, publishing it, or making a decision. The more serious the consequences of an error, the more checks you apply.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t6-p2">The most powerful check is called <strong class="text-emerald-400">lateral reading</strong>. Instead of rereading the answer to look for errors (the text always sounds convincing), leave it and open another source — the official website, the published law, the original document — to see if it matches.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t6-p1">In Module 1.1, you saw that AI can make things up with confidence. Now comes the practical part: a short checklist for verifying an answer before sending it to a client, publishing it, or making a decision. The more serious the consequences of an error, the more checks you apply.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t6-p2">The most powerful check is called <strong class="text-emerald-400">lateral reading</strong>. Instead of rereading the answer to look for errors (the text always sounds convincing), leave it and open another source — the official website, the published law, the original document — to see if it matches.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Verification means checking the answer against four filters — source, numbers, consistency, and a second opinion — in proportion to the damage an error could cause.</p>
@@ -997,7 +997,7 @@ called from (11) 90000-0000 to complain about the delay on order 4471."
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> Use this list as a guide, not as proof. Open the suggested source for at least the items with medium or low confidence. If the AI corrects itself during this review, that’s a sign the first answer had an error — good catch.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t6-p3" data-sum="porque">Checking is what makes it possible to use AI for serious work. If you check, you deliver faster with the same confidence as before. If you don’t, you deliver quickly until the day of your first public mistake—and then you lose the credibility that took years to build.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t6-p3" data-sum="porque">Checking is what makes it possible to use AI for serious work. If you check, you deliver faster with the same confidence as before. If you don’t, you deliver quickly until the day of your first public mistake—and then you lose the credibility that took years to build.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Lateral reading</div><div class="text-xs text-neutral-400">leave the text and check elsewhere</div></div>
@@ -1006,35 +1006,35 @@ called from (11) 90000-0000 to complain about the delay on order 4471."
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Risk of error</div><div class="text-xs text-neutral-400">determines how much to verify</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-1-2#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-1-2#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pouco, bem configurado e seguro">🧰 Your minimal digital toolkit</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t7-p1">Putting it all together: you don’t need ten subscriptions. A small, well-configured toolkit covers most tasks for someone just getting started. Add the rest when a real task calls for it — not when an ad pops up.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t7-p1">Putting it all together: you don’t need ten subscriptions. A small, well-configured toolkit covers most tasks for someone just getting started. Add the rest when a real task calls for it — not when an ad pops up.</p>
 <div class="bg-gradient-to-br from-emerald-900/30 to-dark-800 rounded-xl border border-emerald-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">What it is</h3>
 <p class="text-neutral-300">The minimum toolkit is one primary general-purpose assistant, one place to store files, a password manager, and a specialized tool only if a task calls for it.</p>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🤖 1 primary assistant</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p2">ChatGPT, Claude, or Gemini — whichever won your side-by-side test. Keep a second, free one for a second opinion.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">☁️ 1 place for files</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p3">Google Drive, OneDrive, or another option — with folders organized by topic. That’s where the final version lives.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🔐 1 password manager</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p4">Bitwarden, 1Password, or the one built into your browser — with two-step verification on your main accounts.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🎯 0 or 1 specialized tool</p><p class="text-xs text-neutral-400" data-inema-block="m1-2-t7-p5">Only if a recurring task calls for one: image generation if you create posts, transcription if you record meetings.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🤖 1 primary assistant</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p2">ChatGPT, Claude, or Gemini — whichever won your side-by-side test. Keep a second, free one for a second opinion.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">☁️ 1 place for files</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p3">Google Drive, OneDrive, or another option — with folders organized by topic. That’s where the final version lives.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🔐 1 password manager</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p4">Bitwarden, 1Password, or the one built into your browser — with two-step verification on your main accounts.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="font-semibold mb-1">🎯 0 or 1 specialized tool</p><p class="text-xs text-neutral-400" data-ARCKHÉ-block="m1-2-t7-p5">Only if a recurring task calls for one: image generation if you create posts, transcription if you record meetings.</p></div>
 </div>
 <!-- COPY-RUN: plano do kit -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -1059,10 +1059,10 @@ Create:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m1-2-t7-p6">Schedule a review every six months: which tools you actually used, which subscriptions to cancel, and whether your primary assistant still wins the side-by-side test.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m1-2-t7-p6">Schedule a review every six months: which tools you actually used, which subscriptions to cancel, and whether your primary assistant still wins the side-by-side test.</p>
 </div>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m1-2-t7-p7" data-sum="porque">A few tools you know well do more for you than many tools you only partly use. The essential toolkit keeps your money, attention, and data under control—and gives the next modules a foundation to build on.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m1-2-t7-p7" data-sum="porque">A few tools you know well do more for you than many tools you only partly use. The essential toolkit keeps your money, attention, and data under control—and gives the next modules a foundation to build on.</p>
 <h3 class="text-lg font-semibold text-emerald-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Minimum toolkit</div><div class="text-xs text-neutral-400">up to 4 tools</div></div>
@@ -1071,11 +1071,11 @@ Create:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-emerald-400 font-semibold text-sm">Six-month review</div><div class="text-xs text-neutral-400">cut what you don’t use</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1106,7 +1106,7 @@ Create:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1138,15 +1138,15 @@ Create:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

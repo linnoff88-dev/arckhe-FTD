@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 2.6 · Computer Vision Avanzada | FTD v2</title>
 <meta content="Clasificación, detección, segmentación, OCR y modelos de visión y lenguaje aplicados a problemas reales." name="description"/>
 <meta content="Módulo 2.6 · Computer Vision Avanzada | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-6.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-6.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-6.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-6.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-6.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-6.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/modulo-2-6.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-2-6.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-6.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/modulo-2-6.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-2-6.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="2-6" data-inema-track="2" id="conteudo">
+<main data-ARCKHÉ-module="2-6" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Práctico</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 2.6" class="inema-ring" data-inema-meter="modulo:2-6"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:2-6"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 2.6" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-6"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-6"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. Mapa de tareas</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Detección con YOLO</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Segmentación</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. OCR y documentos</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Visión y lenguaje</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Entrenar y medir</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Producción y ética</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. Mapa de tareas</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Detección con YOLO</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Segmentación</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. OCR y documentos</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Visión y lenguaje</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Entrenar y medir</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Producción y ética</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o que, onde, qual pixel, o que diz">🧭 El mapa de las tareas de visión</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t1-p1"><strong class="text-blue-400">Visión computacional</strong> es el área que permite que los programas extraigan información de imágenes y videos. Para la computadora, una foto es una cuadrícula de <strong class="text-neutral-100">píxeles</strong> —cada uno con tres números de color (rojo, verde, azul). El trabajo del modelo es transformar esa cuadrícula en una respuesta útil. El tipo de respuesta define la tarea, y elegir la tarea adecuada es la mitad del proyecto.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t1-p2">A <strong class="text-neutral-100">clasificación</strong> responde «¿qué hay en la imagen?» con una etiqueta. La <strong class="text-neutral-100">detección</strong> responde «¿qué hay y dónde?» con cajas. La <strong class="text-neutral-100">segmentación</strong> responde «¿qué corresponde a cada píxel?» con máscaras. El <strong class="text-neutral-100">OCR</strong> lee el texto. Y los <strong class="text-neutral-100">VLM</strong> (<em>modelos de visión y lenguaje</em>, modelos de visión y lenguaje) responden preguntas en lenguaje natural sobre la imagen. Cuanto más detallada sea la salida, más cuesta anotar los datos y ejecutar el modelo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t1-p1"><strong class="text-blue-400">Visión computacional</strong> es el área que permite que los programas extraigan información de imágenes y videos. Para la computadora, una foto es una cuadrícula de <strong class="text-neutral-100">píxeles</strong> —cada uno con tres números de color (rojo, verde, azul). El trabajo del modelo es transformar esa cuadrícula en una respuesta útil. El tipo de respuesta define la tarea, y elegir la tarea adecuada es la mitad del proyecto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t1-p2">A <strong class="text-neutral-100">clasificación</strong> responde «¿qué hay en la imagen?» con una etiqueta. La <strong class="text-neutral-100">detección</strong> responde «¿qué hay y dónde?» con cajas. La <strong class="text-neutral-100">segmentación</strong> responde «¿qué corresponde a cada píxel?» con máscaras. El <strong class="text-neutral-100">OCR</strong> lee el texto. Y los <strong class="text-neutral-100">VLM</strong> (<em>modelos de visión y lenguaje</em>, modelos de visión y lenguaje) responden preguntas en lenguaje natural sobre la imagen. Cuanto más detallada sea la salida, más cuesta anotar los datos y ejecutar el modelo.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es la clasificación de las tareas de visión según el tipo de salida: etiqueta (clasificación), cajas (detección), máscaras (segmentación), texto (OCR) y respuesta libre o JSON (VLM). Cada una tiene sus propios modelos, formatos de anotación y métricas.</p>
@@ -602,7 +602,7 @@
 </table>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t1-p3" data-sum="porque">Los proyectos de visión suelen fallar por elegir la tarea equivocada: segmentar cuando bastaban los cuadros o usar un VLM lento cuando un detector pequeño funciona en tiempo real. Este mapa ayuda a dimensionar los datos, el hardware y el plazo antes de escribir código.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t1-p3" data-sum="porque">Los proyectos de visión suelen fallar por elegir la tarea equivocada: segmentar cuando bastaban los cuadros o usar un VLM lento cuando un detector pequeño funciona en tiempo real. Este mapa ayuda a dimensionar los datos, el hardware y el plazo antes de escribir código.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Píxel</div><div class="text-xs text-neutral-400">tres números de color</div></div>
@@ -611,27 +611,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">VLM</div><div class="text-xs text-neutral-400">imagen + lenguaje</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="caixas, confiança, IoU e NMS">📦 Detección con YOLO</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t2-p1">O <strong class="text-blue-400">YOLO</strong> (<em>You Only Look Once</em>, primera versión en 2015) es la familia de detectores más usada en la práctica: analiza la imagen una vez y devuelve, de una sola vez, todas las cajas con su clase y <strong class="text-neutral-100">confianza</strong> (un número de 0 a 1 que indica cuánto cree el modelo en esa detección). La biblioteca <strong class="text-neutral-100">ultralytics</strong> agrupa varias generaciones de YOLO con la misma interfaz en Python y en la línea de comandos; los modelos preentrenados reconocen las 80 clases del dataset COCO (persona, auto, perro, botella…).</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t2-p2">Dos conceptos explican casi todos los ajustes de un detector. La <strong class="text-neutral-100">IoU</strong> (<em>Intersección sobre unión</em>) mide cuánto se superponen dos cajas: el área de la intersección dividida por el área de la unión, de 0 a 1. La <strong class="text-neutral-100">NMS</strong> (<em>Supresión de no máximos</em>) usa la IoU para eliminar duplicados: cuando varias cajas cubren el mismo objeto, se conserva la de mayor confianza y se descartan las que se superponen demasiado. Los dos controles que más ajustas son el umbral de confianza (<code>conf</code>) y el umbral de IoU del NMS (<code>iou</code>).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t2-p1">O <strong class="text-blue-400">YOLO</strong> (<em>You Only Look Once</em>, primera versión en 2015) es la familia de detectores más usada en la práctica: analiza la imagen una vez y devuelve, de una sola vez, todas las cajas con su clase y <strong class="text-neutral-100">confianza</strong> (un número de 0 a 1 que indica cuánto cree el modelo en esa detección). La biblioteca <strong class="text-neutral-100">ultralytics</strong> agrupa varias generaciones de YOLO con la misma interfaz en Python y en la línea de comandos; los modelos preentrenados reconocen las 80 clases del dataset COCO (persona, auto, perro, botella…).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t2-p2">Dos conceptos explican casi todos los ajustes de un detector. La <strong class="text-neutral-100">IoU</strong> (<em>Intersección sobre unión</em>) mide cuánto se superponen dos cajas: el área de la intersección dividida por el área de la unión, de 0 a 1. La <strong class="text-neutral-100">NMS</strong> (<em>Supresión de no máximos</em>) usa la IoU para eliminar duplicados: cuando varias cajas cubren el mismo objeto, se conserva la de mayor confianza y se descartan las que se superponen demasiado. Los dos controles que más ajustas son el umbral de confianza (<code>conf</code>) y el umbral de IoU del NMS (<code>iou</code>).</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La detección de objetos consiste en localizar cada objeto con una caja (coordenadas x1, y1, x2, y2), una clase y una confianza. YOLO lo hace en tiempo real en GPU y con una velocidad aceptable en CPU en las versiones pequeñas.</p>
@@ -693,10 +693,10 @@ print("imagen guardada en detectado.jpg")</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-6-t2-p3">La familia YOLO recibe versiones nuevas con frecuencia, y ultralytics suele mantener la misma interfaz. Cambia <code>yolo11n.pt</code> por el nombre de una versión más reciente de la documentación y compárala en tu propia prueba. El sufijo indica el tamaño: <code>n</code> (nano) y <code>s</code> se ejecutan en CPU; <code>m</code>, <code>l</code> e <code>x</code> requieren GPU. Consulta también la licencia de ultralytics (AGPL) antes de integrar la herramienta en un producto cerrado.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-6-t2-p3">La familia YOLO recibe versiones nuevas con frecuencia, y ultralytics suele mantener la misma interfaz. Cambia <code>yolo11n.pt</code> por el nombre de una versión más reciente de la documentación y compárala en tu propia prueba. El sufijo indica el tamaño: <code>n</code> (nano) y <code>s</code> se ejecutan en CPU; <code>m</code>, <code>l</code> e <code>x</code> requieren GPU. Consulta también la licencia de ultralytics (AGPL) antes de integrar la herramienta en un producto cerrado.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t2-p4" data-sum="porque">La detección es la tarea de visión con más aplicaciones directas: conteo, inventario, seguridad laboral y control de calidad. Entender la confianza, IoU y NMS te permite ajustar un detector existente a tu escenario sin entrenar nada.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t2-p4" data-sum="porque">La detección es la tarea de visión con más aplicaciones directas: conteo, inventario, seguridad laboral y control de calidad. Entender la confianza, IoU y NMS te permite ajustar un detector existente a tu escenario sin entrenar nada.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Confianza</div><div class="text-xs text-neutral-400">certeza de 0 a 1</div></div>
@@ -705,35 +705,35 @@ print("imagen guardada en detectado.jpg")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">COCO</div><div class="text-xs text-neutral-400">80 clases de referencia</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="semântica, instância e Segment Anything">🧩 Segmentación</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t3-p1">Cuando la caja es demasiado imprecisa, entra en juego la <strong class="text-blue-400">segmentación</strong>: cada píxel recibe una etiqueta. En la <strong class="text-neutral-100">segmentación semántica</strong>, todos los píxeles de «persona» tienen el mismo color, sin distinguir quién es quién. En la <strong class="text-neutral-100">segmentación de instancias</strong>, cada persona recibe su propia máscara. La <strong class="text-neutral-100">panóptica</strong> combina ambas: objetos contables separados y el fondo (cielo, calle) por clase.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t3-p2">Un cambio importante llegó con <strong class="text-neutral-100">Segment Anything</strong> (SAM), de Meta, en 2023, y SAM 2, de 2024, que extiende la idea al video. Son modelos <strong class="text-neutral-100">que aceptan instrucciones</strong>: haces clic en un punto o dibujas una caja y el modelo devuelve la máscara del objeto, incluso si pertenece a clases que nunca vio durante el entrenamiento. En la práctica, un flujo común consiste en detectar con YOLO y pasar las cajas a SAM para obtener recortes precisos, o usar directamente un modelo de segmentación de instancias como <code>yolo11n-seg.pt</code>, que entrega la caja y la máscara de una vez.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t3-p1">Cuando la caja es demasiado imprecisa, entra en juego la <strong class="text-blue-400">segmentación</strong>: cada píxel recibe una etiqueta. En la <strong class="text-neutral-100">segmentación semántica</strong>, todos los píxeles de «persona» tienen el mismo color, sin distinguir quién es quién. En la <strong class="text-neutral-100">segmentación de instancias</strong>, cada persona recibe su propia máscara. La <strong class="text-neutral-100">panóptica</strong> combina ambas: objetos contables separados y el fondo (cielo, calle) por clase.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t3-p2">Un cambio importante llegó con <strong class="text-neutral-100">Segment Anything</strong> (SAM), de Meta, en 2023, y SAM 2, de 2024, que extiende la idea al video. Son modelos <strong class="text-neutral-100">que aceptan instrucciones</strong>: haces clic en un punto o dibujas una caja y el modelo devuelve la máscara del objeto, incluso si pertenece a clases que nunca vio durante el entrenamiento. En la práctica, un flujo común consiste en detectar con YOLO y pasar las cajas a SAM para obtener recortes precisos, o usar directamente un modelo de segmentación de instancias como <code>yolo11n-seg.pt</code>, que entrega la caja y la máscara de una vez.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La segmentación clasifica cada píxel de la imagen. El resultado es una máscara (una imagen del mismo tamaño en la que cada píxel indica a qué objeto o clase pertenece), útil cuando importan la forma y el área del objeto.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Semántica</p><p class="text-xs text-neutral-300" data-inema-block="m2-6-t3-p3">Un color por clase. Es útil para medir áreas: qué parte del cultivo está seca, qué parte de la pared tiene humedad.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Instancia</p><p class="text-xs text-neutral-300" data-inema-block="m2-6-t3-p4">Una máscara por objeto. Es útil para contar y medir cada elemento: frutas en una cinta transportadora, células en una lámina.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Que acepta instrucciones (SAM)</p><p class="text-xs text-neutral-300" data-inema-block="m2-6-t3-p5">Máscara a partir de un clic o una caja. Es útil para anotar datos rápidamente y para hacer recortes bajo demanda.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Semántica</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-6-t3-p3">Un color por clase. Es útil para medir áreas: qué parte del cultivo está seca, qué parte de la pared tiene humedad.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Instancia</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-6-t3-p4">Una máscara por objeto. Es útil para contar y medir cada elemento: frutas en una cinta transportadora, células en una lámina.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Que acepta instrucciones (SAM)</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-6-t3-p5">Máscara a partir de un clic o una caja. Es útil para anotar datos rápidamente y para hacer recortes bajo demanda.</p></div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
@@ -754,7 +754,7 @@ print("imagen guardada en detectado.jpg")</pre>
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t3-p6" data-sum="porque">La segmentación permite hacer mediciones que la detección no ofrece: área, contorno y recorte limpio. Los modelos que aceptan instrucciones redujeron mucho el trabajo de anotar datos. Saber cuándo usarla evita asumir el costo de la máscara cuando no hace falta.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t3-p6" data-sum="porque">La segmentación permite hacer mediciones que la detección no ofrece: área, contorno y recorte limpio. Los modelos que aceptan instrucciones redujeron mucho el trabajo de anotar datos. Saber cuándo usarla evita asumir el costo de la máscara cuando no hace falta.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Semántica</div><div class="text-xs text-neutral-400">color por clase</div></div>
@@ -763,27 +763,27 @@ print("imagen guardada en detectado.jpg")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Panóptica</div><div class="text-xs text-neutral-400">objetos + fondo</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="do OCR clássico à leitura de layout">🔤 OCR y documentos</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t4-p1"><strong class="text-blue-400">OCR</strong> (<em>Reconocimiento óptico de caracteres</em>) transforma la imagen de un texto en texto real, que puedes copiar, buscar y procesar. El OCR clásico funciona en dos etapas: <strong class="text-neutral-100">detectar</strong> dónde hay texto y <strong class="text-neutral-100">reconocer</strong> los caracteres de cada fragmento. Herramientas abiertas como Tesseract, PaddleOCR y docTR lo hacen localmente y funcionan bien con documentos escaneados nítidos.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t4-p2">El problema real casi nunca es leer las letras: es entender el <strong class="text-neutral-100">diseño</strong> — qué número es el total y qué fila pertenece a qué columna de la tabla; qué es un encabezado. Por eso crecieron dos enfoques: modelos especializados en la disposición de documentos y los VLM, que reciben la imagen y devuelven directamente los campos solicitados en JSON. El VLM es más flexible; el OCR clásico es más predecible, más rápido y dice exactamente dónde está cada palabra.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t4-p1"><strong class="text-blue-400">OCR</strong> (<em>Reconocimiento óptico de caracteres</em>) transforma la imagen de un texto en texto real, que puedes copiar, buscar y procesar. El OCR clásico funciona en dos etapas: <strong class="text-neutral-100">detectar</strong> dónde hay texto y <strong class="text-neutral-100">reconocer</strong> los caracteres de cada fragmento. Herramientas abiertas como Tesseract, PaddleOCR y docTR lo hacen localmente y funcionan bien con documentos escaneados nítidos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t4-p2">El problema real casi nunca es leer las letras: es entender el <strong class="text-neutral-100">diseño</strong> — qué número es el total y qué fila pertenece a qué columna de la tabla; qué es un encabezado. Por eso crecieron dos enfoques: modelos especializados en la disposición de documentos y los VLM, que reciben la imagen y devuelven directamente los campos solicitados en JSON. El VLM es más flexible; el OCR clásico es más predecible, más rápido y dice exactamente dónde está cada palabra.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">El OCR convierte una imagen de texto en texto. La extracción de documentos va más allá: identifica campos (fecha, CNPJ, valor total) y estructuras (tablas, secciones), combinando OCR, análisis de disposición y, cada vez más, VLM.</p>
@@ -800,10 +800,10 @@ print("imagen guardada en detectado.jpg")</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-6-t4-p3">En documentos que afectan el dinero o las decisiones (facturas, boletos de pago, informes médicos), valida lo extraído con reglas: dígito verificador del CNPJ, suma de los artículos igual al total, fecha dentro de un intervalo plausible. Cuando una regla falla, envíalo a revisión humana en vez de confiar en la lectura.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-6-t4-p3">En documentos que afectan el dinero o las decisiones (facturas, boletos de pago, informes médicos), valida lo extraído con reglas: dígito verificador del CNPJ, suma de los artículos igual al total, fecha dentro de un intervalo plausible. Cuando una regla falla, envíalo a revisión humana en vez de confiar en la lectura.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t4-p4" data-sum="porque">Gran parte de la información de las empresas todavía está en PDF escaneados, fotos y papel. Automatizar la lectura con validación es uno de los proyectos de visión con resultados más rápidos, y también uno de los que más cuidado exige para evitar errores silenciosos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t4-p4" data-sum="porque">Gran parte de la información de las empresas todavía está en PDF escaneados, fotos y papel. Automatizar la lectura con validación es uno de los proyectos de visión con resultados más rápidos, y también uno de los que más cuidado exige para evitar errores silenciosos.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">OCR</div><div class="text-xs text-neutral-400">la imagen se convierte en texto</div></div>
@@ -812,27 +812,27 @@ print("imagen guardada en detectado.jpg")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Validación mediante reglas</div><div class="text-xs text-neutral-400">verifica lo que leyó</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="perguntar à imagem e receber JSON">🗣️ Modelos de visión y lenguaje</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t5-p1">Un <strong class="text-blue-400">VLM</strong> combina un <strong class="text-neutral-100">codificador de imágenes</strong> (un modelo que transforma la foto en vectores) con un modelo de lenguaje. La imagen se divide en partes (<em>parches</em>), cada parte se convierte en un vector y esos vectores entran en el LLM como si fueran tokens, junto con tu texto. Entonces, el LLM responde sobre todo en conjunto. Así es como ChatGPT, Claude y Gemini «ven» imágenes, al igual que los modelos abiertos que se ejecutan en Ollama, como <code>llava</code> e <code>qwen2.5vl</code>.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t5-p2">El uso más útil en sistemas no es la conversación: es la <strong class="text-neutral-100">extracción estructurada</strong>. Envías la imagen con una solicitud de salida en JSON (campos definidos, valores nulos cuando no se puedan ver) y tratas la respuesta como un dato. En la ruta compatible con OpenAI de Ollama, la imagen se envía como <code>image_url</code> con el archivo codificado en base64, el mismo formato de las API de pago.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t5-p1">Un <strong class="text-blue-400">VLM</strong> combina un <strong class="text-neutral-100">codificador de imágenes</strong> (un modelo que transforma la foto en vectores) con un modelo de lenguaje. La imagen se divide en partes (<em>parches</em>), cada parte se convierte en un vector y esos vectores entran en el LLM como si fueran tokens, junto con tu texto. Entonces, el LLM responde sobre todo en conjunto. Así es como ChatGPT, Claude y Gemini «ven» imágenes, al igual que los modelos abiertos que se ejecutan en Ollama, como <code>llava</code> e <code>qwen2.5vl</code>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t5-p2">El uso más útil en sistemas no es la conversación: es la <strong class="text-neutral-100">extracción estructurada</strong>. Envías la imagen con una solicitud de salida en JSON (campos definidos, valores nulos cuando no se puedan ver) y tratas la respuesta como un dato. En la ruta compatible con OpenAI de Ollama, la imagen se envía como <code>image_url</code> con el archivo codificado en base64, el mismo formato de las API de pago.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un modelo de visión y lenguaje recibe imagen y texto en la misma entrada y genera texto. Sirve para describir, responder preguntas, comparar imágenes y extraer información en formato estructurado, sin entrenar un modelo para cada tarea.</p>
@@ -918,7 +918,7 @@ if dados.get("total") is not None and abs(soma - dados["total"]) &gt; 0.01:
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> fotografía un recibo real y ejecuta el script. El JSON debe abrirse sin errores y los campos deben coincidir con el papel. Cubre el total con el dedo y vuelve a tomar la foto: el campo <code>total</code> debe ser <code>null</code>. Si aparece un número, el modelo lo inventó, y la comprobación de la suma al final está precisamente para detectar este tipo de error.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t5-p3" data-sum="porque">Los VLMs reemplazaron semanas de entrenamiento por una instrucción para muchas tareas de bajo volumen: clasificar fotos de inspección, leer documentos variados y describir imágenes para accesibilidad. Saber pedir JSON y validar la salida es lo que hace que esto sea confiable dentro de un sistema.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t5-p3" data-sum="porque">Los VLMs reemplazaron semanas de entrenamiento por una instrucción para muchas tareas de bajo volumen: clasificar fotos de inspección, leer documentos variados y describir imágenes para accesibilidad. Saber pedir JSON y validar la salida es lo que hace que esto sea confiable dentro de un sistema.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Codificador</div><div class="text-xs text-neutral-400">la imagen se convierte en vectores</div></div>
@@ -927,27 +927,27 @@ if dados.get("total") is not None and abs(soma - dados["total"]) &gt; 0.01:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Salida JSON</div><div class="text-xs text-neutral-400">la respuesta se convierte en un dato</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="anotar, ajustar e ler precisão, recall e mAP">🎯 Entrenar con tus datos y medir</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t6-p1">Cuando la clase que necesitas no está en COCO —un defecto específico de tu pieza, una plaga de tu cultivo—, el camino es la <strong class="text-neutral-100">transferencia de aprendizaje</strong>: partir de un modelo preentrenado y ajustarlo con unos cientos de imágenes anotadas. El modelo ya sabe reconocer bordes, texturas y formas; tú solo le enseñas tus clases. Herramientas como Label Studio y CVAT ayudan a <strong class="text-neutral-100">anotar</strong> (dibujar las cajas o máscaras correctas), y el formato YOLO guarda cada caja como una línea de texto: clase, centro x, centro y, ancho y alto, normalizados de 0 a 1.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t6-p2">Para medir, tres números. La <strong class="text-blue-400">precisión</strong> indica, de las detecciones realizadas, cuántas fueron correctas. El <strong class="text-blue-400">recall</strong> indica, de los objetos que existían, cuántos encontró el modelo. El <strong class="text-blue-400">mAP</strong> (<em>mean Average Precision</em>) resume el equilibrio entre ambos en todas las clases; el <code>mAP50</code> cuenta una detección como correcta si la IoU con la caja correcta es de al menos 0,5, y el <code>mAP50-95</code> es más exigente, con el promedio de varios umbrales de IoU. Cuál pesa más depende del costo del error: en una inspección de seguridad, pasar por alto un defecto (recall bajo) suele ser peor que una falsa alarma.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t6-p1">Cuando la clase que necesitas no está en COCO —un defecto específico de tu pieza, una plaga de tu cultivo—, el camino es la <strong class="text-neutral-100">transferencia de aprendizaje</strong>: partir de un modelo preentrenado y ajustarlo con unos cientos de imágenes anotadas. El modelo ya sabe reconocer bordes, texturas y formas; tú solo le enseñas tus clases. Herramientas como Label Studio y CVAT ayudan a <strong class="text-neutral-100">anotar</strong> (dibujar las cajas o máscaras correctas), y el formato YOLO guarda cada caja como una línea de texto: clase, centro x, centro y, ancho y alto, normalizados de 0 a 1.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t6-p2">Para medir, tres números. La <strong class="text-blue-400">precisión</strong> indica, de las detecciones realizadas, cuántas fueron correctas. El <strong class="text-blue-400">recall</strong> indica, de los objetos que existían, cuántos encontró el modelo. El <strong class="text-blue-400">mAP</strong> (<em>mean Average Precision</em>) resume el equilibrio entre ambos en todas las clases; el <code>mAP50</code> cuenta una detección como correcta si la IoU con la caja correcta es de al menos 0,5, y el <code>mAP50-95</code> es más exigente, con el promedio de varios umbrales de IoU. Cuál pesa más depende del costo del error: en una inspección de seguridad, pasar por alto un defecto (recall bajo) suele ser peor que una falsa alarma.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Este es el ciclo de personalización en visión: recopilar y anotar imágenes de tu entorno, ajustar un modelo preentrenado y medir la precisión, el recall y el mAP en un conjunto de validación que represente el uso real.</p>
@@ -999,7 +999,7 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t6-p3" data-sum="porque">El modelo existente resuelve el caso general; el valor del proyecto está en las clases y condiciones de tu escenario. Saber anotar, ajustar y leer precisión y recall te permite prometer un resultado y saber cuándo todavía no es lo bastante bueno.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t6-p3" data-sum="porque">El modelo existente resuelve el caso general; el valor del proyecto está en las clases y condiciones de tu escenario. Saber anotar, ajustar y leer precisión y recall te permite prometer un resultado y saber cuándo todavía no es lo bastante bueno.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Transferencia</div><div class="text-xs text-neutral-400">parte de pesos ya preparados</div></div>
@@ -1008,27 +1008,27 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">mAP</div><div class="text-xs text-neutral-400">resumen por clase e IoU</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-2-6#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-6#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="borda × nuvem, rastreamento, biometria e LGPD">⚖️ Producción, ética y LGPD</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t7-p1">Poner la visión en producción implica tomar decisiones que no aparecen en el notebook. Dónde se ejecuta el modelo: en el <strong class="text-neutral-100">borde</strong> (<em>edge</em> — en el propio dispositivo, cerca de la cámara, con baja latencia y sin enviar imágenes al exterior) o en la nube (más potencia, mayor costo de red). Cómo procesar video: en lugar de detectar cuadro por cuadro sin memoria, el <strong class="text-neutral-100">seguimiento</strong> (<em>tracking</em>, con algoritmos como ByteTrack, que ultralytics ya incluye) mantiene la identidad de cada objeto entre cuadros; esto permite contar a las personas que cruzan una línea sin contar dos veces a la misma.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t7-p2">Y está el <strong class="text-neutral-100">drift</strong> (deriva): el mundo cambia y el modelo no. Una cámara nueva, la iluminación de otra estación, un envase rediseñado: la precisión cae en silencio. Guarda una muestra de las imágenes de producción, revísala periódicamente y vuelve a entrenar cuando bajen las métricas. En cuanto al aspecto humano, la regla más importante en Brasil: según la LGPD, <strong class="text-red-400">un dato biométrico</strong> — como el rostro usado para identificar a alguien — es un <strong class="text-neutral-100">dato personal sensible</strong>, sujeto a requisitos más estrictos de base legal, transparencia y seguridad.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t7-p1">Poner la visión en producción implica tomar decisiones que no aparecen en el notebook. Dónde se ejecuta el modelo: en el <strong class="text-neutral-100">borde</strong> (<em>edge</em> — en el propio dispositivo, cerca de la cámara, con baja latencia y sin enviar imágenes al exterior) o en la nube (más potencia, mayor costo de red). Cómo procesar video: en lugar de detectar cuadro por cuadro sin memoria, el <strong class="text-neutral-100">seguimiento</strong> (<em>tracking</em>, con algoritmos como ByteTrack, que ultralytics ya incluye) mantiene la identidad de cada objeto entre cuadros; esto permite contar a las personas que cruzan una línea sin contar dos veces a la misma.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t7-p2">Y está el <strong class="text-neutral-100">drift</strong> (deriva): el mundo cambia y el modelo no. Una cámara nueva, la iluminación de otra estación, un envase rediseñado: la precisión cae en silencio. Guarda una muestra de las imágenes de producción, revísala periódicamente y vuelve a entrenar cuando bajen las métricas. En cuanto al aspecto humano, la regla más importante en Brasil: según la LGPD, <strong class="text-red-400">un dato biométrico</strong> — como el rostro usado para identificar a alguien — es un <strong class="text-neutral-100">dato personal sensible</strong>, sujeto a requisitos más estrictos de base legal, transparencia y seguridad.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es el conjunto de decisiones para operar la visión en el mundo real: dónde ejecutarla, cómo hacer seguimiento en video, cómo detectar y corregir la deriva, y cómo tratar las imágenes de personas de acuerdo con la LGPD y con respeto por quienes aparecen en ellas.</p>
@@ -1091,10 +1091,10 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-6-t7-p3">Antes de proponer cualquier sistema que identifique personas, habla con el responsable de protección de datos (DPO) de la empresa y elabora un informe de impacto sobre la protección de datos. Muchas veces, el objetivo del negocio —contar el flujo de personas, medir una fila— se puede alcanzar sin identificar a nadie, y ese es el diseño más económico y seguro.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-6-t7-p3">Antes de proponer cualquier sistema que identifique personas, habla con el responsable de protección de datos (DPO) de la empresa y elabora un informe de impacto sobre la protección de datos. Muchas veces, el objetivo del negocio —contar el flujo de personas, medir una fila— se puede alcanzar sin identificar a nadie, y ese es el diseño más económico y seguro.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-6-t7-p4" data-sum="porque">La mayoría de los sistemas de visión no falla por el modelo: falla por la latencia, por la deriva no monitoreada o por un problema legal que se descubre tarde. Diseñar el ciclo completo y la privacidad desde el inicio es lo que permite que el proyecto supere su primer año.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-6-t7-p4" data-sum="porque">La mayoría de los sistemas de visión no falla por el modelo: falla por la latencia, por la deriva no monitoreada o por un problema legal que se descubre tarde. Diseñar el ciclo completo y la privacidad desde el inicio es lo que permite que el proyecto supere su primer año.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Borde</div><div class="text-xs text-neutral-400">funciona cerca de la cámara</div></div>
@@ -1103,11 +1103,11 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Dato sensible</div><div class="text-xs text-neutral-400">datos biométricos en la LGPD</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1138,7 +1138,7 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1170,15 +1170,15 @@ yolo detect train data=meu_dataset.yaml model=yolo11n.pt epochs=50 imgsz=640</pr
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

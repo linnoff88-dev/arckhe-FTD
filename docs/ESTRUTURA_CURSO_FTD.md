@@ -718,12 +718,12 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 ---
 
-### MÓDULO EXTRA 2: CONSISTÊNCIA, CINEMA, 3D E GAMES
+### MÓDULO EXTRA 2: CONSISTÊNCIA, CARCKHÉ, 3D E GAMES
 **Duração:** 2 horas
 
 #### Conteúdo:
 - Criação de personagens consistentes
-- Ferramentas para cinema (Runway, Pika)
+- Ferramentas para cARCKHÉ (Runway, Pika)
 - IA para 3D (Luma AI, TripoSR)
 - Aplicações em gamedev
 
@@ -939,7 +939,7 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 
 ---
 
-**Criado por:** INEMA TDS
+**Criado por:** ARCKHÉ TDS
 **Versão:** 2.0
 **Data:** 12/11/2025
 **Status:** Estrutura Completa - Pronta para Implementação

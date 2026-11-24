@@ -10,7 +10,7 @@ Midias baixadas: 4
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-28T19:45:55+00:00
 Texto:
 texto, voz, imagem, video, automacao, assistentes, agentes, operadores, humanoides
@@ -18,7 +18,7 @@ texto, voz, imagem, video, automacao, assistentes, agentes, operadores, humanoid
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-23T17:12:42+00:00
 Texto:
 https://www.datacamp.com/pt/blog/top-machine-learning-use-cases-and-algorithms
@@ -27,7 +27,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:38:02+00:00
 Texto:
 Programa FTD - Formação da Transformação Digital
@@ -81,7 +81,7 @@ https://t.me/c/2517011104/668
 [https://t.me/c/2517011104/301](https://t.me/c/2517011104/301)
 1-5-2 - Videos a partir de uma foto
 [https://t.me/c/2517011104/318](https://t.me/c/2517011104/318)
-1-5-3 - Concistencia, Cinema , 3de Games
+1-5-3 - Concistencia, CARCKHÉ , 3de Games
 [https://t.me/c/2517011104/362](https://t.me/c/2517011104/362)
 
 1-5-4 - Audio, Musica, LipSync
@@ -139,7 +139,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:27:23+00:00
 Texto:
 Aqui está a divisão dos tópicos da **Imersão 1 – Iniciação Digital e IA**, organizada para **3 dias com 2 turnos por dia**, mantendo o foco na **prática e transformação real**:
@@ -165,7 +165,7 @@ Isso será ajustado depende da dinâmica do grupo.
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-12T20:22:45+00:00
 Texto:
 ### **9. Planejamento de Soluções e Modelos de Negócio**
@@ -181,7 +181,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-02T08:25:26+00:00
 Texto:
 ### **5. Criatividade Visual com IA**
@@ -228,7 +228,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-02T08:25:26+00:00
 Texto:
 Capítulos da **Imersão 1 – Iniciação Digital e IA**, incorporando as informações mais recentes disponíveis até abril de 2025:
@@ -285,7 +285,7 @@ Capítulos da **Imersão 1 – Iniciação Digital e IA**, incorporando as infor
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-02T08:23:29+00:00
 Texto:
 ====================
@@ -293,7 +293,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-02T08:22:21+00:00
 Texto:
 https://gamma.app/docs/rqw2tzo3s1h5ocu
@@ -302,7 +302,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-02T08:21:22+00:00
 Texto:
 Aqui está a divisão dos tópicos da **Imersão 1 – Iniciação Digital e IA**, organizada para **3 dias com 2 turnos por dia**, mantendo o foco na **prática e transformação real**:
@@ -346,7 +346,7 @@ Isso será ajustado depende da dinâmica do grupo.
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T21:14:55+00:00
 Texto:
 https://gamma.app/docs/ux22vny2l3ica5a
@@ -355,7 +355,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T21:00:32+00:00
 Texto:
 ### **Imersão 1 – Iniciação Digital e IA**  
@@ -433,7 +433,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:30+00:00
 Texto:
 .
@@ -441,7 +441,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:27+00:00
 Texto:
 IA na Prática
@@ -449,7 +449,7 @@ IA na Prática
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:11+00:00
 Texto:
 .
@@ -457,7 +457,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:11+00:00
 Texto:
 .
@@ -465,7 +465,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:11+00:00
 Texto:
 .
@@ -473,7 +473,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:10+00:00
 Texto:
 .
@@ -481,7 +481,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:09+00:00
 Texto:
 ..
@@ -489,7 +489,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:09+00:00
 Texto:
 .
@@ -497,7 +497,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:08+00:00
 Texto:
 .
@@ -505,7 +505,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:58:08+00:00
 Texto:
 1
@@ -513,7 +513,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-26T20:56:54+00:00
 Texto: [Sem texto]
 

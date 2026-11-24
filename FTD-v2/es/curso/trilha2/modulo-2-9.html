@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 2.9 · Ética y gobernanza de IA | FTD v2</title>
 <meta content="Sesgo, privacidad, LGPD, transparencia, derechos de autor y un proceso sencillo de gobernanza." name="description"/>
 <meta content="Módulo 2.9 · Ética y gobernanza de IA | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-9.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-9.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-9.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-9.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-9.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-9.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/modulo-2-9.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-2-9.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-9.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha2/modulo-2-9.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-2-9.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="2-9" data-inema-track="2" id="conteudo">
+<main data-ARCKHÉ-module="2-9" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Proceso</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 2.9" class="inema-ring" data-inema-meter="modulo:2-9"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:2-9"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 2.9" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-9"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-9"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,37 +506,37 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. Por qué gobernar la IA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Sesgo y justicia</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Privacidad y LGPD</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Transparencia</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Derechos de autor</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Riesgo y supervisión</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Proceso de gobernanza</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. Por qué gobernar la IA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. Sesgo y justicia</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. Privacidad y LGPD</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Transparencia</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Derechos de autor</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Riesgo y supervisión</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Proceso de gobernanza</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="do princípio ao controle verificável">🧭 Por qué gobernar la IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t1-p1">Los sistemas de IA toman decisiones sobre las personas o influyen en ellas: quién recibe crédito, qué currículum se lee, qué respuesta recibe un paciente, a qué cliente se atiende primero. Cuando fallan, lo hacen a gran escala y de forma poco visible. <strong class="text-blue-400">Gobernanza de IA</strong> es el conjunto de reglas, funciones y controles que garantizan que estos sistemas se usen de forma legal, justa, segura y explicable, y que alguien responda por ellos.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t1-p2">Para quien programa, lo importante es que la ética no se quede solo en el discurso. Cada principio debe convertirse en algo que se pueda verificar: una prueba de sesgo que se ejecuta en CI, una función que elimina los datos personales antes de llamar al modelo, un registro que permite explicar una decisión, una aprobación registrada antes del despliegue. Las referencias públicas ayudan a organizar esto, como el <strong class="text-neutral-100">NIST AI Risk Management Framework</strong> (funciones Gobernar, Mapear, Medir y Gestionar) y la norma <strong class="text-neutral-100">ISO/IEC 42001</strong>, sobre sistemas de gestión de IA.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t1-p1">Los sistemas de IA toman decisiones sobre las personas o influyen en ellas: quién recibe crédito, qué currículum se lee, qué respuesta recibe un paciente, a qué cliente se atiende primero. Cuando fallan, lo hacen a gran escala y de forma poco visible. <strong class="text-blue-400">Gobernanza de IA</strong> es el conjunto de reglas, funciones y controles que garantizan que estos sistemas se usen de forma legal, justa, segura y explicable, y que alguien responda por ellos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t1-p2">Para quien programa, lo importante es que la ética no se quede solo en el discurso. Cada principio debe convertirse en algo que se pueda verificar: una prueba de sesgo que se ejecuta en CI, una función que elimina los datos personales antes de llamar al modelo, un registro que permite explicar una decisión, una aprobación registrada antes del despliegue. Las referencias públicas ayudan a organizar esto, como el <strong class="text-neutral-100">NIST AI Risk Management Framework</strong> (funciones Gobernar, Mapear, Medir y Gestionar) y la norma <strong class="text-neutral-100">ISO/IEC 42001</strong>, sobre sistemas de gestión de IA.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t1-p3"><strong>IA responsable</strong> es el término general para desarrollar y usar IA respetando los derechos, la seguridad y la transparencia. <strong>Accountability</strong> (rendición de cuentas) significa que hay una persona o área responsable que responde por el sistema. <strong>Control</strong>, en gobernanza, es una verificación concreta que reduce un riesgo y deja evidencia.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t1-p3"><strong>IA responsable</strong> es el término general para desarrollar y usar IA respetando los derechos, la seguridad y la transparencia. <strong>Accountability</strong> (rendición de cuentas) significa que hay una persona o área responsable que responde por el sistema. <strong>Control</strong>, en gobernanza, es una verificación concreta que reduce un riesgo y deja evidencia.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -595,7 +595,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t1-p4" data-sum="porque">Las leyes, los contratos y los clientes exigen cada vez más explicaciones sobre cómo se usa la IA. Quien programa y entiende de gobernanza convierte requisitos vagos en controles concretos y evita costosos retrabajos cuando la pregunta llega después del lanzamiento.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t1-p4" data-sum="porque">Las leyes, los contratos y los clientes exigen cada vez más explicaciones sobre cómo se usa la IA. Quien programa y entiende de gobernanza convierte requisitos vagos en controles concretos y evita costosos retrabajos cuando la pregunta llega después del lanzamiento.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Gobernanza</div><div class="text-xs text-neutral-400">reglas, funciones, controles</div></div>
@@ -604,30 +604,30 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Proporcionalidad</div><div class="text-xs text-neutral-400">el esfuerzo sigue al riesgo</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="medir diferenças entre grupos antes de publicar">⚖️ Sesgo y justicia</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t2-p1"><strong class="text-blue-400">Sesgo</strong>, en IA, es un error sistemático que perjudica o favorece a grupos de personas. Rara vez se debe a alguien con malas intenciones: proviene de los datos. Si el historial de contrataciones de una empresa favoreció a cierto perfil, un modelo entrenado con ese historial aprende a repetir el patrón, y lo hace con apariencia de objetividad. Los LLM también reproducen estereotipos presentes en los textos con los que se entrenaron.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t2-p2">Las fuentes más comunes son el <strong class="text-neutral-100">sesgo histórico</strong> (el pasado era desigual), el <strong class="text-neutral-100">sesgo de selección</strong> (los datos no representan a todo el público), el <strong class="text-neutral-100">sesgo de medición</strong> (la etiqueta mide otra cosa: «recibió un ascenso» en lugar de «tiene un buen desempeño») y el <strong class="text-neutral-100">sesgo de agregación</strong> (un modelo único para grupos que se comportan de forma diferente). Bibliotecas como Fairlearn ayudan a medir; sin embargo, lo esencial cabe en unas pocas líneas de pandas.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t2-p1"><strong class="text-blue-400">Sesgo</strong>, en IA, es un error sistemático que perjudica o favorece a grupos de personas. Rara vez se debe a alguien con malas intenciones: proviene de los datos. Si el historial de contrataciones de una empresa favoreció a cierto perfil, un modelo entrenado con ese historial aprende a repetir el patrón, y lo hace con apariencia de objetividad. Los LLM también reproducen estereotipos presentes en los textos con los que se entrenaron.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t2-p2">Las fuentes más comunes son el <strong class="text-neutral-100">sesgo histórico</strong> (el pasado era desigual), el <strong class="text-neutral-100">sesgo de selección</strong> (los datos no representan a todo el público), el <strong class="text-neutral-100">sesgo de medición</strong> (la etiqueta mide otra cosa: «recibió un ascenso» en lugar de «tiene un buen desempeño») y el <strong class="text-neutral-100">sesgo de agregación</strong> (un modelo único para grupos que se comportan de forma diferente). Bibliotecas como Fairlearn ayudan a medir; sin embargo, lo esencial cabe en unas pocas líneas de pandas.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t2-p3"><strong>Paridad demográfica</strong>: la tasa de resultados positivos (por ejemplo, la aprobación) es similar entre los grupos. <strong>Igualdad de oportunidades</strong>: entre las personas que merecían un resultado positivo, la tasa de aprobación es similar entre los grupos. <strong>Atributo protegido</strong>: característica que no puede servir de base para discriminar, como raza, género, edad o discapacidad. Las métricas pueden entrar en conflicto entre sí; elegir cuál usar es una decisión del negocio que debe documentarse.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t2-p3"><strong>Paridad demográfica</strong>: la tasa de resultados positivos (por ejemplo, la aprobación) es similar entre los grupos. <strong>Igualdad de oportunidades</strong>: entre las personas que merecían un resultado positivo, la tasa de aprobación es similar entre los grupos. <strong>Atributo protegido</strong>: característica que no puede servir de base para discriminar, como raza, género, edad o discapacidad. Las métricas pueden entrar en conflicto entre sí; elegir cuál usar es una decisión del negocio que debe documentarse.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -691,10 +691,10 @@ print("Buenos pagadores rechazados:", fn.to_dict())</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t2-p4">Quitar la columna "género" o "raza" del modelo no elimina el sesgo: el código postal, la escuela, el nombre y el historial de compras pueden funcionar como sustitutos. Para medirlo, necesitas el atributo; para protegerlo, necesitas una base legal y tener cuidado: los datos sobre origen racial o étnico son sensibles según la LGPD.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t2-p4">Quitar la columna "género" o "raza" del modelo no elimina el sesgo: el código postal, la escuela, el nombre y el historial de compras pueden funcionar como sustitutos. Para medirlo, necesitas el atributo; para protegerlo, necesitas una base legal y tener cuidado: los datos sobre origen racial o étnico son sensibles según la LGPD.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t2-p5" data-sum="porque">Un modelo con buena precisión general puede equivocarse mucho más con un grupo específico, y el promedio lo oculta. Medir por grupo es la única forma de descubrirlo antes de que el problema cause daños a las personas, un proceso judicial o un titular en las noticias.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t2-p5" data-sum="porque">Un modelo con buena precisión general puede equivocarse mucho más con un grupo específico, y el promedio lo oculta. Medir por grupo es la única forma de descubrirlo antes de que el problema cause daños a las personas, un proceso judicial o un titular en las noticias.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Sesgo histórico</div><div class="text-xs text-neutral-400">el pasado era desigual</div></div>
@@ -703,30 +703,30 @@ print("Buenos pagadores rechazados:", fn.to_dict())</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Sustituto</div><div class="text-xs text-neutral-400">código postal en lugar de raza</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="base legal, minimização e dado fora do prompt">🔒 Privacidad y LGPD</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t3-p1">A <strong class="text-blue-400">LGPD</strong> (Ley n.º 13.709/2018) regula el tratamiento de datos personales en Brasil y está supervisada por la ANPD (Autoridad Nacional de Protección de Datos). En los sistemas de IA, tiene un peso en tres momentos: en los datos que se usan para entrenar o evaluar, en los datos que se envían al modelo en cada consulta (incluso a proveedores en el extranjero) y en las decisiones automatizadas sobre personas. Todo tratamiento necesita una <strong class="text-neutral-100">base legal</strong> y una finalidad definida.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t3-p2">Dos artículos merecen especial atención. El <strong class="text-neutral-100">art. 20</strong> garantiza a la persona titular el derecho a solicitar la revisión de decisiones tomadas únicamente con base en un tratamiento automatizado que afecte sus intereses, y a recibir información clara sobre los criterios utilizados. Y el <strong class="text-neutral-100">art. 52</strong> prevé sanciones que van desde una advertencia hasta una multa de hasta el 2 % de la facturación de la empresa en Brasil, con un límite de R$ 50 millones por infracción, además del bloqueo y la eliminación de los datos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t3-p1">A <strong class="text-blue-400">LGPD</strong> (Ley n.º 13.709/2018) regula el tratamiento de datos personales en Brasil y está supervisada por la ANPD (Autoridad Nacional de Protección de Datos). En los sistemas de IA, tiene un peso en tres momentos: en los datos que se usan para entrenar o evaluar, en los datos que se envían al modelo en cada consulta (incluso a proveedores en el extranjero) y en las decisiones automatizadas sobre personas. Todo tratamiento necesita una <strong class="text-neutral-100">base legal</strong> y una finalidad definida.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t3-p2">Dos artículos merecen especial atención. El <strong class="text-neutral-100">art. 20</strong> garantiza a la persona titular el derecho a solicitar la revisión de decisiones tomadas únicamente con base en un tratamiento automatizado que afecte sus intereses, y a recibir información clara sobre los criterios utilizados. Y el <strong class="text-neutral-100">art. 52</strong> prevé sanciones que van desde una advertencia hasta una multa de hasta el 2 % de la facturación de la empresa en Brasil, con un límite de R$ 50 millones por infracción, además del bloqueo y la eliminación de los datos.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t3-p3"><strong>Dato personal sensible</strong> incluye el origen racial o étnico, la religión, la opinión política, la afiliación sindical, la salud, la vida sexual y los datos genéticos y biométricos; tiene reglas más estrictas. <strong>Anonimización</strong> hace imposible identificar a la persona por medios razonables; los datos anonimizados dejan de ser personales. <strong>Seudonimización</strong> reemplaza los identificadores por códigos, pero quien tiene la tabla de correspondencias puede revertir el proceso; por eso sigue siendo un dato personal. <strong>Responsable de protección de datos</strong> es la persona designada para comunicarse con los titulares y con la ANPD.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t3-p3"><strong>Dato personal sensible</strong> incluye el origen racial o étnico, la religión, la opinión política, la afiliación sindical, la salud, la vida sexual y los datos genéticos y biométricos; tiene reglas más estrictas. <strong>Anonimización</strong> hace imposible identificar a la persona por medios razonables; los datos anonimizados dejan de ser personales. <strong>Seudonimización</strong> reemplaza los identificadores por códigos, pero quien tiene la tabla de correspondencias puede revertir el proceso; por eso sigue siendo un dato personal. <strong>Responsable de protección de datos</strong> es la persona designada para comunicarse con los titulares y con la ANPD.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -822,7 +822,7 @@ assert repor(seguro, tabela) == original</pre>
 </table>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t3-p4" data-sum="porque">Cada llamada a un modelo implica el tratamiento de datos. Quien programa decide, línea por línea, qué sale del sistema y qué queda registrado. Entender la LGPD convierte esa decisión, que supone un riesgo jurídico invisible, en un control sencillo, comprobable y documentado.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t3-p4" data-sum="porque">Cada llamada a un modelo implica el tratamiento de datos. Quien programa decide, línea por línea, qué sale del sistema y qué queda registrado. Entender la LGPD convierte esa decisión, que supone un riesgo jurídico invisible, en un control sencillo, comprobable y documentado.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Base legal</div><div class="text-xs text-neutral-400">todo tratamiento necesita</div></div>
@@ -831,30 +831,30 @@ assert repor(seguro, tabela) == original</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Art. 20</div><div class="text-xs text-neutral-400">revisión de decisiones automatizadas</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="avisar, documentar e explicar decisões">🔍 Transparencia y explicabilidad</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t4-p1">La transparencia tiene tres públicos. El <strong class="text-neutral-100">usuario</strong> necesita saber que está hablando con una IA y qué hacer si la respuesta no le sirve. La <strong class="text-neutral-100">persona afectada por una decisión</strong> necesita entender, en lenguaje sencillo, qué factores influyeron y cómo pedir una revisión. Y el <strong class="text-neutral-100">equipo y los auditores</strong> necesitan documentación: qué hace el sistema, con qué datos y qué límites conocidos tiene.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t4-p2">Explicar cómo funciona internamente un LLM todavía es un problema de investigación. En la práctica, la explicabilidad proviene del diseño del sistema: pedirle al modelo la justificación junto con la respuesta, citar los fragmentos de la base que respaldan cada afirmación (RAG con fuentes), registrar la versión y las entradas de cada decisión y, en modelos tabulares clásicos, usar técnicas como SHAP para mostrar el peso de cada variable.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t4-p1">La transparencia tiene tres públicos. El <strong class="text-neutral-100">usuario</strong> necesita saber que está hablando con una IA y qué hacer si la respuesta no le sirve. La <strong class="text-neutral-100">persona afectada por una decisión</strong> necesita entender, en lenguaje sencillo, qué factores influyeron y cómo pedir una revisión. Y el <strong class="text-neutral-100">equipo y los auditores</strong> necesitan documentación: qué hace el sistema, con qué datos y qué límites conocidos tiene.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t4-p2">Explicar cómo funciona internamente un LLM todavía es un problema de investigación. En la práctica, la explicabilidad proviene del diseño del sistema: pedirle al modelo la justificación junto con la respuesta, citar los fragmentos de la base que respaldan cada afirmación (RAG con fuentes), registrar la versión y las entradas de cada decisión y, en modelos tabulares clásicos, usar técnicas como SHAP para mostrar el peso de cada variable.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t4-p3"><strong>Ficha del modelo</strong> (<em>model card</em>) es un documento breve que describe un modelo o sistema: uso previsto, datos, métricas por grupo y limitaciones. <strong>Explicabilidad</strong> es la capacidad de explicar, de forma comprensible, por qué el sistema llegó a un resultado. <strong>Trazabilidad</strong> es poder vincular una decisión con las entradas, la versión y las fuentes utilizadas.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t4-p3"><strong>Ficha del modelo</strong> (<em>model card</em>) es un documento breve que describe un modelo o sistema: uso previsto, datos, métricas por grupo y limitaciones. <strong>Explicabilidad</strong> es la capacidad de explicar, de forma comprensible, por qué el sistema llegó a un resultado. <strong>Trazabilidad</strong> es poder vincular una decisión con las entradas, la versión y las fuentes utilizadas.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -912,7 +912,7 @@ Aviso al usuario: &lt;texto mostrado&gt;   Revisión humana: &lt;canal y plazo&g
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> entrega la ficha completa a alguien ajeno al equipo (área legal, atención al cliente) y pídele que responda, basándose solo en ella: «¿qué no debe hacer este sistema?» y «¿cómo puede un cliente impugnar una decisión?». Si la persona no puede responder, falta información en la ficha.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t4-p4" data-sum="porque">La transparencia permite que los usuarios confíen en la medida adecuada, que las personas afectadas ejerzan sus derechos y que el propio equipo investigue los problemas. Sin ella, un error del sistema se convierte en una crisis de confianza difícil de revertir.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t4-p4" data-sum="porque">La transparencia permite que los usuarios confíen en la medida adecuada, que las personas afectadas ejerzan sus derechos y que el propio equipo investigue los problemas. Sin ella, un error del sistema se convierte en una crisis de confianza difícil de revertir.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Aviso de IA</div><div class="text-xs text-neutral-400">el usuario sabe</div></div>
@@ -921,30 +921,30 @@ Aviso al usuario: &lt;texto mostrado&gt;   Revisión humana: &lt;canal y plazo&g
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Trazabilidad</div><div class="text-xs text-neutral-400">decisión vinculada a la versión</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="dados de treino, licenças e autoria do que a IA gera">©️ Derechos de autor</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t5-p1">Los derechos de autor aparecen en tres puntos del trabajo con IA. En la <strong class="text-neutral-100">entrada</strong>: lo que usas para entrenar, ajustar o alimentar una base de RAG puede ser una obra protegida (en Brasil, por la Ley n.º 9.610/1998). En la <strong class="text-neutral-100">herramienta</strong>: los modelos abiertos tienen licencias distintas: algunas son permisivas, como Apache 2.0 y MIT; otras restringen el uso o la escala. Y en la <strong class="text-neutral-100">salida</strong>: lo que genera el modelo puede parecerse demasiado a una obra existente, y la protección del propio resultado es incierta.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t5-p2">Sobre la autoría de lo que genera la IA, la tendencia en varios países es exigir una contribución humana relevante: en Estados Unidos, la Oficina de Derechos de Autor ha rechazado registrar material producido sin suficiente autoría humana. Hay procesos judiciales en curso sobre el uso de obras para entrenar modelos, y el tema forma parte del debate sobre el marco legal de la IA en Brasil (PL 2338/2023). <strong class="text-blue-400">Este panorama cambia rápido</strong>: el método consiste en documentar los orígenes, respetar las licencias y consultar al área legal en los casos de impacto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t5-p1">Los derechos de autor aparecen en tres puntos del trabajo con IA. En la <strong class="text-neutral-100">entrada</strong>: lo que usas para entrenar, ajustar o alimentar una base de RAG puede ser una obra protegida (en Brasil, por la Ley n.º 9.610/1998). En la <strong class="text-neutral-100">herramienta</strong>: los modelos abiertos tienen licencias distintas: algunas son permisivas, como Apache 2.0 y MIT; otras restringen el uso o la escala. Y en la <strong class="text-neutral-100">salida</strong>: lo que genera el modelo puede parecerse demasiado a una obra existente, y la protección del propio resultado es incierta.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t5-p2">Sobre la autoría de lo que genera la IA, la tendencia en varios países es exigir una contribución humana relevante: en Estados Unidos, la Oficina de Derechos de Autor ha rechazado registrar material producido sin suficiente autoría humana. Hay procesos judiciales en curso sobre el uso de obras para entrenar modelos, y el tema forma parte del debate sobre el marco legal de la IA en Brasil (PL 2338/2023). <strong class="text-blue-400">Este panorama cambia rápido</strong>: el método consiste en documentar los orígenes, respetar las licencias y consultar al área legal en los casos de impacto.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t5-p3"><strong>Licencia del modelo</strong> es el contrato que indica cómo se pueden usar los pesos de un modelo abierto: léelo antes de incorporarlo a un producto. <strong>Procedencia</strong> es el registro de dónde proviene cada dato o contenido. <strong>Regurgitación</strong> ocurre cuando el modelo reproduce fragmentos largos y casi literales del material de entrenamiento.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t5-p3"><strong>Licencia del modelo</strong> es el contrato que indica cómo se pueden usar los pesos de un modelo abierto: léelo antes de incorporarlo a un producto. <strong>Procedencia</strong> es el registro de dónde proviene cada dato o contenido. <strong>Regurgitación</strong> ocurre cuando el modelo reproduce fragmentos largos y casi literales del material de entrenamiento.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -963,10 +963,10 @@ Aviso al usuario: &lt;texto mostrado&gt;   Revisión humana: &lt;canal y plazo&g
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t5-p4">Lee los términos del proveedor que usas: algunos ofrecen cláusulas de protección frente a reclamos por derechos de autor sobre el resultado, con ciertas condiciones. Anota en la ficha del sistema qué cubre tu plan y qué no.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t5-p4">Lee los términos del proveedor que usas: algunos ofrecen cláusulas de protección frente a reclamos por derechos de autor sobre el resultado, con ciertas condiciones. Anota en la ficha del sistema qué cubre tu plan y qué no.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t5-p5" data-sum="porque">Un modelo con una licencia incorrecta o una base de datos creada con contenido de terceros puede obligar a rehacer un producto entero. Registrar el origen y la licencia desde el principio cuesta poco y evita disputas que ninguna ventaja técnica compensa.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t5-p5" data-sum="porque">Un modelo con una licencia incorrecta o una base de datos creada con contenido de terceros puede obligar a rehacer un producto entero. Registrar el origen y la licencia desde el principio cuesta poco y evita disputas que ninguna ventaja técnica compensa.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Ley 9.610/1998</div><div class="text-xs text-neutral-400">derechos de autor en Brasil</div></div>
@@ -975,30 +975,30 @@ Aviso al usuario: &lt;texto mostrado&gt;   Revisión humana: &lt;canal y plazo&g
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Autoría humana</div><div class="text-xs text-neutral-400">base de la protección</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="impacto, autonomia e quem aprova">🛡️ Riesgo y supervisión humana</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t6-p1">No todos los usos de IA requieren el mismo nivel de cuidado. La regulación europea (AI Act, vigente desde 2024, con obligaciones que entran en vigor por etapas) y el proyecto brasileño siguen la misma lógica: <strong class="text-blue-400">clasificar según el riesgo</strong>. Hay usos prohibidos, usos de alto riesgo (como la selección de candidatos, el crédito y el acceso a servicios esenciales), usos que exigen transparencia (como los chatbots y el contenido sintético) y usos de riesgo mínimo. Verifica el calendario y la situación actual de las reglas antes de cada proyecto.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t6-p2">Para quienes construyen sistemas, dos preguntas resuelven buena parte de la clasificación: <strong class="text-neutral-100">cuál es el impacto</strong> de un error en la vida de una persona, y <strong class="text-neutral-100">cuánta autonomía</strong> tiene la IA: solo sugiere, decide con revisión o actúa sola. Con agentes que usan herramientas, la autonomía aumenta y surgen nuevos riesgos, como la inyección de instrucciones ocultas en documentos y páginas que el agente lee.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t6-p1">No todos los usos de IA requieren el mismo nivel de cuidado. La regulación europea (AI Act, vigente desde 2024, con obligaciones que entran en vigor por etapas) y el proyecto brasileño siguen la misma lógica: <strong class="text-blue-400">clasificar según el riesgo</strong>. Hay usos prohibidos, usos de alto riesgo (como la selección de candidatos, el crédito y el acceso a servicios esenciales), usos que exigen transparencia (como los chatbots y el contenido sintético) y usos de riesgo mínimo. Verifica el calendario y la situación actual de las reglas antes de cada proyecto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t6-p2">Para quienes construyen sistemas, dos preguntas resuelven buena parte de la clasificación: <strong class="text-neutral-100">cuál es el impacto</strong> de un error en la vida de una persona, y <strong class="text-neutral-100">cuánta autonomía</strong> tiene la IA: solo sugiere, decide con revisión o actúa sola. Con agentes que usan herramientas, la autonomía aumenta y surgen nuevos riesgos, como la inyección de instrucciones ocultas en documentos y páginas que el agente lee.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t6-p3"><strong>Humano en el circuito</strong> (<em>human-in-the-loop</em>): una persona aprueba cada decisión antes de que entre en vigor. <strong>Humano supervisando</strong> (<em>on-the-loop</em>): el sistema actúa y una persona lo supervisa y puede intervenir. <strong>Inyección de prompt</strong>: texto malicioso dentro de los datos (un correo electrónico, un PDF, una página) que intenta cambiar las instrucciones del modelo. <strong>Menor privilegio</strong>: dale al agente solo los permisos estrictamente necesarios.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t6-p3"><strong>Humano en el circuito</strong> (<em>human-in-the-loop</em>): una persona aprueba cada decisión antes de que entre en vigor. <strong>Humano supervisando</strong> (<em>on-the-loop</em>): el sistema actúa y una persona lo supervisa y puede intervenir. <strong>Inyección de prompt</strong>: texto malicioso dentro de los datos (un correo electrónico, un PDF, una página) que intenta cambiar las instrucciones del modelo. <strong>Menor privilegio</strong>: dale al agente solo los permisos estrictamente necesarios.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -1038,12 +1038,12 @@ Aviso al usuario: &lt;texto mostrado&gt;   Revisión humana: &lt;canal y plazo&g
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Cómo leer:</strong> ubica tu sistema en los dos ejes. Cuanto más arriba y a la derecha, más controles se suman. El cuadrante rojo no está prohibido por definición, pero exige justificación, aprobación formal y auditoría. Un mismo producto puede tener funciones en distintos cuadrantes: clasifica por función, no por producto.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Permisos mínimos</p><p class="text-xs text-neutral-300" data-inema-block="m2-9-t6-p4">El agente que lee correos electrónicos no necesita enviarlos. El que consulta la base de datos no necesita borrar datos.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Confirmación para acciones irreversibles</p><p class="text-xs text-neutral-300" data-inema-block="m2-9-t6-p5">Pagos, eliminaciones, envíos externos: siempre con aprobación humana explícita.</p></div>
-<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Un dato es un dato, no una orden</p><p class="text-xs text-neutral-300" data-inema-block="m2-9-t6-p6">El contenido leído de documentos y páginas nunca cambia las instrucciones del agente.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Permisos mínimos</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-9-t6-p4">El agente que lee correos electrónicos no necesita enviarlos. El que consulta la base de datos no necesita borrar datos.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Confirmación para acciones irreversibles</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-9-t6-p5">Pagos, eliminaciones, envíos externos: siempre con aprobación humana explícita.</p></div>
+<div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Un dato es un dato, no una orden</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-9-t6-p6">El contenido leído de documentos y páginas nunca cambia las instrucciones del agente.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t6-p7" data-sum="porque">Clasificar por riesgo evita dos errores costosos: la burocracia excesiva en usos triviales, que hace que el equipo eluda las reglas, y la automatización sin freno en decisiones que afectan la vida de las personas. Con agentes cada vez más autónomos, diseñar la supervisión es parte del código.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t6-p7" data-sum="porque">Clasificar por riesgo evita dos errores costosos: la burocracia excesiva en usos triviales, que hace que el equipo eluda las reglas, y la automatización sin freno en decisiones que afectan la vida de las personas. Con agentes cada vez más autónomos, diseñar la supervisión es parte del código.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Clase de riesgo</div><div class="text-xs text-neutral-400">impacto × autonomía</div></div>
@@ -1052,30 +1052,30 @@ Aviso al usuario: &lt;texto mostrado&gt;   Revisión humana: &lt;canal y plazo&g
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Menor privilegio</div><div class="text-xs text-neutral-400">solo lo necesario</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-2-9#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-9#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="inventário, aprovação, revisão e checklist">📋 Proceso de gobernanza</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t7-p1">Un proceso de gobernanza no necesita un departamento nuevo para empezar. Lo mínimo que funciona tiene cuatro piezas: un <strong class="text-neutral-100">inventario</strong> de todos los sistemas con IA (incluidas las herramientas que los empleados usan por su cuenta), una <strong class="text-neutral-100">evaluación de riesgos</strong> antes de cada lanzamiento, una <strong class="text-neutral-100">aprobación registrada</strong> por parte de quien responde por el sistema y una <strong class="text-neutral-100">revisión periódica</strong> — y cada vez que se cambie el modelo, los datos o la finalidad.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t7-p2">El secreto es integrar esto en el flujo que el equipo ya usa. La lista de verificación de abajo puede convertirse en la plantilla de pull request, una etapa del pipeline del módulo 2.8 o una página en el repositorio. Lo importante es completarla antes del despliegue, con evidencias, y no reconstruirla después de un problema.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t7-p1">Un proceso de gobernanza no necesita un departamento nuevo para empezar. Lo mínimo que funciona tiene cuatro piezas: un <strong class="text-neutral-100">inventario</strong> de todos los sistemas con IA (incluidas las herramientas que los empleados usan por su cuenta), una <strong class="text-neutral-100">evaluación de riesgos</strong> antes de cada lanzamiento, una <strong class="text-neutral-100">aprobación registrada</strong> por parte de quien responde por el sistema y una <strong class="text-neutral-100">revisión periódica</strong> — y cada vez que se cambie el modelo, los datos o la finalidad.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t7-p2">El secreto es integrar esto en el flujo que el equipo ya usa. La lista de verificación de abajo puede convertirse en la plantilla de pull request, una etapa del pipeline del módulo 2.8 o una página en el repositorio. Lo importante es completarla antes del despliegue, con evidencias, y no reconstruirla después de un problema.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Términos nuevos</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t7-p3"><strong>Inventario de IA</strong> es la lista de sistemas y herramientas con IA en uso, con responsable, finalidad y clase de riesgo. <strong>RIPD</strong> (Informe de Impacto en la Protección de Datos Personales) es el documento de la LGPD que describe los tratamientos de datos que pueden generar riesgos para los titulares, junto con las medidas de mitigación. <strong>Shadow AI</strong> es el uso de herramientas de IA sin que la organización lo sepa.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t7-p3"><strong>Inventario de IA</strong> es la lista de sistemas y herramientas con IA en uso, con responsable, finalidad y clase de riesgo. <strong>RIPD</strong> (Informe de Impacto en la Protección de Datos Personales) es el documento de la LGPD que describe los tratamientos de datos que pueden generar riesgos para los titulares, junto con las medidas de mitigación. <strong>Shadow AI</strong> es el uso de herramientas de IA sin que la organización lo sepa.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
@@ -1133,10 +1133,10 @@ Responsable: &lt;nome/área&gt;   Clase de riesgo: &lt;mínimo | transparencia |
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-9-t7-p4">Empieza por el inventario. Pregunta a los equipos qué herramientas de IA usan en su día a día y con qué datos. Por lo general, la primera lista revela usos que nadie había evaluado, y ahí están los riesgos más sencillos de corregir.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-9-t7-p4">Empieza por el inventario. Pregunta a los equipos qué herramientas de IA usan en su día a día y con qué datos. Por lo general, la primera lista revela usos que nadie había evaluado, y ahí están los riesgos más sencillos de corregir.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-9-t7-p5" data-sum="porque">La gobernanza realizada desde el inicio cuesta algunas horas por sistema; hacerla después de un incidente o una inspección cuesta semanas y reputación. Quien domina este proceso lleva proyectos de IA a áreas sensibles de forma segura, y esa es precisamente la visión que la Ruta 3 profundiza a escala.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-9-t7-p5" data-sum="porque">La gobernanza realizada desde el inicio cuesta algunas horas por sistema; hacerla después de un incidente o una inspección cuesta semanas y reputación. Quien domina este proceso lleva proyectos de IA a áreas sensibles de forma segura, y esa es precisamente la visión que la Ruta 3 profundiza a escala.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Inventario</div><div class="text-xs text-neutral-400">qué existe y de quién</div></div>
@@ -1145,11 +1145,11 @@ Responsable: &lt;nome/área&gt;   Clase de riesgo: &lt;mínimo | transparencia |
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Revisión periódica</div><div class="text-xs text-neutral-400">y con cada cambio</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1180,7 +1180,7 @@ Responsable: &lt;nome/área&gt;   Clase de riesgo: &lt;mínimo | transparencia |
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1212,15 +1212,15 @@ Responsable: &lt;nome/área&gt;   Clase de riesgo: &lt;mínimo | transparencia |
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

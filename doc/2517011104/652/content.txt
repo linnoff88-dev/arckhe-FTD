@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:44:24+00:00
 Texto:
 Agora vamos complementar com **ferramentas open source ou voltadas para desenvolvedores**, atualizadas para abril de 2025, com foco em criação de imagens com IA — e incluindo **Pinokio**, [**fal.ai**](https://fal.ai/) e **Replicate (Flux)**.
@@ -76,15 +76,15 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:43:12+00:00
 Texto:
-INEMA.TOOLS
+ARCKHÉ.TOOLS
 
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:37+00:00
 Texto:
 **Aqui está uma lista **atualizada para abril de 2025** com as **10 principais ferramentas de geração de imagens com IA**, apresentando de forma **simples e direta as diferenças** entre elas:
@@ -164,7 +164,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:32+00:00
 Texto:
 .
@@ -172,7 +172,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:29+00:00
 Texto:
 1-5-1 - Ferramentas de Imagens
@@ -180,7 +180,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:08+00:00
 Texto:
 .
@@ -188,7 +188,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:08+00:00
 Texto:
 ....
@@ -196,7 +196,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:07+00:00
 Texto:
 ...
@@ -204,7 +204,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:07+00:00
 Texto:
 ..
@@ -212,7 +212,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:07+00:00
 Texto:
 .
@@ -220,7 +220,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:07+00:00
 Texto:
 ..
@@ -228,7 +228,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:06+00:00
 Texto:
 ..
@@ -236,7 +236,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:06+00:00
 Texto:
 .
@@ -244,7 +244,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:06+00:00
 Texto:
 .
@@ -252,7 +252,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:42:01+00:00
 Texto:
 1
@@ -260,7 +260,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:41:54+00:00
 Texto: [Sem texto]
 

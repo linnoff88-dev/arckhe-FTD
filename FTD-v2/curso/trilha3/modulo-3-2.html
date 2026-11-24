@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2" name="inema-course"/>
+<meta content="ftd-v2" name="ARCKHÉ-course"/>
 <title>Módulo 3.2 · Modelos Customizados e Proprietários | FTD v2</title>
 <meta content="Pré-treino contínuo, destilação, modelos abertos, dados próprios como vantagem e o custo real de manter um modelo." name="description"/>
 <meta content="Módulo 3.2 · Modelos Customizados e Proprietários | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-2.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-2.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-2.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-2.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-2.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="modulo-3-2.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">PT</a><a href="../../en/curso/trilha3/modulo-3-2.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha3/modulo-3-2.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="modulo-3-2.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">PT</a><a href="../../en/curso/trilha3/modulo-3-2.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha3/modulo-3-2.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Minha jornada</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Aparência</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Escuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sépia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Escuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sépia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Foco</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fonte</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Leitura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Foco</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamanho</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fonte</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Leitura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Largura</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estreito</button>
-<button data-inema-set-linewidth="68" type="button">Médio</button>
-<button data-inema-set-linewidth="75" type="button">Largo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamanho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Entrelinha</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Confortável</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Largura</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estreito</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Médio</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Largo</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento roxo" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento âmbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento teal" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Entrelinha</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Confortável</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento roxo" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento âmbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento teal" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="3-2" data-inema-track="3" id="conteudo">
+<main data-ARCKHÉ-module="3-2" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Trilha de navegação" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">Estratégia</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progresso do módulo 3.2" class="inema-ring" data-inema-meter="modulo:3-2"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:3-2"><strong data-inema-meter-frac="">0 de 0</strong> tópicos lidos · <span data-inema-section-counter="">Seção 1 de 7</span></div>
+<div aria-label="Progresso do módulo 3.2" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-2"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-2"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> tópicos lidos · <span data-ARCKHÉ-section-counter="">Seção 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice da página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice da página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">Neste módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. A escada da customização</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Modelos abertos</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. LoRA e QLoRA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Pré-treino contínuo</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Destilação</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Dados como fosso</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Custo real de manter</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. A escada da customização</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Modelos abertos</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. LoRA e QLoRA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Pré-treino contínuo</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Destilação</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Dados como fosso</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Custo real de manter</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Conteúdo detalhado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="do prompt ao modelo do zero">🪜 A escada da customização</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t1-p1">"Ter um modelo próprio" virou frase de diretoria. Na prática, existem seis degraus de customização, e cada degrau acima custa mais em dinheiro, gente e manutenção. A regra que protege o orçamento é simples: <strong class="text-neutral-100">suba um degrau só quando o anterior comprovadamente não resolver</strong> — e "comprovadamente" quer dizer uma avaliação com números, não uma impressão em reunião.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t1-p2">Os degraus: <strong class="text-purple-400">engenharia de prompt</strong> (instruções e exemplos no pedido); <strong class="text-purple-400">RAG</strong> (buscar documentos seus e colocar no contexto); <strong class="text-purple-400">ajuste fino eficiente</strong> como LoRA (treinar uma pequena parte do modelo com seus exemplos); <strong class="text-purple-400">pré-treino contínuo</strong> (seguir treinando o modelo base com um corpus grande do seu domínio); <strong class="text-purple-400">destilação</strong> (ensinar um modelo pequeno a imitar um grande) e, no topo, <strong class="text-purple-400">treinar do zero</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t1-p1">"Ter um modelo próprio" virou frase de diretoria. Na prática, existem seis degraus de customização, e cada degrau acima custa mais em dinheiro, gente e manutenção. A regra que protege o orçamento é simples: <strong class="text-neutral-100">suba um degrau só quando o anterior comprovadamente não resolver</strong> — e "comprovadamente" quer dizer uma avaliação com números, não uma impressão em reunião.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t1-p2">Os degraus: <strong class="text-purple-400">engenharia de prompt</strong> (instruções e exemplos no pedido); <strong class="text-purple-400">RAG</strong> (buscar documentos seus e colocar no contexto); <strong class="text-purple-400">ajuste fino eficiente</strong> como LoRA (treinar uma pequena parte do modelo com seus exemplos); <strong class="text-purple-400">pré-treino contínuo</strong> (seguir treinando o modelo base com um corpus grande do seu domínio); <strong class="text-purple-400">destilação</strong> (ensinar um modelo pequeno a imitar um grande) e, no topo, <strong class="text-purple-400">treinar do zero</strong>.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">A escada da customização ordena as formas de adaptar IA ao seu negócio do mais barato e reversível (prompt) ao mais caro e permanente (modelo do zero). Cada degrau resolve um tipo diferente de problema: prompt e RAG mudam o que o modelo <em>sabe na hora</em>; ajuste fino muda <em>como ele se comporta</em>; pré-treino e treino do zero mudam <em>o que ele é</em>.</p>
@@ -581,7 +581,7 @@
 </table>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t1-p3" data-sum="porque">A pergunta "precisamos de um modelo próprio?" aparece em todo planejamento. Com a escada, você troca a resposta de opinião por diagnóstico: qual sintoma, qual degrau, qual teste prova que o degrau de baixo não basta. Isso evita projetos de seis meses que um bom RAG resolveria em duas semanas.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t1-p3" data-sum="porque">A pergunta "precisamos de um modelo próprio?" aparece em todo planejamento. Com a escada, você troca a resposta de opinião por diagnóstico: qual sintoma, qual degrau, qual teste prova que o degrau de baixo não basta. Isso evita projetos de seis meses que um bom RAG resolveria em duas semanas.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Degrau</div><div class="text-xs text-neutral-400">nível de customização</div></div>
@@ -590,27 +590,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Prova de necessidade</div><div class="text-xs text-neutral-400">avaliação antes de subir</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pesos abertos, licenças e escolha">🔓 Modelos abertos como ponto de partida</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t2-p1">Quase ninguém treina um modelo de linguagem do zero. O caminho realista para um modelo "seu" é partir de um modelo de <strong class="text-purple-400">pesos abertos</strong> (<em>open weights</em>: você baixa o arquivo com os parâmetros e roda onde quiser) e adaptá-lo. Famílias como Llama (Meta), Qwen (Alibaba), Mistral, Gemma (Google) e DeepSeek publicam modelos em vários tamanhos no Hugging Face, e saem versões novas com frequência — confira sempre a página oficial antes de escolher.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t2-p2">Atenção à diferença entre <strong class="text-neutral-100">pesos abertos</strong> e <strong class="text-neutral-100">código aberto</strong> no sentido estrito. Muitos modelos liberam os pesos, mas não os dados de treino nem o código completo, e vêm com licenças próprias que podem limitar uso comercial acima de certo porte, exigir atribuição ou proibir usos específicos. Outros saem sob licenças permissivas como Apache 2.0 ou MIT. A licença é parte da arquitetura: quem não a lê herda um risco jurídico.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t2-p1">Quase ninguém treina um modelo de linguagem do zero. O caminho realista para um modelo "seu" é partir de um modelo de <strong class="text-purple-400">pesos abertos</strong> (<em>open weights</em>: você baixa o arquivo com os parâmetros e roda onde quiser) e adaptá-lo. Famílias como Llama (Meta), Qwen (Alibaba), Mistral, Gemma (Google) e DeepSeek publicam modelos em vários tamanhos no Hugging Face, e saem versões novas com frequência — confira sempre a página oficial antes de escolher.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t2-p2">Atenção à diferença entre <strong class="text-neutral-100">pesos abertos</strong> e <strong class="text-neutral-100">código aberto</strong> no sentido estrito. Muitos modelos liberam os pesos, mas não os dados de treino nem o código completo, e vêm com licenças próprias que podem limitar uso comercial acima de certo porte, exigir atribuição ou proibir usos específicos. Outros saem sob licenças permissivas como Apache 2.0 ou MIT. A licença é parte da arquitetura: quem não a lê herda um risco jurídico.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">Um modelo aberto é um modelo cujos pesos você pode baixar, rodar na sua infraestrutura e ajustar. Ele é a base de quase todo modelo proprietário corporativo: você herda a capacidade geral e acrescenta o que é específico do seu negócio.</p>
@@ -630,14 +630,14 @@
 </div>
 <div class="bg-dark-800 border border-purple-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-purple-400 font-semibold mb-1">📌 Termo novo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-2-t2-p3"><strong>Quantização</strong> é guardar os pesos com menos bits (por exemplo, 4 bits em vez de 16) para o modelo caber em menos memória, com alguma perda de qualidade que você precisa medir. <strong>Cartão do modelo</strong> (<em>model card</em>) é a página que descreve treino, limites, licença e uso pretendido.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-2-t2-p3"><strong>Quantização</strong> é guardar os pesos com menos bits (por exemplo, 4 bits em vez de 16) para o modelo caber em menos memória, com alguma perda de qualidade que você precisa medir. <strong>Cartão do modelo</strong> (<em>model card</em>) é a página que descreve treino, limites, licença e uso pretendido.</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-2-t2-p4">Escolha dois ou três candidatos de famílias diferentes e rode o mesmo conjunto de 50 a 200 perguntas do seu negócio em todos antes de ajustar qualquer coisa. Rankings públicos medem tarefas genéricas; o seu caso é que decide.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-2-t2-p4">Escolha dois ou três candidatos de famílias diferentes e rode o mesmo conjunto de 50 a 200 perguntas do seu negócio em todos antes de ajustar qualquer coisa. Rankings públicos medem tarefas genéricas; o seu caso é que decide.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t2-p5" data-sum="porque">A escolha do modelo base define o teto do seu modelo customizado, o hardware necessário e o risco jurídico. Trocar de base depois significa refazer ajuste, avaliação e integração. Decidir com critérios escritos economiza meses.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t2-p5" data-sum="porque">A escolha do modelo base define o teto do seu modelo customizado, o hardware necessário e o risco jurídico. Trocar de base depois significa refazer ajuste, avaliação e integração. Decidir com critérios escritos economiza meses.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Pesos abertos</div><div class="text-xs text-neutral-400">baixa e roda onde quiser</div></div>
@@ -646,27 +646,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Modelo base</div><div class="text-xs text-neutral-400">o teto do que você ajusta</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="ajustar pouco, com dados limpos">🎛️ Ajuste fino eficiente: LoRA e QLoRA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t3-p1"><strong class="text-purple-400">LoRA</strong> (<em>Low-Rank Adaptation</em>) congela o modelo original e treina só pequenas matrizes acopladas a algumas camadas. O resultado é um <strong class="text-neutral-100">adaptador</strong>: um arquivo pequeno que se soma ao modelo base. <strong class="text-purple-400">QLoRA</strong> faz o mesmo com o modelo base quantizado em 4 bits, o que permite ajustar modelos de porte médio numa única GPU. Ferramentas comuns: Hugging Face PEFT e TRL, Unsloth e Axolotl.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t3-p2">O que decide o resultado não é o hiperparâmetro — é o <strong class="text-neutral-100">conjunto de dados</strong>. Algumas centenas a poucos milhares de exemplos limpos, coerentes e representativos costumam valer mais que dezenas de milhares de exemplos ruidosos. Exemplos duplicados ensinam o modelo a decorar; exemplos com dados pessoais criam um problema de LGPD dentro dos pesos, onde é muito difícil apagar depois.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t3-p1"><strong class="text-purple-400">LoRA</strong> (<em>Low-Rank Adaptation</em>) congela o modelo original e treina só pequenas matrizes acopladas a algumas camadas. O resultado é um <strong class="text-neutral-100">adaptador</strong>: um arquivo pequeno que se soma ao modelo base. <strong class="text-purple-400">QLoRA</strong> faz o mesmo com o modelo base quantizado em 4 bits, o que permite ajustar modelos de porte médio numa única GPU. Ferramentas comuns: Hugging Face PEFT e TRL, Unsloth e Axolotl.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t3-p2">O que decide o resultado não é o hiperparâmetro — é o <strong class="text-neutral-100">conjunto de dados</strong>. Algumas centenas a poucos milhares de exemplos limpos, coerentes e representativos costumam valer mais que dezenas de milhares de exemplos ruidosos. Exemplos duplicados ensinam o modelo a decorar; exemplos com dados pessoais criam um problema de LGPD dentro dos pesos, onde é muito difícil apagar depois.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">Ajuste fino eficiente em parâmetros (PEFT) é treinar uma fração mínima dos parâmetros para mudar o comportamento do modelo — formato, tom, classificação, uso de ferramentas — sem o custo de treinar tudo. Vários adaptadores podem compartilhar o mesmo modelo base em produção.</p>
@@ -751,7 +751,7 @@ print(json.dumps({**stats, "pii_mascarada": pii,
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> crie um arquivo de teste com 5 linhas, duas delas iguais e uma contendo um e-mail e um CPF fictícios. Rode o script: o resumo deve mostrar <code>"duplicadas": 1</code>, a contagem de PII maior que zero e os arquivos <code>treino.jsonl</code> e <code>avaliacao.jsonl</code> sem nenhum e-mail visível (<code>grep -c @ treino.jsonl</code> deve dar 0). Regex pega o óbvio, não tudo: nomes próprios e endereços exigem revisão humana ou uma ferramenta de detecção de PII dedicada.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t3-p3" data-sum="porque">LoRA é o degrau de customização com melhor relação custo-benefício quando o problema é comportamento. Saber que ele depende quase inteiramente da qualidade e da limpeza dos dados muda onde o líder técnico coloca a equipe: na curadoria, não na busca do hiperparâmetro perfeito.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t3-p3" data-sum="porque">LoRA é o degrau de customização com melhor relação custo-benefício quando o problema é comportamento. Saber que ele depende quase inteiramente da qualidade e da limpeza dos dados muda onde o líder técnico coloca a equipe: na curadoria, não na busca do hiperparâmetro perfeito.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Adaptador</div><div class="text-xs text-neutral-400">arquivo pequeno somado à base</div></div>
@@ -760,27 +760,27 @@ print(json.dumps({**stats, "pii_mascarada": pii,
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Separação de avaliação</div><div class="text-xs text-neutral-400">dados que o treino não vê</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="ensinar um domínio inteiro sem esquecer o resto">📚 Pré-treino contínuo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t4-p1">O <strong class="text-purple-400">pré-treino contínuo</strong> (<em>continued pretraining</em>) pega um modelo base já treinado e segue treinando com a mesma tarefa de prever o próximo token, mas agora sobre um corpus grande do seu domínio: jurisprudência, normas técnicas, manuais de engenharia, prontuários anonimizados. Diferente do LoRA, que ensina comportamento com pares pergunta-resposta, aqui o modelo absorve <strong class="text-neutral-100">vocabulário, estilo e relações</strong> do domínio a partir de texto bruto.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t4-p2">O risco principal tem nome: <strong class="text-red-400">esquecimento catastrófico</strong> — ao aprender o domínio, o modelo perde capacidades gerais, como seguir instruções ou escrever bem em português. A defesa clássica é a <strong class="text-neutral-100">mistura de dados</strong>: junto ao corpus do domínio entra uma parcela de texto geral de boa qualidade, e depois do pré-treino vem um ajuste de instruções para recuperar o comportamento de assistente. A proporção certa se descobre medindo, não copiando receita.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t4-p1">O <strong class="text-purple-400">pré-treino contínuo</strong> (<em>continued pretraining</em>) pega um modelo base já treinado e segue treinando com a mesma tarefa de prever o próximo token, mas agora sobre um corpus grande do seu domínio: jurisprudência, normas técnicas, manuais de engenharia, prontuários anonimizados. Diferente do LoRA, que ensina comportamento com pares pergunta-resposta, aqui o modelo absorve <strong class="text-neutral-100">vocabulário, estilo e relações</strong> do domínio a partir de texto bruto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t4-p2">O risco principal tem nome: <strong class="text-red-400">esquecimento catastrófico</strong> — ao aprender o domínio, o modelo perde capacidades gerais, como seguir instruções ou escrever bem em português. A defesa clássica é a <strong class="text-neutral-100">mistura de dados</strong>: junto ao corpus do domínio entra uma parcela de texto geral de boa qualidade, e depois do pré-treino vem um ajuste de instruções para recuperar o comportamento de assistente. A proporção certa se descobre medindo, não copiando receita.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">É continuar o pré-treino de um modelo aberto com um corpus volumoso de um domínio, seguido de ajuste de instruções e avaliação dupla: ganho no domínio e preservação das capacidades gerais.</p>
@@ -827,10 +827,10 @@ print(json.dumps({**stats, "pii_mascarada": pii,
 </figure>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-2-t4-p3">Antes de aprovar um pré-treino contínuo, peça à equipe a resposta para três perguntas: quantos tokens de corpus próprio e limpo existem hoje, qual eval prova que RAG + LoRA não bastam, e quem mantém o modelo quando sair uma base nova melhor. Se uma delas ficar sem resposta, o projeto ainda não está maduro.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-2-t4-p3">Antes de aprovar um pré-treino contínuo, peça à equipe a resposta para três perguntas: quantos tokens de corpus próprio e limpo existem hoje, qual eval prova que RAG + LoRA não bastam, e quem mantém o modelo quando sair uma base nova melhor. Se uma delas ficar sem resposta, o projeto ainda não está maduro.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t4-p4" data-sum="porque">É o degrau que separa adaptação de verdadeira especialização. Para domínios com linguagem muito própria pode ser o único caminho para qualidade alta — mas exige volume de dados, GPU e disciplina de avaliação que poucas empresas têm. Saber isso ajuda a dizer sim aos casos certos e não aos demais.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t4-p4" data-sum="porque">É o degrau que separa adaptação de verdadeira especialização. Para domínios com linguagem muito própria pode ser o único caminho para qualidade alta — mas exige volume de dados, GPU e disciplina de avaliação que poucas empresas têm. Saber isso ajuda a dizer sim aos casos certos e não aos demais.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Corpus</div><div class="text-xs text-neutral-400">texto bruto do domínio</div></div>
@@ -839,27 +839,27 @@ print(json.dumps({**stats, "pii_mascarada": pii,
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Avaliação dupla</div><div class="text-xs text-neutral-400">ganho e preservação</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o grande ensina, o pequeno serve">🧪 Destilação: professor e aluno</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t5-p1"><strong class="text-purple-400">Destilação</strong> é treinar um modelo pequeno (o <strong class="text-neutral-100">aluno</strong>) para imitar um modelo grande (o <strong class="text-neutral-100">professor</strong>) numa tarefa específica. Na forma mais usada hoje, o professor gera respostas de alta qualidade para milhares de entradas reais, essas respostas são filtradas, e o aluno é ajustado com elas. O aluno não vira o professor — fica bom naquela faixa estreita de tarefas, rodando mais barato e mais rápido.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t5-p2">Há um cuidado jurídico que derruba projetos: os <strong class="text-red-400">termos de uso de muitos provedores comerciais restringem usar as saídas do modelo deles para treinar um modelo concorrente</strong>. Antes de destilar a partir de uma API paga, leia os termos vigentes do provedor com o jurídico. Usar como professor um modelo aberto cuja licença permite esse uso elimina a dúvida.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t5-p1"><strong class="text-purple-400">Destilação</strong> é treinar um modelo pequeno (o <strong class="text-neutral-100">aluno</strong>) para imitar um modelo grande (o <strong class="text-neutral-100">professor</strong>) numa tarefa específica. Na forma mais usada hoje, o professor gera respostas de alta qualidade para milhares de entradas reais, essas respostas são filtradas, e o aluno é ajustado com elas. O aluno não vira o professor — fica bom naquela faixa estreita de tarefas, rodando mais barato e mais rápido.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t5-p2">Há um cuidado jurídico que derruba projetos: os <strong class="text-red-400">termos de uso de muitos provedores comerciais restringem usar as saídas do modelo deles para treinar um modelo concorrente</strong>. Antes de destilar a partir de uma API paga, leia os termos vigentes do provedor com o jurídico. Usar como professor um modelo aberto cuja licença permite esse uso elimina a dúvida.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">Destilação transfere a habilidade de um modelo grande, numa tarefa definida, para um modelo pequeno que custa menos por chamada e responde mais rápido — trocando generalidade por eficiência.</p>
@@ -901,7 +901,7 @@ print(json.dumps({**stats, "pii_mascarada": pii,
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Passo 5.</strong> Em produção, mande para o professor os casos em que o aluno tem baixa confiança.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t5-p3" data-sum="porque">Destilação é a forma mais direta de reduzir custo unitário de IA em alto volume sem perder muita qualidade na tarefa que importa. Também é uma armadilha jurídica comum. O líder que conhece as duas faces aprova o projeto certo, com o professor certo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t5-p3" data-sum="porque">Destilação é a forma mais direta de reduzir custo unitário de IA em alto volume sem perder muita qualidade na tarefa que importa. Também é uma armadilha jurídica comum. O líder que conhece as duas faces aprova o projeto certo, com o professor certo.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Professor</div><div class="text-xs text-neutral-400">modelo grande de referência</div></div>
@@ -910,27 +910,27 @@ print(json.dumps({**stats, "pii_mascarada": pii,
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Termos de uso</div><div class="text-xs text-neutral-400">podem proibir destilar</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o que o concorrente não copia">🏰 Dados próprios como fosso</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t6-p1">Um <strong class="text-purple-400">fosso</strong> (<em>moat</em>) é uma vantagem difícil de copiar. Os pesos do seu modelo raramente são esse fosso: uma base aberta melhor sai em meses e um concorrente pode repetir o ajuste. O que é difícil de copiar são três coisas — <strong class="text-neutral-100">dados que só você gera</strong>, um <strong class="text-neutral-100">conjunto de avaliação</strong> que traduz o que "bom" significa no seu negócio, e o <strong class="text-neutral-100">ciclo</strong> que transforma uso em melhoria contínua.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t6-p2">Esse ciclo é o <strong class="text-purple-400">flywheel de dados</strong>: o produto é usado, as correções e avaliações dos usuários são registradas, viram exemplos curados, melhoram o modelo, que melhora o produto e atrai mais uso. Ele só gira dentro da LGPD: base legal para usar os dados, finalidade informada ao titular, anonimização antes do treino e capacidade de atender pedidos de exclusão — o que é muito mais fácil em RAG do que em pesos já treinados.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t6-p1">Um <strong class="text-purple-400">fosso</strong> (<em>moat</em>) é uma vantagem difícil de copiar. Os pesos do seu modelo raramente são esse fosso: uma base aberta melhor sai em meses e um concorrente pode repetir o ajuste. O que é difícil de copiar são três coisas — <strong class="text-neutral-100">dados que só você gera</strong>, um <strong class="text-neutral-100">conjunto de avaliação</strong> que traduz o que "bom" significa no seu negócio, e o <strong class="text-neutral-100">ciclo</strong> que transforma uso em melhoria contínua.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t6-p2">Esse ciclo é o <strong class="text-purple-400">flywheel de dados</strong>: o produto é usado, as correções e avaliações dos usuários são registradas, viram exemplos curados, melhoram o modelo, que melhora o produto e atrai mais uso. Ele só gira dentro da LGPD: base legal para usar os dados, finalidade informada ao titular, anonimização antes do treino e capacidade de atender pedidos de exclusão — o que é muito mais fácil em RAG do que em pesos já treinados.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">Fosso de dados é a vantagem competitiva que vem de dados exclusivos, legalmente utilizáveis e continuamente renovados pelo uso do produto, somados a uma avaliação própria que mostra se cada versão do modelo é de fato melhor.</p>
@@ -1002,7 +1002,7 @@ for m, p in placar.items():
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode primeiro com o mesmo modelo nas duas posições (<code>qwen2.5 qwen2.5</code>): os acertos devem ser iguais, o que prova que o script e a temperatura zero estão estáveis. Depois rode base × ajustado sobre o <code>avaliacao.jsonl</code> gerado no tópico 3, que o treino não viu. O critério por termos esperados é simples de propósito; para respostas abertas, troque <code>acerto()</code> por revisão humana ou por um modelo avaliador com rubrica.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t6-p3" data-sum="porque">Investir em modelo próprio sem fosso de dados é comprar um ativo que deprecia a cada lançamento. Investir no ciclo de dados e no eval próprio cria um ativo que se valoriza e que serve para qualquer modelo base futuro — inclusive para trocar de fornecedor sem perder qualidade.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t6-p3" data-sum="porque">Investir em modelo próprio sem fosso de dados é comprar um ativo que deprecia a cada lançamento. Investir no ciclo de dados e no eval próprio cria um ativo que se valoriza e que serve para qualquer modelo base futuro — inclusive para trocar de fornecedor sem perder qualidade.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Fosso</div><div class="text-xs text-neutral-400">vantagem difícil de copiar</div></div>
@@ -1011,27 +1011,27 @@ for m, p in placar.items():
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Base legal</div><div class="text-xs text-neutral-400">LGPD antes do treino</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-3-2#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-2#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="treinar é o começo da conta">💰 O custo real de manter um modelo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t7-p1">A conta que aparece na proposta costuma ser a do treino. A conta que chega depois é a do <strong class="text-purple-400">custo total de propriedade</strong> (TCO, <em>total cost of ownership</em>): servir o modelo 24 horas, monitorar qualidade, re-treinar quando os dados mudam, migrar para uma base nova, responder a incidentes e manter as pessoas que sabem fazer tudo isso. Um modelo próprio é um produto vivo, não uma entrega.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t7-p2">O custo mais esquecido é o de <strong class="text-neutral-100">oportunidade</strong>: enquanto a equipe mantém o modelo ajustado da geração anterior, os modelos gerais do mercado continuam melhorando. Não raro, a próxima geração genérica com um bom prompt alcança o modelo customizado. Por isso o plano precisa prever, desde o início, como reavaliar a decisão a cada nova base relevante.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t7-p1">A conta que aparece na proposta costuma ser a do treino. A conta que chega depois é a do <strong class="text-purple-400">custo total de propriedade</strong> (TCO, <em>total cost of ownership</em>): servir o modelo 24 horas, monitorar qualidade, re-treinar quando os dados mudam, migrar para uma base nova, responder a incidentes e manter as pessoas que sabem fazer tudo isso. Um modelo próprio é um produto vivo, não uma entrega.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t7-p2">O custo mais esquecido é o de <strong class="text-neutral-100">oportunidade</strong>: enquanto a equipe mantém o modelo ajustado da geração anterior, os modelos gerais do mercado continuam melhorando. Não raro, a próxima geração genérica com um bom prompt alcança o modelo customizado. Por isso o plano precisa prever, desde o início, como reavaliar a decisão a cada nova base relevante.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">É a soma de tudo que um modelo próprio exige ao longo da vida útil — infraestrutura, dados, avaliação, re-treino, segurança, conformidade e equipe — comparada ao custo de usar e adaptar um modelo de terceiros.</p>
@@ -1079,10 +1079,10 @@ Depois:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-2-t7-p3">Escreva na proposta uma "data de reavaliação": quando sair uma base nova relevante, o eval próprio roda nela com prompt + RAG antes de qualquer re-treino. Se a base genérica empatar, aposente o modelo customizado sem drama — o fosso continua sendo seus dados e seu eval.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-2-t7-p3">Escreva na proposta uma "data de reavaliação": quando sair uma base nova relevante, o eval próprio roda nela com prompt + RAG antes de qualquer re-treino. Se a base genérica empatar, aposente o modelo customizado sem drama — o fosso continua sendo seus dados e seu eval.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-2-t7-p4" data-sum="porque">Decisões de modelo próprio são das mais caras de reverter em IA. Quem leva ao comitê o TCO completo, um checklist respondido e um critério de reavaliação aprova menos projetos — e os que aprova dão retorno.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-2-t7-p4" data-sum="porque">Decisões de modelo próprio são das mais caras de reverter em IA. Quem leva ao comitê o TCO completo, um checklist respondido e um critério de reavaliação aprova menos projetos — e os que aprova dão retorno.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">TCO</div><div class="text-xs text-neutral-400">custo da vida inteira</div></div>
@@ -1091,11 +1091,11 @@ Depois:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Reavaliação</div><div class="text-xs text-neutral-400">a cada base nova</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como lido</span>
-<span class="inema-label-done">Lido</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como lido</span>
+<span class="ARCKHÉ-label-done">Lido</span>
 </button>
 </div>
 </div>
@@ -1127,7 +1127,7 @@ Depois:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formação da Transformação Digital · conteúdo aberto e gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formação da Transformação Digital · conteúdo aberto e gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1159,15 +1159,15 @@ Depois:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

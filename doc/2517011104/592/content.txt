@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-14T10:03:35+00:00
 Texto:
 https://t.me/+jojdyZEGUzk5ZWFh
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:18+00:00
 Texto:
 1-5-4 - Audio, Musica, LipSync
@@ -27,7 +27,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:16+00:00
 Texto:
 .
@@ -35,7 +35,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:16+00:00
 Texto:
 ...
@@ -43,7 +43,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:15+00:00
 Texto:
 ..
@@ -51,7 +51,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:15+00:00
 Texto:
 .
@@ -59,7 +59,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:15+00:00
 Texto:
 ..
@@ -67,7 +67,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:15+00:00
 Texto:
 .
@@ -75,7 +75,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:14+00:00
 Texto:
 .
@@ -83,7 +83,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:33:14+00:00
 Texto:
 1
@@ -91,7 +91,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T06:32:51+00:00
 Texto: [Sem texto]
 

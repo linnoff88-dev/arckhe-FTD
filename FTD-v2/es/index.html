@@ -4,21 +4,21 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
-<title>FTD — Formación en Transformación Digital | FTD v2 · INEMA.CLUB</title>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
+<title>FTD — Formación en Transformación Digital | FTD v2 · ARCKHÉ AI</title>
 <meta content="Curso abierto y gratuito en tres niveles — Principiante, Técnico y Masterclass — para entender, usar y construir con inteligencia artificial." name="description"/>
-<meta content="FTD — Formación en Transformación Digital | FTD v2 · INEMA.CLUB" property="og:title"/>
+<meta content="FTD — Formación en Transformación Digital | FTD v2 · ARCKHÉ AI" property="og:title"/>
 <meta content="Curso abierto y gratuito en tres niveles — Principiante, Técnico y Masterclass — para entender, usar y construir con inteligencia artificial." property="og:description"/>
 <!-- ANTI-FOUC (Erro #18) — primeiro script do head -->
 <script>
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href=".././assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../en/" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="./" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../en/" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="./" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -514,13 +514,13 @@
 <!-- Controles da camada de aprendizagem (landing) -->
 <div class="flex flex-col sm:flex-row flex-wrap items-start sm:items-center gap-4">
 <a class="inline-flex items-center justify-start px-6 py-3 bg-primary text-neutral-900 hover:bg-yellow-300 rounded-lg font-semibold transition-colors" href="curso/trilha1/index.html" style="color:#1a1206">Empezar por la Ruta 1 →</a>
-<button class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-dark-800 border border-dark-600 text-neutral-200 hover:bg-dark-700 transition-colors font-semibold" data-inema-journey-open="" type="button"><svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg> Mi recorrido</button>
+<button class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-dark-800 border border-dark-600 text-neutral-200 hover:bg-dark-700 transition-colors font-semibold" data-ARCKHÉ-journey-open="" type="button"><svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg> Mi recorrido</button>
 <a class="hidden inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-primary/10 border border-primary/30 text-primary transition-colors font-semibold" href="#" id="resume-cta"><span aria-hidden="true">▸</span> Continuar donde me quedé</a>
 <div class="flex items-center gap-3">
-<div aria-label="Progreso del curso" class="inema-ring" data-inema-meter="curso"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
+<div aria-label="Progreso del curso" class="ARCKHÉ-ring" data-ARCKHÉ-meter="curso"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
 <div class="text-sm">
 <div class="font-semibold text-neutral-200">Tu progreso</div>
-<div class="inema-meter-label" data-inema-meter="curso"><span data-inema-meter-frac="">0 de 0</span> temas</div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="curso"><span data-ARCKHÉ-meter-frac="">0 de 0</span> temas</div>
 </div>
 </div>
 </div>
@@ -535,7 +535,7 @@
 <a class="group block bg-dark-800 rounded-xl border border-dark-600 hover:border-emerald-500/30 p-6 transition-all" href="curso/trilha1/index.html">
 <div class="flex items-start justify-between gap-4 mb-3">
 <div class="text-xs font-semibold text-emerald-400">RUTA 1 · PRINCIPIANTE</div>
-<div aria-label="Progreso de la Ruta 1" class="inema-ring flex-shrink-0" data-inema-meter="trilha:1" style="--ring-size:2.6rem"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
+<div aria-label="Progreso de la Ruta 1" class="ARCKHÉ-ring flex-shrink-0" data-ARCKHÉ-meter="trilha:1" style="--ring-size:2.6rem"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
 </div>
 <h3 class="text-xl font-bold mb-2 group-hover:text-emerald-400 transition-colors">🌱 IA en el día a día</h3>
 <p class="text-sm text-neutral-400 mb-4">Qué es realmente la IA, cómo hacer buenos pedidos, asistentes y agentes, creación visual, marketing, automatización y cómo convertir el uso en ingresos.</p>
@@ -544,7 +544,7 @@
 <a class="group block bg-dark-800 rounded-xl border border-dark-600 hover:border-blue-500/30 p-6 transition-all" href="curso/trilha2/index.html">
 <div class="flex items-start justify-between gap-4 mb-3">
 <div class="text-xs font-semibold text-blue-400">RUTA 2 · TÉCNICO</div>
-<div aria-label="Progreso de la Ruta 2" class="inema-ring flex-shrink-0" data-inema-meter="trilha:2" style="--ring-size:2.6rem"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
+<div aria-label="Progreso de la Ruta 2" class="ARCKHÉ-ring flex-shrink-0" data-ARCKHÉ-meter="trilha:2" style="--ring-size:2.6rem"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
 </div>
 <h3 class="text-xl font-bold mb-2 group-hover:text-blue-400 transition-colors">⚡ Construir con IA</h3>
 <p class="text-sm text-neutral-400 mb-4">APIs, arquitectura, RAG, fine-tuning, agentes con herramientas, visión artificial, procesamiento de texto, producción y gobernanza.</p>
@@ -553,7 +553,7 @@
 <a class="group block bg-dark-800 rounded-xl border border-dark-600 hover:border-purple-500/30 p-6 transition-all" href="curso/trilha3/index.html">
 <div class="flex items-start justify-between gap-4 mb-3">
 <div class="text-xs font-semibold text-purple-400">RUTA 3 · MASTERCLASS</div>
-<div aria-label="Progreso de la Ruta 3" class="inema-ring flex-shrink-0" data-inema-meter="trilha:3" style="--ring-size:2.6rem"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
+<div aria-label="Progreso de la Ruta 3" class="ARCKHÉ-ring flex-shrink-0" data-ARCKHÉ-meter="trilha:3" style="--ring-size:2.6rem"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
 </div>
 <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">👑 IA a gran escala y estrategia</h3>
 <p class="text-sm text-neutral-400 mb-4">Arquitectura a gran escala, modelos propios, multimodalidad, investigación, aprendizaje por refuerzo, seguridad, operaciones enterprise, liderazgo y futuro.</p>
@@ -583,13 +583,13 @@
 <section class="bg-dark-800 rounded-xl border border-dark-600 p-6 sm:p-8">
 <h2 class="text-xl font-bold mb-3">Acerca de esta versión</h2>
 <p class="text-sm text-neutral-300 mb-2">Esta es la versión 2 de FTD, reescrita en octubre de 2026 con contenido actualizado, una capa de aprendizaje y versiones en portugués, inglés y español. La primera versión sigue disponible en <a class="text-sky-400 hover:text-sky-300" href="../../FTD-Base/index.html">FTD Base</a>.</p>
-<p class="text-sm text-neutral-400">Contenido abierto y gratuito de INEMA.CLUB. La IA cambia rápido: los nombres de las herramientas y los precios mencionados pueden cambiar; los métodos siguen siendo válidos.</p>
+<p class="text-sm text-neutral-400">Contenido abierto y gratuito de ARCKHÉ AI. La IA cambia rápido: los nombres de las herramientas y los precios mencionados pueden cambiar; los métodos siguen siendo válidos.</p>
 </section>
 </div>
 <script>
     (function () {
       try {
-        var meta = JSON.parse(localStorage.getItem('inema.ftd-v2-es.meta') || 'null');
+        var meta = JSON.parse(localStorage.getItem('ARCKHÉ.ftd-v2-es.meta') || 'null');
         if (meta && meta.lastModuleHref) {
           var cta = document.getElementById('resume-cta');
           if (cta) { cta.setAttribute('href', meta.lastModuleHref); cta.classList.remove('hidden'); }
@@ -600,8 +600,8 @@
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
-<p class="mt-3"><a class="text-sky-400 hover:text-sky-300" href="https://www.inema.club/aprender-inteligencia-artificial/">Guía: cómo aprender inteligencia artificial</a> · <a class="text-sky-400 hover:text-sky-300" href="https://www.inema.club/cursos/">Todos los cursos</a> · <a class="text-sky-400 hover:text-sky-300" href="https://www.inema.club/cursos/16-ftd-formacao-transformacao-digital/">Ficha del curso en INEMA.CLUB</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
+<p class="mt-3"><a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/aprender-inteligencia-artificial/">Guía: cómo aprender inteligencia artificial</a> · <a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/cursos/">Todos los cursos</a> · <a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/cursos/16-ftd-formacao-transformacao-digital/">Ficha del curso en ARCKHÉ AI</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -633,15 +633,15 @@
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src=".././assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init(); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init(); }
   </script>
 </body>
 </html>

@@ -10,7 +10,7 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T07:57:28+00:00
 Texto:
 Modulo 2- Automação
@@ -18,7 +18,7 @@ Modulo 2- Automação
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:13+00:00
 Texto:
 .
@@ -26,7 +26,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:13+00:00
 Texto:
 .
@@ -34,7 +34,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:12+00:00
 Texto:
 .
@@ -42,7 +42,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:12+00:00
 Texto:
 .
@@ -50,7 +50,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:12+00:00
 Texto:
 .
@@ -58,7 +58,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:12+00:00
 Texto:
 .
@@ -66,7 +66,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:11+00:00
 Texto:
 .
@@ -74,7 +74,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:10+00:00
 Texto:
 ,
@@ -82,7 +82,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:10+00:00
 Texto:
 1
@@ -90,7 +90,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:50:55+00:00
 Texto: [Sem texto]
 

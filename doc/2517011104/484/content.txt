@@ -10,7 +10,7 @@ Midias baixadas: 2
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T05:08:53+00:00
 Texto:
 https://gamma.app/docs/lyoitvdktt9qcds
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:55:31+00:00
 Texto:
 ### MÓDULO 1: ENTENDENDO O SEU VALOR E O DO OUTRO  
@@ -74,7 +74,7 @@ Use a fórmula:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:31+00:00
 Texto:
 ...
@@ -82,7 +82,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:31+00:00
 Texto:
 .
@@ -90,7 +90,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:31+00:00
 Texto:
 ..
@@ -98,7 +98,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:31+00:00
 Texto:
 .
@@ -106,7 +106,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:30+00:00
 Texto:
 .
@@ -114,7 +114,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:15+00:00
 Texto:
 ### MÓDULO 1: ENTENDENDO O SEU VALOR E O DO OUTRO (40 minutos)  
@@ -135,7 +135,7 @@ Montar seu pitch empático usando a fórmula:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:10+00:00
 Texto:
 .
@@ -143,7 +143,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:09+00:00
 Texto:
 .
@@ -151,7 +151,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:09+00:00
 Texto:
 .
@@ -159,7 +159,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:09+00:00
 Texto:
 ..
@@ -167,7 +167,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:08+00:00
 Texto:
 .
@@ -175,7 +175,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:08+00:00
 Texto:
 ..
@@ -183,7 +183,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:08+00:00
 Texto:
 .
@@ -191,7 +191,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:08+00:00
 Texto:
 https://chatgpt.com/c/67f5ef13-afe4-8009-845e-321922df3f1a
@@ -200,7 +200,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:07+00:00
 Texto:
 1
@@ -208,7 +208,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:54:00+00:00
 Texto: [Sem texto]
 

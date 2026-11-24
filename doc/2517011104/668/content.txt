@@ -10,7 +10,7 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:47:13+00:00
 Texto:
 #### 10. Estilização e Efeitos Artísticos
@@ -57,7 +57,7 @@ Esse guia cobre tudo que você precisa para uma aula prática, criativa e atual 
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:10+00:00
 Texto:
 ### Guia Completo: 12 Tópicos Fundamentais de Imagens com IA com Hacks e Exemplos
@@ -69,13 +69,13 @@ Texto:
 **Hacks:**
 - Escolha o modelo certo (realista, 3D, arte digital, pintura).
 - Use descrições visuais ricas: luz, cor, emoção, cenário.
-- Aplique comandos específicos: "portrait", "cinematic lighting", "hyper detailed".
+- Aplique comandos específicos: "portrait", "cARCKHÉtic lighting", "hyper detailed".
 - Escreva de forma direta: sujeito + contexto + estilo.
 - Explore estilos como "Pixar style", "oil painting", "steampunk".
 
 **Exemplos:**
 - "Portrait of a woman smiling in a sunflower field, golden hour, hyper realistic"
-- "Fantasy village on a mountain, birds flying, misty morning, cinematic style"
+- "Fantasy village on a mountain, birds flying, misty morning, cARCKHÉtic style"
 
 ---
 
@@ -189,7 +189,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:06+00:00
 Texto:
 **1. Hacks para Ferramentas de Imagem (Leonardo AI, Ideogram)**
@@ -209,7 +209,7 @@ Exportar imagens em alta qualidade e remover fundo automaticamente
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:05+00:00
 Texto:
 1-5-1 -  Hacks de Imagens
@@ -217,7 +217,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:05+00:00
 Texto:
 .
@@ -225,7 +225,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:04+00:00
 Texto:
 ..
@@ -233,7 +233,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:04+00:00
 Texto:
 .
@@ -241,7 +241,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:04+00:00
 Texto:
 ..
@@ -249,7 +249,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:04+00:00
 Texto:
 .
@@ -257,7 +257,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:03+00:00
 Texto:
 .
@@ -265,7 +265,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:46:03+00:00
 Texto:
 1
@@ -273,7 +273,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T01:45:57+00:00
 Texto: [Sem texto]
 

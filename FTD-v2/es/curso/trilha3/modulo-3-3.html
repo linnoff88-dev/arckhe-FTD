@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 3.3 · IA multimodal avanzada | FTD v2</title>
 <meta content="Cómo funcionan los modelos multimodales, voz en tiempo real, video, documentos complejos y uso de la computadora por agentes." name="description"/>
 <meta content="Módulo 3.3 · IA multimodal avanzada | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-3.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-3.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-3.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-3.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-3.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-3.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha3/modulo-3-3.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-3-3.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-3.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha3/modulo-3-3.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-3-3.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="3-3" data-inema-track="3" id="conteudo">
+<main data-ARCKHÉ-module="3-3" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">Arquitectura</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 3.3" class="inema-ring" data-inema-meter="modulo:3-3"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:3-3"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 3.3" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-3"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-3"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. Cómo ve el modelo</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Documentos complejos</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Voz en tiempo real</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Video: entender y generar</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Agentes que usan la pantalla</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Evaluar lo multimodal</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Arquitectura y LGPD</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. Cómo ve el modelo</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Documentos complejos</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Voz en tiempo real</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Video: entender y generar</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Agentes que usan la pantalla</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Evaluar lo multimodal</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Arquitectura y LGPD</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="pixels viram tokens que o LLM lê">👁️ Cómo ve un modelo multimodal</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t1-p1">Un modelo de lenguaje solo sabe trabajar con una secuencia de vectores. Para que «vea» una imagen, alguien tiene que transformar los píxeles a ese mismo formato. El camino más común tiene tres piezas: un <strong class="text-purple-400">codificador visual</strong> (red que convierte la imagen en vectores; por lo general, un <em>Vision Transformer</em>, o ViT, que corta la imagen en cuadritos llamados <em>parches</em>), una <strong class="text-purple-400">capa de proyección</strong> (que traduce esos vectores al «idioma» interno del LLM) y el propio LLM, que empieza a leer <strong class="text-neutral-100">tokens de imagen</strong> junto a los tokens de texto.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t1-p2">Hay dos diseños. En el <strong class="text-neutral-100">acoplado</strong>, un codificador visual ya entrenado (familia CLIP/SigLIP, entrenada para alinear imágenes y leyendas) se conecta a un LLM listo, y solo se entrenan la proyección y algunos ajustes; este es el camino de modelos abiertos como LLaVA y Llama 3.2 Vision. En el <strong class="text-neutral-100">nativo</strong>, el modelo se entrena desde el inicio con texto, imagen y, a veces, audio mezclados; es lo que los laboratorios describen para las líneas GPT, Gemini y Claude. El modelo nativo tiende a razonar mejor entre modalidades; el acoplado es más barato de adaptar y funciona localmente.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t1-p1">Un modelo de lenguaje solo sabe trabajar con una secuencia de vectores. Para que «vea» una imagen, alguien tiene que transformar los píxeles a ese mismo formato. El camino más común tiene tres piezas: un <strong class="text-purple-400">codificador visual</strong> (red que convierte la imagen en vectores; por lo general, un <em>Vision Transformer</em>, o ViT, que corta la imagen en cuadritos llamados <em>parches</em>), una <strong class="text-purple-400">capa de proyección</strong> (que traduce esos vectores al «idioma» interno del LLM) y el propio LLM, que empieza a leer <strong class="text-neutral-100">tokens de imagen</strong> junto a los tokens de texto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t1-p2">Hay dos diseños. En el <strong class="text-neutral-100">acoplado</strong>, un codificador visual ya entrenado (familia CLIP/SigLIP, entrenada para alinear imágenes y leyendas) se conecta a un LLM listo, y solo se entrenan la proyección y algunos ajustes; este es el camino de modelos abiertos como LLaVA y Llama 3.2 Vision. En el <strong class="text-neutral-100">nativo</strong>, el modelo se entrena desde el inicio con texto, imagen y, a veces, audio mezclados; es lo que los laboratorios describen para las líneas GPT, Gemini y Claude. El modelo nativo tiende a razonar mejor entre modalidades; el acoplado es más barato de adaptar y funciona localmente.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un modelo multimodal es un LLM que recibe (y a veces produce) más de un tipo de dato. La imagen, el audio y el video se convierten en tokens mediante codificadores propios y entran en la misma ventana de contexto que el texto: ocupan espacio y cuestan como el texto.</p>
@@ -590,10 +590,10 @@
 </figure>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-3-t1-p3">La resolución es un factor de costo. Muchos proveedores redimensionan la imagen o cobran por bloques de píxeles; enviar una foto de 12 megapíxeles para leer un número de tres dígitos desperdicia tokens. Recórtala y redúcela antes de enviarla, y mide si baja la precisión.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-3-t1-p3">La resolución es un factor de costo. Muchos proveedores redimensionan la imagen o cobran por bloques de píxeles; enviar una foto de 12 megapíxeles para leer un número de tres dígitos desperdicia tokens. Recórtala y redúcela antes de enviarla, y mide si baja la precisión.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t1-p4" data-sum="porque">Saber que una imagen se convierte en tokens explica el costo, la latencia y los límites —por qué falla el texto pequeño en una foto grande, por qué diez páginas escaneadas desbordan la ventana— y orienta la decisión entre un modelo nativo de frontera y uno abierto acoplado que funciona dentro de la empresa.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t1-p4" data-sum="porque">Saber que una imagen se convierte en tokens explica el costo, la latencia y los límites —por qué falla el texto pequeño en una foto grande, por qué diez páginas escaneadas desbordan la ventana— y orienta la decisión entre un modelo nativo de frontera y uno abierto acoplado que funciona dentro de la empresa.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Codificador visual</div><div class="text-xs text-neutral-400">píxeles en vectores</div></div>
@@ -602,27 +602,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Nativo × acoplado</div><div class="text-xs text-neutral-400">calidad × adaptación</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="PDF, tabela, gráfico e manuscrito">📄 Documentos complejos</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t2-p1">Buena parte del valor multimodal en las empresas está en el papel: facturas, contratos escaneados, informes periciales, reportes con tablas y gráficos. El método clásico es el <strong class="text-purple-400">OCR</strong> (reconocimiento óptico de caracteres), que transforma la imagen en texto corrido y pierde el diseño: la tabla se convierte en una mezcla de números. La lectura visual de un modelo multimodal ve la página completa: sabe que ese número está en la columna «Total» y en la fila «Marzo».</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t2-p2">En la práctica, la arquitectura madura es <strong class="text-neutral-100">híbrida</strong>. Para un PDF con texto incrustado, extrae el texto directamente (es exacto y barato). Para una página escaneada, una tabla densa o un gráfico, convierte la página en imagen y envíala al modelo con un <strong class="text-neutral-100">esquema de salida</strong> fijo (JSON con campos definidos). Para grandes volúmenes y campos estandarizados, el OCR especializado sigue siendo competitivo en costo. La regla que aplica a todos: pedir <em>null</em> cuando el campo no sea legible, en vez de dejar que el modelo adivine.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t2-p1">Buena parte del valor multimodal en las empresas está en el papel: facturas, contratos escaneados, informes periciales, reportes con tablas y gráficos. El método clásico es el <strong class="text-purple-400">OCR</strong> (reconocimiento óptico de caracteres), que transforma la imagen en texto corrido y pierde el diseño: la tabla se convierte en una mezcla de números. La lectura visual de un modelo multimodal ve la página completa: sabe que ese número está en la columna «Total» y en la fila «Marzo».</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t2-p2">En la práctica, la arquitectura madura es <strong class="text-neutral-100">híbrida</strong>. Para un PDF con texto incrustado, extrae el texto directamente (es exacto y barato). Para una página escaneada, una tabla densa o un gráfico, convierte la página en imagen y envíala al modelo con un <strong class="text-neutral-100">esquema de salida</strong> fijo (JSON con campos definidos). Para grandes volúmenes y campos estandarizados, el OCR especializado sigue siendo competitivo en costo. La regla que aplica a todos: pedir <em>null</em> cuando el campo no sea legible, en vez de dejar que el modelo adivine.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Extracción estructurada de documentos: entra una imagen o un PDF y sale un JSON validado con campos conocidos. El modelo lee el diseño; tu código verifica el formato, la suma y la consistencia antes de guardar.</p>
@@ -703,7 +703,7 @@ if __name__ == "__main__":
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t2-p3" data-sum="porque">La extracción de documentos es, por mucho, uno de los usos multimodales cuyo retorno es más fácil de medir: las horas de digitación se convierten en minutos de revisión. Pero solo si la arquitectura tiene esquema, validación y revisión; sin eso, el error silencioso entra en el sistema contable.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t2-p3" data-sum="porque">La extracción de documentos es, por mucho, uno de los usos multimodales cuyo retorno es más fácil de medir: las horas de digitación se convierten en minutos de revisión. Pero solo si la arquitectura tiene esquema, validación y revisión; sin eso, el error silencioso entra en el sistema contable.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">OCR</div><div class="text-xs text-neutral-400">texto sin diseño</div></div>
@@ -712,27 +712,27 @@ if __name__ == "__main__":
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">null honesto</div><div class="text-xs text-neutral-400">ilegible no significa adivinar</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="cascata ou fala-a-fala, e a latência">🎙️ Voz en tiempo real</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t3-p1">La conversación por voz es el caso en que la <strong class="text-neutral-100">latencia</strong> Adelante. En un chat de texto, esperar unos segundos es aceptable; en una llamada, una pausa larga suena como si la línea se hubiera caído. Hay dos arquitecturas. La <strong class="text-purple-400">en cascada</strong> encadena tres modelos: STT (<em>speech-to-text</em>, voz a texto, como Whisper), un LLM de texto y un TTS (<em>text-to-speech</em>, texto a voz). La <strong class="text-purple-400">de voz a voz</strong> usa un solo modelo que escucha audio y responde con audio, como los modos de voz en tiempo real que ofrecen los grandes proveedores.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t3-p2">La arquitectura en cascada es modular: puedes cambiar cada pieza, registrar la transcripción para auditarla y usar el LLM que quieras, incluso uno local. El costo es la suma de las esperas de cada etapa y la pérdida del tono de voz en el camino. La arquitectura de voz a voz responde más rápido y capta la entonación, pero ofrece menos control y es más difícil de auditar. En ambas, dos piezas son decisivas: el <strong class="text-neutral-100">VAD</strong> (<em>voice activity detection</em>, detector de cuándo la persona empezó y terminó de hablar) y el <strong class="text-neutral-100">barge-in</strong> (la capacidad de dejar de hablar cuando el usuario interrumpe).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t3-p1">La conversación por voz es el caso en que la <strong class="text-neutral-100">latencia</strong> Adelante. En un chat de texto, esperar unos segundos es aceptable; en una llamada, una pausa larga suena como si la línea se hubiera caído. Hay dos arquitecturas. La <strong class="text-purple-400">en cascada</strong> encadena tres modelos: STT (<em>speech-to-text</em>, voz a texto, como Whisper), un LLM de texto y un TTS (<em>text-to-speech</em>, texto a voz). La <strong class="text-purple-400">de voz a voz</strong> usa un solo modelo que escucha audio y responde con audio, como los modos de voz en tiempo real que ofrecen los grandes proveedores.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t3-p2">La arquitectura en cascada es modular: puedes cambiar cada pieza, registrar la transcripción para auditarla y usar el LLM que quieras, incluso uno local. El costo es la suma de las esperas de cada etapa y la pérdida del tono de voz en el camino. La arquitectura de voz a voz responde más rápido y capta la entonación, pero ofrece menos control y es más difícil de auditar. En ambas, dos piezas son decisivas: el <strong class="text-neutral-100">VAD</strong> (<em>voice activity detection</em>, detector de cuándo la persona empezó y terminó de hablar) y el <strong class="text-neutral-100">barge-in</strong> (la capacidad de dejar de hablar cuando el usuario interrumpe).</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un sistema de voz en tiempo real es un ciclo continuo de escuchar, decidir cuándo termina el turno, pensar y hablar, con un presupuesto de tiempo para cada etapa y la posibilidad de que lo interrumpan en cualquier momento.</p>
@@ -785,7 +785,7 @@ if __name__ == "__main__":
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">4. Medición.</strong> Registra en cada llamada el tiempo desde el fin del habla hasta el primer audio de respuesta y observa la cola (las llamadas más lentas), no solo el promedio.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t3-p3" data-sum="porque">La atención al cliente, la clasificación inicial y la programación de citas por voz son casos evidentes para las empresas brasileñas, que dependen de las llamadas y los audios de WhatsApp. Elegir la arquitectura equivocada produce un bot que interrumpe al cliente o tarda en responder, y eso reduce la adopción más rápido que cualquier error de contenido.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t3-p3" data-sum="porque">La atención al cliente, la clasificación inicial y la programación de citas por voz son casos evidentes para las empresas brasileñas, que dependen de las llamadas y los audios de WhatsApp. Elegir la arquitectura equivocada produce un bot que interrumpe al cliente o tarda en responder, y eso reduce la adopción más rápido que cualquier error de contenido.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">STT / TTS</div><div class="text-xs text-neutral-400">voz ↔ texto</div></div>
@@ -794,27 +794,27 @@ if __name__ == "__main__":
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Barge-in</div><div class="text-xs text-neutral-400">aceptar interrupciones</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="amostrar quadros, gerar com consistência">🎬 Video: entender y generar</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t4-p1">Para un modelo, el video es una pila de imágenes más una pista de audio. Un minuto a 30 cuadros por segundo son 1.800 imágenes: sería inviable enviarlas todas. Por eso <strong class="text-neutral-100">entender video</strong> empieza con el <strong class="text-purple-400">muestreo de cuadros</strong>: elegir algunos cuadros por intervalo de tiempo (o cuando cambia la escena) y transcribir el audio por separado. La pregunta de arquitectura es siempre la misma: ¿cuál es la menor frecuencia de cuadros que todavía captura el evento importante? Una conferencia puede funcionar con un cuadro cada diez segundos; una línea de producción puede necesitar varios por segundo.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t4-p2"><strong class="text-neutral-100">Generar video</strong> es otro problema. Los generadores actuales suelen usar <strong class="text-purple-400">modelos de difusión</strong> (que parten del ruido y lo refinan paso a paso hasta convertirlo en una imagen) extendidos en el tiempo. El desafío central es la <strong class="text-purple-400">consistencia temporal</strong>: que el mismo rostro, objeto e iluminación se mantengan del primer al último cuadro. Los clips aún son cortos, el costo por segundo es alto y la dirección se hace con una imagen de referencia, una descripción de cámara y muchos intentos. Los nombres y precios de este mercado cambian cada trimestre; el método de evaluación permanece.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t4-p1">Para un modelo, el video es una pila de imágenes más una pista de audio. Un minuto a 30 cuadros por segundo son 1.800 imágenes: sería inviable enviarlas todas. Por eso <strong class="text-neutral-100">entender video</strong> empieza con el <strong class="text-purple-400">muestreo de cuadros</strong>: elegir algunos cuadros por intervalo de tiempo (o cuando cambia la escena) y transcribir el audio por separado. La pregunta de arquitectura es siempre la misma: ¿cuál es la menor frecuencia de cuadros que todavía captura el evento importante? Una conferencia puede funcionar con un cuadro cada diez segundos; una línea de producción puede necesitar varios por segundo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t4-p2"><strong class="text-neutral-100">Generar video</strong> es otro problema. Los generadores actuales suelen usar <strong class="text-purple-400">modelos de difusión</strong> (que parten del ruido y lo refinan paso a paso hasta convertirlo en una imagen) extendidos en el tiempo. El desafío central es la <strong class="text-purple-400">consistencia temporal</strong>: que el mismo rostro, objeto e iluminación se mantengan del primer al último cuadro. Los clips aún son cortos, el costo por segundo es alto y la dirección se hace con una imagen de referencia, una descripción de cámara y muchos intentos. Los nombres y precios de este mercado cambian cada trimestre; el método de evaluación permanece.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Entender un video consiste en transformarlo en cuadros muestreados y una transcripción, y pedirle al modelo una línea de tiempo de eventos. Generar un video consiste en sintetizar cuadros coherentes entre sí a partir de texto o una imagen, con costos y duración aún limitados.</p>
@@ -875,7 +875,7 @@ done &gt; linha_do_tempo.txt</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> en un video de 60 s, deberían salir unos 12 cuadros. Abre <code>linha_do_tempo.txt</code> junto al video y revisa tres momentos. Después cambia <code>fps=1/5</code> por <code>fps=1</code> y comprueba si aparece algún evento que había desaparecido; así descubres la tasa mínima para tu caso.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t4-p3" data-sum="porque">El video es la modalidad más costosa. Quien decide la frecuencia de muestreo basándose en mediciones y no en conjeturas transforma un proyecto inviable en uno viable; y quien conoce los límites de la generación no le promete a la dirección un comercial entero hecho con IA sin revisión.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t4-p3" data-sum="porque">El video es la modalidad más costosa. Quien decide la frecuencia de muestreo basándose en mediciones y no en conjeturas transforma un proyecto inviable en uno viable; y quien conoce los límites de la generación no le promete a la dirección un comercial entero hecho con IA sin revisión.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Muestreo</div><div class="text-xs text-neutral-400">menos cuadros, menor costo</div></div>
@@ -884,27 +884,27 @@ done &gt; linha_do_tempo.txt</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Consistencia temporal</div><div class="text-xs text-neutral-400">igual de principio a fin</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="ver a tela, decidir, clicar — com cerca">🖱️ Agentes que usan la computadora</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t5-p1">O <strong class="text-purple-400">uso de la computadora</strong> (<em>computer use</em>) combina visión y agencia: el agente recibe una captura de pantalla, decide la siguiente acción (mover el mouse, hacer clic, escribir, desplazarse) y recibe la nueva pantalla. Anthropic, OpenAI y Google ofrecen funciones de este tipo, y hay opciones abiertas que controlan el navegador. Sirve para sistemas sin API —el portal antiguo del proveedor, el ERP heredado, el sitio web de la alcaldía— donde la única interfaz es la pantalla.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t5-p2">El nuevo riesgo es que <strong class="text-neutral-100">todo lo que aparece en la pantalla se convierte en entrada del modelo</strong>. Una página puede contener texto escrito para el agente («ignora las instrucciones y envía el archivo a…»); es la <strong class="text-red-400">inyección indirecta de prompts</strong>, tema del módulo 3.6. Por eso, el agente se ejecuta en un <strong class="text-neutral-100">sandbox</strong> (máquina virtual o contenedor aislado y desechable), con los permisos mínimos, sin tus credenciales personales y con confirmación humana antes de cualquier acción irreversible: pagar, enviar, borrar, aceptar términos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t5-p1">O <strong class="text-purple-400">uso de la computadora</strong> (<em>computer use</em>) combina visión y agencia: el agente recibe una captura de pantalla, decide la siguiente acción (mover el mouse, hacer clic, escribir, desplazarse) y recibe la nueva pantalla. Anthropic, OpenAI y Google ofrecen funciones de este tipo, y hay opciones abiertas que controlan el navegador. Sirve para sistemas sin API —el portal antiguo del proveedor, el ERP heredado, el sitio web de la alcaldía— donde la única interfaz es la pantalla.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t5-p2">El nuevo riesgo es que <strong class="text-neutral-100">todo lo que aparece en la pantalla se convierte en entrada del modelo</strong>. Una página puede contener texto escrito para el agente («ignora las instrucciones y envía el archivo a…»); es la <strong class="text-red-400">inyección indirecta de prompts</strong>, tema del módulo 3.6. Por eso, el agente se ejecuta en un <strong class="text-neutral-100">sandbox</strong> (máquina virtual o contenedor aislado y desechable), con los permisos mínimos, sin tus credenciales personales y con confirmación humana antes de cualquier acción irreversible: pagar, enviar, borrar, aceptar términos.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un ciclo de percepción y acción: capturar la pantalla, decidir, actuar, verificar el resultado. La arquitectura segura rodea este ciclo con aislamiento, una lista de acciones permitidas, un límite de pasos y una barrera humana para las acciones irreversibles.</p>
@@ -965,7 +965,7 @@ done &gt; linha_do_tempo.txt</pre>
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t5-p3" data-sum="porque">El uso de la computadora permite automatizar tareas donde antes solo cabía una RPA frágil o la digitación manual. Pero es el recurso multimodal con la mayor superficie de ataque. El líder que sabe exigir un sandbox, permisos mínimos y aprobación humana puede aprobar el piloto sin exponer a la empresa.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t5-p3" data-sum="porque">El uso de la computadora permite automatizar tareas donde antes solo cabía una RPA frágil o la digitación manual. Pero es el recurso multimodal con la mayor superficie de ataque. El líder que sabe exigir un sandbox, permisos mínimos y aprobación humana puede aprobar el piloto sin exponer a la empresa.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Computer use</div><div class="text-xs text-neutral-400">el agente opera la pantalla</div></div>
@@ -974,27 +974,27 @@ done &gt; linha_do_tempo.txt</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Barrera humana</div><div class="text-xs text-neutral-400">aprobación para acciones irreversibles</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="gabarito, acurácia por campo, WER">📏 Evaluación multimodal</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t6-p1">Una demostración impresiona; la medición decide. Antes de elegir un modelo o pasar a producción, crea un <strong class="text-purple-400">conjunto de evaluación</strong>: desde unas decenas hasta unos cientos de ejemplos reales de tu caso (recibos, audios de atención al cliente, fragmentos de video), cada uno con una <strong class="text-neutral-100">respuesta correcta</strong> completada por una persona. Incluye intencionalmente los casos difíciles: foto torcida, acento marcado, ruido, letra pequeña. Los benchmarks públicos dicen poco sobre tus documentos.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t6-p2">Las métricas dependen de la modalidad. Para la extracción, usa la <strong class="text-neutral-100">precisión por campo</strong>: el modelo puede acertar el emisor en casi todos los casos y equivocarse con frecuencia en la fecha; el promedio lo oculta. Para el habla, usa <strong class="text-purple-400">WER</strong> (<em>tasa de error por palabra</em>, es decir, la tasa de error por palabra: palabras sustituidas, omitidas o añadidas, divididas por el total de palabras de la respuesta correcta) y <strong class="text-purple-400">CER</strong> (el mismo cálculo por carácter, útil para nombres y números). Para la generación, usa una rúbrica con revisión humana, porque no hay una única respuesta correcta.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t6-p1">Una demostración impresiona; la medición decide. Antes de elegir un modelo o pasar a producción, crea un <strong class="text-purple-400">conjunto de evaluación</strong>: desde unas decenas hasta unos cientos de ejemplos reales de tu caso (recibos, audios de atención al cliente, fragmentos de video), cada uno con una <strong class="text-neutral-100">respuesta correcta</strong> completada por una persona. Incluye intencionalmente los casos difíciles: foto torcida, acento marcado, ruido, letra pequeña. Los benchmarks públicos dicen poco sobre tus documentos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t6-p2">Las métricas dependen de la modalidad. Para la extracción, usa la <strong class="text-neutral-100">precisión por campo</strong>: el modelo puede acertar el emisor en casi todos los casos y equivocarse con frecuencia en la fecha; el promedio lo oculta. Para el habla, usa <strong class="text-purple-400">WER</strong> (<em>tasa de error por palabra</em>, es decir, la tasa de error por palabra: palabras sustituidas, omitidas o añadidas, divididas por el total de palabras de la respuesta correcta) y <strong class="text-purple-400">CER</strong> (el mismo cálculo por carácter, útil para nombres y números). Para la generación, usa una rúbrica con revisión humana, porque no hay una única respuesta correcta.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Evaluar es comparar, siempre en el mismo conjunto, la salida del sistema con una respuesta correcta humana, usando una métrica por campo o por palabra. Cada cambio de modelo, prompt o resolución se vuelve a probar con ese conjunto antes de pasar a producción.</p>
@@ -1043,7 +1043,7 @@ for arq, campo, esperado, veio in erros:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-3-t6-p3">Para calcular WER y CER en habla, la biblioteca abierta <code>jiwer</code> (<code>pip install jiwer</code>) hace el cálculo. Normaliza ambos lados antes —minúsculas, puntuación, números escritos con letras o cifras—; de lo contrario, mides diferencias de formato, no de reconocimiento.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-3-t6-p3">Para calcular WER y CER en habla, la biblioteca abierta <code>jiwer</code> (<code>pip install jiwer</code>) hace el cálculo. Normaliza ambos lados antes —minúsculas, puntuación, números escritos con letras o cifras—; de lo contrario, mides diferencias de formato, no de reconocimiento.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
 <div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-purple-400 font-semibold text-sm mb-1">📄 Documento</p><p class="text-xs text-neutral-300">Precisión por campo + tasa de «null» correcto en campos ilegibles.</p></div>
@@ -1051,7 +1051,7 @@ for arq, campo, esperado, veio in erros:
 <div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-purple-400 font-semibold text-sm mb-1">🎬 Video y pantalla</p><p class="text-xs text-neutral-300">Eventos detectados × anotados; tareas completadas sin ayuda humana.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t6-p4" data-sum="porque">Sin respuestas de referencia, elegir un modelo se vuelve una cuestión de opinión y cambiar de versión, una lotería. Con ellas, comparas proveedores con tus datos, justificas el costo con tus propios números y detectas regresiones antes de que lleguen al cliente.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t6-p4" data-sum="porque">Sin respuestas de referencia, elegir un modelo se vuelve una cuestión de opinión y cambiar de versión, una lotería. Con ellas, comparas proveedores con tus datos, justificas el costo con tus propios números y detectas regresiones antes de que lleguen al cliente.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Clave de respuestas</div><div class="text-xs text-neutral-400">respuesta humana correcta</div></div>
@@ -1060,27 +1060,27 @@ for arq, campo, esperado, veio in erros:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Regresión</div><div class="text-xs text-neutral-400">empeoró al cambiar algo</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-3-3#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-3#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="custo, roteamento e dado biométrico">🏗️ Arquitectura de producto y LGPD</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t7-p1">Un producto multimodal maduro rara vez usa un solo modelo. La arquitectura típica tiene un <strong class="text-neutral-100">preprocesamiento</strong> económico (recortar, reducir la resolución, extraer texto incrustado, muestrear fotogramas, transcribir audio), un <strong class="text-neutral-100">enrutamiento</strong> que envía el caso sencillo al modelo pequeño o local y el difícil al modelo de frontera (tema del módulo 3.1), una <strong class="text-neutral-100">validación</strong> por código y una <strong class="text-neutral-100">cola humana</strong> para lo que quede. El costo baja más con el preprocesamiento que negociando el precio por token.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t7-p2">En Brasil, la LGPD pesa más aquí que en el texto. La ley clasifica los datos <strong class="text-purple-400">un dato biométrico</strong> cómo <strong class="text-neutral-100">dato personal sensible</strong> (art. 5.º, II), y el tratamiento de datos sensibles solo está permitido en los supuestos del art. 11. La voz y el rostro usados para identificar a alguien entran en esta categoría; las imágenes de cámaras, las grabaciones de atención al cliente y los documentos de identidad contienen datos personales incluso cuando el objetivo no es identificar. Define la finalidad, la base legal, el plazo de retención, dónde se procesa el dato y si el proveedor puede usarlo para entrenamiento, antes del piloto, no después.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t7-p1">Un producto multimodal maduro rara vez usa un solo modelo. La arquitectura típica tiene un <strong class="text-neutral-100">preprocesamiento</strong> económico (recortar, reducir la resolución, extraer texto incrustado, muestrear fotogramas, transcribir audio), un <strong class="text-neutral-100">enrutamiento</strong> que envía el caso sencillo al modelo pequeño o local y el difícil al modelo de frontera (tema del módulo 3.1), una <strong class="text-neutral-100">validación</strong> por código y una <strong class="text-neutral-100">cola humana</strong> para lo que quede. El costo baja más con el preprocesamiento que negociando el precio por token.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t7-p2">En Brasil, la LGPD pesa más aquí que en el texto. La ley clasifica los datos <strong class="text-purple-400">un dato biométrico</strong> cómo <strong class="text-neutral-100">dato personal sensible</strong> (art. 5.º, II), y el tratamiento de datos sensibles solo está permitido en los supuestos del art. 11. La voz y el rostro usados para identificar a alguien entran en esta categoría; las imágenes de cámaras, las grabaciones de atención al cliente y los documentos de identidad contienen datos personales incluso cuando el objetivo no es identificar. Define la finalidad, la base legal, el plazo de retención, dónde se procesa el dato y si el proveedor puede usarlo para entrenamiento, antes del piloto, no después.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La arquitectura de un producto multimodal es la cadena preprocesamiento → enrutamiento → modelo → validación → revisión humana, diseñada junto con las reglas de protección de datos de cada modalidad que se incorpora.</p>
@@ -1112,10 +1112,10 @@ Responde en secciones, sin inventar cifras; cuando falte un dato, escribe "FALTA
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-3-t7-p3">Estima el costo con datos propios: ejecuta 50 ejemplos reales, registra los tokens de entrada y salida por modalidad y multiplícalos por el volumen mensual. El cálculo hecho así suele cambiar la decisión sobre resolución y enrutamiento más que cualquier tabla de precios.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-3-t7-p3">Estima el costo con datos propios: ejecuta 50 ejemplos reales, registra los tokens de entrada y salida por modalidad y multiplícalos por el volumen mensual. El cálculo hecho así suele cambiar la decisión sobre resolución y enrutamiento más que cualquier tabla de precios.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-3-t7-p4" data-sum="porque">La multimodalidad multiplica el valor y el riesgo al mismo tiempo: entran más tipos de datos, aumenta el costo y se aplican más reglas. Quien diseña la cadena completa —costo, enrutamiento, evaluación y LGPD— entrega un producto que cumple con los requisitos legales y financieros, no solo con los de la demostración.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-3-t7-p4" data-sum="porque">La multimodalidad multiplica el valor y el riesgo al mismo tiempo: entran más tipos de datos, aumenta el costo y se aplican más reglas. Quien diseña la cadena completa —costo, enrutamiento, evaluación y LGPD— entrega un producto que cumple con los requisitos legales y financieros, no solo con los de la demostración.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Preprocesamiento</div><div class="text-xs text-neutral-400">dónde baja el costo</div></div>
@@ -1124,11 +1124,11 @@ Responde en secciones, sin inventar cifras; cuando falte un dato, escribe "FALTA
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Retención mínima</div><div class="text-xs text-neutral-400">guardar solo lo extraído</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1159,7 +1159,7 @@ Responde en secciones, sin inventar cifras; cuando falte un dato, escribe "FALTA
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1191,15 +1191,15 @@ Responde en secciones, sin inventar cifras; cuando falte un dato, escribe "FALTA
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

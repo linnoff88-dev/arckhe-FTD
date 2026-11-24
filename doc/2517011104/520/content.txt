@@ -10,7 +10,7 @@ Midias baixadas: 2
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T05:38:29+00:00
 Texto:
 https://gamma.app/docs/apkxacawul3nwoh
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:08:03+00:00
 Texto:
 ### MÓDULO 3: Canais e Estratégias de Venda (30 minutos)  
@@ -117,7 +117,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:38+00:00
 Texto:
 ..
@@ -125,7 +125,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:38+00:00
 Texto:
 .
@@ -133,7 +133,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:38+00:00
 Texto:
 .
@@ -141,7 +141,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:35+00:00
 Texto:
 ### MÓDULO 3: Canais e Estratégias de Venda (30 minutos)  
@@ -163,7 +163,7 @@ Gravar um vídeo curto ou escrever uma mensagem X1 de venda com base no nicho es
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:00+00:00
 Texto:
 .
@@ -171,7 +171,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:00+00:00
 Texto:
 ...
@@ -179,7 +179,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:07:00+00:00
 Texto:
 ..
@@ -187,7 +187,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:59+00:00
 Texto:
 .
@@ -195,7 +195,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:59+00:00
 Texto:
 .
@@ -203,7 +203,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:59+00:00
 Texto:
 ..
@@ -211,7 +211,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:59+00:00
 Texto:
 .
@@ -219,7 +219,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:58+00:00
 Texto:
 https://chatgpt.com/c/67f5f1cc-4014-8009-83f2-55a7e35739f4
@@ -228,7 +228,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:58+00:00
 Texto:
 1
@@ -236,7 +236,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T04:06:51+00:00
 Texto: [Sem texto]
 

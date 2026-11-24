@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-13T04:00:32+00:00
 Texto:
 https://gamma.app/docs/hwhuadnlnbybp2v
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:43:12+00:00
 Texto:
 Você tocou no ponto **mais crítico** de todos: **não adianta criar conteúdo bom se o algoritmo não entrega**.
@@ -96,7 +96,7 @@ Se quiser, posso entregar agora os **modelos prontos**, incluindo:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:27+00:00
 Texto:
 .
@@ -104,7 +104,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:27+00:00
 Texto:
 .
@@ -112,7 +112,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:26+00:00
 Texto:
 1-6-be- COMO FAZER O ALGORITMO ENTREGAR SEU CONTEÚDO
@@ -120,7 +120,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:24+00:00
 Texto:
 ..
@@ -128,7 +128,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:24+00:00
 Texto:
 .
@@ -136,7 +136,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:24+00:00
 Texto:
 .
@@ -144,7 +144,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:23+00:00
 Texto:
 ....
@@ -152,7 +152,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:23+00:00
 Texto:
 ...
@@ -160,7 +160,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:23+00:00
 Texto:
 ..
@@ -168,7 +168,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:23+00:00
 Texto:
 .
@@ -176,7 +176,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:22+00:00
 Texto:
 ..
@@ -184,7 +184,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:22+00:00
 Texto:
 .
@@ -192,7 +192,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:22+00:00
 Texto:
 .
@@ -200,7 +200,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:21+00:00
 Texto:
 1
@@ -208,7 +208,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-09T03:42:14+00:00
 Texto: [Sem texto]
 

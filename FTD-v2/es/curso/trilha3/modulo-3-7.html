@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 3.7 · IA en producción — Escala empresarial | FTD v2</title>
 <meta content="Plataforma interna de IA, gateway, identidad, auditoría, SLA, FinOps y adopción en toda la empresa." name="description"/>
 <meta content="Módulo 3.7 · IA en producción — Escala empresarial | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-7.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-7.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-7.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-7.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-7.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-7.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha3/modulo-3-7.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-3-7.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-7.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha3/modulo-3-7.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-3-7.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="3-7" data-inema-track="3" id="conteudo">
+<main data-ARCKHÉ-module="3-7" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">Arquitectura</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 3.7" class="inema-ring" data-inema-meter="modulo:3-7"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:3-7"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 3.7" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-7"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-7"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. Plataforma interna</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Gateway de modelos</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Identidad y acceso</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Auditoría</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. SLA y confiabilidad</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. FinOps de IA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Adopción en la empresa</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. Plataforma interna</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Gateway de modelos</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Identidad y acceso</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Auditoría</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. SLA y confiabilidad</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. FinOps de IA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Adopción en la empresa</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="plataforma, não projeto">🏗️ Plataforma interna de IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t1-p1">El primer año de IA en una empresa suele ser una colección de pilotos: el equipo de atención al cliente prueba un asistente, el área legal resume contratos y el equipo de ingeniería usa un agente de código. Cada piloto resuelve su propio problema y vuelve a crear los mismos cinco problemas: <strong class="text-neutral-100">claves dispersas, ningún registro central, costos invisibles, datos personales sin control y ninguna forma de cambiar de modelo</strong> sin reescribir la aplicación. La solución es tratar la IA como una <strong class="text-purple-400">plataforma</strong>: un conjunto de servicios compartidos que todos los proyectos usan, en lugar de que cada proyecto reinvente la rueda.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t1-p2"><strong class="text-neutral-100">Plataforma interna</strong> aquí significa lo mismo que en ingeniería de software: un producto mantenido por un equipo, cuyos clientes son los demás equipos. Ofrece un «camino pavimentado» (<em>paved road</em>) —la forma fácil de hacer las cosas bien. Si el camino correcto es más difícil que el atajo, los equipos toman el atajo y la plataforma se convierte en otra regla que nadie respeta.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t1-p1">El primer año de IA en una empresa suele ser una colección de pilotos: el equipo de atención al cliente prueba un asistente, el área legal resume contratos y el equipo de ingeniería usa un agente de código. Cada piloto resuelve su propio problema y vuelve a crear los mismos cinco problemas: <strong class="text-neutral-100">claves dispersas, ningún registro central, costos invisibles, datos personales sin control y ninguna forma de cambiar de modelo</strong> sin reescribir la aplicación. La solución es tratar la IA como una <strong class="text-purple-400">plataforma</strong>: un conjunto de servicios compartidos que todos los proyectos usan, en lugar de que cada proyecto reinvente la rueda.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t1-p2"><strong class="text-neutral-100">Plataforma interna</strong> aquí significa lo mismo que en ingeniería de software: un producto mantenido por un equipo, cuyos clientes son los demás equipos. Ofrece un «camino pavimentado» (<em>paved road</em>) —la forma fácil de hacer las cosas bien. Si el camino correcto es más difícil que el atajo, los equipos toman el atajo y la plataforma se convierte en otra regla que nadie respeta.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Una plataforma interna de IA es la capa común entre las aplicaciones y los modelos: un gateway por el que pasan todas las llamadas, servicios compartidos (contexto, evaluación, herramientas) y tres controles transversales: identidad, auditoría y costos.</p>
@@ -613,7 +613,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t1-p3" data-sum="porque">El costo de una plataforma se paga una sola vez; el costo de no tenerla se paga con cada proyecto nuevo, en retrabajo, incidentes y auditorías. Para quien diseña la arquitectura, la pregunta deja de ser «¿qué modelo usar?» y pasa a ser «¿cómo puede cualquier equipo usar cualquier modelo de forma segura y sin pedirme permiso cada vez?».</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t1-p3" data-sum="porque">El costo de una plataforma se paga una sola vez; el costo de no tenerla se paga con cada proyecto nuevo, en retrabajo, incidentes y auditorías. Para quien diseña la arquitectura, la pregunta deja de ser «¿qué modelo usar?» y pasa a ser «¿cómo puede cualquier equipo usar cualquier modelo de forma segura y sin pedirme permiso cada vez?».</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Plataforma interna</div><div class="text-xs text-neutral-400">producto cuyos clientes son los equipos</div></div>
@@ -622,27 +622,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Control transversal</div><div class="text-xs text-neutral-400">identidad, auditoría, costos</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="uma porta para todos os modelos">🚪 Gateway de modelos</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t2-p1">O <strong class="text-purple-400">gateway de modelos</strong> es un proxy: las aplicaciones llaman a una dirección interna con una clave de la plataforma, y el gateway decide a qué modelo se dirige la llamada. Como casi todos los proveedores y servidores locales aceptan el formato de API tipo «chat completions» compatible con OpenAI, la aplicación escribe el código una sola vez y el gateway lo traduce. Herramientas abiertas como <strong class="text-neutral-100">LiteLLM</strong> cumplen ese papel; los proveedores de nube y los proveedores de gestión de API tienen sus propias versiones.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t2-p2">Cada llamada pasa por cinco etapas: <strong class="text-neutral-100">autenticar</strong> la clave, aplicar el <strong class="text-neutral-100">límite</strong> del equipo, consultar la <strong class="text-neutral-100">caché</strong>, elegir la <strong class="text-neutral-100">ruta</strong> (y el respaldo, si falla el modelo principal) y <strong class="text-neutral-100">registrar</strong> todo. Ruta es el nombre lógico ("interno-rapido", "externo-fuerte") que solicita la app; el modelo real que está detrás puede cambiar sin que la app lo sepa.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t2-p1">O <strong class="text-purple-400">gateway de modelos</strong> es un proxy: las aplicaciones llaman a una dirección interna con una clave de la plataforma, y el gateway decide a qué modelo se dirige la llamada. Como casi todos los proveedores y servidores locales aceptan el formato de API tipo «chat completions» compatible con OpenAI, la aplicación escribe el código una sola vez y el gateway lo traduce. Herramientas abiertas como <strong class="text-neutral-100">LiteLLM</strong> cumplen ese papel; los proveedores de nube y los proveedores de gestión de API tienen sus propias versiones.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t2-p2">Cada llamada pasa por cinco etapas: <strong class="text-neutral-100">autenticar</strong> la clave, aplicar el <strong class="text-neutral-100">límite</strong> del equipo, consultar la <strong class="text-neutral-100">caché</strong>, elegir la <strong class="text-neutral-100">ruta</strong> (y el respaldo, si falla el modelo principal) y <strong class="text-neutral-100">registrar</strong> todo. Ruta es el nombre lógico ("interno-rapido", "externo-fuerte") que solicita la app; el modelo real que está detrás puede cambiar sin que la app lo sepa.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Un único punto de entrada para todos los modelos de la empresa, que separa el nombre lógico que solicita la app del modelo físico que responde, y aplica autenticación, límites, caché, respaldo y registro en cada llamada.</p>
@@ -685,7 +685,7 @@
 </figure>
 <div class="bg-dark-800 border border-purple-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-purple-400 font-semibold mb-1">Término nuevo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-7-t2-p3"><strong>Proxy</strong> es un servidor intermediario que recibe la llamada en lugar del destino y la reenvía. <strong>Respaldo</strong> es la alternativa automática cuando falla la primera opción. <strong>Caché semántico</strong> devuelve una respuesta ya calculada para preguntas parecidas; es útil en las preguntas frecuentes y peligroso cuando la respuesta depende del usuario.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-7-t2-p3"><strong>Proxy</strong> es un servidor intermediario que recibe la llamada en lugar del destino y la reenvía. <strong>Respaldo</strong> es la alternativa automática cuando falla la primera opción. <strong>Caché semántico</strong> devuelve una respuesta ya calculada para preguntas parecidas; es útil en las preguntas frecuentes y peligroso cuando la respuesta depende del usuario.</p>
 </div>
 <!-- COPY: config do gateway -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -723,10 +723,10 @@ general_settings:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-7-t2-p4">Dales a las rutas nombres de <strong>capacidad</strong> ("rapido", "forte", "visao", "sensivel"), nunca de proveedor. El día que cambies el modelo detrás de "forte", ninguna app tendrá que enterarse, y la negociación con los proveedores será más equilibrada.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-7-t2-p4">Dales a las rutas nombres de <strong>capacidad</strong> ("rapido", "forte", "visao", "sensivel"), nunca de proveedor. El día que cambies el modelo detrás de "forte", ninguna app tendrá que enterarse, y la negociación con los proveedores será más equilibrada.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t2-p5" data-sum="porque">Los modelos cambian cada pocos meses y los precios también. Sin gateway, cada cambio es un proyecto de migración en diez apps. Con gateway, es una línea de configuración probada en un solo lugar, y ese mismo punto se convierte en la base para la auditoría, los límites y los costos que vienen a continuación.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t2-p5" data-sum="porque">Los modelos cambian cada pocos meses y los precios también. Sin gateway, cada cambio es un proyecto de migración en diez apps. Con gateway, es una línea de configuración probada en un solo lugar, y ese mismo punto se convierte en la base para la auditoría, los límites y los costos que vienen a continuación.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Ruta lógica</div><div class="text-xs text-neutral-400">nombre de capacidad, no de proveedor</div></div>
@@ -735,34 +735,34 @@ general_settings:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">API compatible</div><div class="text-xs text-neutral-400">un formato, muchos modelos</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="quem pode o quê, inclusive o agente">🔐 Identidad y acceso</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t3-p1">A gran escala, la pregunta de seguridad no es "¿el modelo es seguro?", sino <strong class="text-neutral-100">"¿en nombre de quién se hace esta llamada y qué puede ver esa persona?"</strong>. Un asistente de RR. HH. que busca documentos no puede devolver el recibo de sueldo de otro empleado solo porque el texto estaba en el índice. La IA hereda los permisos de quien hace la solicitud, o debería hacerlo.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t3-p2">Con los agentes, aparece un segundo tipo de identidad: la del propio agente. Un agente que lee el CRM, abre tickets y envía correos electrónicos necesita una <strong class="text-purple-400">identidad de servicio</strong> propia, con permisos mínimos, credenciales que caducan y una persona responsable. Nunca la clave personal de quien lo creó.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t3-p1">A gran escala, la pregunta de seguridad no es "¿el modelo es seguro?", sino <strong class="text-neutral-100">"¿en nombre de quién se hace esta llamada y qué puede ver esa persona?"</strong>. Un asistente de RR. HH. que busca documentos no puede devolver el recibo de sueldo de otro empleado solo porque el texto estaba en el índice. La IA hereda los permisos de quien hace la solicitud, o debería hacerlo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t3-p2">Con los agentes, aparece un segundo tipo de identidad: la del propio agente. Un agente que lee el CRM, abre tickets y envía correos electrónicos necesita una <strong class="text-purple-400">identidad de servicio</strong> propia, con permisos mínimos, credenciales que caducan y una persona responsable. Nunca la clave personal de quien lo creó.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es el conjunto de reglas que vincula cada llamada de IA con una persona o un agente identificado, aplica el rol de esa identidad a los datos y herramientas a los que accede, y mantiene solo los privilegios mínimos necesarios para la tarea.</p>
 </div>
 <div class="bg-dark-800 border border-purple-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-purple-400 font-semibold mb-1">Término nuevo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-7-t3-p3"><strong>SSO</strong> (inicio de sesión único) significa iniciar sesión una vez con la cuenta corporativa y acceder a varios sistemas. <strong>RBAC</strong> es el control de acceso basado en roles: "analista de RR. HH." ve X, "gerente" ve Y. <strong>Menor privilegio</strong> es conceder solo el acceso necesario para la tarea, y nada más.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-7-t3-p3"><strong>SSO</strong> (inicio de sesión único) significa iniciar sesión una vez con la cuenta corporativa y acceder a varios sistemas. <strong>RBAC</strong> es el control de acceso basado en roles: "analista de RR. HH." ve X, "gerente" ve Y. <strong>Menor privilegio</strong> es conceder solo el acceso necesario para la tarea, y nada más.</p>
 </div>
 <div class="overflow-x-auto mb-6">
 <table class="w-full text-sm border border-dark-600 rounded-xl overflow-hidden">
@@ -794,7 +794,7 @@ general_settings:
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t3-p4" data-sum="porque">Las filtraciones más probables en la IA corporativa no son ataques sofisticados al modelo: son permisos heredados incorrectamente. Se puede eludir un prompt; un filtro de permisos aplicado antes de la búsqueda, no. Quien diseña correctamente la identidad desde el inicio evita tener que rehacer todo el índice después del primer incidente.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t3-p4" data-sum="porque">Las filtraciones más probables en la IA corporativa no son ataques sofisticados al modelo: son permisos heredados incorrectamente. Se puede eludir un prompt; un filtro de permisos aplicado antes de la búsqueda, no. Quien diseña correctamente la identidad desde el inicio evita tener que rehacer todo el índice después del primer incidente.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">SSO</div><div class="text-xs text-neutral-400">una cuenta corporativa</div></div>
@@ -803,27 +803,27 @@ general_settings:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Menor privilegio</div><div class="text-xs text-neutral-400">solo lo necesario</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="reconstruir qualquer resposta depois">📜 Auditoría y trazabilidad</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t4-p1">Un cliente se queja de que el asistente prometió un descuento que no existe. La pregunta de la auditoría es sencilla: <strong class="text-neutral-100">¿qué versión del prompt, con qué modelo, qué documentos y qué herramientas produjeron esa respuesta?</strong> Si la plataforma no puede responder en minutos, no está lista para producción.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t4-p2">La pieza central es el <strong class="text-purple-400">trace</strong>: un identificador único que acompaña la solicitud en todas las etapas —gateway, búsqueda, modelo, herramientas, filtro de salida—. Cada etapa se convierte en un <strong class="text-neutral-100">span</strong> con inicio, fin y atributos. El estándar abierto OpenTelemetry ya tiene convenciones para llamadas de IA generativa, y herramientas como Langfuse y Arize Phoenix te ofrecen esta vista.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t4-p1">Un cliente se queja de que el asistente prometió un descuento que no existe. La pregunta de la auditoría es sencilla: <strong class="text-neutral-100">¿qué versión del prompt, con qué modelo, qué documentos y qué herramientas produjeron esa respuesta?</strong> Si la plataforma no puede responder en minutos, no está lista para producción.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t4-p2">La pieza central es el <strong class="text-purple-400">trace</strong>: un identificador único que acompaña la solicitud en todas las etapas —gateway, búsqueda, modelo, herramientas, filtro de salida—. Cada etapa se convierte en un <strong class="text-neutral-100">span</strong> con inicio, fin y atributos. El estándar abierto OpenTelemetry ya tiene convenciones para llamadas de IA generativa, y herramientas como Langfuse y Arize Phoenix te ofrecen esta vista.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">La trazabilidad es la capacidad de reconstruir cualquier respuesta: quién la solicitó, con qué configuración, qué datos se incluyeron, qué hicieron el modelo y las herramientas, y cuánto costó, guardando solo lo necesario y durante el tiempo necesario.</p>
@@ -882,10 +882,10 @@ general_settings:
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-7-t4-p3">La auditoría y la LGPD apuntan en direcciones opuestas: una quiere guardarlo todo y la otra quiere guardar lo mínimo. Resuélvelo separando dos niveles: metadatos (quién, cuándo, qué versión, costo), con un período de conservación más largo; y contenido (el texto del prompt y de la respuesta), con un período de conservación breve, acceso restringido y enmascaramiento.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-7-t4-p3">La auditoría y la LGPD apuntan en direcciones opuestas: una quiere guardarlo todo y la otra quiere guardar lo mínimo. Resuélvelo separando dos niveles: metadatos (quién, cuándo, qué versión, costo), con un período de conservación más largo; y contenido (el texto del prompt y de la respuesta), con un período de conservación breve, acceso restringido y enmascaramiento.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t4-p4" data-sum="porque">Sin trazabilidad, cada incidente se convierte en una discusión de opiniones y la única respuesta segura es apagar el sistema. Con ella, encuentras la causa, corriges la versión del prompt o el documento equivocado y muestras al área legal y al cliente exactamente qué pasó.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t4-p4" data-sum="porque">Sin trazabilidad, cada incidente se convierte en una discusión de opiniones y la única respuesta segura es apagar el sistema. Con ella, encuentras la causa, corriges la versión del prompt o el documento equivocado y muestras al área legal y al cliente exactamente qué pasó.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Trace</div><div class="text-xs text-neutral-400">la solicitud de principio a fin</div></div>
@@ -894,29 +894,29 @@ general_settings:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Período de conservación</div><div class="text-xs text-neutral-400">durante cuánto tiempo guardar y por qué</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="latência, erro e qualidade com meta">📈 SLA y confiabilidad</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t5-p1">Un sistema de IA puede estar "en línea" y aun así estar fallando: responde rápido, sin errores HTTP, pero sus respuestas son peores desde el cambio de modelo de ayer. Por eso, la confiabilidad en IA tiene <strong class="text-neutral-100">tres ejes</strong>, no dos: disponibilidad, latencia y <strong class="text-purple-400">calidad</strong>. El tercero solo se mide si tienes un conjunto de evaluación que se ejecuta de forma continua: preguntas reales con respuestas de referencia, que se vuelven a ejecutar con cada cambio.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t5-p1">Un sistema de IA puede estar "en línea" y aun así estar fallando: responde rápido, sin errores HTTP, pero sus respuestas son peores desde el cambio de modelo de ayer. Por eso, la confiabilidad en IA tiene <strong class="text-neutral-100">tres ejes</strong>, no dos: disponibilidad, latencia y <strong class="text-purple-400">calidad</strong>. El tercero solo se mide si tienes un conjunto de evaluación que se ejecuta de forma continua: preguntas reales con respuestas de referencia, que se vuelven a ejecutar con cada cambio.</p>
 <div class="bg-dark-800 border border-purple-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-purple-400 font-semibold mb-1">Término nuevo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-7-t5-p2"><strong>SLI</strong> es el indicador medido (p. ej., latencia en el percentil 95). <strong>SLO</strong> es la meta interna para ese indicador. <strong>SLA</strong> es el compromiso contractual con el cliente, con consecuencias si no se cumple; por eso, el SLA debe ser más holgado que el SLO. <strong>Percentil 95 (p95)</strong> es el tiempo por debajo del cual se encuentran el 95 % de las respuestas.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-7-t5-p2"><strong>SLI</strong> es el indicador medido (p. ej., latencia en el percentil 95). <strong>SLO</strong> es la meta interna para ese indicador. <strong>SLA</strong> es el compromiso contractual con el cliente, con consecuencias si no se cumple; por eso, el SLA debe ser más holgado que el SLO. <strong>Percentil 95 (p95)</strong> es el tiempo por debajo del cual se encuentran el 95 % de las respuestas.</p>
 </div>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
@@ -963,10 +963,10 @@ general_settings:
 </figure>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-7-t5-p3">Fija la versión del modelo en el gateway siempre que el proveedor lo permita. Una ruta que apunta a un alias del tipo "más reciente" significa que el proveedor puede cambiar el modelo sin que te des cuenta —y tu SLO de calidad cambia sin que hagas ningún despliegue.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-7-t5-p3">Fija la versión del modelo en el gateway siempre que el proveedor lo permita. Una ruta que apunta a un alias del tipo "más reciente" significa que el proveedor puede cambiar el modelo sin que te des cuenta —y tu SLO de calidad cambia sin que hagas ningún despliegue.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t5-p4" data-sum="porque">Prometer un SLA sin medir la calidad es prometer algo que no controlas. Los equipos que definen SLO para los tres ejes y hacen cambios por etapas pueden actualizar modelos con frecuencia sin temor, y quienes no lo hacen terminan congelando la versión por miedo y se quedan atrás.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t5-p4" data-sum="porque">Prometer un SLA sin medir la calidad es prometer algo que no controlas. Los equipos que definen SLO para los tres ejes y hacen cambios por etapas pueden actualizar modelos con frecuencia sin temor, y quienes no lo hacen terminan congelando la versión por miedo y se quedan atrás.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">SLI · SLO · SLA</div><div class="text-xs text-neutral-400">medida, meta, contrato</div></div>
@@ -975,27 +975,27 @@ general_settings:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Rollback</div><div class="text-xs text-neutral-400">regreso probado de antemano</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="custo por tarefa resolvida">💰 FinOps de IA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t6-p1"><strong class="text-purple-400">FinOps</strong> es la práctica de hacer visible el costo de la tecnología para quienes toman decisiones y hacer responsables a quienes la consumen. En IA, el costo es variable por naturaleza: cada llamada consume tokens, y un agente que entra en un bucle puede gastar en una tarde el presupuesto del mes. El costo por token es la métrica del proveedor; la métrica del negocio es <strong class="text-neutral-100">el costo por tarea resuelta</strong>.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t6-p2">Las palancas son conocidas: dirigir las tareas simples a modelos más pequeños o locales, usar caché (incluida la caché de prompts que varios proveedores ofrecen para el contexto repetido), eliminar el contexto innecesario, procesar por lotes lo que no sea urgente y establecer límites de pasos y de gasto para cada agente. Sin embargo, antes de optimizar, es necesario <strong class="text-neutral-100">atribuir</strong>: saber qué equipo y qué caso de uso generó cada real.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t6-p1"><strong class="text-purple-400">FinOps</strong> es la práctica de hacer visible el costo de la tecnología para quienes toman decisiones y hacer responsables a quienes la consumen. En IA, el costo es variable por naturaleza: cada llamada consume tokens, y un agente que entra en un bucle puede gastar en una tarde el presupuesto del mes. El costo por token es la métrica del proveedor; la métrica del negocio es <strong class="text-neutral-100">el costo por tarea resuelta</strong>.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t6-p2">Las palancas son conocidas: dirigir las tareas simples a modelos más pequeños o locales, usar caché (incluida la caché de prompts que varios proveedores ofrecen para el contexto repetido), eliminar el contexto innecesario, procesar por lotes lo que no sea urgente y establecer límites de pasos y de gasto para cada agente. Sin embargo, antes de optimizar, es necesario <strong class="text-neutral-100">atribuir</strong>: saber qué equipo y qué caso de uso generó cada real.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">FinOps de IA consiste en medir el costo de cada llamada, atribuirlo a un equipo y a un caso de uso, mostrarlo a quienes toman decisiones (showback) o cobrarlo internamente (chargeback), y optimizar según el costo por resultado, no según el costo por token.</p>
@@ -1058,7 +1058,7 @@ for (equipe, caso), a in sorted(agg.items(), key=lambda kv: -kv[1]["custo"]):
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t6-p3" data-sum="porque">El primer recorte del presupuesto de IA casi nunca se debe a un caso que salió mal: se debe a una factura que nadie pudo explicar. Con el costo asignado y medido por resultado, defiendes los casos que justifican el gasto y cierras los que no lo justifican, con los números a la vista.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t6-p3" data-sum="porque">El primer recorte del presupuesto de IA casi nunca se debe a un caso que salió mal: se debe a una factura que nadie pudo explicar. Con el costo asignado y medido por resultado, defiendes los casos que justifican el gasto y cierras los que no lo justifican, con los números a la vista.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Showback</div><div class="text-xs text-neutral-400">mostrar el costo a quienes lo consumen</div></div>
@@ -1067,27 +1067,27 @@ for (equipe, caso), a in sorted(agg.items(), key=lambda kv: -kv[1]["custo"]):
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Límite por agente</div><div class="text-xs text-neutral-400">límite de pasos y gasto</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-3-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="da plataforma pronta ao uso diário">🌱 Adopción en toda la empresa</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t7-p1">Una plataforma técnicamente impecable que nadie usa es un costo sin retorno. Y cuando la plataforma oficial tarda en dar acceso, las personas usan lo que tienen a mano: cuentas personales, extensiones de navegador, herramientas gratuitas con términos de uso desconocidos. Eso tiene un nombre: <strong class="text-purple-400">shadow AI</strong>, la IA que se usa fuera del control de la empresa. Prohibirla no lo resuelve; ofrecer una mejor alternativa sí.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t7-p2">La adopción se organiza en tres frentes: <strong class="text-neutral-100">acceso</strong> (un asistente seguro disponible para todos, con reglas claras sobre qué se puede pegar en él), <strong class="text-neutral-100">capacitación</strong> (rutas cortas por función y «referentes» en cada área que ayudan a sus colegas) y <strong class="text-neutral-100">catálogo</strong> (casos de uso aprobados, con responsable, métrica y estado, para que nadie reinvente lo que otro equipo ya hizo).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t7-p1">Una plataforma técnicamente impecable que nadie usa es un costo sin retorno. Y cuando la plataforma oficial tarda en dar acceso, las personas usan lo que tienen a mano: cuentas personales, extensiones de navegador, herramientas gratuitas con términos de uso desconocidos. Eso tiene un nombre: <strong class="text-purple-400">shadow AI</strong>, la IA que se usa fuera del control de la empresa. Prohibirla no lo resuelve; ofrecer una mejor alternativa sí.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t7-p2">La adopción se organiza en tres frentes: <strong class="text-neutral-100">acceso</strong> (un asistente seguro disponible para todos, con reglas claras sobre qué se puede pegar en él), <strong class="text-neutral-100">capacitación</strong> (rutas cortas por función y «referentes» en cada área que ayudan a sus colegas) y <strong class="text-neutral-100">catálogo</strong> (casos de uso aprobados, con responsable, métrica y estado, para que nadie reinvente lo que otro equipo ya hizo).</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es el trabajo de llevar la plataforma al uso real: dar acceso seguro, formar a las personas según su función, mantener un catálogo de casos de uso y medir el uso, los resultados y la satisfacción, reduciendo la IA en la sombra al ofrecer una alternativa mejor, no mediante prohibiciones.</p>
@@ -1123,7 +1123,7 @@ Entrega, en este orden:
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> cada fila de la tabla debe incluir una próxima acción con posible responsable y plazo; si aparece «implementar gobernanza» sin especificar qué, pide detalles. Revisa la lista de suposiciones: todo lo que esté mal allí invalida la parte del plan que depende de ello. No pegues nombres de clientes ni datos personales en el prompt.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-7-t7-p3" data-sum="porque">El valor de la IA en una empresa proviene de muchas personas que la usan bien en tareas pequeñas, más que de un proyecto heroico. La plataforma aporta seguridad; la adopción genera el retorno. Quien lidera ambas a la vez evita tanto el riesgo de la IA en la sombra como el desperdicio de una infraestructura vacía.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-7-t7-p3" data-sum="porque">El valor de la IA en una empresa proviene de muchas personas que la usan bien en tareas pequeñas, más que de un proyecto heroico. La plataforma aporta seguridad; la adopción genera el retorno. Quien lidera ambas a la vez evita tanto el riesgo de la IA en la sombra como el desperdicio de una infraestructura vacía.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Shadow AI</div><div class="text-xs text-neutral-400">IA fuera de control</div></div>
@@ -1132,11 +1132,11 @@ Entrega, en este orden:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Línea de base</div><div class="text-xs text-neutral-400">medir antes de comparar</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1168,7 +1168,7 @@ Entrega, en este orden:
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1200,15 +1200,15 @@ Entrega, en este orden:
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

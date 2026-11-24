@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-es" name="inema-course"/>
+<meta content="ftd-v2-es" name="ARCKHÉ-course"/>
 <title>Módulo 3.9 · Futuro de la IA y la AGI | FTD v2</title>
 <meta content="Qué significa AGI, tendencias que ya están apareciendo, riesgos, trabajo y cómo prepararte con método." name="description"/>
 <meta content="Módulo 3.9 · Futuro de la IA y la AGI | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-es",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-9.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha3/modulo-3-9.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-9.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha3/modulo-3-9.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha3/modulo-3-9.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-9.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha3/modulo-3-9.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-3-9.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha3/modulo-3-9.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../../../en/curso/trilha3/modulo-3-9.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="modulo-3-9.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">Mi recorrido</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Apariencia</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tema</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Oscuro</button>
-<button data-inema-set-theme="claro" type="button">Claro</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tema</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Oscuro</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Claro</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Enfoque</button>
-<button data-inema-set-theme="contraste" type="button">Alto contraste</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Fuente</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">Sistema</button>
-<button data-inema-set-font="leitura" type="button">Lectura</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Enfoque</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">Alto contraste</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Tamaño</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Fuente</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">Sistema</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Lectura</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Ancho</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Estrecho</button>
-<button data-inema-set-linewidth="68" type="button">Mediano</button>
-<button data-inema-set-linewidth="75" type="button">Ancho</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Tamaño</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Interlineado</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compacto</button>
-<button data-inema-set-leading="1.7" type="button">Cómodo</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Ancho</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Estrecho</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Mediano</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Ancho</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Acento</span>
-<div class="inema-accent-grid">
-<button aria-label="Acento esmeralda" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Acento azul" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Acento violeta" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Acento ámbar" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Acento verde azulado" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Acento rosa" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Interlineado</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compacto</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Cómodo</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Acento</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Acento esmeralda" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Acento azul" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Acento violeta" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Acento ámbar" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Acento verde azulado" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Acento rosa" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="3-9" data-inema-track="3" id="conteudo">
+<main data-ARCKHÉ-module="3-9" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Ruta de navegación" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">Visión</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Progreso del módulo 3.9" class="inema-ring" data-inema-meter="modulo:3-9"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:3-9"><strong data-inema-meter-frac="">0 de 0</strong> temas leídos · <span data-inema-section-counter="">Sección 1 de 7</span></div>
+<div aria-label="Progreso del módulo 3.9" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-9"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-9"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> temas leídos · <span data-ARCKHÉ-section-counter="">Sección 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Índice de la página" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">En este módulo</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. Qué es la AGI</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Lo sabido × la especulación</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Tendencias visibles</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Riesgos sin pánico</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. El trabajo</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Escenarios</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Prepararse con método</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-1">1. Qué es la AGI</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Lo sabido × la especulación</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Tendencias visibles</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Riesgos sin pánico</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. El trabajo</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Escenarios</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Prepararse con método</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Contenido detallado</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="uma palavra, várias definições">🌌 Qué significa AGI</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t1-p1"><strong class="text-purple-400">AGI</strong> (<em>Artificial General Intelligence</em>, inteligencia artificial general) es un término sin una definición única, y buena parte de las discusiones estridentes se debe a que las personas usan definiciones diferentes sin darse cuenta. La idea común es la de un sistema que no es bueno en una sola tarea, sino en una <strong class="text-neutral-100">amplia variedad de tareas cognitivas</strong>, a un nivel comparable al de personas capacitadas.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t1-p2">Se suelen mencionar tres familias de definiciones. La <strong class="text-neutral-100">económica</strong>: la carta de principios de OpenAI de 2018 habla de sistemas altamente autónomos que superan a los humanos en la mayor parte del trabajo económicamente valioso. La <strong class="text-neutral-100">por niveles</strong>: un artículo de investigadores de Google DeepMind de 2023 propone medir por separado el desempeño y la generalidad, y tratar la autonomía como otra dimensión. Y la <strong class="text-neutral-100">cognitiva</strong>: capacidades como aprender cosas nuevas de forma continua, planificar a largo plazo y transferir conocimientos a situaciones inéditas. No llegan al mismo punto ni en la misma fecha.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t1-p1"><strong class="text-purple-400">AGI</strong> (<em>Artificial General Intelligence</em>, inteligencia artificial general) es un término sin una definición única, y buena parte de las discusiones estridentes se debe a que las personas usan definiciones diferentes sin darse cuenta. La idea común es la de un sistema que no es bueno en una sola tarea, sino en una <strong class="text-neutral-100">amplia variedad de tareas cognitivas</strong>, a un nivel comparable al de personas capacitadas.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t1-p2">Se suelen mencionar tres familias de definiciones. La <strong class="text-neutral-100">económica</strong>: la carta de principios de OpenAI de 2018 habla de sistemas altamente autónomos que superan a los humanos en la mayor parte del trabajo económicamente valioso. La <strong class="text-neutral-100">por niveles</strong>: un artículo de investigadores de Google DeepMind de 2023 propone medir por separado el desempeño y la generalidad, y tratar la autonomía como otra dimensión. Y la <strong class="text-neutral-100">cognitiva</strong>: capacidades como aprender cosas nuevas de forma continua, planificar a largo plazo y transferir conocimientos a situaciones inéditas. No llegan al mismo punto ni en la misma fecha.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">AGI es el nombre que se da a una IA de propósito general, con un desempeño de nivel humano o superior en una amplia variedad de tareas. No hay una prueba aceptada por todos que indique que «ya llegó»; por eso la pregunta útil es «¿qué definición y cómo se mide?»</p>
@@ -590,7 +590,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t1-p3" data-sum="porque">Se convoca a líderes a opinar sobre la AGI en consejos, eventos y ante la prensa. Quien sabe que el término tiene varias definiciones puede transformar una conversación vaga en una pregunta verificable, y evita tanto prometer lo que nadie sabe como descartar lo que ya está ocurriendo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t1-p3" data-sum="porque">Se convoca a líderes a opinar sobre la AGI en consejos, eventos y ante la prensa. Quien sabe que el término tiene varias definiciones puede transformar una conversación vaga en una pregunta verificable, y evita tanto prometer lo que nadie sabe como descartar lo que ya está ocurriendo.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">AGI</div><div class="text-xs text-neutral-400">IA general, definición en disputa</div></div>
@@ -599,27 +599,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">IA estrecha</div><div class="text-xs text-neutral-400">excelente en una tarea</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="três caixas para cada afirmação">🔎 Qué se sabe y qué es especulación</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t2-p1">La herramienta más útil de este módulo es sencilla: ante cada afirmación sobre el futuro de la IA, pregunta en cuál de estas tres categorías encaja. <strong class="text-purple-400">Se sabe</strong>: hay mediciones publicadas y repetidas por distintos grupos. <strong class="text-purple-400">En debate</strong>: especialistas calificados, al revisar los mismos datos, discrepan. <strong class="text-purple-400">Especulación</strong>: predicción u opinión, a veces de personas muy competentes, pero sin mediciones que la respalden.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t2-p2">Algunos ejemplos de lo que está en la primera categoría: aumentar los datos, los parámetros y la capacidad de cómputo mejoró los modelos de forma predecible durante varios años (las llamadas <strong class="text-neutral-100">leyes de escala</strong>, descritas en artículos de 2020 y 2022); el entrenamiento por refuerzo con recompensas verificables hizo que los modelos mejoraran en matemáticas y programación; y el rendimiento es <strong class="text-neutral-100">irregular</strong> —la «frontera irregular», término de un estudio de 2023 con consultores, que mostró avances en algunas tareas y retrocesos en otras aparentemente similares.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t2-p1">La herramienta más útil de este módulo es sencilla: ante cada afirmación sobre el futuro de la IA, pregunta en cuál de estas tres categorías encaja. <strong class="text-purple-400">Se sabe</strong>: hay mediciones publicadas y repetidas por distintos grupos. <strong class="text-purple-400">En debate</strong>: especialistas calificados, al revisar los mismos datos, discrepan. <strong class="text-purple-400">Especulación</strong>: predicción u opinión, a veces de personas muy competentes, pero sin mediciones que la respalden.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t2-p2">Algunos ejemplos de lo que está en la primera categoría: aumentar los datos, los parámetros y la capacidad de cómputo mejoró los modelos de forma predecible durante varios años (las llamadas <strong class="text-neutral-100">leyes de escala</strong>, descritas en artículos de 2020 y 2022); el entrenamiento por refuerzo con recompensas verificables hizo que los modelos mejoraran en matemáticas y programación; y el rendimiento es <strong class="text-neutral-100">irregular</strong> —la «frontera irregular», término de un estudio de 2023 con consultores, que mostró avances en algunas tareas y retrocesos en otras aparentemente similares.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es un método de lectura: clasificar cada afirmación sobre el futuro de la IA como algo que se sabe, está en debate o es especulación, y decidir con base en las dos primeras categorías, tratando la tercera como un escenario posible, no como un hecho.</p>
@@ -684,7 +684,7 @@ Texto: &lt;pégalo aquí&gt;
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> elige dos afirmaciones clasificadas como SE SABE y busca tú mismo la fuente primaria. Si no la encuentras, reclasifícalas: el modelo también puede equivocarse por exceso de confianza. Repite el ejercicio con un texto optimista y otro pesimista: la proporción de especulación suele ser parecida en ambos.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t2-p3" data-sum="porque">Leerás muchas más predicciones que mediciones. Separar las tres categorías protege a la organización de dos desperdicios: invertir por miedo a una especulación e ignorar lo que ya se midió y está cambiando tu sector.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t2-p3" data-sum="porque">Leerás muchas más predicciones que mediciones. Separar las tres categorías protege a la organización de dos desperdicios: invertir por miedo a una especulación e ignorar lo que ya se midió y está cambiando tu sector.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Leyes de escala</div><div class="text-xs text-neutral-400">más datos y capacidad de cómputo, mejor modelo</div></div>
@@ -693,27 +693,27 @@ Texto: &lt;pégalo aquí&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Tres categorías</div><div class="text-xs text-neutral-400">se sabe, debate, especulación</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o futuro que já dá para medir">📡 Tendencias que ya se observan</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t3-p1">La forma más segura de pensar en el futuro cercano es observar lo que <strong class="text-neutral-100">ya está ocurriendo a pequeña escala</strong> y preguntarse qué pasará cuando sea barato y confiable. En octubre de 2026, seis tendencias son visibles en productos y mediciones públicas, no en promesas. No indican cuándo llegará la AGI; muestran qué cambiará en tu trabajo durante los próximos años.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t3-p2">Un indicador que vale la pena monitorear es el <strong class="text-purple-400">horizonte de tarea</strong>: cuánto tiempo seguido puede trabajar un agente en una tarea antes de cometer un error irrecuperable. Organizaciones de evaluación independientes, como METR, publican mediciones de este tipo; para un gerente, son más informativas que la puntuación de un benchmark de preguntas y respuestas.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t3-p1">La forma más segura de pensar en el futuro cercano es observar lo que <strong class="text-neutral-100">ya está ocurriendo a pequeña escala</strong> y preguntarse qué pasará cuando sea barato y confiable. En octubre de 2026, seis tendencias son visibles en productos y mediciones públicas, no en promesas. No indican cuándo llegará la AGI; muestran qué cambiará en tu trabajo durante los próximos años.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t3-p2">Un indicador que vale la pena monitorear es el <strong class="text-purple-400">horizonte de tarea</strong>: cuánto tiempo seguido puede trabajar un agente en una tarea antes de cometer un error irrecuperable. Organizaciones de evaluación independientes, como METR, publican mediciones de este tipo; para un gerente, son más informativas que la puntuación de un benchmark de preguntas y respuestas.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Son cambios que ya pueden observarse en productos y evaluaciones públicas —agentes que realizan tareas largas, uso de la computadora, modelos de razonamiento, multimodalidad en tiempo real, modelos abiertos y locales, y reducción del costo por capacidad—, seguidos mediante señales concretas, no anuncios.</p>
@@ -728,10 +728,10 @@ Texto: &lt;pégalo aquí&gt;
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-9-t3-p3">Para cada tendencia, guarda un caso de tu negocio que hoy no es viable y que lo sería si esa tendencia avanzara. Cuando cambie la señal, ya sabrás qué probar primero y no tendrás que adivinar fechas.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-9-t3-p3">Para cada tendencia, guarda un caso de tu negocio que hoy no es viable y que lo sería si esa tendencia avanzara. Cuando cambie la señal, ya sabrás qué probar primero y no tendrás que adivinar fechas.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t3-p4" data-sum="porque">Las tendencias observables dan ventaja a quienes siguen las señales en vez de los titulares. Una lista breve de señales, revisada con regularidad, permite actuar temprano en los casos adecuados sin apostar la empresa a una predicción.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t3-p4" data-sum="porque">Las tendencias observables dan ventaja a quienes siguen las señales en vez de los titulares. Una lista breve de señales, revisada con regularidad, permite actuar temprano en los casos adecuados sin apostar la empresa a una predicción.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Horizonte de tarea</div><div class="text-xs text-neutral-400">cuánto tiempo aguanta el agente</div></div>
@@ -740,27 +740,27 @@ Texto: &lt;pégalo aquí&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Señal</div><div class="text-xs text-neutral-400">qué observar, no la fecha</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="o que você controla, influencia e acompanha">⚠️ Riesgos sin pánico</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t4-p1">Los riesgos de la IA van de lo muy concreto a lo muy incierto. Entre los concretos están el <strong class="text-neutral-100">uso indebido</strong> (fraudes con voz y video falsos, ciberataques automatizados, desinformación a gran escala) y las <strong class="text-neutral-100">fallas</strong> (errores repetidos en miles de casos, agentes con demasiados permisos). En el medio están los riesgos <strong class="text-neutral-100">estructurales</strong>: concentración de poder en pocos proveedores, dependencia tecnológica, desigualdad en el acceso. En el extremo incierto está el debate sobre el <strong class="text-purple-400">alineamiento</strong> de sistemas mucho más capaces que los actuales.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t4-p2"><strong class="text-neutral-100">Alineamiento</strong> es el problema de lograr que un sistema persiga realmente lo que se pretende, y no una aproximación que funciona en las pruebas y falla fuera de ellas. Es un área de investigación seria, con laboratorios e investigadores académicos dedicados, y hay desacuerdos reales entre especialistas sobre su gravedad y plazo. La postura madura no es ignorarlo ni entrar en pánico: es saber en qué capa está cada riesgo y qué está a tu alcance.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t4-p1">Los riesgos de la IA van de lo muy concreto a lo muy incierto. Entre los concretos están el <strong class="text-neutral-100">uso indebido</strong> (fraudes con voz y video falsos, ciberataques automatizados, desinformación a gran escala) y las <strong class="text-neutral-100">fallas</strong> (errores repetidos en miles de casos, agentes con demasiados permisos). En el medio están los riesgos <strong class="text-neutral-100">estructurales</strong>: concentración de poder en pocos proveedores, dependencia tecnológica, desigualdad en el acceso. En el extremo incierto está el debate sobre el <strong class="text-purple-400">alineamiento</strong> de sistemas mucho más capaces que los actuales.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t4-p2"><strong class="text-neutral-100">Alineamiento</strong> es el problema de lograr que un sistema persiga realmente lo que se pretende, y no una aproximación que funciona en las pruebas y falla fuera de ellas. Es un área de investigación seria, con laboratorios e investigadores académicos dedicados, y hay desacuerdos reales entre especialistas sobre su gravedad y plazo. La postura madura no es ignorarlo ni entrar en pánico: es saber en qué capa está cada riesgo y qué está a tu alcance.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es un mapa de riesgos por capas —uso indebido, fallas, riesgos estructurales y alineamiento a largo plazo— combinado con una pregunta práctica: qué controla mi organización, qué puede influir y qué solo puede monitorear.</p>
@@ -811,7 +811,7 @@ Texto: &lt;pégalo aquí&gt;
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t4-p3" data-sum="porque">Los consejos y los equipos preguntarán «¿esto es peligroso?». Una respuesta por capas —qué es concreto, qué es incierto, qué hacemos al respecto— genera confianza y acción. Las respuestas de pánico o de desdén generan, respectivamente, parálisis e incidentes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t4-p3" data-sum="porque">Los consejos y los equipos preguntarán «¿esto es peligroso?». Una respuesta por capas —qué es concreto, qué es incierto, qué hacemos al respecto— genera confianza y acción. Las respuestas de pánico o de desdén generan, respectivamente, parálisis e incidentes.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Uso indebido</div><div class="text-xs text-neutral-400">fraude, ataque, desinformación</div></div>
@@ -820,27 +820,27 @@ Texto: &lt;pégalo aquí&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Círculo de control</div><div class="text-xs text-neutral-400">actuar donde tienes alcance</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="tarefas mudam, funções se redesenham">💼 El futuro del trabajo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t5-p1">La idea del módulo 1.1 sigue vigente en la cima de la organización: la IA se incorpora por las <strong class="text-neutral-100">tareas</strong>, no por profesiones enteras. Los estudios de <strong class="text-purple-400">exposición</strong> estiman cuántas tareas de cada ocupación puede realizar o acelerar la IA; sin embargo, exposición no es sinónimo de sustitución. Una función muy expuesta puede ampliarse (la persona hace más y mejor) o reducirse (menos personas hacen lo mismo), y eso depende de decisiones de gestión, no solo de la tecnología.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t5-p2">Una preocupación concreta, que ya aparece en conversaciones de RR. HH. y educación, es el <strong class="text-neutral-100">escalón de entrada</strong>. Muchas tareas que formaban a profesionales júnior —investigación inicial, primer borrador, código sencillo, revisión de documentos— son precisamente las más fáciles de delegar a la IA. Si nadie vuelve a hacer esas tareas, ¿cómo se forma a la persona sénior de aquí a diez años? Las organizaciones que piensan en esto diseñan nuevos caminos de aprendizaje en lugar de simplemente recortar puestos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t5-p1">La idea del módulo 1.1 sigue vigente en la cima de la organización: la IA se incorpora por las <strong class="text-neutral-100">tareas</strong>, no por profesiones enteras. Los estudios de <strong class="text-purple-400">exposición</strong> estiman cuántas tareas de cada ocupación puede realizar o acelerar la IA; sin embargo, exposición no es sinónimo de sustitución. Una función muy expuesta puede ampliarse (la persona hace más y mejor) o reducirse (menos personas hacen lo mismo), y eso depende de decisiones de gestión, no solo de la tecnología.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t5-p2">Una preocupación concreta, que ya aparece en conversaciones de RR. HH. y educación, es el <strong class="text-neutral-100">escalón de entrada</strong>. Muchas tareas que formaban a profesionales júnior —investigación inicial, primer borrador, código sencillo, revisión de documentos— son precisamente las más fáciles de delegar a la IA. Si nadie vuelve a hacer esas tareas, ¿cómo se forma a la persona sénior de aquí a diez años? Las organizaciones que piensan en esto diseñan nuevos caminos de aprendizaje en lugar de simplemente recortar puestos.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es la reorganización del trabajo tarea por tarea: algunas pasan a los agentes, otras cobran más importancia (criterio, verificación, relaciones, coordinación de agentes) y las funciones se rediseñan, incluida la manera de formar a quienes están empezando.</p>
@@ -876,7 +876,7 @@ Texto: &lt;pégalo aquí&gt;
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t5-p3" data-sum="porque">El efecto de la IA en el trabajo de tu organización no está escrito: depende de las decisiones que tú y otros líderes tomen sobre el rediseño de funciones, la formación y la reinversión. Entender la diferencia entre exposición y reemplazo es lo que permite tomar esas decisiones con criterio.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t5-p3" data-sum="porque">El efecto de la IA en el trabajo de tu organización no está escrito: depende de las decisiones que tú y otros líderes tomen sobre el rediseño de funciones, la formación y la reinversión. Entender la diferencia entre exposición y reemplazo es lo que permite tomar esas decisiones con criterio.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Exposición</div><div class="text-xs text-neutral-400">tareas a las que llega la IA</div></div>
@@ -885,27 +885,27 @@ Texto: &lt;pégalo aquí&gt;
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Rediseño de funciones</div><div class="text-xs text-neutral-400">tarea por tarea</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="planejar sem precisar acertar a previsão">🧭 Escenarios en lugar de predicciones</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t6-p1">Nadie sabe con exactitud a qué ritmo avanzará la IA. Ante una incertidumbre así, las predicciones puntuales («en 2029 ocurre X») sirven de poco para decidir. La <strong class="text-purple-400">planificación por escenarios</strong>, utilizada desde hace décadas en el sector energético y en los gobiernos, cambia la pregunta «¿qué va a pasar?» por «¿qué haríamos en cada futuro plausible?».</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t6-p2">El método elige dos incertidumbres importantes e independientes, las cruza y describe los cuatro mundos resultantes. Para la IA, un par útil es el <strong class="text-neutral-100">ritmo de avance de las capacidades</strong> (lento o rápido) y la <strong class="text-neutral-100">velocidad de adopción en tu sector</strong> (lenta o rápida). De ahí surgen tres tipos de acción: <strong class="text-neutral-100">sin arrepentimiento</strong> (convenientes en todos los escenarios), <strong class="text-neutral-100">apuestas</strong> (convenientes en uno o dos, se hacen cuando aparece una señal) y <strong class="text-neutral-100">protecciones</strong> (limitan el daño en el peor escenario).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t6-p1">Nadie sabe con exactitud a qué ritmo avanzará la IA. Ante una incertidumbre así, las predicciones puntuales («en 2029 ocurre X») sirven de poco para decidir. La <strong class="text-purple-400">planificación por escenarios</strong>, utilizada desde hace décadas en el sector energético y en los gobiernos, cambia la pregunta «¿qué va a pasar?» por «¿qué haríamos en cada futuro plausible?».</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t6-p2">El método elige dos incertidumbres importantes e independientes, las cruza y describe los cuatro mundos resultantes. Para la IA, un par útil es el <strong class="text-neutral-100">ritmo de avance de las capacidades</strong> (lento o rápido) y la <strong class="text-neutral-100">velocidad de adopción en tu sector</strong> (lenta o rápida). De ahí surgen tres tipos de acción: <strong class="text-neutral-100">sin arrepentimiento</strong> (convenientes en todos los escenarios), <strong class="text-neutral-100">apuestas</strong> (convenientes en uno o dos, se hacen cuando aparece una señal) y <strong class="text-neutral-100">protecciones</strong> (limitan el daño en el peor escenario).</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es un método de planificación que cruza dos incertidumbres para describir cuatro futuros plausibles, define señales que indican cuál de ellos está tomando forma y separa acciones sin arrepentimiento, apuestas condicionadas y protecciones.</p>
@@ -962,7 +962,7 @@ Incertidumbres elegidas:
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> Pon a prueba cada acción «sin arrepentimiento» en los cuatro cuadrantes preguntando: «En el escenario de evolución gradual, ¿sigue valiendo la pena el costo?». Si la respuesta es no en alguno, es una apuesta y pasa a otra lista. Las señales deben ser observables por alguien de tu equipo: «que llegue la AGI» no es una señal; «que un competidor automatice la atención de principio a fin» sí lo es.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t6-p3" data-sum="porque">Los escenarios evitan que el liderazgo caiga en la trampa de esperar certeza para actuar. Empiezas ya con las acciones sin arrepentimiento, preparas las apuestas sin invertir en ellas y sabes exactamente qué señal cambia el plan. Así, la organización responde con más rapidez justo cuando el futuro sorprende.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t6-p3" data-sum="porque">Los escenarios evitan que el liderazgo caiga en la trampa de esperar certeza para actuar. Empiezas ya con las acciones sin arrepentimiento, preparas las apuestas sin invertir en ellas y sabes exactamente qué señal cambia el plan. Así, la organización responde con más rapidez justo cuando el futuro sorprende.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Escenario</div><div class="text-xs text-neutral-400">futuro plausible, no predicción</div></div>
@@ -971,27 +971,27 @@ Incertidumbres elegidas:
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Protección</div><div class="text-xs text-neutral-400">limita el peor escenario</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-3-9#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-3-9#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="radar, teste próprio e aprendizado contínuo">🛠️ Cómo prepararte con método</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar una duda en este tema" type="button"><span aria-hidden="true">?</span><span>Tengo una duda</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t7-p1">Prepararte para el futuro de la IA no exige adivinar. Exige tres hábitos. Un <strong class="text-purple-400">radar</strong> con una frecuencia fija, alimentado por fuentes primarias: artículos, model cards y system cards de los laboratorios, informes de evaluación independientes (como los de METR y Epoch AI) y el AI Index de la Universidad Stanford. Una <strong class="text-purple-400">prueba propia</strong>: un conjunto pequeño de tus tareas reales, que se ejecuta cada trimestre con los modelos disponibles. Y el <strong class="text-purple-400">aprendizaje continuo</strong> del equipo, con práctica en tareas del trabajo.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t7-p2">La prueba propia es lo más subestimado. Los benchmarks públicos miden lo que los laboratorios eligieron medir; tu conjunto mide lo que te importa. Con él, la pregunta «¿el nuevo modelo es mejor?» obtiene una respuesta en cinco minutos, con un historial, en lugar de una impresión. Y el cambio de un caso de «inviable» a «viable» aparece en tu panel antes que en los titulares.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t7-p1">Prepararte para el futuro de la IA no exige adivinar. Exige tres hábitos. Un <strong class="text-purple-400">radar</strong> con una frecuencia fija, alimentado por fuentes primarias: artículos, model cards y system cards de los laboratorios, informes de evaluación independientes (como los de METR y Epoch AI) y el AI Index de la Universidad Stanford. Una <strong class="text-purple-400">prueba propia</strong>: un conjunto pequeño de tus tareas reales, que se ejecuta cada trimestre con los modelos disponibles. Y el <strong class="text-purple-400">aprendizaje continuo</strong> del equipo, con práctica en tareas del trabajo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t7-p2">La prueba propia es lo más subestimado. Los benchmarks públicos miden lo que los laboratorios eligieron medir; tu conjunto mide lo que te importa. Con él, la pregunta «¿el nuevo modelo es mejor?» obtiene una respuesta en cinco minutos, con un historial, en lugar de una impresión. Y el cambio de un caso de «inviable» a «viable» aparece en tu panel antes que en los titulares.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es una rutina de preparación: radar trimestral con fuentes primarias, una prueba propia con las tareas de la organización que se ejecuta con cada modelo nuevo y formación continua del equipo; todo queda registrado para comparar a lo largo del tiempo.</p>
@@ -1049,10 +1049,10 @@ print(f"{hoje} {MODELO}: {acertos}/{len(TAREFAS)} — historial en bench_histori
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Consejo</p>
-<p class="text-sm text-neutral-300" data-inema-block="m3-9-t7-p3">Los nombres de modelos, los precios y los lanzamientos cambian cada pocos meses; todo lo que este curso mencionó por nombre puede ser diferente cuando vuelvas a leerlo. El método se mantiene: pregunta cuál es la tarea, mide con tus casos, verifica antes de confiar y registra la decisión.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-9-t7-p3">Los nombres de modelos, los precios y los lanzamientos cambian cada pocos meses; todo lo que este curso mencionó por nombre puede ser diferente cuando vuelvas a leerlo. El método se mantiene: pregunta cuál es la tarea, mide con tus casos, verifica antes de confiar y registra la decisión.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por qué aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m3-9-t7-p4" data-sum="porque">Quienes tienen un radar, una prueba propia y un equipo que aprende no necesitan acertar las predicciones: perciben el cambio temprano, miden el efecto en su propio trabajo y deciden con datos. Es la mejor preparación disponible para un futuro que nadie conoce en detalle.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-9-t7-p4" data-sum="porque">Quienes tienen un radar, una prueba propia y un equipo que aprende no necesitan acertar las predicciones: perciben el cambio temprano, miden el efecto en su propio trabajo y deciden con datos. Es la mejor preparación disponible para un futuro que nadie conoce en detalle.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceptos clave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Radar</div><div class="text-xs text-neutral-400">fuentes primarias, frecuencia fija</div></div>
@@ -1061,11 +1061,11 @@ print(f"{hoje} {MODELO}: {acertos}/{len(TAREFAS)} — historial en bench_histori
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Aprendizaje continuo</div><div class="text-xs text-neutral-400">práctica con tareas reales</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Marcar como leído</span>
-<span class="inema-label-done">Leído</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Marcar como leído</span>
+<span class="ARCKHÉ-label-done">Leído</span>
 </button>
 </div>
 </div>
@@ -1097,7 +1097,7 @@ print(f"{hoje} {MODELO}: {acertos}/{len(TAREFAS)} — historial en bench_histori
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Formación en Transformación Digital · contenido abierto y gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1129,15 +1129,15 @@ print(f"{hoje} {MODELO}: {acertos}/{len(TAREFAS)} — historial en bench_histori
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>

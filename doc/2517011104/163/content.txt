@@ -10,16 +10,16 @@ Midias baixadas: 14
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-11-04T10:27:10+00:00
 Texto:
-https://inematds.github.io/ITIA/
+https://linnoff88-dev.github.io/
 Midia: MessageMediaWebPage
 
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-11-04T10:27:10+00:00
 Texto:
 vem mais um curso ai
@@ -28,7 +28,7 @@ Midia: MessageMediaPhoto -> photo_1539_002.jpg
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-23T09:30:10+00:00
 Texto:
 1-1 Impacto da IA na Vida Real
@@ -64,7 +64,7 @@ Texto:
 1-5-2 Videos - Movimento de Camera
 [https://t.me/c/2517011104/260](https://t.me/c/2517011104/260)
 
-1-5-3 Concistencia, Cinema, 3D e Games
+1-5-3 Concistencia, CARCKHÉ, 3D e Games
 [https://t.me/c/2517011104/362](https://t.me/c/2517011104/362)
 
 1-5-4 Audio, Musica, LipSync
@@ -139,14 +139,14 @@ Programa FTD
 Prompts Resumo
 [https://t.me/c/2517011104/1452](https://t.me/c/2517011104/1452)
 
-INEMAVIP
+ARCKHÉVIP
 [https://t.me/c/2517011104/1379](https://t.me/c/2517011104/1379)
 Midia: MessageMediaWebPage
 
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-18T22:14:42+00:00
 Texto:
 https://vm.tiktok.com/ZMADtteCy/
@@ -155,7 +155,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:40:28+00:00
 Texto:
 Prompts um Resumo Rapido
@@ -164,7 +164,7 @@ https://t.me/c/2517011104/1452
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:15:09+00:00
 Texto:
 Cursos Completos no Youtube
@@ -173,7 +173,7 @@ https://t.me/c/2517011104/1439
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T17:01:06+00:00
 Texto:
 Folder do Programa
@@ -184,7 +184,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T17:00:40+00:00
 Texto:
 Folder dos 3 Dias
@@ -195,7 +195,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:43:30+00:00
 Texto:
 Folder 
@@ -206,7 +206,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:40:29+00:00
 Texto:
 programa
@@ -217,7 +217,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:39:21+00:00
 Texto:
 site
@@ -227,7 +227,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:37:11+00:00
 Texto:
 https://gamma.app/docs/10-Estatisticas-Surpreendentes-de-IA-Generativa-qsq8qyrijhib8e3
@@ -236,7 +236,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:35:58+00:00
 Texto: [Sem texto]
 Midia: MessageMediaDocument -> Descubra-como-a-IA-vai-transformar-sua-vida-em-3-dias.zip
@@ -244,7 +244,7 @@ Midia: MessageMediaDocument -> Descubra-como-a-IA-vai-transformar-sua-vida-em-3-
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:35:51+00:00
 Texto:
 https://gamma.app/docs/Descubra-como-a-IA-vai-transformar-sua-vida-em-3-dias-1r7c9muq2sl4h4n?mode=doc
@@ -253,7 +253,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-05-14T16:35:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaDocument -> Descubra-como-a-IA-vai-transformar-sua-vida-em-3-dias.pdf
@@ -261,7 +261,7 @@ Midia: MessageMediaDocument -> Descubra-como-a-IA-vai-transformar-sua-vida-em-3-
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:02+00:00
 Texto:
 .
@@ -269,7 +269,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:02+00:00
 Texto:
 .
@@ -277,7 +277,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:02+00:00
 Texto:
 .
@@ -285,7 +285,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:51:01+00:00
 Texto:
 Programa FTD - Formação da Transformação Digital
@@ -339,7 +339,7 @@ https://t.me/c/2517011104/301
 1-5-2 - Videos a partir de uma foto
 https://t.me/c/2517011104/318
 
-1-5-3 - Concistencia, Cinema , 3de Games
+1-5-3 - Concistencia, CARCKHÉ , 3de Games
 https://t.me/c/2517011104/362
 
 1-5-4 - Audio, Musica, LipSync
@@ -405,7 +405,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:20+00:00
 Texto:
 Programa FTD - Formação da Transformação Digital
@@ -456,7 +456,7 @@ Tarde**
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:15+00:00
 Texto:
 .
@@ -464,7 +464,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:15+00:00
 Texto:
 .
@@ -472,7 +472,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:14+00:00
 Texto:
 .
@@ -480,7 +480,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:14+00:00
 Texto:
 .
@@ -488,7 +488,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:14+00:00
 Texto:
 .
@@ -496,7 +496,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:13+00:00
 Texto:
 .
@@ -504,7 +504,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:13+00:00
 Texto:
 .
@@ -512,7 +512,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:13+00:00
 Texto:
 1
@@ -520,7 +520,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 29
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-04-07T06:48:00+00:00
 Texto: [Sem texto]
 

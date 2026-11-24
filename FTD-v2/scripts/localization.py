@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup,Comment,Doctype
 import json,re,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 ATTRS=('aria-label','title','alt','placeholder')
-SKIP=('FTD','INEMA.CLUB','PRO','PT','EN','ES','T1','T2','T3','Inter','A','A+','A++','×','/','·','Claude','ChatGPT','Gemini','LLM','RAG','MCP','API','JSON','LoRA','Ollama','n8n','Make','Zapier','LGPD')
+SKIP=('FTD','ARCKHÉ AI','PRO','PT','EN','ES','T1','T2','T3','Inter','A','A+','A++','×','/','·','Claude','ChatGPT','Gemini','LLM','RAG','MCP','API','JSON','LoRA','Ollama','n8n','Make','Zapier','LGPD')
 def norm(s):return re.sub(r'\s+',' ',str(s)).strip()
 def ident(s):return hashlib.sha256(s.encode()).hexdigest()[:16]
 def pages():return [ROOT/'index.html',*sorted(x for x in (ROOT/'curso').rglob('*.html') if 'src' not in x.parts)]
@@ -14,7 +14,7 @@ def eligible(s):return bool(re.search(r'[A-Za-zÀ-ÿ]{2}',s)) and s not in SKIP
 def text_nodes(soup):
  for n in soup.find_all(string=True):
   if isinstance(n,(Comment,Doctype)) or n.parent.name in ('script','style','noscript'):continue
-  if n.find_parent(class_='inema-lang'):continue
+  if n.find_parent(class_='ARCKHÉ-lang'):continue
   pre=n.find_parent('pre')
   # comandos de shell ficam idênticos; templates em prosa traduzem
   if pre and re.search(r'^\s*(?:mkdir |git |python3 |sudo |cd |npm |node |~/|\$ )',str(n)):continue
@@ -38,7 +38,7 @@ def catalog():
     if tag.get(a):add(tag[a])
   for t in meta_targets(soup):add(t['content'])
   if soup.title:add(soup.title.get_text())
-  m=soup.select_one('[data-inema-manifest]')
+  m=soup.select_one('[data-ARCKHÉ-manifest]')
   if m:
    for tr in json.loads(m.string)['tracks']:
     add(tr['title'])

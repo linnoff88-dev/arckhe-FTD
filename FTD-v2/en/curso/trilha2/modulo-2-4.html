@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ftd-v2-en" name="inema-course"/>
+<meta content="ftd-v2-en" name="ARCKHÉ-course"/>
 <title>Module 2.4 · Fine-tuning and Customization | FTD v2</title>
 <meta content="Prompt, RAG, or fine-tuning: the decision ladder, LoRA, data preparation, evaluation, and costs." name="description"/>
 <meta content="Module 2.4 · Fine-tuning and Customization | FTD v2" property="og:title"/>
@@ -14,11 +14,11 @@
 (function () {
   try {
     var html = document.documentElement;
-    var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
+    var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'emerald' };
     function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
     var p = clone(DEF);
     try {
-      var raw = localStorage.getItem('inema.prefs');
+      var raw = localStorage.getItem('ARCKHÉ.prefs');
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === 'object') {
@@ -27,18 +27,18 @@
       } else {
         var legacy = localStorage.getItem('theme');
         if (legacy === 'light') p.theme = 'claro';
-        else if (legacy === 'dark') p.theme = 'inema-dark';
+        else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
       }
     } catch (e) { p = clone(DEF); }
 
     var THEMES = {
-      'inema-dark': { dark: true,  attr: null,        cs: 'dark'  },
+      'ARCKHÉ-dark': { dark: true,  attr: null,        cs: 'dark'  },
       'claro':      { dark: false, attr: null,        cs: 'light' },
       'sepia':      { dark: false, attr: 'sepia',     cs: 'light' },
       'foco':       { dark: null,  attr: 'foco',      cs: null    },
       'contraste':  { dark: true,  attr: 'contraste', cs: 'dark'  }
     };
-    var t = THEMES[p.theme] || THEMES['inema-dark'];
+    var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
 
     if (t.dark === true) html.classList.add('dark');
     else if (t.dark === false) html.classList.remove('dark');
@@ -53,7 +53,7 @@
 
     var s = html.style;
     var scale = (+p.fontScale || 100);
-    s.setProperty('--inema-font-scale', (scale / 100).toString());
+    s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
     s.setProperty('font-size', scale + '%');
     s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
     s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -79,7 +79,7 @@
 })();
 </script>
 <!-- MANIFESTO do curso (Erro #28) — idêntico em todas as páginas -->
-<script data-inema-manifest="" type="application/json">
+<script data-ARCKHÉ-manifest="" type="application/json">
 {
   "course": "ftd-v2-en",
   "tracks": [
@@ -365,21 +365,21 @@
     @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; transition: none !important; } }
   </style>
 <link href="../../../assets/learn.css" rel="stylesheet"/>
-<link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-4.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-4.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/es/curso/trilha2/modulo-2-4.html" hreflang="es" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/curso/trilha2/modulo-2-4.html" hreflang="x-default" rel="alternate"/><link href="https://inematds.github.io/FTD/FTD-v2/en/curso/trilha2/modulo-2-4.html" rel="canonical"/></head>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="x-default" rel="alternate"/><link href="https://linnoff88-dev.github.io/ rel="canonical"/></head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen">
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14 gap-2">
-<!-- Logo + INEMA.CLUB -->
+<!-- Logo + ARCKHÉ AI -->
 <div class="flex items-center space-x-3 flex-shrink-0">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
 <span class="text-2xl">🚀</span>
 <span class="font-display font-bold text-lg hidden sm:inline">FTD</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a>
 <span class="text-neutral-600 hidden sm:inline">-</span>
-<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+<a class="text-amber-700 dark:text-slate-300 hover:underline text-sm font-medium hidden sm:inline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a>
 </div>
 <!-- Trilhas + controles de aprendizagem + theme toggle -->
 <div class="flex items-center gap-1 sm:gap-1.5">
@@ -394,70 +394,70 @@
 </a>
 <span class="w-px h-6 bg-dark-600 mx-1 hidden sm:inline-block"></span>
 <!-- Minha jornada (abre o painel global; badge = % do curso) -->
-<div aria-label="Idioma" class="inema-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-4.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-4.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-4.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-inema-journey-open="" type="button">
+<div aria-label="Idioma" class="ARCKHÉ-lang" style="display:inline-flex;flex-shrink:0;gap:0;padding:2px;border-radius:9px;background:rgba(12,12,16,.82);border:1px solid rgba(250,204,21,.45);font:600 11px/1 Sora,Inter,system-ui,sans-serif" translate="no"><a href="../../../curso/trilha2/modulo-2-4.html" hreflang="pt-BR" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-4.html" hreflang="en" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#1a1206;background:#FACC15">EN</a><a href="../../../es/curso/trilha2/modulo-2-4.html" hreflang="es" style="padding:5px 5px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div><button class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors" data-ARCKHÉ-journey-open="" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
 <span class="hidden md:inline">My journey</span>
-<span class="inema-journey-badge" data-count="0" data-inema-journey-badge=""></span>
+<span class="ARCKHÉ-journey-badge" data-count="0" data-ARCKHÉ-journey-badge=""></span>
 </button>
 <!-- Aparência (gatilho + painel obrigatório) -->
 <div class="relative">
-<button aria-expanded="false" class="inema-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-inema-appearance-toggle="#inema-appearance-panel" type="button">
+<button aria-expanded="false" class="ARCKHÉ-appearance-trigger inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold text-neutral-300 hover:text-neutral-100 transition-colors" data-ARCKHÉ-appearance-toggle="#ARCKHÉ-appearance-panel" type="button">
 <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="9"></circle><path d="M12 3v18"></path><path d="M12 3a9 9 0 0 1 0 18" fill="currentColor"></path></svg>
 <span class="hidden md:inline">Appearance</span>
 </button>
-<div class="inema-appearance-pop right-0" data-inema-appearance="" id="inema-appearance-panel">
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Theme</span>
-<div class="inema-segment">
-<button data-inema-set-theme="inema-dark" type="button">Dark</button>
-<button data-inema-set-theme="claro" type="button">Light</button>
-<button data-inema-set-theme="sepia" type="button">Sepia</button>
+<div class="ARCKHÉ-appearance-pop right-0" data-ARCKHÉ-appearance="" id="ARCKHÉ-appearance-panel">
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Theme</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="ARCKHÉ-dark" type="button">Dark</button>
+<button data-ARCKHÉ-set-theme="claro" type="button">Light</button>
+<button data-ARCKHÉ-set-theme="sepia" type="button">Sepia</button>
 </div>
-<div class="inema-segment">
-<button data-inema-set-theme="foco" type="button">Focus</button>
-<button data-inema-set-theme="contraste" type="button">High contrast</button>
-</div>
-</div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Font</span>
-<div class="inema-segment">
-<button data-inema-set-font="inter" type="button">Inter</button>
-<button data-inema-set-font="system" type="button">System</button>
-<button data-inema-set-font="leitura" type="button">Reading</button>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-theme="foco" type="button">Focus</button>
+<button data-ARCKHÉ-set-theme="contraste" type="button">High contrast</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Size</span>
-<div class="inema-segment">
-<button data-inema-set-fontscale="100" type="button">A</button>
-<button data-inema-set-fontscale="112" type="button">A+</button>
-<button data-inema-set-fontscale="125" type="button">A++</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Font</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-font="inter" type="button">Inter</button>
+<button data-ARCKHÉ-set-font="system" type="button">System</button>
+<button data-ARCKHÉ-set-font="leitura" type="button">Reading</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Width</span>
-<div class="inema-segment">
-<button data-inema-set-linewidth="60" type="button">Narrow</button>
-<button data-inema-set-linewidth="68" type="button">Medium</button>
-<button data-inema-set-linewidth="75" type="button">Wide</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Size</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-fontscale="100" type="button">A</button>
+<button data-ARCKHÉ-set-fontscale="112" type="button">A+</button>
+<button data-ARCKHÉ-set-fontscale="125" type="button">A++</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Line spacing</span>
-<div class="inema-segment">
-<button data-inema-set-leading="1.45" type="button">Compact</button>
-<button data-inema-set-leading="1.7" type="button">Comfortable</button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Width</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-linewidth="60" type="button">Narrow</button>
+<button data-ARCKHÉ-set-linewidth="68" type="button">Medium</button>
+<button data-ARCKHÉ-set-linewidth="75" type="button">Wide</button>
 </div>
 </div>
-<div class="inema-pref-group">
-<span class="inema-pref-group__label">Accent</span>
-<div class="inema-accent-grid">
-<button aria-label="Emerald accent" data-inema-set-accent="emerald" type="button"></button>
-<button aria-label="Blue accent" data-inema-set-accent="blue" type="button"></button>
-<button aria-label="Purple accent" data-inema-set-accent="purple" type="button"></button>
-<button aria-label="Amber accent" data-inema-set-accent="amber" type="button"></button>
-<button aria-label="Teal accent" data-inema-set-accent="teal" type="button"></button>
-<button aria-label="Pink accent" data-inema-set-accent="rose" type="button"></button>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Line spacing</span>
+<div class="ARCKHÉ-segment">
+<button data-ARCKHÉ-set-leading="1.45" type="button">Compact</button>
+<button data-ARCKHÉ-set-leading="1.7" type="button">Comfortable</button>
+</div>
+</div>
+<div class="ARCKHÉ-pref-group">
+<span class="ARCKHÉ-pref-group__label">Accent</span>
+<div class="ARCKHÉ-accent-grid">
+<button aria-label="Emerald accent" data-ARCKHÉ-set-accent="emerald" type="button"></button>
+<button aria-label="Blue accent" data-ARCKHÉ-set-accent="blue" type="button"></button>
+<button aria-label="Purple accent" data-ARCKHÉ-set-accent="purple" type="button"></button>
+<button aria-label="Amber accent" data-ARCKHÉ-set-accent="amber" type="button"></button>
+<button aria-label="Teal accent" data-ARCKHÉ-set-accent="teal" type="button"></button>
+<button aria-label="Pink accent" data-ARCKHÉ-set-accent="rose" type="button"></button>
 </div>
 </div>
 </div>
@@ -475,7 +475,7 @@
 </div>
 </div>
 </nav>
-<main data-inema-module="2-4" data-inema-track="2" id="conteudo">
+<main data-ARCKHÉ-module="2-4" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
 <nav aria-label="Navigation track" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
@@ -497,8 +497,8 @@
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Practical</div><div class="text-xs text-neutral-400">Type</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">
-<div aria-label="Module 2.4 progress" class="inema-ring" data-inema-meter="modulo:2-4"><span class="inema-ring__value" data-inema-meter-pct="">0%</span></div>
-<div class="inema-meter-label" data-inema-meter="modulo:2-4"><strong data-inema-meter-frac="">0 of 0</strong> topics read · <span data-inema-section-counter="">Section 1 of 7</span></div>
+<div aria-label="Module 2.4 progress" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-4"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-4"><strong data-ARCKHÉ-meter-frac="">0 of 0</strong> topics read · <span data-ARCKHÉ-section-counter="">Section 1 of 7</span></div>
 </div>
 </div>
 </header>
@@ -506,34 +506,34 @@
 <div class="lg:flex lg:gap-10">
 <!-- TOC sticky + scrollspy -->
 <aside class="hidden lg:block lg:w-56 flex-shrink-0">
-<nav aria-label="Page index" class="sticky top-20 self-start" data-inema-toc="">
+<nav aria-label="Page index" class="sticky top-20 self-start" data-ARCKHÉ-toc="">
 <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500 mb-3">In this module</p>
 <ol class="space-y-1 text-sm">
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. The decision ladder</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. What training changes</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. LoRA and QLoRA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Data that works</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Train a LoRA</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Evaluate for real</a></li>
-<li><a class="inema-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Costs and maintenance</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-1">1. The decision ladder</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-2">2. What training changes</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-3">3. LoRA and QLoRA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Data that works</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Train a LoRA</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Evaluate for real</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Costs and maintenance</a></li>
 </ol>
 </nav>
 </aside>
 <!-- ARTIGO -->
-<article class="inema-prose flex-1 min-w-0">
+<article class="ARCKHÉ-prose flex-1 min-w-0">
 <h2 class="text-2xl font-bold mb-8">Detailed content</h2>
 <!-- TÓPICO 1 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-1" id="topico-1" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="prompt, RAG ou treino — nessa ordem">🪜 The decision ladder</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t1-p1"><strong class="text-blue-400">Fine-tuning</strong> (fine-tuning) means continuing to train an existing model with your examples so it changes how it responds. It’s the most expensive tool in the toolbox—and the one most often requested by people who haven’t tried the others yet. Before training, climb the ladder one rung at a time: the problem is almost always solved on a lower rung that costs less and is easier to maintain.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t1-p2">The question that determines the choice is <strong class="text-neutral-100">what the model is missing</strong>. If it’s missing clear instructions, use the prompt rung. If it’s missing <em>knowledge</em> (the company catalog, internal policy, today’s price), use the <strong class="text-neutral-100">RAG</strong> — retrieve the right passage and add it to the context, as you saw in Module 2.3. Only when it’s missing <em>behavior</em> — a strict format, a consistent tone, a narrow task repeated thousands of times—is training the right choice.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t1-p1"><strong class="text-blue-400">Fine-tuning</strong> (fine-tuning) means continuing to train an existing model with your examples so it changes how it responds. It’s the most expensive tool in the toolbox—and the one most often requested by people who haven’t tried the others yet. Before training, climb the ladder one rung at a time: the problem is almost always solved on a lower rung that costs less and is easier to maintain.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t1-p2">The question that determines the choice is <strong class="text-neutral-100">what the model is missing</strong>. If it’s missing clear instructions, use the prompt rung. If it’s missing <em>knowledge</em> (the company catalog, internal policy, today’s price), use the <strong class="text-neutral-100">RAG</strong> — retrieve the right passage and add it to the context, as you saw in Module 2.3. Only when it’s missing <em>behavior</em> — a strict format, a consistent tone, a narrow task repeated thousands of times—is training the right choice.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">The decision ladder is the order in which you try to customize a model: a well-written prompt, then examples in the prompt (few-shot), then RAG, and only then fine-tuning. Each rung costs more to set up and maintain than the one before it.</p>
@@ -585,7 +585,7 @@
 </div>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t1-p3" data-sum="porque">Training without a need creates a model you have to version, host, and retrain every time you switch the base model. Knowing when to step down the ladder saves weeks—and knowing when to step up delivers what no prompt can.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t1-p3" data-sum="porque">Training without a need creates a model you have to version, host, and retrain every time you switch the base model. Knowing when to step down the ladder saves weeks—and knowing when to step up delivers what no prompt can.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Few-shot</div><div class="text-xs text-neutral-400">examples in the prompt</div></div>
@@ -594,27 +594,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Diagnosis</div><div class="text-xs text-neutral-400">what the model is missing</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 2 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-2" id="topico-2" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="SFT, preferências e o que se perde">🧬 What training changes</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t2-p1">A model is a collection of <strong class="text-neutral-100">weights</strong> (the numbers adjusted during training). Fine-tuning shows examples of inputs and desired outputs, measures the error (the <strong class="text-neutral-100">loss</strong>, or loss) and nudges the weights in the direction that reduces that error. After repeating this for all examples over a few <strong class="text-neutral-100">epochs</strong> (full passes through the dataset), the model starts to imitate the pattern in your data.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t2-p2">There are two families of fine-tuning you’ll encounter.  <strong class="text-blue-400">SFT</strong> (<em>supervised fine-tuning</em>) teaches with question → ideal answer pairs.  <strong class="text-blue-400">Preference tuning</strong> — such as DPO (<em>Direct Preference Optimization</em>, from 2023)—shows two answers to the same question and indicates which one is better. It helps refine tone and choices when you can’t write the perfect answer but can recognize it. In practice, start with SFT.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t2-p1">A model is a collection of <strong class="text-neutral-100">weights</strong> (the numbers adjusted during training). Fine-tuning shows examples of inputs and desired outputs, measures the error (the <strong class="text-neutral-100">loss</strong>, or loss) and nudges the weights in the direction that reduces that error. After repeating this for all examples over a few <strong class="text-neutral-100">epochs</strong> (full passes through the dataset), the model starts to imitate the pattern in your data.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t2-p2">There are two families of fine-tuning you’ll encounter.  <strong class="text-blue-400">SFT</strong> (<em>supervised fine-tuning</em>) teaches with question → ideal answer pairs.  <strong class="text-blue-400">Preference tuning</strong> — such as DPO (<em>Direct Preference Optimization</em>, from 2023)—shows two answers to the same question and indicates which one is better. It helps refine tone and choices when you can’t write the perfect answer but can recognize it. In practice, start with SFT.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Fine-tuning means continuing to train a pretrained model with your examples. The model doesn’t “memorize a document”; it adjusts weights to reproduce the behavior pattern in the examples—format, tone, and decisions.</p>
@@ -632,10 +632,10 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-4-t2-p3">Training also takes things away. This effect is called <strong>catastrophic forgetting</strong> — the model becomes great at your task and worse at other tasks it used to do well. That’s why your test set needs some general cases, not just cases from the new task.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-4-t2-p3">Training also takes things away. This effect is called <strong>catastrophic forgetting</strong> — the model becomes great at your task and worse at other tasks it used to do well. That’s why your test set needs some general cases, not just cases from the new task.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t2-p4" data-sum="porque">Knowing what training changes helps avoid the most common false expectation: “I’ll train it on the company’s PDFs and it’ll know everything.” Fine-tuning encodes behavior; facts that need to be accurate and up to date still belong in RAG.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t2-p4" data-sum="porque">Knowing what training changes helps avoid the most common false expectation: “I’ll train it on the company’s PDFs and it’ll know everything.” Fine-tuning encodes behavior; facts that need to be accurate and up to date still belong in RAG.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Loss</div><div class="text-xs text-neutral-400">the error training reduces</div></div>
@@ -644,27 +644,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Forgetting</div><div class="text-xs text-neutral-400">improves here, gets worse there</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 3 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-3" id="topico-3" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="treinar 1% dos pesos e caber na sua GPU">🧩 LoRA and QLoRA</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t3-p1">Adjusting all billions of weights ( <em>full fine-tuning</em>) requires a lot of GPU memory and creates a full copy of the model for each version.  <strong class="text-blue-400">LoRA</strong> (<em>Low-Rank Adaptation</em>, published in 2021, freezes the original model and trains only two small matrices alongside a few layers. The result is an <strong class="text-neutral-100">adapter</strong>: a file measured in megabytes that fits into the base model, instead of gigabytes.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t3-p2">The trick is in the <strong class="text-neutral-100">rank</strong> (o <code>r</code>). Instead of learning a large change of size <code>d × d</code>, LoRA learns two thin matrices, <code>B</code> (<code>d × r</code>) e <code>A</code> (<code>r × d</code>), whose product has the same shape. With a <code>r</code> rank between 8 and 64, the number of trainable weights drops to a small fraction of the total.  <strong class="text-blue-400">QLoRA</strong> (2023) goes further: it loads the frozen model in <strong class="text-neutral-100">quantized</strong> 4-bit form—each weight is stored with less precision and uses less memory—and trains LoRA on top of it.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t3-p1">Adjusting all billions of weights ( <em>full fine-tuning</em>) requires a lot of GPU memory and creates a full copy of the model for each version.  <strong class="text-blue-400">LoRA</strong> (<em>Low-Rank Adaptation</em>, published in 2021, freezes the original model and trains only two small matrices alongside a few layers. The result is an <strong class="text-neutral-100">adapter</strong>: a file measured in megabytes that fits into the base model, instead of gigabytes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t3-p2">The trick is in the <strong class="text-neutral-100">rank</strong> (o <code>r</code>). Instead of learning a large change of size <code>d × d</code>, LoRA learns two thin matrices, <code>B</code> (<code>d × r</code>) e <code>A</code> (<code>r × d</code>), whose product has the same shape. With a <code>r</code> rank between 8 and 64, the number of trainable weights drops to a small fraction of the total.  <strong class="text-blue-400">QLoRA</strong> (2023) goes further: it loads the frozen model in <strong class="text-neutral-100">quantized</strong> 4-bit form—each weight is stored with less precision and uses less memory—and trains LoRA on top of it.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">LoRA is an efficient fine-tuning technique (PEFT, <em>parameter-efficient fine-tuning</em>) that keeps the original model intact and trains a small low-rank adapter. QLoRA is the same approach, with the base model quantized to 4 bits to fit in less memory.</p>
@@ -718,7 +718,7 @@
 </table>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t3-p3" data-sum="porque">LoRA is what made fine-tuning accessible outside major labs: small models can be trained on a consumer GPU or in Colab, and you can version adapters the way you version code. In 2026, it’s the standard approach for customizing open models.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t3-p3" data-sum="porque">LoRA is what made fine-tuning accessible outside major labs: small models can be trained on a consumer GPU or in Colab, and you can version adapters the way you version code. In 2026, it’s the standard approach for customizing open models.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Adapter</div><div class="text-xs text-neutral-400">small plug-in file</div></div>
@@ -727,27 +727,27 @@
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">PEFT</div><div class="text-xs text-neutral-400">train a little, gain a lot</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 4 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-4" id="topico-4" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="JSONL limpo, variado e sem dado pessoal">🗂️ Data that delivers</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t4-p1">The model learns exactly what the examples show—including their flaws. A lazy answer in the dataset becomes a lazy answer in the model. That’s why the heavy lifting in fine-tuning isn’t the training: it’s <strong class="text-neutral-100">building and reviewing the examples</strong>. A few hundred good, varied examples often teach more than thousands of repetitive ones.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t4-p2">The most common format is <strong class="text-blue-400">JSONL</strong>: a text file with <strong class="text-neutral-100">one JSON object per line</strong>. For chat models, each line has a list called <code>messages</code> with the roles <code>system</code>, <code>user</code> e <code>assistant</code> —the same format as the chat API. Training teaches the model to generate the <code>assistant</code>. Always set aside some examples for <strong class="text-neutral-100">validation</strong>: data the model never sees during training, used to measure whether it has generalized.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t4-p1">The model learns exactly what the examples show—including their flaws. A lazy answer in the dataset becomes a lazy answer in the model. That’s why the heavy lifting in fine-tuning isn’t the training: it’s <strong class="text-neutral-100">building and reviewing the examples</strong>. A few hundred good, varied examples often teach more than thousands of repetitive ones.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t4-p2">The most common format is <strong class="text-blue-400">JSONL</strong>: a text file with <strong class="text-neutral-100">one JSON object per line</strong>. For chat models, each line has a list called <code>messages</code> with the roles <code>system</code>, <code>user</code> e <code>assistant</code> —the same format as the chat API. Training teaches the model to generate the <code>assistant</code>. Always set aside some examples for <strong class="text-neutral-100">validation</strong>: data the model never sees during training, used to measure whether it has generalized.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Preparing data means collecting, cleaning, standardizing, and splitting ideal input and output examples into a format the trainer understands (JSONL messages), with a separate portion for validation and testing.</p>
@@ -774,7 +774,7 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-4-t4-p3">A trained model may repeat passages from its training data. Under the LGPD (Brazil’s data protection law), personal data in a dataset counts as processing personal data: it requires a legal basis and a purpose. The simplest approach is to anonymize it first—“Customer A,” “CPF-X”—and protect the dataset as carefully as a customer database.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-4-t4-p3">A trained model may repeat passages from its training data. Under the LGPD (Brazil’s data protection law), personal data in a dataset counts as processing personal data: it requires a legal basis and a purpose. The simplest approach is to anonymize it first—“Customer A,” “CPF-X”—and protect the dataset as carefully as a customer database.</p>
 </div>
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
@@ -832,7 +832,7 @@ print("\n".join(problemas[:20]) or "nenhum problema encontrado")
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> the script creates <code>train.jsonl</code> e <code>val.jsonl</code> and prints the counts. Intentionally add one repeated line and another with a fake CPF number to the input file: both should appear in the list of issues and be left out of the generated files.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t4-p4" data-sum="porque">Dataset quality determines the result more than any hyperparameter. People who master data preparation run fewer blind training jobs and get a better model with fewer examples—and without leaking personal data into the weights.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t4-p4" data-sum="porque">Dataset quality determines the result more than any hyperparameter. People who master data preparation run fewer blind training jobs and get a better model with fewer examples—and without leaking personal data into the weights.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">JSONL</div><div class="text-xs text-neutral-400">one example per line</div></div>
@@ -841,27 +841,27 @@ print("\n".join(problemas[:20]) or "nenhum problema encontrado")
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Anonymization</div><div class="text-xs text-neutral-400">LGPD before training</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 5 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-5" id="topico-5" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="Hugging Face, PEFT e TRL num script">🏋️ Train a LoRA in practice</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t5-p1">With the data ready, the training itself fits in a short script. You’ll use three libraries from the Hugging Face ecosystem: <strong class="text-neutral-100">transformers</strong> (loads the model), <strong class="text-neutral-100">PEFT</strong> (creates the LoRA adapter), and <strong class="text-neutral-100">TRL</strong> (uses the  <code>SFTTrainer</code>, which already understands the format <code>messages</code>). The example model is Qwen2.5 0.5B Instruct: small enough to train on a modest GPU or a free Colab notebook—and it runs, slowly, even on a CPU.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t5-p2">Three <strong class="text-neutral-100">hyperparameters</strong> (settings you choose, not ones the model learns) matter most at first: the <strong class="text-neutral-100">learning rate</strong> (the size of each adjustment step; for LoRA, around <code>2e-4</code> is a common starting point), the number of epochs (start with 2 or 3), and the rank <code>r</code>. Change one at a time and record the result of each run.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t5-p1">With the data ready, the training itself fits in a short script. You’ll use three libraries from the Hugging Face ecosystem: <strong class="text-neutral-100">transformers</strong> (loads the model), <strong class="text-neutral-100">PEFT</strong> (creates the LoRA adapter), and <strong class="text-neutral-100">TRL</strong> (uses the  <code>SFTTrainer</code>, which already understands the format <code>messages</code>). The example model is Qwen2.5 0.5B Instruct: small enough to train on a modest GPU or a free Colab notebook—and it runs, slowly, even on a CPU.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t5-p2">Three <strong class="text-neutral-100">hyperparameters</strong> (settings you choose, not ones the model learns) matter most at first: the <strong class="text-neutral-100">learning rate</strong> (the size of each adjustment step; for LoRA, around <code>2e-4</code> is a common starting point), the number of epochs (start with 2 or 3), and the rank <code>r</code>. Change one at a time and record the result of each run.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">A local LoRA training run: load the base model, attach the adapter with <code>LoraConfig</code>, pass the files <code>train.jsonl</code> e <code>val.jsonl</code> to the <code>SFTTrainer</code> , and save the adapter to a folder.</p>
@@ -947,7 +947,7 @@ print("adapter saved in saida-lora/adapter")</pre>
 <figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">How to read:</strong> The solid line (training) always goes down—it only shows that the model is memorizing the examples. The dashed line (validation) is the one that matters: when it stops going down and starts rising, the model has started memorizing instead of learning. Keep the checkpoint from the point where the dashed line is lowest.</figcaption>
 </figure>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t5-p3" data-sum="porque">Running a small training job end to end takes fine-tuning out of the realm of theory. You learn to read loss curves, recognize overfitting (when the model memorizes the training examples), and use data to decide whether it’s worth scaling up to a larger model.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t5-p3" data-sum="porque">Running a small training job end to end takes fine-tuning out of the realm of theory. You learn to read loss curves, recognize overfitting (when the model memorizes the training examples), and use data to decide whether it’s worth scaling up to a larger model.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Hyperparameter</div><div class="text-xs text-neutral-400">chosen by you</div></div>
@@ -956,27 +956,27 @@ print("adapter saved in saida-lora/adapter")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Checkpoint</div><div class="text-xs text-neutral-400">snapshot of the model at one epoch</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 6 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-6" id="topico-6" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="base contra ajustado, no mesmo teste">📏 Evaluate for real</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t6-p1">A low loss doesn't prove the model became useful. The real question is: <strong class="text-neutral-100">On your test set, does the fine-tuned model get more answers right than the base model with a good prompt?</strong> To answer that, you need an <strong class="text-blue-400">eval</strong> —a fixed set of cases with expected answers and a success criterion that a script can check.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t6-p2">When the output is structured (a category or JSON), the criterion is simple: an exact match, or valid JSON with the right field. When the output is free-form text, combine a rubric (a list of criteria) with human review of a sample, or use another model as an evaluator—keeping in mind that the evaluator can also make mistakes. The important thing is that <strong class="text-neutral-100">the test stays the same from one run to the next</strong>; otherwise, you can't compare anything.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t6-p1">A low loss doesn't prove the model became useful. The real question is: <strong class="text-neutral-100">On your test set, does the fine-tuned model get more answers right than the base model with a good prompt?</strong> To answer that, you need an <strong class="text-blue-400">eval</strong> —a fixed set of cases with expected answers and a success criterion that a script can check.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t6-p2">When the output is structured (a category or JSON), the criterion is simple: an exact match, or valid JSON with the right field. When the output is free-form text, combine a rubric (a list of criteria) with human review of a sample, or use another model as an evaluator—keeping in mind that the evaluator can also make mistakes. The important thing is that <strong class="text-neutral-100">the test stays the same from one run to the next</strong>; otherwise, you can't compare anything.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Evaluation means running the base model and the fine-tuned model on the same test set, using the same criterion, and comparing their accuracy—including a few general cases to detect forgetting.</p>
@@ -1022,10 +1022,10 @@ print(f"base: {placar['base']}/{n}   lora: {placar['lora']}/{n}")</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-4-t6-p3">Include a third competitor in the comparison: the base model with the best few-shot prompt you can write. If it ties with LoRA, you don't need training — and you've just saved yourself the maintenance work.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-4-t6-p3">Include a third competitor in the comparison: the base model with the best few-shot prompt you can write. If it ties with LoRA, you don't need training — and you've just saved yourself the maintenance work.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t6-p4" data-sum="porque">Without evaluation, fine-tuning is a gamble. With evaluation, each run becomes a number you can compare, defend in a meeting, and reproduce when the base model changes. It’s the same habit that separates a prototype from a production system.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t6-p4" data-sum="porque">Without evaluation, fine-tuning is a gamble. With evaluation, each run becomes a number you can compare, defend in a meeting, and reproduce when the base model changes. It’s the same habit that separates a prototype from a production system.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Eval</div><div class="text-xs text-neutral-400">fixed test with clear criteria</div></div>
@@ -1034,27 +1034,27 @@ print(f"base: {placar['base']}/{n}   lora: {placar['lora']}/{n}")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Baseline</div><div class="text-xs text-neutral-400">what to match</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
 </section>
 <!-- TÓPICO 7 -->
-<section class="mb-16" data-inema-topic="modulo-2-4#topico-7" id="topico-7" style="scroll-margin-top:5rem">
+<section class="mb-16" data-ARCKHÉ-topic="modulo-2-4#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
 <h2 class="text-2xl font-bold pt-1" data-sub="servir, versionar e retreinar">💰 Costs, serving, and maintenance</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
-<button aria-pressed="false" data-inema-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
+<button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Mark this topic as a question" type="button"><span aria-hidden="true">?</span><span>I have a question</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t7-p1">The cost of fine-tuning isn't just the GPU time for training. Add the time spent building and reviewing the dataset, failed runs, <strong class="text-neutral-100">inference</strong> (running the model to respond every day), and retraining when a better base model comes out. A fine-tuned small model may cost less per response than a large general-purpose one — but only if the volume justifies the work of maintaining it.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t7-p2">There are two ways to serve the adapter. You can <strong class="text-neutral-100">merge</strong> LoRA into the weights (<code>merge_and_unload()</code> in PEFT) and export a single model — for example, convert it to GGUF and import it into Ollama with a <code>Modelfile</code>. Or keep the adapter separate on a server that loads multiple LoRAs on the same base model, such as vLLM; Ollama itself also accepts the instruction <code>ADAPTER</code> for some architectures. Check the tool's documentation first: support changes from version to version.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t7-p1">The cost of fine-tuning isn't just the GPU time for training. Add the time spent building and reviewing the dataset, failed runs, <strong class="text-neutral-100">inference</strong> (running the model to respond every day), and retraining when a better base model comes out. A fine-tuned small model may cost less per response than a large general-purpose one — but only if the volume justifies the work of maintaining it.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t7-p2">There are two ways to serve the adapter. You can <strong class="text-neutral-100">merge</strong> LoRA into the weights (<code>merge_and_unload()</code> in PEFT) and export a single model — for example, convert it to GGUF and import it into Ollama with a <code>Modelfile</code>. Or keep the adapter separate on a server that loads multiple LoRAs on the same base model, such as vLLM; Ollama itself also accepts the instruction <code>ADAPTER</code> for some architectures. Check the tool's documentation first: support changes from version to version.</p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">This is the fine-tuned model's life cycle: total cost (data, training, inference, retraining), serving method (merged or adapter), versioning alongside the dataset and eval, and the base model's license.</p>
@@ -1090,10 +1090,10 @@ print(f"base: {placar['base']}/{n}   lora: {placar['lora']}/{n}")</pre>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Tip</p>
-<p class="text-sm text-neutral-300" data-inema-block="m2-4-t7-p3">API providers (OpenAI, Google, and others) also offer hosted fine-tuning: you upload the JSONL and get a fine-tuned model. The data format you've learned here is practically the same. Prices and available models change often — check the official page before budgeting.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-4-t7-p3">API providers (OpenAI, Google, and others) also offer hosted fine-tuning: you upload the JSONL and get a fine-tuned model. The data format you've learned here is practically the same. Prices and available models change often — check the official page before budgeting.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Why learn</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-inema-block="m2-4-t7-p4" data-sum="porque">Fine-tuning that works in a notebook and dies in production is the most common outcome. Thinking about the lifecycle from the start — how to serve it, how much it costs per month, how to retrain it — is what turns the experiment into an asset the team can maintain.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-4-t7-p4" data-sum="porque">Fine-tuning that works in a notebook and dies in production is the most common outcome. Thinking about the lifecycle from the start — how to serve it, how much it costs per month, how to retrain it — is what turns the experiment into an asset the team can maintain.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Key concepts</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Inference</div><div class="text-xs text-neutral-400">cost of each response</div></div>
@@ -1102,11 +1102,11 @@ print(f"base: {placar['base']}/{n}   lora: {placar['lora']}/{n}")</pre>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">License</div><div class="text-xs text-neutral-400">what the base model allows</div></div>
 </div>
 <div class="flex justify-start mt-6">
-<button aria-pressed="false" data-inema-read-toggle="" type="button">
-<span aria-hidden="true" class="inema-ico-todo">○</span>
-<span aria-hidden="true" class="inema-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
-<span class="inema-label-todo">Mark as read</span>
-<span class="inema-label-done">Read</span>
+<button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
+<span aria-hidden="true" class="ARCKHÉ-ico-todo">○</span>
+<span aria-hidden="true" class="ARCKHÉ-ico-done"><svg fill="none" height="16" stroke="currentColor" stroke-width="3" viewbox="0 0 24 24" width="16"><path d="M5 12l5 5L20 6"></path></svg></span>
+<span class="ARCKHÉ-label-todo">Mark as read</span>
+<span class="ARCKHÉ-label-done">Read</span>
 </button>
 </div>
 </div>
@@ -1137,7 +1137,7 @@ print(f"base: {placar['base']}/{n}   lora: {placar['lora']}/{n}")</pre>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://inema.pro" rel="noopener" target="_blank">PRO</a></p>
+<p>FTD — Digital Transformation Training · open and free content · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>
 </div>
 </footer>
 <!-- SCRIPTS NÚCLEO v1 -->
@@ -1169,15 +1169,15 @@ print(f"base: {placar['base']}/{n}   lora: {placar['lora']}/{n}")</pre>
       if (themeToggle) themeToggle.addEventListener('click', function () {
         html.classList.toggle('dark'); var nowDark = html.classList.contains('dark'); html.style.colorScheme = nowDark ? 'dark' : 'light';
         try { localStorage.setItem('theme', nowDark ? 'dark' : 'light'); } catch (e) {}
-        try { var p = JSON.parse(localStorage.getItem('inema.prefs') || '{}'); p.theme = nowDark ? 'inema-dark' : 'claro'; localStorage.setItem('inema.prefs', JSON.stringify(p)); } catch (e) {}
+        try { var p = JSON.parse(localStorage.getItem('ARCKHÉ.prefs') || '{}'); p.theme = nowDark ? 'ARCKHÉ-dark' : 'claro'; localStorage.setItem('ARCKHÉ.prefs', JSON.stringify(p)); } catch (e) {}
         sync();
       });
     })();
   </script>
-<!-- learn.js + INEMA.init() POR ÚLTIMO -->
+<!-- learn.js + ARCKHÉ.init() POR ÚLTIMO -->
 <script src="../../../assets/learn.js"></script>
 <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init({ autoResume: true }); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init({ autoResume: true }); }
   </script>
 </body>
 </html>
