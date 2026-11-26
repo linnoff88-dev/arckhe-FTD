@@ -11,7 +11,7 @@ EXPANSIONS = {
         "sections": [
             {
                 "type": "projects",
-                "title": "3 Arquiteturas de Produção",
+                "title": "3 Arquiteturas de Produçêo",
                 "projects": [
                     {
                         "name": "Microserviços com IA",
@@ -41,7 +41,7 @@ EXPANSIONS = {
         "sections": []
     },
     "modulo-2-4.html": {
-        "title": "Fine-tuning e Customização",
+        "title": "Fine-tuning e Customizaçêo",
         "color": "tecnico",
         "sections": []
     },

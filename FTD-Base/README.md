@@ -1,14 +1,14 @@
 # FTD Base - Site Estático
 
-> **Versão gratuita e de validação do curso FTD**
+> **Versêo gratuita e de validaçêo do curso FTD**
 >
-> Este é o site estático do FTD (Formação da Transformação Digital), hospedado no GitHub Pages.
+> Este é o site estático do FTD (Formaçêo da Transformaçêo Digital), hospedado no GitHub Pages.
 
 ---
 
 ## 📋 Sobre o FTD Base
 
-O **FTD Base** é a versão gratuita e simplificada do curso FTD, criada para:
+O **FTD Base** é a versêo gratuita e simplificada do curso FTD, criada para:
 
 1. **Validar o mercado** - Testar interesse e demanda antes de investir no sistema completo
 2. **Gerar leads** - Capturar contatos interessados no FTD Pro
@@ -25,8 +25,8 @@ O **FTD Base** é a versão gratuita e simplificada do curso FTD, criada para:
 | **Hospedagem** | GitHub Pages (grátis) | Vercel + Supabase |
 | **Tecnologia** | HTML + Tailwind CDN | Next.js 14 + TypeScript |
 | **Vídeos** | Placeholders (teasers) | Aulas completas (100+ horas) |
-| **Interatividade** | Básica (localStorage) | Completa (autenticação, progresso, certificados) |
-| **Pagamentos** | Não tem | Stripe integrado |
+| **Interatividade** | Básica (localStorage) | Completa (autenticaçêo, progresso, certificados) |
+| **Pagamentos** | Nêo tem | Stripe integrado |
 | **Comunidade** | Link externo | Fórum integrado |
 | **Custo** | R$ 0 | R$ 61k+ desenvolvimento |
 
@@ -44,7 +44,7 @@ FTD-Base/
 │   ├── modulo-1-4.html     # Assistentes e Agentes
 │   ├── modulo-1-5.html     # Criatividade Visual com IA
 │   ├── modulo-1-6.html     # Marketing e Vendas
-│   ├── modulo-1-7.html     # Começando com Automação
+│   ├── modulo-1-7.html     # Começando com Automaçêo
 │   ├── modulo-1-8.html     # Inteligência Avançada (RAG)
 │   └── modulo-1-9.html     # Negócios e Oportunidades
 ├── assets/
@@ -65,15 +65,15 @@ FTD-Base/
 
 ### Frontend:
 - **HTML5** - Estrutura semântica
-- **Tailwind CSS** (via CDN) - Estilização responsiva
+- **Tailwind CSS** (via CDN) - Estilizaçêo responsiva
 - **Vanilla JavaScript** - Interatividade leve
 - **Google Fonts** (Inter) - Tipografia
 
 ### Funcionalidades JavaScript:
 - ✅ **Progress Tracking** - Salvamento local de progresso (localStorage)
-- ✅ **Mobile Menu** - Navegação responsiva
-- ✅ **Smooth Scroll** - Navegação suave entre seções
-- ✅ **Form Validation** - Validação de formulários de lead
+- ✅ **Mobile Menu** - Navegaçêo responsiva
+- ✅ **Smooth Scroll** - Navegaçêo suave entre seções
+- ✅ **Form Validation** - Validaçêo de formulários de lead
 - ✅ **Task Checkboxes** - Marcar atividades como concluídas
 - ✅ **Accordions** - Seções expansíveis de conteúdo
 
@@ -92,7 +92,7 @@ FTD-Base/
 
 ## 📦 Como Rodar Localmente
 
-### Opção 1: Abrir diretamente no navegador
+### Opçêo 1: Abrir diretamente no navegador
 ```bash
 # Navegue até a pasta
 cd FTD-Base
@@ -105,7 +105,7 @@ xdg-open index.html  # Linux
 start index.html     # Windows
 ```
 
-### Opção 2: Servidor HTTP local
+### Opçêo 2: Servidor HTTP local
 ```bash
 # Python 3
 python -m http.server 8000
@@ -157,7 +157,7 @@ https://SEU-USUARIO.github.io/ftd-base/
 2. Configure DNS:
    - Adicione registro `CNAME` apontando para `SEU-USUARIO.github.io`
 3. No GitHub Pages, adicione o custom domain
-4. Aguarde propagação DNS (até 24h)
+4. Aguarde propagaçêo DNS (até 24h)
 
 ---
 
@@ -177,8 +177,8 @@ progressTracker.getCompletionPercentage(); // Retorna 0-100
 
 ### 2. Lead Capture
 - Formulário de cadastro na landing page
-- Validação de email
-- Salva localmente (preparado para integração futura)
+- Validaçêo de email
+- Salva localmente (preparado para integraçêo futura)
 
 ### 3. Mobile-First Design
 - Totalmente responsivo
@@ -188,7 +188,7 @@ progressTracker.getCompletionPercentage(); // Retorna 0-100
 
 ---
 
-## 🎨 Customização
+## 🎨 Customizaçêo
 
 ### Alterar Cores
 Edite `assets/css/styles.css`:
@@ -203,7 +203,7 @@ Edite `assets/css/styles.css`:
 ### Adicionar Novos Módulos
 1. Copie um arquivo de módulo existente (ex: `modulo-1-1.html`)
 2. Renomeie (ex: `modulo-1-10.html`)
-3. Atualize conteúdo, título e navegação
+3. Atualize conteúdo, título e navegaçêo
 4. Adicione link no `index.html` e na sidebar
 
 ### Integrar Analytics
@@ -221,47 +221,47 @@ Adicione no `<head>` de todas as páginas:
 
 ---
 
-## 📈 Métricas para Validação
+## 📈 Métricas para Validaçêo
 
 ### O que medir (primeiros 30 dias):
 
 1. **Tráfego**
    - Visitantes únicos
    - Pageviews
-   - Taxa de rejeição
+   - Taxa de rejeiçêo
    - Tempo na página
 
 2. **Leads**
    - Número de cadastros
-   - Taxa de conversão (visitantes → leads)
+   - Taxa de conversêo (visitantes → leads)
    - Origem do tráfego
 
 3. **Engajamento**
    - Módulos mais acessados
-   - Taxa de conclusão de atividades
+   - Taxa de conclusêo de atividades
    - Tempo médio por módulo
 
 4. **Feedback**
    - Comentários via formulário
    - Compartilhamentos sociais
-   - Pedidos de informação sobre FTD Pro
+   - Pedidos de informaçêo sobre FTD Pro
 
-### Meta de Validação:
+### Meta de Validaçêo:
 - ✅ **100+ visitantes únicos/semana** = Interesse inicial
 - ✅ **50+ leads cadastrados** = Demanda real
-- ✅ **10+ pedidos de informação Pro** = Validação de mercado
-- ✅ **Taxa conversão > 3%** = Funil saudável
+- ✅ **10+ pedidos de informaçêo Pro** = Validaçêo de mercado
+- ✅ **Taxa conversêo > 3%** = Funil saudável
 
 **Se atingir essas metas → Seguir com FTD Pro!**
 
 ---
 
-## 🔄 Migração para FTD Pro
+## 🔄 Migraçêo para FTD Pro
 
-Quando validar o mercado, a transição será:
+Quando validar o mercado, a transiçêo será:
 
 ### 1. Manter FTD Base
-- Continua no ar como versão gratuita
+- Continua no ar como versêo gratuita
 - Serve de funil de entrada
 - Gera leads continuamente
 
@@ -269,9 +269,9 @@ Quando validar o mercado, a transição será:
 - Sistema completo (Next.js + Supabase)
 - Videoaulas completas
 - Pagamentos integrados
-- Certificados e gamificação
+- Certificados e gamificaçêo
 
-### 3. Integração
+### 3. Integraçêo
 ```
 FTD Base (gratuito)
     ↓
@@ -281,7 +281,7 @@ Email marketing
     ↓
 Lançamento FTD Pro
     ↓
-Conversão para pago
+Conversêo para pago
 ```
 
 ---
@@ -316,13 +316,13 @@ Conversão para pago
 ## 🐛 Issues Conhecidos
 
 ### Limitações do FTD Base:
-- [ ] Vídeos são apenas placeholders (não há conteúdo real ainda)
-- [ ] Progress tracking é local (não sincroniza entre dispositivos)
-- [ ] Formulário salva localmente (precisa integração com backend para email)
-- [ ] Sem autenticação real
+- [ ] Vídeos sêo apenas placeholders (nêo há conteúdo real ainda)
+- [ ] Progress tracking é local (nêo sincroniza entre dispositivos)
+- [ ] Formulário salva localmente (precisa integraçêo com backend para email)
+- [ ] Sem autenticaçêo real
 - [ ] Sem certificados automatizados
 
-**Essas limitações são INTENCIONAIS para manter o projeto simples e validar antes de investir!**
+**Essas limitações sêo INTENCIONAIS para manter o projeto simples e validar antes de investir!**
 
 ---
 
@@ -335,7 +335,7 @@ Este é um projeto privado, mas se você for parte da equipe:
 3. Abra Pull Request
 4. Aguarde review
 
-### Padrão de commits:
+### Padrêo de commits:
 ```
 feat: Adiciona novo módulo X
 fix: Corrige bug no formulário
@@ -370,7 +370,7 @@ Conteúdo proprietário para uso no curso FTD.
 - [ ] Módulo 1.4 - Assistentes e Agentes
 - [ ] Módulo 1.5 - Criatividade Visual
 - [ ] Módulo 1.6 - Marketing e Vendas
-- [ ] Módulo 1.7 - Automação
+- [ ] Módulo 1.7 - Automaçêo
 - [ ] Módulo 1.8 - Inteligência Avançada
 - [ ] Módulo 1.9 - Negócios
 
@@ -383,13 +383,13 @@ Conteúdo proprietário para uso no curso FTD.
 
 ---
 
-**Pronto para validar o mercado e transformar vidas com educação digital! 🚀**
+**Pronto para validar o mercado e transformar vidas com educaçêo digital! 🚀**
 
 ---
 
 <p align="center">
   <strong>Dúvidas?</strong><br>
-  Consulte a <a href="../docs/ARQUITETURA_TECNICA.md">Arquitetura Técnica</a> ou o <a href="../PLANO_IMPLEMENTACAO.md">Plano de Implementação</a>
+  Consulte a <a href="../docs/ARQUITETURA_TECNICA.md">Arquitetura Técnica</a> ou o <a href="../PLANO_IMPLEMENTACAO.md">Plano de Implementaçêo</a>
 </p>
 
 <p align="center">

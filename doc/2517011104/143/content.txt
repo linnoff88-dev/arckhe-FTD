@@ -96,7 +96,7 @@ MENSAGEM 11
 Autor: ARCKHÉ
 Data: 2025-04-07T06:24:12+00:00
 Texto:
-Seu texto está com uma ideia muito poderosa e autêntica, com uma crítica ao domínio de grandes plataformas e uma proposta clara: **aprender os fundamentos para navegar num mundo em constante transformação tecnológica.** 
+Seu texto está com uma ideia muito poderosa e autêntica, com uma crítica ao domínio de grandes plataformas e uma proposta clara: **aprender os fundamentos para navegar num mundo em constante transformaçêo tecnológica.** 
 
 ---
 
@@ -105,41 +105,41 @@ Seu texto está com uma ideia muito poderosa e autêntica, com uma crítica ao d
 Sim, teve uma época em que **tudo girava em torno dele**.  
 Se precisava achar alguma coisa? Google.  
 Procurar emprego? Google.  
-Saber se tinha promoção? Google.  
-Até peidar era com permissão do Google.
+Saber se tinha promoçêo? Google.  
+Até peidar era com permissêo do Google.
 
 **A gente parou de ir à biblioteca, de ler jornais, revistas e até os classificados. Tudo virou uma busca no Google.**
 
-E o marketing? Se prostituía pra conseguir uma posição melhor.  
-Chamavam isso de **SEO**. Otimização pra aparecer pro Google.  
+E o marketing? Se prostituía pra conseguir uma posiçêo melhor.  
+Chamavam isso de **SEO**. Otimizaçêo pra aparecer pro Google.  
 Parecia que o mundo era só isso.
 
 ---
 
 **Mas agora... tudo é ChatGPT.**
 
-E não só ele. Milhares de ferramentas surgem todo dia, como foi quando apareceram os PCs, as redes, os apps.  
-A diferença é que agora **a transformação é em tempo real**. Não dá mais tempo de esperar consolidar.
+E nêo só ele. Milhares de ferramentas surgem todo dia, como foi quando apareceram os PCs, as redes, os apps.  
+A diferença é que agora **a transformaçêo é em tempo real**. Nêo dá mais tempo de esperar consolidar.
 
-Por isso, eu classifiquei o novo mundo digital em **três grandes grupos**, e você pode até acrescentar outros dois se quiser. O importante é **entender o fundamento, não a marca.**
+Por isso, eu classifiquei o novo mundo digital em **três grandes grupos**, e você pode até acrescentar outros dois se quiser. O importante é **entender o fundamento, nêo a marca.**
 
 ---
 
 **2. Navegando no Novo Mundo Digital**
 
 **1. Buscadores com Inteligência Artificial**  
-- O Google, o Bing e outros estão evoluindo.  
-- A busca não é mais por palavras, mas por **respostas completas, contexto, sentido.**  
+- O Google, o Bing e outros estêo evoluindo.  
+- A busca nêo é mais por palavras, mas por **respostas completas, contexto, sentido.**  
 - A IA entrou com tudo e já muda o jeito de a gente pesquisar e aprender.
 
-**2. Texto, Imagem, Vídeo, Desenvolvimento e Automação**  
-- O mundo se dividiu em **campos de produção inteligente**.  
+**2. Texto, Imagem, Vídeo, Desenvolvimento e Automaçêo**  
+- O mundo se dividiu em **campos de produçêo inteligente**.  
   Aqui vai um mapa pra te ajudar a navegar:
 
   - **Texto:**  
     - ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Mistral e tantos outros.  
     - Produzem textos, resumos, scripts, legendas, análises e mais.  
-    - Tudo em segundos, com contexto e precisão.
+    - Tudo em segundos, com contexto e precisêo.
 
   - **Imagem:**  
     - Leonardo AI, Midjourney, DALL·E, Playground, etc.  
@@ -148,16 +148,16 @@ Por isso, eu classifiquei o novo mundo digital em **três grandes grupos**, e vo
 
   - **Vídeo:**  
     - Runway, Pika Labs, Sora, Heygen…  
-    - De um texto nasce um vídeo com ator, fundo, voz, edição e legenda.  
+    - De um texto nasce um vídeo com ator, fundo, voz, ediçêo e legenda.  
     - O futuro do audiovisual está ao seu alcance — sem câmera, sem ator, sem estúdio.
 
-  - **Automação e Desenvolvimento:**  
+  - **Automaçêo e Desenvolvimento:**  
     - Make.com, n8n, Zapier, AutoGPT, AgentGPT…  
     - Robôs que conectam tudo, respondem e agem.  
     - Eles criam, automatizam, analisam e decidem.
 
   - **Serviços Robóticos (IA Agentes):**  
-    - São como assistentes virtuais, mas que fazem de verdade.  
+    - Sêo como assistentes virtuais, mas que fazem de verdade.  
     - Marcam reuniões, respondem e-mails, criam conteúdo, vendem, codificam…  
     - E o mais doido: **aprendem e melhoram sozinhos.**
 
@@ -165,14 +165,14 @@ Por isso, eu classifiquei o novo mundo digital em **três grandes grupos**, e vo
 
 **Você está preparado pra essas mudanças constantes?**
 
-O jogo não é mais sobre aprender uma ferramenta.  
+O jogo nêo é mais sobre aprender uma ferramenta.  
 **É sobre entender o que está por trás de cada uma.**  
 O que conecta, o que automatiza, o que gera valor de verdade.
 
 ---
 
 **Esse sempre foi meu diferencial.**  
-Não fico preso à marca. Aprendo o mecanismo.
+Nêo fico preso à marca. Aprendo o mecanismo.
 
 E é isso que quero te mostrar.
 
@@ -209,16 +209,16 @@ Data: 2025-04-07T06:18:10+00:00
 Texto:
 **2. Navegando no Novo Mundo Digital**
 
-- **Evolução dos Mecanismos de Busca com IA**: Gigantes da tecnologia, como Google e Microsoft, estão incorporando IA avançada em seus mecanismos de busca, proporcionando respostas mais precisas e contextualizadas aos usuários. 
+- **Evoluçêo dos Mecanismos de Busca com IA**: Gigantes da tecnologia, como Google e Microsoft, estêo incorporando IA avançada em seus mecanismos de busca, proporcionando respostas mais precisas e contextualizadas aos usuários. 
 
-- **Apresentação do Futurepedia e Outras Bibliotecas de Ferramentas de IA**: O Futurepedia continua sendo um repositório abrangente de ferramentas de IA, categorizadas por funcionalidades como geração de texto, imagem e automação. 
+- **Apresentaçêo do Futurepedia e Outras Bibliotecas de Ferramentas de IA**: O Futurepedia continua sendo um repositório abrangente de ferramentas de IA, categorizadas por funcionalidades como geraçêo de texto, imagem e automaçêo. 
 
 - **Grupos de Ferramentas por Uso**:
-  - **Texto**: Ferramentas como o ChatGPT aprimoraram suas capacidades de geração de texto, oferecendo respostas mais coerentes e contextuais. 
+  - **Texto**: Ferramentas como o ChatGPT aprimoraram suas capacidades de geraçêo de texto, oferecendo respostas mais coerentes e contextuais. 
 
-  - **Imagens**: Plataformas como Leonardo AI permitem a criação de imagens de alta qualidade a partir de descrições textuais, facilitando o trabalho de designers e criativos. 
+  - **Imagens**: Plataformas como Leonardo AI permitem a criaçêo de imagens de alta qualidade a partir de descrições textuais, facilitando o trabalho de designers e criativos. 
 
-  - **Vídeos**: Ferramentas como Runway e Pika Labs oferecem recursos avançados de geração e edição de vídeos realistas, ampliando as possibilidades para criadores de conteúdo.
+  - **Vídeos**: Ferramentas como Runway e Pika Labs oferecem recursos avançados de geraçêo e ediçêo de vídeos realistas, ampliando as possibilidades para criadores de conteúdo.
 
 ------------------------------
 

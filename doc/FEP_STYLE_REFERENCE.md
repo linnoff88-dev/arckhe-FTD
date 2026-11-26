@@ -3,13 +3,13 @@
 > **Fundamentos e Engenharia de Prompt**
 > Sistema de Design Completo para Desenvolvimento de Interfaces
 
-**Versão:** 1.0 | **Data:** 2025-11-04 | **Autor:** FEP Team
+**Versêo:** 1.0 | **Data:** 2025-11-04 | **Autor:** FEP Team
 
 ---
 
 ## 📋 Índice Rápido
 
-- [Visão Geral](#visão-geral)
+- [Visêo Geral](#visêo-geral)
 - [Identidade Visual](#identidade-visual)
 - [Sistema de Cores](#sistema-de-cores)
 - [Tipografia](#tipografia)
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Visão Geral
+## 🎯 Visêo Geral
 
 ### Sobre o Projeto
 
@@ -30,7 +30,7 @@
 ### Princípios de Design
 
 1. ✅ **Clareza** - Interface limpa e fácil de navegar
-2. ✅ **Progressão Visual** - Cada nível tem sua identidade
+2. ✅ **Progressêo Visual** - Cada nível tem sua identidade
 3. ✅ **Acessibilidade** - WCAG 2.1 AA compliant
 4. ✅ **Performance** - Animações suaves
 5. ✅ **Mobile-First** - Design responsivo
@@ -61,7 +61,7 @@ Tagline:  "Engenharia de Prompt"
 
 - **Tom**: Profissional, educacional, acessível
 - **Estilo**: Moderno, minimalista, tecnológico
-- **Emoção**: Confiança, clareza, progresso
+- **Emoçêo**: Confiança, clareza, progresso
 
 ---
 
@@ -94,7 +94,7 @@ Tagline:  "Engenharia de Prompt"
 --gray-50:        #F9FAFB;  /* Backgrounds */
 --gray-100:       #F3F4F6;  /* Cards alternativos */
 --gray-200:       #E5E7EB;  /* Bordas leves */
---gray-300:       #D1D5DB;  /* Bordas padrão */
+--gray-300:       #D1D5DB;  /* Bordas padrêo */
 --gray-600:       #6B7280;  /* Texto secundário */
 --gray-700:       #374151;  /* Texto principal */
 --gray-900:       #1F2937;  /* Títulos */
@@ -135,7 +135,7 @@ background: linear-gradient(90deg, #3B82F6, #8B5CF6);
 | **Badge** | `bg-emerald-500` | `bg-blue-500` | `bg-purple-500` |
 | **Borda** | `border-emerald-200` | `border-blue-200` | `border-purple-200` |
 | **Hover** | `border-emerald-400` | `border-blue-400` | `border-purple-400` |
-| **Botão** | `bg-emerald-500` | `bg-blue-500` | `bg-purple-500` |
+| **Botêo** | `bg-emerald-500` | `bg-blue-500` | `bg-purple-500` |
 
 ---
 
@@ -183,7 +183,7 @@ H3:  1.5rem (24px)
 <h1 class="text-4xl sm:text-6xl font-bold">Título</h1>
 
 <!-- Section Title -->
-<h2 class="text-3xl sm:text-4xl font-bold">Seção</h2>
+<h2 class="text-3xl sm:text-4xl font-bold">Seçêo</h2>
 
 <!-- Card Title -->
 <h3 class="text-2xl font-bold">Card</h3>
@@ -204,14 +204,14 @@ H3:  1.5rem (24px)
 ```
 xs:   0.25rem   (4px)   - Espaços mínimos
 sm:   0.5rem    (8px)   - Gaps pequenos
-md:   1rem      (16px)  - Padrão
+md:   1rem      (16px)  - Padrêo
 lg:   1.5rem    (24px)  - Entre elementos
 xl:   2rem      (32px)  - Entre seções
 2xl:  3rem      (48px)  - Padding de seções
 3xl:  4rem      (64px)  - Espaços grandes
 ```
 
-### Container Padrão
+### Container Padrêo
 
 ```html
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -252,7 +252,7 @@ xl:  1280px  - Large desktop
 
 ## 🧩 Componentes
 
-### 1. Navegação
+### 1. Navegaçêo
 
 ```html
 <nav class="sticky top-0 z-50 bg-white shadow-sm">
@@ -282,7 +282,7 @@ xl:  1280px  - Large desktop
 ```
 
 **Propriedades:**
-- Posição: `sticky top-0`
+- Posiçêo: `sticky top-0`
 - Z-index: `50`
 - Altura: `h-16` (64px)
 - Shadow: `shadow-sm`
@@ -345,7 +345,7 @@ xl:  1280px  - Large desktop
       </li>
     </ul>
 
-    <!-- Botão -->
+    <!-- Botêo -->
     <button class="w-full bg-emerald-500 text-white py-3 rounded-lg font-semibold hover:bg-emerald-600">
       Começar
     </button>
@@ -420,7 +420,7 @@ xl:  1280px  - Large desktop
 
       <div class="topic-explanation hidden ml-6 mt-2 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
         <p class="text-sm mb-2">
-          <strong class="text-blue-600">O que é:</strong> Explicação clara
+          <strong class="text-blue-600">O que é:</strong> Explicaçêo clara
         </p>
         <p class="text-sm mb-2">
           <strong class="text-blue-600">Por que aprender:</strong> Benefícios
@@ -590,7 +590,7 @@ document.addEventListener('keydown', function(e) {
 ### Princípios
 
 1. Usar apenas `transform` e `opacity` (performance)
-2. Duração: 0.2s-0.8s
+2. Duraçêo: 0.2s-0.8s
 3. Easing: `ease-out` ou `cubic-bezier(0.4, 0, 0.2, 1)`
 4. Respeitar `prefers-reduced-motion`
 
@@ -713,7 +713,7 @@ XL Desktop (xl):   >= 1280px
 </head>
 <body class="bg-gray-50">
 
-  <!-- Navegação -->
+  <!-- Navegaçêo -->
   <nav class="sticky top-0 z-50 bg-white shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
@@ -802,7 +802,7 @@ XL Desktop (xl):   >= 1280px
 
 ---
 
-## ✅ Checklist de Implementação
+## ✅ Checklist de Implementaçêo
 
 - [ ] Incluir Tailwind CSS CDN
 - [ ] Incluir Google Fonts (Inter)
@@ -816,8 +816,8 @@ XL Desktop (xl):   >= 1280px
 
 ---
 
-**Última atualização:** 2025-11-04
-**Versão:** 1.0
+**Última atualizaçêo:** 2025-11-04
+**Versêo:** 1.0
 **Autor:** FEP Team
 
 ---

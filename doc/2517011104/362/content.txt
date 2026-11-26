@@ -13,17 +13,17 @@ MENSAGEM 1
 Autor: ARCKHÉ
 Data: 2025-04-09T02:59:25+00:00
 Texto:
-Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D, Meshy, Impressão 3D e Desenvolvimento de Games**, mantendo o estilo direto, prático e aplicável em 1 hora.
+Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D, Meshy, Impressêo 3D e Desenvolvimento de Games**, mantendo o estilo direto, prático e aplicável em 1 hora.
 
 ---
 
-### Continuação da **Hora 3 – Consistência Visual e Narrativa com IA (parte 2)**
+### Continuaçêo da **Hora 3 – Consistência Visual e Narrativa com IA (parte 2)**
 
 ---
 
-## **Tópico 4: Criação de Modelos 3D com IA (10 min)**
+## **Tópico 4: Criaçêo de Modelos 3D com IA (10 min)**
 
-**Objetivo:** Transformar imagens ou ideias em modelos 3D para animações, jogos ou impressão.
+**Objetivo:** Transformar imagens ou ideias em modelos 3D para animações, jogos ou impressêo.
 
 ### Ferramenta: [Meshy.com](https://meshy.ai/)
 
@@ -40,7 +40,7 @@ Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D,
 
 ---
 
-## **Tópico 5: Impressão 3D a partir de modelos IA (10 min)**
+## **Tópico 5: Impressêo 3D a partir de modelos IA (10 min)**
 
 **Objetivo:** Mostrar que modelos 3D gerados por IA podem ser impressos.
 
@@ -82,14 +82,14 @@ Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D,
 
 ### Ferramentas:
 - **Runway Gen-2 / Pika** – vídeo com base em prompt + imagem.
-- **ElevenLabs / ****Voice.ai** – narração com voz IA.
-- **CapCut / Descript** – montagem e edição do curta.
+- **ElevenLabs / ****Voice.ai** – narraçêo com voz IA.
+- **CapCut / Descript** – montagem e ediçêo do curta.
 - **Leonardo + Meshy** – personagens e objetos consistentes.
 
 ### Estrutura do Mini Curta:
 - Roteiro simples (3 cenas).
 - Gerar imagens ou vídeos curtos.
-- Adicionar narração e música de fundo.
+- Adicionar narraçêo e música de fundo.
 
 **Exemplo prático:**
 “Fifi e Zeca descobrem um planeta escondido no fundo do lago e viajam para lá com uma nave voadora feita de folhas e pedras.”
@@ -105,7 +105,7 @@ Perfeito, Nei! Vamos expandir os **outros tópicos da Hora 3** com foco em **3D,
 ---
 
 Se quiser, posso gerar:
-- Um **template de roteiro visual** com espaços para personagem, cena, emoção e ação.
+- Um **template de roteiro visual** com espaços para personagem, cena, emoçêo e açêo.
 - Um exemplo pronto de arquivos/imagens para testar no Meshy, Unity ou impressora 3D.
 
 Quer que eu prepare esses exemplos prontos para você apresentar?
@@ -173,7 +173,7 @@ MENSAGEM 9
 Autor: ARCKHÉ
 Data: 2025-04-09T02:59:07+00:00
 Texto:
-Perfeito, Nei! Aqui está uma sugestão direta, atemporal e prática para essa **Hora 3** com foco em **Consistência Visual e Narrativa com IA**, voltada para quem tem **1 hora disponível**. A ideia é manter fluidez, ser aplicável de forma imediata e incentivar a experimentação com ferramentas modernas (como Meshy, Leonardo, Gen-2, Runway, etc.).
+Perfeito, Nei! Aqui está uma sugestêo direta, atemporal e prática para essa **Hora 3** com foco em **Consistência Visual e Narrativa com IA**, voltada para quem tem **1 hora disponível**. A ideia é manter fluidez, ser aplicável de forma imediata e incentivar a experimentaçêo com ferramentas modernas (como Meshy, Leonardo, Gen-2, Runway, etc.).
 
 ---
 
@@ -184,7 +184,7 @@ Ensinar como criar histórias visuais coesas com uso de IA, mantendo personagens
 
 ---
 
-### 1. Introdução (10 min)
+### 1. Introduçêo (10 min)
 
 **Tópico:** O que é consistência visual e narrativa?
 
@@ -217,16 +217,16 @@ Fifi (menina ruiva estilo Pixar) e Zeca (capivara falante): se mudamos roupa, ce
 
 **Modelo simples de 3 etapas (sequência):**
 
-1. **Apresentação**  
+1. **Apresentaçêo**  
    - Ex: Fifi encontra um mapa antigo em seu quarto.
 2. **Desenvolvimento**  
    - Ex: Fifi e Zeca atravessam uma floresta encantada.
-3. **Conclusão**  
+3. **Conclusêo**  
    - Ex: Fifi descobre a entrada secreta para o Reino da Luz.
 
 **Dicas para o prompt:**
-- Cite a aparência dos personagens, cenário, emoções, tempo do dia, ação.
-- Exemplo: “Menina ruiva de 10 anos, cabelo bagunçado, vestido azul, ao lado de uma capivara falante. Estão em uma floresta densa, à noite, segurando um mapa luminoso.”
+- Cite a aparência dos personagens, cenário, emoções, tempo do dia, açêo.
+- Exemplo: “Menina ruiva de 10 anos, cabelo bagunçado, vestido azul, ao lado de uma capivara falante. Estêo em uma floresta densa, à noite, segurando um mapa luminoso.”
 
 ---
 

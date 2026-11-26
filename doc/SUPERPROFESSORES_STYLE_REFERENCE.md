@@ -3,13 +3,13 @@
 > **Transformando educadores em arquitetos do futuro da aprendizagem**
 > Sistema de Design Completo com Modelo Híbrido de Trilhas
 
-**Versão:** 3.0 | **Data:** 2025-11-12 | **Autor:** BMad Orchestrator
+**Versêo:** 3.0 | **Data:** 2025-11-12 | **Autor:** BMad Orchestrator
 
 ---
 
 ## 📋 Índice Rápido
 
-- [Visão Geral](#visão-geral)
+- [Visêo Geral](#visêo-geral)
 - [Identidade Visual](#identidade-visual)
 - [Sistema de Cores](#sistema-de-cores)
 - [Tipografia](#tipografia)
@@ -21,11 +21,11 @@
 
 ---
 
-## 🎯 Visão Geral
+## 🎯 Visêo Geral
 
 ### Sobre o Projeto
 
-**SuperProfessores** é um programa de formação de educadores em IA com estrutura híbrida:
+**SuperProfessores** é um programa de formaçêo de educadores em IA com estrutura híbrida:
 - **Nível 1** (Fundamentos) - Base obrigatória
 - **Trilha A** (Professor 2.0) - Usar IA como ferramenta
 - **Trilha B** (Educador de IA) - Ensinar IA para alunos
@@ -34,7 +34,7 @@
 
 1. ✅ **Resiliência** - Design que suporta atualizações frequentes
 2. ✅ **Clareza** - Estrutura híbrida visualmente clara
-3. ✅ **Densidade** - Máxima informação com legibilidade
+3. ✅ **Densidade** - Máxima informaçêo com legibilidade
 4. ✅ **Dark Mode** - Suporte completo ao modo escuro
 5. ✅ **Mobile-First** - Responsivo em todos os dispositivos
 
@@ -65,7 +65,7 @@ Tagline:  "Transformando educadores em arquitetos do futuro da aprendizagem"
 
 - **Tom**: Educacional, inovador, acessível
 - **Estilo**: Moderno, profissional, educativo
-- **Emoção**: Empoderamento, transformação, futuro
+- **Emoçêo**: Empoderamento, transformaçêo, futuro
 
 ---
 
@@ -86,7 +86,7 @@ Tagline:  "Transformando educadores em arquitetos do futuro da aprendizagem"
 FEP usa cores por NÍVEL (linear):
   Verde → Azul → Roxo
 
-SuperProfessores usa cores por TRILHA (bifurcação):
+SuperProfessores usa cores por TRILHA (bifurcaçêo):
   Azul (base) → Roxo OU Verde
 ```
 
@@ -94,7 +94,7 @@ SuperProfessores usa cores por TRILHA (bifurcação):
 
 ```css
 /* Cores Principais */
---primary:        #3B82F6;   /* Blue 500 - Azul padrão */
+--primary:        #3B82F6;   /* Blue 500 - Azul padrêo */
 --trilha-a:       #9b59b6;   /* Roxo - Trilha A */
 --trilha-b:       #10B981;   /* Verde - Trilha B */
 --fundamentos:    #3B82F6;   /* Azul - Nível 1 */
@@ -196,7 +196,7 @@ H3: text-2xl (24px)
 
 <!-- Section Title -->
 <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">
-  Seção
+  Seçêo
 </h2>
 
 <!-- Card Title -->
@@ -226,7 +226,7 @@ Padding de container:    px-4 sm:px-6 lg:px-8
 Max width container:     max-w-7xl         (1280px)
 ```
 
-### Container Padrão
+### Container Padrêo
 
 ```html
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -260,7 +260,7 @@ xl:  1280px  - Large desktop
 
 ## 🧩 Componentes
 
-### 1. Navegação (Sticky)
+### 1. Navegaçêo (Sticky)
 
 ```html
 <nav class="sticky top-0 z-50 bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm border-b border-neutral-200 dark:border-neutral-700">
@@ -373,7 +373,7 @@ xl:  1280px  - Large desktop
       Nível 1: Fundamentos de IA
     </h1>
 
-    <!-- Descrição -->
+    <!-- Descriçêo -->
     <p class="text-xl text-white/90 mb-6">
       Base comum para todas as trilhas
     </p>
@@ -410,7 +410,7 @@ xl:  1280px  - Large desktop
         12 horas
       </span>
       <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-2">
-        Módulo 1.1: Introdução à IA
+        Módulo 1.1: Introduçêo à IA
       </h2>
       <p class="text-neutral-600 dark:text-neutral-400">
         Fundamentos essenciais de Inteligência Artificial
@@ -420,33 +420,33 @@ xl:  1280px  - Large desktop
 
   <!-- Action Buttons -->
   <div class="flex flex-wrap gap-3 mb-6">
-    <!-- Botão 1: Ver em Modal -->
+    <!-- Botêo 1: Ver em Modal -->
     <button onclick="openModal('modulo-1-1')" class="px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center gap-2">
       <span>📖</span>
       <span>Ver em Modal</span>
     </button>
 
-    <!-- Botão 2: Página Completa -->
+    <!-- Botêo 2: Página Completa -->
     <a href="../modulos/modulo-1-1.html" class="px-6 py-3 bg-transparent border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors flex items-center gap-2">
       <span>📄</span>
       <span>Abrir Página Completa</span>
     </a>
 
-    <!-- Botão 3: Download -->
+    <!-- Botêo 3: Download -->
     <a href="../pdfs/modulo-1-1.md" download class="px-6 py-3 bg-transparent border-2 border-neutral-300 dark:border-neutral-600 text-neutral-700 dark:text-neutral-300 rounded-lg font-semibold hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors flex items-center gap-2">
       <span>📥</span>
       <span>Download PDF/MD</span>
     </a>
   </div>
 
-  <!-- Tópicos Expansíveis (ver próxima seção) -->
+  <!-- Tópicos Expansíveis (ver próxima seçêo) -->
 
 </div>
 ```
 
 **Características:**
 - Border transparente que fica colorido no hover
-- 3 botões padrão (Modal, Página, Download)
+- 3 botões padrêo (Modal, Página, Download)
 - Shadow-lg
 - Padding 8 (32px)
 - Border radius 2xl
@@ -472,7 +472,7 @@ xl:  1280px  - Large desktop
 
       <div class="topic-explanation hidden ml-6 mt-2 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border-l-4 border-primary">
         <p class="text-sm mb-1.5 text-neutral-700 dark:text-neutral-300">
-          <strong class="text-primary">O que é:</strong> Definição clara e objetiva do conceito
+          <strong class="text-primary">O que é:</strong> Definiçêo clara e objetiva do conceito
         </p>
         <p class="text-sm mb-1.5 text-neutral-700 dark:text-neutral-300">
           <strong class="text-primary">Por que aprender:</strong> Justificativa pedagógica/prática
@@ -490,10 +490,10 @@ xl:  1280px  - Large desktop
 
 **Espaçamento Ultra-Compacto:**
 
-| Elemento | FEP (Original) | SuperProfessores | Redução |
+| Elemento | FEP (Original) | SuperProfessores | Reduçêo |
 |----------|----------------|------------------|---------|
 | Entre botões | `space-y-2` (8px) | `space-y-0.5` (2px) | **-75%** |
-| Padding botão | `py-3` (12px) | `py-1` (4px) | **-67%** |
+| Padding botêo | `py-3` (12px) | `py-1` (4px) | **-67%** |
 | Entre parágrafos | `mb-2` (8px) | `mb-1.5` (6px) | **-25%** |
 
 **JavaScript (app.js):**
@@ -606,7 +606,7 @@ document.addEventListener('click', function(e) {
   <div class="modal-content">
     <div class="modal-header">
       <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
-        Módulo 1.1: Introdução à IA
+        Módulo 1.1: Introduçêo à IA
       </h2>
       <span class="close-modal">&times;</span>
     </div>
@@ -716,7 +716,7 @@ document.addEventListener('keydown', function(e) {
 
 ## 🌙 Dark Mode
 
-### Implementação Completa
+### Implementaçêo Completa
 
 **1. HTML Setup:**
 
@@ -833,7 +833,7 @@ function updateThemeIcon(isDark) {
 }
 ```
 
-**6. Botão de Toggle (SVG Icons):**
+**6. Botêo de Toggle (SVG Icons):**
 
 ```html
 <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600">
@@ -902,7 +902,7 @@ XL Desktop (xl):   >= 1280px
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SuperProfessores | Transformando Educadores</title>
-  <meta name="description" content="Programa de formação de educadores em IA">
+  <meta name="description" content="Programa de formaçêo de educadores em IA">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -1027,7 +1027,7 @@ XL Desktop (xl):   >= 1280px
         Transforme sua Prática Educacional com IA
       </h1>
       <p class="text-xl mb-8">
-        Escolha sua especialização
+        Escolha sua especializaçêo
       </p>
       <button class="bg-white text-primary px-8 py-4 rounded-lg font-bold hover:bg-neutral-100">
         Começar Agora
@@ -1109,7 +1109,7 @@ XL Desktop (xl):   >= 1280px
 
 ---
 
-## ✅ Checklist de Implementação
+## ✅ Checklist de Implementaçêo
 
 ### Setup Inicial
 - [ ] Incluir Tailwind CSS CDN
@@ -1127,10 +1127,10 @@ XL Desktop (xl):   >= 1280px
 - [ ] Adicionar variante `dark:` em TODAS as bordas
 
 ### Componentes
-- [ ] Navegação sticky com backdrop blur
+- [ ] Navegaçêo sticky com backdrop blur
 - [ ] Breadcrumb (páginas internas)
 - [ ] Hero section com gradiente correto
-- [ ] Module cards com 3 botões padrão
+- [ ] Module cards com 3 botões padrêo
 - [ ] Tópicos expansíveis ultra-compactos
 - [ ] Modais (se página de nível)
 - [ ] Footer com 3 colunas
@@ -1169,16 +1169,16 @@ XL Desktop (xl):   >= 1280px
 
 ### ❌ NUNCA FAZER:
 
-1. Não usar CSS inline (sempre Tailwind)
-2. Não esquecer variantes `dark:`
-3. Não misturar cores de diferentes níveis/trilhas
-4. Não copiar apenas parte do Tailwind config
-5. Não usar z-index aleatórios (nav=50, modal=100)
-6. Não esquecer transition em elementos hover
-7. Não usar espaçamento diferente dos padrões compactos
-8. Não esquecer meta tags (charset, viewport)
-9. Não deixar console.errors
-10. Não confundir FEP com SuperProfessores
+1. Nêo usar CSS inline (sempre Tailwind)
+2. Nêo esquecer variantes `dark:`
+3. Nêo misturar cores de diferentes níveis/trilhas
+4. Nêo copiar apenas parte do Tailwind config
+5. Nêo usar z-index aleatórios (nav=50, modal=100)
+6. Nêo esquecer transition em elementos hover
+7. Nêo usar espaçamento diferente dos padrões compactos
+8. Nêo esquecer meta tags (charset, viewport)
+9. Nêo deixar console.errors
+10. Nêo confundir FEP com SuperProfessores
 
 ---
 
@@ -1189,13 +1189,13 @@ XL Desktop (xl):   >= 1280px
 | **Estrutura** | 3 níveis lineares | 1 base + 2 trilhas |
 | **Cores** | Verde→Azul→Roxo (por nível) | Azul(base)+Roxo/Verde(trilhas) |
 | **Espaçamento** | Confortável (8-12px) | Ultra-compacto (2-4px) |
-| **Dark Mode** | Não especificado | Completo |
+| **Dark Mode** | Nêo especificado | Completo |
 | **Público** | Geral | Educadores |
 
 ---
 
-**Última atualização:** 2025-11-12
-**Versão:** 3.0 (Modelo Híbrido)
+**Última atualizaçêo:** 2025-11-12
+**Versêo:** 3.0 (Modelo Híbrido)
 **Autor:** BMad Orchestrator
 
 ---

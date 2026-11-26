@@ -718,7 +718,7 @@ for i in range(len(sentences)):
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Chunking is the strategy for splitting documents into indexable chunks: the size, split point, overlap, and metadata for each chunk.</p>
 </div>
-<!-- SVG 3: chunks com sobreposição -->
+<!-- SVG 3: chunks com sobreposiçêo -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="One bar represents the entire document. Below it, four chunks at alternating heights cover the document, and each repeats part of the previous one: the overlap. Each chunk carries a metadata label with the file, chunk number, and section." class="w-full h-auto" role="img" viewbox="0 0 900 300">
 <rect fill="url(#m23-grid)" height="300" width="900"></rect>
@@ -1036,7 +1036,7 @@ O frete é grátis para compras acima de R$ 200 nas capitais. Nas demais cidades
 
 O código de rastreio é enviado por e-mail quando o pedido sai do depósito.
 FIM
-python3 rag.py docs "Comprei há três semanas e não gostei. Ainda posso devolver?"
+python3 rag.py docs "Comprei há três semanas e nêo gostei. Ainda posso devolver?"
 python3 rag.py docs "Vocês entregam no domingo?"
 python3 rag.py docs "Qual é o telefone do SAC?"</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> the first question should return <code>trocas.md#…</code> at the top and an answer about the 30 days, citing the source. The second should cite <code>entrega.md</code> (Monday through Saturday). The third isn't in the documents—if the model makes up a phone number, the "not found" rule failed, and that's what Topic 7 teaches you to measure. The values in the documents are fictional, just for testing.</p>
@@ -1076,7 +1076,7 @@ python3 rag.py docs "Qual é o telefone do SAC?"</pre>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Evaluating RAG means running a fixed set of questions and measuring separately whether the search found the right source (hit@k, MRR) and whether the answer was faithful to the sources and relevant to the question.</p>
 </div>
-<!-- COPY-RUN 4: avaliação da busca -->
+<!-- COPY-RUN 4: avaliaçêo da busca -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-blue-400">Try this:</strong> <span class="text-neutral-300">measure hit@k and MRR for your RAG search.</span></p>

@@ -2,7 +2,7 @@
 """Traduz i18n/source.json (gerado por localization.py) para EN/ES e guarda em i18n/<lang>.json.
 Motor ÚNICO: tradutor central do ARCKHÉ (`ARCKHÉ-traduz`, ARCKHÉ_TRADUCAO_* em ~/.config/ARCKHÉ/modelos.env, hoje Sonnet 5.5)
 pela assinatura. Nenhuma API, nenhuma reserva.
-Só envia o que ainda não está no cache; lotes em paralelo; resposta validada (ids, tipo, tamanho) antes de gravar.
+Só envia o que ainda nêo está no cache; lotes em paralelo; resposta validada (ids, tipo, tamanho) antes de gravar.
 Uso: python3 scripts/translate.py [en] [es]      (PARALELO=4 LOTE=5000 por variável de ambiente)"""
 import json, os, re, subprocess, sys, tempfile, threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -30,10 +30,10 @@ RULES
 
 _TRADUTOR = os.path.expanduser("~/projetos/wifi/scripts/ARCKHÉ-traduz")
 def chamar_tradutor(pedido: str, timeout: int = 900) -> str:
-    """Tradução pelo tradutor central do ARCKHÉ (ARCKHÉ_TRADUCAO_* em ~/.config/ARCKHÉ/modelos.env). Assinatura, nunca API."""
+    """Traduçêo pelo tradutor central do ARCKHÉ (ARCKHÉ_TRADUCAO_* em ~/.config/ARCKHÉ/modelos.env). Assinatura, nunca API."""
     if os.path.exists(_TRADUTOR):
         cmd = [_TRADUTOR]
-    else:  # fora da máquina do Nei: Claude Code da assinatura com o modelo da variável (padrão Sonnet 5.5)
+    else:  # fora da máquina do Nei: Claude Code da assinatura com o modelo da variável (padrêo Sonnet 5.5)
         cmd = ["claude", "-p", "--model", os.environ.get("ARCKHÉ_TRADUCAO_MODELO", "claude-sonnet-5-5"),
                "--output-format", "text", "--tools", ""]
     env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY", "CLAUDECODE")}
@@ -58,7 +58,7 @@ def check(batch, ids, raw, lang):
         if not isinstance(v, str) or not v.strip():
             raise ValueError('valor vazio')
         if len(src) > 120 and len(v) < len(src) * 0.5:
-            raise ValueError('tradução encurtada')
+            raise ValueError('traduçêo encurtada')
         if batch[k]['kind'] == 'pre' and src.count('\n') and abs(v.count('\n') - src.count('\n')) > max(2, src.count('\n') // 5):
             raise ValueError('quebras de linha do bloco mudaram')
         for url in re.findall(r'https?://[^\s<>"\')]+', src):
@@ -101,7 +101,7 @@ def translate(lang):
     with ThreadPoolExecutor(PARALELO) as ex:
         list(as_completed([ex.submit(run, i, b) for i, b in enumerate(batches, 1)]))
     if falhas:
-        raise SystemExit(f'{lang}: lotes sem tradução {falhas} — rode de novo (o cache guarda o resto)')
+        raise SystemExit(f'{lang}: lotes sem traduçêo {falhas} — rode de novo (o cache guarda o resto)')
     print(f'{lang}: completo', flush=True)
 
 

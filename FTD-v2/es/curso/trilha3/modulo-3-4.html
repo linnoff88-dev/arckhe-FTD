@@ -777,7 +777,7 @@ Termina con: PARAR / SEGUNDA PASADA / TERCERA PASADA y el motivo.</pre>
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="contaminação, saturação e a lei de Goodhart">📊 Por qué los benchmarks engañan</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="contaminaçêo, saturaçêo e a lei de Goodhart">📊 Por qué los benchmarks engañan</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -789,7 +789,7 @@ Termina con: PARAR / SEGUNDA PASADA / TERCERA PASADA y el motivo.</pre>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es la lectura crítica de las cifras de evaluación: entender qué mide el benchmark, si todavía distingue entre modelos y si el resultado se mantiene con datos que el modelo nunca vio, especialmente los tuyos.</p>
 </div>
-<!-- SVG 3: saturação e contaminação -->
+<!-- SVG 3: saturaçêo e contaminaçêo -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="Gráfico ilustrativo: tres curvas de puntuación de benchmarks suben con el tiempo hasta acercarse a una línea discontinua que marca el límite. Una flecha señala la contaminación, cuando las preguntas de la prueba se filtran a los datos de entrenamiento. Una franja lateral recuerda que cerca del límite las diferencias se convierten en ruido." class="w-full h-auto" role="img" viewbox="0 0 860 320">
 <defs>
@@ -888,7 +888,7 @@ Termina con: PARAR / SEGUNDA PASADA / TERCERA PASADA y el motivo.</pre>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Paso 4 · Replica con tus datos.</strong> Compáralo con tu baseline actual, en tu conjunto de evaluación.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Paso 5 · Registrar el veredicto.</strong> Se reprodujo, se reprodujo parcialmente o no se reprodujo, y por qué.</p></div>
 </div>
-<!-- COPY: script de reprodução com sementes -->
+<!-- COPY: script de reproduçêo com sementes -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-purple-400">Prueba:</strong> <span class="text-neutral-300">medir si un resultado se repite entre semillas, con un modelo local en Ollama (solo biblioteca estándar de Python 3).</span></p>
@@ -909,7 +909,7 @@ def perguntar(modelo, texto, seed, temperatura):
     corpo = json.dumps({
         "model": modelo,
         "messages": [{"role": "user",
-                      "content": texto + "\nResponda só com a resposta final, sem explicação."}],
+                      "content": texto + "\nResponda só com a resposta final, sem explicaçêo."}],
         "temperature": temperatura,
         "seed": seed,
     }).encode()
@@ -966,7 +966,7 @@ if __name__ == "__main__":
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="portões entre a ideia e a produção">🏭 Del paper al producto</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="portões entre a ideia e a produçêo">🏭 Del paper al producto</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -978,7 +978,7 @@ if __name__ == "__main__":
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Es un proceso de adopción por etapas —lectura, reproducción, prueba con datos propios, piloto y producción—, cada una con un criterio de avance acordado antes de empezar.</p>
 </div>
-<!-- SVG 4: escada de adoção -->
+<!-- SVG 4: escada de adoçêo -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="Escalera de cinco peldaños para adoptar la investigación: 1 leer y seleccionar, 2 reproducir, 3 probar con datos propios, 4 hacer un piloto con usuarios reales, 5 producción monitoreada. Entre los peldaños hay puertas con el criterio para avanzar, y el costo aumenta en cada peldaño." class="w-full h-auto" role="img" viewbox="0 0 880 300">
 <rect fill="url(#m34-grid)" height="300" width="880"></rect>

@@ -134,44 +134,44 @@ MENSAGEM 16
 Autor: ARCKHÉ
 Data: 2025-03-26T20:55:47+00:00
 Texto:
-## 🚀 Comunidade FTD – Formação em Transformação Digital  
-*Uma Revolução Digital ao Seu Alcance*
+## 🚀 Comunidade FTD – Formaçêo em Transformaçêo Digital  
+*Uma Revoluçêo Digital ao Seu Alcance*
 
 ---
 
-### 🌱 **Imersão 1 – Iniciação Digital e Inteligência Artificial**  
+### 🌱 **Imersêo 1 – Iniciaçêo Digital e Inteligência Artificial**  
 *Desperte seu potencial com as ferramentas certas e uma nova mentalidade digital*
 
 - Uso prático do ChatGPT no dia a dia e nos negócios  
-- Ferramentas por categoria: texto, apresentação, imagem, vídeo e dev  
-- Engenharia de prompts e criação de assistentes com IA  
-- Criação de conteúdo e estratégias de venda nas redes sociais  
+- Ferramentas por categoria: texto, apresentaçêo, imagem, vídeo e dev  
+- Engenharia de prompts e criaçêo de assistentes com IA  
+- Criaçêo de conteúdo e estratégias de venda nas redes sociais  
 - Primeiras automações com Make, n8n e planilhas  
-- Introdução a integrações por API e recursos como RAG, raspagem e transcrição  
+- Introduçêo a integrações por API e recursos como RAG, raspagem e transcriçêo  
 - Planejamento de soluções digitais simples com IA
 
 ---
 
-### 🔧 **Imersão 2 – Automação e Eficiência com IA**  
+### 🔧 **Imersêo 2 – Automaçêo e Eficiência com IA**  
 *Otimize tempo, reduza esforço e escale resultados com fluxos inteligentes*
 
-- Construção de processos automatizados  
-- Implementação de chatbots, atendimento automático e CRMs com IA  
+- Construçêo de processos automatizados  
+- Implementaçêo de chatbots, atendimento automático e CRMs com IA  
 - Conectores e integradores como Make, Zapier e n8n  
 - Automatizando vendas, respostas e suporte  
 - Casos reais e projetos prontos para personalizar  
-- Métricas, otimização e loops de melhoria contínua
+- Métricas, otimizaçêo e loops de melhoria contínua
 
 ---
 
-### 🏢 **Imersão 3 – Empreendedorismo e Agências de IA**  
+### 🏢 **Imersêo 3 – Empreendedorismo e Agências de IA**  
 *Do aprendizado à prática profissional: crie sua microagência e atenda empresas reais*
 
-- Como montar sua agência de automação e IA  
-- Posicionamento digital, captação de clientes e construção de autoridade  
-- Ofertas de serviço, modelos de entrega e precificação  
-- Criação de portfólio e pitch para empresas  
-- Participação no marketplace FTD e acesso a oportunidades reais
+- Como montar sua agência de automaçêo e IA  
+- Posicionamento digital, captaçêo de clientes e construçêo de autoridade  
+- Ofertas de serviço, modelos de entrega e precificaçêo  
+- Criaçêo de portfólio e pitch para empresas  
+- Participaçêo no marketplace FTD e acesso a oportunidades reais
 
 ---
 
@@ -183,23 +183,23 @@ Data: 2025-03-26T20:48:25+00:00
 Texto:
 Esse projeto da Comunidade FTD tem tudo para ser um divisor de águas na vida de muita gente.
 
-**🚀 Comunidade FTD – Formação em Transformação Digital**  
-*Uma Revolução Digital ao Seu Alcance*
+**🚀 Comunidade FTD – Formaçêo em Transformaçêo Digital**  
+*Uma Revoluçêo Digital ao Seu Alcance*
 
-🌱 **Imersão 1 – Iniciação Digital e IA**  
+🌱 **Imersêo 1 – Iniciaçêo Digital e IA**  
 Do zero ao domínio: aprenda a vender online, criar conteúdo estratégico, usar IA no dia a dia e dominar ferramentas como Canva, ChatGPT, WhatsApp Business e automações simples.
 
-🔧 **Imersão 2 – Automação e Eficiência**  
-Você no comando: monte fluxos automatizados com ferramentas como Make, Zapier e n8n, crie chatbots, use CRMs e melhore o atendimento e a conversão em qualquer negócio.
+🔧 **Imersêo 2 – Automaçêo e Eficiência**  
+Você no comando: monte fluxos automatizados com ferramentas como Make, Zapier e n8n, crie chatbots, use CRMs e melhore o atendimento e a conversêo em qualquer negócio.
 
-🏢 **Imersão 3 – Empreendedorismo e Agências de IA**  
-De aprendiz a consultor: transforme o que aprendeu em serviço! Crie sua microagência de automação e IA, com modelo de negócio, captação de clientes e posicionamento digital.
+🏢 **Imersêo 3 – Empreendedorismo e Agências de IA**  
+De aprendiz a consultor: transforme o que aprendeu em serviço! Crie sua microagência de automaçêo e IA, com modelo de negócio, captaçêo de clientes e posicionamento digital.
 
 🎓 Cada etapa inclui:  
 ✔️ Treinamentos práticos  
 ✔️ Mentoria em grupo  
 ✔️ Materiais exclusivos  
-✔️ Conexão com oportunidades no marketplace FTD
+✔️ Conexêo com oportunidades no marketplace FTD
 
 ------------------------------
 

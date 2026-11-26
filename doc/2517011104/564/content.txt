@@ -29,7 +29,7 @@ MENSAGEM 3
 Autor: ARCKHÉ
 Data: 2025-04-09T04:21:29+00:00
 Texto:
-Se você quiser **buscar leads automaticamente com ferramentas como Apify**, o processo fica muito mais ágil — mas é importante manter o controle manual ou validar os dados, como você disse: **melhor fazer manual do que não fazer, mas melhor ainda é automatizar e validar.**
+Se você quiser **buscar leads automaticamente com ferramentas como Apify**, o processo fica muito mais ágil — mas é importante manter o controle manual ou validar os dados, como você disse: **melhor fazer manual do que nêo fazer, mas melhor ainda é automatizar e validar.**
 
 Aqui vai um guia completo para **usar Apify + outras ferramentas de raspagem** para encontrar leads, com exemplos práticos:
 
@@ -46,10 +46,10 @@ Você pode extrair:
 **Exemplo prático com Apify:**
 - Acesse: [https://apify.com](https://apify.com/)
 - Use o **Instagram Hashtag Scraper**:
-  - Input: `#manicure`, `#cabelereiraemcasa`, `#promoçãodebeleza`
+  - Input: `#manicure`, `#cabelereiraemcasa`, `#promoçêodebeleza`
   - Output: lista de perfis com nome, link, bio e seguidores
 
-**Dica:** filtre os perfis que têm WhatsApp ou link de loja na bio → esses são leads quentes!
+**Dica:** filtre os perfis que têm WhatsApp ou link de loja na bio → esses sêo leads quentes!
 
 ---
 
@@ -58,7 +58,7 @@ Você pode extrair:
 - Use PhantomBuster: Facebook Group Extractor (https://phantombuster.com)
   - Ele pode buscar: nome, link do perfil, conteúdo do comentário/post.
 
-**Dica:** copie os dados para uma planilha e aplique uma mensagem personalizada via Facebook ou Messenger manualmente ou com automação leve (ex: ManyChat).
+**Dica:** copie os dados para uma planilha e aplique uma mensagem personalizada via Facebook ou Messenger manualmente ou com automaçêo leve (ex: ManyChat).
 
 ---
 
@@ -66,7 +66,7 @@ Você pode extrair:
 - Use a busca do Telegram para encontrar grupos com palavras-chave.
 - Ferramentas como o **TGStat** (https://tgstat.com/) ajudam a encontrar canais e grupos populares por tema.
 - Para extrair membros:  
-  - Use bots como `@GroupHelpBot` (com permissão de admin)
+  - Use bots como `@GroupHelpBot` (com permissêo de admin)
   - Ou scripts em Python como `telethon` (mais técnico)
 
 ---
@@ -74,7 +74,7 @@ Você pode extrair:
 #### 4. **OLX (via Apify ou ****Webscraper.io****)**
 - Com Apify, use o **Website Scraper** configurando para OLX.
   - Exemplo: scrape de anúncios com a palavra “manicure”, “produtos de beleza”, “kit unha”.
-  - Retorna: título, descrição, telefone (quando disponível), cidade.
+  - Retorna: título, descriçêo, telefone (quando disponível), cidade.
 
 ---
 
@@ -84,17 +84,17 @@ Você pode extrair:
 
 **Exemplo:**
 - Use `Apify Google Maps Scraper`
-  - Input: “salão de beleza em Porto Alegre”
+  - Input: “salêo de beleza em Porto Alegre”
   - Output: planilha com 100+ contatos de negócios locais
 
 ---
 
-### BOA PRÁTICA: Validação manual
-Mesmo com automação, **valide manualmente os leads mais promissores**, seguindo esse modelo:
+### BOA PRÁTICA: Validaçêo manual
+Mesmo com automaçêo, **valide manualmente os leads mais promissores**, seguindo esse modelo:
 
 1. Perfil ativo? ✔️  
 2. Tem sinais de interesse (comentários, bio, link)? ✔️  
-3. Pode ser abordado com ética e personalização? ✔️  
+3. Pode ser abordado com ética e personalizaçêo? ✔️  
 
 Crie uma planilha com colunas:
 - Nome
@@ -109,7 +109,7 @@ Crie uma planilha com colunas:
 - [PhantomBuster](https://phantombuster.com/)
 - [TGStat para Telegram](https://tgstat.com/)
 - [Webscraper.io](https://webscraper.io/)
-- Extensão do Chrome: **DataMiner** ou **Instant Data Scraper**
+- Extensêo do Chrome: **DataMiner** ou **Instant Data Scraper**
 
 ---
 
@@ -122,7 +122,7 @@ MENSAGEM 4
 Autor: ARCKHÉ
 Data: 2025-04-09T04:21:02+00:00
 Texto:
-Ótimo! Se você quiser **buscar leads automaticamente com ferramentas como Apify**, o processo fica muito mais ágil — mas é importante manter o controle manual ou validar os dados, como você disse: **melhor fazer manual do que não fazer, mas melhor ainda é automatizar e validar.**
+Ótimo! Se você quiser **buscar leads automaticamente com ferramentas como Apify**, o processo fica muito mais ágil — mas é importante manter o controle manual ou validar os dados, como você disse: **melhor fazer manual do que nêo fazer, mas melhor ainda é automatizar e validar.**
 
 Aqui vai um guia completo para **usar Apify + outras ferramentas de raspagem** para encontrar leads, com exemplos práticos:
 
@@ -139,10 +139,10 @@ Você pode extrair:
 **Exemplo prático com Apify:**
 - Acesse: [https://apify.com](https://apify.com/)
 - Use o **Instagram Hashtag Scraper**:
-  - Input: `#manicure`, `#cabelereiraemcasa`, `#promoçãodebeleza`
+  - Input: `#manicure`, `#cabelereiraemcasa`, `#promoçêodebeleza`
   - Output: lista de perfis com nome, link, bio e seguidores
 
-**Dica:** filtre os perfis que têm WhatsApp ou link de loja na bio → esses são leads quentes!
+**Dica:** filtre os perfis que têm WhatsApp ou link de loja na bio → esses sêo leads quentes!
 
 ---
 
@@ -151,7 +151,7 @@ Você pode extrair:
 - Use PhantomBuster: Facebook Group Extractor (https://phantombuster.com)
   - Ele pode buscar: nome, link do perfil, conteúdo do comentário/post.
 
-**Dica:** copie os dados para uma planilha e aplique uma mensagem personalizada via Facebook ou Messenger manualmente ou com automação leve (ex: ManyChat).
+**Dica:** copie os dados para uma planilha e aplique uma mensagem personalizada via Facebook ou Messenger manualmente ou com automaçêo leve (ex: ManyChat).
 
 ---
 
@@ -159,7 +159,7 @@ Você pode extrair:
 - Use a busca do Telegram para encontrar grupos com palavras-chave.
 - Ferramentas como o **TGStat** (https://tgstat.com/) ajudam a encontrar canais e grupos populares por tema.
 - Para extrair membros:  
-  - Use bots como `@GroupHelpBot` (com permissão de admin)
+  - Use bots como `@GroupHelpBot` (com permissêo de admin)
   - Ou scripts em Python como `telethon` (mais técnico)
 
 ---
@@ -167,7 +167,7 @@ Você pode extrair:
 #### 4. **OLX (via Apify ou ****Webscraper.io****)**
 - Com Apify, use o **Website Scraper** configurando para OLX.
   - Exemplo: scrape de anúncios com a palavra “manicure”, “produtos de beleza”, “kit unha”.
-  - Retorna: título, descrição, telefone (quando disponível), cidade.
+  - Retorna: título, descriçêo, telefone (quando disponível), cidade.
 
 ---
 
@@ -177,17 +177,17 @@ Você pode extrair:
 
 **Exemplo:**
 - Use `Apify Google Maps Scraper`
-  - Input: “salão de beleza em Porto Alegre”
+  - Input: “salêo de beleza em Porto Alegre”
   - Output: planilha com 100+ contatos de negócios locais
 
 ---
 
-### BOA PRÁTICA: Validação manual
-Mesmo com automação, **valide manualmente os leads mais promissores**, seguindo esse modelo:
+### BOA PRÁTICA: Validaçêo manual
+Mesmo com automaçêo, **valide manualmente os leads mais promissores**, seguindo esse modelo:
 
 1. Perfil ativo? ✔️  
 2. Tem sinais de interesse (comentários, bio, link)? ✔️  
-3. Pode ser abordado com ética e personalização? ✔️  
+3. Pode ser abordado com ética e personalizaçêo? ✔️  
 
 Crie uma planilha com colunas:
 - Nome
@@ -202,7 +202,7 @@ Crie uma planilha com colunas:
 - [PhantomBuster](https://phantombuster.com/)
 - [TGStat para Telegram](https://tgstat.com/)
 - [Webscraper.io](https://webscraper.io/)
-- Extensão do Chrome: **DataMiner** ou **Instant Data Scraper**
+- Extensêo do Chrome: **DataMiner** ou **Instant Data Scraper**
 
 ---
 
@@ -272,7 +272,7 @@ Texto:
 
 ---
 
-### COMO FAZER MANUALMENTE – PLANO DE 7 DIAS DE AÇÃO
+### COMO FAZER MANUALMENTE – PLANO DE 7 DIAS DE AÇêO
 
 | Dia | Postagem feita? | Falou com 10 pessoas? | Criou oferta? | Gerou prova social? | Revisou com IA ou caderno? |
 |-----|------------------|------------------------|----------------|----------------------|-----------------------------|
@@ -288,7 +288,7 @@ Texto:
 ---
 
 ### Frase para colar no caderno ou na parede:
-“**O que eu não anoto, eu esqueço. O que eu não executo, não me leva pra frente.**”
+“**O que eu nêo anoto, eu esqueço. O que eu nêo executo, nêo me leva pra frente.**”
 
 ------------------------------
 
@@ -328,7 +328,7 @@ MENSAGEM 13
 Autor: ARCKHÉ
 Data: 2025-04-09T04:18:52+00:00
 Texto:
-### MÓDULO 5: CAÇA A LEADS E AÇÃO IMEDIATA  
+### MÓDULO 5: CAÇA A LEADS E AÇêO IMEDIATA  
 **Objetivo**: Ensinar os participantes a encontrar pessoas reais com potencial para compra, de forma ética, direta e inteligente.
 
 #### Tópicos com exemplos e orientações:
@@ -336,7 +336,7 @@ Texto:
 1. **Buscar Leads no Instagram**
    - **Explorar**: digite palavras relacionadas ao seu nicho e veja quem curte, comenta ou posta sobre isso.
      - Exemplo: para nicho de cosméticos, busque por “#dicasdebeleza”, veja perfis com engajamento e envie mensagem personalizada.
-   - **Hashtags**: use e monitore hashtags estratégicas como #compras, #manicure, #promoçãoRJ.
+   - **Hashtags**: use e monitore hashtags estratégicas como #compras, #manicure, #promoçêoRJ.
      - Exemplo: comente com valor nos posts dessas hashtags e ofereça uma conversa no direct.
    - **Comentários**: veja quem comenta em páginas concorrentes ou influenciadores do seu nicho.
      - Exemplo: uma pessoa que comentou “onde compra?” em um post é um lead quente.
@@ -363,7 +363,7 @@ Durante o módulo, cada participante deverá:
 
 ---
 
-### ENCERRAMENTO: PLANO DE 7 DIAS DE AÇÃO
+### ENCERRAMENTO: PLANO DE 7 DIAS DE AÇêO
 
 **Objetivo**: Manter o ritmo de vendas e conversas ativas, testando e ajustando com ajuda da IA.
 
@@ -371,14 +371,14 @@ Durante o módulo, cada participante deverá:
 
 1. **Postar todos os dias**
    - Exemplo: Dicas, bastidores, depoimentos, curiosidades, antes e depois.
-   - Use linguagem simples e chamada para ação.
+   - Use linguagem simples e chamada para açêo.
 
 2. **Conversar com 10 pessoas por dia no X1 (privado)**
    - Personalize a mensagem de abertura.
    - Exemplo: “Vi que você comentou sobre [tema], posso te mostrar algo que uso e gosto muito?”
 
 3. **Criar 1 oferta por semana**
-   - Pode ser um combo, brinde, frete grátis, condição especial.
+   - Pode ser um combo, brinde, frete grátis, condiçêo especial.
    - Exemplo: “Essa semana, frete grátis + presente para quem comprar até sexta.”
 
 4. **Gerar prova social**
@@ -423,7 +423,7 @@ MENSAGEM 17
 Autor: ARCKHÉ
 Data: 2025-04-09T04:16:59+00:00
 Texto:
-### MÓDULO 5: CAÇA A LEADS E AÇÃO IMEDIATA (30 minutos)  
+### MÓDULO 5: CAÇA A LEADS E AÇêO IMEDIATA (30 minutos)  
 Objetivo: Ensinar a buscar pessoas reais para vender, com ética e inteligência.
 
 Conteúdo:
@@ -437,7 +437,7 @@ Cada participante deve buscar 5 leads reais durante o exercício e aplicar uma a
 
 ---
 
-### ENCERRAMENTO: PLANO DE 7 DIAS DE AÇÃO  
+### ENCERRAMENTO: PLANO DE 7 DIAS DE AÇêO  
 - Postar todos os dias
 - Falar com 10 pessoas por dia no X1
 - Criar 1 oferta por semana
@@ -474,7 +474,7 @@ MENSAGEM 21
 Autor: ARCKHÉ
 Data: 2025-04-09T04:16:14+00:00
 Texto:
-1-6-5- CAÇA A LEADS E AÇÃO IMEDIATA
+1-6-5- CAÇA A LEADS E AÇêO IMEDIATA
 
 ------------------------------
 

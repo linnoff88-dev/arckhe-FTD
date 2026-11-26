@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 3.1: Arquitetura de IA em Larga Escala | FTD - Formação Transformação Digital</title>
+  <title>Módulo 3.1: Arquitetura de IA em Larga Escala | FTD - Formaçêo Transformaçêo Digital</title>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -104,7 +104,7 @@
           <div>
             <h3 class="text-xl font-semibold text-masterclass mb-3">O que é</h3>
             <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Multi-tenancy em sistemas de IA refere-se à arquitetura que permite múltiplos clientes (tenants) compartilharem a mesma infraestrutura computacional enquanto mantém isolamento lógico de dados, modelos e recursos. Isso envolve estratégias de particionamento de dados, isolamento de contexto, resource quotas, e políticas de segurança granulares que garantem que um tenant não possa acessar ou interferir nos recursos de outro, mesmo compartilhando o mesmo hardware subjacente.
+              Multi-tenancy em sistemas de IA refere-se à arquitetura que permite múltiplos clientes (tenants) compartilharem a mesma infraestrutura computacional enquanto mantém isolamento lógico de dados, modelos e recursos. Isso envolve estratégias de particionamento de dados, isolamento de contexto, resource quotas, e políticas de segurança granulares que garantem que um tenant nêo possa acessar ou interferir nos recursos de outro, mesmo compartilhando o mesmo hardware subjacente.
             </p>
           </div>
 
@@ -141,7 +141,7 @@
                 </li>
                 <li class="flex items-start">
                   <span class="text-masterclass mr-2 mt-1">•</span>
-                  <span><strong>Compliance per Tenant:</strong> GDPR, HIPAA, SOC2 requirements com configuração granular</span>
+                  <span><strong>Compliance per Tenant:</strong> GDPR, HIPAA, SOC2 requirements com configuraçêo granular</span>
                 </li>
               </ul>
             </div>
@@ -160,14 +160,14 @@
           <div>
             <h3 class="text-xl font-semibold text-masterclass mb-3">O que é</h3>
             <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Sistemas distribuídos de IA envolvem orquestração de múltiplos nós computacionais (CPUs, GPUs, TPUs) trabalhando em conjunto para processar inferências e treinar modelos. Load balancing inteligente distribui requisições baseado em capacidade disponível, latência, afinidade de modelo, e características da requisição. Isso inclui techniques como consistent hashing, geographic routing, model sharding, e batching dinâmico para maximizar throughput e minimizar latência em sistemas com tráfego variável.
+              Sistemas distribuídos de IA envolvem orquestraçêo de múltiplos nós computacionais (CPUs, GPUs, TPUs) trabalhando em conjunto para processar inferências e treinar modelos. Load balancing inteligente distribui requisições baseado em capacidade disponível, latência, afinidade de modelo, e características da requisiçêo. Isso inclui techniques como consistent hashing, geographic routing, model sharding, e batching dinâmico para maximizar throughput e minimizar latência em sistemas com tráfego variável.
             </p>
           </div>
 
           <div>
             <h3 class="text-xl font-semibold text-masterclass mb-3">Por que aprender</h3>
             <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Sistemas de IA em produção precisam servir milhares de requisições por segundo com latências sub-segundo. Arquitetos que dominam distributed systems conseguem criar infraestruturas que escalam horizontalmente, mantêm 99.99% de uptime, e otimizam custos através de utilização eficiente de recursos caros como GPUs. Esta expertise é essencial para liderança técnica em empresas que operam IA em escala global, como OpenAI, Google, e Microsoft.
+              Sistemas de IA em produçêo precisam servir milhares de requisições por segundo com latências sub-segundo. Arquitetos que dominam distributed systems conseguem criar infraestruturas que escalam horizontalmente, mantêm 99.99% de uptime, e otimizam custos através de utilizaçêo eficiente de recursos caros como GPUs. Esta expertise é essencial para liderança técnica em empresas que operam IA em escala global, como OpenAI, Google, e Microsoft.
             </p>
           </div>
 
@@ -193,7 +193,7 @@
                 </li>
                 <li class="flex items-start">
                   <span class="text-masterclass mr-2 mt-1">•</span>
-                  <span><strong>Model Sharding:</strong> Tensor parallelism, pipeline parallelism para modelos que não cabem em single GPU</span>
+                  <span><strong>Model Sharding:</strong> Tensor parallelism, pipeline parallelism para modelos que nêo cabem em single GPU</span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-masterclass mr-2 mt-1">•</span>
@@ -216,7 +216,7 @@
           <div>
             <h3 class="text-xl font-semibold text-masterclass mb-3">O que é</h3>
             <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Event-driven architecture (EDA) para sistemas de IA utiliza message queues, event streams, e pub/sub patterns para desacoplar componentes e processar cargas de trabalho assíncronas. Isso permite que inferências batch, fine-tuning jobs, embedding generation, e outras operações computacionalmente intensivas sejam processadas de forma resiliente e escalável. Tecnologias como Kafka, RabbitMQ, AWS SQS/SNS, e Azure Event Grid formam o backbone de sistemas modernos de IA em produção.
+              Event-driven architecture (EDA) para sistemas de IA utiliza message queues, event streams, e pub/sub patterns para desacoplar componentes e processar cargas de trabalho assíncronas. Isso permite que inferências batch, fine-tuning jobs, embedding generation, e outras operações computacionalmente intensivas sejam processadas de forma resiliente e escalável. Tecnologias como Kafka, RabbitMQ, AWS SQS/SNS, e Azure Event Grid formam o backbone de sistemas modernos de IA em produçêo.
             </p>
           </div>
 
@@ -279,7 +279,7 @@
           <div>
             <h3 class="text-xl font-semibold text-masterclass mb-3">Por que aprender</h3>
             <p class="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Sistemas de IA falham de maneiras únicas que não são capturadas por métricas tradicionais de software - um modelo pode estar "funcionando" mas produzindo outputs degradados devido a drift de dados. Líderes técnicos que implementam observability robusta conseguem detectar problemas antes que afetem usuários, debugar issues complexos de produção, e otimizar custos identificando bottlenecks. Esta expertise é crítica para manter SLAs em produção e é uma expectativa fundamental para roles de Staff Engineer e Principal Architect.
+              Sistemas de IA falham de maneiras únicas que nêo sêo capturadas por métricas tradicionais de software - um modelo pode estar "funcionando" mas produzindo outputs degradados devido a drift de dados. Líderes técnicos que implementam observability robusta conseguem detectar problemas antes que afetem usuários, debugar issues complexos de produçêo, e otimizar custos identificando bottlenecks. Esta expertise é crítica para manter SLAs em produçêo e é uma expectativa fundamental para roles de Staff Engineer e Principal Architect.
             </p>
           </div>
 
@@ -309,7 +309,7 @@
                 </li>
                 <li class="flex items-start">
                   <span class="text-masterclass mr-2 mt-1">•</span>
-                  <span><strong>Continuous Validation:</strong> Shadow deployments, canary analysis, A/B testing em produção</span>
+                  <span><strong>Continuous Validation:</strong> Shadow deployments, canary analysis, A/B testing em produçêo</span>
                 </li>
               </ul>
             </div>
@@ -318,7 +318,7 @@
       </section>
 
 
-      <!-- SEÇÃO PRÁTICA: Advanced Implementation -->
+      <!-- SEÇêO PRÁTICA: Advanced Implementation -->
       <section class="bg-gradient-to-br from-masterclass/5 to-purple-50/50 dark:from-masterclass/10 dark:to-purple-900/20 rounded-2xl shadow-lg p-8 border-2 border-masterclass/20">
         <h2 class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 flex items-center">
           <span class="text-masterclass mr-3">🚀</span>
@@ -442,7 +442,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="text-center">
         <p class="text-neutral-600 dark:text-neutral-400">
-          © 2024 FTD - Formação Transformação Digital. Todos os direitos reservados.
+          © 2024 FTD - Formaçêo Transformaçêo Digital. Todos os direitos reservados.
         </p>
       </div>
     </div>

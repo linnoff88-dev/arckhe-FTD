@@ -172,32 +172,32 @@ Data: 2025-04-13T02:15:16+00:00
 Texto:
 ### Novo Prompt Baseado na Imagem Fornecida 
  
-Crie uma imagem de dois filhotes de tigre abraçados em um ambiente mágico e colorido. O filhote à esquerda deve ter uma pelagem branca com listras pretas e um brilho azul, com sua pelagem refletindo e refratando a luz como cristais de gelo ou diamantes, dando uma textura translúcida e dura. O filhote à direita deve ter uma pelagem laranja com listras pretas e um brilho dourado, semelhante ao âmbar ou ouro, com um efeito de reflexão e refração cristalina semelhante, proporcionando profundidade e preciosidade. Ambos os filhotes devem parecer amigáveis e estar em um cenário encantado com reflexos na água e bolhas flutuando ao redor. A iluminação deve ser suave e destacar os brilhos coloridos nas pelagens dos filhotes. O fundo deve estar suavemente desfocado com uma superfície molhada refletindo os filhotes e as bolhas, realçando a atmosfera encantada e serena com uma iluminação suave que destaque a aparência cristalina e luminosa dos filhotes de tigre. 
+Crie uma imagem de dois filhotes de tigre abraçados em um ambiente mágico e colorido. O filhote à esquerda deve ter uma pelagem branca com listras pretas e um brilho azul, com sua pelagem refletindo e refratando a luz como cristais de gelo ou diamantes, dando uma textura translúcida e dura. O filhote à direita deve ter uma pelagem laranja com listras pretas e um brilho dourado, semelhante ao âmbar ou ouro, com um efeito de reflexêo e refraçêo cristalina semelhante, proporcionando profundidade e preciosidade. Ambos os filhotes devem parecer amigáveis e estar em um cenário encantado com reflexos na água e bolhas flutuando ao redor. A iluminaçêo deve ser suave e destacar os brilhos coloridos nas pelagens dos filhotes. O fundo deve estar suavemente desfocado com uma superfície molhada refletindo os filhotes e as bolhas, realçando a atmosfera encantada e serena com uma iluminaçêo suave que destaque a aparência cristalina e luminosa dos filhotes de tigre. 
  
 ### Categorias 
  
 1. Assunto: Dois filhotes de tigre abraçados 
-2. Meio: Renderização 3D 
+2. Meio: Renderizaçêo 3D 
 3. Estilo: Estilo mágico e colorido, aparência de cristais preciosos 
-4. Site de Compartilhamento de Arte: Não especificado 
-5. Resolução: Alta resolução 
+4. Site de Compartilhamento de Arte: Nêo especificado 
+5. Resoluçêo: Alta resoluçêo 
 6. Detalhes Adicionais: Pelagem branca com listras pretas e brilho azul (filhote à esquerda), pelagem laranja com listras pretas e brilho dourado (filhote à direita), bolhas flutuando com aparência de cristal 
 7. Cor: Brilho azul e dourado nas pelagens, ambiente colorido 
-8. Iluminação: Iluminação suave destacando os brilhos coloridos 
+8. Iluminaçêo: Iluminaçêo suave destacando os brilhos coloridos 
 9. Observações: Reflexos na água, cenário encantado, superfície molhada refletindo 
-10. Prompt Negativo: Não especificado 
+10. Prompt Negativo: Nêo especificado 
 11. Ambiente: Ambiente mágico e colorido 
 12. Pose: Abraçados 
-13. Expressão Facial: Amigáveis 
+13. Expressêo Facial: Amigáveis 
 14. Textura: Pelagem refletindo e refratando como cristais 
-15. Tamanho/Proporção: Proporções realistas 
-16. Contexto Histórico/Temporal: Não especificado 
+15. Tamanho/Proporçêo: Proporções realistas 
+16. Contexto Histórico/Temporal: Nêo especificado 
 17. Dinâmica de Movimento: Estáticos (abraçados) 
-18. Interatividade: Não especificado 
+18. Interatividade: Nêo especificado 
 19. Atmosfera: Encantada e amigável 
 20. Material: Pelagem dos tigres, aparência cristalina 
-21. Perspectiva/Ângulo: Não especificado 
-22. Fonte de Inspiração: Não especificado 
+21. Perspectiva/Ângulo: Nêo especificado 
+22. Fonte de Inspiraçêo: Nêo especificado 
  
  
  
@@ -215,24 +215,24 @@ Assunto
 Meio 
 Estilo 
 Site de Compartilhamento de Arte 
-Resolução 
+Resoluçêo 
 Detalhes Adicionais 
 Cor 
-Iluminação 
+Iluminaçêo 
 Observações 
 Prompt Negativo 
 Ambiente 
 Pose 
-Expressão Facial 
+Expressêo Facial 
 Textura 
-Tamanho/Proporção 
+Tamanho/Proporçêo 
 Contexto Histórico/Temporal 
 Dinâmica de Movimento 
 Interatividade 
 Atmosfera 
 Material 
 Perspectiva/Ângulo 
-Fonte de Inspiração
+Fonte de Inspiraçêo
 
 ------------------------------
 
@@ -258,21 +258,21 @@ Texto:
    Referência de plataformas conhecidas.   
    Exemplo: DeviantArt, ArtStation. 
  
-5. **Resolução**   
+5. **Resoluçêo**   
    Qualidade da imagem gerada.   
    Exemplo: 1024x1024, 4K. 
  
 6. **Detalhes Adicionais**   
-   Especificações para enriquecer a criação.   
+   Especificações para enriquecer a criaçêo.   
    Exemplo: flores ao fundo, nuvens coloridas no céu. 
  
 7. **Cor**   
    Paleta de cores ou tom dominante.   
    Exemplo: tons pastel, azul vibrante. 
  
-8. **Iluminação**   
+8. **Iluminaçêo**   
    Tipo de luz e seu impacto na cena.   
-   Exemplo: luz natural suave, iluminação dramática com sombras marcadas. 
+   Exemplo: luz natural suave, iluminaçêo dramática com sombras marcadas. 
  
 9. **Observações**   
    Informações relevantes que orientem nuances.   
@@ -283,50 +283,50 @@ Texto:
     Exemplo: sem rostos humanos, sem texturas ásperas. 
  
 11. **Ambiente**   
-    O cenário ou localização onde o assunto está inserido.   
+    O cenário ou localizaçêo onde o assunto está inserido.   
     Exemplo: floresta encantada, cidade futurista. 
  
 12. **Pose**   
-    Posição ou atitude do personagem.   
+    Posiçêo ou atitude do personagem.   
     Exemplo: sentado em uma pedra, braços abertos. 
  
-13. **Expressão Facial**   
+13. **Expressêo Facial**   
     Sentimentos ou emoções do rosto.   
     Exemplo: sorriso gentil, olhar de curiosidade. 
  
 14. **Textura**   
-    Sensação tátil visual da superfície.   
+    Sensaçêo tátil visual da superfície.   
     Exemplo: metálico, áspero, fosco. 
  
-15. **Tamanho/Proporção**   
+15. **Tamanho/Proporçêo**   
     Escala relativa ou dimensões.   
-    Exemplo: personagem gigante em comparação a árvores. 
+    Exemplo: personagem gigante em comparaçêo a árvores. 
  
 16. **Contexto Histórico/Temporal**   
     Período ou era.   
     Exemplo: Era Medieval, futuro distante. 
  
 17. **Dinâmica de Movimento**   
-    Indicação de movimento ou ação.   
+    Indicaçêo de movimento ou açêo.   
     Exemplo: folhas voando ao vento, água fluindo. 
  
 18. **Interatividade**   
-    Relação entre os elementos na cena.   
+    Relaçêo entre os elementos na cena.   
     Exemplo: personagem alimentando pássaros. 
  
 19. **Atmosfera**   
-    Sensação geral ou clima emocional da cena.   
+    Sensaçêo geral ou clima emocional da cena.   
     Exemplo: misterioso, alegre, melancólico. 
  
 20. **Material**   
-    Composição dos elementos.   
+    Composiçêo dos elementos.   
     Exemplo: vidro, madeira, tecido. 
  
 21. **Perspectiva/Ângulo**   
     Ponto de vista da cena.   
-    Exemplo: ângulo superior, visão em primeira pessoa. 
+    Exemplo: ângulo superior, visêo em primeira pessoa. 
  
-22. **Fonte de Inspiração**   
+22. **Fonte de Inspiraçêo**   
     Referências ou artistas que influenciam o design.   
     Exemplo: inspirado por obras de Van Gogh, estilo Pixar.
 
@@ -339,35 +339,35 @@ Texto:
 Um bom prompt para gerar imagens é claro, detalhado e estruturado, fornecendo informações suficientes para que a ferramenta de IA compreenda exatamente o que você deseja criar. Ele combina categorias relevantes, como o assunto principal, estilo, cenário, detalhes visuais e emocionais, e, se necessário, inclui um "prompt negativo" para evitar elementos indesejados. 
  
 ### Estrutura Ideal de um Bom Prompt 
-1. **Descrição Geral**: Explique o tema principal.   
-   Exemplo: Um dragão dourado voando sobre uma floresta densa.   
+1. **Descriçêo Geral**: Explique o tema principal.   
+   Exemplo: Um dragêo dourado voando sobre uma floresta densa.   
  
 2. **Detalhes Visuais**: Inclua especificidades como cores, texturas, e formas.   
    Exemplo: Escamas brilhantes douradas refletindo a luz do sol, árvores com folhas verdes escuras.   
  
 3. **Estilo e Meio**: Descreva o estilo artístico.   
-   Exemplo: No estilo realista, com detalhes intrincados nas escamas do dragão.   
+   Exemplo: No estilo realista, com detalhes intrincados nas escamas do dragêo.   
  
-4. **Cenário/Ambiente**: Detalhe onde e como a ação ocorre.   
-   Exemplo: Uma floresta tropical ao amanhecer, com neblina cobrindo o chão e um rio cristalino fluindo.   
+4. **Cenário/Ambiente**: Detalhe onde e como a açêo ocorre.   
+   Exemplo: Uma floresta tropical ao amanhecer, com neblina cobrindo o chêo e um rio cristalino fluindo.   
  
-5. **Iluminação e Atmosfera**: Explique o tom ou clima.   
-   Exemplo: Iluminação suave e dourada do sol nascente, atmosfera mágica e calma.   
+5. **Iluminaçêo e Atmosfera**: Explique o tom ou clima.   
+   Exemplo: Iluminaçêo suave e dourada do sol nascente, atmosfera mágica e calma.   
  
 6. **Perspectiva e Ângulo**: Defina o ponto de vista da cena.   
-   Exemplo: Vista de baixo, mostrando o dragão em pleno voo.   
+   Exemplo: Vista de baixo, mostrando o dragêo em pleno voo.   
  
 7. **Interatividade ou Dinâmica**: Descreva ações ou interações na cena.   
-   Exemplo: O dragão exalando pequenas faíscas de fogo enquanto voa.   
+   Exemplo: O dragêo exalando pequenas faíscas de fogo enquanto voa.   
  
 8. **Prompt Negativo**: Liste elementos a evitar.   
    Exemplo: Evitar nuvens escuras, sem prédios ou estruturas modernas.   
  
-9. **Resolução/Proporção**: Caso necessário, especifique o tamanho da imagem.   
-   Exemplo: Resolução 4K, proporção 16:9.   
+9. **Resoluçêo/Proporçêo**: Caso necessário, especifique o tamanho da imagem.   
+   Exemplo: Resoluçêo 4K, proporçêo 16:9.   
  
 ### Exemplo de Prompt Completo 
-"Um dragão dourado em estilo realista voando sobre uma floresta tropical ao amanhecer. Suas escamas brilham intensamente sob a luz dourada do sol nascente, e pequenas faíscas de fogo escapam de sua boca. A floresta abaixo é densa, com árvores altas e folhas verdes escuras, coberta por uma leve neblina. Um rio cristalino serpenteia pelo terreno. O ângulo é de baixo para cima, destacando o dragão em voo contra o céu azul. A atmosfera é mágica e pacífica. Evitar nuvens escuras, prédios ou elementos modernos." 
+"Um dragêo dourado em estilo realista voando sobre uma floresta tropical ao amanhecer. Suas escamas brilham intensamente sob a luz dourada do sol nascente, e pequenas faíscas de fogo escapam de sua boca. A floresta abaixo é densa, com árvores altas e folhas verdes escuras, coberta por uma leve neblina. Um rio cristalino serpenteia pelo terreno. O ângulo é de baixo para cima, destacando o dragêo em voo contra o céu azul. A atmosfera é mágica e pacífica. Evitar nuvens escuras, prédios ou elementos modernos." 
  
 Esse exemplo deixa claro o que deve ser criado, garantindo um resultado mais próximo da expectativa.
 
@@ -516,17 +516,17 @@ MENSAGEM 39
 Autor: ARCKHÉ
 Data: 2025-04-09T01:35:19+00:00
 Texto:
-Agora vamos complementar com **ferramentas open source ou voltadas para desenvolvedores**, atualizadas para abril de 2025, com foco em criação de imagens com IA — e incluindo **Pinokio**, **fal.ai** e **Replicate (Flux)**.
+Agora vamos complementar com **ferramentas open source ou voltadas para desenvolvedores**, atualizadas para abril de 2025, com foco em criaçêo de imagens com IA — e incluindo **Pinokio**, **fal.ai** e **Replicate (Flux)**.
 
 ---
 
-### **Ferramentas Open Source / Dev-Friendly para Geração de Imagens com IA**
+### **Ferramentas Open Source / Dev-Friendly para Geraçêo de Imagens com IA**
 
 #### **1. Pinokio (****pinokio.computer****)**  
-- **Foco:** instalação local automatizada de modelos IA (via navegador)  
+- **Foco:** instalaçêo local automatizada de modelos IA (via navegador)  
 - **Destaques:** roda Stable Diffusion, ComfyUI, InvokeAI e outros com 1 clique  
 - **Ponto forte:** permite usar modelos avançados localmente sem linha de comando  
-- **Ideal para:** quem quer autonomia e customização no próprio PC
+- **Ideal para:** quem quer autonomia e customizaçêo no próprio PC
 
 ---
 
@@ -548,8 +548,8 @@ Agora vamos complementar com **ferramentas open source ou voltadas para desenvol
 ---
 
 #### **4. ComfyUI**  
-- **Foco:** geração de imagens com lógica visual (node-based workflow)  
-- **Destaques:** controle total sobre o processo de geração de imagem  
+- **Foco:** geraçêo de imagens com lógica visual (node-based workflow)  
+- **Destaques:** controle total sobre o processo de geraçêo de imagem  
 - **Ponto forte:** permite criar pipelines complexos e reusáveis  
 - **Ideal para:** usuários avançados e criadores técnicos
 
@@ -558,7 +558,7 @@ Agora vamos complementar com **ferramentas open source ou voltadas para desenvol
 #### **5. Automatic1111 (Stable Diffusion WebUI)**  
 - **Foco:** Stable Diffusion local com interface completa via navegador  
 - **Destaques:** suporte a LORA, ControlNet, upscale, embeddings e scripts  
-- **Ponto forte:** altíssima personalização, enorme comunidade e plugins  
+- **Ponto forte:** altíssima personalizaçêo, enorme comunidade e plugins  
 - **Ideal para:** quem quer domínio total das imagens geradas
 
 ---
@@ -567,9 +567,9 @@ Agora vamos complementar com **ferramentas open source ou voltadas para desenvol
 
 | Ferramenta         | Tipo              | Ponto Forte                                 | Ideal Para                      |
 |--------------------|-------------------|----------------------------------------------|----------------------------------|
-| **Pinokio**        | Local, sem código | Instalação automática de apps IA             | Usuário que quer IA no PC fácil |
-| **FAL.AI**         | Nuvem + API       | Execução rápida de modelos via API           | Devs que integram IA em apps    |
-| **Replicate + Flux** | Nuvem + visual  | Execução + montagem de fluxos visuais        | Makers, devs e automações       |
+| **Pinokio**        | Local, sem código | Instalaçêo automática de apps IA             | Usuário que quer IA no PC fácil |
+| **FAL.AI**         | Nuvem + API       | Execuçêo rápida de modelos via API           | Devs que integram IA em apps    |
+| **Replicate + Flux** | Nuvem + visual  | Execuçêo + montagem de fluxos visuais        | Makers, devs e automações       |
 | **ComfyUI**        | Local             | Workflows modulares por nós (visual)         | Usuário técnico e detalhista    |
 | **Automatic1111**  | Local             | Interface web completa com tudo configurável | Usuário avançado em IA visual   |
 
@@ -597,15 +597,15 @@ MENSAGEM 42
 Autor: ARCKHÉ
 Data: 2025-04-09T01:35:17+00:00
 Texto:
-### **Introdução à Criação de Imagens com IA**  
+### **Introduçêo à Criaçêo de Imagens com IA**  
 *(5 a 10 minutos para contextualizar antes de partir para a prática)*
 
 #### 1. **O que está acontecendo no mundo da imagem com IA?**
-- Estamos vivendo uma **revolução visual sem precedentes**: qualquer pessoa, mesmo sem saber desenhar, pode criar imagens de alta qualidade em segundos.
-- A IA não substitui a criatividade humana, ela **amplifica**. O domínio está em **saber pedir**, não em saber desenhar.
+- Estamos vivendo uma **revoluçêo visual sem precedentes**: qualquer pessoa, mesmo sem saber desenhar, pode criar imagens de alta qualidade em segundos.
+- A IA nêo substitui a criatividade humana, ela **amplifica**. O domínio está em **saber pedir**, nêo em saber desenhar.
 - As ferramentas (Leonardo, Ideogram, DALL·E, etc.) funcionam como **parceiras visuais inteligentes**: elas entendem o que você descreve e geram o que você imagina.
 
-#### 2. **Como os algoritmos funcionam (explicação simples)?**
+#### 2. **Como os algoritmos funcionam (explicaçêo simples)?**
 - Eles foram treinados com **milhões de imagens e descrições associadas**.
 - Quando você escreve um prompt, o sistema transforma texto em uma espécie de “mapa visual” baseado em tudo o que aprendeu.
 - Ele **prediz** o que uma imagem com essas características deve conter, pixel por pixel.
@@ -614,15 +614,15 @@ Texto:
 #### 3. **Conselhos práticos e atemporais para gerar boas imagens**
 - **Menos é mais:** comece com prompts curtos, claros e depois vá refinando com detalhes.
 - **Descreva como se estivesse guiando um artista cego:** explique a cena, o estilo, o humor, as cores.
-- **Seja específico com o estilo:** “realista”, “3D”, “ilustração infantil”, “foto de estúdio”, etc.
+- **Seja específico com o estilo:** “realista”, “3D”, “ilustraçêo infantil”, “foto de estúdio”, etc.
 - **Use referências visuais:** se possível, combine texto com imagem para guiar a IA.
-- **Não confie só no primeiro resultado:** IA é como um estagiário — às vezes precisa de mais tentativas para acertar.
+- **Nêo confie só no primeiro resultado:** IA é como um estagiário — às vezes precisa de mais tentativas para acertar.
 - **Explore o erro criativo:** imagens que “saem errado” podem virar material artístico original.
 - **Tenha sempre um propósito:** pense em onde essa imagem será usada (site, vídeo, post, livro...).
 
 ---
 
-### **Transição para os tópicos práticos da hora 1**
+### **Transiçêo para os tópicos práticos da hora 1**
 A partir daqui, você pode seguir para os tópicos práticos da aula:
 
 - **Apresentar as principais ferramentas (Leonardo, Ideogram, Midjourney, DALL·E)**

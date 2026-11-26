@@ -1,4 +1,4 @@
-// FTD - Formação da Transformação Digital
+// FTD - Formaçêo da Transformaçêo Digital
 // Main JavaScript
 
 // ===== MOBILE MENU =====

@@ -13,12 +13,12 @@ MENSAGEM 1
 Autor: ARCKHÉ
 Data: 2025-04-13T01:47:13+00:00
 Texto:
-#### 10. Estilização e Efeitos Artísticos
+#### 10. Estilizaçêo e Efeitos Artísticos
 
 **Hacks:**
 - Transformar imagem em arte digital, pintura, cartoon, etc.
 - Aplicar estilo de artista: "in the style of Van Gogh".
-- Variar estilo mantendo o mesmo tema ou composição.
+- Variar estilo mantendo o mesmo tema ou composiçêo.
 
 **Exemplos:**
 - Gerar três estilos: pintura à óleo, anime, aquarela.
@@ -47,8 +47,8 @@ Texto:
 - Criar múltiplas versões da mesma imagem com pequenas alterações.
 
 **Exemplos:**
-- Criar versão vertical da imagem para reels.
-- Gerar coleção de posts com o mesmo personagem em poses diferentes.
+- Criar versêo vertical da imagem para reels.
+- Gerar coleçêo de posts com o mesmo personagem em poses diferentes.
 
 ---
 
@@ -68,7 +68,7 @@ Texto:
 
 **Hacks:**
 - Escolha o modelo certo (realista, 3D, arte digital, pintura).
-- Use descrições visuais ricas: luz, cor, emoção, cenário.
+- Use descrições visuais ricas: luz, cor, emoçêo, cenário.
 - Aplique comandos específicos: "portrait", "cARCKHÉtic lighting", "hyper detailed".
 - Escreva de forma direta: sujeito + contexto + estilo.
 - Explore estilos como "Pixar style", "oil painting", "steampunk".
@@ -83,7 +83,7 @@ Texto:
 
 **Hacks:**
 - Use seed fixa para manter identidade visual entre imagens.
-- Combine prompts com imagem base (image-to-image) para estilo e composição.
+- Combine prompts com imagem base (image-to-image) para estilo e composiçêo.
 - Crie séries visuais consistentes com personagens, cores e enquadramento.
 
 **Exemplos:**
@@ -96,13 +96,13 @@ Texto:
 
 **Hacks:**
 - Treine modelos com 5 a 10 imagens do rosto ou objeto.
-- Dê nomes descritivos aos modelos para facilitar reutilização.
+- Dê nomes descritivos aos modelos para facilitar reutilizaçêo.
 - Crie mundos personalizados (ex: universo steampunk com personagens fixos).
 - Use o treinamento para produtos, mascotes, logos, cenários.
 
 **Exemplos:**
 - Treinar IA para gerar imagens de um pet com roupa.
-- Criar um "avatar de marca" com roupa, expressão e fundo corporativo.
+- Criar um "avatar de marca" com roupa, expressêo e fundo corporativo.
 
 ---
 
@@ -124,8 +124,8 @@ Texto:
 **Hacks:**
 - Inserir texto com comandos como "text on shirt", "label says 'Aurora'".
 - Usar ferramentas para remover fundo automaticamente.
-- Aplicar face swap mantendo expressão original.
-- Usar upscale para aumentar resolução sem perder qualidade.
+- Aplicar face swap mantendo expressêo original.
+- Usar upscale para aumentar resoluçêo sem perder qualidade.
 
 **Exemplos:**
 - Criar thumbnail com título embutido na imagem.
@@ -137,12 +137,12 @@ Texto:
 
 **Hacks:**
 - Usar IA para aplicar roupas novas em fotos reais (TryItOn, Leonardo Try-On).
-- Manter rosto, pose e iluminação intactos.
+- Manter rosto, pose e iluminaçêo intactos.
 - Testar variações de roupas por prompt.
 - Simular vitrines com modelos em diferentes cenários.
 
 **Exemplos:**
-- Aplicar "vestido azul de festa com renda" em uma modelo padrão.
+- Aplicar "vestido azul de festa com renda" em uma modelo padrêo.
 - Criar 10 variações de um mesmo look para catálogo virtual.
 
 ---
@@ -152,18 +152,18 @@ Texto:
 **Hacks:**
 - Gerar mockup direto com prompt: "white t-shirt with company logo on a hanger".
 - Colocar produto em uso: "hands holding a branded mug in a cozy kitchen".
-- Simular ambientação: café, estante, sacola, celular...
+- Simular ambientaçêo: café, estante, sacola, celular...
 
 **Exemplos:**
 - Mockup de embalagem de cosmético em bancada de banheiro.
-- Caneca personalizada segurada por uma mão realista.
+- Caneca personalizada segurada por uma mêo realista.
 
 ---
 
-#### 8. Composição e Montagem
+#### 8. Composiçêo e Montagem
 
 **Hacks:**
-- Usar prompts com posição: "woman sitting on a bench, holding a red book".
+- Usar prompts com posiçêo: "woman sitting on a bench, holding a red book".
 - Criar cenas com profundidade: "mountains in background, river in foreground".
 - Gerar capas e thumbnails com foco no centro e elementos dinâmicos.
 
@@ -173,15 +173,15 @@ Texto:
 
 ---
 
-#### 9. Edição e Pós-produção
+#### 9. Ediçêo e Pós-produçêo
 
 **Hacks:**
-- Inpainting: apagar e redesenhar parte da imagem (corrigir olhos, mãos).
+- Inpainting: apagar e redesenhar parte da imagem (corrigir olhos, mêos).
 - Outpainting: expandir imagem para criar cenário ao redor.
 - Ajustar luz e contraste por prompt ("warm light, high contrast").
 
 **Exemplos:**
-- Corrigir mão deformada em retrato.
+- Corrigir mêo deformada em retrato.
 - Expandir imagem para caber em banner do YouTube.
 
 ---

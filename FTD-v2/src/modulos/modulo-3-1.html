@@ -1,6 +1,6 @@
 <main data-ARCKHÉ-module="3-1" data-ARCKHÉ-track="3" id="conteudo">
 <!-- BREADCRUMB -->
-<nav aria-label="Trilha de navegação" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<nav aria-label="Trilha de navegaçêo" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
 <a class="hover:text-purple-400" href="../../index.html">Início</a><span>/</span>
 <a class="hover:text-purple-400" href="index.html">Trilha 3</a><span>/</span>
@@ -12,7 +12,7 @@
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <span class="inline-block px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full mb-4">MÓDULO 3.1</span>
 <h1 class="text-3xl sm:text-4xl font-bold mb-4">🏛️ Arquitetura de IA em Larga Escala</h1>
-<p class="text-lg text-neutral-400 max-w-3xl">Um protótipo com uma chamada de API vira, em produção, milhões de chamadas por mês, vários modelos, picos de tráfego e uma fatura que cresce sem avisar. Este módulo mostra as peças que seguram essa escala — gateway, roteador de modelos, servidor de inferência, cache semântico, multi-região e <strong class="text-purple-400">limites de custo</strong> — e entrega configurações e scripts para você testar cada uma.</p>
+<p class="text-lg text-neutral-400 max-w-3xl">Um protótipo com uma chamada de API vira, em produçêo, milhões de chamadas por mês, vários modelos, picos de tráfego e uma fatura que cresce sem avisar. Este módulo mostra as peças que seguram essa escala — gateway, roteador de modelos, servidor de inferência, cache semântico, multi-regiêo e <strong class="text-purple-400">limites de custo</strong> — e entrega configurações e scripts para você testar cada uma.</p>
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 max-w-2xl">
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">7</div><div class="text-xs text-neutral-400">Tópicos</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-purple-400">~60</div><div class="text-xs text-neutral-400">Minutos</div></div>
@@ -21,7 +21,7 @@
 </div>
 <div class="flex items-center gap-3 mt-8">
 <div aria-label="Progresso do módulo 3.1" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:3-1"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
-<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-1"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> tópicos lidos · <span data-ARCKHÉ-section-counter="">Seção 1 de 7</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:3-1"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> tópicos lidos · <span data-ARCKHÉ-section-counter="">Seçêo 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -36,9 +36,9 @@
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-2">2. Roteamento de modelos</a></li>
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-3">3. Inferência e batching</a></li>
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-4">4. Cache semântico</a></li>
-<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Multi-região</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-5">5. Multi-regiêo</a></li>
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-6">6. Limites de custo</a></li>
-<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Revisão de arquitetura</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-purple-400" href="#topico-7">7. Revisêo de arquitetura</a></li>
 </ol>
 </nav>
 </aside>
@@ -57,7 +57,7 @@
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t1-p1">No protótipo, o aplicativo chama o modelo direto. Em escala, essa linha reta vira um problema: cada equipe guarda sua própria chave de API, ninguém sabe quanto cada produto gasta, uma queda do provedor derruba tudo e trocar de modelo exige mexer em dezenas de serviços. A resposta de arquitetura é a mesma que a engenharia já usou para bancos de dados e pagamentos: <strong class="text-neutral-100">colocar camadas no meio</strong>, cada uma com uma responsabilidade clara.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t1-p2">Dois termos guiam todas as decisões deste módulo. <strong class="text-purple-400">Latência p95</strong> é o tempo de resposta abaixo do qual ficam 95% das chamadas — a média esconde os usuários que esperaram demais, o p95 não. <strong class="text-purple-400">Throughput</strong> é quanto trabalho o sistema entrega por unidade de tempo (chamadas ou tokens por segundo). Escalar é aumentar o throughput sem deixar o p95 e o custo por chamada saírem do limite combinado.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t1-p2">Dois termos guiam todas as decisões deste módulo. <strong class="text-purple-400">Latência p95</strong> é o tempo de resposta abaixo do qual ficam 95% das chamadas — a média esconde os usuários que esperaram demais, o p95 nêo. <strong class="text-purple-400">Throughput</strong> é quanto trabalho o sistema entrega por unidade de tempo (chamadas ou tokens por segundo). Escalar é aumentar o throughput sem deixar o p95 e o custo por chamada saírem do limite combinado.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">Arquitetura de IA em larga escala é o conjunto de camadas entre os aplicativos e os modelos: um gateway que identifica, limita e registra; um roteador que escolhe o modelo certo; servidores de inferência ou APIs; caches; e observabilidade que mede latência, erro e custo por cliente.</p>
@@ -112,7 +112,7 @@
 <tr><td class="p-3 font-semibold">Gateway</td><td class="p-3 text-neutral-300">Autenticar, aplicar cotas, mascarar dados pessoais, registrar chamadas.</td><td class="p-3 text-neutral-300">LiteLLM Proxy, gateways de API (Kong, Envoy) com plugins de IA.</td></tr>
 <tr><td class="p-3 font-semibold">Roteador</td><td class="p-3 text-neutral-300">Escolher o modelo por tarefa, custo e disponibilidade; fazer fallback.</td><td class="p-3 text-neutral-300">Regras no gateway, classificador leve, código próprio.</td></tr>
 <tr><td class="p-3 font-semibold">Inferência</td><td class="p-3 text-neutral-300">Rodar o modelo com o melhor uso de GPU.</td><td class="p-3 text-neutral-300">vLLM, SGLang, TGI, Ollama/llama.cpp, APIs gerenciadas.</td></tr>
-<tr><td class="p-3 font-semibold">Cache</td><td class="p-3 text-neutral-300">Não pagar duas vezes pelo mesmo trabalho.</td><td class="p-3 text-neutral-300">Cache de prompt do provedor, Redis, banco vetorial.</td></tr>
+<tr><td class="p-3 font-semibold">Cache</td><td class="p-3 text-neutral-300">Nêo pagar duas vezes pelo mesmo trabalho.</td><td class="p-3 text-neutral-300">Cache de prompt do provedor, Redis, banco vetorial.</td></tr>
 <tr><td class="p-3 font-semibold">Observabilidade</td><td class="p-3 text-neutral-300">Medir latência, erro, tokens e custo por cliente e por recurso.</td><td class="p-3 text-neutral-300">OpenTelemetry, Langfuse, Prometheus e Grafana.</td></tr>
 </tbody>
 </table>
@@ -148,14 +148,14 @@
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p1">Mandar toda chamada para o modelo mais forte é a forma mais rápida de estourar o orçamento. Boa parte do tráfego de um produto real é simples: classificar um ticket, extrair três campos, reescrever uma frase. Um modelo pequeno resolve isso mais rápido e mais barato. O <strong class="text-purple-400">roteador de modelos</strong> decide, chamada a chamada, qual modelo atende — e o que fazer se ele falhar.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p2">Há três estratégias, que costumam ser combinadas. <strong class="text-neutral-100">Por regra</strong>: o tipo de rota define o modelo (resumo vai ao pequeno, análise jurídica ao forte). <strong class="text-neutral-100">Por classificador</strong>: um modelo leve estima a dificuldade antes. <strong class="text-neutral-100">Em cascata</strong>: o pequeno tenta primeiro; um validador confere formato e confiança; se não passar, a chamada sobe para o modelo forte. <strong class="text-purple-400">Fallback</strong> é a rota alternativa quando o modelo escolhido está fora do ar, lento ou sem cota.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p2">Há três estratégias, que costumam ser combinadas. <strong class="text-neutral-100">Por regra</strong>: o tipo de rota define o modelo (resumo vai ao pequeno, análise jurídica ao forte). <strong class="text-neutral-100">Por classificador</strong>: um modelo leve estima a dificuldade antes. <strong class="text-neutral-100">Em cascata</strong>: o pequeno tenta primeiro; um validador confere formato e confiança; se nêo passar, a chamada sobe para o modelo forte. <strong class="text-purple-400">Fallback</strong> é a rota alternativa quando o modelo escolhido está fora do ar, lento ou sem cota.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
 <p class="text-neutral-300">Roteamento de modelos é a camada que escolhe, para cada chamada, o modelo de menor custo capaz de atender à qualidade exigida, e que redireciona a chamada para outro modelo ou provedor quando o primeiro falha.</p>
 </div>
 <!-- SVG 2: cascata -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="Fluxo em cascata: o pedido passa por um classificador; pedidos simples vão ao modelo pequeno, cuja saída passa por um validador. Se o validador aprova, a resposta sai; se reprova, o pedido escala para o modelo de fronteira. Pedidos difíceis vão direto ao modelo de fronteira." class="w-full h-auto" role="img" viewBox="0 0 860 290">
+<svg aria-label="Fluxo em cascata: o pedido passa por um classificador; pedidos simples vêo ao modelo pequeno, cuja saída passa por um validador. Se o validador aprova, a resposta sai; se reprova, o pedido escala para o modelo de fronteira. Pedidos difíceis vêo direto ao modelo de fronteira." class="w-full h-auto" role="img" viewBox="0 0 860 290">
 <rect fill="url(#m31-grid)" height="290" width="860"></rect>
 <g font-family="Inter,sans-serif">
 <rect fill="#1a1430" height="56" rx="12" stroke="#a78bfa" stroke-width="2" width="110" x="20" y="112"></rect>
@@ -184,7 +184,7 @@
 <text fill="#ede9fe" font-size="12" font-weight="700" text-anchor="middle" x="815" y="145">Saída</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> o caminho de cima é o barato e deve levar a maior parte do tráfego; o de baixo é o caro e deve ser exceção. O ponto crítico é o "Validar": sem um teste objetivo (JSON válido, campos presentes, confiança acima de um limiar), a cascata entrega respostas ruins do modelo pequeno como se fossem boas.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> o caminho de cima é o barato e deve levar a maior parte do tráfego; o de baixo é o caro e deve ser exceçêo. O ponto crítico é o "Validar": sem um teste objetivo (JSON válido, campos presentes, confiança acima de um limiar), a cascata entrega respostas ruins do modelo pequeno como se fossem boas.</figcaption>
 </figure>
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
@@ -219,14 +219,14 @@ litellm_settings:
 # Teste (outro terminal):
 # curl http://localhost:4000/v1/chat/completions -H "Content-Type: application/json" \
 #   -d '{"model":"rapido","messages":[{"role":"user","content":"Classifique: quero cancelar"}]}'</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode o <code>curl</code> duas vezes com o mesmo corpo; a segunda resposta deve voltar bem mais rápido (cache). Depois pare o Ollama e repita: a chamada a "rapido" deve ser atendida por "forte" (fallback) — se você não tem chave paga, o erro deve citar o modelo "forte", o que prova que o fallback foi tentado. A sintaxe do LiteLLM muda entre versões; confira a documentação da versão instalada.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode o <code>curl</code> duas vezes com o mesmo corpo; a segunda resposta deve voltar bem mais rápido (cache). Depois pare o Ollama e repita: a chamada a "rapido" deve ser atendida por "forte" (fallback) — se você nêo tem chave paga, o erro deve citar o modelo "forte", o que prova que o fallback foi tentado. A sintaxe do LiteLLM muda entre versões; confira a documentaçêo da versêo instalada.</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-1-t2-p3">Dê aos modelos nomes de função ("rapido", "forte", "visao"), não nomes de produto. Assim, quando um modelo novo sair, você troca uma linha no gateway e nenhum aplicativo percebe — e consegue fazer testes A/B mandando parte do tráfego de "forte" para o candidato.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-1-t2-p3">Dê aos modelos nomes de funçêo ("rapido", "forte", "visao"), nêo nomes de produto. Assim, quando um modelo novo sair, você troca uma linha no gateway e nenhum aplicativo percebe — e consegue fazer testes A/B mandando parte do tráfego de "forte" para o candidato.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p4" data-sum="porque">O roteamento é a alavanca de custo com maior efeito e menor risco: você não muda o produto, só para de pagar preço de modelo de fronteira por tarefa simples. E o fallback transforma a queda de um provedor, que hoje derruba o produto, num aumento temporário de custo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t2-p4" data-sum="porque">O roteamento é a alavanca de custo com maior efeito e menor risco: você nêo muda o produto, só para de pagar preço de modelo de fronteira por tarefa simples. E o fallback transforma a queda de um provedor, que hoje derruba o produto, num aumento temporário de custo.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Roteador</div><div class="text-xs text-neutral-400">escolhe o modelo por chamada</div></div>
@@ -259,11 +259,11 @@ litellm_settings:
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t3-p2">Gerar um token por vez deixa a GPU subutilizada se ela atende um usuário só. Por isso os servidores agrupam pedidos em <strong class="text-purple-400">lotes</strong> (batching). O avanço que mudou a economia do auto-hospedado foi o <strong class="text-neutral-100">batching contínuo</strong>: em vez de esperar o lote inteiro terminar, cada vaga liberada recebe um pedido novo no passo seguinte. Junto vem o gerenciamento do <strong class="text-purple-400">KV cache</strong> — a memória onde o modelo guarda o que já leu de cada conversa —, que no vLLM ficou conhecido como PagedAttention.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
-<p class="text-neutral-300">É a engenharia de servir modelos: agrupar pedidos, gerenciar a memória de contexto, escolher quantização e hardware, e decidir entre API gerenciada e servidor próprio, sempre medindo TTFT, tokens por segundo e custo por milhão de tokens.</p>
+<p class="text-neutral-300">É a engenharia de servir modelos: agrupar pedidos, gerenciar a memória de contexto, escolher quantizaçêo e hardware, e decidir entre API gerenciada e servidor próprio, sempre medindo TTFT, tokens por segundo e custo por milhêo de tokens.</p>
 </div>
 <!-- SVG 3: batching -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="Comparação de duas linhas do tempo de uma GPU com quatro vagas. No lote estático, vagas que terminam cedo ficam ociosas, em cinza, até o pedido mais longo acabar. No lote contínuo, cada vaga liberada recebe um novo pedido imediatamente e quase não há tempo ocioso." class="w-full h-auto" role="img" viewBox="0 0 860 330">
+<svg aria-label="Comparaçêo de duas linhas do tempo de uma GPU com quatro vagas. No lote estático, vagas que terminam cedo ficam ociosas, em cinza, até o pedido mais longo acabar. No lote contínuo, cada vaga liberada recebe um novo pedido imediatamente e quase nêo há tempo ocioso." class="w-full h-auto" role="img" viewBox="0 0 860 330">
 <rect fill="url(#m31-grid)" height="330" width="860"></rect>
 <g font-family="Inter,sans-serif">
 <text fill="#ede9fe" font-size="14" font-weight="700" x="130" y="34">Lote estático: vagas ociosas esperando o pedido mais longo</text>
@@ -284,30 +284,30 @@ litellm_settings:
 <text fill="#bae6fd" font-size="12" x="20" y="320">tempo</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> cada linha é uma vaga da GPU; cada barra colorida é um pedido. Em cima, os retângulos tracejados cinza são GPU paga e parada. Embaixo, as cores se alternam porque um pedido novo entra assim que outro sai. Mesma GPU, mais pedidos atendidos no mesmo tempo — é daí que vem a diferença de custo do auto-hospedado.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> cada linha é uma vaga da GPU; cada barra colorida é um pedido. Em cima, os retângulos tracejados cinza sêo GPU paga e parada. Embaixo, as cores se alternam porque um pedido novo entra assim que outro sai. Mesma GPU, mais pedidos atendidos no mesmo tempo — é daí que vem a diferença de custo do auto-hospedado.</figcaption>
 </figure>
 <div class="overflow-x-auto mb-6">
 <table class="w-full text-sm border border-dark-600 rounded-xl overflow-hidden">
-<thead><tr class="bg-dark-700"><th class="text-left p-3 text-purple-400">Opção</th><th class="text-left p-3 text-purple-400">Quando faz sentido</th><th class="text-left p-3 text-purple-400">O que você passa a operar</th></tr></thead>
+<thead><tr class="bg-dark-700"><th class="text-left p-3 text-purple-400">Opçêo</th><th class="text-left p-3 text-purple-400">Quando faz sentido</th><th class="text-left p-3 text-purple-400">O que você passa a operar</th></tr></thead>
 <tbody class="divide-y divide-dark-600">
 <tr><td class="p-3 font-semibold">API gerenciada</td><td class="p-3 text-neutral-300">Tráfego variável, modelos de fronteira, equipe pequena.</td><td class="p-3 text-neutral-300">Quase nada: chaves, cotas, contrato e dados enviados.</td></tr>
-<tr><td class="p-3 font-semibold">vLLM / SGLang / TGI</td><td class="p-3 text-neutral-300">Tráfego alto e estável com modelo aberto; dados que não podem sair.</td><td class="p-3 text-neutral-300">GPUs, autoescala, atualizações, monitoramento, plantão.</td></tr>
+<tr><td class="p-3 font-semibold">vLLM / SGLang / TGI</td><td class="p-3 text-neutral-300">Tráfego alto e estável com modelo aberto; dados que nêo podem sair.</td><td class="p-3 text-neutral-300">GPUs, autoescala, atualizações, monitoramento, plantêo.</td></tr>
 <tr><td class="p-3 font-semibold">Ollama / llama.cpp</td><td class="p-3 text-neutral-300">Desenvolvimento, borda, uso interno de baixo volume.</td><td class="p-3 text-neutral-300">Uma máquina; poucos usuários simultâneos.</td></tr>
 </tbody>
 </table>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-1-t3-p3">Compare opções pelo <strong>custo por milhão de tokens no seu tráfego real</strong>, não pelo preço da GPU por hora. Uma GPU barata ociosa à noite pode sair mais cara que a API; uma GPU cheia o dia todo, com batching contínuo, pode sair mais barata. Meça uma semana de tráfego antes de decidir.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m3-1-t3-p3">Compare opções pelo <strong>custo por milhêo de tokens no seu tráfego real</strong>, nêo pelo preço da GPU por hora. Uma GPU barata ociosa à noite pode sair mais cara que a API; uma GPU cheia o dia todo, com batching contínuo, pode sair mais barata. Meça uma semana de tráfego antes de decidir.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t3-p4" data-sum="porque">A decisão "API ou servidor próprio" é uma das mais caras de errar em IA. Entender prefill, decode, batching e KV cache permite ler um benchmark de fornecedor com senso crítico e fazer a conta certa — e saber por que prompts longos encarecem e atrasam tudo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t3-p4" data-sum="porque">A decisêo "API ou servidor próprio" é uma das mais caras de errar em IA. Entender prefill, decode, batching e KV cache permite ler um benchmark de fornecedor com senso crítico e fazer a conta certa — e saber por que prompts longos encarecem e atrasam tudo.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">TTFT</div><div class="text-xs text-neutral-400">espera até o primeiro token</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Batching contínuo</div><div class="text-xs text-neutral-400">vaga livre recebe pedido novo</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">KV cache</div><div class="text-xs text-neutral-400">memória do que já foi lido</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Quantização</div><div class="text-xs text-neutral-400">pesos menores, menos memória</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Quantizaçêo</div><div class="text-xs text-neutral-400">pesos menores, menos memória</div></div>
 </div>
 <div class="flex justify-start mt-6">
 <button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
@@ -324,13 +324,13 @@ litellm_settings:
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="não pagar duas vezes pela mesma resposta">🧠 Cache de prompt e cache semântico</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="nêo pagar duas vezes pela mesma resposta">🧠 Cache de prompt e cache semântico</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t4-p1">Existem dois caches diferentes, e confundi-los gera decisão errada. O <strong class="text-purple-400">cache de prompt</strong> é oferecido pelos provedores e servidores de inferência: quando o começo do prompt se repete (instruções do sistema, um manual longo, a definição das ferramentas), o processamento desse prefixo é reaproveitado e cobrado mais barato. Ele não muda a resposta — só acelera o prefill e reduz custo. Funciona quando a parte fixa vem <strong class="text-neutral-100">antes</strong> da parte variável.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t4-p1">Existem dois caches diferentes, e confundi-los gera decisêo errada. O <strong class="text-purple-400">cache de prompt</strong> é oferecido pelos provedores e servidores de inferência: quando o começo do prompt se repete (instruções do sistema, um manual longo, a definiçêo das ferramentas), o processamento desse prefixo é reaproveitado e cobrado mais barato. Ele nêo muda a resposta — só acelera o prefill e reduz custo. Funciona quando a parte fixa vem <strong class="text-neutral-100">antes</strong> da parte variável.</p>
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t4-p2">O <strong class="text-purple-400">cache semântico</strong> é seu: você transforma a pergunta num <strong class="text-neutral-100">embedding</strong> (um vetor de números que representa o significado) e procura perguntas anteriores com significado parecido. Se a <strong class="text-neutral-100">similaridade de cosseno</strong> passar de um limiar, devolve a resposta guardada sem chamar o modelo. Economiza a chamada inteira — e por isso também pode devolver a resposta errada, se o limiar for frouxo ou se a resposta depender de quem pergunta.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
@@ -338,7 +338,7 @@ litellm_settings:
 </div>
 <!-- SVG 4: cache semântico -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="À esquerda, o fluxo do cache semântico: pergunta nova, cálculo do embedding e teste de similaridade contra o limiar; se passa, devolve a resposta guardada; se não, chama o modelo e grava. À direita, um espaço de embeddings com a pergunta nova no centro de um círculo tracejado: os pontos dentro do círculo são acertos de cache; os de fora não." class="w-full h-auto" role="img" viewBox="0 0 860 280">
+<svg aria-label="À esquerda, o fluxo do cache semântico: pergunta nova, cálculo do embedding e teste de similaridade contra o limiar; se passa, devolve a resposta guardada; se nêo, chama o modelo e grava. À direita, um espaço de embeddings com a pergunta nova no centro de um círculo tracejado: os pontos dentro do círculo sêo acertos de cache; os de fora nêo." class="w-full h-auto" role="img" viewBox="0 0 860 280">
 <rect fill="url(#m31-grid)" height="280" width="860"></rect>
 <g font-family="Inter,sans-serif">
 <rect fill="#1a1430" height="46" rx="10" stroke="#a78bfa" stroke-width="2" width="190" x="20" y="20"></rect>
@@ -350,7 +350,7 @@ litellm_settings:
 <rect fill="#0e1b26" height="46" rx="10" stroke="#38bdf8" stroke-width="2.5" width="190" x="20" y="172"></rect>
 <text fill="#e0f2fe" font-size="13" font-weight="700" text-anchor="middle" x="115" y="200">similaridade ≥ limiar?</text>
 <text fill="#bae6fd" font-size="12" x="20" y="242">sim → devolve a resposta guardada</text>
-<text fill="#c4b5fd" font-size="12" x="20" y="262">não → chama o modelo e grava</text>
+<text fill="#c4b5fd" font-size="12" x="20" y="262">nêo → chama o modelo e grava</text>
 <rect fill="#120e22" height="236" rx="14" stroke="#8b5cf6" stroke-opacity="0.5" stroke-width="1.5" width="420" x="410" y="20"></rect>
 <text fill="#c4b5fd" font-size="12" x="428" y="44">espaço de embeddings (2D, ilustrativo)</text>
 <circle cx="620" cy="145" fill="#38bdf8" fill-opacity="0.06" r="62" stroke="#38bdf8" stroke-dasharray="5 4" stroke-width="1.8"></circle>
@@ -365,7 +365,7 @@ litellm_settings:
 <text fill="#e0f2fe" font-size="11" x="430" y="246">● claro = dentro do raio (acerto)   ● roxo = fora (chama o modelo)</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> o círculo tracejado é o limiar. Aumentar o limiar encolhe o círculo: menos acertos, menos risco de resposta errada. Diminuir aumenta o círculo: mais economia, mais chance de responder "prazo de troca" para quem perguntou "prazo de entrega". O raio certo sai de teste com perguntas reais, não de um valor padrão.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> o círculo tracejado é o limiar. Aumentar o limiar encolhe o círculo: menos acertos, menos risco de resposta errada. Diminuir aumenta o círculo: mais economia, mais chance de responder "prazo de troca" para quem perguntou "prazo de entrega". O raio certo sai de teste com perguntas reais, nêo de um valor padrêo.</figcaption>
 </figure>
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
@@ -379,7 +379,7 @@ import json, math, time, urllib.request
 
 OLLAMA = "http://localhost:11434"
 LIMIAR = 0.90   # calibre com seus dados: alto = pouco acerto; baixo = resposta errada
-cache = []      # lista de (vetor, pergunta, resposta). Em produção: banco vetorial, separado por cliente.
+cache = []      # lista de (vetor, pergunta, resposta). Em produçêo: banco vetorial, separado por cliente.
 
 def chamar(rota, corpo):
     req = urllib.request.Request(OLLAMA + rota, data=json.dumps(corpo).encode(),
@@ -414,23 +414,23 @@ for p in ["Qual é o prazo para trocar um produto?",
           "Como emito a segunda via do boleto?"]:
     origem, resp = perguntar(p)
     print(f"{origem}\n  {p}\n  -&gt; {resp[:90]!r}\n")</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> a 1ª pergunta sai "MODELO" e demora; a 2ª (mesmo sentido, outras palavras) deve sair "CACHE" em fração de segundo. A 3ª é a armadilha: "prazo de entrega" parece "prazo de troca". Olhe o <code>melhor_sim</code> impresso e ajuste <code>LIMIAR</code> até a 2ª acertar e a 3ª não. Esse número vale para este modelo de embedding e este tipo de pergunta — troque qualquer um e recalibre.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> a 1ª pergunta sai "MODELO" e demora; a 2ª (mesmo sentido, outras palavras) deve sair "CACHE" em fraçêo de segundo. A 3ª é a armadilha: "prazo de entrega" parece "prazo de troca". Olhe o <code>melhor_sim</code> impresso e ajuste <code>LIMIAR</code> até a 2ª acertar e a 3ª nêo. Esse número vale para este modelo de embedding e este tipo de pergunta — troque qualquer um e recalibre.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-purple-900/20 rounded-xl border border-purple-500/30 p-6">
 <h4 class="font-bold text-purple-400 mb-4">✓ Cache semântico combina com</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Perguntas frequentes com resposta igual para todos (políticas, horários, como fazer).</span></li>
-<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Conteúdo que muda pouco, com tempo de expiração definido.</span></li>
-<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Cache separado por cliente (tenant) e por versão do prompt.</span></li>
+<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Conteúdo que muda pouco, com tempo de expiraçêo definido.</span></li>
+<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Cache separado por cliente (tenant) e por versêo do prompt.</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-<h4 class="font-bold text-red-400 mb-4">✗ Não use cache semântico em</h4>
+<h4 class="font-bold text-red-400 mb-4">✗ Nêo use cache semântico em</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Respostas que dependem de dados da pessoa (saldo, pedido, prontuário).</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Cache compartilhado entre clientes: vaza dados de um para outro e fere a LGPD.</span></li>
-<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Agentes que executam ações: repetir a resposta não repete a ação certa.</span></li>
+<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Agentes que executam ações: repetir a resposta nêo repete a açêo certa.</span></li>
 </ul>
 </div>
 </div>
@@ -440,7 +440,7 @@ for p in ["Qual é o prazo para trocar um produto?",
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Cache de prompt</div><div class="text-xs text-neutral-400">prefixo fixo reaproveitado</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Embedding</div><div class="text-xs text-neutral-400">significado em vetor</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Limiar</div><div class="text-xs text-neutral-400">quão parecido basta</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Limiar</div><div class="text-xs text-neutral-400">quêo parecido basta</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">TTL</div><div class="text-xs text-neutral-400">quanto tempo a resposta vale</div></div>
 </div>
 <div class="flex justify-start mt-6">
@@ -458,21 +458,21 @@ for p in ["Qual é o prazo para trocar um produto?",
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-5" id="topico-5" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="quando um provedor ou região cai">🌎 Multi-região e resiliência</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="quando um provedor ou regiêo cai">🌎 Multi-regiêo e resiliência</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p1">Provedores de modelo caem, ficam lentos e aplicam limites de taxa em horários de pico — isso faz parte da operação, não é exceção. Quando a IA está no caminho crítico (atendimento, checkout, triagem), a arquitetura precisa de um plano para isso. As peças são conhecidas da engenharia de sistemas: <strong class="text-purple-400">health check</strong> (teste periódico de que um destino responde), <strong class="text-purple-400">circuit breaker</strong> (depois de falhas seguidas, o sistema para de insistir num destino por um tempo e usa a alternativa) e <strong class="text-purple-400">degradação graciosa</strong> (oferecer uma versão reduzida do recurso em vez de erro).</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p2">Em IA há um complicador: <strong class="text-neutral-100">onde os dados podem ser processados</strong>. Mandar o prompt para uma região de outro país durante um failover pode ser uma transferência internacional de dados pessoais, que a LGPD regula. Por isso, a rota alternativa precisa ser aprovada antes do incidente, pelo jurídico e pela segurança — não decidida às pressas às três da manhã. Dois números orientam o desenho: <strong class="text-purple-400">RTO</strong>, quanto tempo o serviço pode ficar fora, e <strong class="text-purple-400">RPO</strong>, quanto dado (conversas, memória, índices) se aceita perder.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p1">Provedores de modelo caem, ficam lentos e aplicam limites de taxa em horários de pico — isso faz parte da operaçêo, nêo é exceçêo. Quando a IA está no caminho crítico (atendimento, checkout, triagem), a arquitetura precisa de um plano para isso. As peças sêo conhecidas da engenharia de sistemas: <strong class="text-purple-400">health check</strong> (teste periódico de que um destino responde), <strong class="text-purple-400">circuit breaker</strong> (depois de falhas seguidas, o sistema para de insistir num destino por um tempo e usa a alternativa) e <strong class="text-purple-400">degradaçêo graciosa</strong> (oferecer uma versêo reduzida do recurso em vez de erro).</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p2">Em IA há um complicador: <strong class="text-neutral-100">onde os dados podem ser processados</strong>. Mandar o prompt para uma regiêo de outro país durante um failover pode ser uma transferência internacional de dados pessoais, que a LGPD regula. Por isso, a rota alternativa precisa ser aprovada antes do incidente, pelo jurídico e pela segurança — nêo decidida às pressas às três da manhê. Dois números orientam o desenho: <strong class="text-purple-400">RTO</strong>, quanto tempo o serviço pode ficar fora, e <strong class="text-purple-400">RPO</strong>, quanto dado (conversas, memória, índices) se aceita perder.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
-<p class="text-neutral-300">Resiliência multi-região é manter o serviço de IA funcionando quando um provedor, modelo ou região falha: destinos alternativos aprovados, checagem de saúde, circuit breaker, réplica dos dados de contexto e um modo degradado previsto.</p>
+<p class="text-neutral-300">Resiliência multi-regiêo é manter o serviço de IA funcionando quando um provedor, modelo ou regiêo falha: destinos alternativos aprovados, checagem de saúde, circuit breaker, réplica dos dados de contexto e um modo degradado previsto.</p>
 </div>
-<!-- SVG 5: multi-região -->
+<!-- SVG 5: multi-regiêo -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="Um balanceador global no topo envia o tráfego para a região primária por uma linha contínua e mantém uma linha tracejada de failover para a região secundária. As duas regiões têm gateway, modelos e cache, e trocam dados por replicação assíncrona. Na base, a regra: health check frequente e circuito aberto após falhas seguidas." class="w-full h-auto" role="img" viewBox="0 0 860 290">
+<svg aria-label="Um balanceador global no topo envia o tráfego para a regiêo primária por uma linha contínua e mantém uma linha tracejada de failover para a regiêo secundária. As duas regiões têm gateway, modelos e cache, e trocam dados por replicaçêo assíncrona. Na base, a regra: health check frequente e circuito aberto após falhas seguidas." class="w-full h-auto" role="img" viewBox="0 0 860 290">
 <rect fill="url(#m31-grid)" height="290" width="860"></rect>
 <g font-family="Inter,sans-serif">
 <rect fill="#1a1430" filter="url(#m31-glow)" height="46" rx="12" stroke="#8b5cf6" stroke-width="2.5" width="260" x="300" y="18"></rect>
@@ -481,13 +481,13 @@ for p in ["Qual é o prazo para trocar um produto?",
 <path d="M480,66 L630,106" fill="none" marker-end="url(#m31-ahc)" stroke="#38bdf8" stroke-dasharray="6 5" stroke-width="2"></path>
 <text fill="#bae6fd" font-size="12" x="590" y="74">failover</text>
 <rect fill="#1a1430" height="130" rx="14" stroke="#a78bfa" stroke-width="2" width="340" x="40" y="110"></rect>
-<text fill="#ede9fe" font-size="14" font-weight="700" x="60" y="136">Região primária</text>
+<text fill="#ede9fe" font-size="14" font-weight="700" x="60" y="136">Regiêo primária</text>
 <text fill="#c4b5fd" font-size="12" x="60" y="162">gateway · réplicas do modelo</text>
 <text fill="#c4b5fd" font-size="12" x="60" y="184">cache · índice vetorial</text>
 <text fill="#c4b5fd" font-size="12" x="60" y="206">dados pessoais: onde o contrato permite</text>
 <rect fill="#0e1b26" height="130" rx="14" stroke="#38bdf8" stroke-width="2" width="340" x="480" y="110"></rect>
-<text fill="#e0f2fe" font-size="14" font-weight="700" x="500" y="136">Região secundária (quente)</text>
-<text fill="#bae6fd" font-size="12" x="500" y="162">mesma configuração, menor escala</text>
+<text fill="#e0f2fe" font-size="14" font-weight="700" x="500" y="136">Regiêo secundária (quente)</text>
+<text fill="#bae6fd" font-size="12" x="500" y="162">mesma configuraçêo, menor escala</text>
 <text fill="#bae6fd" font-size="12" x="500" y="184">ou outro provedor aprovado</text>
 <text fill="#bae6fd" font-size="12" x="500" y="206">rota validada pelo jurídico</text>
 <path d="M384,222 L476,222" fill="none" marker-end="url(#m31-ahc)" stroke="#38bdf8" stroke-dasharray="3 4" stroke-width="1.8"></path>
@@ -495,22 +495,22 @@ for p in ["Qual é o prazo para trocar um produto?",
 <text fill="#c4b5fd" font-size="12" text-anchor="middle" x="430" y="272">health check frequente · circuito abre após falhas seguidas · modo degradado previsto</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> a linha contínua é o caminho normal; a tracejada só é usada quando o health check reprova a primária. Repare na última linha de cada região: a secundária só serve se o destino dela também for permitido para os dados que trafegam — senão, o failover resolve a disponibilidade criando um problema legal.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-purple-400">Como ler:</strong> a linha contínua é o caminho normal; a tracejada só é usada quando o health check reprova a primária. Repare na última linha de cada regiêo: a secundária só serve se o destino dela também for permitido para os dados que trafegam — senêo, o failover resolve a disponibilidade criando um problema legal.</figcaption>
 </figure>
 <div class="relative border-l-2 border-purple-500/30 ml-3 pl-6 space-y-5 mb-6">
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">Nível 1 · Retry com espera crescente.</strong> Resolve erros transitórios e limites de taxa curtos. Sempre com teto de tentativas.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">Nível 2 · Fallback de modelo.</strong> Outro modelo do mesmo provedor ou um modelo local para tarefas simples.</p></div>
-<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Nível 3 · Fallback de provedor ou região.</strong> Exige contrato, avaliação de qualidade do modelo alternativo e aprovação de residência de dados.</p></div>
+<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Nível 3 · Fallback de provedor ou regiêo.</strong> Exige contrato, avaliaçêo de qualidade do modelo alternativo e aprovaçêo de residência de dados.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Nível 4 · Modo degradado.</strong> Respostas prontas, fila para processar depois, ou encaminhamento para atendimento humano — com aviso honesto ao usuário.</p></div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p3" data-sum="porque">Quanto mais a IA entra em processos críticos, mais uma queda de provedor vira queda do negócio. Um plano de resiliência escrito antes do incidente — com rotas aprovadas, RTO e RPO definidos e modo degradado testado — é o que separa uma hora de lentidão de um dia de operação parada.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t5-p3" data-sum="porque">Quanto mais a IA entra em processos críticos, mais uma queda de provedor vira queda do negócio. Um plano de resiliência escrito antes do incidente — com rotas aprovadas, RTO e RPO definidos e modo degradado testado — é o que separa uma hora de lentidêo de um dia de operaçêo parada.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Circuit breaker</div><div class="text-xs text-neutral-400">para de insistir no que falha</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">RTO / RPO</div><div class="text-xs text-neutral-400">tempo fora / dado perdido</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Residência de dados</div><div class="text-xs text-neutral-400">onde o dado pode ir</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Modo degradado</div><div class="text-xs text-neutral-400">menos recurso, sem apagão</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Modo degradado</div><div class="text-xs text-neutral-400">menos recurso, sem apagêo</div></div>
 </div>
 <div class="flex justify-start mt-6">
 <button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
@@ -537,19 +537,19 @@ for p in ["Qual é o prazo para trocar um produto?",
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t6-p2">Os limites funcionam em camadas, todas no gateway: <strong class="text-neutral-100">limite de taxa</strong> (chamadas ou tokens por minuto, por chave), <strong class="text-neutral-100">teto por chamada</strong> (máximo de tokens de entrada e de saída), <strong class="text-neutral-100">orçamento por tenant</strong> (valor por mês, com alertas antes de acabar) e <strong class="text-neutral-100">limite de passos</strong> para agentes. <strong class="text-purple-400">Tenant</strong> é cada cliente, área ou produto que usa a plataforma e precisa ter seu gasto separado. Ao bater no limite, a melhor resposta raramente é o erro seco: é degradar para um modelo mais barato e avisar.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
-<p class="text-neutral-300">Limites de custo são regras aplicadas antes de cada chamada — taxa, tamanho, orçamento por tenant e passos de agente — com registro do custo real depois dela, para que o gasto seja previsível, atribuível e cortado automaticamente quando passa do combinado.</p>
+<p class="text-neutral-300">Limites de custo sêo regras aplicadas antes de cada chamada — taxa, tamanho, orçamento por tenant e passos de agente — com registro do custo real depois dela, para que o gasto seja previsível, atribuível e cortado automaticamente quando passa do combinado.</p>
 </div>
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
-<p class="text-sm"><strong class="text-purple-400">Objetivo:</strong> <span class="text-neutral-300">um guarda de orçamento por tenant, com limite por minuto e degradação para o modelo barato.</span></p>
+<p class="text-sm"><strong class="text-purple-400">Objetivo:</strong> <span class="text-neutral-300">um guarda de orçamento por tenant, com limite por minuto e degradaçêo para o modelo barato.</span></p>
 <button class="px-3 py-1 text-xs bg-dark-600 hover:bg-dark-500 rounded-md" data-label-ok="Copiado" onclick="copyCode(this)" type="button">Copiar</button>
 </div>
 <pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900">"""guarda_orcamento.py — limites por tenant antes de cada chamada. Rode: python3 guarda_orcamento.py"""
 import time
 from collections import defaultdict
 
-# R$ por 1 milhão de tokens. VALORES DE EXEMPLO: troque pelos do seu contrato.
-PRECOS = {"rapido": {"entrada": 0.0, "saida": 0.0},    # local: o custo é a máquina, não o token
+# R$ por 1 milhêo de tokens. VALORES DE EXEMPLO: troque pelos do seu contrato.
+PRECOS = {"rapido": {"entrada": 0.0, "saida": 0.0},    # local: o custo é a máquina, nêo o token
           "forte":  {"entrada": 15.0, "saida": 60.0}}
 ORCAMENTO_MES = {"cliente-a": 50.0, "cliente-b": 0.12}   # R$ por mês
 LIMITE_MINUTO = {"cliente-a": 60, "cliente-b": 3}        # chamadas por minuto
@@ -589,7 +589,7 @@ if __name__ == "__main__":
                 print(f"{tenant} chamada {i}: via {m:6} | gasto R$ {gasto[tenant]:.4f}")
             except Bloqueado as e:
                 print(f"{tenant} chamada {i}: BLOQUEADO — {e}")</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> o cliente-a deve fazer as 5 chamadas via "forte". O cliente-b deve fazer a 1ª via "forte", a 2ª e a 3ª via "rapido" (orçamento quase no fim) e ser BLOQUEADO na 4ª e 5ª (limite de 3 por minuto). Se a saída for essa, as três camadas — orçamento, degradação e taxa — estão funcionando. Em produção, guarde <code>gasto</code> e <code>janela</code> no Redis ou no banco, não na memória do processo.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> o cliente-a deve fazer as 5 chamadas via "forte". O cliente-b deve fazer a 1ª via "forte", a 2ª e a 3ª via "rapido" (orçamento quase no fim) e ser BLOQUEADO na 4ª e 5ª (limite de 3 por minuto). Se a saída for essa, as três camadas — orçamento, degradaçêo e taxa — estêo funcionando. Em produçêo, guarde <code>gasto</code> e <code>janela</code> no Redis ou no banco, nêo na memória do processo.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-purple-900/20 rounded-xl border border-purple-500/30 p-6">
@@ -597,8 +597,8 @@ if __name__ == "__main__":
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Aplicados no gateway, iguais para todos os aplicativos.</span></li>
 <li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Alertas em degraus (por exemplo, metade, três quartos e o total do orçamento).</span></li>
-<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Teto de passos e de tokens para cada execução de agente.</span></li>
-<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Custo por recurso do produto, não só por fatura do provedor.</span></li>
+<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Teto de passos e de tokens para cada execuçêo de agente.</span></li>
+<li class="flex items-start gap-2"><span class="text-purple-400">✓</span><span>Custo por recurso do produto, nêo só por fatura do provedor.</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
@@ -606,18 +606,18 @@ if __name__ == "__main__":
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Só o alerta de faturamento do provedor, que chega depois do gasto.</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Chave de API única compartilhada por todas as equipes.</span></li>
-<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Erro seco ao estourar, sem degradação nem aviso.</span></li>
+<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Erro seco ao estourar, sem degradaçêo nem aviso.</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Custo estimado pelo prompt, sem conferir o uso real devolvido.</span></li>
 </ul>
 </div>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t6-p3" data-sum="porque">Gestores aprovam IA em escala quando o custo é previsível. Com orçamento por tenant, degradação automática e custo atribuído a cada recurso do produto, a conversa sai de "a fatura veio alta" e vai para "este recurso custa tanto por usuário e vale a pena" — que é a base de qualquer decisão de investimento.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t6-p3" data-sum="porque">Gestores aprovam IA em escala quando o custo é previsível. Com orçamento por tenant, degradaçêo automática e custo atribuído a cada recurso do produto, a conversa sai de "a fatura veio alta" e vai para "este recurso custa tanto por usuário e vale a pena" — que é a base de qualquer decisêo de investimento.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Tenant</div><div class="text-xs text-neutral-400">quem tem gasto separado</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Limite de taxa</div><div class="text-xs text-neutral-400">chamadas por minuto</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Degradação</div><div class="text-xs text-neutral-400">modelo barato no limite</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Degradaçêo</div><div class="text-xs text-neutral-400">modelo barato no limite</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">FinOps de IA</div><div class="text-xs text-neutral-400">medir, atribuir, controlar</div></div>
 </div>
 <div class="flex justify-start mt-6">
@@ -635,24 +635,24 @@ if __name__ == "__main__":
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-1#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">7</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="checklist e prompt para revisar um desenho">🧭 Revisão de arquitetura na prática</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="checklist e prompt para revisar um desenho">🧭 Revisêo de arquitetura na prática</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p1">Tudo o que você viu se junta numa <strong class="text-purple-400">revisão de arquitetura</strong>: antes de um sistema de IA ir para produção, ou quando ele começa a crescer, alguém percorre as camadas com perguntas objetivas. A ordem importa — medir vem antes de otimizar, e limite de custo vem antes de abrir para todos os clientes.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p2">Um assistente de IA ajuda a fazer a revisão mais completa, desde que você entregue o contexto real e proíba números inventados. Ele não substitui a medição; serve para levantar perguntas que a equipe não fez, organizar riscos e propor uma ordem de trabalho que você vai validar.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p1">Tudo o que você viu se junta numa <strong class="text-purple-400">revisêo de arquitetura</strong>: antes de um sistema de IA ir para produçêo, ou quando ele começa a crescer, alguém percorre as camadas com perguntas objetivas. A ordem importa — medir vem antes de otimizar, e limite de custo vem antes de abrir para todos os clientes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p2">Um assistente de IA ajuda a fazer a revisêo mais completa, desde que você entregue o contexto real e proíba números inventados. Ele nêo substitui a mediçêo; serve para levantar perguntas que a equipe nêo fez, organizar riscos e propor uma ordem de trabalho que você vai validar.</p>
 <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-purple-400 mb-3">O que é</h3>
-<p class="text-neutral-300">Um roteiro de revisão em sete passos, das métricas aos limites de custo, mais um prompt de análise que transforma a descrição do seu sistema numa lista priorizada de decisões, cada uma com forma de medir.</p>
+<p class="text-neutral-300">Um roteiro de revisêo em sete passos, das métricas aos limites de custo, mais um prompt de análise que transforma a descriçêo do seu sistema numa lista priorizada de decisões, cada uma com forma de medir.</p>
 </div>
 <div class="relative border-l-2 border-purple-500/30 ml-3 pl-6 space-y-5 mb-6">
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">1 · Métricas.</strong> Existe painel com p95, TTFT, taxa de erro, tokens e custo por tenant e por recurso?</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">2 · Gateway.</strong> Algum aplicativo chama modelo direto, com chave própria? Se sim, esse é o primeiro trabalho.</p></div>
-<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">3 · Roteamento.</strong> Que parte do tráfego é simples? Há conjunto de avaliação para provar que o modelo pequeno dá conta?</p></div>
+<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">3 · Roteamento.</strong> Que parte do tráfego é simples? Há conjunto de avaliaçêo para provar que o modelo pequeno dá conta?</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-purple-500/20 border-2 border-purple-400"></span><p class="text-sm text-neutral-300"><strong class="text-purple-400">4 · Cache.</strong> O prefixo fixo vem antes do variável? Há perguntas repetidas que justificam cache semântico separado por tenant?</p></div>
-<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">5 · Inferência.</strong> O volume é estável o bastante para comparar API com servidor próprio pelo custo por milhão de tokens?</p></div>
+<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">5 · Inferência.</strong> O volume é estável o bastante para comparar API com servidor próprio pelo custo por milhêo de tokens?</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">6 · Resiliência.</strong> RTO e RPO definidos? Rota alternativa aprovada para os dados que trafegam? Modo degradado testado?</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">7 · Custo.</strong> Orçamento por tenant, teto por chamada, limite de passos de agente e alerta antes do fim do mês?</p></div>
 </div>
@@ -661,38 +661,38 @@ if __name__ == "__main__":
 <p class="text-sm"><strong class="text-purple-400">Objetivo:</strong> <span class="text-neutral-300">revisar a arquitetura do seu sistema de IA com um assistente (Claude, ChatGPT, Gemini).</span></p>
 <button class="px-3 py-1 text-xs bg-dark-600 hover:bg-dark-500 rounded-md" data-label-ok="Copiado" onclick="copyCode(this)" type="button">Copiar</button>
 </div>
-<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900">Você é um arquiteto sênior de sistemas de IA fazendo a revisão de um desenho antes de escalar.
-Regra: não invente preços, latências nem percentuais. Quando precisar de um número,
+<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900">Você é um arquiteto sênior de sistemas de IA fazendo a revisêo de um desenho antes de escalar.
+Regra: nêo invente preços, latências nem percentuais. Quando precisar de um número,
 escreva a fórmula com variáveis e diga como eu meço o valor.
 
 CONTEXTO
-- O que o sistema faz: &lt;descrição em 3 linhas&gt;
+- O que o sistema faz: &lt;descriçêo em 3 linhas&gt;
 - Volume: &lt;chamadas por dia, pico por minuto, tamanho médio de prompt e de resposta&gt;
 - Latência aceitável: &lt;p95 desejado, se a resposta é em streaming&gt;
 - Modelos e provedores hoje: &lt;lista&gt;
 - Dados que trafegam: &lt;tipos; há dados pessoais? onde podem ser processados (LGPD)?&gt;
 - Clientes/tenants: &lt;quantos, se o gasto precisa ser separado&gt;
-- Orçamento mensal: &lt;valor ou "não definido"&gt;
+- Orçamento mensal: &lt;valor ou "nêo definido"&gt;
 - O que já existe: &lt;gateway? cache? métricas? fallback?&gt;
 
 TAREFA
 1. Antes de analisar, faça até 5 perguntas sobre o que faltar.
 2. Avalie cada camada: métricas, gateway, roteamento, cache, inferência, resiliência, custo.
-   Para cada uma: situação atual, risco principal, recomendação.
+   Para cada uma: situaçêo atual, risco principal, recomendaçêo.
 3. Liste os 3 maiores riscos (técnico, financeiro, legal), do mais grave ao menos grave.
 4. Entregue uma tabela com 5 decisões priorizadas:
-   Decisão | Camada | Esforço (baixo/médio/alto) | Impacto | Como medir antes e depois
-5. Diga o que você NÃO consegue avaliar só com estas informações.</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> a resposta deve começar com perguntas, não com recomendações; cada decisão da tabela precisa ter uma métrica concreta (p95, custo por tenant, taxa de acerto do cache). Procure números sem fórmula — se aparecer algum, peça a origem ou a troca por variável. Leve a tabela para a equipe e valide cada linha com dados reais antes de executar.</p>
+   Decisêo | Camada | Esforço (baixo/médio/alto) | Impacto | Como medir antes e depois
+5. Diga o que você NêO consegue avaliar só com estas informações.</pre>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> a resposta deve começar com perguntas, nêo com recomendações; cada decisêo da tabela precisa ter uma métrica concreta (p95, custo por tenant, taxa de acerto do cache). Procure números sem fórmula — se aparecer algum, peça a origem ou a troca por variável. Leve a tabela para a equipe e valide cada linha com dados reais antes de executar.</p>
 </div>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p3" data-sum="porque">Líderes técnicos raramente desenham o sistema sozinhos; eles conduzem revisões. Um roteiro fixo garante que nenhuma camada fique esquecida, e o prompt de análise acelera a primeira versão sem trocar a medição real pela opinião do modelo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m3-1-t7-p3" data-sum="porque">Líderes técnicos raramente desenham o sistema sozinhos; eles conduzem revisões. Um roteiro fixo garante que nenhuma camada fique esquecida, e o prompt de análise acelera a primeira versêo sem trocar a mediçêo real pela opiniêo do modelo.</p>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Revisão de arquitetura</div><div class="text-xs text-neutral-400">perguntas por camada</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Medir antes</div><div class="text-xs text-neutral-400">otimização sem métrica é palpite</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Priorização</div><div class="text-xs text-neutral-400">esforço × impacto</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Fórmula, não chute</div><div class="text-xs text-neutral-400">números com origem</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Revisêo de arquitetura</div><div class="text-xs text-neutral-400">perguntas por camada</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Medir antes</div><div class="text-xs text-neutral-400">otimizaçêo sem métrica é palpite</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Priorizaçêo</div><div class="text-xs text-neutral-400">esforço × impacto</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-purple-400 font-semibold text-sm">Fórmula, nêo chute</div><div class="text-xs text-neutral-400">números com origem</div></div>
 </div>
 <div class="flex justify-start mt-6">
 <button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
@@ -712,7 +712,7 @@ TAREFA
 <div class="space-y-4 mb-8">
 <div class="flex items-start gap-3"><span class="text-purple-400 mt-1">✓</span><div><strong class="text-neutral-100">Camadas no meio</strong><span class="text-neutral-400"> — gateway, roteador, inferência, cache e observabilidade; nenhum app fala direto com o modelo.</span></div></div>
 <div class="flex items-start gap-3"><span class="text-purple-400 mt-1">✓</span><div><strong class="text-neutral-100">O modelo mais barato que resolve</strong><span class="text-neutral-400"> — roteamento em cascata com validador e fallback.</span></div></div>
-<div class="flex items-start gap-3"><span class="text-purple-400 mt-1">✓</span><div><strong class="text-neutral-100">GPU cheia e trabalho não repetido</strong><span class="text-neutral-400"> — batching contínuo, cache de prompt e cache semântico calibrado.</span></div></div>
+<div class="flex items-start gap-3"><span class="text-purple-400 mt-1">✓</span><div><strong class="text-neutral-100">GPU cheia e trabalho nêo repetido</strong><span class="text-neutral-400"> — batching contínuo, cache de prompt e cache semântico calibrado.</span></div></div>
 <div class="flex items-start gap-3"><span class="text-purple-400 mt-1">✓</span><div><strong class="text-neutral-100">Falha prevista e gasto controlado</strong><span class="text-neutral-400"> — rotas aprovadas pela LGPD, modo degradado e orçamento por tenant.</span></div></div>
 </div>
 <div class="bg-dark-800/50 rounded-lg p-4 mb-8">

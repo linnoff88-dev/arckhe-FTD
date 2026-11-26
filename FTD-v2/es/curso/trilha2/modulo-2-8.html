@@ -629,7 +629,7 @@
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="código, prompt, modelo, dados e configuração">🗂️ Versionar todo</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="código, prompt, modelo, dados e configuraçêo">🗂️ Versionar todo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -719,7 +719,7 @@
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="o conjunto de testes vira portão automático">🧪 Evaluación continua</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="o conjunto de testes vira portêo automático">🧪 Evaluación continua</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -735,7 +735,7 @@
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Ejecutar automáticamente el conjunto de pruebas con cada cambio y tratar una caída de calidad como una prueba fallida: la versión no pasa a producción hasta que alguien lo explique o lo corrija.</p>
 </div>
-<!-- COPY-RUN: portão com pytest -->
+<!-- COPY-RUN: portêo com pytest -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-blue-400">Prueba:</strong> <span class="text-neutral-300">puerta de calidad con pytest, usando el <code>classificador.py</code> del módulo 2.7.</span></p>
@@ -869,7 +869,7 @@ def classificar(p: Pedido):
     log.info(json.dumps({"rid": rid, "versao": VERSAO, "status": status,
                          "ms": ms, "tokens": tokens, "rotulo": rotulo}))
     return {"rotulo": rotulo, "status": status, "versao": VERSAO, "request_id": rid}</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> inícialo con <code>uvicorn app:app --port 8000 2&gt;&amp;1 | tee servico.log</code>. En otra terminal: <code>curl -s localhost:8000/health</code> debe devolver la versión; <code>curl -s -X POST localhost:8000/classificar -H 'Content-Type: application/json' -d '{"texto":"meu pedido não chegou"}'</code> debe devolver <code>"rotulo":"entrega"</code>. Detén Ollama y repite: la respuesta debe venir con <code>"rotulo":"outro"</code> y un estado de error, sin que el servicio se caiga.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> inícialo con <code>uvicorn app:app --port 8000 2&gt;&amp;1 | tee servico.log</code>. En otra terminal: <code>curl -s localhost:8000/health</code> debe devolver la versión; <code>curl -s -X POST localhost:8000/classificar -H 'Content-Type: application/json' -d '{"texto":"meu pedido nêo chegou"}'</code> debe devolver <code>"rotulo":"entrega"</code>. Detén Ollama y repite: la respuesta debe venir con <code>"rotulo":"outro"</code> y un estado de error, sin que el servicio se caiga.</p>
 </div>
 <!-- SVG 3: canário -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
@@ -950,7 +950,7 @@ def classificar(p: Pedido):
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Vigilar continuamente si el servicio es rápido, está disponible, es correcto y se mantiene dentro del presupuesto, con alertas que avisan antes que el usuario y registros suficientes para investigar cada caso.</p>
 </div>
-<!-- SVG 4: distribuição de latência -->
+<!-- SVG 4: distribuiçêo de latência -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="Histograma de latencia de las solicitudes: la mayoría se concentra a la izquierda y hay una cola larga a la derecha; las líneas verticales marcan la mediana p50, el p95 y el p99, y muestran que el promedio oculta las solicitudes lentas." class="w-full h-auto" role="img" viewbox="0 0 900 280">
 <rect fill="url(#m28-grid)" height="280" width="900"></rect>
@@ -1033,7 +1033,7 @@ nao_ok = sum(v for k, v in status.items() if k != "ok")
 
 print(f"requisições: {len(linhas)}")
 print(f"latência p50={q[49]:.0f} ms  p95={q[94]:.0f} ms  máx={max(ms)} ms")
-print(f"não-ok: {nao_ok / len(linhas):.1%}  {dict(status)}")
+print(f"nêo-ok: {nao_ok / len(linhas):.1%}  {dict(status)}")
 print(f"tokens/req (média): {statistics.mean(x['tokens'] for x in linhas):.0f}")
 print("rótulos:", {k: f"{v / len(linhas):.0%}" for k, v in rotulos.most_common()})</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> con el servicio del tema 4 en funcionamiento, haz unas 20 llamadas con textos variados y ejecuta <code>python3 metricas.py servico.log</code>. Debes ver que p50 es menor que p95, la fracción de respuestas no válidas y la distribución de etiquetas. Detén Ollama, haz más llamadas y vuelve a ejecutar: la fracción de respuestas no válidas debe aumentar. Ese es el número que vigila una alerta.</p>

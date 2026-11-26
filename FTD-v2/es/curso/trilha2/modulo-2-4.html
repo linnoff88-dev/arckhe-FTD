@@ -816,18 +816,18 @@ with open(entrada, encoding="utf-8") as f:
 
 random.seed(42)
 random.shuffle(validos)
-corte = max(1, int(len(validos) * 0.1))   # 10% para validação
+corte = max(1, int(len(validos) * 0.1))   # 10% para validaçêo
 for nome, parte in (("val.jsonl", validos[:corte]), ("train.jsonl", validos[corte:])):
     with open(nome, "w", encoding="utf-8") as f:
         for ex in parte:
             f.write(json.dumps(ex, ensure_ascii=False) + "\n")
 
-print(f"válidos: {len(validos)}  treino: {len(validos) - corte}  validação: {corte}")
+print(f"válidos: {len(validos)}  treino: {len(validos) - corte}  validaçêo: {corte}")
 print("\n".join(problemas[:20]) or "nenhum problema encontrado")
 
 # formato de cada linha do &lt;exemplos.jsonl&gt;:
 # {"messages": [{"role": "system", "content": "Você classifica chamados."},
-#               {"role": "user", "content": "A impressora não liga."},
+#               {"role": "user", "content": "A impressora nêo liga."},
 #               {"role": "assistant", "content": "{\"categoria\": \"hardware\"}"}]}</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> el script crea <code>train.jsonl</code> e <code>val.jsonl</code> e imprime los conteos. Agrega a propósito una línea repetida y otra con un CPF falso al archivo de entrada: ambas deben aparecer en la lista de problemas y quedar fuera de los archivos generados.</p>
 </div>

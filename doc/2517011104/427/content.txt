@@ -22,14 +22,14 @@ MENSAGEM 2
 Autor: ARCKHÉ
 Data: 2025-04-09T03:43:12+00:00
 Texto:
-Você tocou no ponto **mais crítico** de todos: **não adianta criar conteúdo bom se o algoritmo não entrega**.
+Você tocou no ponto **mais crítico** de todos: **nêo adianta criar conteúdo bom se o algoritmo nêo entrega**.
 
  **curso relâmpago** uma parte especial focada **só nisso**: **entender e aplicar as regras invisíveis dos algoritmos** para aumentar **entrega, engajamento e alcance**, mesmo com perfis pequenos ou novos.
 
 ---
 
 ## MÓDULO ESPECIAL: COMO FAZER O ALGORITMO ENTREGAR SEU CONTEÚDO  
-**Duração:** 30 minutos  
+**Duraçêo:** 30 minutos  
 **Objetivo:** Ajudar os participantes a **quebrarem a bolha** e fazerem o conteúdo chegar até o público certo.
 
 ---
@@ -37,7 +37,7 @@ Você tocou no ponto **mais crítico** de todos: **não adianta criar conteúdo 
 ### 1. ENTENDA COMO O ALGORITMO PENSA  
 O algoritmo das redes sociais funciona como um **filtro de relevância**. Ele entrega mais se o conteúdo:
 
-- Gera **atenção imediata** nos primeiros 3 segundos  
+- Gera **atençêo imediata** nos primeiros 3 segundos  
 - Estimula **interações rápidas** (comentário, compartilhamento, salvamento)  
 - É **consistente** (mesmo tema, mesmo formato, com frequência)
 - Faz o usuário **ficar mais tempo na plataforma**
@@ -47,31 +47,31 @@ O algoritmo das redes sociais funciona como um **filtro de relevância**. Ele en
 ### 2. A FÓRMULA DO CONTEÚDO ENTREGÁVEL  
 **Fórmula simplificada (para qualquer post):**
 
-> **1. Gancho forte (curiosidade, emoção ou surpresa)**  
+> **1. Gancho forte (curiosidade, emoçêo ou surpresa)**  
 > **2. História curta ou prova (relevância)**  
-> **3. Chamada para ação (fazer algo: comentar, salvar ou compartilhar)**
+> **3. Chamada para açêo (fazer algo: comentar, salvar ou compartilhar)**
 
 **Exemplos práticos:**
 
 - Instagram Reels:  
   “Você sabia que a maioria das pessoas fracassa porque ignora isso?”  
-  (mostra uma ação, uma transformação, termina com: “Salve isso pra lembrar depois!”)
+  (mostra uma açêo, uma transformaçêo, termina com: “Salve isso pra lembrar depois!”)
 
 - WhatsApp:  
-  “Oi, vi que você trabalha com X. Posso te mostrar uma solução que está funcionando pra pessoas como você?”
+  “Oi, vi que você trabalha com X. Posso te mostrar uma soluçêo que está funcionando pra pessoas como você?”
 
 ---
 
 ### 3. GATILHOS QUE O ALGORITMO AMA  
-- **Gatilho de identificação:** “Se você também sente isso…”  
-- **Gatilho visual:** mostrar o problema (antes) e a solução (depois)  
+- **Gatilho de identificaçêo:** “Se você também sente isso…”  
+- **Gatilho visual:** mostrar o problema (antes) e a soluçêo (depois)  
 - **Gatilho de desafio:** “Duvido que você consiga fazer isso por 3 dias…”  
 - **Gatilho de bastidor:** “Olha como eu faço isso todos os dias…”
 
 ---
 
 ### 4. DICAS AVANÇADAS (pouca gente aplica)  
-- **Use palavras que seguram a atenção** no início: “descubra”, “evite”, “por que ninguém fala”, “isso mudou minha vida”
+- **Use palavras que seguram a atençêo** no início: “descubra”, “evite”, “por que ninguém fala”, “isso mudou minha vida”
 - **Interaja com os primeiros 5 comentários rapidamente**
 - **Use música ou sons populares no Reels e TikTok**
 - Poste em horários onde seu público está mais ativo (use os insights da conta)
@@ -82,7 +82,7 @@ O algoritmo das redes sociais funciona como um **filtro de relevância**. Ele en
 Cada aluno escolhe um tema e cria:  
 - 1 gancho com alto potencial de entrega  
 - 1 vídeo ou texto com os 3 elementos da fórmula  
-- 1 chamada de ação que gere comentário ou compartilhamento
+- 1 chamada de açêo que gere comentário ou compartilhamento
 
 ---
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Gera en/ e es/ a partir do PT + cache i18n/<lang>.json (offline, sem API).
-Também regrava o seletor de idioma e os alternates do PT. Falta de tradução = erro.
+Também regrava o seletor de idioma e os alternates do PT. Falta de traduçêo = erro.
 Uso: python3 scripts/render-locales.py"""
 from localization import *
 from bs4 import NavigableString
@@ -79,7 +79,7 @@ def render(lang):
   fix_paths(soup,rel);lang_ui(soup,rel,lang)
   out=ROOT/lang/rel;out.parent.mkdir(parents=True,exist_ok=True);out.write_text(str(soup))
  if missing:
-  raise SystemExit(f'{lang}: {len(missing)} trechos sem tradução, ex.: {missing[:5]}')
+  raise SystemExit(f'{lang}: {len(missing)} trechos sem traduçêo, ex.: {missing[:5]}')
  print(lang,':',len(pages()),'páginas')
 
 if __name__=='__main__':

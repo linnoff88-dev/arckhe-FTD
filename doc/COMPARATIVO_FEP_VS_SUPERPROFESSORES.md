@@ -2,11 +2,11 @@
 
 > **Guia Rápido de Diferenças entre os Dois Projetos**
 
-**Data:** 2025-11-12 | **Versão:** 1.0
+**Data:** 2025-11-12 | **Versêo:** 1.0
 
 ---
 
-## 📊 Visão Geral
+## 📊 Visêo Geral
 
 ### FEP
 **Fundamentos e Engenharia de Prompt**
@@ -17,10 +17,10 @@
 
 ### SuperProfessores
 **Transformando Educadores**
-- Formação de professores em IA
+- Formaçêo de professores em IA
 - Estrutura híbrida (1 base + 2 trilhas)
 - Público: Educadores
-- Foco: Aplicação pedagógica
+- Foco: Aplicaçêo pedagógica
 
 ---
 
@@ -37,7 +37,7 @@ Estrutura:  Iniciante → Técnico → Masterclass
 👑 Roxo  (#8B5CF6)  = Nível Masterclass
 ```
 
-#### SuperProfessores - Cores por TRILHA (Bifurcação)
+#### SuperProfessores - Cores por TRILHA (Bifurcaçêo)
 ```
 Estrutura:  Fundamentos → Trilha A ou Trilha B
 
@@ -51,10 +51,10 @@ Estrutura:  Fundamentos → Trilha A ou Trilha B
 ```
 Verde (#10B981) significa:
   - No FEP: "Iniciante" (primeiro nível)
-  - No SuperProfessores: "Trilha B" (especialização avançada)
+  - No SuperProfessores: "Trilha B" (especializaçêo avançada)
 ```
 
-**Solução:** São projetos diferentes - cores têm significados diferentes em cada contexto.
+**Soluçêo:** Sêo projetos diferentes - cores têm significados diferentes em cada contexto.
 
 ---
 
@@ -115,10 +115,10 @@ TOTAL: 180h
 | Aspecto | FEP | SuperProfessores |
 |---------|-----|------------------|
 | **O que ensina** | Engenharia de Prompt | Formar educadores em IA |
-| **Foco** | Habilidade técnica | Aplicação pedagógica |
+| **Foco** | Habilidade técnica | Aplicaçêo pedagógica |
 | **Público** | Qualquer pessoa | Professores e educadores |
-| **Progressão** | Linear (1→2→3) | Bifurcada (1→2A+3A ou 1→2B) |
-| **Duração** | 120 horas | 120-180 horas |
+| **Progressêo** | Linear (1→2→3) | Bifurcada (1→2A+3A ou 1→2B) |
+| **Duraçêo** | 120 horas | 120-180 horas |
 
 ---
 
@@ -133,7 +133,7 @@ TOTAL: 180h
 | **Espaço entre parágrafos** | `mb-2` (8px) | `mb-1.5` (6px) | **-25%** ⬇️ |
 | **Filosofia** | Visual confortável | **Densidade máxima** |
 
-### Visualização
+### Visualizaçêo
 
 #### FEP (Espaçoso)
 ```
@@ -173,11 +173,11 @@ TOTAL: 180h
 
 | Aspecto | FEP | SuperProfessores |
 |---------|-----|------------------|
-| **Implementação** | Não especificada | ✅ Completa |
+| **Implementaçêo** | Nêo especificada | ✅ Completa |
 | **Método** | - | Class-based (`dark:`) |
 | **LocalStorage** | - | ✅ Salva preferência |
 | **System Preference** | - | ✅ Detecta automaticamente |
-| **Toggle UI** | - | ✅ Botão com ícone |
+| **Toggle UI** | - | ✅ Botêo com ícone |
 | **Transitions** | - | ✅ 200ms suaves |
 
 **Exemplo de código:**
@@ -197,7 +197,7 @@ TOTAL: 180h
 
 ## 🧩 Componentes
 
-### Navegação
+### Navegaçêo
 
 #### FEP
 ```html
@@ -230,7 +230,7 @@ TOTAL: 180h
 - Dark mode completo
 - Backdrop blur
 - Gradiente no logo
-- Botão de dark mode
+- Botêo de dark mode
 
 ---
 
@@ -277,7 +277,7 @@ background: linear-gradient(to right, #3B82F6, #9b59b6, #10B981);
 
 ```
 Estrutura de arquivos:
-(não especificada detalhadamente)
+(nêo especificada detalhadamente)
 
 Provável:
 ├── index.html
@@ -319,12 +319,12 @@ superprofessores/
 | **CSS Framework** | Tailwind CSS 3.x | Tailwind CSS 3.x |
 | **JavaScript** | Vanilla JS | Vanilla JS (app.js) |
 | **Fontes** | Inter (400, 500, 600, 700) | Inter (400, 500, 600, 700) |
-| **Dark Mode** | Não especificado | Class-based (`darkMode: 'class'`) |
+| **Dark Mode** | Nêo especificado | Class-based (`darkMode: 'class'`) |
 | **Ícones** | Emojis Unicode | Emojis Unicode |
 | **Build** | HTML puro | HTML puro |
 | **Modais** | Sim | Sim (com CSS específico) |
 
-**Conclusão:** Stack praticamente idêntico, mas SuperProfessores adiciona dark mode.
+**Conclusêo:** Stack praticamente idêntico, mas SuperProfessores adiciona dark mode.
 
 ---
 
@@ -333,8 +333,8 @@ superprofessores/
 ### FEP
 
 ```javascript
-// Não especificado no style guide
-// Provável configuração mínima
+// Nêo especificado no style guide
+// Provável configuraçêo mínima
 ```
 
 ### SuperProfessores
@@ -407,7 +407,7 @@ Mesmos padrões de container:
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 ```
 
-**Conclusão:** Estratégia de responsividade idêntica.
+**Conclusêo:** Estratégia de responsividade idêntica.
 
 ---
 
@@ -417,15 +417,15 @@ Mesmos padrões de container:
 Linha do Tempo:
 
 2025-11-04: FEP (style-guide.md) criado
-    ↓ inspiração técnica
+    ↓ inspiraçêo técnica
 2025-01-04: ATIA Compact Topics System criado
-    ↓ adaptação
-2025-11-12: SuperProfessores (versão 3.0) criado
+    ↓ adaptaçêo
+2025-11-12: SuperProfessores (versêo 3.0) criado
 ```
 
-**Conclusão:**
+**Conclusêo:**
 - SuperProfessores **derivou** a estrutura técnica do FEP
-- Adaptou componentes (versão compacta)
+- Adaptou componentes (versêo compacta)
 - Mudou completamente o escopo educacional
 - Adicionou dark mode
 - Modificou sistema de cores para refletir estrutura híbrida
@@ -440,21 +440,21 @@ Linha do Tempo:
 | **Tagline** | "Engenharia de Prompt" | "Transformando educadores em arquitetos do futuro da aprendizagem" |
 | **Público** | Geral | Educadores |
 | **Estrutura** | 3 níveis lineares | 1 base + 2 trilhas |
-| **Duração** | 120 horas | 120-180 horas |
+| **Duraçêo** | 120 horas | 120-180 horas |
 | **Cores** | Verde-Azul-Roxo (por nível) | Azul(base)+Roxo/Verde(trilhas) |
 | **Significado Verde** | Iniciante | Trilha B (avançado) |
 | **Espaçamento** | Confortável (8-12px) | Ultra-compacto (2-4px) |
-| **Dark Mode** | ❌ Não | ✅ Completo |
+| **Dark Mode** | ❌ Nêo | ✅ Completo |
 | **Tailwind Config** | Mínimo | Customizado (cores + dark mode) |
-| **Nav Transparente** | ❌ Não | ✅ Sim (90% + blur) |
+| **Nav Transparente** | ❌ Nêo | ✅ Sim (90% + blur) |
 | **Gradiente Hero** | Blue→Blue→Purple | Blue→Purple→Green |
 | **Estrutura Arquivos** | Simples | Complexa (niveis/ + modulos/) |
-| **CSS Transitions** | Não especificado | ✅ 200ms em todos elementos |
+| **CSS Transitions** | Nêo especificado | ✅ 200ms em todos elementos |
 | **Mobile Menu** | Sim | Sim |
 | **Modais** | Sim | Sim (CSS específico) |
 | **Accordion Scope** | `.module-card` | `.chapter-card` |
-| **Data Criação** | 2025-11-04 | 2025-11-12 |
-| **Versão** | 1.0 | 3.0 |
+| **Data Criaçêo** | 2025-11-04 | 2025-11-12 |
+| **Versêo** | 1.0 | 3.0 |
 | **Autor** | FEP Team | BMad Orchestrator |
 
 ---
@@ -464,16 +464,16 @@ Linha do Tempo:
 ### Use FEP como referência quando:
 
 ✅ Criar curso de conteúdo técnico linear
-✅ Não precisar de dark mode
+✅ Nêo precisar de dark mode
 ✅ Preferir espaçamento confortável
 ✅ Estrutura simples de 3 níveis
-✅ Público geral (não específico)
+✅ Público geral (nêo específico)
 
 ### Use SuperProfessores como referência quando:
 
 ✅ Criar plataforma educacional para professores
 ✅ Precisar de dark mode completo
-✅ Quiser máxima densidade de informação
+✅ Quiser máxima densidade de informaçêo
 ✅ Estrutura híbrida com especializações
 ✅ Público específico (educadores)
 ✅ Múltiplas trilhas de aprendizado
@@ -519,13 +519,13 @@ Se você tem código baseado em FEP e quer adaptar para SuperProfessores:
 + <p class="mb-1.5">
 ```
 
-### 4. Atualizar Navegação
+### 4. Atualizar Navegaçêo
 
 ```diff
 - <nav class="bg-white">
 + <nav class="bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm">
 
-+ <!-- Adicionar botão de dark mode -->
++ <!-- Adicionar botêo de dark mode -->
 + <button id="theme-toggle">🌙</button>
 ```
 
@@ -576,22 +576,22 @@ themeToggle.addEventListener('click', function() {
 📄 **SUPERPROFESSORES_STYLE_REFERENCE.md** - Documento completo de referência do SuperProfessores
 
 ### Este Documento
-📄 **COMPARATIVO_FEP_VS_SUPERPROFESSORES.md** - Comparação lado a lado
+📄 **COMPARATIVO_FEP_VS_SUPERPROFESSORES.md** - Comparaçêo lado a lado
 
 ---
 
-## ✅ Conclusão
+## ✅ Conclusêo
 
-### São Projetos Diferentes
+### Sêo Projetos Diferentes
 
 - **FEP**: Curso de prompt engineering com estrutura linear
-- **SuperProfessores**: Formação de educadores com estrutura híbrida
+- **SuperProfessores**: Formaçêo de educadores com estrutura híbrida
 
 ### Herança Técnica
 
 SuperProfessores **herdou** a base técnica do FEP:
 - Framework (Tailwind CSS)
-- Componentes (navegação, cards, modais)
+- Componentes (navegaçêo, cards, modais)
 - Responsividade
 - Estrutura HTML
 
@@ -600,23 +600,23 @@ SuperProfessores **herdou** a base técnica do FEP:
 Mas **evoluiu** adicionando:
 - ✅ Dark mode completo
 - ✅ Espaçamento ultra-compacto
-- ✅ Sistema de cores por trilha (não por nível)
+- ✅ Sistema de cores por trilha (nêo por nível)
 - ✅ Estrutura híbrida educacional
 - ✅ Transparência e blur na nav
 - ✅ Gradiente tricolor
 
-### Recomendação Final
+### Recomendaçêo Final
 
-**Não confunda os dois projetos!**
+**Nêo confunda os dois projetos!**
 
-Use a documentação correta para cada um:
+Use a documentaçêo correta para cada um:
 - Criando para FEP? → Use `FEP_STYLE_REFERENCE.md`
 - Criando para SuperProfessores? → Use `SUPERPROFESSORES_STYLE_REFERENCE.md`
 - Comparando? → Use este documento
 
 ---
 
-**Última atualização:** 2025-11-12
-**Versão:** 1.0
+**Última atualizaçêo:** 2025-11-12
+**Versêo:** 1.0
 **Autor:** Claude Code Assistant
 

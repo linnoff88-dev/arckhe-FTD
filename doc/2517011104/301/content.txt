@@ -37,7 +37,7 @@ Texto:
    (Início, meio e fim em tópicos)
 
 5. **Escolha o formato**  
-   (Vertical, horizontal, tempo de duração)
+   (Vertical, horizontal, tempo de duraçêo)
 
 6. **Escolha a ferramenta**  
    (Ex: Runway, Pika, CapCut, Canva, Premiere)
@@ -46,10 +46,10 @@ Texto:
    (Imagem, IA, vídeo próprio, banco de vídeos)
 
 8. **Adicione movimento e transições**  
-   (Zoom, interpolação, elementos em movimento)
+   (Zoom, interpolaçêo, elementos em movimento)
 
-9. **Adicione música ou narração**  
-   (Escolha algo que combine com o ritmo e emoção)
+9. **Adicione música ou narraçêo**  
+   (Escolha algo que combine com o ritmo e emoçêo)
 
 10. **Revise e publique**  
    (Assista, corte excessos, publique no canal certo)
@@ -94,7 +94,7 @@ Data: 2025-04-09T02:13:01+00:00
 Texto:
 Ótimo, vamos pensar juntos! Quando você quer **criar um vídeo** — seja com IA ou de forma tradicional — é importante refletir em **camadas**, como um diretor de cARCKHÉ, um roteirista e um espectador ao mesmo tempo.
 
-Aqui vão os pontos essenciais para guiar sua criação (em forma de perguntas e reflexões):
+Aqui vêo os pontos essenciais para guiar sua criaçêo (em forma de perguntas e reflexões):
 
 ---
 
@@ -130,7 +130,7 @@ Aqui vão os pontos essenciais para guiar sua criação (em forma de perguntas e
 
 ### 6. **Quem aparece no vídeo?**
 - Personagem humano, animal, IA, objeto com vida?
-- O personagem se move? Tem emoção? Qual é a ação dele?
+- O personagem se move? Tem emoçêo? Qual é a açêo dele?
 
 ---
 
@@ -143,18 +143,18 @@ Aqui vão os pontos essenciais para guiar sua criação (em forma de perguntas e
 ---
 
 ### 8. **Som e trilha sonora**
-- Vai usar música, narração ou só efeito visual?
+- Vai usar música, narraçêo ou só efeito visual?
 - A batida da música influencia o **ritmo do vídeo**
 
 ---
 
-### 9. **Duração e formato**
+### 9. **Duraçêo e formato**
 - 5 segundos? 15? 1 minuto?
 - Vertical (reels, TikTok), quadrado (Instagram), horizontal (YouTube)?
 
 ---
 
-### 10. **Ferramentas e execução**
+### 10. **Ferramentas e execuçêo**
 - Vai usar Runway, Pika, CapCut, Premiere, IA?
 - Precisa gerar imagem, vídeo ou apenas editar?
 

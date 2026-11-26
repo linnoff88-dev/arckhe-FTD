@@ -30,7 +30,7 @@ MENSAGEM 3
 Autor: GPaolo
 Data: 2025-05-25T23:57:20+00:00
 Texto:
-É possível criar uma automação onde subo um vídeo de 1h em widescreen de 2k. Ele corta o vídeo em vertical centralizando o corte, no máximo de 1minuto, legenda e posta em 3 redes sociais? É possível?
+É possível criar uma automaçêo onde subo um vídeo de 1h em widescreen de 2k. Ele corta o vídeo em vertical centralizando o corte, no máximo de 1minuto, legenda e posta em 3 redes sociais? É possível?
 
 ------------------------------
 
@@ -86,7 +86,7 @@ MENSAGEM 9
 Autor: ARCKHÉ
 Data: 2025-04-07T05:01:23+00:00
 Texto:
-Demonstração de uso dos Assistentes e Agentes
+Demonstraçêo de uso dos Assistentes e Agentes
 Como usar Prompts simulando assistentes (arquivos)
 Uso da API no Console da OpenAI
 
@@ -98,17 +98,17 @@ Data: 2025-04-07T05:00:40+00:00
 Texto:
 **"1-4. Muito Além do Chat: Assistentes e Agentes"**:
 
-Este tópico trata da evolução das interações com a inteligência artificial, que vai muito além do simples uso de **prompts**. Ele explora as diferenças fundamentais entre comandos pontuais, **assistentes personalizados** e **agentes autônomos** que operam com maior independência e complexidade.
+Este tópico trata da evoluçêo das interações com a inteligência artificial, que vai muito além do simples uso de **prompts**. Ele explora as diferenças fundamentais entre comandos pontuais, **assistentes personalizados** e **agentes autônomos** que operam com maior independência e complexidade.
 
 ### Tópicos abordados:
 
 1. **Diferença entre Prompt, Assistente e Agente
 **
-   - **Prompt**: É um comando ou instrução direta dada ao modelo de IA. Ex: *"Me dê uma lista de filmes de ação."*
+   - **Prompt**: É um comando ou instruçêo direta dada ao modelo de IA. Ex: *"Me dê uma lista de filmes de açêo."*
 
    - **Assistente**: É uma IA personalizada para cumprir papéis específicos. Ex: um assistente de vendas que responde dúvidas de clientes com base em dados fornecidos.
 
-   - **Agente**: Atua de forma **autônoma**, com capacidade de **tomar decisões, executar tarefas sequenciais**, buscar dados, adaptar-se ao contexto e operar com mínima intervenção humana.
+   - **Agente**: Atua de forma **autônoma**, com capacidade de **tomar decisões, executar tarefas sequenciais**, buscar dados, adaptar-se ao contexto e operar com mínima intervençêo humana.
 
 
    - **Exemplo prático**:
@@ -129,24 +129,24 @@ Este tópico trata da evolução das interações com a inteligência artificial
    - Exemplo: "Crie um assistente chamado Suporte-Tec que responde perguntas técnicas sobre um sistema específico."
 
 Recursos:
-Vantagem não paga Tokens, pode compartilhar com todo mundo.
+Vantagem nêo paga Tokens, pode compartilhar com todo mundo.
 - quem cria é o Plus, mas todos podem acessar.
 - Recurso de compartilhar (todos, só com o link e só para si mesmo.)
 - Recurso de Arquivos (rag) 
-- Recurso de chamadas A Ação
+- Recurso de chamadas A Açêo
 - Webhooks e Mailhooks
 
 2.2 - Criando Assistntes via API
 - Nas Automações Chama direto nas plataformas
 - Nem Todas LLMs tem este Recurso.
-- Openai tem e tem Threads (permite acumular informação)
+- Openai tem e tem Threads (permite acumular informaçêo)
 - Platform.openai.com
 - Chaves de API
 
 
-3. **Visão Geral dos Agentes Autônomos**
+3. **Visêo Geral dos Agentes Autônomos**
 
-   - São IAs que **executam tarefas por conta própria**, utilizando ferramentas como **n8n, Make, LangChain** e **RAG (Retrieval-Augmented Generation)**.
+   - Sêo IAs que **executam tarefas por conta própria**, utilizando ferramentas como **n8n, Make, LangChain** e **RAG (Retrieval-Augmented Generation)**.
 
    - Têm capacidade de:
      - Acessar APIs externas
@@ -168,14 +168,14 @@ Vantagem não paga Tokens, pode compartilhar com todo mundo.
 2. **Como posso criar um assistente no ChatGPT?**
    - Acesse o menu "Explorar GPTs"
    - Clique em “Criar”
-   - Defina nome, função, estilo de resposta e instruções do sistema
+   - Defina nome, funçêo, estilo de resposta e instruções do sistema
    - **Exemplo**: Um assistente para responder dúvidas sobre cursos da sua empresa, com acesso ao FAQ interno.
 
-3. **O que um agente autônomo pode fazer que um assistente não faz?**
+3. **O que um agente autônomo pode fazer que um assistente nêo faz?**
    - Um agente pode:
      - Tomar decisões com base em resultados
      - Integrar dados de múltiplas fontes
-     - Agir sem intervenção humana direta
+     - Agir sem intervençêo humana direta
    - **Exemplo**: Se um cliente enviar uma mensagem com a palavra "urgente", o agente pode notificar o suporte no WhatsApp e responder com prioridade no e-mail.
 
 4. **Quais ferramentas posso usar para criar agentes autônomos?**
@@ -191,11 +191,11 @@ Data: 2025-04-07T05:00:31+00:00
 Texto:
 **1-4. Muito Além do Chat: Assistentes e Agentes**
 
-- **Diferença entre Prompt, Assistente e Agente**: Enquanto prompts são comandos individuais, assistentes e agentes de IA possuem capacidades autônomas para executar tarefas complexas e interagir de forma mais sofisticada. 
+- **Diferença entre Prompt, Assistente e Agente**: Enquanto prompts sêo comandos individuais, assistentes e agentes de IA possuem capacidades autônomas para executar tarefas complexas e interagir de forma mais sofisticada. 
 
 - **Criando Assistentes no ChatGPT**: Usuários podem personalizar o ChatGPT para atuar como assistentes virtuais em diversas aplicações, desde atendimento ao cliente até suporte técnico.
 
-- **Visão Geral dos Agentes Autônomos**: Agentes de IA estão sendo desenvolvidos para realizar tarefas de forma independente, adaptando-se a novas informações e contextos em tempo real.
+- **Visêo Geral dos Agentes Autônomos**: Agentes de IA estêo sendo desenvolvidos para realizar tarefas de forma independente, adaptando-se a novas informações e contextos em tempo real.
 
 ------------------------------
 

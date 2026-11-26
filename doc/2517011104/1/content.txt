@@ -710,7 +710,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 101
-Autor: Filipão
+Autor: Filipêo
 Data: 2025-09-03T15:19:56+00:00
 Texto: [Sem texto]
 
@@ -1711,7 +1711,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 244
-Autor: Sandrão Magal
+Autor: Sandrêo Magal
 Data: 2025-07-05T06:40:36+00:00
 Texto: [Sem texto]
 
@@ -2915,7 +2915,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 416
-Autor: João
+Autor: Joêo
 Data: 2025-06-02T03:37:02+00:00
 Texto: [Sem texto]
 
@@ -2971,7 +2971,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 424
-Autor: Estevão Mateus
+Autor: Estevêo Mateus
 Data: 2025-05-31T02:39:21+00:00
 Texto: [Sem texto]
 
@@ -3363,7 +3363,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 480
-Autor: Não Me Viu
+Autor: Nêo Me Viu
 Data: 2025-05-21T11:09:55+00:00
 Texto: [Sem texto]
 
@@ -4168,7 +4168,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 595
-Autor: João Paulo
+Autor: Joêo Paulo
 Data: 2025-04-25T01:09:49+00:00
 Texto: [Sem texto]
 

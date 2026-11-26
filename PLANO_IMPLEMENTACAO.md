@@ -1,7 +1,7 @@
-# 🚀 PLANO DE IMPLEMENTAÇÃO - FTD
+# 🚀 PLANO DE IMPLEMENTAÇêO - FTD
 ## Do Planejamento ao Lançamento
 
-> **Projeto:** Formação da Transformação Digital
+> **Projeto:** Formaçêo da Transformaçêo Digital
 > **Data:** 12/11/2025
 > **Status:** Planejamento Completo
 > **Próximo passo:** Iniciar desenvolvimento
@@ -21,7 +21,7 @@
 1. 🎨 **Plataforma Web** (frontend + backend)
 2. 📹 **Conteúdo em Vídeo** (videoaulas gravadas)
 3. 📄 **Materiais de Apoio** (PDFs, templates, exercícios)
-4. 💳 **Sistema de Pagamentos** (integração Stripe)
+4. 💳 **Sistema de Pagamentos** (integraçêo Stripe)
 5. 📢 **Estratégia de Lançamento** (marketing e vendas)
 
 ---
@@ -32,16 +32,16 @@
 
 ### Objetivos:
 - Setup completo do ambiente de desenvolvimento
-- Autenticação funcionando
+- Autenticaçêo funcionando
 - Landing page publicada
 - 1 módulo de exemplo disponível
 - Sistema de pagamento integrado
-- Deploy em produção (versão beta)
+- Deploy em produçêo (versêo beta)
 
 ### Tarefas Detalhadas:
 
 #### Semana 1: Setup e Infraestrutura
-**Dias 1-2: Configuração Inicial**
+**Dias 1-2: Configuraçêo Inicial**
 - [ ] Criar repositório no GitHub
 - [ ] Inicializar projeto Next.js 14
 - [ ] Configurar Tailwind CSS + shadcn/ui
@@ -53,15 +53,15 @@
 - [ ] Criar schema no Supabase (SQL migrations)
 - [ ] Configurar Row Level Security (RLS)
 - [ ] Gerar tipos TypeScript do banco
-- [ ] Testar conexão com Supabase Client
+- [ ] Testar conexêo com Supabase Client
 
-**Dia 5: Autenticação**
+**Dia 5: Autenticaçêo**
 - [ ] Implementar Supabase Auth
-- [ ] Criar páginas de login, cadastro, recuperação de senha
-- [ ] Middleware para proteção de rotas
-- [ ] Testes de fluxo de autenticação
+- [ ] Criar páginas de login, cadastro, recuperaçêo de senha
+- [ ] Middleware para proteçêo de rotas
+- [ ] Testes de fluxo de autenticaçêo
 
-**Weekend: Documentação**
+**Weekend: Documentaçêo**
 - [ ] Documentar decisões técnicas
 - [ ] Criar README com instruções de setup
 - [ ] Atualizar gitignore e configurações
@@ -77,8 +77,8 @@
 
 **Dias 3-5: Landing Page**
 - [ ] Componente Hero com gradiente
-- [ ] Seção de Níveis (cards verde, azul, roxo)
-- [ ] Seção de Depoimentos (opcional: pegar do Notion ou criar fake)
+- [ ] Seçêo de Níveis (cards verde, azul, roxo)
+- [ ] Seçêo de Depoimentos (opcional: pegar do Notion ou criar fake)
 - [ ] FAQ com accordions
 - [ ] Footer com links
 - [ ] Responsividade mobile
@@ -92,7 +92,7 @@
 
 #### Semana 3: Dashboard e Player de Aula
 **Dias 1-2: Dashboard**
-- [ ] Sidebar com navegação
+- [ ] Sidebar com navegaçêo
 - [ ] Página inicial do dashboard (progresso geral)
 - [ ] Lista de cursos matriculados
 - [ ] "Continuar Aprendendo" (última aula assistida)
@@ -101,17 +101,17 @@
 - [ ] Layout 2 colunas (vídeo + sidebar)
 - [ ] Integrar player de vídeo (Plyr.io ou Video.js)
 - [ ] Lista de aulas (accordion com módulos)
-- [ ] Botão "Marcar como concluído"
+- [ ] Botêo "Marcar como concluído"
 - [ ] Sistema de progresso (salvar no banco)
 
 **Dia 5: Recursos e Comentários**
-- [ ] Seção de recursos (download de PDFs)
+- [ ] Seçêo de recursos (download de PDFs)
 - [ ] Área de comentários (CRUD básico)
 - [ ] Anotações pessoais (opcional para MVP)
 
-**Weekend: Integração**
+**Weekend: Integraçêo**
 - [ ] Conectar dashboard → curso → aula
-- [ ] Testes de navegação e fluxo
+- [ ] Testes de navegaçêo e fluxo
 
 ---
 
@@ -125,20 +125,20 @@
 
 **Dia 3: Admin Básico**
 - [ ] Criar flag de admin na tabela users
-- [ ] Página de admin com proteção
+- [ ] Página de admin com proteçêo
 - [ ] CRUD de curso básico (criar e editar)
 - [ ] Upload de vídeo para Supabase Storage
 
 **Dia 4: Conteúdo de Exemplo**
 - [ ] Criar 1 curso completo (ex: Módulo 1.1 - Impacto da IA)
-- [ ] Adicionar 3 aulas em vídeo (pode ser placeholder ou primeira gravação)
+- [ ] Adicionar 3 aulas em vídeo (pode ser placeholder ou primeira gravaçêo)
 - [ ] Upload de 3 PDFs como recursos
 - [ ] Configurar preço de teste (R$ 97)
 
 **Dia 5: Deploy**
 - [ ] Deploy no Vercel (conectar repo GitHub)
 - [ ] Configurar domínio customizado (opcional)
-- [ ] Testar em produção
+- [ ] Testar em produçêo
 - [ ] Corrigir bugs críticos
 
 **Weekend: Testes Beta**
@@ -154,7 +154,7 @@
 - CRUD completo de cursos (admin)
 - Todos os módulos do curso FTD disponíveis
 - Sistema de quizzes
-- Geração de certificados
+- Geraçêo de certificados
 - Comunidade ativa
 - Emails transacionais
 
@@ -164,33 +164,33 @@
 - [ ] Dashboard admin com métricas (vendas, alunos, engajamento)
 - [ ] CRUD de módulos e aulas
 - [ ] Upload otimizado de vídeos (integrar Bunny.net ou Vimeo)
-- [ ] Gestão de alunos (lista, busca, matrículas manuais)
+- [ ] Gestêo de alunos (lista, busca, matrículas manuais)
 - [ ] Sistema de cupons de desconto
 
-#### Semana 6: Quizzes e Gamificação
+#### Semana 6: Quizzes e Gamificaçêo
 - [ ] Criar tabela de quizzes e submissions
 - [ ] Interface para criar quiz (admin)
 - [ ] Player de quiz (aluno)
 - [ ] Cálculo de score e feedback
-- [ ] Liberação de certificado após atingir nota mínima
+- [ ] Liberaçêo de certificado após atingir nota mínima
 
 #### Semana 7: Certificados e Emails
-- [ ] Geração de PDF de certificado (biblioteca: PDFKit ou Puppeteer)
+- [ ] Geraçêo de PDF de certificado (biblioteca: PDFKit ou Puppeteer)
 - [ ] Design do certificado com branding FTD
 - [ ] Envio automático por email quando disponível
 - [ ] Download no dashboard
-- [ ] Integração com Sendgrid/Resend para emails transacionais
+- [ ] Integraçêo com Sendgrid/Resend para emails transacionais
 
 #### Semana 8: Comunidade
 - [ ] Feed de discussões
 - [ ] Criar post/pergunta
 - [ ] Comentários e respostas
 - [ ] Reações (like, love)
-- [ ] Moderação básica (admin)
+- [ ] Moderaçêo básica (admin)
 
 ---
 
-## FASE 3: CONTEÚDO E PRODUÇÃO (Semanas 9-16)
+## FASE 3: CONTEÚDO E PRODUÇêO (Semanas 9-16)
 
 ### Objetivos:
 - Gravar todas as videoaulas
@@ -200,22 +200,22 @@
 
 ### Tarefas Detalhadas:
 
-#### Semanas 9-12: Gravação de Vídeos
-**Preparação:**
+#### Semanas 9-12: Gravaçêo de Vídeos
+**Preparaçêo:**
 - [ ] Roteiro de todas as aulas (baseado na estrutura)
-- [ ] Setup de gravação (câmera, microfone, iluminação, software)
+- [ ] Setup de gravaçêo (câmera, microfone, iluminaçêo, software)
 - [ ] Template de slides (Canva, PowerPoint)
 
-**Gravação (4 semanas):**
+**Gravaçêo (4 semanas):**
 - **Semana 9:** Módulos 1.1, 1.2, 1.3
 - **Semana 10:** Módulos 1.4, 1.5 (Imagens e Vídeos)
 - **Semana 11:** Módulo 1.6 (Marketing e Vendas)
 - **Semana 12:** Módulos 1.7, 1.8, 1.9
 
-**Pós-produção:**
-- [ ] Edição de vídeos (cortes, intro/outro, legendas)
+**Pós-produçêo:**
+- [ ] Ediçêo de vídeos (cortes, intro/outro, legendas)
 - [ ] Upload para plataforma de vídeo
-- [ ] Geração de thumbnails
+- [ ] Geraçêo de thumbnails
 
 #### Semanas 13-14: Materiais de Apoio
 - [ ] Criar 50 PDFs (guias, checklists, templates)
@@ -242,22 +242,22 @@
 
 ### Tarefas Detalhadas:
 
-#### Semana 17: Preparação de Marketing
+#### Semana 17: Preparaçêo de Marketing
 - [ ] Definir posicionamento e mensagem
-- [ ] Criar materiais de divulgação (posts, vídeos, stories)
+- [ ] Criar materiais de divulgaçêo (posts, vídeos, stories)
 - [ ] Landing page de pré-lançamento com lista de espera
 - [ ] Oferta de early bird (desconto para primeiros alunos)
 - [ ] Configurar pixel do Facebook e Google Ads
 
-#### Semana 18: Construção de Audiência
+#### Semana 18: Construçêo de Audiência
 - [ ] Conteúdo orgânico diário (Instagram, TikTok, LinkedIn)
-- [ ] Artigos no Medium/LinkedIn sobre transformação digital
+- [ ] Artigos no Medium/LinkedIn sobre transformaçêo digital
 - [ ] Parcerias com influenciadores de tecnologia
 - [ ] Lives educacionais (gratuitas) com CTA para lista de espera
 - [ ] Email marketing para lista de espera
 
 #### Semana 19: Pré-Lançamento
-- [ ] Webinar ao vivo: "Transformação Digital em 2025"
+- [ ] Webinar ao vivo: "Transformaçêo Digital em 2025"
 - [ ] Oferta exclusiva para lista de espera (48h)
 - [ ] Depoimentos de beta testers (vídeos curtos)
 - [ ] Countdown nas redes sociais
@@ -268,7 +268,7 @@
 - [ ] Campanha de ads (Facebook, Instagram, Google)
 - [ ] Lives diárias durante a semana de lançamento
 - [ ] Email marketing (sequência de 7 emails)
-- [ ] Programa de afiliados (15% de comissão)
+- [ ] Programa de afiliados (15% de comissêo)
 - [ ] Monitoramento de métricas em tempo real
 
 **Meta:** 100 alunos pagantes na primeira semana
@@ -280,7 +280,7 @@
 ```
 Mês 1 (Semanas 1-4):    MVP + Beta
 Mês 2 (Semanas 5-8):    Funcionalidades Core
-Mês 3-4 (Semanas 9-16): Produção de Conteúdo
+Mês 3-4 (Semanas 9-16): Produçêo de Conteúdo
 Mês 5 (Semanas 17-20):  Marketing + Lançamento
 ```
 
@@ -294,9 +294,9 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 - **1 Desenvolvedor Full-Stack** (Next.js + Supabase)
 - **1 Designer UI/UX** (part-time para ajustes)
 
-### Fase 3 (Produção):
-- **1 Instrutor** (gravação das aulas)
-- **1 Editor de Vídeo** (pós-produção)
+### Fase 3 (Produçêo):
+- **1 Instrutor** (gravaçêo das aulas)
+- **1 Editor de Vídeo** (pós-produçêo)
 - **1 Designer Gráfico** (materiais de apoio, thumbnails)
 
 ### Fase 4 (Marketing):
@@ -306,7 +306,7 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 
 ### Alternativa Solo (1 pessoa fazendo tudo):
 - **Tempo total:** Dobrar cronograma (10 meses)
-- **Recomendação:** Terceirizar edição de vídeo e design gráfico
+- **Recomendaçêo:** Terceirizar ediçêo de vídeo e design gráfico
 
 ---
 
@@ -317,8 +317,8 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 - Designer UI/UX: R$ 5.000 (ajustes pontuais)
 - **Subtotal:** R$ 25.000 - R$ 35.000
 
-### Produção de Conteúdo (Fase 3):
-- Equipamento de gravação: R$ 5.000 (câmera, mic, luz - uma vez)
+### Produçêo de Conteúdo (Fase 3):
+- Equipamento de gravaçêo: R$ 5.000 (câmera, mic, luz - uma vez)
 - Editor de vídeo: R$ 8.000 (100+ vídeos)
 - Designer gráfico: R$ 3.000 (materiais)
 - **Subtotal:** R$ 16.000
@@ -337,7 +337,7 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 
 ---
 
-## 📊 PROJEÇÃO DE RECEITA
+## 📊 PROJEÇêO DE RECEITA
 
 ### Cenário Conservador (Ano 1):
 - **Mês 1 (Lançamento):** 100 alunos × R$ 997 = R$ 99.700
@@ -358,31 +358,31 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 ## 🎯 MÉTRICAS DE SUCESSO
 
 ### Indicadores-Chave (KPIs):
-- **Taxa de conversão:** Visitantes → Compradores (meta: 3%)
-- **Taxa de conclusão:** Alunos que terminam o curso (meta: 60%)
-- **NPS:** Satisfação dos alunos (meta: > 80)
+- **Taxa de conversêo:** Visitantes → Compradores (meta: 3%)
+- **Taxa de conclusêo:** Alunos que terminam o curso (meta: 60%)
+- **NPS:** Satisfaçêo dos alunos (meta: > 80)
 - **LTV:** Lifetime Value por aluno (meta: R$ 3.000)
-- **CAC:** Custo de Aquisição de Cliente (meta: < R$ 300)
+- **CAC:** Custo de Aquisiçêo de Cliente (meta: < R$ 300)
 
 ---
 
 ## 🚨 RISCOS E MITIGAÇÕES
 
 ### Riscos Identificados:
-1. **Atraso na produção de vídeos**
-   - Mitigação: Buffer de 2 semanas, contratar editor extra
+1. **Atraso na produçêo de vídeos**
+   - Mitigaçêo: Buffer de 2 semanas, contratar editor extra
 
-2. **Baixa conversão no lançamento**
-   - Mitigação: Lista de espera de 1.000+ pessoas, oferta irresistível
+2. **Baixa conversêo no lançamento**
+   - Mitigaçêo: Lista de espera de 1.000+ pessoas, oferta irresistível
 
 3. **Problemas técnicos na plataforma**
-   - Mitigação: Testes extensivos, beta testers, suporte 24/7 no lançamento
+   - Mitigaçêo: Testes extensivos, beta testers, suporte 24/7 no lançamento
 
-4. **Competição forte**
-   - Mitigação: Diferenciação (prático, atualizado, comunidade), garantia de 7 dias
+4. **Competiçêo forte**
+   - Mitigaçêo: Diferenciaçêo (prático, atualizado, comunidade), garantia de 7 dias
 
-5. **Evasão de alunos**
-   - Mitigação: Gamificação, comunidade engajada, mentorias ao vivo
+5. **Evasêo de alunos**
+   - Mitigaçêo: Gamificaçêo, comunidade engajada, mentorias ao vivo
 
 ---
 
@@ -405,7 +405,7 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 - [ ] Quiz de cada módulo funcionando
 
 ### Marketing:
-- [ ] Landing page otimizada (conversão > 3%)
+- [ ] Landing page otimizada (conversêo > 3%)
 - [ ] 1.000+ pessoas na lista de espera
 - [ ] 10 depoimentos em vídeo
 - [ ] Campanha de ads testada
@@ -426,7 +426,7 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 2. ✅ **Criar repositório GitHub** privado
 3. ✅ **Setup inicial do projeto** (Next.js + Supabase)
 4. ✅ **Configurar Tailwind e shadcn/ui**
-5. ✅ **Implementar autenticação** básica
+5. ✅ **Implementar autenticaçêo** básica
 
 ### Próxima Semana:
 1. ✅ **Finalizar landing page** (design system do FEP)
@@ -450,5 +450,5 @@ Mês 5 (Semanas 17-20):  Marketing + Lançamento
 
 **Criado por:** ARCKHÉ TDS
 **Data:** 12/11/2025
-**Próxima Revisão:** Após Fase 1 (Semana 4)
-**Status:** Pronto para Execução 🚀
+**Próxima Revisêo:** Após Fase 1 (Semana 4)
+**Status:** Pronto para Execuçêo 🚀

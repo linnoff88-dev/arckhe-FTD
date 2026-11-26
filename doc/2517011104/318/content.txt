@@ -25,12 +25,12 @@ Texto:
 ### 10 PASSOS PARA CRIAR UM VÍDEO A PARTIR DE UMA FOTO
 
 1. **Defina o objetivo do vídeo**  
-   (Ex: contar uma história, criar emoção, vender algo)
+   (Ex: contar uma história, criar emoçêo, vender algo)
 
 2. **Escreva a ideia principal da cena**  
    (Ex: "um menino olhando o pôr do sol, com vento no cabelo")
 
-3. **Escolha a ferramenta de animação**  
+3. **Escolha a ferramenta de animaçêo**  
    (Ex: **Runway**, **Pika Labs**, **Kaiber**, **CapCut**, **Genmo**)
 
 4. **Transforme a foto em vídeo com movimento**  
@@ -40,7 +40,7 @@ Texto:
    (Ex: partículas, fumaça, folhas caindo, brilho suave)
 
 6. **Escolha uma música ou trilha sonora**  
-   (Que combine com a emoção da imagem)
+   (Que combine com a emoçêo da imagem)
 
 7. **Sincronize o movimento com a música**  
    (Deixe cortes ou efeitos seguindo a batida)
@@ -48,7 +48,7 @@ Texto:
 8. **Ajuste o tempo do vídeo**  
    (Entre 5 a 15 segundos funciona bem com uma foto)
 
-9. **Inclua texto, frase ou narração (opcional)**  
+9. **Inclua texto, frase ou narraçêo (opcional)**  
    (Uma mensagem forte que complemente a imagem)
 
 10. **Exporte e publique no formato certo**  

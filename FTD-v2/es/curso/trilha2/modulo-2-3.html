@@ -718,7 +718,7 @@ for i in range(len(frases)):
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Chunking es la estrategia para dividir los documentos en fragmentos indexables: tamaño, punto de corte, superposición y metadatos de cada fragmento.</p>
 </div>
-<!-- SVG 3: chunks com sobreposição -->
+<!-- SVG 3: chunks com sobreposiçêo -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="Una franja representa el documento completo. Debajo, cuatro fragmentos a distintas alturas cubren el documento, y cada uno repite una parte del anterior: la superposición. Cada fragmento lleva una etiqueta de metadatos con el archivo, el número de fragmento y la sección." class="w-full h-auto" role="img" viewbox="0 0 900 300">
 <rect fill="url(#m23-grid)" height="300" width="900"></rect>
@@ -944,7 +944,7 @@ from openai import OpenAI
 
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
 EMBED, CHAT = "nomic-embed-text", "llama3.2"
-TAM, SOBRA, TOP_K = 800, 150, 4      # caracteres por trecho, sobreposição, trechos usados
+TAM, SOBRA, TOP_K = 800, 150, 4      # caracteres por trecho, sobreposiçêo, trechos usados
 INDICE = Path("indice.json")         # apague este arquivo para reindexar
 
 def fatiar(texto, tam=TAM, sobra=SOBRA):
@@ -1036,7 +1036,7 @@ O frete é grátis para compras acima de R$ 200 nas capitais. Nas demais cidades
 
 O código de rastreio é enviado por e-mail quando o pedido sai do depósito.
 FIM
-python3 rag.py docs "Comprei há três semanas e não gostei. Ainda posso devolver?"
+python3 rag.py docs "Comprei há três semanas e nêo gostei. Ainda posso devolver?"
 python3 rag.py docs "Vocês entregam no domingo?"
 python3 rag.py docs "Qual é o telefone do SAC?"</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Cómo verificar:</strong> la primera pregunta debe aparecer con <code>trocas.md#…</code> en primer lugar y una respuesta sobre los 30 días, citando la fuente. La segunda debe citar <code>entrega.md</code> (de lunes a sábado). La tercera no está en los documentos: si el modelo inventa un teléfono, falló la regla de «no encontré», y eso es lo que el tema 7 enseña a medir. Los valores de los documentos son ficticios, solo para probar.</p>
@@ -1076,7 +1076,7 @@ python3 rag.py docs "Qual é o telefone do SAC?"</pre>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Qué es</h3>
 <p class="text-neutral-300">Evaluar RAG consiste en ejecutar un conjunto fijo de preguntas y medir por separado si la búsqueda encontró la fuente correcta (hit@k, MRR) y si la respuesta fue fiel a las fuentes y relevante para la pregunta.</p>
 </div>
-<!-- COPY-RUN 4: avaliação da busca -->
+<!-- COPY-RUN 4: avaliaçêo da busca -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-blue-400">Prueba:</strong> <span class="text-neutral-300">medir hit@k y MRR de la búsqueda de tu RAG.</span></p>

@@ -1,6 +1,6 @@
 <main data-ARCKHÉ-module="2-7" data-ARCKHÉ-track="2" id="conteudo">
 <!-- BREADCRUMB -->
-<nav aria-label="Trilha de navegação" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<nav aria-label="Trilha de navegaçêo" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
 <a class="hover:text-blue-400" href="../../index.html">Início</a><span>/</span>
 <a class="hover:text-blue-400" href="index.html">Trilha 2</a><span>/</span>
@@ -21,7 +21,7 @@
 </div>
 <div class="flex items-center gap-3 mt-8">
 <div aria-label="Progresso do módulo 2.7" class="ARCKHÉ-ring" data-ARCKHÉ-meter="modulo:2-7"><span class="ARCKHÉ-ring__value" data-ARCKHÉ-meter-pct="">0%</span></div>
-<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-7"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> tópicos lidos · <span data-ARCKHÉ-section-counter="">Seção 1 de 7</span></div>
+<div class="ARCKHÉ-meter-label" data-ARCKHÉ-meter="modulo:2-7"><strong data-ARCKHÉ-meter-frac="">0 de 0</strong> tópicos lidos · <span data-ARCKHÉ-section-counter="">Seçêo 1 de 7</span></div>
 </div>
 </div>
 </header>
@@ -38,7 +38,7 @@
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-4">4. Resumir textos longos</a></li>
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-5">5. Busca semântica</a></li>
 <li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-6">6. Português e idiomas</a></li>
-<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Pipeline e avaliação</a></li>
+<li><a class="ARCKHÉ-toc-link block py-1 text-neutral-400 hover:text-blue-400" href="#topico-7">7. Pipeline e avaliaçêo</a></li>
 </ol>
 </nav>
 </aside>
@@ -50,25 +50,25 @@
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-7#topico-1" id="topico-1" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="tokens, normalização e vocabulário">🔤 Texto vira dado</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="tokens, normalizaçêo e vocabulário">🔤 Texto vira dado</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t1-p1"><strong class="text-blue-400">NLP</strong> (<em>Natural Language Processing</em>, processamento de linguagem natural) é o conjunto de técnicas para um programa ler, organizar e produzir texto humano. O problema de partida é sempre o mesmo: o computador só opera números. Antes de classificar uma reclamação ou resumir um contrato, o texto precisa virar uma sequência de números — e cada escolha feita nessa conversão afeta o resultado lá na frente.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t1-p2">Até por volta de 2018, o trabalho de NLP era dominado por regras e por modelos pequenos treinados para uma tarefa só. Hoje, um LLM faz quase tudo com uma instrução bem escrita. Mas os fundamentos continuam valendo: <strong class="text-neutral-100">tokens custam dinheiro e cabem numa janela limitada</strong>, texto sujo gera resposta suja e a mesma palavra pode significar coisas diferentes conforme o contexto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t1-p1"><strong class="text-blue-400">NLP</strong> (<em>Natural Language Processing</em>, processamento de linguagem natural) é o conjunto de técnicas para um programa ler, organizar e produzir texto humano. O problema de partida é sempre o mesmo: o computador só opera números. Antes de classificar uma reclamaçêo ou resumir um contrato, o texto precisa virar uma sequência de números — e cada escolha feita nessa conversêo afeta o resultado lá na frente.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t1-p2">Até por volta de 2018, o trabalho de NLP era dominado por regras e por modelos pequenos treinados para uma tarefa só. Hoje, um LLM faz quase tudo com uma instruçêo bem escrita. Mas os fundamentos continuam valendo: <strong class="text-neutral-100">tokens custam dinheiro e cabem numa janela limitada</strong>, texto sujo gera resposta suja e a mesma palavra pode significar coisas diferentes conforme o contexto.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t1-p3"><strong>Tokenização</strong> é cortar o texto em pedaços (tokens) que estão no vocabulário do modelo. Os modelos atuais usam <strong>subpalavras</strong>, geradas por algoritmos como BPE (<em>Byte Pair Encoding</em>): palavras comuns viram um token; palavras raras são quebradas em partes. <strong>Normalização</strong> é padronizar o texto antes de processar — espaços, quebras de linha, caixa, caracteres invisíveis.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t1-p3"><strong>Tokenizaçêo</strong> é cortar o texto em pedaços (tokens) que estêo no vocabulário do modelo. Os modelos atuais usam <strong>subpalavras</strong>, geradas por algoritmos como BPE (<em>Byte Pair Encoding</em>): palavras comuns viram um token; palavras raras sêo quebradas em partes. <strong>Normalizaçêo</strong> é padronizar o texto antes de processar — espaços, quebras de linha, caixa, caracteres invisíveis.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
 <p class="text-neutral-300">É o caminho texto → tokens → IDs numéricos → vetores. Os vetores (embeddings) carregam o significado que o modelo aprendeu; tudo o que vem depois — classificar, extrair, buscar — opera sobre eles.</p>
 </div>
-<!-- SVG 1: pipeline de tokenização -->
+<!-- SVG 1: pipeline de tokenizaçêo -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="Pipeline em quatro caixas: o texto bruto 'Não gostei do frete' vira tokens de subpalavra, os tokens viram IDs numéricos do vocabulário e os IDs viram vetores de embedding com o significado." class="w-full h-auto" role="img" viewBox="0 0 900 240">
+<svg aria-label="Pipeline em quatro caixas: o texto bruto 'Nêo gostei do frete' vira tokens de subpalavra, os tokens viram IDs numéricos do vocabulário e os IDs viram vetores de embedding com o significado." class="w-full h-auto" role="img" viewBox="0 0 900 240">
 <defs>
 <filter height="160%" id="m27-glow" width="160%" x="-30%" y="-30%"><feGaussianBlur result="b" stdDeviation="2"></feGaussianBlur><feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter>
 <pattern height="28" id="m27-grid" patternUnits="userSpaceOnUse" width="28"><circle cx="1.2" cy="1.2" fill="#3b82f6" opacity="0.14" r="1.2"></circle></pattern>
@@ -84,10 +84,10 @@
 <rect fill="#0e1b26" height="100" rx="14" stroke="#38bdf8" stroke-width="2.5" width="185" x="695" y="60"></rect>
 </g>
 <text fill="#93c5fd" font-size="12" text-anchor="middle" x="112" y="86">texto bruto</text>
-<text fill="#eff6ff" font-size="15" font-weight="700" text-anchor="middle" x="112" y="118">"Não gostei</text>
+<text fill="#eff6ff" font-size="15" font-weight="700" text-anchor="middle" x="112" y="118">"Nêo gostei</text>
 <text fill="#eff6ff" font-size="15" font-weight="700" text-anchor="middle" x="112" y="138">do frete"</text>
 <text fill="#93c5fd" font-size="12" text-anchor="middle" x="337" y="86">tokens</text>
-<text fill="#eff6ff" font-size="14" font-weight="700" text-anchor="middle" x="337" y="118">Não · gost · ei</text>
+<text fill="#eff6ff" font-size="14" font-weight="700" text-anchor="middle" x="337" y="118">Nêo · gost · ei</text>
 <text fill="#eff6ff" font-size="14" font-weight="700" text-anchor="middle" x="337" y="138">do · frete</text>
 <text fill="#bae6fd" font-size="12" text-anchor="middle" x="562" y="86">IDs</text>
 <text fill="#e0f2fe" font-size="14" font-weight="700" text-anchor="middle" x="562" y="124">[812, 4471, 91, …]</text>
@@ -99,12 +99,12 @@
 <path class="m27-flow" d="M657,110 L688,110" fill="none" marker-end="url(#m27-ah)" stroke="#60a5fa" stroke-width="2.5"></path>
 <text fill="#94a3b8" font-size="12" text-anchor="middle" x="112" y="190">o que você lê</text>
 <text fill="#94a3b8" font-size="12" text-anchor="middle" x="337" y="190">o que o modelo lê</text>
-<text fill="#94a3b8" font-size="12" text-anchor="middle" x="562" y="190">posição no vocabulário</text>
+<text fill="#94a3b8" font-size="12" text-anchor="middle" x="562" y="190">posiçêo no vocabulário</text>
 <text fill="#94a3b8" font-size="12" text-anchor="middle" x="787" y="190">significado em números</text>
 <text fill="#7dd3fc" font-size="12" text-anchor="middle" x="450" y="30">cortes e números ilustrativos — cada modelo tem o próprio vocabulário</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> siga da esquerda para a direita. Os dois primeiros quadros ainda são texto; os dois últimos já são números. Repare que "gostei" virou dois tokens: palavras flexionadas do português costumam render mais tokens que o equivalente em inglês, o que pesa no custo e na janela de contexto.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> siga da esquerda para a direita. Os dois primeiros quadros ainda sêo texto; os dois últimos já sêo números. Repare que "gostei" virou dois tokens: palavras flexionadas do português costumam render mais tokens que o equivalente em inglês, o que pesa no custo e na janela de contexto.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
@@ -112,15 +112,15 @@
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Unicode em forma NFC (acentos compostos e decompostos viram a mesma coisa).</span></li>
 <li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Espaços repetidos, tabulações e quebras de linha extras.</span></li>
-<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Assinaturas de e-mail, rodapés e HTML que não carregam significado.</span></li>
-<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Dados pessoais que não precisam ir para o modelo (LGPD, módulo 2.9).</span></li>
+<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Assinaturas de e-mail, rodapés e HTML que nêo carregam significado.</span></li>
+<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Dados pessoais que nêo precisam ir para o modelo (LGPD, módulo 2.9).</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-<h4 class="font-bold text-red-400 mb-4">✗ Não destrua o sinal</h4>
+<h4 class="font-bold text-red-400 mb-4">✗ Nêo destrua o sinal</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Remover acentos: "pais" e "país" deixam de ser diferentes.</span></li>
-<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Tirar "não" como palavra vazia: a frase inverte de sentido.</span></li>
+<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Tirar "nêo" como palavra vazia: a frase inverte de sentido.</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Converter tudo para minúsculas quando siglas e nomes importam.</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Apagar emojis em avaliações: eles costumam carregar o sentimento.</span></li>
 </ul>
@@ -128,15 +128,15 @@
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t1-p4">Com LLMs, a limpeza agressiva das técnicas antigas (radicalização, remoção de palavras vazias) atrapalha mais do que ajuda. Limpe ruído de formato e dados pessoais; deixe a linguagem como ela é.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t1-p4">Com LLMs, a limpeza agressiva das técnicas antigas (radicalizaçêo, remoçêo de palavras vazias) atrapalha mais do que ajuda. Limpe ruído de formato e dados pessoais; deixe a linguagem como ela é.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t1-p5" data-sum="porque">Entender tokens explica a conta que chega no fim do mês, o motivo de um documento "não caber" no contexto e por que um texto mal limpo confunde o modelo. É a base para dimensionar qualquer pipeline de texto antes de escrever a primeira linha de código.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t1-p5" data-sum="porque">Entender tokens explica a conta que chega no fim do mês, o motivo de um documento "nêo caber" no contexto e por que um texto mal limpo confunde o modelo. É a base para dimensionar qualquer pipeline de texto antes de escrever a primeira linha de código.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Token</div><div class="text-xs text-neutral-400">pedaço do vocabulário</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Subpalavra (BPE)</div><div class="text-xs text-neutral-400">palavra rara vira partes</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Normalização</div><div class="text-xs text-neutral-400">padronizar sem perder sentido</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Normalizaçêo</div><div class="text-xs text-neutral-400">padronizar sem perder sentido</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Embedding</div><div class="text-xs text-neutral-400">significado como vetor</div></div>
 </div>
 <div class="flex justify-start mt-6">
@@ -160,23 +160,23 @@
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t2-p1"><strong class="text-blue-400">Classificação de texto</strong> é atribuir a cada texto um rótulo de uma lista fechada: o assunto de um chamado, o sentimento de uma avaliação, a urgência de um e-mail, se uma mensagem é spam. É a tarefa de NLP mais comum em empresas, porque permite rotear, contar e priorizar sem ninguém ler tudo.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t2-p2">Existem três caminhos. O <strong class="text-neutral-100">clássico</strong> transforma o texto em contagens de palavras (TF-IDF) e treina um modelo simples, como regressão logística no scikit-learn — rápido e barato, mas precisa de centenas de exemplos rotulados. O <strong class="text-neutral-100">ajuste fino</strong> de um modelo pequeno (da família BERT) dá alta qualidade, com custo de treino. E o <strong class="text-neutral-100">zero-shot com LLM</strong> classifica só com a lista de rótulos e uma instrução, sem treino nenhum.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t2-p1"><strong class="text-blue-400">Classificaçêo de texto</strong> é atribuir a cada texto um rótulo de uma lista fechada: o assunto de um chamado, o sentimento de uma avaliaçêo, a urgência de um e-mail, se uma mensagem é spam. É a tarefa de NLP mais comum em empresas, porque permite rotear, contar e priorizar sem ninguém ler tudo.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t2-p2">Existem três caminhos. O <strong class="text-neutral-100">clássico</strong> transforma o texto em contagens de palavras (TF-IDF) e treina um modelo simples, como regressêo logística no scikit-learn — rápido e barato, mas precisa de centenas de exemplos rotulados. O <strong class="text-neutral-100">ajuste fino</strong> de um modelo pequeno (da família BERT) dá alta qualidade, com custo de treino. E o <strong class="text-neutral-100">zero-shot com LLM</strong> classifica só com a lista de rótulos e uma instruçêo, sem treino nenhum.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
 <p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t2-p3"><strong>TF-IDF</strong> pesa cada palavra pela frequência no texto e pela raridade no conjunto todo. <strong>Zero-shot</strong> é fazer a tarefa sem exemplos; <strong>few-shot</strong> é incluir alguns exemplos no próprio prompt. <strong>Saída estruturada</strong> é obrigar o modelo a responder num formato legível por máquina, como JSON.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
-<p class="text-neutral-300">Uma função que recebe texto e devolve um rótulo de uma lista definida por você, de preferência com uma justificativa curta e num formato que o resto do sistema consegue validar.</p>
+<p class="text-neutral-300">Uma funçêo que recebe texto e devolve um rótulo de uma lista definida por você, de preferência com uma justificativa curta e num formato que o resto do sistema consegue validar.</p>
 </div>
 <div class="overflow-x-auto mb-6">
 <table class="w-full text-sm border border-dark-600 rounded-xl overflow-hidden">
 <thead><tr class="bg-dark-700"><th class="text-left p-3 text-blue-400">Caminho</th><th class="text-left p-3 text-blue-400">Precisa de</th><th class="text-left p-3 text-blue-400">Bom quando</th><th class="text-left p-3 text-blue-400">Cuidado</th></tr></thead>
 <tbody class="divide-y divide-dark-600">
-<tr><td class="p-3 font-semibold">TF-IDF + modelo linear</td><td class="p-3 text-neutral-300">Centenas de exemplos rotulados</td><td class="p-3 text-neutral-300">Volume alto, rótulos estáveis, custo mínimo</td><td class="p-3 text-neutral-300">Não entende sinônimo nem ironia</td></tr>
+<tr><td class="p-3 font-semibold">TF-IDF + modelo linear</td><td class="p-3 text-neutral-300">Centenas de exemplos rotulados</td><td class="p-3 text-neutral-300">Volume alto, rótulos estáveis, custo mínimo</td><td class="p-3 text-neutral-300">Nêo entende sinônimo nem ironia</td></tr>
 <tr><td class="p-3 font-semibold">Ajuste fino (BERT e similares)</td><td class="p-3 text-neutral-300">Exemplos rotulados e uma GPU</td><td class="p-3 text-neutral-300">Qualidade alta com latência baixa</td><td class="p-3 text-neutral-300">Retreinar a cada rótulo novo</td></tr>
-<tr><td class="p-3 font-semibold">LLM zero/few-shot</td><td class="p-3 text-neutral-300">Lista de rótulos e uma boa instrução</td><td class="p-3 text-neutral-300">Começar hoje, rótulos que mudam</td><td class="p-3 text-neutral-300">Custo e latência por item; validar a saída</td></tr>
+<tr><td class="p-3 font-semibold">LLM zero/few-shot</td><td class="p-3 text-neutral-300">Lista de rótulos e uma boa instruçêo</td><td class="p-3 text-neutral-300">Começar hoje, rótulos que mudam</td><td class="p-3 text-neutral-300">Custo e latência por item; validar a saída</td></tr>
 </tbody>
 </table>
 </div>
@@ -186,7 +186,7 @@
 <p class="text-sm"><strong class="text-blue-400">Experimente:</strong> <span class="text-neutral-300">classificador zero-shot local, salvo como <code>classificador.py</code>.</span></p>
 <button class="px-3 py-1 text-xs bg-dark-600 hover:bg-dark-500 rounded-md" data-label-ok="Copiado" onclick="copyCode(this)" type="button">Copiar</button>
 </div>
-<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900"># Instalação: pip install openai   |   ollama pull qwen2.5:7b
+<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900"># Instalaçêo: pip install openai   |   ollama pull qwen2.5:7b
 # classificador.py — usa a rota compatível com OpenAI do Ollama (local e grátis)
 import json
 from openai import OpenAI
@@ -216,20 +216,20 @@ def classificar(texto: str) -&gt; dict:
 
 if __name__ == "__main__":
     print(classificar("&lt;cole aqui uma mensagem real de cliente, sem dados pessoais&gt;"))</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode <code>python3 classificador.py</code>. A saída deve ser um dicionário como <code>{'rotulo': 'entrega', 'motivo': '...'}</code>. Teste cinco mensagens de rótulos diferentes e uma que não tem nada a ver com a loja: ela precisa cair em "outro". Para usar uma API paga, troque só <code>base_url</code>, <code>api_key</code> e <code>model</code>.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode <code>python3 classificador.py</code>. A saída deve ser um dicionário como <code>{'rotulo': 'entrega', 'motivo': '...'}</code>. Teste cinco mensagens de rótulos diferentes e uma que nêo tem nada a ver com a loja: ela precisa cair em "outro". Para usar uma API paga, troque só <code>base_url</code>, <code>api_key</code> e <code>model</code>.</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
 <p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t2-p4">Comece pelo LLM para descobrir os rótulos certos e juntar exemplos. Quando o volume crescer e os rótulos estabilizarem, use as respostas revisadas por pessoas para treinar um classificador pequeno e barato. É um caminho comum para reduzir custo sem perder qualidade.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t2-p5" data-sum="porque">Quase todo sistema de atendimento, triagem ou análise de opinião começa com uma classificação. Saber escolher entre o caminho clássico, o ajuste fino e o LLM — e validar a saída — evita tanto o projeto caro demais quanto o que quebra na primeira resposta fora do formato.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t2-p5" data-sum="porque">Quase todo sistema de atendimento, triagem ou análise de opiniêo começa com uma classificaçêo. Saber escolher entre o caminho clássico, o ajuste fino e o LLM — e validar a saída — evita tanto o projeto caro demais quanto o que quebra na primeira resposta fora do formato.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Lista fechada</div><div class="text-xs text-neutral-400">rótulos definidos por você</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Zero-shot</div><div class="text-xs text-neutral-400">sem exemplos de treino</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Saída em JSON</div><div class="text-xs text-neutral-400">o sistema consegue ler</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Validação</div><div class="text-xs text-neutral-400">rótulo fora da lista vira "outro"</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Validaçêo</div><div class="text-xs text-neutral-400">rótulo fora da lista vira "outro"</div></div>
 </div>
 <div class="flex justify-start mt-6">
 <button aria-pressed="false" data-ARCKHÉ-read-toggle="" type="button">
@@ -253,25 +253,25 @@ if __name__ == "__main__":
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t3-p1"><strong class="text-blue-400">NER</strong> (<em>Named Entity Recognition</em>, reconhecimento de entidades nomeadas) é encontrar no texto os nomes de pessoas, empresas, lugares, datas e valores, e dizer o tipo de cada um. Com isso, um contrato vira uma linha de planilha: partes, valor, prazo, foro. Uma notícia vira uma lista de empresas citadas.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t3-p2">Há duas famílias de ferramentas. Bibliotecas como o <strong class="text-neutral-100">spaCy</strong> trazem modelos prontos para português (<code>pt_core_news_sm</code>) que marcam pessoa, local e organização com rapidez e custo zero. Para campos do seu negócio (número do pedido, nome do produto, cláusula de multa), um <strong class="text-neutral-100">LLM com esquema JSON</strong> costuma ser mais flexível: você descreve os campos e o modelo preenche.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t3-p2">Há duas famílias de ferramentas. Bibliotecas como o <strong class="text-neutral-100">spaCy</strong> trazem modelos prontos para português (<code>pt_core_news_sm</code>) que marcam pessoa, local e organizaçêo com rapidez e custo zero. Para campos do seu negócio (número do pedido, nome do produto, cláusula de multa), um <strong class="text-neutral-100">LLM com esquema JSON</strong> costuma ser mais flexível: você descreve os campos e o modelo preenche.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t3-p3"><strong>JSON Schema</strong> é uma descrição formal dos campos, tipos e obrigatoriedades de um JSON. O Ollama aceita esse esquema no parâmetro <code>format</code> e restringe a geração para que a resposta caiba nele. <strong>Etiquetas BIO</strong> (Begin, Inside, Outside) são o jeito clássico de marcar entidades palavra por palavra no treino de modelos de NER.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t3-p3"><strong>JSON Schema</strong> é uma descriçêo formal dos campos, tipos e obrigatoriedades de um JSON. O Ollama aceita esse esquema no parâmetro <code>format</code> e restringe a geraçêo para que a resposta caiba nele. <strong>Etiquetas BIO</strong> (Begin, Inside, Outside) sêo o jeito clássico de marcar entidades palavra por palavra no treino de modelos de NER.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
-<p class="text-neutral-300">Extração de informação: localizar trechos com significado específico dentro do texto livre e devolvê-los organizados por tipo, prontos para ir a um banco de dados ou a outra etapa do pipeline.</p>
+<p class="text-neutral-300">Extraçêo de informaçêo: localizar trechos com significado específico dentro do texto livre e devolvê-los organizados por tipo, prontos para ir a um banco de dados ou a outra etapa do pipeline.</p>
 </div>
 <!-- SVG 2: entidades extraídas -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="Uma frase sobre contratação é decomposta em cinco cartões de entidade: organização Loja Sol, pessoa Ana Lima, local São Paulo, valor R$ 4.000 e data 03/02/2026, que seguem para um registro estruturado em JSON." class="w-full h-auto" role="img" viewBox="0 0 900 250">
+<svg aria-label="Uma frase sobre contrataçêo é decomposta em cinco cartões de entidade: organizaçêo Loja Sol, pessoa Ana Lima, local Sêo Paulo, valor R$ 4.000 e data 03/02/2026, que seguem para um registro estruturado em JSON." class="w-full h-auto" role="img" viewBox="0 0 900 250">
 <defs>
 <marker id="m27-ahc" markerHeight="9" markerWidth="9" orient="auto" refX="6.5" refY="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#38bdf8"></path></marker>
 </defs>
 <rect fill="url(#m27-grid)" height="250" width="900"></rect>
 <g font-family="Inter,sans-serif">
 <text fill="#94a3b8" font-size="12" text-anchor="middle" x="450" y="28">texto de entrada</text>
-<text fill="#eff6ff" font-size="16" font-weight="600" text-anchor="middle" x="450" y="54">"A Loja Sol contratou Ana Lima em São Paulo por R$ 4.000 em 03/02/2026."</text>
+<text fill="#eff6ff" font-size="16" font-weight="600" text-anchor="middle" x="450" y="54">"A Loja Sol contratou Ana Lima em Sêo Paulo por R$ 4.000 em 03/02/2026."</text>
 <g filter="url(#m27-glow)">
 <rect fill="#0e1626" height="64" rx="12" stroke="#60a5fa" stroke-width="2" width="160" x="20" y="90"></rect>
 <rect fill="#0e1626" height="64" rx="12" stroke="#60a5fa" stroke-width="2" width="160" x="196" y="90"></rect>
@@ -279,12 +279,12 @@ if __name__ == "__main__":
 <rect fill="#0e1b26" height="64" rx="12" stroke="#38bdf8" stroke-width="2" width="160" x="548" y="90"></rect>
 <rect fill="#0e1626" height="64" rx="12" stroke="#60a5fa" stroke-width="2" width="160" x="724" y="90"></rect>
 </g>
-<text fill="#93c5fd" font-size="11" font-weight="700" text-anchor="middle" x="100" y="112">ORGANIZAÇÃO</text>
+<text fill="#93c5fd" font-size="11" font-weight="700" text-anchor="middle" x="100" y="112">ORGANIZAÇêO</text>
 <text fill="#eff6ff" font-size="15" font-weight="700" text-anchor="middle" x="100" y="136">Loja Sol</text>
 <text fill="#93c5fd" font-size="11" font-weight="700" text-anchor="middle" x="276" y="112">PESSOA</text>
 <text fill="#eff6ff" font-size="15" font-weight="700" text-anchor="middle" x="276" y="136">Ana Lima</text>
 <text fill="#bae6fd" font-size="11" font-weight="700" text-anchor="middle" x="452" y="112">LOCAL</text>
-<text fill="#e0f2fe" font-size="15" font-weight="700" text-anchor="middle" x="452" y="136">São Paulo</text>
+<text fill="#e0f2fe" font-size="15" font-weight="700" text-anchor="middle" x="452" y="136">Sêo Paulo</text>
 <text fill="#bae6fd" font-size="11" font-weight="700" text-anchor="middle" x="628" y="112">VALOR</text>
 <text fill="#e0f2fe" font-size="15" font-weight="700" text-anchor="middle" x="628" y="136">R$ 4.000</text>
 <text fill="#93c5fd" font-size="11" font-weight="700" text-anchor="middle" x="804" y="112">DATA</text>
@@ -295,7 +295,7 @@ if __name__ == "__main__":
 <text fill="#e0f2fe" font-size="13" font-weight="600" text-anchor="middle" x="450" y="226">registro JSON → banco ou planilha</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> a frase de cima é o que chega; cada cartão é um trecho copiado da frase com o seu tipo. Repare que nenhum cartão contém informação que não estava no texto — essa é a regra que o seu código precisa conferir, porque um LLM pode "completar" um campo vazio com algo plausível.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> a frase de cima é o que chega; cada cartêo é um trecho copiado da frase com o seu tipo. Repare que nenhum cartêo contém informaçêo que nêo estava no texto — essa é a regra que o seu código precisa conferir, porque um LLM pode "completar" um campo vazio com algo plausível.</figcaption>
 </figure>
 <!-- COPY-RUN: NER com esquema -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -303,7 +303,7 @@ if __name__ == "__main__":
 <p class="text-sm"><strong class="text-blue-400">Objetivo:</strong> <span class="text-neutral-300">extrair entidades com esquema JSON e checar se nada foi inventado.</span></p>
 <button class="px-3 py-1 text-xs bg-dark-600 hover:bg-dark-500 rounded-md" data-label-ok="Copiado" onclick="copyCode(this)" type="button">Copiar</button>
 </div>
-<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900"># Instalação: pip install requests   |   ollama pull qwen2.5:7b
+<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900"># Instalaçêo: pip install requests   |   ollama pull qwen2.5:7b
 import json, requests
 
 CAMPOS = ["pessoas", "organizacoes", "locais", "datas", "valores"]
@@ -321,7 +321,7 @@ def extrair(texto: str) -&gt; dict:
         "options": {"temperature": 0},
         "messages": [
             {"role": "system", "content": "Extraia as entidades do texto. Copie cada trecho "
-             "exatamente como aparece. Não invente: use lista vazia quando não houver."},
+             "exatamente como aparece. Nêo invente: use lista vazia quando nêo houver."},
             {"role": "user", "content": texto},
         ],
     }, timeout=120)
@@ -332,19 +332,19 @@ texto = "&lt;cole um parágrafo de contrato, notícia ou e-mail&gt;"
 ents = extrair(texto)
 print(json.dumps(ents, ensure_ascii=False, indent=2))
 
-# Checagem anti-invenção: todo trecho precisa existir literalmente no texto
+# Checagem anti-invençêo: todo trecho precisa existir literalmente no texto
 for tipo, itens in ents.items():
     for item in itens:
         if item not in texto:
-            print(f"ATENÇÃO [{tipo}] não está no texto: {item!r}")</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> com a frase do diagrama, a saída deve ter as cinco listas preenchidas e nenhuma linha "ATENÇÃO". Depois cole um texto sem datas: <code>datas</code> deve voltar vazia. Se aparecer um aviso, o modelo reescreveu ou inventou um trecho — trate como erro, não como acerto.</p>
+            print(f"ATENÇêO [{tipo}] nêo está no texto: {item!r}")</pre>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> com a frase do diagrama, a saída deve ter as cinco listas preenchidas e nenhuma linha "ATENÇêO". Depois cole um texto sem datas: <code>datas</code> deve voltar vazia. Se aparecer um aviso, o modelo reescreveu ou inventou um trecho — trate como erro, nêo como acerto.</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t3-p4">Para entidades padrão em grande volume, teste o spaCy antes: <code>pip install spacy</code> e <code>python -m spacy download pt_core_news_sm</code>. Ele roda em CPU, sem GPU, e serve de base de comparação para o LLM.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t3-p4">Para entidades padrêo em grande volume, teste o spaCy antes: <code>pip install spacy</code> e <code>python -m spacy download pt_core_news_sm</code>. Ele roda em CPU, sem GPU, e serve de base de comparaçêo para o LLM.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t3-p5" data-sum="porque">Boa parte do valor de NLP em empresas está em tirar dados de documentos: notas, contratos, laudos, currículos, e-mails. Saber extrair com esquema e verificar contra o texto original é o que separa uma demonstração de um processo em que se pode confiar.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t3-p5" data-sum="porque">Boa parte do valor de NLP em empresas está em tirar dados de documentos: notas, contratos, laudos, currículos, e-mails. Saber extrair com esquema e verificar contra o texto original é o que separa uma demonstraçêo de um processo em que se pode confiar.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">NER</div><div class="text-xs text-neutral-400">nomes com tipo</div></div>
@@ -373,11 +373,11 @@ for tipo, itens in ents.items():
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t4-p1">Resumir parece simples até o documento passar de algumas dezenas de páginas. Mesmo com janelas de contexto grandes, modelos tendem a dar menos atenção ao miolo de textos muito longos, e um resumo único esconde de onde veio cada afirmação. O método robusto é <strong class="text-neutral-100">dividir, resumir as partes e depois juntar</strong>, guardando a referência de cada trecho.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t4-p2">Há dois tipos de resumo. O <strong class="text-blue-400">extrativo</strong> escolhe frases do original e as copia — seguro, porque nada é reescrito. O <strong class="text-blue-400">abstrativo</strong> reescreve com outras palavras — mais fluido, mas pode distorcer. Em textos jurídicos, médicos ou financeiros, um meio-termo funciona bem: resumo abstrativo com citação literal dos trechos que sustentam cada ponto.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t4-p1">Resumir parece simples até o documento passar de algumas dezenas de páginas. Mesmo com janelas de contexto grandes, modelos tendem a dar menos atençêo ao miolo de textos muito longos, e um resumo único esconde de onde veio cada afirmaçêo. O método robusto é <strong class="text-neutral-100">dividir, resumir as partes e depois juntar</strong>, guardando a referência de cada trecho.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t4-p2">Há dois tipos de resumo. O <strong class="text-blue-400">extrativo</strong> escolhe frases do original e as copia — seguro, porque nada é reescrito. O <strong class="text-blue-400">abstrativo</strong> reescreve com outras palavras — mais fluido, mas pode distorcer. Em textos jurídicos, médicos ou financeiros, um meio-termo funciona bem: resumo abstrativo com citaçêo literal dos trechos que sustentam cada ponto.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t4-p3"><strong>Chunking</strong> é dividir o documento em trechos (chunks) de tamanho controlado, de preferência respeitando seções e parágrafos. <strong>Sobreposição</strong> (<em>overlap</em>) é repetir um pedaço do fim de um trecho no começo do próximo para não cortar uma ideia ao meio. <strong>Map-reduce</strong> é aplicar a mesma operação em cada trecho (map) e depois combinar os resultados (reduce).</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t4-p3"><strong>Chunking</strong> é dividir o documento em trechos (chunks) de tamanho controlado, de preferência respeitando seções e parágrafos. <strong>Sobreposiçêo</strong> (<em>overlap</em>) é repetir um pedaço do fim de um trecho no começo do próximo para nêo cortar uma ideia ao meio. <strong>Map-reduce</strong> é aplicar a mesma operaçêo em cada trecho (map) e depois combinar os resultados (reduce).</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
@@ -431,7 +431,7 @@ for tipo, itens in ents.items():
 <text fill="#bae6fd" font-size="12" text-anchor="middle" x="785" y="162">no formato do leitor</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> as colunas são etapas. Cada resumo parcial carrega a página de onde veio, e o resumo final só pode usar o que está nos parciais. Quando alguém perguntar "de onde saiu isso?", você segue as linhas de volta até o trecho. As etapas de map podem rodar em paralelo.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> as colunas sêo etapas. Cada resumo parcial carrega a página de onde veio, e o resumo final só pode usar o que está nos parciais. Quando alguém perguntar "de onde saiu isso?", você segue as linhas de volta até o trecho. As etapas de map podem rodar em paralelo.</figcaption>
 </figure>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
 <div class="bg-dark-800 border border-dark-600 rounded-xl p-4"><p class="text-blue-400 font-semibold text-sm mb-1">Para quem decide</p><p class="text-xs text-neutral-300" data-ARCKHÉ-block="m2-7-t4-p4">Cinco pontos, riscos primeiro, cada um com a página de origem. Termine com "o que falta decidir".</p></div>
@@ -440,10 +440,10 @@ for tipo, itens in ents.items():
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t4-p7">Divida por estrutura (títulos, cláusulas, seções), não por número fixo de caracteres. Um corte no meio de uma cláusula gera dois resumos parciais errados.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t4-p7">Divida por estrutura (títulos, cláusulas, seções), nêo por número fixo de caracteres. Um corte no meio de uma cláusula gera dois resumos parciais errados.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t4-p8" data-sum="porque">Relatórios, atas, processos e manuais são longos e lidos com pressa. Um resumo rastreável economiza horas de leitura sem esconder de onde veio cada conclusão — e o mesmo padrão de dividir, processar e juntar serve para tradução, extração e revisão de documentos grandes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t4-p8" data-sum="porque">Relatórios, atas, processos e manuais sêo longos e lidos com pressa. Um resumo rastreável economiza horas de leitura sem esconder de onde veio cada conclusêo — e o mesmo padrêo de dividir, processar e juntar serve para traduçêo, extraçêo e revisêo de documentos grandes.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Extrativo</div><div class="text-xs text-neutral-400">copia frases do original</div></div>
@@ -472,11 +472,11 @@ for tipo, itens in ents.items():
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t5-p1">A busca por palavra-chave só acha o que tem a mesma palavra. Quem pergunta "minha encomenda não chegou" não encontra o texto "prazo de entrega" — embora seja exatamente o que procura. A <strong class="text-blue-400">busca semântica</strong> compara significados: transforma pergunta e documentos em vetores e devolve os documentos cujos vetores estão mais próximos.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t5-p2">Essa é a peça central do RAG (geração aumentada por recuperação), visto no módulo sobre bases de conhecimento: antes de responder, o sistema busca os trechos relevantes e os entrega ao LLM. Em produção, os vetores ficam num banco próprio — <strong class="text-neutral-100">pgvector</strong> no Postgres, <strong class="text-neutral-100">Qdrant</strong> ou <strong class="text-neutral-100">Chroma</strong>. Para aprender, um array do NumPy basta.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t5-p1">A busca por palavra-chave só acha o que tem a mesma palavra. Quem pergunta "minha encomenda nêo chegou" nêo encontra o texto "prazo de entrega" — embora seja exatamente o que procura. A <strong class="text-blue-400">busca semântica</strong> compara significados: transforma pergunta e documentos em vetores e devolve os documentos cujos vetores estêo mais próximos.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t5-p2">Essa é a peça central do RAG (geraçêo aumentada por recuperaçêo), visto no módulo sobre bases de conhecimento: antes de responder, o sistema busca os trechos relevantes e os entrega ao LLM. Em produçêo, os vetores ficam num banco próprio — <strong class="text-neutral-100">pgvector</strong> no Postgres, <strong class="text-neutral-100">Qdrant</strong> ou <strong class="text-neutral-100">Chroma</strong>. Para aprender, um array do NumPy basta.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t5-p3"><strong>Similaridade de cosseno</strong> mede o ângulo entre dois vetores: perto de 1, apontam para o mesmo lado (significados parecidos); perto de 0, não têm relação. Se os vetores forem <strong>normalizados</strong> (comprimento 1), o cosseno vira um simples produto escalar. <strong>Busca híbrida</strong> combina palavra-chave e vetor, útil quando códigos e nomes exatos importam.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t5-p3"><strong>Similaridade de cosseno</strong> mede o ângulo entre dois vetores: perto de 1, apontam para o mesmo lado (significados parecidos); perto de 0, nêo têm relaçêo. Se os vetores forem <strong>normalizados</strong> (comprimento 1), o cosseno vira um simples produto escalar. <strong>Busca híbrida</strong> combina palavra-chave e vetor, útil quando códigos e nomes exatos importam.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
@@ -484,11 +484,11 @@ for tipo, itens in ents.items():
 </div>
 <!-- SVG 4: espaço vetorial -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
-<svg aria-label="Mapa bidimensional de embeddings com três grupos de pontos: entrega, pagamento e elogios. A pergunta 'minha encomenda não chegou' aparece como estrela ao lado do grupo de entrega, ligada ao ponto mais próximo." class="w-full h-auto" role="img" viewBox="0 0 900 300">
+<svg aria-label="Mapa bidimensional de embeddings com três grupos de pontos: entrega, pagamento e elogios. A pergunta 'minha encomenda nêo chegou' aparece como estrela ao lado do grupo de entrega, ligada ao ponto mais próximo." class="w-full h-auto" role="img" viewBox="0 0 900 300">
 <rect fill="url(#m27-grid)" height="300" width="900"></rect>
 <g font-family="Inter,sans-serif">
 <path d="M60,270 L860,270 M60,270 L60,30" fill="none" stroke="#475569" stroke-width="1.5"></path>
-<text fill="#94a3b8" font-size="11" x="70" y="290">projeção em 2D de vetores com centenas de dimensões (ilustrativo)</text>
+<text fill="#94a3b8" font-size="11" x="70" y="290">projeçêo em 2D de vetores com centenas de dimensões (ilustrativo)</text>
 <g fill="#60a5fa" filter="url(#m27-glow)">
 <circle cx="170" cy="90" r="7"></circle><circle cx="205" cy="70" r="7"></circle><circle cx="200" cy="115" r="7"></circle><circle cx="240" cy="95" r="7"></circle>
 </g>
@@ -504,11 +504,11 @@ for tipo, itens in ents.items():
 <path d="M310,150 L318,166 L336,168 L322,180 L326,198 L310,188 L294,198 L298,180 L284,168 L302,166 Z" fill="#f0f9ff" filter="url(#m27-glow)"></path>
 <path class="m27-flow" d="M300,165 L246,104" fill="none" stroke="#f0f9ff" stroke-width="2"></path>
 <text fill="#f8fafc" font-size="13" font-weight="700" x="345" y="186">pergunta: "minha encomenda</text>
-<text fill="#f8fafc" font-size="13" font-weight="700" x="345" y="204">não chegou"</text>
+<text fill="#f8fafc" font-size="13" font-weight="700" x="345" y="204">nêo chegou"</text>
 <text fill="#f0f9ff" font-size="12" x="290" y="128">mais próximo</text>
 </g>
 </svg>
-<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> cada ponto é um texto; textos sobre o mesmo assunto ficam juntos, mesmo usando palavras diferentes. A estrela é a pergunta: a busca devolve os pontos do grupo mais próximo. A projeção em 2D é só para visualizar — a distância real é calculada em todas as dimensões.</figcaption>
+<figcaption class="text-xs text-neutral-400 mt-3 px-1"><strong class="text-blue-400">Como ler:</strong> cada ponto é um texto; textos sobre o mesmo assunto ficam juntos, mesmo usando palavras diferentes. A estrela é a pergunta: a busca devolve os pontos do grupo mais próximo. A projeçêo em 2D é só para visualizar — a distância real é calculada em todas as dimensões.</figcaption>
 </figure>
 <!-- COPY-RUN: busca semântica -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
@@ -516,7 +516,7 @@ for tipo, itens in ents.items():
 <p class="text-sm"><strong class="text-blue-400">Experimente:</strong> <span class="text-neutral-300">busca semântica local com <code>nomic-embed-text</code>.</span></p>
 <button class="px-3 py-1 text-xs bg-dark-600 hover:bg-dark-500 rounded-md" data-label-ok="Copiado" onclick="copyCode(this)" type="button">Copiar</button>
 </div>
-<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900"># Instalação: pip install requests numpy   |   ollama pull nomic-embed-text
+<pre class="code-dark p-4 text-sm text-neutral-200 bg-dark-900"># Instalaçêo: pip install requests numpy   |   ollama pull nomic-embed-text
 import requests
 import numpy as np
 
@@ -529,9 +529,9 @@ def embed(textos: list[str]) -&gt; np.ndarray:
 
 # O nomic-embed-text recomenda prefixos diferentes para documento e consulta
 docs = [
-    "O prazo de entrega é de 5 a 10 dias úteis após a confirmação do pagamento.",
+    "O prazo de entrega é de 5 a 10 dias úteis após a confirmaçêo do pagamento.",
     "Boletos vencidos podem ser reemitidos na área do cliente.",
-    "Trocas são aceitas em até 7 dias corridos após o recebimento.",
+    "Trocas sêo aceitas em até 7 dias corridos após o recebimento.",
     "&lt;acrescente aqui trechos da sua própria base, um por item&gt;",
 ]
 D = embed(["search_document: " + d for d in docs])
@@ -542,11 +542,11 @@ def buscar(pergunta: str, k: int = 2) -&gt; None:
     for i in np.argsort(-notas)[:k]:
         print(f"{notas[i]:.3f}  {docs[i]}")
 
-buscar("minha encomenda ainda não chegou")</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> o primeiro resultado deve ser a frase do prazo de entrega, mesmo sem a palavra "encomenda" nela. Troque a pergunta por "posso devolver a camiseta?" — a frase de trocas deve subir para o topo. As notas mudam de modelo para modelo; compare a ordem, não o valor absoluto.</p>
+buscar("minha encomenda ainda nêo chegou")</pre>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> o primeiro resultado deve ser a frase do prazo de entrega, mesmo sem a palavra "encomenda" nela. Troque a pergunta por "posso devolver a camiseta?" — a frase de trocas deve subir para o topo. As notas mudam de modelo para modelo; compare a ordem, nêo o valor absoluto.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t5-p4" data-sum="porque">Busca semântica é a base de assistentes que respondem com documentos da empresa, de deduplicação de chamados e de recomendação de conteúdo. Entender o vetor e a métrica permite diagnosticar por que uma busca falha — antes de culpar o LLM pela resposta ruim.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t5-p4" data-sum="porque">Busca semântica é a base de assistentes que respondem com documentos da empresa, de deduplicaçêo de chamados e de recomendaçêo de conteúdo. Entender o vetor e a métrica permite diagnosticar por que uma busca falha — antes de culpar o LLM pela resposta ruim.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Embedding</div><div class="text-xs text-neutral-400">texto como vetor</div></div>
@@ -569,17 +569,17 @@ buscar("minha encomenda ainda não chegou")</pre>
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-7#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="detecção, tradução e armadilhas do PT-BR">🌍 Português e outros idiomas</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="detecçêo, traduçêo e armadilhas do PT-BR">🌍 Português e outros idiomas</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t6-p1">A maior parte dos dados de treino dos modelos ainda é em inglês. Os LLMs atuais lidam bem com português, mas aparecem diferenças: mais tokens para o mesmo conteúdo, gírias e regionalismos mal interpretados, confusão entre português do Brasil e de Portugal e erros em formatos locais — CPF, CEP, datas no formato dia/mês, vírgula decimal, "R$ 1.234,56".</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t6-p2">Para tradução, você tem modelos dedicados abertos, como o <strong class="text-neutral-100">NLLB</strong> da Meta, e os LLMs gerais, que traduzem bem e ainda seguem instruções de tom e glossário. Para sistemas que recebem textos em várias línguas, o padrão é <strong class="text-neutral-100">detectar o idioma primeiro</strong> e decidir: processar no idioma original com um modelo multilíngue ou traduzir antes.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t6-p1">A maior parte dos dados de treino dos modelos ainda é em inglês. Os LLMs atuais lidam bem com português, mas aparecem diferenças: mais tokens para o mesmo conteúdo, gírias e regionalismos mal interpretados, confusêo entre português do Brasil e de Portugal e erros em formatos locais — CPF, CEP, datas no formato dia/mês, vírgula decimal, "R$ 1.234,56".</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t6-p2">Para traduçêo, você tem modelos dedicados abertos, como o <strong class="text-neutral-100">NLLB</strong> da Meta, e os LLMs gerais, que traduzem bem e ainda seguem instruções de tom e glossário. Para sistemas que recebem textos em várias línguas, o padrêo é <strong class="text-neutral-100">detectar o idioma primeiro</strong> e decidir: processar no idioma original com um modelo multilíngue ou traduzir antes.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t6-p3"><strong>Modelo multilíngue</strong> é treinado em vários idiomas ao mesmo tempo e coloca frases equivalentes perto no espaço de embeddings — por isso uma pergunta em português pode achar um documento em espanhol. <strong>Glossário</strong>, em tradução, é a lista de termos que devem ser traduzidos sempre do mesmo jeito (ou não traduzidos, como nomes de produto).</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t6-p3"><strong>Modelo multilíngue</strong> é treinado em vários idiomas ao mesmo tempo e coloca frases equivalentes perto no espaço de embeddings — por isso uma pergunta em português pode achar um documento em espanhol. <strong>Glossário</strong>, em traduçêo, é a lista de termos que devem ser traduzidos sempre do mesmo jeito (ou nêo traduzidos, como nomes de produto).</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
@@ -590,9 +590,9 @@ buscar("minha encomenda ainda não chegou")</pre>
 <h4 class="font-bold text-blue-400 mb-4">✓ Funciona bem</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Pedir explicitamente "português do Brasil" no prompt de sistema.</span></li>
-<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Converter "R$ 1.234,56" e "03/02/2026" com código, não com o modelo.</span></li>
-<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Validar CPF e CNPJ pelo dígito verificador depois da extração.</span></li>
-<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Glossário fixo no prompt de tradução para termos da empresa.</span></li>
+<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Converter "R$ 1.234,56" e "03/02/2026" com código, nêo com o modelo.</span></li>
+<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Validar CPF e CNPJ pelo dígito verificador depois da extraçêo.</span></li>
+<li class="flex items-start gap-2"><span class="text-blue-400">✓</span><span>Glossário fixo no prompt de traduçêo para termos da empresa.</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
@@ -600,20 +600,20 @@ buscar("minha encomenda ainda não chegou")</pre>
 <ul class="space-y-3 text-neutral-300 text-sm">
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Testar só com textos em inglês e publicar para clientes brasileiros.</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Deixar o modelo interpretar "02/03" sem saber o formato de data.</span></li>
-<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Ignorar textos com erros de digitação e abreviações de WhatsApp.</span></li>
+<li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Ignorar textos com erros de digitaçêo e abreviações de WhatsApp.</span></li>
 <li class="flex items-start gap-2"><span class="text-red-400">✗</span><span>Traduzir e depois extrair, perdendo nomes e valores originais.</span></li>
 </ul>
 </div>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t6-p4">Monte seu conjunto de testes com mensagens como o seu cliente escreve de verdade — com "vc", "pq", erros e áudio transcrito. Modelos que vão bem em texto limpo podem cair bastante em texto informal, e só o teste mostra quanto.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t6-p4">Monte seu conjunto de testes com mensagens como o seu cliente escreve de verdade — com "vc", "pq", erros e áudio transcrito. Modelos que vêo bem em texto limpo podem cair bastante em texto informal, e só o teste mostra quanto.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t6-p5" data-sum="porque">Exemplos, tutoriais e benchmarks costumam ser em inglês. Quem constrói para o público brasileiro precisa conhecer as falhas típicas em português e os formatos locais — é aí que um sistema que "funcionou no teste" quebra com o primeiro cliente real.</p>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Conceitos-chave</h3>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Detecção de idioma</div><div class="text-xs text-neutral-400">primeiro passo do pipeline</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Detecçêo de idioma</div><div class="text-xs text-neutral-400">primeiro passo do pipeline</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Multilíngue</div><div class="text-xs text-neutral-400">idiomas no mesmo espaço</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Formato local</div><div class="text-xs text-neutral-400">datas, moeda, CPF</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Glossário</div><div class="text-xs text-neutral-400">termos sempre iguais</div></div>
@@ -633,17 +633,17 @@ buscar("minha encomenda ainda não chegou")</pre>
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-7#topico-7" id="topico-7" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="conjunto de testes antes de confiar">🧪 Pipeline e avaliação</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="conjunto de testes antes de confiar">🧪 Pipeline e avaliaçêo</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
 <button aria-pressed="false" data-ARCKHÉ-doubt-toggle="" title="Marcar dúvida neste tópico" type="button"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
 </div>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t7-p1">Um <strong class="text-blue-400">pipeline de texto</strong> encadeia as etapas deste módulo: normalizar, detectar idioma, classificar, extrair, validar e gravar. Cada etapa tem entrada e saída definidas, e cada uma pode falhar. Sem medir, você não sabe qual etapa errou nem se uma troca de modelo ou de prompt melhorou ou piorou o resultado.</p>
-<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t7-p2">A ferramenta para isso é o <strong class="text-neutral-100">conjunto de testes</strong>: algumas dezenas de exemplos reais, anonimizados, com a resposta certa anotada por uma pessoa. Toda mudança roda contra ele. O número que sai não precisa ser perfeito; precisa ser comparável entre versões.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t7-p1">Um <strong class="text-blue-400">pipeline de texto</strong> encadeia as etapas deste módulo: normalizar, detectar idioma, classificar, extrair, validar e gravar. Cada etapa tem entrada e saída definidas, e cada uma pode falhar. Sem medir, você nêo sabe qual etapa errou nem se uma troca de modelo ou de prompt melhorou ou piorou o resultado.</p>
+<p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t7-p2">A ferramenta para isso é o <strong class="text-neutral-100">conjunto de testes</strong>: algumas dezenas de exemplos reais, anonimizados, com a resposta certa anotada por uma pessoa. Toda mudança roda contra ele. O número que sai nêo precisa ser perfeito; precisa ser comparável entre versões.</p>
 <div class="bg-dark-800 border border-blue-500/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-blue-400 font-semibold mb-1">📘 Termos novos</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t7-p3"><strong>Acurácia</strong> é a fração de acertos no total. <strong>Precisão</strong> de um rótulo: dos itens que o modelo marcou com ele, quantos estavam certos. <strong>Revocação</strong> (<em>recall</em>): dos itens que realmente eram daquele rótulo, quantos o modelo encontrou. <strong>F1</strong> combina as duas. Em classes desbalanceadas, olhe precisão e revocação por rótulo, não só a acurácia.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t7-p3"><strong>Acurácia</strong> é a fraçêo de acertos no total. <strong>Precisêo</strong> de um rótulo: dos itens que o modelo marcou com ele, quantos estavam certos. <strong>Revocaçêo</strong> (<em>recall</em>): dos itens que realmente eram daquele rótulo, quantos o modelo encontrou. <strong>F1</strong> combina as duas. Em classes desbalanceadas, olhe precisêo e revocaçêo por rótulo, nêo só a acurácia.</p>
 </div>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6" data-sum="oque">
 <h3 class="text-lg font-semibold text-blue-400 mb-3">O que é</h3>
@@ -652,12 +652,12 @@ buscar("minha encomenda ainda não chegou")</pre>
 <!-- PASSO A PASSO -->
 <div class="relative border-l-2 border-blue-500/30 ml-3 pl-6 space-y-5 mb-6">
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-blue-500/20 border-2 border-blue-400"></span><p class="text-sm text-neutral-300"><strong class="text-blue-400">Passo 1 · Junte exemplos reais.</strong> Comece com 30 a 50 mensagens, anonimizadas, cobrindo todos os rótulos e os casos difíceis.</p></div>
-<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-blue-500/20 border-2 border-blue-400"></span><p class="text-sm text-neutral-300"><strong class="text-blue-400">Passo 2 · Anote a resposta certa.</strong> Duas pessoas anotando a mesma amostra revelam onde os próprios rótulos são ambíguos.</p></div>
-<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Passo 3 · Meça a versão atual.</strong> Rode o script abaixo e guarde o resultado como linha de base.</p></div>
+<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-blue-500/20 border-2 border-blue-400"></span><p class="text-sm text-neutral-300"><strong class="text-blue-400">Passo 2 · Anote a resposta certa.</strong> Duas pessoas anotando a mesma amostra revelam onde os próprios rótulos sêo ambíguos.</p></div>
+<div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Passo 3 · Meça a versêo atual.</strong> Rode o script abaixo e guarde o resultado como linha de base.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Passo 4 · Mude uma coisa por vez.</strong> Prompt, modelo ou etapa. Meça de novo e compare com a linha de base.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Passo 5 · Leia os erros.</strong> A lista de erros ensina mais que o número: rótulo ambíguo, texto informal, falta de contexto.</p></div>
 </div>
-<!-- COPY-RUN: avaliação -->
+<!-- COPY-RUN: avaliaçêo -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-blue-400">Objetivo:</strong> <span class="text-neutral-300">medir o classificador do tópico 2 com um conjunto de testes (<code>avaliar.py</code>).</span></p>
@@ -669,7 +669,7 @@ from classificador import classificar
 
 TESTE = [  # (texto, rótulo certo) — troque por 30+ exemplos reais e anonimizados
     ("Meu pedido está parado na transportadora há uma semana", "entrega"),
-    ("O boleto venceu e não consigo gerar outro", "pagamento"),
+    ("O boleto venceu e nêo consigo gerar outro", "pagamento"),
     ("A camiseta veio com a costura aberta", "produto"),
     ("Atendimento excelente, resolveram em minutos", "elogio"),
     ("Vocês abrem no feriado?", "outro"),
@@ -693,14 +693,14 @@ print(f"acurácia: {acertos}/{total} = {acertos / total:.0%}")
 for r in sorted({c for _, c in TESTE}):
     prec = tp[r] / (tp[r] + fp[r]) if tp[r] + fp[r] else 0.0
     rev = tp[r] / (tp[r] + fn[r]) if tp[r] + fn[r] else 0.0
-    print(f"{r:10s} precisão={prec:.2f}  revocação={rev:.2f}")
+    print(f"{r:10s} precisêo={prec:.2f}  revocaçêo={rev:.2f}")
 for texto, certo, previsto in erros:
     print(f"ERRO  esperado={certo:10s} veio={previsto:10s} | {texto}")</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode <code>python3 avaliar.py</code> (apague antes a linha de exemplo com &lt; &gt;). Você deve ver a acurácia, uma linha por rótulo e a lista de erros. Mude o prompt em <code>classificador.py</code>, rode de novo e compare: se a acurácia subiu mas um rótulo caiu, a mudança não é uma vitória completa.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">Como verificar:</strong> rode <code>python3 avaliar.py</code> (apague antes a linha de exemplo com &lt; &gt;). Você deve ver a acurácia, uma linha por rótulo e a lista de erros. Mude o prompt em <code>classificador.py</code>, rode de novo e compare: se a acurácia subiu mas um rótulo caiu, a mudança nêo é uma vitória completa.</p>
 </div>
 <div class="bg-primary/10 border border-primary/30 rounded-xl p-4 mb-6">
 <p class="text-sm text-primary font-semibold mb-1">💡 Dica</p>
-<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t7-p4">Guarde o conjunto de testes no repositório, junto do código. No módulo 2.8 ele vira um portão automático: nenhuma versão vai para produção se o resultado cair abaixo da linha de base.</p>
+<p class="text-sm text-neutral-300" data-ARCKHÉ-block="m2-7-t7-p4">Guarde o conjunto de testes no repositório, junto do código. No módulo 2.8 ele vira um portêo automático: nenhuma versêo vai para produçêo se o resultado cair abaixo da linha de base.</p>
 </div>
 <h3 class="text-lg font-semibold text-blue-400 mb-3">Por que aprender</h3>
 <p class="text-neutral-300 leading-relaxed mb-6" data-ARCKHÉ-block="m2-7-t7-p5" data-sum="porque">Sem conjunto de testes, cada ajuste de prompt é um palpite e cada troca de modelo é um risco. Com ele, você troca o modelo por um mais barato sabendo quanto perde, prova a melhoria para o time e encontra os erros antes do cliente.</p>
@@ -708,7 +708,7 @@ for texto, certo, previsto in erros:
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-2" data-sum="conceitos">
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Conjunto de testes</div><div class="text-xs text-neutral-400">exemplos com resposta certa</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Linha de base</div><div class="text-xs text-neutral-400">o número a superar</div></div>
-<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Precisão × revocação</div><div class="text-xs text-neutral-400">acerto por rótulo</div></div>
+<div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Precisêo × revocaçêo</div><div class="text-xs text-neutral-400">acerto por rótulo</div></div>
 <div class="bg-dark-800 border border-dark-600 rounded-lg p-3"><div class="text-blue-400 font-semibold text-sm">Análise de erros</div><div class="text-xs text-neutral-400">ler o que falhou</div></div>
 </div>
 <div class="flex justify-start mt-6">
@@ -734,7 +734,7 @@ for texto, certo, previsto in erros:
 </div>
 <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
 <h3 class="font-semibold text-blue-400 mb-2">Próximo módulo:</h3>
-<p class="text-neutral-300">2.8 — MLOps e Produção 🛠️</p>
+<p class="text-neutral-300">2.8 — MLOps e Produçêo 🛠️</p>
 </div>
 <div class="flex flex-col sm:flex-row gap-4">
 <a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">← Voltar para a Trilha</a>

@@ -1,20 +1,20 @@
-# 📚 FTD - FORMAÇÃO DA TRANSFORMAÇÃO DIGITAL
+# 📚 FTD - FORMAÇêO DA TRANSFORMAÇêO DIGITAL
 ## Estrutura Completa do Curso
 
-> **Versão:** 2.0
+> **Versêo:** 2.0
 > **Data:** 2025-11-12
-> **Objetivo:** Capacitar pessoas a entenderem e se posicionarem estrategicamente na transformação digital, dominando IA e tecnologias emergentes para criar oportunidades profissionais e pessoais.
+> **Objetivo:** Capacitar pessoas a entenderem e se posicionarem estrategicamente na transformaçêo digital, dominando IA e tecnologias emergentes para criar oportunidades profissionais e pessoais.
 
 ---
 
-## 🎯 VISÃO GERAL
+## 🎯 VISêO GERAL
 
 ### Propósito do Curso
-O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pessoas para:
+O FTD é uma **ferramenta de formaçêo acelerada e profunda** que prepara as pessoas para:
 - **Compreender** a mudança tecnológica que estamos vivendo
 - **Adaptar-se** rapidamente às novas demandas do mercado
 - **Posicionar-se estrategicamente** para aproveitar oportunidades
-- **Dominar ferramentas práticas** de IA e automação
+- **Dominar ferramentas práticas** de IA e automaçêo
 - **Criar valor** através da tecnologia
 
 ### Diferenciais do FTD
@@ -26,86 +26,86 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 ---
 
-## 🎓 NÍVEIS DE FORMAÇÃO
+## 🎓 NÍVEIS DE FORMAÇêO
 
 ### 🌟 Nível 1: INICIANTE (Verde)
 **Carga horária:** 30 horas
 **Perfil:** Pessoas com pouco ou nenhum conhecimento em tecnologia/IA
-**Objetivo:** Alfabetização digital e primeiro contato com IA
+**Objetivo:** Alfabetizaçêo digital e primeiro contato com IA
 
 ### ⚡ Nível 2: TÉCNICO (Azul)
 **Carga horária:** 40 horas
 **Perfil:** Profissionais que querem dominar ferramentas e aplicar IA
-**Objetivo:** Capacitação técnica para uso profissional avançado
+**Objetivo:** Capacitaçêo técnica para uso profissional avançado
 
 ### 👑 Nível 3: MASTERCLASS (Roxo)
 **Carga horária:** 50 horas
 **Perfil:** Líderes, empreendedores e profissionais estratégicos
-**Objetivo:** Visão estratégica, criação de negócios e inovação com IA
+**Objetivo:** Visêo estratégica, criaçêo de negócios e inovaçêo com IA
 
 ---
 
 ## 📋 ESTRUTURA MODULAR
 
-## MÓDULO 0: INTRODUÇÃO À TRANSFORMAÇÃO DIGITAL
-**Duração:** 2 horas
+## MÓDULO 0: INTRODUÇêO À TRANSFORMAÇêO DIGITAL
+**Duraçêo:** 2 horas
 **Formato:** Vídeo + Leitura
 
 ### Conteúdo:
-- O que é a Transformação Digital?
+- O que é a Transformaçêo Digital?
 - Por que você PRECISA entender isso agora?
 - Panorama: O que mudou de 2020 para 2025
-- Estatísticas que vão te surpreender
+- Estatísticas que vêo te surpreender
 - Como este curso vai transformar sua vida
 
 ### Entregáveis:
-- [ ] Quiz de autoavaliação inicial
+- [ ] Quiz de autoavaliaçêo inicial
 - [ ] Mapa mental da jornada de aprendizado
-- [ ] Definição de objetivos pessoais
+- [ ] Definiçêo de objetivos pessoais
 
 ---
 
-## 🎯 IMERSÃO 1: IA NA PRÁTICA (3 DIAS)
+## 🎯 IMERSêO 1: IA NA PRÁTICA (3 DIAS)
 
-### **DIA 1 - TRANSFORMAÇÃO PESSOAL E DIGITAL**
+### **DIA 1 - TRANSFORMAÇêO PESSOAL E DIGITAL**
 
-#### **MANHÃ**
+#### **MANHê**
 
 ### MÓDULO 1.1: IMPACTO DA IA NA VIDA REAL
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Objetivos de Aprendizagem:
 - Compreender o que é IA de forma clara e sem tecnicismos
-- Entender a evolução histórica até os modelos atuais (2025)
+- Entender a evoluçêo histórica até os modelos atuais (2025)
 - Reconhecer aplicações reais no dia a dia
 - Identificar oportunidades e riscos
 
 #### Conteúdo:
 1. **O que é Inteligência Artificial?**
-   - Definição prática
+   - Definiçêo prática
    - Como os sistemas de IA "pensam"
    - Diferença entre IA, Machine Learning e Deep Learning
 
-2. **Evolução da IA**
+2. **Evoluçêo da IA**
    - Anos 1950: Alan Turing e o início
    - Anos 1970-1980: Sistemas especialistas
-   - Anos 2000: Revolução do Deep Learning
+   - Anos 2000: Revoluçêo do Deep Learning
    - 2020-2025: IA Generativa e LLMs
 
 3. **IA no Seu Dia a Dia**
-   - Sistemas de recomendação (Netflix, Spotify)
+   - Sistemas de recomendaçêo (Netflix, Spotify)
    - Assistentes virtuais (Siri, Alexa, Google Assistant)
-   - Filtros de conteúdo e tradução automática
+   - Filtros de conteúdo e traduçêo automática
    - Reconhecimento facial e segurança
 
 4. **Poder e Limitações**
-   - Capacidades: geração de texto, tradução, resumos
+   - Capacidades: geraçêo de texto, traduçêo, resumos
    - Limitações: alucinações, vieses, conhecimento limitado
 
 #### Atividades Práticas:
 - [ ] Teste com ChatGPT, Claude ou Gemini
 - [ ] Identificar 5 usos de IA na sua rotina
-- [ ] Quiz de fixação
+- [ ] Quiz de fixaçêo
 
 #### Recursos:
 - 📹 Vídeo-aula: "IA Explicada em 20 minutos"
@@ -115,7 +115,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 ---
 
 ### MÓDULO 1.2: NAVEGANDO NO NOVO MUNDO DIGITAL
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Objetivos de Aprendizagem:
 - Desenvolver letramento digital avançado
@@ -132,25 +132,25 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Ferramentas de código: GitHub Copilot, Cursor, Replit
 
 2. **Como Escolher a Ferramenta Certa**
-   - Matriz de decisão por caso de uso
+   - Matriz de decisêo por caso de uso
    - Ferramentas gratuitas vs pagas
    - Quando usar o quê?
 
 3. **Cidadania Digital e Ética**
    - Privacidade de dados
    - Transparência sobre uso de IA
-   - Verificação de informações (fact-checking)
+   - Verificaçêo de informações (fact-checking)
    - Impacto ambiental e social
 
 4. **Tendências para 2025-2030**
-   - Personalização avançada
+   - Personalizaçêo avançada
    - Multimodalidade expandida
    - Agentes autônomos
-   - Colaboração humano-IA
+   - Colaboraçêo humano-IA
 
 #### Atividades Práticas:
 - [ ] Cadastro e teste de 3 ferramentas diferentes
-- [ ] Comparação prática entre ferramentas
+- [ ] Comparaçêo prática entre ferramentas
 - [ ] Criar checklist pessoal de ética digital
 
 #### Recursos:
@@ -163,18 +163,18 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 #### **TARDE**
 
 ### MÓDULO 1.3: ENGENHARIA DE PROMPTS
-**Duração:** 3 horas
+**Duraçêo:** 3 horas
 
 #### Objetivos de Aprendizagem:
 - Dominar a arte de criar prompts eficientes
-- Aplicar técnicas avançadas de comunicação com IA
+- Aplicar técnicas avançadas de comunicaçêo com IA
 - Evitar erros comuns
 - Criar biblioteca pessoal de prompts
 
 #### Conteúdo:
 1. **A Importância dos Prompts**
    - Por que prompts bem elaborados = resultados excepcionais
-   - Comunicação eficiente com IA
+   - Comunicaçêo eficiente com IA
    - Base fundamental da experiência
 
 2. **Anatomia de um Prompt Perfeito**
@@ -184,7 +184,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Restrições e limitações
    - Exemplos práticos
 
-3. **Técnicas de Comunicação Clara**
+3. **Técnicas de Comunicaçêo Clara**
    - Seja preciso (evite ambiguidade)
    - Estruture solicitações (divida tarefas complexas)
    - Use delimitadores (separe partes do prompt)
@@ -208,7 +208,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Prompts Criativos (conteúdo, brainstorming)
    - Prompts Analíticos (análise, pesquisa)
    - Prompts Informativos (explicações, tutoriais)
-   - Prompts Executivos (tarefas, automação)
+   - Prompts Executivos (tarefas, automaçêo)
 
 #### Atividades Práticas:
 - [ ] Criar 10 prompts usando diferentes técnicas
@@ -225,7 +225,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 ---
 
 ### MÓDULO 1.4: ASSISTENTES E AGENTES
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Objetivos de Aprendizagem:
 - Diferenciar assistentes de agentes autônomos
@@ -234,20 +234,20 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 - Aplicar agentes em fluxos de trabalho
 
 #### Conteúdo:
-1. **O que são Assistentes de IA?**
-   - Definição e características
+1. **O que sêo Assistentes de IA?**
+   - Definiçêo e características
    - Diferença entre chatbots e assistentes inteligentes
    - Exemplos: ChatGPT Assistants, Claude Projects, Gemini
 
 2. **Criando seu Primeiro Assistente Personalizado**
-   - Definição de contexto e personalidade
+   - Definiçêo de contexto e personalidade
    - Instruções customizadas
    - Upload de documentos (Knowledge Base)
    - Casos de uso práticos
 
 3. **Agentes Autônomos - O Próximo Nível**
-   - O que são agentes autônomos?
-   - Como funcionam (planejamento → execução → verificação)
+   - O que sêo agentes autônomos?
+   - Como funcionam (planejamento → execuçêo → verificaçêo)
    - Exemplos: AutoGPT, BabyAGI, AgentGPT
    - Aplicações práticas
 
@@ -255,7 +255,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Assistente para pesquisa
    - Assistente para escrita
    - Assistente para análise de dados
-   - Assistente para programação
+   - Assistente para programaçêo
 
 #### Atividades Práticas:
 - [ ] Criar assistente personalizado para sua área
@@ -269,25 +269,25 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 ---
 
-### **DIA 2 - CRIAÇÃO E CONTEÚDO COM IA**
+### **DIA 2 - CRIAÇêO E CONTEÚDO COM IA**
 
-#### **MANHÃ**
+#### **MANHê**
 
 ### MÓDULO 1.5: CRIATIVIDADE VISUAL COM IA
 
-#### MÓDULO 1.5.1: GERAÇÃO DE IMAGENS
-**Duração:** 2 horas
+#### MÓDULO 1.5.1: GERAÇêO DE IMAGENS
+**Duraçêo:** 2 horas
 
 #### Objetivos de Aprendizagem:
-- Dominar ferramentas de geração de imagens
+- Dominar ferramentas de geraçêo de imagens
 - Criar prompts visuais eficientes
 - Entender estilos, técnicas e parâmetros
 - Aplicar em projetos reais
 
 #### Conteúdo:
-1. **Introdução à Criação de Imagens com IA**
-   - Como os algoritmos funcionam (explicação simples)
-   - Revolução visual: de zero a designer em minutos
+1. **Introduçêo à Criaçêo de Imagens com IA**
+   - Como os algoritmos funcionam (explicaçêo simples)
+   - Revoluçêo visual: de zero a designer em minutos
    - Conselhos práticos e atemporais
 
 2. **Principais Ferramentas (2025)**
@@ -302,22 +302,22 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
      1. Assunto (tema principal)
      2. Meio (pintura, foto, 3D, etc)
      3. Estilo (realista, cartoon, cyberpunk)
-     4. Resolução (4K, 8K, alta qualidade)
+     4. Resoluçêo (4K, 8K, alta qualidade)
      5. Detalhes adicionais
      6. Cor (paleta, tons dominantes)
-     7. Iluminação (natural, dramática, neon)
+     7. Iluminaçêo (natural, dramática, neon)
      8. Ambiente/Cenário
-     9. Pose e posição
-     10. Expressão facial
+     9. Pose e posiçêo
+     10. Expressêo facial
      11. Textura (metal, madeira, suave)
-     12. Tamanho/Proporção
+     12. Tamanho/Proporçêo
      13. Contexto histórico/temporal
      14. Dinâmica de movimento
      15. Interatividade entre elementos
      16. Atmosfera (misterioso, alegre)
      17. Material (vidro, tecido)
      18. Perspectiva/Ângulo
-     19. Fonte de inspiração (estilo Pixar)
+     19. Fonte de inspiraçêo (estilo Pixar)
      20. Prompt negativo (o que evitar)
      21. Site de compartilhamento (ArtStation)
      22. Observações especiais
@@ -330,7 +330,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Exportar em alta qualidade e remover fundo
 
 5. **Ferramentas Open Source**
-   - Pinokio (instalação local automatizada)
+   - Pinokio (instalaçêo local automatizada)
    - ComfyUI (workflow modular)
    - Automatic1111 (controle total)
 
@@ -348,8 +348,8 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 ---
 
-#### MÓDULO 1.5.2: CRIAÇÃO DE VÍDEOS COM IA
-**Duração:** 2 horas
+#### MÓDULO 1.5.2: CRIAÇêO DE VÍDEOS COM IA
+**Duraçêo:** 2 horas
 
 #### Objetivos de Aprendizagem:
 - Gerar vídeos a partir de texto e imagens
@@ -375,7 +375,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Pan (horizontal)
    - Tilt (vertical)
    - Zoom in/out
-   - Dolly (aproximação)
+   - Dolly (aproximaçêo)
    - Orbit (circular)
    - Tracking (seguir objeto)
 
@@ -405,10 +405,10 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 #### **TARDE**
 
 ### MÓDULO 1.6: IA NA PRÁTICA DO CONTEÚDO E MARKETING
-**Duração:** 4 horas
+**Duraçêo:** 4 horas
 
-#### MÓDULO 1.6.0: VISÃO GERAL DE MARKETING DIGITAL
-**Duração:** 30 min
+#### MÓDULO 1.6.0: VISêO GERAL DE MARKETING DIGITAL
+**Duraçêo:** 30 min
 
 #### Conteúdo:
 - O que mudou no marketing com IA?
@@ -419,7 +419,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 ---
 
 #### MÓDULO 1.6.1: ENTENDENDO SEU VALOR E O DO OUTRO
-**Duração:** 30 min
+**Duraçêo:** 30 min
 
 #### Objetivos:
 - Identificar sua proposta de valor única
@@ -429,7 +429,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 #### Conteúdo:
 - Mapa de valor pessoal
 - Pesquisa de público (personas)
-- Criação de oferta (promessa + prova)
+- Criaçêo de oferta (promessa + prova)
 
 #### Atividade:
 - [ ] Definir sua proposta de valor em 1 frase
@@ -438,13 +438,13 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 ---
 
 #### MÓDULO 1.6.2: ESCOLHA DE NICHO E CAMINHO DE VENDA
-**Duração:** 30 min
+**Duraçêo:** 30 min
 
 #### Conteúdo:
 - Como escolher um nicho lucrativo
-- Validação rápida de ideias
-- Modelos de monetização
-- Produto vs Serviço vs Afiliação
+- Validaçêo rápida de ideias
+- Modelos de monetizaçêo
+- Produto vs Serviço vs Afiliaçêo
 
 #### Atividade:
 - [ ] Escolher 3 nichos candidatos
@@ -453,7 +453,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 ---
 
 #### MÓDULO 1.6.3: CANAIS E ESTRATÉGIAS DE VENDA
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### Conteúdo:
 - Instagram, TikTok, YouTube, LinkedIn
@@ -473,29 +473,29 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 - Hashtags estratégicas
 
 **be3 - A Mudança das Redes para Mídias Digitais**
-- Novo paradigma de distribuição
+- Novo paradigma de distribuiçêo
 - SEO e tráfego orgânico
 - Paid media inteligente
 
 **be4 - Como Usar Lives para Educar, Entreter e Vender**
 - Estrutura de live perfeita
 - Ferramentas e equipamentos
-- Conversão em tempo real
+- Conversêo em tempo real
 
 **be5 - O Erro Fatal de Misturar Nichos – e Como Viralizar**
 - Foco vs diversidade
 - Consistência de mensagem
-- Estratégias de viralização
+- Estratégias de viralizaçêo
 
 ---
 
-#### MÓDULO 1.6.4: IA E AUTOMAÇÃO PARA VENDER SEM PARAR
-**Duração:** 1 hora
+#### MÓDULO 1.6.4: IA E AUTOMAÇêO PARA VENDER SEM PARAR
+**Duraçêo:** 1 hora
 
 #### Conteúdo:
 - Chatbots inteligentes (ManyChat, Chatfuel)
 - Email marketing automatizado
-- Nutrição de leads com IA
+- Nutriçêo de leads com IA
 - CRM inteligente
 
 #### Atividade:
@@ -504,8 +504,8 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 ---
 
-#### MÓDULO 1.6.5: CAÇA A LEADS E AÇÃO IMEDIATA
-**Duração:** 1 hora
+#### MÓDULO 1.6.5: CAÇA A LEADS E AÇêO IMEDIATA
+**Duraçêo:** 1 hora
 
 #### Conteúdo:
 1. **Busca Manual de Leads**
@@ -513,12 +513,12 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Grupos de Facebook e Telegram
    - OLX e marketplaces
 
-2. **Automação de Leads**
+2. **Automaçêo de Leads**
    - Apify (Instagram Scraper, Google Maps)
    - PhantomBuster
    - Ferramentas de web scraping
 
-3. **Plano de 7 Dias de Ação**
+3. **Plano de 7 Dias de Açêo**
    - Postar todos os dias
    - Falar com 10 pessoas por dia no privado
    - Criar 1 oferta por semana
@@ -532,23 +532,23 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 ---
 
-### MÓDULO 1.7: COMEÇANDO COM AUTOMAÇÃO
-**Duração:** 2 horas
+### MÓDULO 1.7: COMEÇANDO COM AUTOMAÇêO
+**Duraçêo:** 2 horas
 
 #### Objetivos de Aprendizagem:
-- Entender o conceito de automação de processos
+- Entender o conceito de automaçêo de processos
 - Usar ferramentas no-code (Zapier, Make, n8n)
 - Criar primeiras automações práticas
-- Identificar oportunidades de automação
+- Identificar oportunidades de automaçêo
 
 #### Conteúdo:
-1. **O que é Automação?**
+1. **O que é Automaçêo?**
    - Conceito e benefícios
-   - ROI de automação
-   - Quando automatizar vs quando não
+   - ROI de automaçêo
+   - Quando automatizar vs quando nêo
 
 2. **Ferramentas No-Code**
-   - Zapier (integração fácil)
+   - Zapier (integraçêo fácil)
    - Make (Integromat) - visual e poderoso
    - n8n (open source)
 
@@ -560,9 +560,9 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 4. **Casos de Uso Reais**
    - Atendimento automatizado
-   - Geração de relatórios
-   - Publicação de conteúdo
-   - Gestão de leads
+   - Geraçêo de relatórios
+   - Publicaçêo de conteúdo
+   - Gestêo de leads
 
 #### Atividades Práticas:
 - [ ] Criar conta no Zapier ou Make
@@ -571,20 +571,20 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 #### Recursos:
 - 📹 Tutorial: "Zapier do Zero ao Avançado"
-- 🔧 10 Templates de automação prontos
-- 📊 Planilha: "ROI de Automação"
+- 🔧 10 Templates de automaçêo prontos
+- 📊 Planilha: "ROI de Automaçêo"
 
 ---
 
 ### **DIA 3 - INTELIGÊNCIA ESTRATÉGICA E NEGÓCIOS**
 
-#### **MANHÃ**
+#### **MANHê**
 
 ### MÓDULO 1.8: EXPLORANDO INTELIGÊNCIA AVANÇADA
-**Duração:** 3 horas
+**Duraçêo:** 3 horas
 
 #### MÓDULO 1.8.1: RAG (Retrieval-Augmented Generation)
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Objetivos:
 - Entender o que é RAG e por que é revolucionário
@@ -605,7 +605,7 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
    - Perplexity AI
 
 3. **Criando sua Base de Conhecimento**
-   - Organização de documentos
+   - Organizaçêo de documentos
    - Formatos suportados (PDF, TXT, MD, DOCX)
    - Melhores práticas
 
@@ -618,30 +618,30 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 #### Atividades:
 - [ ] Criar base de conhecimento com 10 documentos
 - [ ] Fazer perguntas complexas e validar respostas
-- [ ] Aplicação prática na sua área
+- [ ] Aplicaçêo prática na sua área
 
 ---
 
 #### MÓDULO 1.8.2: OUTRAS TÉCNICAS AVANÇADAS
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### Conteúdo:
 - **Fine-tuning** (conceito básico)
 - **Embeddings** e busca semântica
-- **Function Calling** e integração com APIs
-- **Multiagentes** e orquestração
+- **Function Calling** e integraçêo com APIs
+- **Multiagentes** e orquestraçêo
 
 ---
 
 #### **TARDE**
 
 ### MÓDULO 1.9: NEGÓCIOS E OPORTUNIDADES
-**Duração:** 4 horas
+**Duraçêo:** 4 horas
 
 #### Objetivos de Aprendizagem:
 - Identificar oportunidades de negócio com IA
 - Criar modelos de negócio viáveis
-- Entender precificação e posicionamento
+- Entender precificaçêo e posicionamento
 - Validar ideias rapidamente
 
 #### Conteúdo:
@@ -652,8 +652,8 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 
 2. **Modelos de Negócio com IA**
    - **Agência de Serviços IA**
-     - Criação de conteúdo
-     - Automação de processos
+     - Criaçêo de conteúdo
+     - Automaçêo de processos
      - Consultoria em IA
 
    - **Produtos Digitais**
@@ -661,22 +661,22 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
      - Templates e prompts
      - Ferramentas SaaS
 
-   - **Afiliação e Parcerias**
-     - Indicação de ferramentas
+   - **Afiliaçêo e Parcerias**
+     - Indicaçêo de ferramentas
      - Programas de parceiros
 
    - **Freelancing Especializado**
      - Engenheiro de prompts
      - Criador de conteúdo com IA
-     - Consultor de automação
+     - Consultor de automaçêo
 
-3. **Validação Rápida (Lean Startup)**
+3. **Validaçêo Rápida (Lean Startup)**
    - MVP em 7 dias
    - Teste de mercado
-   - Iteração baseada em feedback
+   - Iteraçêo baseada em feedback
 
-4. **Precificação Estratégica**
-   - Modelos de precificação
+4. **Precificaçêo Estratégica**
+   - Modelos de precificaçêo
    - Como calcular seu valor
    - Pacotes e ofertas
 
@@ -708,42 +708,42 @@ O FTD é uma **ferramenta de formação acelerada e profunda** que prepara as pe
 ## 📚 MÓDULOS COMPLEMENTARES
 
 ### MÓDULO EXTRA 1: ÁUDIO, MÚSICA E LIPSYNC
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Conteúdo:
 - ElevenLabs (clonagem de voz)
-- Suno e Udio (criação de músicas)
+- Suno e Udio (criaçêo de músicas)
 - Sync Labs e HeyGen (lipsync)
 - Aplicações em vídeos e podcasts
 
 ---
 
 ### MÓDULO EXTRA 2: CONSISTÊNCIA, CARCKHÉ, 3D E GAMES
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Conteúdo:
-- Criação de personagens consistentes
+- Criaçêo de personagens consistentes
 - Ferramentas para cARCKHÉ (Runway, Pika)
 - IA para 3D (Luma AI, TripoSR)
 - Aplicações em gamedev
 
 ---
 
-### MÓDULO EXTRA 3: PROGRAMAÇÃO COM IA
-**Duração:** 3 horas
+### MÓDULO EXTRA 3: PROGRAMAÇêO COM IA
+**Duraçêo:** 3 horas
 
 #### Conteúdo:
 - GitHub Copilot
 - Cursor e Replit
 - Como programar sem saber programar
-- Criação de apps e sites com IA
+- Criaçêo de apps e sites com IA
 
 ---
 
 ## 🎯 PROJETO FINAL
 
 ### DESAFIO INTEGRADOR
-**Duração:** 1 semana
+**Duraçêo:** 1 semana
 
 #### Objetivo:
 Criar um projeto completo que integre pelo menos 5 módulos do curso.
@@ -769,23 +769,23 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 
 #### Entregáveis:
 - [ ] Projeto documentado
-- [ ] Apresentação de 10 minutos
+- [ ] Apresentaçêo de 10 minutos
 - [ ] Métricas e resultados
 - [ ] Aprendizados e próximos passos
 
 ---
 
-## 📊 AVALIAÇÃO E CERTIFICAÇÃO
+## 📊 AVALIAÇêO E CERTIFICAÇêO
 
-### Critérios de Aprovação:
-- ✅ 80% de presença (ou conclusão dos módulos online)
-- ✅ Realização de todas as atividades práticas
+### Critérios de Aprovaçêo:
+- ✅ 80% de presença (ou conclusêo dos módulos online)
+- ✅ Realizaçêo de todas as atividades práticas
 - ✅ Projeto final aprovado
 - ✅ Nota mínima 7.0 em quizzes
 
-### Certificação:
+### Certificaçêo:
 - 🏆 **Certificado Digital FTD** com carga horária
-- 🎖️ **Badge de Conclusão** para LinkedIn
+- 🎖️ **Badge de Conclusêo** para LinkedIn
 - 📜 **Portf ólio de Projetos** documentado
 
 ---
@@ -811,34 +811,34 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 - 🎁 Acesso a webinars mensais com especialistas
 - 🎁 Atualizações de conteúdo vitalícias
 - 🎁 Grupo VIP de networking
-- 🎁 Certificados de participação em eventos
+- 🎁 Certificados de participaçêo em eventos
 
 ---
 
 ## 📅 FORMATOS DE ENTREGA
 
-### OPÇÃO 1: IMERSÃO PRESENCIAL (3 Dias)
-- **Duração:** 3 dias consecutivos (8h/dia)
+### OPÇêO 1: IMERSêO PRESENCIAL (3 Dias)
+- **Duraçêo:** 3 dias consecutivos (8h/dia)
 - **Formato:** Prático e intensivo
 - **Inclui:** Coffee break, almoço, certificado físico
 - **Investimento:** R$ 2.997
 
-### OPÇÃO 2: ONLINE AO VIVO (3 Semanas)
-- **Duração:** 3 semanas (3 encontros por semana, 2h cada)
+### OPÇêO 2: ONLINE AO VIVO (3 Semanas)
+- **Duraçêo:** 3 semanas (3 encontros por semana, 2h cada)
 - **Formato:** Aulas ao vivo + gravações
 - **Inclui:** Mentoria em grupo, comunidade
 - **Investimento:** R$ 1.997
 
-### OPÇÃO 3: SELF-PACED (Ritmo Próprio)
-- **Duração:** Acesso vitalício
+### OPÇêO 3: SELF-PACED (Ritmo Próprio)
+- **Duraçêo:** Acesso vitalício
 - **Formato:** Videoaulas + exercícios + comunidade
 - **Inclui:** Todo o conteúdo gravado
 - **Investimento:** R$ 997
 
-### OPÇÃO 4: CORPORATIVO (In-Company)
-- **Duração:** Customizável
+### OPÇêO 4: CORPORATIVO (In-Company)
+- **Duraçêo:** Customizável
 - **Formato:** Presencial ou online
-- **Inclui:** Adaptação ao contexto da empresa
+- **Inclui:** Adaptaçêo ao contexto da empresa
 - **Investimento:** Sob consulta
 
 ---
@@ -846,7 +846,7 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 ## 🎓 PÚBLICO-ALVO
 
 ### Perfis Ideais:
-1. **Profissionais em Transição**
+1. **Profissionais em Transiçêo**
    - Querem se reposicionar no mercado
    - Buscam novas habilidades
    - Temem ficar para trás
@@ -863,8 +863,8 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 
 4. **Gestores e Líderes**
    - Precisam entender IA para tomar decisões
-   - Querem liderar transformação digital
-   - Buscam inovação
+   - Querem liderar transformaçêo digital
+   - Buscam inovaçêo
 
 5. **Estudantes e Recém-formados**
    - Querem se destacar no mercado
@@ -894,7 +894,7 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 - **Produtividade:** Aumento de 4x
 - **Renda:** Potencial de R$ 5.000 a R$ 50.000/mês
 - **Empregabilidade:** Aumento de 200% em oportunidades
-- **Satisfação:** NPS > 80
+- **Satisfaçêo:** NPS > 80
 
 ---
 
@@ -903,10 +903,10 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 ### Por que o FTD é Único?
 
 1. **Foco em Resultados Práticos**
-   - Não é teoria, é prática do início ao fim
+   - Nêo é teoria, é prática do início ao fim
    - Cada módulo tem entregável concreto
 
-2. **Atualização Constante**
+2. **Atualizaçêo Constante**
    - Conteúdo revisado mensalmente
    - Acompanha tendências de 2025
 
@@ -923,13 +923,13 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 5. **ROI Comprovado**
    - Cases reais de alunos
    - Resultados mensuráveis
-   - Garantia de satisfação
+   - Garantia de satisfaçêo
 
 ---
 
 ## 📞 PRÓXIMOS PASSOS
 
-### Para Implementação:
+### Para Implementaçêo:
 1. ✅ Estrutura do curso definida
 2. ⏳ Criar plataforma web (frontend + backend)
 3. ⏳ Produzir videoaulas
@@ -940,6 +940,6 @@ Criar um projeto completo que integre pelo menos 5 módulos do curso.
 ---
 
 **Criado por:** ARCKHÉ TDS
-**Versão:** 2.0
+**Versêo:** 2.0
 **Data:** 12/11/2025
-**Status:** Estrutura Completa - Pronta para Implementação
+**Status:** Estrutura Completa - Pronta para Implementaçêo

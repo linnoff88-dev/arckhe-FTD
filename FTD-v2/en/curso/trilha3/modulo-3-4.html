@@ -777,7 +777,7 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-4" id="topico-4" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="contaminação, saturação e a lei de Goodhart">📊 Why benchmarks can mislead</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="contaminaçêo, saturaçêo e a lei de Goodhart">📊 Why benchmarks can mislead</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -789,7 +789,7 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It means critically reading evaluation numbers: understanding what the benchmark measures, whether it still distinguishes between models, and whether the result holds up on data the model has never seen — especially your own.</p>
 </div>
-<!-- SVG 3: saturação e contaminação -->
+<!-- SVG 3: saturaçêo e contaminaçêo -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="Illustrative chart: three benchmark score curves rise over time until they meet a dashed ceiling line. An arrow marks contamination, when test questions leak into the training data. A side band reminds you that near the ceiling, differences become noise." class="w-full h-auto" role="img" viewbox="0 0 860 320">
 <defs>
@@ -888,7 +888,7 @@ End with: STOP / SECOND PASS / THIRD PASS and the reason.</pre>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Step 4 · Replicate with your data.</strong> Compare it with your current baseline on your evaluation set.</p></div>
 <div class="relative"><span class="absolute -left-[33px] top-0 w-4 h-4 rounded-full bg-sky-500/20 border-2 border-sky-400"></span><p class="text-sm text-neutral-300"><strong class="text-sky-400">Step 5 · Record the verdict.</strong> It reproduced, partially reproduced, or did not reproduce — and why.</p></div>
 </div>
-<!-- COPY: script de reprodução com sementes -->
+<!-- COPY: script de reproduçêo com sementes -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-purple-400">Try this:</strong> <span class="text-neutral-300">measure whether a result repeats across seeds, using a local model in Ollama (Python 3 standard library only).</span></p>
@@ -909,7 +909,7 @@ def perguntar(modelo, texto, seed, temperatura):
     corpo = json.dumps({
         "model": modelo,
         "messages": [{"role": "user",
-                      "content": texto + "\nResponda só com a resposta final, sem explicação."}],
+                      "content": texto + "\nResponda só com a resposta final, sem explicaçêo."}],
         "temperature": temperatura,
         "seed": seed,
     }).encode()
@@ -937,7 +937,7 @@ def main():
     media = statistics.mean(taxas)
     desvio = statistics.stdev(taxas) if len(taxas) &gt; 1 else 0.0
     print(f"\nmodelo={a.modelo} temperatura={a.temperatura} casos={len(casos)} seeds={len(a.seeds)}")
-    print(f"acurácia: {media:.1%} ± {desvio:.1%} (desvio-padrão entre seeds)")
+    print(f"acurácia: {media:.1%} ± {desvio:.1%} (desvio-padrêo entre seeds)")
 
 if __name__ == "__main__":
     main()</pre>
@@ -966,7 +966,7 @@ if __name__ == "__main__":
 <section class="mb-16" data-ARCKHÉ-topic="modulo-3-4#topico-6" id="topico-6" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">6</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="portões entre a ideia e a produção">🏭 From paper to product</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="portões entre a ideia e a produçêo">🏭 From paper to product</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -978,7 +978,7 @@ if __name__ == "__main__":
 <h3 class="text-lg font-semibold text-purple-400 mb-3">What it is</h3>
 <p class="text-neutral-300">It’s a step-by-step adoption process — reading, reproduction, validation on your own data, a pilot, and production — with a pass criterion agreed on in advance for each step.</p>
 </div>
-<!-- SVG 4: escada de adoção -->
+<!-- SVG 4: escada de adoçêo -->
 <figure class="svg-frame rounded-2xl border border-purple-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="A five-step ladder for adopting research: 1 read and screen, 2 reproduce, 3 test on your own data, 4 pilot with real users, 5 monitored production. Between steps are gates with criteria for moving forward, and the cost increases at each step." class="w-full h-auto" role="img" viewbox="0 0 880 300">
 <rect fill="url(#m34-grid)" height="300" width="880"></rect>

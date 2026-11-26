@@ -64,7 +64,7 @@ MENSAGEM 7
 Autor: ARCKHÉ
 Data: 2025-04-07T04:01:15+00:00
 Texto:
-Visão Geral de Prompts
+Visêo Geral de Prompts
 [https://t.me/c/2494987106/2191](https://t.me/c/2494987106/2191)
 
 ------------------------------
@@ -82,21 +82,21 @@ MENSAGEM 9
 Autor: ARCKHÉ
 Data: 2025-04-07T03:55:56+00:00
 Texto:
-**Introdução**
+**Introduçêo**
 
-**Simulação de Pensamento Humano**  
+**Simulaçêo de Pensamento Humano**  
 - Aprender e adaptar  
-- Capacidade de processar muita informação em menos tempo  
-- Automação, inovação, descobertas, personalização, resolução de problemas  
+- Capacidade de processar muita informaçêo em menos tempo  
+- Automaçêo, inovaçêo, descobertas, personalizaçêo, resoluçêo de problemas  
 - ML e DL (Redes Neurais)  
 - IA Generativa (gera resultado por probabilidade)  
-- Aprendizado por reforço (RF) — com humanos ou não  
+- Aprendizado por reforço (RF) — com humanos ou nêo  
 
 **IA Fraca e Forte (AGI) — Singularidade**  
 
 **Tipos de Aprendizado**  
 - Supervisionado (orientado, tem referências)  
-- Não supervisionado (descobre padrões)  
+- Nêo supervisionado (descobre padrões)  
 - Reforço (recompensas ou penalidades)
 
 **@ARCKHÉ****.prompt TikTok**  
@@ -126,11 +126,11 @@ Texto:
 **Tipos de Prompting:**  
 - Zero-shot — sem exemplos  
 - Few-shot — exemplos de 1 a 5 (ideal: 1–3)  
-- Interactive Prompts — conversa (corrigir perda de foco, correção de instrução errada, verificação de detalhamento)  
+- Interactive Prompts — conversa (corrigir perda de foco, correçêo de instruçêo errada, verificaçêo de detalhamento)  
   - Corrigir erros  
   - Quando for genérico, pedir mais detalhes ou formato  
   - Quando alucinar, verificar se está correto  
-  - Perguntar: "Esta resposta está correta? Se não, por quê?"
+  - Perguntar: "Esta resposta está correta? Se nêo, por quê?"
 
 **Hacks**
 

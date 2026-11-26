@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const name = leadForm.querySelector('input[name="name"]').value;
       const email = leadForm.querySelector('input[name="email"]').value;
 
-      // Aqui você pode adicionar integração com backend/API
+      // Aqui você pode adicionar integraçêo com backend/API
       console.log('Lead capturado:', { name, email });
 
       // Feedback visual

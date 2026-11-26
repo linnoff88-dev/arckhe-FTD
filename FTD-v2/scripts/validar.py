@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Portão de qualidade do FTD v2 (PT). Confere cada src/modulos/modulo-X-Y.html contra o contrato do
+"""Portêo de qualidade do FTD v2 (PT). Confere cada src/modulos/modulo-X-Y.html contra o contrato do
 CONVENTIONS.md e, se as páginas já foram montadas, o que o build gerou.
 Uso: python3 scripts/validar.py [1-2 2-5 ...]   -> imprime erros por módulo; '0 erros' no fim = passou."""
 import json, re, sys
@@ -30,7 +30,7 @@ def check_module(mid):
     if s.find('script'):
         e.append('<script> dentro do módulo (o build injeta os scripts)')
     if not s.find('h1') or m['title'] not in s.find('h1').get_text():
-        e.append(f'h1 não contém o título do manifesto: {m["title"]!r}')
+        e.append(f'h1 nêo contém o título do manifesto: {m["title"]!r}')
     if not any(h.get_text(strip=True) == 'Conteúdo detalhado' for h in s.find_all('h2')):
         e.append('falta h2 "Conteúdo detalhado"')
     secs = s.select('section[data-ARCKHÉ-topic]')
@@ -50,9 +50,9 @@ def check_module(mid):
             if not el or len(el.get_text(strip=True)) < 25:
                 e.append(f'{tag}: falta data-sum="{k}" com texto')
         if not sec.select_one('button[data-ARCKHÉ-read-toggle][aria-pressed]'):
-            e.append(f'{tag}: falta botão marcar-lido')
+            e.append(f'{tag}: falta botêo marcar-lido')
         if not sec.select_one('button[data-ARCKHÉ-doubt-toggle][aria-pressed]'):
-            e.append(f'{tag}: falta botão de dúvida')
+            e.append(f'{tag}: falta botêo de dúvida')
         if len(sec.select('[data-ARCKHÉ-block]')) < 2:
             e.append(f'{tag}: menos de 2 blocos anotáveis (data-ARCKHÉ-block)')
         hs = [x.get_text(strip=True) for x in sec.find_all('h3')]
@@ -63,10 +63,10 @@ def check_module(mid):
         e.append('data-ARCKHÉ-block repetido')
     bad = [b for b in blocks if not b.startswith(f'm{mid}-t')]
     if bad:
-        e.append(f'data-ARCKHÉ-block fora do padrão m{mid}-tT-pP: {bad[:3]}')
+        e.append(f'data-ARCKHÉ-block fora do padrêo m{mid}-tT-pP: {bad[:3]}')
     toc = s.select('[data-ARCKHÉ-toc] a')
     if [a.get('href') for a in toc] != [f'#topico-{i}' for i in range(1, 8)]:
-        e.append('TOC não tem os 7 links #topico-1..7')
+        e.append('TOC nêo tem os 7 links #topico-1..7')
     svgs = [x for x in s.find_all('svg') if x.get('role') == 'img']
     if len(svgs) < 3:
         e.append(f'{len(svgs)} SVG role="img" (mínimo 3)')
@@ -90,7 +90,7 @@ def check_module(mid):
         e.append('falta grade ✓/✗')
     if any('justify-center' in ' '.join(x.get('class', [])) for x in s.find_all(['button', 'a'])) or \
        any('justify-center' in ' '.join(x.get('class', [])) and x.find(['button', 'a']) for x in s.find_all('div')):
-        e.append('justify-center em botão/grupo de botões (Erro #1)')
+        e.append('justify-center em botêo/grupo de botões (Erro #1)')
     if '▶' in raw:
         e.append('seta ▶ (Erro #2)')
     if re.search(r'<img\b', raw):

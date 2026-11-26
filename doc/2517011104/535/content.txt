@@ -40,10 +40,10 @@ MENSAGEM 4
 Autor: ARCKHÉ
 Data: 2025-04-09T04:13:47+00:00
 Texto:
-### MÓDULO 4: IA E AUTOMAÇÃO PARA VENDER SEM PARAR (40 minutos)
+### MÓDULO 4: IA E AUTOMAÇêO PARA VENDER SEM PARAR (40 minutos)
 
 **Objetivo:**  
-Mostrar, na prática, como escalar a produção de conteúdo e transformar processos manuais em vendas automáticas usando ferramentas de Inteligência Artificial e automação.
+Mostrar, na prática, como escalar a produçêo de conteúdo e transformar processos manuais em vendas automáticas usando ferramentas de Inteligência Artificial e automaçêo.
 
 ---
 
@@ -62,11 +62,11 @@ Mostrar, na prática, como escalar a produção de conteúdo e transformar proce
      - Criar um funil automatizado de atendimento
 
 4. **Canva + IA**  
-   - Geração de artes com textos prontos
+   - Geraçêo de artes com textos prontos
    - Redimensionamento para várias plataformas com um clique
 
 5. **Copy.ai**** ou Jasper**  
-   - Criar anúncios e chamadas com foco em conversão
+   - Criar anúncios e chamadas com foco em conversêo
    - Gerar headlines virais e textos com gatilhos mentais
 
 ---
@@ -74,12 +74,12 @@ Mostrar, na prática, como escalar a produção de conteúdo e transformar proce
 #### Atividade Prática (20 minutos):
 
 **Desafio:**  
-Criar uma sequência de 3 postagens com ajuda da IA. A sequência deve seguir uma lógica estratégica para atrair, engajar e gerar conversão.
+Criar uma sequência de 3 postagens com ajuda da IA. A sequência deve seguir uma lógica estratégica para atrair, engajar e gerar conversêo.
 
 ##### Estrutura da Sequência:
 
-1. **Post 1: Atração (curiosidade ou dor)**
-   - Objetivo: chamar atenção de quem passa no feed.
+1. **Post 1: Atraçêo (curiosidade ou dor)**
+   - Objetivo: chamar atençêo de quem passa no feed.
    - Exemplo gerado:
      - Texto:  
        "Você ainda tenta vender todos os dias? Descubra por que os empreendedores inteligentes deixaram de postar manualmente e começaram a vender enquanto dormem."
@@ -92,20 +92,20 @@ Criar uma sequência de 3 postagens com ajuda da IA. A sequência deve seguir um
        "Veja como a Karina triplicou suas vendas em 7 dias usando 3 ferramentas gratuitas de IA. E você ainda achando que precisa de uma equipe..."
      - Vídeo: depoimento curto no estilo “antes e depois” com legendas feitas no CapCut.
 
-3. **Post 3: Chamada para Ação (CTA direto)**
+3. **Post 3: Chamada para Açêo (CTA direto)**
    - Objetivo: incentivar o clique ou o contato.
    - Exemplo gerado:
      - Texto:  
        "Quer o passo a passo para vender no automático? Comente 'IA' ou acesse o link na bio. Só hoje tem bônus especial!"
-     - Imagem: botão de ação chamativo com destaque visual.
+     - Imagem: botêo de açêo chamativo com destaque visual.
 
 ---
 
 #### Extras (se houver tempo):
 
-- Demonstração rápida de uma automação com Make.com ou n8n
-- Geração de imagem + texto em poucos minutos com Canva + ChatGPT
-- Simulação de uma campanha de vendas automática (do post ao contato)
+- Demonstraçêo rápida de uma automaçêo com Make.com ou n8n
+- Geraçêo de imagem + texto em poucos minutos com Canva + ChatGPT
+- Simulaçêo de uma campanha de vendas automática (do post ao contato)
 
 ---
 
@@ -147,7 +147,7 @@ MENSAGEM 9
 Autor: ARCKHÉ
 Data: 2025-04-09T04:13:05+00:00
 Texto:
-### MÓDULO 4: IA E AUTOMAÇÃO PARA VENDER SEM PARAR (40 minutos)  
+### MÓDULO 4: IA E AUTOMAÇêO PARA VENDER SEM PARAR (40 minutos)  
 Objetivo: Mostrar como escalar conteúdo e vender no automático com ferramentas modernas.
 
 Ferramentas apresentadas:
@@ -158,7 +158,7 @@ Ferramentas apresentadas:
 - Copy.ai ou Jasper: criar chamadas e anúncios rápidos.
 
 Atividade prática:  
-Criar uma sequência de 3 postagens com ajuda da IA (atração, prova social e chamada para ação).
+Criar uma sequência de 3 postagens com ajuda da IA (atraçêo, prova social e chamada para açêo).
 
 ------------------------------
 
@@ -182,7 +182,7 @@ MENSAGEM 12
 Autor: ARCKHÉ
 Data: 2025-04-09T04:12:49+00:00
 Texto:
-1-6-4- IA E AUTOMAÇÃO PARA VENDER SEM PARAR
+1-6-4- IA E AUTOMAÇêO PARA VENDER SEM PARAR
 
 ------------------------------
 

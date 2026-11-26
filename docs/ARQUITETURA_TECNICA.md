@@ -1,25 +1,25 @@
 # 🏗️ ARQUITETURA TÉCNICA DA PLATAFORMA FTD
-## Sistema Completo de Educação Digital
+## Sistema Completo de Educaçêo Digital
 
-> **Versão:** 1.0
+> **Versêo:** 1.0
 > **Data:** 2025-11-12
 > **Arquiteto:** ARCKHÉ TDS
 > **Stack:** Next.js 14 + Tailwind CSS + Supabase + Stripe
 
 ---
 
-## 📋 VISÃO GERAL
+## 📋 VISêO GERAL
 
 ### Objetivo da Plataforma
 Criar uma **plataforma educacional moderna, escalável e performática** para entregar o curso FTD com experiência excepcional para os alunos.
 
 ### Requisitos Principais
 - ✅ Interface responsiva e acessível (mobile-first)
-- ✅ Sistema de autenticação e gestão de usuários
+- ✅ Sistema de autenticaçêo e gestêo de usuários
 - ✅ Conteúdo em vídeo com player avançado
 - ✅ Acompanhamento de progresso
 - ✅ Sistema de pagamentos
-- ✅ Comunidade e interação
+- ✅ Comunidade e interaçêo
 - ✅ Painel administrativo completo
 - ✅ Performance otimizada (SEO, velocidade)
 
@@ -58,7 +58,7 @@ Body: 1rem (16px) - font-weight: 400
 ```
 
 #### Componentes Principais:
-- Navegação sticky
+- Navegaçêo sticky
 - Hero com gradiente
 - Cards de nível com hover effects
 - Botões primários e secundários
@@ -77,7 +77,7 @@ Body: 1rem (16px) - font-weight: 400
 #### **Frontend:**
 - **Framework:** Next.js 14 (App Router)
 - **Linguagem:** TypeScript
-- **Estilização:** Tailwind CSS 3.x
+- **Estilizaçêo:** Tailwind CSS 3.x
 - **UI Components:** shadcn/ui
 - **Ícones:** Lucide React
 - **Animações:** Framer Motion
@@ -94,8 +94,8 @@ Body: 1rem (16px) - font-weight: 400
   - Edge Functions (Serverless)
 
 #### **Pagamentos:**
-- **Stripe** (Cartão de crédito, Pix via API)
-- **Webhooks** para confirmação automática
+- **Stripe** (Cartêo de crédito, Pix via API)
+- **Webhooks** para confirmaçêo automática
 
 #### **Hospedagem:**
 - **Frontend:** Vercel (deploy automático)
@@ -263,22 +263,22 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 
 ### **1. Landing Page (Pública)**
 - Hero com CTA (Call-to-Action)
-- Apresentação dos 3 níveis de curso
+- Apresentaçêo dos 3 níveis de curso
 - Depoimentos de alunos
 - FAQ
-- Seção "Para quem é"
+- Seçêo "Para quem é"
 - Garantia e políticas
 - Footer com links
 
-### **2. Autenticação**
+### **2. Autenticaçêo**
 - Cadastro (email + senha)
 - Login (email + senha ou OAuth Google)
-- Recuperação de senha
-- Verificação de email
+- Recuperaçêo de senha
+- Verificaçêo de email
 - Logout
 
 ### **3. Dashboard do Aluno**
-- Visão geral de progresso
+- Visêo geral de progresso
 - Cursos matriculados
 - Próxima aula
 - Certificados disponíveis
@@ -288,16 +288,16 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 - Informações gerais
 - Grade de módulos e aulas
 - Avaliações e comentários
-- Botão de matrícula (se não matriculado)
+- Botêo de matrícula (se nêo matriculado)
 - Progresso (se matriculado)
 
 ### **5. Player de Aula**
 - Vídeo com controles avançados
-- Velocidade de reprodução (0.5x - 2x)
-- Marcação automática de progresso
-- Navegação entre aulas (próxima/anterior)
+- Velocidade de reproduçêo (0.5x - 2x)
+- Marcaçêo automática de progresso
+- Navegaçêo entre aulas (próxima/anterior)
 - Barra lateral com módulos
-- Seção de recursos (PDFs, templates)
+- Seçêo de recursos (PDFs, templates)
 - Área de comentários
 - Anotações pessoais
 
@@ -318,19 +318,19 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 ### **8. Checkout e Pagamentos**
 - Carrinho (se múltiplos cursos)
 - Formulário de pagamento
-- Integração Stripe
-- Confirmação e recibo
+- Integraçêo Stripe
+- Confirmaçêo e recibo
 - Webhook para ativar acesso
 
 ### **9. Painel Admin**
-#### Gestão de Cursos
+#### Gestêo de Cursos
 - CRUD de cursos
 - CRUD de módulos
 - CRUD de aulas
 - Upload de vídeos
 - Upload de recursos
 
-#### Gestão de Usuários
+#### Gestêo de Usuários
 - Lista de alunos
 - Matrículas manuais
 - Reembolsos
@@ -338,9 +338,9 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 
 #### Relatórios
 - Vendas por período
-- Taxa de conclusão
+- Taxa de conclusêo
 - Engagement (tempo assistido)
-- Comentários pendentes de moderação
+- Comentários pendentes de moderaçêo
 
 #### Configurações
 - Preços e cupons
@@ -356,7 +356,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 1. Usuário acessa landing page
 2. Clica em "Começar Agora"
 3. Escolhe nível (Iniciante/Técnico/Masterclass)
-4. Redirecionado para cadastro (se não logado)
+4. Redirecionado para cadastro (se nêo logado)
 5. Após login, vai para checkout
 6. Preenche dados de pagamento (Stripe)
 7. Pagamento processado
@@ -377,7 +377,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 8. Libera próxima aula
 ```
 
-### Fluxo de Emissão de Certificado:
+### Fluxo de Emissêo de Certificado:
 ```
 1. Aluno completa 100% do curso
 2. Sistema verifica todos os critérios:
@@ -401,16 +401,16 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 │   ├── Menu (Início, Níveis, Sobre, Contato)
 │   └── CTA "Entrar" / "Cadastrar"
 ├── Hero
-│   ├── Título: "Domine a Transformação Digital"
+│   ├── Título: "Domine a Transformaçêo Digital"
 │   ├── Subtítulo: "Do iniciante ao masterclass"
 │   └── CTA "Começar Agora"
-├── Seção Níveis
+├── Seçêo Níveis
 │   ├── Card Iniciante (Verde)
 │   ├── Card Técnico (Azul)
 │   └── Card Masterclass (Roxo)
-├── Seção Depoimentos
-├── Seção "Para Quem É"
-├── Seção FAQ (Accordion)
+├── Seçêo Depoimentos
+├── Seçêo "Para Quem É"
+├── Seçêo FAQ (Accordion)
 └── Footer
 ```
 
@@ -437,7 +437,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 │   ├── Coluna Esquerda (70%)
 │   │   ├── Player de Vídeo
 │   │   ├── Título da Aula
-│   │   ├── Descrição
+│   │   ├── Descriçêo
 │   │   ├── Tabs:
 │   │   │   ├── Recursos (Downloads)
 │   │   │   ├── Anotações
@@ -455,7 +455,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 │   ├── Coluna Esquerda (60%)
 │   │   ├── Resumo do Pedido
 │   │   ├── Formulário Stripe
-│   │   └── Botão "Finalizar Compra"
+│   │   └── Botêo "Finalizar Compra"
 │   └── Coluna Direita (40%)
 │       ├── Thumbnail do Curso
 │       ├── Título e Nível
@@ -473,7 +473,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 │   ├── Pagamentos
 │   ├── Relatórios
 │   └── Configurações
-├── Main Content (varia por seção)
+├── Main Content (varia por seçêo)
 ```
 
 ---
@@ -501,7 +501,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 │   │   │   └── page.tsx
 │   │   ├── /curso
 │   │   │   └── /[courseId]
-│   │   │       ├── page.tsx      # Visão geral do curso
+│   │   │       ├── page.tsx      # Visêo geral do curso
 │   │   │       └── /aula
 │   │   │           └── /[lessonId]
 │   │   │               └── page.tsx  # Player
@@ -577,7 +577,7 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 │   └── constants.ts              # Constantes globais
 │
 ├── /hooks
-│   ├── useAuth.ts                # Hook de autenticação
+│   ├── useAuth.ts                # Hook de autenticaçêo
 │   ├── useProgress.ts            # Hook de progresso
 │   └── useCourse.ts              # Hook de curso
 │
@@ -609,10 +609,10 @@ CREATE INDEX idx_comments_lesson ON comments(lesson_id);
 
 ## 🔐 SEGURANÇA
 
-### Autenticação e Autorização:
+### Autenticaçêo e Autorizaçêo:
 - Supabase Auth (JWT)
 - Row Level Security (RLS) no PostgreSQL
-- Proteção de rotas no Next.js (middleware)
+- Proteçêo de rotas no Next.js (middleware)
 - CSRF protection
 - Rate limiting em APIs sensíveis
 
@@ -633,7 +633,7 @@ CREATE POLICY "Only admins can create courses"
     )
   );
 
--- Alunos só acessam aulas de cursos em que estão matriculados
+-- Alunos só acessam aulas de cursos em que estêo matriculados
 CREATE POLICY "Enrolled users can view lessons"
   ON lessons FOR SELECT
   USING (
@@ -653,7 +653,7 @@ CREATE POLICY "Enrolled users can view lessons"
 ## ⚡ PERFORMANCE E OTIMIZAÇÕES
 
 ### Frontend:
-- **Next.js Image** para otimização automática de imagens
+- **Next.js Image** para otimizaçêo automática de imagens
 - **Lazy loading** de componentes pesados
 - **Code splitting** automático (App Router)
 - **Caching** com SWR ou React Query
@@ -667,8 +667,8 @@ CREATE POLICY "Enrolled users can view lessons"
 
 ### Vídeos:
 - **Streaming adaptativo** (HLS ou DASH)
-- **CDN** para distribuição global
-- **Compressão** em múltiplas resoluções (360p, 720p, 1080p)
+- **CDN** para distribuiçêo global
+- **Compressêo** em múltiplas resoluções (360p, 720p, 1080p)
 - **Lazy loading** do player
 
 ---
@@ -679,14 +679,14 @@ CREATE POLICY "Enrolled users can view lessons"
 - `user_signup` - Cadastro
 - `course_enroll` - Matrícula
 - `lesson_start` - Início de aula
-- `lesson_complete` - Conclusão de aula
+- `lesson_complete` - Conclusêo de aula
 - `quiz_submit` - Envio de quiz
-- `certificate_issued` - Emissão de certificado
+- `certificate_issued` - Emissêo de certificado
 - `comment_post` - Comentário publicado
 
 ### Métricas-Chave:
-- Taxa de conversão (visita → compra)
-- Taxa de conclusão por curso
+- Taxa de conversêo (visita → compra)
+- Taxa de conclusêo por curso
 - Tempo médio por aula
 - NPS (Net Promoter Score)
 - Churn rate
@@ -704,20 +704,20 @@ CREATE POLICY "Enrolled users can view lessons"
 
 ### Sendgrid/Resend (Emails):
 - Email de boas-vindas
-- Confirmação de pagamento
+- Confirmaçêo de pagamento
 - Lembrete de aulas
 - Certificado disponível
-- Recuperação de senha
+- Recuperaçêo de senha
 
 ### Vimeo/Bunny.net (Vídeos):
 - Upload de vídeos
 - Streaming otimizado
-- Proteção de conteúdo (domain restriction)
+- Proteçêo de conteúdo (domain restriction)
 
 ### Zapier/Make (Automações):
 - Novo aluno → CRM
 - Certificado emitido → LinkedIn
-- Comentário → Slack (moderação)
+- Comentário → Slack (moderaçêo)
 
 ---
 
@@ -725,7 +725,7 @@ CREATE POLICY "Enrolled users can view lessons"
 
 ### Tipos de Teste:
 - **Unitários:** Vitest + Testing Library
-- **Integração:** Playwright
+- **Integraçêo:** Playwright
 - **E2E:** Playwright (fluxo completo de compra)
 - **Performance:** Lighthouse CI
 
@@ -755,30 +755,30 @@ jobs:
 
 ---
 
-## 📅 ROADMAP DE IMPLEMENTAÇÃO
+## 📅 ROADMAP DE IMPLEMENTAÇêO
 
 ### Fase 1: MVP (4 semanas)
 - [ ] Setup do projeto (Next.js + Supabase)
-- [ ] Autenticação funcionando
+- [ ] Autenticaçêo funcionando
 - [ ] Landing page responsiva
 - [ ] 1 curso de exemplo com 3 aulas
 - [ ] Player de vídeo básico
 - [ ] Sistema de progresso
-- [ ] Integração Stripe (checkout simples)
-- [ ] Deploy em produção
+- [ ] Integraçêo Stripe (checkout simples)
+- [ ] Deploy em produçêo
 
 ### Fase 2: Funcionalidades Core (4 semanas)
 - [ ] CRUD completo de cursos (admin)
 - [ ] Comunidade (feed + comentários)
 - [ ] Sistema de quizzes
-- [ ] Geração de certificados
+- [ ] Geraçêo de certificados
 - [ ] Dashboard de analytics
 - [ ] Emails transacionais
 - [ ] Otimizações de performance
 
 ### Fase 3: Melhorias e Escala (4 semanas)
 - [ ] Mobile app (React Native - opcional)
-- [ ] Gamificação (badges, pontos)
+- [ ] Gamificaçêo (badges, pontos)
 - [ ] Recomendações personalizadas (IA)
 - [ ] Comunidade avançada (grupos, eventos)
 - [ ] Programa de afiliados
@@ -791,12 +791,12 @@ jobs:
 ### Infraestrutura (até 1.000 alunos):
 - **Vercel:** $0 (hobby plan) ou $20 (pro)
 - **Supabase:** $25 (pro plan)
-- **Stripe:** 3.99% + R$0,39 por transação
+- **Stripe:** 3.99% + R$0,39 por transaçêo
 - **Vimeo/Bunny.net:** $50-100/mês
 - **Cloudflare:** $0 (free plan)
 - **Emails (Sendgrid):** $15/mês
 
-**Total:** ~$110/mês + taxas de transação
+**Total:** ~$110/mês + taxas de transaçêo
 
 ### Escalando (10.000 alunos):
 - **Vercel:** $20
@@ -815,7 +815,7 @@ jobs:
 2. ⏳ Criar repositório Git
 3. ⏳ Setup inicial do projeto
 4. ⏳ Configurar Supabase
-5. ⏳ Implementar autenticação
+5. ⏳ Implementar autenticaçêo
 6. ⏳ Desenvolver landing page
 7. ⏳ Criar dashboard e player
 8. ⏳ Integrar Stripe
@@ -824,6 +824,6 @@ jobs:
 ---
 
 **Arquiteto:** ARCKHÉ TDS
-**Versão:** 1.0
+**Versêo:** 1.0
 **Data:** 12/11/2025
 **Status:** Arquitetura Completa - Pronta para Desenvolvimento

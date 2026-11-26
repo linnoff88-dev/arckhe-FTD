@@ -19,11 +19,11 @@ Texto:
 
 * **Componentes principais**
   • Persona/papel: define o comportamento (ex.: guia turístico, professor).
-  • Instrução: o que o modelo deve fazer.
+  • Instruçêo: o que o modelo deve fazer.
   • Contexto: dados ou informações adicionais.
 * **Exemplo**:
   Persona: “Você é um guia turístico amigável.”
-  Instrução: “Resuma o texto.”
+  Instruçêo: “Resuma o texto.”
   Contexto: artigo sobre uma cidade.
 
 ---
@@ -50,7 +50,7 @@ Texto:
 * **Perguntas e respostas**
   • Fechado: só usa texto fornecido.
   • Aberto: usa conhecimento prévio.
-* **Classificação**
+* **Classificaçêo**
   Exemplo: “Serviço bom, comida fraca” → Neutro, porque há pontos positivos e negativos.
 * **Role-play (personas)**
   Exemplo: Cientista explica buracos negros → detalhado e técnico.
@@ -67,7 +67,7 @@ Texto:
   “Pizza ruim → Negativo; Pizza ótima → Positivo.
   Agora classifique: ‘Pizza estava morna’ → …”
 * **Chain-of-Thought (CoT)**: peça raciocínio passo a passo.
-  Exemplo: “10 maçãs – 2 – 2 + 5 – 1 = 10.”
+  Exemplo: “10 maçês – 2 – 2 + 5 – 1 = 10.”
 * **Tree-of-Thought (ToT)**: várias opções avaliadas e escolhidas.
 * **Self-consistency**: modelo gera várias respostas → voto majoritário.
 * **Self-refine**: modelo revisa e corrige a própria resposta.
@@ -83,7 +83,7 @@ Texto:
   • Greedy → mais exato.
   • Sampling → mais criativo.
 * **Temperature**
-  • Baixo = precisão.
+  • Baixo = precisêo.
   • Alto = criatividade.
 * **Top-p / Top-k**
   • Controlam diversidade de tokens considerados.

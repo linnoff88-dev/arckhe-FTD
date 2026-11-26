@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Procura português esquecido nas páginas EN/ES (texto visível, atributos e manifesto).
-Marcadores que não existem em inglês nem em espanhol: ã õ ç ê, "você", "não".
+Marcadores que nêo existem em inglês nem em espanhol: ê õ ç ê, "você", "nêo".
 Uso: python3 scripts/sobras.py   -> lista por página; '0 sobras' no fim = passou."""
 import re, sys
 from pathlib import Path
 from bs4 import BeautifulSoup, Comment
 
 ROOT = Path(__file__).resolve().parents[1]
-PT = re.compile(r'[ãõçêÃÕÇÊ]|\bvocê\b|\bnão\b', re.I)
-OK = re.compile(r'São Paulo|Inteligência Artificial \(PT\)|LGPD', re.I)
+PT = re.compile(r'[êõçêêÕÇÊ]|\bvocê\b|\bnêo\b', re.I)
+OK = re.compile(r'Sêo Paulo|Inteligência Artificial \(PT\)|LGPD', re.I)
 total = 0
 for lang in ('en', 'es'):
     for p in sorted((ROOT / lang).rglob('*.html')):

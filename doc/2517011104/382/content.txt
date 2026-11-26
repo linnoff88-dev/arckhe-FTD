@@ -30,7 +30,7 @@ Texto:
 6. Técnica Tríade do Dinheiro Rápido  
 7. Nichos que vendem rápido  
 8. Ferramenta: Gerador de Nicho com IA  
-9. Definição de nicho, problema, solução e canal  
+9. Definiçêo de nicho, problema, soluçêo e canal  
 
 ---
 
@@ -42,39 +42,39 @@ Texto:
 
 ---
 
-#### MÓDULO 4: IA e Automação para Vender no Automático  
+#### MÓDULO 4: IA e Automaçêo para Vender no Automático  
 14. Ferramentas: ChatGPT, CapCut, Canva, Make.com, Jasper  
-15. Geração de postagens automatizadas  
-16. Sequência de postagens (atração, prova, ação)  
-17. Execução com IA na prática  
+15. Geraçêo de postagens automatizadas  
+16. Sequência de postagens (atraçêo, prova, açêo)  
+17. Execuçêo com IA na prática  
 
 ---
 
-#### MÓDULO 5: Caça a Leads e Ação Imediata  
+#### MÓDULO 5: Caça a Leads e Açêo Imediata  
 18. Busca de leads em Instagram, OLX, Facebook, Telegram  
-19. Criação de formulário simples para captura  
+19. Criaçêo de formulário simples para captura  
 20. Abordagem ética com estratégia  
-21. Execução real com 5 leads ao vivo  
+21. Execuçêo real com 5 leads ao vivo  
 
 ---
 
-### BLOCO EXTRA: Construção de Audiência e Conteúdo Estratégico
+### BLOCO EXTRA: Construçêo de Audiência e Conteúdo Estratégico
 
 ---
 
-#### MÓDULO 6: Criação de Canais de Audiência e Conteúdo Diário  
+#### MÓDULO 6: Criaçêo de Canais de Audiência e Conteúdo Diário  
 22. Escolha do canal principal + canal de apoio  
 23. Fórmula de conteúdo semanal  
-24. Automação de conteúdo com IA  
-25. Geração de 3 postagens com fórmula de conteúdo  
+24. Automaçêo de conteúdo com IA  
+25. Geraçêo de 3 postagens com fórmula de conteúdo  
 
 ---
 
 #### MÓDULO 7: Níveis de Consciência e Público-Alvo  
 26. Os 5 níveis de consciência  
 27. Tipos de conteúdo para cada nível  
-28. Adaptação por público-alvo (consumidor, profissional, empresa)  
-29. Criação de post para 2 perfis distintos  
+28. Adaptaçêo por público-alvo (consumidor, profissional, empresa)  
+29. Criaçêo de post para 2 perfis distintos  
 
 ---
 
@@ -82,15 +82,15 @@ Texto:
 30. Como o algoritmo filtra e entrega  
 31. Fórmula do conteúdo entregável  
 32. Gatilhos mentais que o algoritmo gosta  
-33. Dicas avançadas de retenção e engajamento  
-34. Criação de conteúdo com foco em entrega  
+33. Dicas avançadas de retençêo e engajamento  
+34. Criaçêo de conteúdo com foco em entrega  
 
 ---
 
 #### MÓDULO 9: Mentalidade de Mídia e Microconteúdo  
 35. O fim das redes sociais como rede  
 36. Bolhas algorítmicas e zapping digital  
-37. Economia da atenção e microconteúdo  
+37. Economia da atençêo e microconteúdo  
 38. O novo funil da consciência por formato  
 39. Planejamento de sequência curta com impacto  
 
@@ -101,8 +101,8 @@ Texto:
 41. Os 5 segundos de ouro  
 42. Estrutura da live de impacto  
 43. Fórmulas de envolvimento ao vivo  
-44. Captação de leads e conversão via live  
-45. Automação e reaproveitamento de conteúdo de lives  
+44. Captaçêo de leads e conversêo via live  
+45. Automaçêo e reaproveitamento de conteúdo de lives  
 
 ---
 
@@ -115,7 +115,7 @@ Texto:
 
 ---
 
-Se quiser, posso gerar agora todos os **slides, atividades e modelos de conteúdo prontos** com base nesses 50 tópicos. Deseja isso como um e-book, apresentação, ou pacote de treinamento?
+Se quiser, posso gerar agora todos os **slides, atividades e modelos de conteúdo prontos** com base nesses 50 tópicos. Deseja isso como um e-book, apresentaçêo, ou pacote de treinamento?
 
 ------------------------------
 
@@ -166,11 +166,11 @@ Data: 2025-04-09T03:03:08+00:00
 Texto:
 ### **6. IA na Prática do Conteúdo e Marketing**
 
-- **Criação de Conteúdo para Redes Sociais com IA**: Ferramentas de IA estão sendo utilizadas para gerar conteúdos personalizados e relevantes para diferentes plataformas sociais, aumentando o engajamento do público. citeturn0search56
+- **Criaçêo de Conteúdo para Redes Sociais com IA**: Ferramentas de IA estêo sendo utilizadas para gerar conteúdos personalizados e relevantes para diferentes plataformas sociais, aumentando o engajamento do público. citeturn0search56
 
-- **Estratégias de Venda e Conteúdo para Comunicação Direta**: A personalização de mensagens utilizando IA melhora a comunicação direta com clientes em canais como WhatsApp e e-mail.
+- **Estratégias de Venda e Conteúdo para Comunicaçêo Direta**: A personalizaçêo de mensagens utilizando IA melhora a comunicaçêo direta com clientes em canais como WhatsApp e e-mail.
 
-- **Organização de Conteúdo e Cronograma**: Ferramentas de automação auxiliam na programação e gestão eficiente de calendários de conteúdo.
+- **Organizaçêo de Conteúdo e Cronograma**: Ferramentas de automaçêo auxiliam na programaçêo e gestêo eficiente de calendários de conteúdo.
 
 ------------------------------
 

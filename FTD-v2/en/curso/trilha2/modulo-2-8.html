@@ -629,7 +629,7 @@
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-2" id="topico-2" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="código, prompt, modelo, dados e configuração">🗂️ Version everything</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="código, prompt, modelo, dados e configuraçêo">🗂️ Version everything</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -719,7 +719,7 @@
 <section class="mb-16" data-ARCKHÉ-topic="modulo-2-8#topico-3" id="topico-3" style="scroll-margin-top:5rem">
 <div class="flex items-start gap-4 mb-4">
 <span class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
-<h2 class="text-2xl font-bold pt-1" data-sub="o conjunto de testes vira portão automático">🧪 Continuous evaluation</h2>
+<h2 class="text-2xl font-bold pt-1" data-sub="o conjunto de testes vira portêo automático">🧪 Continuous evaluation</h2>
 </div>
 <div class="ml-0 sm:ml-16">
 <div class="flex justify-start mb-5">
@@ -735,7 +735,7 @@
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Run the test set automatically with every change and treat a drop in quality as a failing test: the version doesn’t go to production until someone explains or fixes it.</p>
 </div>
-<!-- COPY-RUN: portão com pytest -->
+<!-- COPY-RUN: portêo com pytest -->
 <div class="bg-black/40 rounded-xl border border-dark-600 mb-6 overflow-hidden" data-copy-box="">
 <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 border-b border-dark-600">
 <p class="text-sm"><strong class="text-blue-400">Try this:</strong> <span class="text-neutral-300">quality gate with pytest, using the <code>classifier.py</code> from module 2.7.</span></p>
@@ -772,7 +772,7 @@ def test_acuracia_nao_cai():
     print(f"\nacurácia={acc:.0%} (linha de base {LINHA_DE_BASE:.0%})")
     for e in erros:
         print("  ERRO:", e)
-    assert acc &gt;= LINHA_DE_BASE, f"regressão: {acc:.0%} &lt; {LINHA_DE_BASE:.0%}"</pre>
+    assert acc &gt;= LINHA_DE_BASE, f"regressêo: {acc:.0%} &lt; {LINHA_DE_BASE:.0%}"</pre>
 <p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> run <code>pytest -q -s test_qualidade.py</code>. With the current prompt, both tests should pass and show the accuracy. Now deliberately break the prompt (change the list of labels in the instruction) and run it again: <code>test_acuracia_nao_cai</code> should fail with the message “regression.” That’s the gate working.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
@@ -869,7 +869,7 @@ def classificar(p: Pedido):
     log.info(json.dumps({"rid": rid, "versao": VERSAO, "status": status,
                          "ms": ms, "tokens": tokens, "rotulo": rotulo}))
     return {"rotulo": rotulo, "status": status, "versao": VERSAO, "request_id": rid}</pre>
-<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> run it with <code>uvicorn app:app --port 8000 2&gt;&amp;1 | tee servico.log</code>. In another terminal: <code>curl -s localhost:8000/health</code> should return the version; <code>curl -s -X POST localhost:8000/classificar -H 'Content-Type: application/json' -d '{"texto":"meu pedido não chegou"}'</code> should return <code>"rotulo":"entrega"</code>. Stop Ollama and repeat: the response should contain <code>"rotulo":"outro"</code> and an error status, without taking down the service.</p>
+<p class="px-4 py-3 border-t border-dark-600 text-xs text-neutral-400"><strong class="text-neutral-300">How to check:</strong> run it with <code>uvicorn app:app --port 8000 2&gt;&amp;1 | tee servico.log</code>. In another terminal: <code>curl -s localhost:8000/health</code> should return the version; <code>curl -s -X POST localhost:8000/classificar -H 'Content-Type: application/json' -d '{"texto":"meu pedido nêo chegou"}'</code> should return <code>"rotulo":"entrega"</code>. Stop Ollama and repeat: the response should contain <code>"rotulo":"outro"</code> and an error status, without taking down the service.</p>
 </div>
 <!-- SVG 3: canário -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
@@ -950,7 +950,7 @@ def classificar(p: Pedido):
 <h3 class="text-lg font-semibold text-blue-400 mb-3">What it is</h3>
 <p class="text-neutral-300">Continuously track whether the service is fast, available, accurate, and within budget, with alerts that notify you before the user does — and enough records to investigate each case.</p>
 </div>
-<!-- SVG 4: distribuição de latência -->
+<!-- SVG 4: distribuiçêo de latência -->
 <figure class="svg-frame rounded-2xl border border-blue-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6">
 <svg aria-label="Latency histogram of requests, with most clustered on the left and a long tail on the right; vertical lines mark the p50 median, p95, and p99, showing that the average hides slow requests." class="w-full h-auto" role="img" viewbox="0 0 900 280">
 <rect fill="url(#m28-grid)" height="280" width="900"></rect>

@@ -4,7 +4,7 @@
 - src/landing.html    -> conteúdo do <main> da landing (index.html)
 - src/trilhas/trilhaN-hero.html -> hero SVG do índice da trilha N
 - src/modulos/modulo-N-Y.html   -> <main ...>...</main> de cada módulo
-Os índices de trilha são GERADOS a partir dos módulos (título, data-sub e data-sum de cada tópico).
+Os índices de trilha sêo GERADOS a partir dos módulos (título, data-sub e data-sum de cada tópico).
 Uso: python3 scripts/build.py   (offline, sem API)"""
 import json, re, html, sys
 from pathlib import Path
@@ -162,7 +162,7 @@ def footer(landing=False):
                  ' · <a class="text-sky-400 hover:text-sky-300" href="https://www.ARCKHÉ AI/cursos/16-ftd-formacao-transformacao-digital/">Ficha do curso no ARCKHÉ AI</a></p>')
     return f"""<footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p>FTD — Formação da Transformação Digital · conteúdo aberto e gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>{extra}
+<p>FTD — Formaçêo da Transformaçêo Digital · conteúdo aberto e gratuito · 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" rel="noopener" target="_blank">ARCKHÉ AI</a> - <a class="text-amber-700 dark:text-slate-300 hover:underline" href="https://ARCKHÉ.pro" rel="noopener" target="_blank">PRO</a></p>{extra}
 </div>
 </footer>
 """
@@ -317,7 +317,7 @@ def trilha_index(t):
     if int(n) < len(C['tracks']):
         prev_next.append(f'<a class="px-5 py-3 {BTN[cor]} text-white rounded-lg font-semibold transition-colors" href="../trilha{int(n)+1}/index.html">Próxima trilha →</a>')
     main = f"""<main data-ARCKHÉ-track="{n}" id="conteudo">
-<nav aria-label="Trilha de navegação" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<nav aria-label="Trilha de navegaçêo" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
 <a class="hover:text-{cor}-400" href="../../index.html">Início</a><span>/</span>
 <span class="text-{cor}-400">Trilha {n} · {t['title']}</span>
@@ -331,7 +331,7 @@ def trilha_index(t):
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 max-w-2xl">
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-{cor}-400">{len(mods)}</div><div class="text-xs text-neutral-400">Módulos</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-{cor}-400">{len(mods) * TOPICS}</div><div class="text-xs text-neutral-400">Tópicos</div></div>
-<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-{cor}-400">~{round(total_min / 60)}h</div><div class="text-xs text-neutral-400">Duração</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-{cor}-400">~{round(total_min / 60)}h</div><div class="text-xs text-neutral-400">Duraçêo</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-{cor}-400">{t['nivel']}</div><div class="text-xs text-neutral-400">Nível</div></div>
 </div>
 <div class="flex items-center gap-3 mt-8">

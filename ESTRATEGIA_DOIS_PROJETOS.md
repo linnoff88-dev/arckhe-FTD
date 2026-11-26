@@ -1,21 +1,21 @@
 # 🎯 ESTRATÉGIA: FTD BASE + FTD PRO
 
 > **Data:** 12/11/2025
-> **Estratégia:** Duas versões para validação rápida + escala profissional
+> **Estratégia:** Duas versões para validaçêo rápida + escala profissional
 
 ---
 
-## 📋 VISÃO GERAL
+## 📋 VISêO GERAL
 
 ### Por que Dois Projetos?
 
 **Vantagens da Abordagem:**
 1. ✅ **Lançamento Rápido** - Base no ar em 1-2 semanas
-2. ✅ **Validação de Mercado** - Testar interesse antes de investir pesado
+2. ✅ **Validaçêo de Mercado** - Testar interesse antes de investir pesado
 3. ✅ **Custo Zero** - GitHub Pages é gratuito
 4. ✅ **SEO e Conteúdo** - Indexar conteúdo no Google rapidamente
 5. ✅ **Landing Page** - Base pode virar vitrine do Pro
-6. ✅ **Risco Reduzido** - Não investir R$ 60k+ antes de validar
+6. ✅ **Risco Reduzido** - Nêo investir R$ 60k+ antes de validar
 
 ---
 
@@ -32,16 +32,16 @@
 ### O que TEM no Base:
 ✅ Landing page linda (estilo FEP)
 ✅ Todos os 9 módulos em páginas HTML
-✅ Navegação entre aulas
+✅ Navegaçêo entre aulas
 ✅ Design responsivo (mobile-first)
 ✅ Progress bar (salvando no localStorage)
 ✅ Accordions para tópicos
 ✅ Downloads de PDFs/recursos
-✅ Formulário de "Quero a versão PRO" (lead capture)
+✅ Formulário de "Quero a versêo PRO" (lead capture)
 ✅ FAQ e sobre
 
-### O que NÃO TEM no Base:
-❌ Sistema de login/autenticação
+### O que NêO TEM no Base:
+❌ Sistema de login/autenticaçêo
 ❌ Vídeos hospedados (apenas embeds do YouTube/Vimeo)
 ❌ Pagamentos
 ❌ Comentários/comunidade
@@ -59,10 +59,10 @@
 - **Conteúdo:** Igual ao Base + funcionalidades premium
 - **URL:** `https://ftd.com.br` (domínio customizado)
 - **Funcionalidades:** Tudo do Base + sistema completo
-- **Objetivo:** Monetização e experiência premium
+- **Objetivo:** Monetizaçêo e experiência premium
 
 ### O que TEM no Pro (além do Base):
-✅ Autenticação completa (Supabase Auth)
+✅ Autenticaçêo completa (Supabase Auth)
 ✅ Sistema de pagamentos (Stripe)
 ✅ Vídeos protegidos (apenas alunos pagantes)
 ✅ Dashboard personalizado
@@ -95,11 +95,11 @@ Conforme PLANO_IMPLEMENTACAO.md
 ```
 Semana 1-2:   FTD BASE 🟢 (Deploy GitHub Pages)
               ↓
-              Validação de mercado (30 dias)
+              Validaçêo de mercado (30 dias)
               ↓
 Semana 3-22:  FTD PRO 🔵 (Desenvolvimento paralelo)
               ↓
-Semana 23:    Migração Base → Pro (redirecionar tráfego)
+Semana 23:    Migraçêo Base → Pro (redirecionar tráfego)
 ```
 
 ---
@@ -114,7 +114,7 @@ Semana 23:    Migração Base → Pro (redirecionar tráfego)
 
 ### FTD PRO:
 - **Desenvolvimento:** R$ 25k - R$ 35k
-- **Produção:** R$ 16k
+- **Produçêo:** R$ 16k
 - **Marketing:** R$ 18k
 - **Infraestrutura:** R$ 2.5k
 - **Total:** R$ 61.500 - R$ 71.500
@@ -124,7 +124,7 @@ Semana 23:    Migração Base → Pro (redirecionar tráfego)
 
 ---
 
-## 🎯 ESTRATÉGIA DE MIGRAÇÃO
+## 🎯 ESTRATÉGIA DE MIGRAÇêO
 
 ### Fase 1: Lançar FTD BASE
 1. Publicar conteúdo completo
@@ -132,27 +132,27 @@ Semana 23:    Migração Base → Pro (redirecionar tráfego)
 3. Capturar leads (email)
 4. Medir métricas:
    - Visitantes/dia
-   - Tempo médio de sessão
+   - Tempo médio de sessêo
    - Páginas mais acessadas
-   - Conversão email (lista de espera PRO)
+   - Conversêo email (lista de espera PRO)
 
-### Fase 2: Validação (30 dias)
+### Fase 2: Validaçêo (30 dias)
 - **Meta:** 1.000+ visitantes
 - **Meta:** 100+ emails capturados
 - **Meta:** Feedback positivo (formulário)
 
-### Fase 3: Decisão
-**SE validação positiva (100+ interessados):**
+### Fase 3: Decisêo
+**SE validaçêo positiva (100+ interessados):**
 - ✅ Iniciar desenvolvimento FTD Pro
 - ✅ Base vira landing page oficial
 - ✅ Seguir PLANO_IMPLEMENTACAO.md
 
-**SE validação negativa (< 50 interessados):**
+**SE validaçêo negativa (< 50 interessados):**
 - ❌ Revisar conteúdo/posicionamento
-- ❌ Testar outros canais de divulgação
+- ❌ Testar outros canais de divulgaçêo
 - ❌ Ajustar estratégia antes de investir
 
-### Fase 4: Transição Base → Pro
+### Fase 4: Transiçêo Base → Pro
 Quando PRO estiver pronto:
 1. Base vira landing page/preview
 2. CTAs "Fazer upgrade para PRO"
@@ -176,7 +176,7 @@ Quando PRO estiver pronto:
 │   ├── /css
 │   │   └── styles.css       # Tailwind + custom
 │   ├── /js
-│   │   ├── main.js          # Navegação, localStorage
+│   │   ├── main.js          # Navegaçêo, localStorage
 │   │   └── progress.js      # Progress tracking
 │   └── /images
 │       └── ...
@@ -200,7 +200,7 @@ Quando PRO estiver pronto:
 └── README.md
 ```
 
-**Repos Separados:** Facilita manutenção e deploy independente
+**Repos Separados:** Facilita manutençêo e deploy independente
 
 ---
 
@@ -215,7 +215,7 @@ Quando PRO estiver pronto:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FTD - Formação da Transformação Digital</title>
+  <title>FTD - Formaçêo da Transformaçêo Digital</title>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -267,7 +267,7 @@ document.getElementById('lead-form').addEventListener('submit', async (e) => {
   e.preventDefault();
   const email = document.getElementById('email').value;
 
-  // Enviar para Google Forms (ação do form)
+  // Enviar para Google Forms (açêo do form)
   // Ou usar Fetch API para backend simples
 
   alert('Obrigado! Você será notificado quando o FTD PRO for lançado.');
@@ -315,11 +315,11 @@ body {
 
 ## 🎨 PÁGINAS DO FTD BASE
 
-### Estrutura de Navegação:
+### Estrutura de Navegaçêo:
 ```
 Home (Landing)
 ├── Módulo 1.1 - Impacto da IA
-│   ├── Introdução
+│   ├── Introduçêo
 │   ├── Conceitos Básicos
 │   ├── Aplicações Práticas
 │   └── Exercícios
@@ -328,19 +328,19 @@ Home (Landing)
 ├── Módulo 1.4 - Assistentes e Agentes
 ├── Módulo 1.5 - Criatividade Visual
 ├── Módulo 1.6 - Marketing e Vendas
-├── Módulo 1.7 - Automação
+├── Módulo 1.7 - Automaçêo
 ├── Módulo 1.8 - Inteligência Avançada
 ├── Módulo 1.9 - Negócios e Oportunidades
 ├── Sobre
 ├── FAQ
-└── [CTA] Quero a Versão PRO
+└── [CTA] Quero a Versêo PRO
 ```
 
 ### Template de Página de Módulo:
 ```html
 <!-- modulo-1-1.html -->
 <nav class="sticky top-0 bg-white shadow">
-  <!-- Navegação global -->
+  <!-- Navegaçêo global -->
 </nav>
 
 <div class="max-w-7xl mx-auto px-4 py-8">
@@ -361,7 +361,7 @@ Home (Landing)
 
   <!-- Conteúdo -->
   <div class="prose max-w-none">
-    <h2>Introdução</h2>
+    <h2>Introduçêo</h2>
     <p>...</p>
 
     <!-- Vídeo Embed -->
@@ -388,7 +388,7 @@ Home (Landing)
       </ul>
     </div>
 
-    <!-- Navegação entre aulas -->
+    <!-- Navegaçêo entre aulas -->
     <div class="flex justify-between mt-8">
       <a href="/" class="btn-secondary">← Voltar ao Início</a>
       <a href="/modulos/modulo-1-2.html" class="btn-primary">Próxima Aula →</a>
@@ -400,7 +400,7 @@ Home (Landing)
     <div class="sticky top-20">
       <h3>Conteúdo do Módulo</h3>
       <ul>
-        <li class="completed">✓ Introdução</li>
+        <li class="completed">✓ Introduçêo</li>
         <li class="current">→ Conceitos Básicos</li>
         <li>Aplicações Práticas</li>
         <li>Exercícios</li>
@@ -409,7 +409,7 @@ Home (Landing)
       <!-- CTA PRO -->
       <div class="bg-gradient-to-br from-purple-50 to-white p-4 rounded-lg mt-6">
         <h4 class="font-bold">Quer Mais?</h4>
-        <p class="text-sm">Acesse certificados, comunidade e suporte na versão PRO.</p>
+        <p class="text-sm">Acesse certificados, comunidade e suporte na versêo PRO.</p>
         <button class="btn-primary w-full mt-2">
           Conhecer FTD PRO
         </button>
@@ -425,29 +425,29 @@ Home (Landing)
 
 ---
 
-## 📊 MÉTRICAS E VALIDAÇÃO
+## 📊 MÉTRICAS E VALIDAÇêO
 
 ### No FTD BASE, medir:
 - **Google Analytics:**
   - Visitantes únicos/dia
   - Páginas mais visitadas
-  - Tempo médio de sessão
-  - Taxa de rejeição
-  - Funil de navegação
+  - Tempo médio de sessêo
+  - Taxa de rejeiçêo
+  - Funil de navegaçêo
 
 - **Hotjar/Microsoft Clarity:**
   - Heatmaps de cliques
-  - Gravações de sessão
+  - Gravações de sessêo
   - Onde as pessoas abandonam
 
 - **Lead Capture:**
-  - Taxa de conversão (visitante → email)
+  - Taxa de conversêo (visitante → email)
   - Origem do tráfego (orgânico, redes sociais, etc)
 
-### Metas de Validação (30 dias):
+### Metas de Validaçêo (30 dias):
 - ✅ 1.000+ visitantes únicos
-- ✅ 100+ emails capturados (10% conversão)
-- ✅ 5+ minutos de tempo médio de sessão
+- ✅ 100+ emails capturados (10% conversêo)
+- ✅ 5+ minutos de tempo médio de sessêo
 - ✅ 50%+ das pessoas visitam 3+ páginas
 
 **SE atingir metas:** Luz verde para FTD Pro 🚀
@@ -474,9 +474,9 @@ Home (Landing)
 - Ajustar conteúdo antes do Pro
 - Identificar gaps e oportunidades
 
-### 5. **Dupla Monetização**
-- Base: Gratuito (geração de leads)
-- Pro: Pago (conversão de leads em clientes)
+### 5. **Dupla Monetizaçêo**
+- Base: Gratuito (geraçêo de leads)
+- Pro: Pago (conversêo de leads em clientes)
 
 ### 6. **Flexibilidade**
 - Se Base falhar, parar sem grandes perdas
@@ -499,12 +499,12 @@ Home (Landing)
 - [ ] Converter Módulo 1.1 para HTML
 - [ ] Converter Módulo 1.2 para HTML
 - [ ] Converter Módulo 1.3 para HTML
-- [ ] Testar navegação e responsividade
+- [ ] Testar navegaçêo e responsividade
 
 #### Dia 5: Deploy
 - [ ] Configurar GitHub Pages
 - [ ] Publicar em `username.github.io/FTD-Base`
-- [ ] Testar em produção
+- [ ] Testar em produçêo
 - [ ] Ajustar bugs
 
 #### Weekend: Conteúdo Restante
@@ -517,13 +517,13 @@ Home (Landing)
 - [ ] Polish e refinamento
 - [ ] Adicionar Google Analytics
 - [ ] Adicionar Hotjar/Clarity
-- [ ] Criar posts de divulgação
+- [ ] Criar posts de divulgaçêo
 - [ ] Lançar nas redes sociais
 - [ ] **FTD BASE LIVE** 🚀
 
 ---
 
-## 📞 DECISÃO: QUANDO INICIAR FTD PRO?
+## 📞 DECISêO: QUANDO INICIAR FTD PRO?
 
 ### Critérios de Go/No-Go:
 
@@ -536,8 +536,8 @@ Home (Landing)
 **NO-GO (Revisar estratégia):**
 - ❌ < 50 emails em 30 dias
 - ❌ Feedback negativo ou indiferente
-- ❌ Taxa de rejeição > 80%
-- ❌ Tempo de sessão < 2 minutos
+- ❌ Taxa de rejeiçêo > 80%
+- ❌ Tempo de sessêo < 2 minutos
 
 ---
 
@@ -550,7 +550,7 @@ Home (Landing)
 
 ### Benefícios:
 - ✅ Custo inicial próximo de zero
-- ✅ Validação antes de investir pesado
+- ✅ Validaçêo antes de investir pesado
 - ✅ SEO e autoridade desde o início
 - ✅ Lista de espera aquecida para o Pro
 - ✅ Flexibilidade para pivotar se necessário

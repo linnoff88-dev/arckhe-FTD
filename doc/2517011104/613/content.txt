@@ -42,7 +42,7 @@ Texto:
 **5 Automações de IA para Automatizar 90% do Seu Trabalho**
 
 
- **5 áreas de automação com IA**, com vários exemplos em cada uma:
+ **5 áreas de automaçêo com IA**, com vários exemplos em cada uma:
 
 1) **Entrada Manual de Dados**  
 🔥 Conectar e-mails ao CRM  
@@ -50,14 +50,14 @@ Texto:
 🧑‍💻 Tomador de notas em reuniões com IA  
 
 2) **Atendimento ao Cliente**  
-🧠 Criação de base de conhecimento  
+🧠 Criaçêo de base de conhecimento  
 🚨 Gerador de tom de voz  
 💬 Chatbot  
 📧 Respostas automáticas por e-mail  
 
 3) **Inteligência de Leads**  
-✅ Qualificação automática de leads  
-🧲 Imãs digitais personalizados  
+✅ Qualificaçêo automática de leads  
+🧲 Imês digitais personalizados  
 
 4) **Crescimento do Cliente**  
 📈 Publicações automáticas de RSS no LinkedIn  
