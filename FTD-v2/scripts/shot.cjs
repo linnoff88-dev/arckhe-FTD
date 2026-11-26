@@ -10,9 +10,9 @@ const [out,...pages]=process.argv.slice(2);
  const browser=await chromium.launch({headless:true});
  for(const p of pages){
   const name=p.replace(/[\/.]/g,'_');
-  for(const [tag,vp,theme] of [['desk-dark',{width:1440,height:900},'inema-dark'],['desk-light',{width:1440,height:900},'claro'],['mob-dark',{width:390,height:844},'inema-dark']]){
+  for(const [tag,vp,theme] of [['desk-dark',{width:1440,height:900},'ARCKHÉ-dark'],['desk-light',{width:1440,height:900},'claro'],['mob-dark',{width:390,height:844},'ARCKHÉ-dark']]){
    const ctx=await browser.newContext({viewport:vp});
-   await ctx.addInitScript(t=>{try{localStorage.setItem('inema.prefs',JSON.stringify({theme:t}))}catch(e){}},theme);
+   await ctx.addInitScript(t=>{try{localStorage.setItem('ARCKHÉ.prefs',JSON.stringify({theme:t}))}catch(e){}},theme);
    const page=await ctx.newPage();const errs=[];page.on('pageerror',e=>errs.push(e.message));
    await page.goto(base+p,{waitUntil:'networkidle'});await page.waitForTimeout(400);
    const ov=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);

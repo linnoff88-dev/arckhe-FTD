@@ -27,15 +27,15 @@ for(const t of C.tracks){pages.push(`curso/trilha${t.n}/index.html`);for(const m
    const lang=await page.evaluate(()=>document.documentElement.lang);
    const want=pre?pre.slice(0,2):'pt-BR';if(lang!==want)fails.push(`${p}: html lang=${lang}`);
    if(p==='index.html'){
-    const tot=await page.evaluate(()=>window.INEMA&&INEMA.progress('curso').total);
+    const tot=await page.evaluate(()=>window.ARCKHÉ&&ARCKHÉ.progress('curso').total);
     if(tot!==C.tracks.length*9*7)fails.push(`landing: total de tópicos ${tot}`);
-    await page.click('[data-inema-journey-open] >> nth=0');await page.waitForTimeout(200);
+    await page.click('[data-ARCKHÉ-journey-open] >> nth=0');await page.waitForTimeout(200);
     if(!await page.locator('[role=dialog][aria-modal=true]').first().isVisible())fails.push('jornada não abriu');
     await page.keyboard.press('Escape');
    }
    if(/modulo-/.test(p)){
-    const n=await page.locator('[data-inema-topic]').count();if(n!==7)fails.push(`${p}: ${n} tópicos`);
-    const toc=await page.locator('[data-inema-toc] a').count();if(toc!==7)fails.push(`${p}: TOC ${toc}`);
+    const n=await page.locator('[data-ARCKHÉ-topic]').count();if(n!==7)fails.push(`${p}: ${n} tópicos`);
+    const toc=await page.locator('[data-ARCKHÉ-toc] a').count();if(toc!==7)fails.push(`${p}: TOC ${toc}`);
    }
   }
   await ctx.close();
